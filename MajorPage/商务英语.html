@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>商务英语</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+商务英语</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    商务英语是以适应职场生活的语言要求为目的，内容涉及到商务活动的方方面面。商务英语课程不只是简单地对学员的英文水平、能力的提高，它更多地是向学员传授一种西方的企业管理理念、工作心理，甚至是如何和外国人打交道，如何和他们合作、工作的方式方法，以及他们的生活习惯等，从某种程度上说是包含在文化概念里的。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av18757367?from=search&seid=7589940719577369179" class="">
+								
+								<div class="mui-media-body">
+									BEC商务英语初级（57讲）2017
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av20120266?from=search&seid=7589940719577369179" class="">
+								
+								<div class="mui-media-body">
+									BEC商务英语中级（88课时）2017
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av35947028?from=search&seid=7589940719577369179" class="">
+								
+								<div class="mui-media-body">
+									【商务英语 初级入门班】（全网最全）商务英语 实战为王
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av9649188?from=search&seid=7589940719577369179" class="">
+								
+								<div class="mui-media-body">
+									【商务英语合集】Business English
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av35965744?from=search&seid=7589940719577369179" class="">
+								
+								<div class="mui-media-body">
+									【商务英语 终极提高班】（全网最全）商务英语 实战为王
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av7904122?from=search&seid=1047375417009253876" class="">
+
+    								<div class="mui-media-body">
+    									【商务英语】在会议上给出建议
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av35864330?from=search&seid=1047375417009253876" class="">
+
+    								<div class="mui-media-body">
+    									零基础英语 6个商务英语常用语
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av22698458?from=search&seid=1047375417009253876" class="">
+
+    								<div class="mui-media-body">
+    									深职院歌舞青春总决赛外语学院2017级商务英语3班
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av38380499?from=search&seid=1047375417009253876" class="">
+
+    								<div class="mui-media-body">
+    									【吉轲公开课】商务英语沟通技巧·词汇使用
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av13141035?from=search&seid=1047375417009253876" class="">
+
+    								<div class="mui-media-body">
+    									商务英语第1课：很高兴认识你
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data185256"><p>中国大学哪些本科的商务<a href="/gaokao/185317.html" target="_blank">英语专业</a>，是2018高考优秀考生报考的最佳选择呢？和小编一起来看看吧！</p><p><img alt="商务英语专业大学排名" border="0" height="370" src="http://img.gaosan.com/upload/201711/6364522955404544772364053.jpg" style="width: 600px; height: 370px;" title="商务英语专业大学排名" vspace="0" width="600"/></p><p><strong>在2018本科商务英语专业排行榜中，东北师范大学雄居排行榜榜首，</strong>想知道全部的<a href="/gaokao/185256.html" target="_blank">商务英语专业</a>排名请看下表：</p><h2><a>1</a><span>公办本科大学商务英语专业排名</span></h2><table><colgroup><col width="43"/><col width="199"/><col width="72"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>东北师范大学</td><td>4星级</td><td>吉林</td><td>1</td></tr><tr><td>2</td><td>上海对外经贸大学</td><td>4星级</td><td>上海</td><td>1</td></tr><tr><td>2</td><td>中南财经政法大学</td><td>4星级</td><td>湖北</td><td>1</td></tr><tr><td>2</td><td>四川外国语大学</td><td>4星级</td><td>重庆</td><td>1</td></tr><tr><td>2</td><td>上海外国语大学</td><td>4星级</td><td>上海</td><td>1</td></tr><tr><td>2</td><td>北京第二外国语学院</td><td>4星级</td><td>北京</td><td>1</td></tr><tr><td>2</td><td>天津外国语大学</td><td>4星级</td><td>天津</td><td>1</td></tr><tr><td>2</td><td>中山大学</td><td>4星级</td><td>广东</td><td>1</td></tr><tr><td>2</td><td>上海财经大学</td><td>4星级</td><td>上海</td><td>1</td></tr><tr><td>2</td><td>西安外国语大学</td><td>4星级</td><td>陕西</td><td>1</td></tr><tr><td>11</td><td>华南理工大学</td><td>3星级</td><td>广东</td><td>2</td></tr><tr><td>11</td><td>江西财经大学</td><td>3星级</td><td>江西</td><td>1</td></tr><tr><td>11</td><td>西南财经大学</td><td>3星级</td><td>四川</td><td>1</td></tr><tr><td>11</td><td>首都经济贸易大学</td><td>3星级</td><td>北京</td><td>2</td></tr><tr><td>11</td><td>大连理工大学</td><td>3星级</td><td>辽宁</td><td>1</td></tr><tr><td>11</td><td>广东外语外贸大学</td><td>3星级</td><td>广东</td><td>2</td></tr><tr><td>11</td><td>对外经济贸易大学</td><td>3星级</td><td>北京</td><td>2</td></tr><tr><td>11</td><td>南昌大学</td><td>3星级</td><td>江西</td><td>1</td></tr><tr><td>19</td><td>河北经贸大学</td><td>3星级</td><td>河北</td><td>1</td></tr><tr><td>19</td><td>河南农业大学</td><td>3星级</td><td>河南</td><td>1</td></tr><tr><td>19</td><td>辽宁大学</td><td>3星级</td><td>辽宁</td><td>2</td></tr><tr><td>19</td><td>山东管理学院</td><td>3星级</td><td>山东</td><td>1</td></tr><tr><td>19</td><td>哈尔滨理工大学</td><td>3星级</td><td>黑龙江</td><td>1</td></tr><tr><td>19</td><td>贵州大学</td><td>3星级</td><td>贵州</td><td>1</td></tr><tr><td>19</td><td>江西师范大学</td><td>3星级</td><td>江西</td><td>3</td></tr><tr><td>19</td><td>大连外国语大学</td><td>3星级</td><td>辽宁</td><td>2</td></tr><tr><td>19</td><td>萍乡学院</td><td>3星级</td><td>江西</td><td>3</td></tr><tr><td>19</td><td>河北师范大学</td><td>3星级</td><td>河北</td><td>1</td></tr><tr><td>19</td><td>青岛科技大学</td><td>3星级</td><td>山东</td><td>1</td></tr><tr><td>19</td><td>黑龙江大学</td><td>3星级</td><td>黑龙江</td><td>1</td></tr><tr><td>19</td><td>海南大学</td><td>3星级</td><td>海南</td><td>1</td></tr><tr><td>19</td><td>河南科技大学</td><td>3星级</td><td>河南</td><td>1</td></tr><tr><td>19</td><td>广东工业大学</td><td>3星级</td><td>广东</td><td>4</td></tr><tr><td>19</td><td>浙江工商大学</td><td>3星级</td><td>浙江</td><td>1</td></tr><tr><td>19</td><td>北京服装学院</td><td>3星级</td><td>北京</td><td>4</td></tr><tr><td>19</td><td>中南民族大学</td><td>3星级</td><td>湖北</td><td>2</td></tr><tr><td>19</td><td>东北财经大学</td><td>3星级</td><td>辽宁</td><td>2</td></tr></tbody></table><h2><a>1</a><span>民办大学商务英语专业排名</span></h2><table><colgroup><col width="43"/><col width="199"/><col width="72"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>山东协和学院</td><td>5星级</td><td>山东</td><td>1</td></tr><tr><td>1</td><td>浙江越秀外国语学院</td><td>5星级</td><td>浙江</td><td>1</td></tr><tr><td>1</td><td>吉林华桥外国语学院</td><td>5星级</td><td>吉林</td><td>1</td></tr><tr><td>1</td><td>黑龙江外国语学院</td><td>5星级</td><td>黑龙江</td><td>1</td></tr><tr><td>5</td><td>西安翻译学院</td><td>4星级</td><td>陕西</td><td>1</td></tr><tr><td>5</td><td>武汉学院</td><td>4星级</td><td>湖北</td><td>1</td></tr><tr><td>5</td><td>安徽新华学院</td><td>4星级</td><td>安徽</td><td>1</td></tr><tr><td>5</td><td>山东英才学院</td><td>4星级</td><td>山东</td><td>2</td></tr><tr><td>5</td><td>河北外国语学院</td><td>4星级</td><td>河北</td><td>1</td></tr><tr><td>10</td><td>上海建桥学院</td><td>3星级</td><td>上海</td><td>1</td></tr><tr><td>10</td><td>广东培正学院</td><td>3星级</td><td>广东</td><td>1</td></tr><tr><td>10</td><td>广州工商学院</td><td>3星级</td><td>广东</td><td>1</td></tr><tr><td>10</td><td>江西应用科技学院</td><td>3星级</td><td>江西</td><td>1</td></tr><tr><td>10</td><td>安徽外国语学院</td><td>3星级</td><td>安徽</td><td>2</td></tr><tr><td>10</td><td>郑州工商学院</td><td>3星级</td><td>河南</td><td>1</td></tr></tbody></table><h2><a>1</a><span>独立学院商务英语专业排名</span></h2><table><colgroup><col width="43"/><col width="199"/><col width="72"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>广东外语外贸大学南国商学院</td><td>5星级</td><td>广东</td><td>1</td></tr><tr><td>2</td><td>上海财经大学浙江学院</td><td>4星级</td><td>浙江</td><td>1</td></tr><tr><td>2</td><td>云南师范大学商学院</td><td>4星级</td><td>云南</td><td>1</td></tr><tr><td>2</td><td>浙江大学城市学院</td><td>4星级</td><td>浙江</td><td>1</td></tr><tr><td>2</td><td>天津外国语大学滨海外事学院</td><td>4星级</td><td>天津</td><td>1</td></tr><tr><td>6</td><td>中国地质大学长城学院</td><td>3星级</td><td>河北</td><td>1</td></tr><tr><td>7</td><td>华南农业大学珠江学院</td><td>3星级</td><td>广东</td><td>2</td></tr><tr><td>7</td><td>吉林师范大学博达学院</td><td>3星级</td><td>吉林</td><td>1</td></tr><tr><td>7</td><td>重庆工商大学派斯学院</td><td>3星级</td><td>重庆</td><td>1</td></tr><tr><td>7</td><td>重庆师范大学涉外商贸学院</td><td>3星级</td><td>重庆</td><td>1</td></tr><tr><td>7</td><td>长江大学文理学院</td><td>3星级</td><td>湖北</td><td>1</td></tr><tr><td>7</td><td>福州大学至诚学院</td><td>3星级</td><td>福建</td><td>1</td></tr><tr><td>7</td><td>阜阳师范学院信息工程学院</td><td>3星级</td><td>安徽</td><td>1</td></tr><tr><td>7</td><td>广西师范大学漓江学院</td><td>3星级</td><td>广西</td><td>1</td></tr><tr><td>7</td><td>江汉大学文理学院</td><td>3星级</td><td>湖北</td><td>1</td></tr><tr><td>7</td><td>聊城大学东昌学院</td><td>3星级</td><td>山东</td><td>1</td></tr><tr><td>7</td><td>山西师范大学现代文理学院</td><td>3星级</td><td>山西</td><td>1</td></tr><tr><td>7</td><td>天津大学仁爱学院</td><td>3星级</td><td>天津</td><td>2</td></tr><tr><td>7</td><td>桂林电子科技大学信息科技学院</td><td>3星级</td><td>广西</td><td>1</td></tr><tr><td>7</td><td>衡阳师范学院南岳学院</td><td>3星级</td><td>湖南</td><td>1</td></tr><tr><td>7</td><td>湖南商学院北津学院</td><td>3星级</td><td>湖南</td><td>1</td></tr><tr><td>7</td><td>贵州财经大学商务学院</td><td>3星级</td><td>贵州</td><td>1</td></tr><tr><td>7</td><td>四川外国语大学成都学院</td><td>3星级</td><td>四川</td><td>1</td></tr><tr><td>7</td><td>兰州财经大学长青学院</td><td>3星级</td><td>甘肃</td><td>1</td></tr></tbody></table><h2><a>1</a><span>商务英语专业介绍</span></h2><p></p><p><img alt="商务英语专业" src="http://img.gaosan.com/upload/zhuanye/1/702.jpg"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>外国语言文学类</td><td>￥7016<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过61%的专业</span></td><td>上海市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">14%在上海市工作</span></td><td>女生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男18%-女82%</span></td></tr></tbody></table><p>培养目标：培养具有较强的运用英语进行商务贸易、商务谈判和企业管理的综合能力，适应现代各类经贸活动要求的高级技术应用性专门人才。</p><p>核心课程：外贸英语（精读、听力、口语、泛读）、剑桥商务英语、外贸应用文与函电、英美概况、国际商法、国际贸易实务、经贸英语翻译、经贸英语写作、外刊经贸知识选读、社会调查、商务英语实习等，以及各校的主要特色课程和实践环节。</p><p>就业方向：本专业方向掌握商务英语专业所必需的基础理论知识和专业知识，具备较强的英语应用技能及商业运作能力，能从事商务管理与项目策划工作的高等应用型人才。该专业学生毕业后掌握商务运作的知识与技能，能熟练运用英语和计算机从事国际商务及秘书工作。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

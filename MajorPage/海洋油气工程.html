@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>海洋油气工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+海洋油气工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    本专业为2011年新增本科专业。 专业代码：080111S，修业年限：四年，学位授予门类：工学。培养目标 本专业培养德、智、体、美全面发展的，具备工程流体力学、石油化学、油气储运工程等方面基本理论、基本知识和基本技能，获得进行科学研究的初步训练，能从事油气储运工程的规划、勘查设计、施工项目管理和研究、石油产品应用、数质量管理和营销等工作的高级工程技术人才。学生还接受识图制图、上机操作、工程测量、工程预概算、油气质量检验等实践的基本训练，具有油气储运系统的规划、设计与运行管理的能力。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av32997757?from=search&seid=9547658795788787186" class="">
+								
+								<div class="mui-media-body">
+									油气生产技术Drilling Animation
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av32994386?from=search&seid=9547658795788787186" class="">
+								
+								<div class="mui-media-body">
+									油气生产技术
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av18999244?from=search&seid=9547658795788787186" class="">
+								
+								<div class="mui-media-body">
+									克拉玛依的油气世界
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av42344203?from=search&seid=9547658795788787186" class="">
+								
+								<div class="mui-media-body">
+									塔中油气开发部2019年“迎新春”主题晚会
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av44515713?from=search&seid=9547658795788787186" class="">
+								
+								<div class="mui-media-body">
+									中国石油大学 油气田开发地质学 全38讲 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av34771167?from=search&seid=2825052766450794558" class="">
+
+    								<div class="mui-media-body">
+    									安装世界最大半潜起重船Heerema Sleipnir的2台一万吨吊机
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av8809302?from=search&seid=2825052766450794558" class="">
+
+    								<div class="mui-media-body">
+    									中国首个功能最完善的海上移动式试采平台交付
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av36809644?from=search&seid=8485478674497593912" class="">
+
+    								<div class="mui-media-body">
+    									中国国家地理大讲堂——中国的海洋地貌与油气资源
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av6651998?from=search&seid=8485478674497593912" class="">
+
+    								<div class="mui-media-body">
+    									美国墨西哥湾漏油事故原因模拟视频
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av20226493?from=search&seid=8485478674497593912" class="">
+
+    								<div class="mui-media-body">
+    									我的油皮小姐妹都用啥彩妆护肤品//作为干皮的我也是很好奇了(略长 可自行加速)
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data139452"><p><img alt="24.jpg" src="http://img.gaosan.com/upload/201606/6360081111564368158579551.jpg" title="24.jpg"/></p><p>专业特色：一是在专业人才培养目标定位上主要面向石油石化销售行业和炼化行业、城市燃气行业、石油和天然气仓储行业，在专业课程设置上既结合石油和天然气储运方面的特点，又突出成品油储运与营销方面的办学优势;二是紧密结合油气储运工程建设的特点，注重油气储运工程建设管理人才与储运管理人才的培养。</p><p>就业方向：海洋油气工程专业以海洋钻井、海洋采油工艺为主要学习内容。除要求具备一般的油气开采理论与技术外，以海洋特殊环境条件、特殊工作平台为背景，培养专业面较宽、外语突出的、掌握海洋钻井、海洋采油工艺理论与技术的复合型人才，以适应我国海洋石油工业的发展需要。学生毕业以后，主要从事面向国家与省、市发展计划部门、交通运输规划部门与设计部门、石油石化企业与城市燃气企业等从事油气储运工程的规划、勘查设计、施工项目管理和研究、油品应用、石油营销及管理等工作。</p><h2><a>1</a><span>2018最新海洋油气工程专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>中国石油大学(华东)</td><td>5★</td><td>8</td></tr><tr><td>2</td><td>中国石油大学(北京)</td><td>4★</td><td>8</td></tr><tr><td>3</td><td>西南石油大学</td><td>3★</td><td>8</td></tr><tr><td>4</td><td>西安石油大学</td><td>3★</td><td>8</td></tr></tbody></table><h2><a>1</a><span>海洋油气工程专业排名大学介绍</span></h2><p>中国石油大学(华东)是教育部直属全国重点大学，是国家“211工程”和“985工程优势学科创新平台”高校，是高水平行业特色大学优质资源共享联盟成员高校，是“卓越工程师教育培养计划”、“111计划”、“国家建设高水平大学公派研究生项目”、千人计划重点建设的行业特色型大学入选高校之一。</p><p><img alt="1403317093_2d5b0c220c983e42d5f9ee3aeff406a3_meitu_1.jpg" src="http://img.gaosan.com/upload/201605/6359916451265607244831889.jpg" title="1403317093_2d5b0c220c983e42d5f9ee3aeff406a3_meitu_1.jpg"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1953年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><p>中国石油大学（北京）坐落在风景秀丽的北京市昌平区军都山南麓，校园总面积496.5亩。学校是一所石油特色鲜明、以工为主、多学科协调发展的教育部直属的全国重点大学，1997年，学校首批进入国家“211工程”建设高校行列。校现有在校全日制本科生7714人、硕士研究生5538人、博士研究生1142人、留学生800余人（含语言生），在校生总数15000余人。</p><p><img alt="中国石油大学(北京) 主楼" src="http://img.gaosan.com/upload/webimg/1677.jpg" title="中国石油大学(北京) 主楼"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1953年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><p>西南石油大学是新中国创建的第二所石油本科院校，是一所中央与地方共建、以四川省人民政府管理为主的高等学校。2013年，学校入选“国家中西部高校基础能力建设工程”，成为入选该工程的100所高校之一。为了加快开发四川石油天然气资源，也为西南协作区发展石油天然气工业培养技术干部，国家决定成立第二所石油高校，校址就设在川中石油会战指挥部所在地川北重镇南充市。</p><p><img alt="西南石油大学校门" src="http://img.gaosan.com/upload/webimg/1780.jpg" title="西南石油大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1958年</td><td>公立</td><td>综合</td><td>四川省人民政府</td></tr></tbody></table><p>西安石油大学是西北地区惟一一所以石油石化为特色的多科性普通高等学校，是陕西省人民政府和中国三大石油公司共建院校、陕西省“十二五”期间高水平大学建设工程入选院校。2000年，由中国石油天然气集团公司所属划转为中央与地方共建、以陕西省为主管。2003年，更名为西安石油大学。</p><p><img alt="西安石油大学校门" src="http://img.gaosan.com/upload/webimg/1934.jpg" title="西安石油大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1951年</td><td>公立</td><td>工科</td><td>陕西省人民政府</td></tr></tbody></table><p>　　以上2018年海洋油气工程专业大学排名海洋油气工程专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>中国画</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+中国画</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    中国画，简称“国画”。是我国传统造型艺术之一。从美术史的角度讲，民国前的都统称为古画。国画在古代无确定名称，一般称之为丹青，在世界美术领域中自成体系。中国画在内容和艺术创作上，体现了古人对自然、社会及与之相关联的政治、哲学、宗教、道德、文艺等方面的认识。主要是用毛笔、软笔或手指，用国画颜色和墨在帛或宣纸上作画的一种中国传统的绘画形式，是琴棋书画四艺之一。 </h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av22470300?from=search&seid=9145797699030842767" class="">
+								
+								<div class="mui-media-body">
+									【公开课】中国画欣赏（6讲全）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av29615987?from=search&seid=9145797699030842767" class="">
+								
+								<div class="mui-media-body">
+									KINDNESS-中国画颜料学
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av21897466?from=search&seid=9145797699030842767" class="">
+								
+								<div class="mui-media-body">
+									第二十一期 中国画颜色学
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av12543183?from=search&seid=9145797699030842767" class="">
+								
+								<div class="mui-media-body">
+									1华东师范大学 中国画鉴赏要义 全6讲 主讲-孙乃树 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av23587762?from=search&seid=9145797699030842767" class="">
+								
+								<div class="mui-media-body">
+									华东师范大学 中国画鉴赏要义 全6讲 主讲-孙乃树 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av3988936?from=search&seid=12046445623179067765" class="">
+
+    								<div class="mui-media-body">
+    									《老师好》第五期：徐锦江教你如何欣赏中国画（一念）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av35587104?from=search&seid=12046445623179067765" class="">
+
+    								<div class="mui-media-body">
+    									30年美术教书匠教你学画中国画，2分钟一幅山水画，原来国画这么简单
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av12125043?from=search&seid=12046445623179067765" class="">
+
+    								<div class="mui-media-body">
+    									把中国画带到街头，这个男生的freestyle帅呆了
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av8871465?from=search&seid=12046445623179067765" class="">
+
+    								<div class="mui-media-body">
+    									一位温柔的漂亮阿姨，带你领略中国画的美
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av42176893?from=search&seid=12046445623179067765" class="">
+
+    								<div class="mui-media-body">
+    									【乡音的呼唤】桐庐县：中国画城，潇洒桐庐【城市形象宣传片】
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data185015"><p>中国大学哪些本科的中国画专业，是2018高考优秀考生报考的最佳选择呢？和小编一起来看看吧！</p><p><img alt="中国画专业大学排名" border="0" height="350" src="http://img.gaosan.com/upload/201711/6364515349902906415749295.png" style="width: 600px; height: 350px;" title="中国画专业大学排名" vspace="0" width="600"/></p><p><strong>在2018本科中国画专业排行榜中，中央美术学院雄居排行榜榜首，西安美术学院、清华大学紧随其后，并列第二名。</strong>想知道全部的中国画专业排名请看下表：</p><h2><a>1</a><span>公办本科大学中国画专业排名</span></h2><table><colgroup><col width="50"/><col width="146"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>中央美术学院</td><td>6星级</td><td>北京</td><td>1</td></tr><tr><td>2</td><td>西安美术学院</td><td>5星级</td><td>陕西</td><td>1</td></tr><tr><td>2</td><td>清华大学</td><td>5星级</td><td>北京</td><td>2</td></tr><tr><td>4</td><td>四川美术学院</td><td>4星级</td><td>重庆</td><td>1</td></tr><tr><td>4</td><td>广州美术学院</td><td>4星级</td><td>广东</td><td>1</td></tr><tr><td>4</td><td>鲁迅美术学院</td><td>4星级</td><td>辽宁</td><td>1</td></tr><tr><td>4</td><td>天津美术学院</td><td>4星级</td><td>天津</td><td>1</td></tr><tr><td>8</td><td>中国美术学院</td><td>3星级</td><td>浙江</td><td>1</td></tr><tr><td>9</td><td>湖北美术学院</td><td>3星级</td><td>湖北</td><td>1</td></tr><tr><td>9</td><td>南京艺术学院</td><td>3星级</td><td>江苏</td><td>1</td></tr><tr><td>9</td><td>云南艺术学院</td><td>3星级</td><td>云南</td><td>1</td></tr><tr><td>9</td><td>广西艺术学院</td><td>3星级</td><td>广西</td><td>1</td></tr><tr><td>9</td><td>中央民族大学</td><td>3星级</td><td>北京</td><td>3</td></tr><tr><td>9</td><td>哈尔滨师范大学</td><td>3星级</td><td>黑龙江</td><td>1</td></tr><tr><td>9</td><td>沈阳师范大学</td><td>3星级</td><td>辽宁</td><td>2</td></tr><tr><td>9</td><td>四川大学</td><td>3星级</td><td>四川</td><td>1</td></tr></tbody></table><h2><a>1</a><span>独立学院中国画专业排名</span></h2><table><colgroup><col width="50"/><col width="146"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>西安交通大学城市学院</td><td>3星级</td><td>陕西</td><td>1</td></tr></tbody></table><h2><a>1</a><span>中国画专业介绍</span></h2><p></p><p><img alt="09erfc.jpg" src="http://img.gaosan.com/upload/201607/6360487675760280313073310.jpg" title="09erfc.jpg"/></p><p>培养目标:该专业要培养德、智、体、美全面发展，具有高度美学鉴赏能力及传承传统文化能力的社会主义接班人。既有传统文化基础、传统艺术的修养，具有很高品格的审美精神和造型能力，能在文化艺术部门、学校及有关单位从事中国画人物、山水、花鸟、书法篆刻的创作、教学、研究和其它美术工作的、具有较强适应能力的德才兼备的高级专门人才。</p><p>就业方向:毕业生适宜在美术创作部门从事国画创作工作，在各级美术院校从事教学工作，各级艺术馆、文化馆(站)、从事美术创作或美术普及工作，在出版社和报刊杂志社从事美术编辑工作，也可在有关部门、厂矿企业从事有关宣传工作。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

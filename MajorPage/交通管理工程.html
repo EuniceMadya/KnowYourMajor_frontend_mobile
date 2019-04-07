@@ -1,0 +1,174 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>交通管理工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+交通管理工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    交通管理工程专业培养能在公安交通部门从事道路交通管理工程实际工作以及本专业教学与科研工作的德才兼备的高级专门人才。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av8649124?from=search&seid=12266142804497482914" class="">
+								
+								<div class="mui-media-body">
+									【票圈】【工程技术】【共6集】《民航概论—空中交通管理》中国民航大学公开课&amp;微博@票圈
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av11715580?from=search&seid=12266142804497482914" class="">
+								
+								<div class="mui-media-body">
+									西南交通大学 土木工程经济与项目管理 全92讲 主讲-李远富 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av20695840?from=search&seid=6274545471365455662" class="">
+
+    								<div class="mui-media-body">
+    									浙江警察学院六大队宣传
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av26207451?from=search&seid=6274545471365455662" class="">
+
+    								<div class="mui-media-body">
+    									苏州建设交通高等职业技术学校 工程管理系 2018感恩相遇青春不散14届毕业晚会
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av14258902?from=search&seid=6274545471365455662" class="">
+
+    								<div class="mui-media-body">
+    									2017年西南交大土木园区招新啦~
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av46928316?from=search&seid=6274545471365455662" class="">
+
+    								<div class="mui-media-body">
+    									北京交通大学的企业管理怎么样？（20管理学考研资料qq群726853149)
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av39215480?from=search&seid=4360510826373659156" class="">
+
+    								<div class="mui-media-body">
+    									【原创历史剧】《与妻书》
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data212072"><p>交通管理工程专业最好的大学有哪几所，中国哪些本科大学交通管理工程专业实力最强？下面是全国最好的交通管理工程专业大学排名，欢迎阅读。<br/></p><p><img alt="2018中国交通管理工程专业大学排名" border="0" height="375" src="http://img.gaosan.com/upload/201805/6366294470419397997227817.jpg" style="width: 600px; height: 375px;" title="2018中国交通管理工程专业大学排名" vspace="0" width="600"/></p><h2><a>1</a><span>全国交通管理工程专业高校排行榜</span></h2><p>在最新公布的2018年交通管理工程专业大学排名中，排名第一的是<a href="/gaokao/175022.html" target="_blank">中国人民公安大学</a>，湖南警察学院排名第二，浙江警察学院排名第三。</p><table width="-64"><tbody><tr class="firstRow"><td style="word-break: break-all;"><center>排名</center></td><td><center>高校名称</center></td><td style="word-break: break-all;"><center>开此专业学校数</center></td></tr><tr><td>1</td><td style="word-break: break-all;">中国人民公安大学</td><td>16</td></tr><tr><td>2</td><td style="word-break: break-all;">湖南警察学院</td><td>16</td></tr><tr><td>3</td><td style="word-break: break-all;">浙江警察学院</td><td>16</td></tr><tr><td>4</td><td>河南警察学院</td><td>16</td></tr><tr><td>5</td><td>四川警察学院</td><td>16</td></tr><tr><td>6</td><td>江西警察学院</td><td>16</td></tr><tr><td>7</td><td>云南警官学院</td><td>16</td></tr><tr><td>8</td><td>北京警察学院</td><td>16</td></tr></tbody></table><p>注：以上交通管理工程专业最好大学排名数据比较权威，可信度较高。</p><h2><a>1</a><span>交通管理工程专业介绍</span></h2><p>交通管理工程专业培养德智体美全面发展的、熟悉道路交通管理法律法规及相关方针政策，具有扎实的公安技术学、公安学、法学、交通运输学基本理论素养、专业基础理论知识和基本技能，能在党政机关特别是政法部门从事交通秩序管理、交通安全宣传、车辆与驾驶人管理、交通事故处理、事故鉴定等工作的应用型专业人才。</p><p>主要课程：公安交通管理概论、机动车构造、机动车原理、交通工程学、交通心理学、道路交通事故学、交通违法行为处理、交通组织与指挥、道路交通控制、道路交通管理规划、交通管理设施、交通肇事逃逸案件侦查、道路与交通管理设施、交通系统工程、道路交通安全法规、道路交通管理学、道路交通安全工程、交通管理信息系统、交通事故现场勘查、交通秩序管理、道路交通事故处理与预防、智能交通系统、交通事故鉴定技术、交通事故再现等。</p><p>以上是高三网小编整理的关于全国交通管理工程专业的大学排名数据，仅供参考，大家在报考时可以根据自己的分数选择相应的交通管理工程专业院校。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

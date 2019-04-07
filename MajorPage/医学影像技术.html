@@ -1,0 +1,196 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>医学影像技术</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+医学影像技术</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    医学影像技术是医学专业名。我国之所以在06年出台政策，把同一专业分成两种不同的学年制去施教，目的是想与西方某些发达国家接轨。培养四年制的学生，为的就是这种学生将来可以专门从事技术方面的工作的，而培养五年制的就是将来从事诊断治疗工作的。我们不能否定国家这个做法，因为时代的趋势确实是需要把各方面的人才分开，而去专攻某个专业，社会才能不断进步。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av12202429?from=search&seid=5360081255640922164" class="">
+								
+								<div class="mui-media-body">
+									《磁共振成像技术指南——检查规范、临床策略及新技术应用》 杨正汉主编 GE名家讲坛 共17段视频
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av22244229?from=search&seid=5360081255640922164" class="">
+								
+								<div class="mui-media-body">
+									医学图像处理技术 上海交大
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av32772485?from=search&seid=5360081255640922164" class="">
+								
+								<div class="mui-media-body">
+									【E类-医学技术类】2019年2018年事业单位考试联考统考视频课程课件教程综合应用能力E类职业能力内蒙古甘肃云南安徽陕西湖北贵州广西青海省宁夏兰州中公华图粉笔
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av32655171?from=search&seid=5360081255640922164" class="">
+								
+								<div class="mui-media-body">
+									2019年2018年重庆市事业单位考试视频课程课件教程医疗类卫生公共基础知识综合基础知识西医临床中医护理护士医学技术药剂公共卫生管理医学基础知识影像检验预防西药
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av25845439?from=search&seid=7721520992758211704" class="">
+
+    								<div class="mui-media-body">
+    									你好 影像——华西临床 医学影像技术2014级毕业视频
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10471397?from=search&seid=7721520992758211704" class="">
+
+    								<div class="mui-media-body">
+    									对黄河科技学院医学影像技术专业你知道多少？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10285150?from=search&seid=7721520992758211704" class="">
+
+    								<div class="mui-media-body">
+    									黄河科技学院医学影像技术专业怎么样？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av11780341?from=search&seid=7721520992758211704" class="">
+
+    								<div class="mui-media-body">
+    									2013级医学影像技术班留念
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av9983740?from=search&seid=7721520992758211704" class="">
+
+    								<div class="mui-media-body">
+    									要做PET/CT，总觉得医院在坑你钱，看完你就知道为什么那么贵了
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data140758"><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-14/8337ca42-fd08-4da4-83e1-1ec10734ce35.jpg" title="医学影像技术专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>医学技术类</td><td>￥6642<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过51%的专业</span></td><td>上海市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">48%在上海市工作</span></td><td>男生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男73%-女27%</span></td></tr></tbody></table><p>培养目标：培养适应社会主义现代化建设和经济社会发展需要的德、智、体、美全面发展，基础扎实、知识面宽、能力强、素质高，具有创新精神，掌握医学科学的基本理论知识，具备从事医学影像技术与放射技术工作的高级专门人才。</p><p>主要课程：大学英语、人体解剖学、生理学、病理学、内科学、外科学、诊断学、儿科学、医学成像技术、医学影像设备学、断层解剖学、影像物理学、医学影像诊断学、电子学基础等必修课，以及医学文献检索、人际沟通技巧、医学伦理学、医学心理学、医学信息学、医学写作等选修课。</p><p>就业方向：本专业毕业生可在各级医疗卫生机构及医疗器械的生产或经营单位从事医学影像技术及放射技术工作，如：上海交通大学医学院附属仁济医院、上海儿童医学中心影像科、上海第二军医大学附属长海医院放射科、解放军411医院放射科、上海联影医疗设备有限公司、上海西门子医疗器械有限公司等。</p><h2><a>1</a><span>2018最新医学影像技术专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>四川大学</td><td>5★</td><td>51</td></tr><tr><td>2</td><td>重庆医科大学</td><td>5★</td><td>51</td></tr><tr><td>3</td><td>中国医科大学</td><td>4★</td><td>51</td></tr><tr><td>4</td><td>天津医科大学</td><td>4★</td><td>51</td></tr><tr><td>5</td><td>川北医学院</td><td>4★</td><td>51</td></tr></tbody></table><h2><a>1</a><span>医学影像技术专业排名大学介绍</span></h2><p>四川大学是教育部直属全国重点大学，是布局在中国西部、“985工程”和“211工程”重点建设的高水平研究型综合大学。学校现任党委书记杨泉明教授、校长谢和平院士。</p><p><img alt="四川大学校门" src="http://img.gaosan.com/upload/webimg/1645.jpg" title="四川大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1896年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>重庆医科大学创建于1956年，由上海第一医学院分迁来渝组建而成，原名重庆医学院，1985年更名为重庆医科大学。学校是国务院学位委员会批准的首批具有博士和硕士学位授予权的单位。学校由位于渝中区的袁家岗校区和位于重庆大学城的缙云校区组成，校园总面积2650余亩。其中，缙云校区占地2000余亩，校园环境优美，风景如画。</p><p><img alt="重庆医科大学校门" src="http://img.gaosan.com/upload/webimg/1748.jpg" title="重庆医科大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1956年</td><td>公立</td><td>医药</td><td>重庆市教育委员会</td></tr></tbody></table><p>中国医科大学的前身为中国工农红军军医学校，1931年11月，经中央军委批准创建于中华苏维埃共和国临时中央政府诞生地——江西瑞金，是中国共产党创办的第一所医学院校，中央军委总军医处处长贺诚兼任校长,中国医科大学建校至今，共培养了9万多名高级医学专门人才，毕业生遍布全国各地及许多国家和地区，培养和造就了一大批国家卫生管理的高级领导干部和著名医学专家。</p><p><img alt="16032616262414741726.jpg" src="http://img.gaosan.com/upload/201607/6360375277978217422515982.jpg" title="16032616262414741726.jpg"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1951年</td><td>公立</td><td>财经语言</td><td>教育部</td></tr></tbody></table><p>天津医科大学的前身天津医学院创建于1951年，是新中国成立后原国家政务院批准建立的高等医学院校。著名内分泌学家、医学教育家朱宪彝教授为首任校长。学校为国家“211工程”重点建设院校，2015年获准天津市人民政府、国家卫生计生委、教育部共建高校。<br/></p><p><img alt="天津医科大学校门" src="http://img.gaosan.com/upload/webimg/1743.jpg" title="天津医科大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1951年</td><td>公立</td><td>医药</td><td>天津市教育委员会</td></tr></tbody></table><p>川北医学院坐落在四川省历史文化名城、三国文化发祥地——南充市。2006年获得硕士学位授予权。现已成为全国首批“卓越医生教育培养计划”试点建设高校、卫生部腹腔镜手术普外培训基地和四川省医学影像学、临床医学本科人才培养基地。</p><p><img alt="川北医学院校门" src="http://img.gaosan.com/upload/webimg/2146.jpg" title="川北医学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1951年</td><td>公立</td><td>医药</td><td>四川省教育厅</td></tr></tbody></table><p>　　以上2018年医学影像技术专业大学排名医学影像技术专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

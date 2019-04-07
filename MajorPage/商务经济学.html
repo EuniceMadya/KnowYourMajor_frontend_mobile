@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>商务经济学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+商务经济学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    商务经济方向的本科课程为学生提供结合经济和商务方面的学习和实践课程。学生有机会更好的理解现实社会的商务现象和做出切合实际的商务决定。由本学院优秀的全职和兼职老师为学生生动的授课和传授经验。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av47149462?from=search&seid=7328494800371762740" class="">
+								
+								<div class="mui-media-body">
+									【商务信息管理】农业经济学硕士讲义  主讲-孙中才【全72讲】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av40255187?from=search&seid=7328494800371762740" class="">
+								
+								<div class="mui-media-body">
+									434国际商务1  跨考教育经济学
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av40577530?from=search&seid=7328494800371762740" class="">
+								
+								<div class="mui-media-body">
+									434国际商务3—跨考教育经济学
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av40439169?from=search&seid=7328494800371762740" class="">
+								
+								<div class="mui-media-body">
+									434国际商务2—跨考教育经济学
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av42553452?from=search&seid=7328494800371762740" class="">
+								
+								<div class="mui-media-body">
+									434国际商务5—跨考教育经济学
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av42739274?from=search&seid=5451168260288897805" class="">
+
+    								<div class="mui-media-body">
+    									广外 国际商务 国商 克鲁格曼 国际经济学 讲解五 胡啊蓉 广东外语外贸大学
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av36405761?from=search&seid=5451168260288897805" class="">
+
+    								<div class="mui-media-body">
+    									33老师带你考研之经济学
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10309642?from=search&seid=5451168260288897805" class="">
+
+    								<div class="mui-media-body">
+    									厦门大学国际商务专业，你知道多少？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24212524?from=search&seid=5451168260288897805" class="">
+
+    								<div class="mui-media-body">
+    									国际商务英语教程语音版-龙饮西湖-电子书下载
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av25769811?from=search&seid=5451168260288897805" class="">
+
+    								<div class="mui-media-body">
+    									跟随新疆小姐姐在华中科技大学经济学院当学霸
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data141501"><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-12/dac4703c-645c-4f94-bc9e-6be1bfa72e75.jpg" title="商务经济学专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>经济学类</td><td>￥8734<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过91%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">43%在北京市工作</span></td><td>男女均衡<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男50%-女50%</span></td></tr></tbody></table><p>培养目标：本专业方向培养具备经济、贸易、文化、传播、法律、管理等方面的基础知识，掌握当代国际文化贸易的现状和发展趋势，熟悉通行的国际文化贸易规则、惯例以及中国对外文化贸易的政策法规，了解文化产业的发展特点和运行机制的专门人才。</p><p>主要课程：(泰国简介、英语I、商务数学、统计I、人类，环境和科学、逻辑学概要)、(财务会计原理、英语II、微积分I、统计II、微电子应用、经济理论、商务入门)、(管理会计原理、英语III、信息技术、信息技术、世界文明史、营销原理)、(英语IV、道德规范、电脑调研、宏观经济学原理经济、社会.政府、管理学原理、管理心理学）、(中级微观经济学、数理经济学、货币银行学、公共金融学、商务调研方法、一门商务必修课)、(中级宏观经济学、经济计量学基础、国际贸易、管理经济学、两门商务必修课)、(国际宏观经济学、战略经济学、一门商务必修课、一门商务任选课、两门主修任选经济类课程)</p><p>就业方向：商务<a href="/gaokao/184616.html" target="_blank">经济学专业</a>学生毕业后可可以到国家经济部门或私人贸易公司工作的机会，可以选择以下几个方面职业：经济预测和计划；财务分析/财务机构的信贷分析；市场调查员和分析员；保险证券分析员；经理顾问；工业经济学家；效益分析员；在国际机构或组织工作，如世界银行，亚洲开发银行。商务经济学专业就业岗位如数据分析师、商务助理、招商专员、招商经理、融资租赁业务经理、市场营销总监、投资经理、储备干部、商务经理、管理培训生、业务经理、商务代表等。</p><h2><a>1</a><span>2018最新商务经济学专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>兰州财经大学</td><td>5★</td><td>5</td></tr><tr><td>2</td><td>重庆第二师范学院</td><td>4★</td><td>5</td></tr><tr><td>3</td><td>上海商学院</td><td>3★</td><td>5</td></tr></tbody></table><h2><a>1</a><span>商务经济学专业排名大学介绍</span></h2><p>兰州财经大学始建于1952年。2015年更名为兰州财经大学，是黄河上游甘青宁三省（区）唯一一所财经类普通高等学校。学校现有和平、段家滩两个校区，占地面积1700余亩，校舍建筑面积68万平方米，教学科研仪器设备总值7400余万元，图书馆现有各类图书245万册、数字资源7490GB。学校面向全国招生，现有全日制在校本科生近1.8万人，硕士研究生1000余人，继续教育学员5400余人。</p><p><img alt="兰州财经大学校门" src="http://img.gaosan.com/upload/webimg/2032.jpg" title="兰州财经大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1952年</td><td>公立</td><td>财经</td><td>甘肃省人民政府</td></tr></tbody></table><p>重庆第二师范学院是一所公办普通本科学校。学校现有南山、学府大道两个校区，现设有教师教育学院（教师教学发展中心）、学前教育学院（重庆学前教育学院）、继续教育学院和数学与信息工程系、旅游与服务管理系等10个二级教学单位；现有本科专业19个，涉及教育学、文学、理学、工学、经济学、管理学、艺术学等7个学科门类。</p><p><img alt="重庆第二师范学院校门" src="http://img.gaosan.com/upload/webimg/2240.jpg" title="重庆第二师范学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1954年</td><td>公立</td><td>师范</td><td>重庆市教育委员会</td></tr></tbody></table><p>上海商学院是市属公办本科普通高校，前身为1950年建校的中央税务学校华东分校。学校现有在校生10000余名，开设25个本科专业。2014年，毕业生就业率在连续13年保持95%以上的基础上突破98%。学校聚焦商业（商务）开展理论与实务研究，瞄准新兴就业市场更新人才培养计划，透析国内外商业环境提升商业服务能级，努力构建应用性教学型大学。</p><p><img alt="上海商学院 北大门" src="http://img.gaosan.com/upload/webimg/2181.jpg" title="上海商学院 北大门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1950年</td><td>公立</td><td>财经</td><td>上海市教育委员会</td></tr></tbody></table><p>　　以上2018年商务经济学专业大学排名商务经济学专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

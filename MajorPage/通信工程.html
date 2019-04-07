@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>通信工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+通信工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    通信工程（也作电信工程，旧称远距离通信工程、弱电工程）是电子工程的一个重要分支，电子信息类子专业，同时也是其中一个基础学科。该学科关注的是通信过程中的信息传输和信号处理的原理和应用。本专业学习通信技术、通信系统和通信网等方面的知识，能在通信领域中从事研究、设计、制造、运营及在国民经济各部门和国防工业中从事开发、应用通信技术与设备。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    该学科是信息科学技术发展迅速并极具活力的一个领域，尤其是数字移动通信、光纤通信、Internet网络通信使人们在传递信息和获得信息方面达到了前所未有的便捷程度。 通信工程具有极广阔的发展前景，也是人才严重短缺的专业之一。本专业学习通信技术、通信系统和通信网等方面的知识，能在通信领域中从事研究、设计、制造、运营及在国民经济各部门和国防工业中从事开发、应用通信技术与设备。通信工程研究的是以电磁波、声波或光波的形式把信息通过电脉冲，从发送端（信源）传输到一个或多个接受端（信宿）。接受端能否正确辨认信息，取决于传输中的损耗高低。信号处理是通信工程中一个重要环节，其包括过滤，编码和解码等。毕业后可从事无线通信、电视、大规模集成电路、智能仪器及应用电子技术领域的研究，设计和通信工程的研究、设计、技术引进和技术开发工作。 </h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av45507738?from=search&seid=1934755067752893481" class="">
+								
+								<div class="mui-media-body">
+									北京理工大学882电子与通信工程考研资料
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av41031990?from=search&seid=1934755067752893481" class="">
+								
+								<div class="mui-media-body">
+									大学 通信工程 考研题分析 期末题
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av30785438?from=search&seid=1934755067752893481" class="">
+								
+								<div class="mui-media-body">
+									计算机、信息与通信工程、电气工程考研导学班，工科该如何备考
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av45532600?from=search&seid=1934755067752893481" class="">
+								
+								<div class="mui-media-body">
+									电子与通信工程       考前冲刺串讲&amp;北京理工大学
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av44448783?from=search&seid=1934755067752893481" class="">
+								
+								<div class="mui-media-body">
+									清华大学828信号与系统考研真题答案与详解网学天地通信工程电子系
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av16319673?from=search&seid=3947513073452962131" class="">
+
+    								<div class="mui-media-body">
+    									小周老师说考研——通信工程考研院校推荐
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10449649?from=search&seid=3947513073452962131" class="">
+
+    								<div class="mui-media-body">
+    									北京交通大学通信工程专业怎么样？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av43973149?from=search&seid=3947513073452962131" class="">
+
+    								<div class="mui-media-body">
+    									【生僻字改编】通信工程版生僻字
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10454748?from=search&seid=3947513073452962131" class="">
+
+    								<div class="mui-media-body">
+    									在北京交通大学读通信工程专业是什么体验？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av39495559?from=search&seid=3947513073452962131" class="">
+
+    								<div class="mui-media-body">
+    									中业教育一级建造师通信工程基带传输和频分复用
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data139279"><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-06/69f0096a-bbd9-427e-86cb-695c7bfe56b6.jpg" title="通信工程专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>电子信息类</td><td>￥7191<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过68%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">15%在北京市工作</span></td><td>男生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男70%-女30%</span></td></tr></tbody></table><p>培养目标：本专业培养具备通信技术、通信系统和通信网等方面的知识，能在通信领域中从事研究、设计、制造、运营及在国民经济各部门和国防工业中从事开发、应用通信技术与设备的高级工程技术人才。</p><p>主要课程：电路理论与应用的系列课程、计算机技术系列课程、信号与系统、电磁场理论、数字系统与逻辑设计、数字信号处理、通信原理等。</p><p>就业方向：前几年通信行业处在春天，研发领域提供了很多高薪职位，即使是今天，像华为、中兴、ut斯达康等知名企业的研发岗位的待遇还是非常有竞争力的。但这样的公司和岗位相对我们每年不断增加的本专业毕业生来说，太少了。</p><h2><a>1</a><span>2018最新通信工程专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>西安电子科技大学</td><td>5★</td><td>429</td></tr><tr><td>2</td><td>北京邮电大学</td><td>5★</td><td>429</td></tr><tr><td>3</td><td>电子科技大学</td><td>5★</td><td>429</td></tr><tr><td>4</td><td>北京交通大学</td><td>5★</td><td>429</td></tr><tr><td>5</td><td>南京邮电大学</td><td>5★</td><td>429</td></tr></tbody></table><h2><a>1</a><span>通信工程专业排名大学介绍</span></h2><p>西安电子科技大学是以信息与电子学科为主，工、理、管、文多学科协调发展的全国重点大学，是国家“优势学科创新平台”项目和“211工程”项目重点建设高校之一、首批35所示范性软件学院。学校前身是1931年诞生于江西瑞金的中央军委无线电学校，是毛泽东等老一辈革命家亲手创建的第一所工程技术学校。1958年学校迁址西安，1966年转为地方建制，1988年定为现名。</p><p><img alt="西安电子科技大学校门" src="http://img.gaosan.com/upload/webimg/1689.jpg" title="西安电子科技大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1931年</td><td>公立</td><td>理工</td><td>教育部直属、工信部共建</td></tr></tbody></table><p>北京邮电大学是教育部直属、工业和信息化部共建、首批进行“211工程”建设的全国重点大学，是“985优势学科创新平台”项目重点建设高校，是我国信息科技人才的重要培养基地。学校现有西土城路校区、沙河校区、宏福校区和延庆世纪学院校区，在江苏无锡和广东深圳分别设有研究院。全日制本、硕、博学生及留学生近30000名，网络教育在籍学生约50000名。</p><p><img alt="北京邮电大学 学校大门" src="http://img.gaosan.com/upload/webimg/1693.jpg" title="北京邮电大学 学校大门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1955年</td><td>公立</td><td>理工</td><td>教育部直属、工信部共建</td></tr></tbody></table><p>电子科技大学是教育部直属、国家“985工程”“211工程”重点建设大学。1961年被中共中央确定为七所国防工业院校之一，1988年更名为电子科技大学，1997年被确定为国家首批“211工程”建设的重点大学，2000年由原信息产业部主管划转为教育部主管，2001年进入国家“985工程”重点建设大学行列。</p><p><img alt="电子科技大学校门" src="http://img.gaosan.com/upload/webimg/1664.jpg" title="电子科技大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1956年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><p>北京交通大学是教育部直属，教育部、中国铁路总公司、北京市人民政府共建的全国重点大学。我校牵头的“2011计划”“轨道交通安全协同创新中心”是国家首批14个认定的协同创新中心之一。学校连续3年入围“QS金砖五国大学排名”前100名，6个学科先后进入QS世界大学学科排名前400强。</p><p><img alt="北京交通大学 学校大门" src="http://img.gaosan.com/upload/webimg/1669.jpg" title="北京交通大学 学校大门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1896年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><p>南京邮电大学具有光荣的传统，为新中国的建立和建设发展做出了卓越的贡献。2013年10月，根据教育部和江苏省人民政府文件，原南京人口管理干部学院正式并入南京邮电大学。学校以信息学科为特色，理、工、经、管、文、教、艺、法等多学科相互交融，博士、硕士、本科等多层次教育协调发展的高校。学校坐落于历史文化名城南京，现有仙林、三牌楼、锁金村、江宁四个校区。</p><p><img alt="南京邮电大学校门" src="http://img.gaosan.com/upload/webimg/1807.jpg" title="南京邮电大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1942年</td><td>公立</td><td>工科</td><td>江苏省人民政府、工信部</td></tr></tbody></table><p>　　以上2018年<a href="/gaokao/184193.html" target="_blank">通信工程专业</a>大学排名通信工程专业排行榜由高三网收集整理，更多专业排名请查看大学专业开设高校排名栏目</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

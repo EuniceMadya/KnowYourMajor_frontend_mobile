@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>女性学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+女性学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    女性学，是一门研究女性相关主题的科际整合，它一般包括了女性主义理论、女性史、女性健康、女性文化以及其他包括社会学、人类学、政治学、新闻学等社会科学，以及艺术、哲学等人文学科中与女性相关的研究课题。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    女性学，源于第二波妇女运动诞生的women's studies，既是妇女运动的延续，又是一场在知识生产和传播、培养系统中的运动和革命。 </h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    上世纪80年代末妇女研究传到中国，其有“女性学”、“妇女学”、“妇女研究”、“妇女与社会性别学”等不同名谓。不同名谓下的运作也很复杂，有的标明以“妇女”作为研究对象；有的声称为“性别研究”；有的宣称是将性别作为一种“视角”；有的是将妇女与社会性别学作为跨学科与多学科的新兴学科……不一而足。 </h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av39784904?from=search&seid=13399633407032284806" class="">
+								
+								<div class="mui-media-body">
+									朴西生日趴激情吐槽《知否知否》，女孩们千万不要学剧中女性！ | 20190102直播录屏
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av31999103?from=search&seid=13399633407032284806" class="">
+								
+								<div class="mui-media-body">
+									【公开课】女性学：女性精神在现代社会中的挑战（完）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av31613735?from=search&seid=13399633407032284806" class="">
+								
+								<div class="mui-media-body">
+									【涨姿势】想学本子之必会的女性人体？女性人体教学第一弹
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av1957856?from=search&seid=13399633407032284806" class="">
+								
+								<div class="mui-media-body">
+									简单粗暴女性人体基础课CG绘画教程插画教学【莫那插画】学画可爱的妹子
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av21240768?from=search&seid=13399633407032284806" class="">
+								
+								<div class="mui-media-body">
+									【初耳学】180325 林先生が認めた日本人女性 【生肉】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av45678585?from=search&seid=3077458511177000927" class="">
+
+    								<div class="mui-media-body">
+    									女性比男性更适合学《易经》，你知道为什么吗？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av29023570?from=search&seid=3077458511177000927" class="">
+
+    								<div class="mui-media-body">
+    									【中英双字】[油管转载-EmmaWatson]在线学英语-艾玛演讲谈论女性维权
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av18745301?from=search&seid=3077458511177000927" class="">
+
+    								<div class="mui-media-body">
+    									K歌小课堂 学唱女性励志歌曲《try》，你本来就很美！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av40291003?from=search&seid=3077458511177000927" class="">
+
+    								<div class="mui-media-body">
+    									白丝是在弱化女性？黑丝是不好的效仿榜样？浅谈丝袜那些事【宅学】
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av21400425?from=search&seid=3077458511177000927" class="">
+
+    								<div class="mui-media-body">
+    									{优雅仪态}贴面礼教学
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data141744"><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-11/6fa4b5b9-a51b-4749-87ad-4e0370de2843.jpg" title="女性学专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>社会学类</td><td>未知<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">样本不足，无法分析</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">58%在北京市工作</span></td><td>女生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男0%-女100%</span></td></tr></tbody></table><p>培养目标：培养致力于女性学科和专业建设，服务于妇女发展，促进两性平等。女性学本科专业建设，定位于培养德、智、体、美、劳全面发展，能从事妇女发展、性别与政策分析、女性学教学与管理等相关工作的复合型专业人才。</p><p>主要课程：社会学概论、社会政策与制度分析、社会科学研究方法、法学概论、管理学和行政管理学、教育学概论、社会心理学、女性学理论、女性史、女性心理学、女性与健康、女性领导学、性别与发展、妇女与NGO组织等。</p><p>就业方向：女性学专业毕业生主要在党政机关、群团组织、企事业单位、民间组织、国际组织、社区和大专院校等部门，从事妇女工作、性别与发展的研究与实际推动、性别与政策分析、性别与文化传播、女性学教学工作。同时，考研和进一步出国深造，将来加入国际妇女学的研究队伍也是毕业生的选择之一。</p><h2><a>1</a><span>2018最新女性学专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>中华女子学院</td><td>5★</td><td>2</td></tr><tr><td>2</td><td>湖南女子学院</td><td>4★</td><td>2</td></tr></tbody></table><h2><a>1</a><span>女性学专业排名大学介绍</span></h2><p>中华女子学院地处首都北京，是直属中华全国妇女联合会、教育部批准备案的全国第一所公办全日制本科女子普通高等学校。学校前身是1949年由宋庆龄、何香凝、蔡畅、邓颖超、康克清等老一辈妇女革命家创建的新中国妇女职业学校。六十五年来，学校几经跨越式发展，1995年更名为中华女子学院，2002年正式转制为普通高等学校。</p><p><img alt="中华女子学院 大门" src="http://img.gaosan.com/upload/webimg/2166.jpg" title="中华女子学院 大门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1949年</td><td>公立</td><td>语言</td><td>中华全国妇女联合会</td></tr></tbody></table><p>湖南女子学院的前身是成立于1985年的湖南女子职业大学，2010年3月18日经教育部批准升格为全日制普通本科院校。学校是新中国成立后第一所公办全日制女子普通高校。学校现有教师600余人，其中教授、副教授等高级专业技术职务人员239人，博士、硕士375人。</p><p><img alt="湖南女子学院校门" src="http://img.gaosan.com/upload/webimg/2265.jpg" title="湖南女子学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1985年</td><td>公立</td><td>语言</td><td>湖南省教育厅</td></tr></tbody></table><p>　　以上2018年女性学专业大学排名女性学专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

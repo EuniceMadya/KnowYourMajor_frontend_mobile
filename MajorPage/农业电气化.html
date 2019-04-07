@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>农业电气化</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+农业电气化</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    农业电气化是指农业中广泛使用电力。农业现代化的重要组成部分，主要包括：(1) 以电力作为农业机械化的动力资源；(2) 采用电器装置进行增温、加热、冷却、照明等；(3) 把电子设备 (如电子计算机) 用于生产管理。电气化生产具有效率高、费用低廉、机动灵活和稳定可靠等优点，是农业机械化、自动化、工厂化和管理现代化的物质技术基础。农业电气化是农业生产力发展到一定水平的标志。农业电气化的过程在20世纪40年代进展很快，在70年代，电子技术大量运用于农业生产经营管理之后，便进入了一个崭新的阶段。 </h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av14319911?from=search&seid=15265404968137642749" class="">
+								
+								<div class="mui-media-body">
+									【CCTV纪录片】第一犁（农业纪录片） 3集全
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av38272427?from=search&seid=15265404968137642749" class="">
+								
+								<div class="mui-media-body">
+									农业经济学【85集】(李秉龙：中国农业大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av45905758?from=search&seid=15265404968137642749" class="">
+								
+								<div class="mui-media-body">
+									【以色列】以色列的沙漠农业科技含量相当高，值得我们学习，以色列农业视频合集
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av47149462?from=search&seid=15265404968137642749" class="">
+								
+								<div class="mui-media-body">
+									【商务信息管理】农业经济学硕士讲义  主讲-孙中才【全72讲】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av43813859?from=search&seid=15265404968137642749" class="">
+								
+								<div class="mui-media-body">
+									自給自足一人農業合集(213日起至第11年(2018年)春天)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av34360242?from=search&seid=3839221181842432149" class="">
+
+    								<div class="mui-media-body">
+    									高度发达的美国现代化农业，一人务农，全村光荣!
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av28581114?from=search&seid=3839221181842432149" class="">
+
+    								<div class="mui-media-body">
+    									我国各省区市农业总产值排名,看看到底谁才是农业大省！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av13784103?from=search&seid=3839221181842432149" class="">
+
+    								<div class="mui-media-body">
+    									【我的国112】农药还能飞着喷？种田界大佬告诉你啥是农业黑科技
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av28410401?from=search&seid=3839221181842432149" class="">
+
+    								<div class="mui-media-body">
+    									我国各地区的农业龙头企业，看看你家乡的农业龙头企业是谁？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av14351126?from=search&seid=3839221181842432149" class="">
+
+    								<div class="mui-media-body">
+    									令人无法置信的农业重型设备
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data139921"><p><img alt="24.jpg" src="http://img.gaosan.com/upload/201606/6360082071708603544448531.jpg" title="24.jpg"/></p><p>培养要求：该专业学生主要学习电力、电子与控制工程方面的基本理论，电子计算机应用技术和企业经营管理方面的基本知识，受到电力与自动化工程规划设计、科研开发及实验调试方面的基本训练，具有农村(地方)电力系统及农用电气工程和自动化技术有关的工程设计、科研开发及实验调试方面的基本能力。</p><p>发展前景：我国的农业电气化的水平还比较低，农业电气化是农业机械化和自动化的重要技术基础。农业电气化的范畴遍及农业各个部门的所有生产过程和绝大部分环节，以及居民生活的各个方向。到目前为止，几乎所有的发达国家的农场和农庄都已实现了电气化，但我国的农业电气化的水平还比较低，各地区发展也不平衡。因此，农业，电气化专业的学生在农村和农业中拥有广阔的施展才能的空间。随着经济的发展，农村在照相、广播、电话、电影、电视等方面取得了巨大的进展，城市中使用的各种家用电器也在农村居民中逐步得到推广应用，进一步推动了农业的电气化和自动化的水平，前景广阔。</p><h2><a>1</a><span>2017最新农业电气化专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>江苏大学</td><td>5★</td><td>18</td></tr><tr><td>2</td><td>南京农业大学</td><td>4★</td><td>18</td></tr><tr><td>3</td><td>沈阳农业大学</td><td>4★</td><td>18</td></tr><tr><td>4</td><td>河北农业大学</td><td>3★</td><td>18</td></tr><tr><td>5</td><td>黑龙江八一农垦大学</td><td>3★</td><td>18</td></tr></tbody></table><h2><a>1</a><span>农业电气化专业排名大学介绍</span></h2><p>江苏大学是2001年8月经教育部批准，由原江苏理工大学、镇江医学院、镇江师范专科学校合并组建。学校学科门类齐全，涵盖工学、理学、医学、管理学、经济学、法学、文学、<a href="/gaokao/184680.html" target="_blank">历史学</a>、教育学、艺术学等10大学科门类。设有24个学院，87个本科专业；学校博士学位授权点涵盖13个一级学科；硕士学位授权点涵盖42个一级学科，有10个硕士专业学位类别，26个工程硕士授权领域。</p><p><img alt="江苏大学校门" src="http://img.gaosan.com/upload/webimg/1740.jpg" title="江苏大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1902年</td><td>公立</td><td>综合</td><td>江苏省人民政府</td></tr></tbody></table><p>南京农业大学坐落于钟灵毓秀、虎踞龙蟠的古都南京，是一所以农业和生命科学为优势和特色，农、理、经、管、工、文、法学多学科协调发展的教育部直属全国重点大学，是国家“211工程”重点建设大学和“985优势学科创新平台”高校之一。现任党委书记左惟教授，校长周光宏教授。</p><p><img alt="南京农业大学校门" src="http://img.gaosan.com/upload/webimg/1670.jpg" title="南京农业大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1902年</td><td>公立</td><td>农林</td><td>教育部</td></tr></tbody></table><p>沈阳农业大学是一所地方与中央共建的全国重点大学。现任党委书记迟维意，校长刘广林。学校坐落在沈抚同城连接带中心区域天柱山南麓，东与世界文化遗产清福陵毗邻，南与沈水浑河相望，占地面积10246亩。校园环境幽雅，风景秀丽，人文气息浓厚，教学、科研条件优越。</p><p><img alt="沈阳农业大学校门" src="http://img.gaosan.com/upload/webimg/1778.jpg" title="沈阳农业大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1906年</td><td>公立</td><td>其他</td><td>辽宁省教育厅</td></tr></tbody></table><p>河北农业大学创建于1902年（清光绪28年），是我国最早实施高等农业教育的院校，河北省建立最早的高等院校，河北省人民政府与教育部、农业部、国家林业局共建的河北省重点骨干大学。是教育部“卓越工程师教育培养计划”实施高校，教育部、农业部、国家林业局首批“卓越农林人才教育培养计划”实施高校。</p><p><img alt="河北农业大学校门" src="http://img.gaosan.com/upload/webimg/1777.jpg" title="河北农业大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1902年</td><td>公立</td><td>综合</td><td>河北省教育厅农业部</td></tr></tbody></table><p>黑龙江八一农垦大学是黑龙江省属全日制普通高校，由王震将军于1958年主持创建并亲任校长。学校拥有一支实力较强、结构合理的师资队伍。现有教职工1434人，其中专任教师865人，教授162人、副教授259人，具有博士学位教师279人、具有硕士学位教师526人，教师博士化率达到32.3%、国际化率达到11.3%。</p><p><img alt="黑龙江八一农垦大学校门" src="http://img.gaosan.com/upload/webimg/1924.jpg" title="黑龙江八一农垦大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1958年</td><td>公立</td><td>农林</td><td>黑龙江省人民政府</td></tr></tbody></table><p>　　以上2017年农业电气化专业大学排名农业电气化专业排行榜由高三网收集整理，更多专业排名请查看<a href="http://www.gaosan.com/zhuanyepaiming/">大学专业开设高校排名</a>栏目</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

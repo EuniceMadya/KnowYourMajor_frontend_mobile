@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>城市地下空间工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+城市地下空间工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    城市地下空间工程专业是根据我国城市发展的趋势和当前城市地下工程人才匮乏的实际情况而设立的新专业，主要培养具有坚实的数学、力学等自然科学基础和人文社会科学基础，掌握城市地下工程勘察、规划、工程材料、结构分析与设计、机械基础及工程机械、电工技术、工程测量、施工组织和工程概预算、工程监理等方面的基本技术和知识，具备从事城市地下空间工程的规划、设计、研究、开发利用、施工和管理能力，具有较强的计算机应用能力和较高的外语水平的高级技术人才。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av8645126?from=search&seid=16609732083799125820" class="">
+								
+								<div class="mui-media-body">
+									【票圈】【工程技术】【共6集】《城市发展导论》中国人民大学公开课&amp;微博@票圈
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av45180900?from=search&seid=16609732083799125820" class="">
+								
+								<div class="mui-media-body">
+									【央视 1080P+高清】中国城轨【5集纪录片】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av3836132?from=search&seid=16609732083799125820" class="">
+								
+								<div class="mui-media-body">
+									发电厂烟囱【探索频道：爆破专家EP11】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av14744732?from=search&seid=16609732083799125820" class="">
+								
+								<div class="mui-media-body">
+									【约吗】魔都新玩法：漫步上海45公里滨江新岸线（全五区）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av3771141?from=search&seid=16609732083799125820" class="">
+								
+								<div class="mui-media-body">
+									自由纪念桥【探索频道：爆破专家EP09】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av7742366?from=search&seid=14563390772154816140" class="">
+
+    								<div class="mui-media-body">
+    									西建大土木学院元旦晚会手影舞（地下1601）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av31982484?from=search&seid=14563390772154816140" class="">
+
+    								<div class="mui-media-body">
+    									北欧最大图书馆的地下自动停车系统——来自丹麦奥胡斯市DOKK1城市媒体空间
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av31243264?from=search&seid=14563390772154816140" class="">
+
+    								<div class="mui-media-body">
+    									郑州市中心城区地下综合管廊建设工程施工动画视频
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av30850022?from=search&seid=14563390772154816140" class="">
+
+    								<div class="mui-media-body">
+    									中建八局地下综合管廊滑移体系全过程高清施工动画视频演示
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av44045983?from=search&seid=1959032200421285300" class="">
+
+    								<div class="mui-media-body">
+    									21世纪是“地下空间”的世纪
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data139372"><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-09/d885a86e-4748-4d17-87fd-9ce0d44b4f8f.jpg" title="城市地下空间工程专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>土木类</td><td>￥9048<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过94%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">13%在北京市工作</span></td><td>男生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男71%-女29%</span></td></tr></tbody></table><p>培养目标：培养具有坚实的数学、力学等自然科学和人文社会科学基础，掌握城市地下工程勘察、规划、工程材料、结构分析与设计、电工技术、工程测量、施工组织和工程概预算、工程监理等方面的基本技术和知识，具备从事城市地下空间工程的规划、设计、研究、开发利用、施工和管理能力，具有较强的计算机应用能力和较高的外语水平的高级专门人才。</p><p>主要课程：理论力学、材料力学、结构力学、弹性力学、流体力学、岩石力学、土力学与基础工程、混凝土结构、钢结构、工程制图、建筑材料、工程地质、工程测量、房屋建筑学、施工组织与概预算、通风与空调、经济学基础、有限单元法、城市地下规划与设计、城市地下空间开发利用、地下工程结构、地下结构可靠性、地铁与轻轨、隧道工程、地下管网、工程项目管理等。</p><p>就业方向：城市地下空间工程专业毕业生可从事城市地下铁道、地下隧道与管线、基础工程、地下商业与工业空间、地下储库等工程的设计、研究、施工、教育、管理、投资、开发等部门从事技术或管理工作。</p><h2><a>1</a><span>2018最新城市地下空间工程专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>哈尔滨工业大学</td><td>5★</td><td>50</td></tr><tr><td>2</td><td>山东大学</td><td>5★</td><td>50</td></tr><tr><td>3</td><td>南京工业大学</td><td>4★</td><td>50</td></tr><tr><td>4</td><td>中南大学</td><td>4★</td><td>50</td></tr><tr><td>5</td><td>东南大学</td><td>4★</td><td>50</td></tr></tbody></table><h2><a>1</a><span>城市地下空间工程专业排名大学介绍</span></h2><p>哈尔滨工业大学隶属于工业和信息化部，是首批进入国家“211工程”和“985工程”建设的若干所大学之一。2000年，同根同源的哈尔滨工业大学、哈尔滨建筑大学合并组建新的哈尔滨工业大学。如今，学校已经发展成为一所以理工为主，理、工、管、文、经、法等多学科协调发展的国家重点大学。</p><p><img alt="哈尔滨工业大学校门" src="http://img.gaosan.com/upload/webimg/1658.jpg" title="哈尔滨工业大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1920年</td><td>公立</td><td>综合</td><td>工信部</td></tr></tbody></table><p>山东大学是国家“211工程”和“985工程”重点建设的高水平大学之一。山东大学是中国近代高等教育的起源性大学。其医学学科起源于1864年，为近代中国高等教育历史之最。其主体是1901年创办的山东大学堂，是继京师大学堂之后中国创办的第二所国立大学，也是中国第一所按章程办学的大学。</p><p><img alt="山东大学校门" src="http://img.gaosan.com/upload/webimg/1651.jpg" title="山东大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1901年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>南京工业大学具有百年办学历史，是国家首批入选“高等学校创新能力提升计划（2011计划）”的14所高校之一，是江苏省重点建设高校，江苏省综合改革试点高校，江苏省人才强校试点高校，教育部首批卓越工程师培养计划试点和专业学位研究生教育综合改革试点高校。目前,各类学生3万余人。教职工2800余人。</p><p><img alt="南京工业大学 学校大门夜景" src="http://img.gaosan.com/upload/webimg/1732.jpg" title="南京工业大学 学校大门夜景"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1902年</td><td>公立</td><td>理工</td><td>江苏省人民政府</td></tr></tbody></table><p><a href="/gaokao/169008.html" target="_blank">中南大学</a>坐落在中国历史文化名城──湖南省长沙市，占地面积5886亩，建筑面积276万平方米。中南大学是教育部直属全国重点大学、国家“211工程”首批重点建设高校、国家“985工程”部省重点共建高水平大学和国家“2011计划”首批牵头高校。现任校党委书记高文兵、校长张尧学。</p><p><img alt="中南大学校门" src="http://img.gaosan.com/upload/webimg/1653.jpg" title="中南大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>2000年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>东南大学是中央直管、教育部直属的全国重点大学，是“985工程”和“211工程”重点建设的大学之一。学校坐落于历史文化名城南京，占地面积5888亩，建有四牌楼、九龙湖、丁家桥等校区。1988年5月，学校复更名为东南大学，校庆日为每年6月6日。2000年4月，原东南大学、南京铁道医学院、南京交通高等专科学校合并，南京地质学校并入，组建了新的东南大学。</p><p><img alt="东南大学校门" src="http://img.gaosan.com/upload/webimg/1632.jpg" title="东南大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1902年</td><td>公立</td><td>综合</td><td>中国教育部</td></tr></tbody></table><p>　　以上2018年城市地下空间工程专业大学排名城市地下空间工程专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

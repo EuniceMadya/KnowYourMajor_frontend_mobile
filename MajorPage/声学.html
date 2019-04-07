@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>声学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+声学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    声学是指研究声波的产生、传播、接收和效应的科学。声学是物理学中最早深入研究的分支学科之一，随着19 世纪无线电技术的发明和应用，声波的产生、传输、接收和测量技术都有了飞跃发展，此声学从古老的经典声学进人了近代声学的发展时期。近代声学的渗透性极强，声学与许多其他学科(如物理、化学、材料、生命、地学、环境等)、工程技术(如机械、建筑、电子、通讯等)及艺术领域相交叉，在这些领域发挥了重要又独特的作用，并进一步发展了相应的理论和技术，从而逐步形成为独立的声学分支，如物理声学、非线性声学、量子声学、分子声学、超声学、光声学、电声学、建筑声学、环境声学、语言声学、生物声学、水声学、大气声学、地声学、生理声学、心理声学、音乐声学及声化学等，所以声学已不仅仅是一门科学,也是一门技术，同时又是一门艺术。 </h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av11802896?from=search&seid=10978099504989981650" class="">
+								
+								<div class="mui-media-body">
+									厦门大学 声学基础 全31讲 主讲-许肖梅 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av21529662?from=search&seid=10978099504989981650" class="">
+								
+								<div class="mui-media-body">
+									理论声学 张海澜 中国科学院 全86讲
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av41703510?from=search&seid=10978099504989981650" class="">
+								
+								<div class="mui-media-body">
+									【科普】音乐的各种声音（中文字幕全，附声学小实验）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av19705920?from=search&seid=10978099504989981650" class="">
+								
+								<div class="mui-media-body">
+									【基础科学】厦门大学 声学基础  【主讲-许肖梅】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av44774575?from=search&seid=10978099504989981650" class="">
+								
+								<div class="mui-media-body">
+									声学基础【31集】(许肖梅：厦门大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av25788501?from=search&seid=8321005941728807074" class="">
+
+    								<div class="mui-media-body">
+    									房间声学处理效果示范
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av16279974?from=search&seid=8321005941728807074" class="">
+
+    								<div class="mui-media-body">
+    									Álvaro Soler - El Mismo Sol 现场声学版本-中西字幕
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av34176112?from=search&seid=8321005941728807074" class="">
+
+    								<div class="mui-media-body">
+    									录音棚的秘密：声学对录音有多重要
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av8394292?from=search&seid=8321005941728807074" class="">
+
+    								<div class="mui-media-body">
+    									玩音响的都知道这只鸟！小鸟声学：K1客厅影院套装
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av32135949?from=search&seid=8321005941728807074" class="">
+
+    								<div class="mui-media-body">
+    									九拍有约 鼓玩 第65期 房间的声学处理－低成本自制吸音板
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data184674"><p>中国大学哪些本科的声学专业专业，是2018高考优秀考生报考的最佳选择呢？艾瑞深中国校友会网最新公布的2018本科专业排行榜中就有你想知道的答案，和小编一起来看看吧！</p><p><img alt="声学专业专业大学排名" border="0" height="370" src="http://img.gaosan.com/upload/201710/6364507668226334266358527.jpg" style="width: 600px; height: 370px;" title="声学专业专业大学排名" vspace="0" width="600"/></p><p><strong>在2018本科声学专业专业排行榜中，南京大学雄居排行榜榜首，中国计量大学、安徽建筑大学紧随其后，并列第二名。</strong>想知道全部的声学专业专业排名请看下表：</p><h2><a>1</a><span>公办本科大学声学专业专业排名</span></h2><table><colgroup><col width="43"/><col width="217"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>南京大学</td><td>5星级</td><td>江苏</td><td>1</td></tr><tr><td>2</td><td>中国计量大学</td><td>3星级</td><td>浙江</td><td>1</td></tr><tr><td>2</td><td>安徽建筑大学</td><td>3星级</td><td>安徽</td><td>1</td></tr></tbody></table><h2><a>1</a><span>声学专业专业介绍</span></h2><p>_声学专业专业_</p><h2><a>1</a><span>南京大学<br/></span></h2><p></p><p>南京大学坐落于钟灵毓秀、虎踞龙蟠的金陵古都，是一所历史悠久、声誉卓著的百年名校。其前身是创建于1902年的三江师范学堂，此后历经两江师范学堂、南京高等师范学校、国立东南大学、第四中山大学、国立中央大学、国立南京大学等历史时期，于1950年更名为南京大学。在一个多世纪的办学历程中，南京大学及其前身与时代同呼吸、与民族共命运，谋国家之强盛、求科学之进步，为国家的富强和民族的振兴做出了重要的贡献。尤其是改革开放以来，作为教育部直属的重点综合性大学，南京大学又在崭新的历史机遇中焕发出新的生机，在教学、科研和社会服务等各个领域保持良好的发展态势，各项办学指标和综合实力均位居全国高校前列。。</p><p><img alt="南京大学 学校大门" src="http://img.gaosan.com/upload/webimg/1635.jpg" title="南京大学 学校大门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1902年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>中国计量大学</span></h2><p></p><p>中国计量大学是我国质量监督检验检疫行业唯一的本科院校，是一所计量、标准、质量和检验检疫特色鲜明、多学科协调发展的普通高校。学校现有专任教师1257人，其中具有副高以上职称教师675人，具有研究生学位教师占92.5%。学校面向全国31个省、市、自治区招生，在11个省份被列入第一批次招生，生源质量优良;近五年毕业生平均就业率97.59%，排名省属高校前列。</p><p><img alt="2222.jpg" src="http://img.gaosan.com/upload/201701/6361913339461147428976691.jpg" title="2222.jpg"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1978年</td><td>公立</td><td>工科</td><td>省属普通高校</td></tr></tbody></table><h2><a>1</a><span>安徽建筑大学</span></h2><p></p><p>安徽建筑大学是安徽省唯一一所以土建类学科专业为特色的多科性本科高校，始建于1958年，坐落在安徽省合肥市。现有教职工1200人，其中专任教师900余人。专任教师中具有副高级以上专业技术职称460人、硕士及以上学位教师800人，博士生导师12人，硕士生导师200余人。拥有国家级教学名师1人、省级教学名师8人，国家级教学团队1个，省级学术和技术带头人12人。</p><p><img alt="安徽建筑大学 学校大门" src="http://img.gaosan.com/upload/webimg/1995.jpg" title="安徽建筑大学 学校大门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1958年</td><td>公立</td><td>工科</td><td>安徽省教育厅</td></tr></tbody></table><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>信息安全</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+信息安全</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    信息安全主要包括以下五方面的内容，即需保证信息的保密性、真实性、完整性、未授权拷贝和所寄生系统的安全性。信息安全本身包括的范围很大，其中包括如何防范商业企业机密泄露、防范青少年对不良信息的浏览、个人信息的泄露等。网络环境下的信息安全体系是保证信息安全的关键，包括计算机安全操作系统、各种安全协议、安全机制（数字签名、消息认证、数据加密等），直至安全系统，如UniNAC、DLP等，只要存在安全漏洞便可以威胁全局安全。信息安全是指信息系统（包括硬件、软件、数据、人、物理环境及其基础设施）受到保护，不受偶然的或者恶意的原因而遭到破坏、更改、泄露，系统连续可靠正常地运行，信息服务不中断，最终实现业务连续性。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    信息安全学科可分为狭义安全与广义安全两个层次，狭义的安全是建立在以密码论为基础的计算机安全领域，早期中国信息安全专业通常以此为基准，辅以计算机技术、通信网络技术与编程等方面的内容；广义的信息安全是一门综合性学科，从传统的计算机安全到信息安全，不但是名称的变更也是对安全发展的延伸，安全不再是单纯的技术问题，而是将管理、技术、法律等问题相结合的产物。本专业培养能够从事计算机、通信、电子商务、电子政务、电子金融等领域的信息安全高级专门人才。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av21107232?from=search&seid=15642380677837309766" class="">
+								
+								<div class="mui-media-body">
+									信息安全工程师
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av12926886?from=search&seid=15642380677837309766" class="">
+								
+								<div class="mui-media-body">
+									【ctf】信息安全入门之路
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av45478728?from=search&seid=15642380677837309766" class="">
+								
+								<div class="mui-media-body">
+									【软考】2019年 信息安全工程师 备考
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av27917215?from=search&seid=15642380677837309766" class="">
+								
+								<div class="mui-media-body">
+									上海交通大学  网络与信息安全 全43讲 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av24015574?from=search&seid=15642380677837309766" class="">
+								
+								<div class="mui-media-body">
+									【软考】2018中级 信息安全工程师 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av25936889?from=search&seid=6645685612006174681" class="">
+
+    								<div class="mui-media-body">
+    									锋刃科技-信息安全科普宣传片
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av2649004?from=search&seid=6645685612006174681" class="">
+
+    								<div class="mui-media-body">
+    									傲气雄鹰——沃龙涅日军事航空工程大学电子信息安全学院掠影
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av38782792?from=search&seid=6645685612006174681" class="">
+
+    								<div class="mui-media-body">
+    									谈剑锋：以前的红客组织创始人、魔兽首号玩家银龙，如今成为中国互联网信息安全的代表人物！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av18027475?from=search&seid=6645685612006174681" class="">
+
+    								<div class="mui-media-body">
+    									DES加密算法-《信息安全技术》课程微课设计
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av27121919?from=search&seid=6645685612006174681" class="">
+
+    								<div class="mui-media-body">
+    									中国兵工学会ISCC2018 信息安全与对抗技术竞赛现场
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data139340"><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-11/25449b47-d736-4c82-9ef1-ba4a53a62b58.jpg" title="信息安全专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>计算机类</td><td>￥7766<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过80%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">19%在北京市工作</span></td><td>男生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男71%-女29%</span></td></tr></tbody></table><p>培养目标：培养能够独立建立、维护网络的安全认证系统，保障网络安全运营的高级应用型人才。</p><p>主干课程：计算机网络技术基础、网络与信息安全基础、Windows系统的安全防护、网络攻防技术、Linux服务器配置与管理、网络安全管理等。</p><p>就业方向：信息安全专业学生毕业后可在政府机关、国家安全部门、银行、金融、证券、通信领域从事各类信息安全系统、计算机安全系统的研究、设计、开发和管理工作，也可在IT领域从事计算机应用工作。</p><h2><a>1</a><span>2018最新信息安全专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>上海交通大学</td><td>5★</td><td>86</td></tr><tr><td>2</td><td>哈尔滨工业大学</td><td>5★</td><td>86</td></tr><tr><td>3</td><td>北京邮电大学</td><td>5★</td><td>86</td></tr><tr><td>4</td><td>华中科技大学</td><td>5★</td><td>86</td></tr><tr><td>5</td><td>中国科学技术大学</td><td>4★</td><td>86</td></tr></tbody></table><h2><a>1</a><span>信息安全专业排名大学介绍</span></h2><p>上海交通大学是我国历史最悠久、享誉海内外的高等学府之一，是教育部直属并与上海市共建的全国重点大学。经过120年的不懈努力，上海交通大学已经成为一所“综合性、研究型、国际化”的国内一流、国际知名大学。十九世纪末，甲午战败，民族危难。中国近代著名实业家、教育家盛宣怀和一批有识之士秉持“自强首在储才，储才必先兴学”的信念，于1896年在上海创办了交通大学的前身——南洋公学。建校伊始，学校即坚持“求实学，务实业”的宗旨，以培养“第一等人才”为教育目标，精勤进取，笃行不倦，在二十世纪二三十年代已成为国内著名的高等学府，被誉为“东方MIT”。抗战时期，广大师生历尽艰难，移转租界，内迁重庆，坚持办学，不少学生投笔从戎，浴血沙场。解放前夕，广大师生积极投身民主革命，学校被誉为“民主堡垒”。</p><p><img alt="上海交通大学 思远湖" src="http://img.gaosan.com/upload/webimg/1625.jpg" title="上海交通大学 思远湖"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1896年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>哈尔滨工业大学隶属于工业和信息化部，是首批进入国家“211工程”和“985工程”建设的若干所大学之一。2000年，同根同源的哈尔滨工业大学、哈尔滨建筑大学合并组建新的哈尔滨工业大学。如今，学校已经发展成为一所以理工为主，理、工、管、文、经、法等多学科协调发展的国家重点大学。</p><p><img alt="哈尔滨工业大学校门" src="http://img.gaosan.com/upload/webimg/1658.jpg" title="哈尔滨工业大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1920年</td><td>公立</td><td>综合</td><td>工信部</td></tr></tbody></table><p>北京邮电大学是教育部直属、工业和信息化部共建、首批进行“211工程”建设的全国重点大学，是“985优势学科创新平台”项目重点建设高校，是我国信息科技人才的重要培养基地。学校现有西土城路校区、沙河校区、宏福校区和延庆世纪学院校区，在江苏无锡和广东深圳分别设有研究院。全日制本、硕、博学生及留学生近30000名，网络教育在籍学生约50000名。</p><p><img alt="北京邮电大学 学校大门" src="http://img.gaosan.com/upload/webimg/1693.jpg" title="北京邮电大学 学校大门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1955年</td><td>公立</td><td>理工</td><td>教育部直属、工信部共建</td></tr></tbody></table><p>华中科技大学是国家教育部直属的全国重点大学，由原华中理工大学、同济医科大学、武汉城市建设学院于2000年5月26日合并成立，是首批列入国家“211工程”重点建设和国家“985工程”建设高校之一，学校校园占地7000余亩，被誉为“森林式大学”。</p><p><img alt="华中科技大学校门" src="http://img.gaosan.com/upload/webimg/1643.jpg" title="华中科技大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1952年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>中国科学技术大学是中国科学院所属的一所的综合性全国重点大学。1958年9月创建于北京，首任校长由郭沫若兼任。建校后，中国科学院实施“全院办校，所系结合”的办学方针，学校紧紧围绕国家急需的新兴科技领域设置系科专业，创造性地把理科与工科即前沿科学与高新技术相结合，注重基础课教学，高起点、宽口径培养新兴、边缘、交叉学科的尖端科技人才。</p><p><img alt="中国科学技术大学校门" src="http://img.gaosan.com/upload/webimg/1647.jpg" title="中国科学技术大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1958年</td><td>公立</td><td>理工</td><td>中国科学院</td></tr></tbody></table><p>　　以上2018年信息安全专业大学排名信息安全专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

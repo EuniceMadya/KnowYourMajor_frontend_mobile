@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>书法学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+书法学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    中国文化博大精深，汉字也流传发展了几千年，书法更是汉字文化中令人称道的一门艺术。从先秦到近代的名家名帖、名碑，以及甲骨文、金文、竹木简牍、写经等等，都可以体现中国古典书法艺术的浩瀚与博大精深，还有李斯、钟繇、王羲之、欧阳询、颜真卿、褚遂良、怀素、苏轼等书法大家的墨宝也更是让今人赞叹不已。作为一门专业，可以说是现代书法艺术体系建设中的一个突破性成果，在经历了数千年的古代书法历史后，现代书法从各个方面对古代书法作了梳理和研究，并在史学、美学、批评学、社会学、形态学、教育学等方面获得了硕果。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av26521652?from=search&seid=2123226095993237272" class="">
+								
+								<div class="mui-media-body">
+									【百家讲坛】于钟华解读书法档案（12集全）【主讲人：于钟华】（中国美术学院书法学学士、浙江大学书法硕士、哲学博士）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av31872386?from=search&seid=2123226095993237272" class="">
+								
+								<div class="mui-media-body">
+									張冰：中國古代書法鑒藏與交易的幾個面向
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av46991320?from=search&seid=2123226095993237272" class="">
+								
+								<div class="mui-media-body">
+									【零基础书法】脑壳：你要学，手：你别学了！！！
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av8825384?from=search&seid=2123226095993237272" class="">
+								
+								<div class="mui-media-body">
+									[实用向】我在B站学行书（24P全）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av5245730?from=search&seid=2123226095993237272" class="">
+								
+								<div class="mui-media-body">
+									田英章  硬笔楷书基本笔画讲解
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av33101920?from=search&seid=17871091495492424844" class="">
+
+    								<div class="mui-media-body">
+    									ziyoou英文手写体《新概念英语》002期#圆体字书法#学英语抄课文
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av11883965?from=search&seid=17871091495492424844" class="">
+
+    								<div class="mui-media-body">
+    									2017河北美术学院宣传片 河美·印象
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av43667370?from=search&seid=17871091495492424844" class="">
+
+    								<div class="mui-media-body">
+    									冲鸭！中国美院艺考开锣，千人同考场面壮观！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10067215?from=search&seid=17871091495492424844" class="">
+
+    								<div class="mui-media-body">
+    									书法课堂实录1
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av5136099?from=search&seid=17871091495492424844" class="">
+
+    								<div class="mui-media-body">
+    									有梗 第46集：赚钱不套路，早晚成废物
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data114150"><p>截至目前，开设书法学专业的大学共计65所，在这些高校中，书法学专业最好的大学有：</p><p><img alt="书法学专业最好的大学排名" border="0" height="375" src="http://img.gaosan.com/upload/201806/6366458411920037392934190.jpg" style="width: 600px; height: 375px;" title="书法学专业最好的大学排名" vspace="0" width="600"/></p><h2><a>1</a><span>中央美术学院</span></h2><p>中央美术学院是中华人民共和国教育部直属的唯一一所高等美术学校。现有在职教职工572人，在校本科生和研究生4700余名和来自十几个国家的留学生百余名。学院教学科研面积共占地495亩，总建筑面积24.7万平方米。</p><p><img alt="中央美术学院校门" src="http://img.gaosan.com/upload/webimg/2827.jpg" title="中央美术学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1918年</td><td>公立</td><td>艺术</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>曲阜师范大学</span></h2><p>曲阜师范大学1955年创建于济南，始称山东师范专科学校。现有在校本科生32502人，博士、硕士研究生3514人，成人教育在读生1610人，外国留学生81人,形成了学士、硕士、博士以及博士后贯通培养，远程教育、继续教育、职业教育、成人教育等相互衔接的层次完备的人才培养体系。学校聘请诺贝尔奖获得者丁肇中先生为名誉校长，双聘院士2人；教职工2300余人，专任教师1461人。<br/></p><p><img alt="曲阜师范大学 大学校门（日照区）" src="http://img.gaosan.com/upload/webimg/1831.jpg" title="曲阜师范大学 大学校门（日照区）"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1955年</td><td>公立</td><td>师范</td><td>山东省教育厅</td></tr></tbody></table><h2><a>1</a><span>河北美术学院</span></h2><p>河北美术学院是经教育部批准设立的全日制普通本科美术高校，是我国独立设置的九所美术学院之一，也是河北省唯一一所省属专业本科美术高校。学校湖光潋滟，风景如画，建立了完备的公共服务体系。学校现占地1110亩，建筑面积38万平方米，现设教学、办公、生活、园林、大学生实训就业创业孵化基地（东方文化创意产业基地）、画家村、动漫城等区域。</p><p><img alt="河北美术学院校门" src="http://img.gaosan.com/upload/webimg/3133.jpg" title="河北美术学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1986年</td><td>私立</td><td>艺术</td><td>河北省教育厅</td></tr></tbody></table><h2><a>1</a><span>广西艺术学院</span></h2><p>广西艺术学院位于广西壮族自治区首府南宁市，是全国6所综合性普通本科高等艺术院校之一，2012年成为中华人民共和国文化部与广西壮族自治区人民政府共建的高校。在70多年的办学历史中，一批国内外知名的艺术家和艺术教育家，如满谦子、吴伯超、阳太阳、陈烟桥、陈良、黄独峰、朱培钧、陆华柏、李志曙等。</p><p><img alt="广西艺术学院校门" src="http://img.gaosan.com/upload/webimg/3311.jpg" title="广西艺术学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1938年</td><td>公立</td><td>艺术</td><td>广西壮族自治区人民政府</td></tr></tbody></table><h2><a>1</a><span>西安美术学院</span></h2><p>西安美术学院建校于1949年，是全国八大专业美术院校之一，是西北地区唯一一所高等美术学院。前身是西北军政大学艺术学校,首任校长为贺龙元帅。1949年7月由山西临汾迁至西安南郊兴国寺，更名为西北艺术学院。1960年定名为西安美术学院。1995年学院由长安兴国寺迁入西安市含光南段。</p><p><img alt="西安美术学院校门" src="http://img.gaosan.com/upload/webimg/2654.jpg" title="西安美术学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1949年</td><td>公立</td><td>艺术</td><td>陕西省人民政府</td></tr></tbody></table><h2><a>1</a><span>临沂大学</span></h2><p>临沂大学是国家设立、山东省政府直属管理的综合性大学，“山东省特色名校工程”重点建设大学。学校坐落在山东省临沂市。学校现设有20个二级学院、9个科研院所、2个分校，本科专业82个，涵盖文学、理学、工学、教育学、经济学等11大学科门类。学校面向全国招生，现有全日制在校生42000余人，教职工2700余人，其中教授、副教授700余人。</p><p><img alt="临沂大学校门" src="http://img.gaosan.com/upload/webimg/1946.jpg" title="临沂大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1941年</td><td>公立</td><td>综合</td><td>山东省教育厅</td></tr></tbody></table><h2><a>1</a><span>齐鲁理工学院</span></h2><p>齐鲁理工学院成立于2005年，其前身为曲阜师范大学杏坛学院，2014年5月经教育部批准转设为普通本科高校，具有学士学位授予权。建院十年来，学院铭记“厚德、严谨、求实、创新”的校训，传承“勤奋、务实、团结、进取”的校风，遵循“以人为本质量立校特色兴校人才强校”的办学宗旨，为国家建设和经济社会发展培养了大批优秀人才，上万名校友遍布全国各地。</p><p><img alt="齐鲁理工学院校门" src="http://img.gaosan.com/upload/webimg/2637.jpg" title="齐鲁理工学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>2005年</td><td>私立</td><td>理工</td><td>山东省教育厅</td></tr></tbody></table><h2><a>1</a><span>淮阴师范学院</span></h2><p>淮阴师范学院是一所具有深厚历史文化底蕴和优良校风的江苏省属知名高等学江苏省淮安市。在50余年的高等教育办学历程中，学校紧紧围绕立德树人的根本任务，秉持“坚守朴实，追求崇高”的淮师大学精神，始终坚持用周恩来精神办学育人，为基础教育和经济社会发展培养了一大批骨干教师和应用型人才，毕业生10万余人。</p><p><img alt="淮阴师范学院 学校大门" src="http://img.gaosan.com/upload/webimg/2056.jpg" title="淮阴师范学院 学校大门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1997年</td><td>公立</td><td>师范</td><td>江苏省人民政府</td></tr></tbody></table><h2><a>1</a><span>西安交通大学</span></h2><p>西安交通大学是国家教育部直属重点大学，为我国最早兴办的高等学府之一。是首批进入国家“211”和“985”工程建设，被国家确定为以建设世界知名高水平大学为目标的学校。2000年4月，国务院决定，将原西安医科大学、原陕西财经学院并入原西安交通大学组建新的西安交通大学。</p><p><img alt="西安交通大学校门" src="http://img.gaosan.com/upload/webimg/1655.jpg" title="西安交通大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1896年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>湖北美术学院</span></h2><p>湖北美术学院是我国华中地区唯一一所多学科门类与多学历层次的高等美术学府。学校前身是创办于1920年的武昌美术学校，后定名为“私立武昌艺术专科学校”。作为我国最早开办的艺术专科院校之一，我校是中国近、现代高等美术教育的重要发源地。目前，学校拥有藏龙岛和昙华林两个校区，占地面积700余亩，各学历层次在校生8000余人。</p><p><img alt="湖北美术学院 南门牌楼" src="http://img.gaosan.com/upload/webimg/3076.jpg" title="湖北美术学院 南门牌楼"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1920年</td><td>公立</td><td>艺术</td><td>湖北省教育厅</td></tr></tbody></table><h2><a>1</a><span>南京艺术学院</span></h2><p>南京艺术学院是江苏省唯一的综合性艺术院校，也是我国独立建制创办最早并延续至今的高等艺术学府。其前身是1912年中国美术教育的奠基人刘海粟先生约同画友创办的上海图画美术院。经过一个世纪的建设和发展，南京艺术学院经风雨而茁壮，历沧桑而弥坚，已发展成为在国内外卓有影响的综合性高等艺术学府。</p><p><img alt="南京艺术学院校门" src="http://img.gaosan.com/upload/webimg/2582.jpg" title="南京艺术学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1912年</td><td>公立</td><td>艺术</td><td>江苏省人民政府</td></tr></tbody></table><h2><a>1</a><span>中国美术学院</span></h2><p>中国美术院校创立于1928年的中国美术学院历经初创期的艰辛、成熟期的丰硕和拓展期的跃进，始终站在时代艺术的前沿，饱含振兴民族艺术的历史使命感和责任感，充满与世界艺术积极对话的理性精神，对中国当代视觉文化艺术的创新和拓展形成重要的影响。如今的中国美术学院校园更新，理念传承，院系重组，学科拓展，实现了学校历史上的跨越式发展。<br/></p><p><img alt="中国美术学院校门" src="http://img.gaosan.com/upload/webimg/2421.jpg" title="中国美术学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1928年</td><td>公立</td><td>艺术</td><td>文化部、浙江省教育厅</td></tr></tbody></table><h2><a>1</a><span>太原师范学院</span></h2><p>太原师范学院是一所以本科师范教育为主、非师范教育和硕士研究生教育协调发展的全日制高等师范院校。学校总占地面积约126万平方米，总建筑面积约87万平方米；图书馆馆藏中外文纸质文献125万余册，电子图书6060GB，中外文电子资源数据库45个；在校生设计规模20000名，现有本科生19560名，硕士生170名，生源来自全国26个省、市、自治区。</p><p><img alt="太原师范学院校门" src="http://img.gaosan.com/upload/webimg/2059.jpg" title="太原师范学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1929年</td><td>公立</td><td>师范</td><td>山西省教育厅</td></tr></tbody></table><h2><a>1</a><span>四川美术学院</span></h2><p>经过70余年发展和几代人的努力，学校形成了“贴近生活，服务人民；知能并重，奖掖新人；开放兼容，与时俱进”的办学理念，在各个时期为国家培养了大批优秀的艺术专门人才，创作了一批批艺术精品，产生了广泛影响。学校的艺术设计、工业设计、影视动画创作等方面，为地方经济建设和创意产业发展创造了良好的经济效益和社会效益，进一步扩大了学校的社会影响和巩固了学术地位。</p><p><img alt="四川美术学院校门" src="http://img.gaosan.com/upload/webimg/2790.jpg" title="四川美术学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1940年</td><td>公立</td><td>艺术</td><td>重庆市教育委员会</td></tr></tbody></table><h2><a>1</a><span>湖南人文科技学院</span></h2><p>湖南人文科技学院创建于1978年，是经教育部批准的省属综合性公办普通本科大学。校园占地面积613255.9平方米，校舍建筑面积391094平方米，教学科研仪器设备总值11718.9万元，有馆藏图书116.5万册，电子图书213万多种，中外电子期刊41076种，中外纸质期刊1587种，电子期刊数据库6个，特色专题数据库24个。</p><p><img alt="湖南人文科技学院校门" src="http://img.gaosan.com/upload/webimg/2188.jpg" title="湖南人文科技学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1978年</td><td>公立</td><td>综合</td><td>湖南省教育厅</td></tr></tbody></table><h2><a>1</a><span>河南大学</span></h2><p>河南大学坐落在历史文化名城、八朝古都开封。这里曾是河南贡院的所在地，1903、1904年最后两场全国会试在这里举行，上千年的科举制度在这里划上句号。1912年，以林伯襄为代表的一批河南仁人先贤，在欧风美雨和辛亥革命胜利的曙光中创办了河南留学欧美预备学校，成为当时中国的三大留学培训基地之一。后历经中州大学、国立第五中山大学、省立河南大学等阶段，1942年改为国立河南大学。</p><p><img alt="河南大学校门" src="http://img.gaosan.com/upload/webimg/1713.jpg" title="河南大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1912年</td><td>公立</td><td>综合</td><td>河南省人民政府</td></tr></tbody></table><h2><a>1</a><span>绍兴文理学院</span></h2><p>绍兴文理学院是一所普通全日制公办院校，硕士学位授予单位。学校坐落于全国首批历史文化名城绍兴。拥有本部（河东、河西、南山）、兰亭、上虞、镜湖4个校区，校园占地面积1980亩，校舍总建筑面积81.74万平方米，教学科研仪器设备总值2.67亿元，馆藏纸质图书231万册，电子图书约128万册，各类中外文电子期刊2.3万种，资料数据库45个。</p><p><img alt="绍兴文理学院校门" src="http://img.gaosan.com/upload/webimg/1969.jpg" title="绍兴文理学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1996年</td><td>公立</td><td>综合</td><td>浙江省人民政府</td></tr></tbody></table><h2><a>1</a><span>咸阳师范学院</span></h2><p>咸阳师范学院是一所以教师教育为特色的省属本科院校。学校位于咸阳，占地68余万平方米，校舍建筑面积44万平方米。固定资产总值7.08亿元，仪器设备总值1.21亿元。学校面向全国28个省（市）、自治区招生。现有全日制在校本科生1.6万余人、留学生50余名、继续教育学生6000余人。</p><p><img alt="咸阳师范学院 正门" src="http://img.gaosan.com/upload/webimg/2092.jpg" title="咸阳师范学院 正门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1978年</td><td>公立</td><td>师范</td><td>陕西省人民政府</td></tr></tbody></table><h2><a>1</a><span>鲁迅美术学院</span></h2><p>鲁迅美术学院前身是1938年建于延安的鲁迅艺术学院，由毛泽东、周恩来等老一代领导人亲自倡导创建。1945年，延安鲁艺迁校至东北。1958年发展为鲁迅美术学院。1998年，江泽民同志为学院题词：“弘扬鲁艺传统，培育艺术人才，繁荣社会主义文化事业”。悠久的办学历史积淀了学院深厚的文化内涵和领先的办学实力。</p><p><img alt="鲁迅美术学院校门" src="http://img.gaosan.com/upload/webimg/3011.jpg" title="鲁迅美术学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1938年</td><td>公立</td><td>艺术</td><td>辽宁省教育厅</td></tr></tbody></table><h2><a>1</a><span>天津美术学院</span></h2><p>天津美术学院座落在海河之滨。学院现有天纬路校区和志成道校区两个校区，校园占地面积11.6万平方米，建筑面积16.3万平方米。现有本科以上全日制学生4871人，其中本科生4347人，研究生424人。全院现有教职工447人,专任教师273人中博士13人,硕士167人,拥有正高职称51人,副高职称81人。</p><p><img alt="天津美术学院 天津美术学院" src="http://img.gaosan.com/upload/webimg/3053.jpg" title="天津美术学院 天津美术学院"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1906年</td><td>公立</td><td>艺术</td><td>天津市教育委员会</td></tr></tbody></table><p>以上关于书法学专业的排名数据，参考自中国科教评价网金平果排行榜，由高三网重新整理发布，转载请注明出处。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

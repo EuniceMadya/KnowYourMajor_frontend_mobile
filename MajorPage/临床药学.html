@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>临床药学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+临床药学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    临床药学（Clinical Pharmacy）指从医院药学中分离出来的科学分支，是以病人为对象，以提高临床用药质量为目的，以药物与机体相互作用为核心，研究和实践药物临床合理应用方法的综合性应用技术学科。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av40181794?from=search&seid=6707736589687886669" class="">
+								
+								<div class="mui-media-body">
+									【百家讲坛】翟双庆解读《黄帝内经》（74集全）【高清版 更新中】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av28103792?from=search&seid=6707736589687886669" class="">
+								
+								<div class="mui-media-body">
+									【公开课】药物分析（完）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av8857483?from=search&seid=6707736589687886669" class="">
+								
+								<div class="mui-media-body">
+									《临床中药炮制学》胡昌江主讲（43集全）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av21420944?from=search&seid=6707736589687886669" class="">
+								
+								<div class="mui-media-body">
+									【公开课】中医儿科学（完）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av19536822?from=search&seid=6707736589687886669" class="">
+								
+								<div class="mui-media-body">
+									医学+医学、药学类（含护理）专业名校录取信息分析与报考指南
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av33135280?from=search&seid=9129557490611952992" class="">
+
+    								<div class="mui-media-body">
+    									【考研vlog】临床药学｜D79｜看书要带白噪音｜备考和健身同在
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av25512493?from=search&seid=9129557490611952992" class="">
+
+    								<div class="mui-media-body">
+    									【不说再见】【中国医科大学】2013级临床药学99期32班毕业留念
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av33220328?from=search&seid=9129557490611952992" class="">
+
+    								<div class="mui-media-body">
+    									【考研vlog】临床药学｜D78｜有机化学与分析化学学习｜学习要带白噪音
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av25656668?from=search&seid=9129557490611952992" class="">
+
+    								<div class="mui-media-body">
+    									2018全球制药企业前十名
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av25780357?from=search&seid=9129557490611952992" class="">
+
+    								<div class="mui-media-body">
+    									Cris_VLOG 01 | 碰到喜欢的工作又遇见一起工作开心的人真的是很棒的事情
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data113653"><p>截至目前，开设临床药学专业的大学共计34所，在这些高校中，临床药学专业最好的大学有：</p><h2><a>1</a><span>中国药科大学</span></h2><p>中国药科大学是一所历史悠久、特色鲜明、学风优良、在药学界享有盛誉的教育部直属、国家“211工程”重点建设的大学，是我国首批具有博士、硕士学位授予权的高等学校之一。</p><p><img alt="中国药科大学校门" src="http://img.gaosan.com/upload/webimg/1747.jpg" title="中国药科大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1936年</td><td>公立</td><td>医药</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>四川大学</span></h2><p>四川大学是教育部直属全国重点大学，是布局在中国西部、“985工程”和“211工程”重点建设的高水平研究型综合大学。学校现任党委书记杨泉明教授、校长谢和平院士。</p><p><img alt="四川大学校门" src="http://img.gaosan.com/upload/webimg/1645.jpg" title="四川大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1896年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>中国医科大学</span></h2><p>中国医科大学的前身为中国工农红军军医学校，1931年11月，经中央军委批准创建于中华苏维埃共和国临时中央政府诞生地——江西瑞金，是中国共产党创办的第一所医学院校，中央军委总军医处处长贺诚兼任校长,中国医科大学建校至今，共培养了9万多名高级医学专门人才，毕业生遍布全国各地及许多国家和地区，培养和造就了一大批国家卫生管理的高级领导干部和著名医学专家。</p><p><img alt="16032616262414741726.jpg" src="http://img.gaosan.com/upload/201607/6360375277978217422515982.jpg" title="16032616262414741726.jpg"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1951年</td><td>公立</td><td>财经语言</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>南京医科大学</span></h2><p>南京医科大学创建于1934年，时名江苏省立医政学院。学校现有中国工程院院士1名，美国国家医学院外籍院士1名，“长江学者”特聘教授3名，国家“千人计划”7人，国家杰出青年科学基金获得者7人，优秀青年基金获得者8人，国家级教学名师1人，入选“教育部新世纪优秀人才支持计划”7人，“江苏特聘教授”20人，“国家级教学团队”3个，教育部“创新团队”1个。</p><p><img alt="南京医科大学校门" src="http://img.gaosan.com/upload/webimg/1730.jpg" title="南京医科大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1934年</td><td>公立</td><td>医药</td><td>江苏省人民政府</td></tr></tbody></table><h2><a>1</a><span>沈阳药科大学</span></h2><p>沈阳药科大学是一所具有光荣革命传统的学校，是我国历史最悠久的综合性药科大学。学校总占地面积143.45万平方米，总建筑面积70.4万平方米。其中校本部校区占地面积为21.5万平方米，建筑面积为17.9万平方米；铁西校区占地面积为1.6万平方米，建筑面积为1.7万平方米；南校区占地面积为120.35万平方米，一期工程建筑面积8.9万平方米，二期工程建筑面积41.9万平方米。</p><p><img alt="沈阳药科大学校门" src="http://img.gaosan.com/upload/webimg/1844.jpg" title="沈阳药科大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1931年</td><td>公立</td><td>医药</td><td>辽宁省教育厅</td></tr></tbody></table><h2><a>1</a><span>安徽医科大学</span></h2><p>安徽医科大学为安徽省省属重点大学，由教育部、国家卫生与计划生育委员会和安徽省人民政府共建。学校位于安徽省会合肥市，校园环境优美，交通便利。学校将现代著名教育家蔡元培先生为学校前身东南医学院师生的题词“好学力行，造就良医”确立为校训，弘扬“爱国爱民，致力于建设高水平医科大学。</p><p><img alt="安徽医科大学校门" src="http://img.gaosan.com/upload/webimg/1791.jpg" title="安徽医科大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1926年</td><td>公立</td><td>医药</td><td>安徽省人民政府</td></tr></tbody></table><h2><a>1</a><span>哈尔滨医科大学</span></h2><p>哈尔滨医科大学是由原哈尔滨医科大学（我国医学先驱伍连德博士于1926年创建的哈尔滨医学专门学校，1938年改名为哈尔滨医科大学）和原兴山（现鹤岗市）中国医科大学第一、二分校组建而成。具有相当的发展规模和鲜明的办学特色，已经跻身于全国高等医学院校前列，是黑龙江省重点建设高水平大学、中俄医科大学联盟中方牵头单位、部委省共建大学。</p><p><img alt="哈尔滨医科大学校门" src="http://img.gaosan.com/upload/webimg/1724.jpg" title="哈尔滨医科大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1926年</td><td>公立</td><td>医药</td><td>黑龙江省教育厅</td></tr></tbody></table><h2><a>1</a><span>南昌大学</span></h2><p>南昌大学是江西省人民政府和教育部共建的国家“211工程”重点建设大学，是国家“中西部高校综合实力提升计划”和“中西部高校基础能力建设工程”入选高校，是江西省高等教育综合改革试点高校。</p><p><img alt="南昌大学 学校大门" src="http://img.gaosan.com/upload/webimg/1701.jpg" title="南昌大学 学校大门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1921年</td><td>公立</td><td>综合</td><td>江西省教育厅</td></tr></tbody></table><h2><a>1</a><span>首都医科大学</span></h2><p>首都医科大学建校于1960年，是北京市重点高等院校，已故著名泌尿外科专家、两院院士、全国人大常委会副委员长吴阶平教授为首任校长。现任党委书记李明教授，校长吕兆丰教授。学校校本部设有10所学院和1所研究院。</p><p><img alt="首都医科大学 学校大门" src="http://img.gaosan.com/upload/webimg/1702.jpg" title="首都医科大学 学校大门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1960年</td><td>公立</td><td>医药</td><td>北京市教育委员会</td></tr></tbody></table><h2><a>1</a><span>天津医科大学</span></h2><p>天津医科大学的前身天津医学院创建于1951年，是新中国成立后原国家政务院批准建立的高等医学院校。著名内分泌学家、医学教育家朱宪彝教授为首任校长。学校为国家“211工程”重点建设院校，2015年获准天津市人民政府、国家卫生计生委、教育部共建高校。<br/></p><p><img alt="天津医科大学校门" src="http://img.gaosan.com/upload/webimg/1743.jpg" title="天津医科大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1951年</td><td>公立</td><td>医药</td><td>天津市教育委员会</td></tr></tbody></table><h2><a>1</a><span>山东大学</span></h2><p>山东大学是国家“211工程”和“985工程”重点建设的高水平大学之一。山东大学是中国近代高等教育的起源性大学。其医学学科起源于1864年，为近代中国高等教育历史之最。其主体是1901年创办的山东大学堂，是继京师大学堂之后中国创办的第二所国立大学，也是中国第一所按章程办学的大学。</p><p><img alt="山东大学校门" src="http://img.gaosan.com/upload/webimg/1651.jpg" title="山东大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1901年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>温州医科大学</span></h2><p>温州医科大学是浙江省省属普通高等学校。学校2013年更名为“温州医科大学”，2015年成为浙江省人民政府、国家卫生计生委和教育部共建高校。现有临床医学一级学科博士点，临床医学、护理学、中药学、生物学、生物医学工程、基础医学、中西医结合、药学等8个一级学科硕士点，6个专业硕士学位授权点，设有临床医学一级学科博士后科研流动站。</p><p><img alt="温州医科大学校门" src="http://img.gaosan.com/upload/webimg/1806.jpg" title="温州医科大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1912年</td><td>公立</td><td>医药</td><td>浙江省人民政府</td></tr></tbody></table><h2><a>1</a><span>河北医科大学</span></h2><p>河北医科大学位于河北省省会石家庄市，是一所具有百年历史和优秀医学教育传统的省属骨干大学。2005年，在教育部本科教学工作水平评估中获得优秀。学校下设14个学院，普通高等教育本、专科专业23个。现有全日制普通本、专科及研究生10491人，其中本、专科生7039人，研究生3452人。</p><p><img alt="河北医科大学校门" src="http://img.gaosan.com/upload/webimg/2458.jpg" title="河北医科大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1894年</td><td>公立</td><td>医药</td><td>河北省教育厅</td></tr></tbody></table><h2><a>1</a><span>吉林大学</span></h2><p>吉林大学于2000年6月12日由原吉林大学、吉林工业大学、白求恩医科大学、长春科技大学、长春邮电学院合并组建而成。2004年8月29日，原中国人民解放军军需大学并入吉林大学。合并前的六所学校，都有着光荣的历史。原吉林大学的前身是始建于1946年的东北行政学院，1950年更名为东北人民大学，1952年经院系调整成为我党亲手创建的第一所综合性大学，1958年更名为吉林大学。</p><p><img alt="吉林大学校门" src="http://img.gaosan.com/upload/webimg/1637.jpg" title="吉林大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1946年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>重庆医科大学</span></h2><p>重庆医科大学创建于1956年，由上海第一医学院分迁来渝组建而成，原名重庆医学院，1985年更名为重庆医科大学。学校是国务院学位委员会批准的首批具有博士和硕士学位授予权的单位。学校由位于渝中区的袁家岗校区和位于重庆大学城的缙云校区组成，校园总面积2650余亩。其中，缙云校区占地2000余亩，校园环境优美，风景如画。</p><p><img alt="重庆医科大学校门" src="http://img.gaosan.com/upload/webimg/1748.jpg" title="重庆医科大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1956年</td><td>公立</td><td>医药</td><td>重庆市教育委员会</td></tr></tbody></table><h2><a>1</a><span>桂林医学院</span></h2><p>桂林医学院是广西壮族自治区直属普通高等学校，是教育部本科教学工作水平评估优秀高校，教育部第一批“卓越医生教育培养计划”项目试点高校。学校前身为创建于1935年的广西省立桂林高级助产护士学校，1958年升格更名为桂林医学专科学校，1987年升格更名为桂林医学院。2014年列为博士学位授权立项建设单位，2015年获批设立博士后科研工作站。</p><p><img alt="桂林医学院校门" src="http://img.gaosan.com/upload/webimg/2088.jpg" title="桂林医学院校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1935年</td><td>公立</td><td>医药</td><td>广西壮族自治区教育厅</td></tr></tbody></table><h2><a>1</a><span>徐州医科大学</span></h2><p>徐州医科大学的历史最早可追溯至创办于1934年的江苏省立医政学院，1958年由南京医学院分迁至徐州成立南京医学院徐州分院，1960年定名为徐州医学院。2016年3月，学校正式更名为“徐州医科大学”。该校是整个淮海经济区办学历史悠久、办学特色鲜明的一所高等医学院校，也是该地区医学教育、医疗服务和医学科研的中心。</p><p><img alt="徐州医学院校门" src="http://img.gaosan.com/upload/webimg/1942.jpg" title="徐州医学院校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1934年</td><td>公立</td><td>医药</td><td>江苏省人民政府</td></tr></tbody></table><p>以上关于临床药学专业的排名数据，参考自中国科教评价网金平果排行榜，由高三网重新整理发布，转载请注明出处。</p><script>content_end();</script><p class="xgyundu">高三网小编推荐你继续浏览：<script>authorCommend();</script><a href="/gaokao/72865.html">2017年高考最受欢迎的十大专业</a><a href="/gaokao/74670.html">盘点未来最吃香的十大专业</a><a href="/gaokao/76737.html">女生最吃香的十大专业</a><a href="/gaokao/78276.html">女生最容易就业的十大专业</a><a href="/gaokao/48347.html">最难就业的十大专业</a></p></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

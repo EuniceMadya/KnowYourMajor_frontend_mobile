@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>生物工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+生物工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    生物工程，是20世纪70年代初开始兴起的一门新兴的综合性应用学科，90年代诞生了基于系统论的生物工程，即系统生物工程的概念。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    所谓生物工程，一般认为是以生物学（特别是其中的分子生物学、微生物学、遗传学、生物化学和细胞学）的理论和技术为基础，结合化工、机械、电子计算机等现代工程技术，充分运用分子生物学的最新成就，自觉地操纵遗传物质，定向地改造生物或其功能，短期内创造出具有超 远缘性状的新物种，再通过合适的生物反应器对这类“工程菌”或“工程细胞株”进行大规模的培养，以生产大量有用代谢产物或发挥它们独特生理功能一门新兴技术。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    生物工程是分子遗传学、微生物学、细胞生物学、生物化学、化学工程和能源学等各学科的结合，其应用范围十分广泛，包括医药、食品、农林、园艺、化工、冶金、采油、发酵罐新技术和新底物的环保等方面。许多现有的以微生物学为基础的工业，依靠基因工程、利用而得以改进，同时还缓解了环境污染等社会问题。不久的将来，光生物反应器和生物燃料将会变为实现，像木质素纤维素这类结构复杂但能再生的底物会变成为发酵工业的原料，也很可能会为塑料工业和聚合物工业提供起始成分。可以说，基因工程和细胞工程是生物工程的基础，重组DNA 技术和酶固定化技术是生物工程的两个最富有特色和潜力的技术，而发酵工程与细胞和组织培养技术是目前较为成熟和广泛应用的技术。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av32015572?from=search&seid=10787491562348253670" class="">
+								
+								<div class="mui-media-body">
+									【公开课】生物工程下游技术（完）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av43198204?from=search&seid=10787491562348253670" class="">
+								
+								<div class="mui-media-body">
+									生物工程下游技术-厦门大学
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av30924911?from=search&seid=10787491562348253670" class="">
+								
+								<div class="mui-media-body">
+									【马到成功】高考生物 生物技术实践及生物工程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av36480807?from=search&seid=10787491562348253670" class="">
+								
+								<div class="mui-media-body">
+									生物工程单元操作原理 第六阶段学习重点
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av26343606?from=search&seid=10787491562348253670" class="">
+								
+								<div class="mui-media-body">
+									10讲  高中生物  马到成功——选修3_生物技术实践及生物工程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av39028326?from=search&seid=8209145908028836816" class="">
+
+    								<div class="mui-media-body">
+    									【职业百科】生物工程技术人员
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av33659252?from=search&seid=8209145908028836816" class="">
+
+    								<div class="mui-media-body">
+    									生物工程 NBCI 基因序列检索下载教程
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av32661138?from=search&seid=8209145908028836816" class="">
+
+    								<div class="mui-media-body">
+    									【加拿大留学】生物工程就业前景怎么样？工作好找吗？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av16857122?from=search&seid=8209145908028836816" class="">
+
+    								<div class="mui-media-body">
+    									中国最庞大的生物工程，有人自愿被切成9000多片，改成数据虚拟人
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av11868314?from=search&seid=8209145908028836816" class="">
+
+    								<div class="mui-media-body">
+    									燕大2017届生物工程一班咖喱咖喱
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div class="text"><p>中国大学生物工程类哪些本科专业跻身2018世界一流专业、中国顶尖专业和中国一流专业行列？哪些生物工程类专业是2018年中国高考最优秀考生选择报考的最佳专业？													</p><p>为了给2018年全国高考考生和外国来华留学生选择报考中国大学生物工程类本科专业提供权威参考指南，艾瑞深中国校友会网(Cuaa.Net)编写完成、科学出版社出版发行的《2018中国大学评价研究报告―中国高考志愿填报指南（校友会版）》最新发布2018中国大学一流专业排行榜、2018中国大学各学科一流专业排行榜和2018中国大学生物工程类本科专业排行榜等榜单。																										报告显示，全国206个专业荣膺2018中国八星级专业（8★），跻身世界一流专业、中国最顶尖专业行列；清华大学雄居2018中国大学一流专业排行榜冠军，北京大学第2，中国人民大学第3，复旦大学第4，浙江大学第5，天津大学跻身前10强。中国社会科学院大学、西南政法大学和昆明理工大学等10所非双一流大学跻身全国100强。最引人关注的是，工商管理、经济学和计算机专业最盛产全球亿万富豪，168位福布斯全球富豪榜上榜富豪财富总额高达4.32万亿, 堪称“中国全球亿万富豪摇篮”。深圳大学计算机专业造富能力最强，培养了马化腾、张志东和周群飞等4名全球顶级亿万富豪，财富总额近4500亿，雄居2018中国最具财富创造力专业排行榜榜首；杭州师范大学英语、武汉科技大学材料学专业跻身全国前3甲。													</p><p>值得关注的是，全国有15所世界一流学科建设高校跌出全国200强，本科专业建设水平有待提升；中国社会科学院大学、北京电影学院、上海戏剧学院、中国戏曲学院、西南政法大学、深圳大学、燕山大学、北京舞蹈学院、天津师范大学和昆明理工大学等10所非双一流大学跻身全国前100强。吉林大学珠海学院、云南师范大学商学院、四川大学锦江学院、北京师范大学珠海分校、武汉科技大学城市学院列2018中国独立学院一流专业排行榜前5强。武昌首义学院、文华学院、三亚学院、郑州工商学院、西安欧亚学院列2018中国民办大学一流专业排行榜前5强，西交利物浦大学、北京师范大学－香港浸会大学联合国际学院和宁波诺丁汉大学居2018中国合作办学大学一流专业排行榜前3强。													</p><p>													一流本科教育是建设世界一流大学的重要基础，本科专业建设是中国高校本科教育教学建设中重要工作。自2015年起，艾瑞深中国校友会网(Cuaa.Net)已连续4年发布中国大学本科专业排行榜，旨在为全国高考考生、外国来华留学生高考填报志愿挑选大学与专业提供权威参考指南。校友会 2018中国大学本科专业评价指标由学科水平、毕业生质量、师资水平、专业水平和专业影响等五大指标构成，涵盖包括了国家“双一流”建设学科、教育部第四轮学科评估结果、国家级特色专业、省级特色重点专业、杰出校友和杰出师资等100多项指标，详情请参阅由艾瑞深研究院赵德国、蔡言厚、党亚茹、王凌峰、刘明和蔡莉编写完成、科学出版社面向全国出版发行的《2018中国大学评价研究报告―中国高考志愿填报指南（校友会版）》。													</p><p><b>艾瑞深中国校友会网2018中国大学生物工程类各本科专业排行榜</b>：													 </p><p align="center"><b>校友会2018中国大学生物工程专业排名</b></p><table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr><tr><td>1</td><td>上海交通大学</td><td>8星级</td><td>世界一流专业</td><td>上海</td><td>1</td></tr><tr><td>2</td><td>重庆大学</td><td>7星级</td><td>世界知名高水平、中国顶尖专业</td><td>重庆</td><td>1</td></tr><tr><td>3</td><td>中国农业大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>北京</td><td>1</td></tr><tr><td>3</td><td>浙江大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>浙江</td><td>1</td></tr><tr><td>3</td><td>四川大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>四川</td><td>1</td></tr><tr><td>3</td><td>天津大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>天津</td><td>1</td></tr><tr><td>7</td><td>江南大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>江苏</td><td>1</td></tr><tr><td>8</td><td>西安交通大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>陕西</td><td>1</td></tr><tr><td>9</td><td>浙江工业大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>浙江</td><td>2</td></tr><tr><td>9</td><td>北京化工大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>北京</td><td>2</td></tr><tr><td>9</td><td>大连大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>辽宁</td><td>1</td></tr><tr><td>9</td><td>齐鲁工业大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>山东</td><td>1</td></tr><tr><td>9</td><td>华南理工大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>广东</td><td>1</td></tr><tr><td>9</td><td>华东理工大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>上海</td><td>2</td></tr><tr><td>9</td><td>大连工业大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>辽宁</td><td>1</td></tr><tr><td>9</td><td>湖北工业大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>湖北</td><td>1</td></tr></table><p align="center"><b>校友会2017中国民办大学生物工程专业排行榜																																												   		  <table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr><tr><td>1</td><td>武汉生物工程学院</td><td>5星级</td><td>中国一流民办大学专业</td><td>湖北</td><td>1</td></tr><tr><td>1</td><td>武昌首义学院</td><td>5星级</td><td>中国一流民办大学专业</td><td>湖北</td><td>1</td></tr></table></b></p><p align="center"><b>校友会2017中国独立学院生物工程专业排行榜																																												   		  <table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr><tr><td>1</td><td>北京理工大学珠海学院</td><td>5星级</td><td>中国一流独立学院专业</td><td>广东</td><td>1</td></tr><tr><td>2</td><td>浙江大学宁波理工学院</td><td>5星级</td><td>中国一流独立学院专业</td><td>浙江</td><td>1</td></tr></table></b></p><p align="center"><b>校友会2018中国大学生物制药专业排名</b></p><table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr><tr><td>1</td><td>中国药科大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>江苏</td><td>1</td></tr></table></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

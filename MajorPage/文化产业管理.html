@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>文化产业管理</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+文化产业管理</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    文化产业管理，简称文管，属于管理学类专业，工商管理类的二级学科 。专业设立于2004年，是为适应中国文化产业快速发展的需要而设立的专业，以培养具有宽阔的文化视野、掌握现代产业理念和经营技能的复合型文化产业人才为目标。 文管专业授予管理学学位，少数院校授予艺术学学位。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    文化产业管理专业覆盖面较广，所学课程较多，覆盖了文化旅游、广播影视、新闻出版、文化贸易、文物遗产、工艺美术、广告会展、文化政策、体育娱乐、手机网络、动漫音乐、文化经纪等众多文化产业领域。 因此，文化产业管理是一门基础宽的学科，个人可以就此根据自己的爱好选择专业方向。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    文化产业管理专业主要探讨文化产业中各个行业以及综合经营管理中企业的盈利方法及其模式，区别于以探讨文化发展与传承为目的的文化事业、文化研究类专业，也区别于以培养编导、编剧、音乐等艺术类人才为目的的文化艺术管理专业，三者不可混淆。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av16711090?from=search&seid=12908647524994502357" class="">
+								
+								<div class="mui-media-body">
+									2015级文化产业管理班见习报告会
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av40284367?from=search&seid=12908647524994502357" class="">
+								
+								<div class="mui-media-body">
+									管理哲学【48集】(陈少峰：北京大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av5777281?from=search&seid=12908647524994502357" class="">
+								
+								<div class="mui-media-body">
+									原画教程—创意方舟《原画教程系列》
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av6082505?from=search&seid=12908647524994502357" class="">
+								
+								<div class="mui-media-body">
+									原画教程—创意方舟《临摹的技巧》
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av6076330?from=search&seid=12908647524994502357" class="">
+								
+								<div class="mui-media-body">
+									原画教程—创意方舟《技法&amp;酷炫的特效》
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av9825378?from=search&seid=5707196681318654478" class="">
+
+    								<div class="mui-media-body">
+    									文化产业管理这个专业，每个学校教的内容都不同
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10337348?from=search&seid=5707196681318654478" class="">
+
+    								<div class="mui-media-body">
+    									对厦门大学嘉庚学院文化产业管理专业你知道多少？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av11669117?from=search&seid=5707196681318654478" class="">
+
+    								<div class="mui-media-body">
+    									神奇的专业：文化产业管理
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av25007082?from=search&seid=5707196681318654478" class="">
+
+    								<div class="mui-media-body">
+    									浙江农林大学文化产业管理（茶文化）专业
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av25998469?from=search&seid=5707196681318654478" class="">
+
+    								<div class="mui-media-body">
+    									【毕业季】中国传媒大学2014级文化产业管理专业毕业班鉴
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data184466"><p>中国大学哪些本科的文化产业管理专业是2018年高考优秀考生选择报考的最佳专业？艾瑞深中国校友会网最新公布的2018本科专业排行榜中就有你想知道的答案，和小编一起来看看吧！</p><p><img alt="文化产业管理专业大学排名" border="0" height="350" src="http://img.gaosan.com/upload/201710/6364504005333660737924171.jpg" style="width: 600px; height: 350px;" title="文化产业管理专业大学排名" vspace="0" width="600"/></p><p><strong>在2018本科文化产业管理专业排行榜中，中国传媒大学雄居排行榜榜首，北京电影学院、浙江传媒学院紧随其后，占据第二、第三名。</strong>想知道全部的文化产业管理专业排名请看下表：</p><h2><a>1</a><span>公办本科大学文化产业管理专业排名</span></h2><table><colgroup><col width="72"/><col width="181"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>中国传媒大学</td><td>4星级</td><td>北京</td><td>1</td></tr><tr><td>2</td><td>北京电影学院</td><td>4星级</td><td>北京</td><td>2</td></tr><tr><td>2</td><td>浙江传媒学院</td><td>4星级</td><td>浙江</td><td>1</td></tr><tr><td>2</td><td>天津音乐学院</td><td>4星级</td><td>天津</td><td>1</td></tr><tr><td>2</td><td>福建师范大学</td><td>4星级</td><td>福建</td><td>1</td></tr><tr><td>2</td><td>山东大学</td><td>4星级</td><td>山东</td><td>1</td></tr><tr><td>2</td><td>上海交通大学</td><td>4星级</td><td>上海</td><td>1</td></tr><tr><td>2</td><td>首都师范大学</td><td>4星级</td><td>北京</td><td>2</td></tr><tr><td>2</td><td>华南师范大学</td><td>4星级</td><td>广东</td><td>1</td></tr><tr><td>10</td><td>同济大学</td><td>3星级</td><td>上海</td><td>2</td></tr><tr><td>10</td><td>中国戏曲学院</td><td>3星级</td><td>北京</td><td>4</td></tr><tr><td>10</td><td>北京舞蹈学院</td><td>3星级</td><td>北京</td><td>4</td></tr><tr><td>10</td><td>中央美术学院</td><td>3星级</td><td>北京</td><td>4</td></tr><tr><td>10</td><td>中央财经大学</td><td>3星级</td><td>北京</td><td>4</td></tr><tr><td>15</td><td>信阳师范学院</td><td>3星级</td><td>河南</td><td>1</td></tr><tr><td>15</td><td>四川音乐学院</td><td>3星级</td><td>四川</td><td>1</td></tr><tr><td>15</td><td>山东工艺美术学院</td><td>3星级</td><td>山东</td><td>2</td></tr><tr><td>15</td><td>湖南师范大学</td><td>3星级</td><td>湖南</td><td>1</td></tr><tr><td>15</td><td>南京艺术学院</td><td>3星级</td><td>江苏</td><td>1</td></tr><tr><td>15</td><td>西安音乐学院</td><td>3星级</td><td>陕西</td><td>1</td></tr><tr><td>15</td><td>湖北美术学院</td><td>3星级</td><td>湖北</td><td>1</td></tr><tr><td>15</td><td>沈阳音乐学院</td><td>3星级</td><td>辽宁</td><td>1</td></tr></tbody></table><h2><a>1</a><span>民办大学文化产业管理专业排名</span></h2><table><colgroup><col width="72"/><col width="181"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>仰恩大学</td><td>5星级</td><td>福建</td><td>1</td></tr><tr><td>1</td><td>上海视觉艺术学院</td><td>5星级</td><td>上海</td><td>1</td></tr><tr><td>3</td><td>西安欧亚学院</td><td>4星级</td><td>陕西</td><td>1</td></tr><tr><td>4</td><td>武汉传媒学院</td><td>4星级</td><td>湖北</td><td>1</td></tr><tr><td>5</td><td>宁波大红鹰学院</td><td>3星级</td><td>浙江</td><td>1</td></tr><tr><td>6</td><td>武汉工商学院</td><td>3星级</td><td>湖北</td><td>2</td></tr><tr><td>6</td><td>辽宁传媒学院</td><td>3星级</td><td>辽宁</td><td>1</td></tr><tr><td>6</td><td>湖南涉外经济学院</td><td>3星级</td><td>湖南</td><td>1</td></tr><tr><td>6</td><td>三江学院</td><td>3星级</td><td>江苏</td><td>1</td></tr></tbody></table><h2><a>1</a><span>独立学院文化产业管理专业排名</span></h2><table><colgroup><col width="72"/><col width="181"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>云南大学旅游文化学院</td><td>4星级</td><td>云南</td><td>1</td></tr><tr><td>2</td><td>山西大学商务学院</td><td>3星级</td><td>山西</td><td>1</td></tr><tr><td>2</td><td>中国传媒大学南广学院</td><td>3星级</td><td>江苏</td><td>1</td></tr><tr><td>2</td><td>北京师范大学珠海分校</td><td>3星级</td><td>广东</td><td>1</td></tr><tr><td>2</td><td>厦门大学嘉庚学院</td><td>3星级</td><td>福建</td><td>1</td></tr><tr><td>2</td><td>黑龙江工程学院昆仑旅游学院</td><td>3星级</td><td>黑龙江</td><td>1</td></tr><tr><td>2</td><td>电子科技大学成都学院</td><td>3星级</td><td>四川</td><td>1</td></tr><tr><td>2</td><td>上海外国语大学贤达经济人文学院</td><td>3星级</td><td>上海</td><td>1</td></tr><tr><td>2</td><td>湖南师范大学树达学院</td><td>3星级</td><td>湖南</td><td>1</td></tr><tr><td>2</td><td>北京工商大学嘉华学院</td><td>3星级</td><td>北京</td><td>1</td></tr></tbody></table><h2><a>1</a><span>中外合作办学大学文化产业管理专业排名</span></h2><table><colgroup><col width="72"/><col width="181"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>北京师范大学－香港浸会大学联合国际学院</td><td>3星级</td><td>广东</td><td>1</td></tr></tbody></table><h2><a>1</a><span>文化产业管理专业介绍<br/></span></h2><p></p><p><img alt="文化产业管理专业 " src="http://img.gaosan.com/upload/zhuanye/1/795.jpg"/></p><table><tbody><tr bgcolor="#e9f5fc"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>工商管理类</td><td>￥6878<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过57%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">19%在北京市工作</span></td><td>女生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男34%-女66%</span></td></tr></tbody></table><p>培养目标：培养掌握经济学、管理学及文化学基本理论与方法，具有宽阔的文化视野和现代管理意识，熟悉文化法规及政策，具备较强规划、决策、组织、策划、创意以及沟通表达能力，具备较强社会调研和信息处理能力的应用型、复合型高级人才。</p><p>主要课程：文化学、中国文化史、中国文化交流史，产业经济学、管理心理学、文化市场营销学、管理信息系统、文化管理学、会计学、应用统计、公共事业管理学、文化产业概论、文化资源概论、公共部门公共关系、文化政策与法规、文化管理理论与实践、艺术基础、美学概论、世界文化简史、民俗学、宗教文化概论、广告学、文化项目策划实务、文化地理学、出版管理学、文博基础、影视产业概论、文化旅游概论、动漫与数字产业概论、管理文秘等。</p><p>就业方向：可从事文化贸易管理及文化投资咨询等工作。此专业是培养在演艺、出版、博展、传媒、娱乐等领域中从事管理、策划、经纪、营销、公关等方面的应用型专门人才，就业领域非常广。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

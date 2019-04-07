@@ -1,0 +1,174 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>水族科学与技术</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+水族科学与技术</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    水族科学与技术，本专业培养具备水产科学与技术的基本理论、基本知识和基本技能，能胜任水产科学与技术的研究与开发、教学和管理、推广与应用工作的高级科学技术人才。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av616422?from=search&seid=7582228072514745402" class="">
+								
+								<div class="mui-media-body">
+									【全球首次的挑戰】深海5,000米載人深潛器科學探查現場直播
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av286189?from=search&seid=7582228072514745402" class="">
+								
+								<div class="mui-media-body">
+									雷克斯海3D：史前世界
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24179854?from=search&seid=10246715397857478192" class="">
+
+    								<div class="mui-media-body">
+    									【宽吻海豚】水族馆里的海豚到底开心不开心，最新科学研究给出了答案（乐喷网字幕）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av27124876?from=search&seid=10246715397857478192" class="">
+
+    								<div class="mui-media-body">
+    									夏天不用去水族馆，1个瓶子把&quot;化学水底世界&quot;装回家！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av32807161?from=search&seid=10246715397857478192" class="">
+
+    								<div class="mui-media-body">
+    									水族馆繁育的鹦鹉螺宝宝
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av45869376?from=search&seid=13673339459735756937" class="">
+
+    								<div class="mui-media-body">
+    									所さんの目がテン![字]日本で唯一の珍しい部活｢水族館部｣を科学!3-10
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av16600201?from=search&seid=13673339459735756937" class="">
+
+    								<div class="mui-media-body">
+    									【地理人文记录片】最美多彩贵州
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data140682"><p><img alt="水族科学与技术专业 " src="http://img.gaosan.com/upload/zhuanye/1/827.jpg"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>水产类</td><td>￥5192<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过13%的专业</span></td><td>上海市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">40%在上海市工作</span></td><td>女生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男38%-女62%</span></td></tr></tbody></table><p>培养目标：培养具备水产科学与技术的基本理论、基本知识和基本技能，能胜任水产科学与技术的研究与开发、教学和管理、推广与应用工作的高级科学技术人才。</p><p>主要课程：基础化学、有机化学、生物化学、动物学、鱼类学、水生生物学、观赏水族养殖学、水草栽培学、游钓渔业学、水族馆创意与设计、观赏水族营养与饲料学、观赏水族疾病防治学、水处理技术、景观生态学、管理学、休闲渔业经营学等。</p><p>就业方向：可从事高等院校、科研机构、海关检疫、环境保护、动植检疫、生物制药、现代渔业技术和水产品加工等行业工作；水族技术研发与推广工作；企事业单位行政管理、市场营销、国内和国际贸易、综合经营管理等工作；农业相关产业的其他工作。</p><h2><a>1</a><span>2018最新水族科学与技术专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>上海海洋大学</td><td>5★</td><td>10</td></tr><tr><td>2</td><td>大连海洋大学</td><td>4★</td><td>10</td></tr><tr><td>3</td><td>西南大学</td><td>3★</td><td>10</td></tr><tr><td>4</td><td>华中农业大学</td><td>3★</td><td>10</td></tr><tr><td>5</td><td>湖南农业大学</td><td>3★</td><td>10</td></tr></tbody></table><h2><a>1</a><span>水族科学与技术专业排名大学介绍</span></h2><p>上海海洋大学前身是建于1912年的江苏省立水产学校，1952年成为国内第一所本科水产高校——上海水产学院，1985年更名为上海水产大学。学校目前有浦东新区沪城环路校区、杨浦区军工路校区、杨浦区民星路校区3个校区，根据上海高校布局结构调整规划，2008年整体搬迁至上海临港新城办学，主校区沪城环路校区占地约1600余亩，规划建设面积58.6万平方米。</p><p><img alt="上海海洋大学校门" src="http://img.gaosan.com/upload/webimg/1854.jpg" title="上海海洋大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1912年</td><td>公立</td><td>农林</td><td>上海市人民政府</td></tr></tbody></table><p>大连海洋大学是我国北方地区唯一的一所以海洋和水产学科为特色。学校坐落于美丽的海滨城市大连。有黄海校区、渤海校区和瓦房店校区3个校区，占地面积80万平方米，教学、科研使用海域面积67万平方米，总建筑面积40万平方米。学校现设有17个学院、1个教学部。有教职工1168人，全日制在校生16000余人。</p><p><img alt="大连海洋大学校门" src="http://img.gaosan.com/upload/webimg/2014.jpg" title="大连海洋大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1952年</td><td>公立</td><td>理工</td><td>辽宁省人民政府、国家海洋局</td></tr></tbody></table><p>西南大学是教育部直属，教育部、农业部、重庆市共建的重点综合大学，是国家"211工程"和"985工程优势学科创新平台"建设高校。现任党委书记黄蓉生教授、校长张卫国教授。</p><p><img alt="西南大学 北大门" src="http://img.gaosan.com/upload/webimg/1673.jpg" title="西南大学 北大门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1906年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>中国高等农业教育起点之一。学校前身是清朝光绪年间湖广总督张之洞1898年创办的湖北农务学堂。2000年，由农业部划转教育部直属领导。2005年，进入国家“211工程”建设行列。2011年，时任中共中央总书记、国家主席胡锦涛听取我校关于生物产业的汇报。2013年，中共中央总书记、国家主席习近平为我校“本禹志愿服务队”亲笔回信。</p><p><img alt="华中农业大学校门" src="http://img.gaosan.com/upload/webimg/1666.jpg" title="华中农业大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1898年</td><td>公立</td><td>农林</td><td>教育部</td></tr></tbody></table><p>湖南农业大学是国家“2011”协同创新中心牵头建设单位，是农业部与湖南省政府共建大学、教育部本科教学工作水平评估“优秀”高校、全国文明单位。学校坐落在中国历史文化名城长沙，占地面积3400亩，环境幽雅。现任党委书记周清明，校长符少辉。1951年3月与湖南大学农业学院合并组建湖南农学院，毛泽东主席亲笔题写校名。1994年3月更名为湖南农业大学。</p><p><img alt="湖南农业大学校门" src="http://img.gaosan.com/upload/webimg/1757.jpg" title="湖南农业大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1903年</td><td>公立</td><td>农林</td><td>湖南省人民政府</td></tr></tbody></table><p>　　以上2018年水族科学与技术专业大学排名水族科学与技术专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

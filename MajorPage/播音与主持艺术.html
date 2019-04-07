@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>播音与主持艺术</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+播音与主持艺术</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    播音与主持艺术培养目标是培养具备广播电视新闻传播、语言文学等能力，能在广播电台、电视台及其他单位从事广播电视播音与节目主持工作的复合型应用语言学高级专门人才。主要学习中国语言文学、广播电视新闻传播学、中国播音学的基本理论和基本知识，受到普通话语音、播音发声、播音表达的基本训练，掌握广播电视播音与节目主持的基本能力。 </h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av16922560?from=search&seid=13971712571751191023" class="">
+								
+								<div class="mui-media-body">
+									徐州领航传媒教育2017年下学期学习生活掠影
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av36510951?from=search&seid=13971712571751191023" class="">
+								
+								<div class="mui-media-body">
+									【绝地求声】北师珠2015级播音主持2班毕业汇报
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av43038271?from=search&seid=13971712571751191023" class="">
+								
+								<div class="mui-media-body">
+									安阳师范学院2015级播音主持专业“声采“毕业汇报演出
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av20137103?from=search&seid=13971712571751191023" class="">
+								
+								<div class="mui-media-body">
+									【中国传媒大学】20180223中国传媒大学2018年艺考正式拉开帷幕
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av18548736?from=search&seid=13971712571751191023" class="">
+								
+								<div class="mui-media-body">
+									【四川传媒学院】学生自制真人秀《火锅总动员》
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10304273?from=search&seid=1961410186933071947" class="">
+
+    								<div class="mui-media-body">
+    									广州大学播音与主持艺术专业，你知道多少？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24627832?from=search&seid=1961410186933071947" class="">
+
+    								<div class="mui-media-body">
+    									向快乐出发——湖南师范大学2015级播音与主持艺术班级MV
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av37373453?from=search&seid=1961410186933071947" class="">
+
+    								<div class="mui-media-body">
+    									福建艺术职业学院2019届播音与主持宣传视频《留忆》
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av17466956?from=search&seid=1961410186933071947" class="">
+
+    								<div class="mui-media-body">
+    									中传MFA播音与主持艺术专题讲座，凯程发布
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av17975112?from=search&seid=1961410186933071947" class="">
+
+    								<div class="mui-media-body">
+    									2015级播音与主持艺术专业《电视访谈》课程作品展播
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data185047"><p>中国大学哪些本科的播音与主持艺术专业，是2018高考优秀考生报考的最佳选择呢？和小编一起来看看吧！</p><p><img alt="播音与主持艺术专业大学排名" border="0" height="350" src="http://img.gaosan.com/upload/201711/6364515792140283168102449.jpg" style="width: 600px; height: 350px;" title="播音与主持艺术专业大学排名" vspace="0" width="600"/></p><p><strong>在2018本科播音与主持艺术专业排行榜中，中国传媒大学雄居排行榜榜首，浙江传媒学院、中央戏剧学院紧随其后，占据第二、第三名。</strong>想知道全部的播音与主持艺术专业排名请看下表：</p><h2><a>1</a><span>公办本科大学播音与主持艺术专业排名</span></h2><table><colgroup><col width="50"/><col width="146"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>中国传媒大学</td><td>7星级</td><td>北京</td><td>1</td></tr><tr><td>2</td><td>浙江传媒学院</td><td>6星级</td><td>浙江</td><td>1</td></tr><tr><td>3</td><td>中央戏剧学院</td><td>5星级</td><td>北京</td><td>2</td></tr><tr><td>4</td><td>内蒙古大学</td><td>4星级</td><td>内蒙古</td><td>1</td></tr><tr><td>4</td><td>陕西师范大学</td><td>4星级</td><td>陕西</td><td>1</td></tr><tr><td>4</td><td>吉林艺术学院</td><td>4星级</td><td>吉林</td><td>1</td></tr><tr><td>7</td><td>上海戏剧学院</td><td>3星级</td><td>上海</td><td>1</td></tr><tr><td>7</td><td>重庆大学</td><td>3星级</td><td>重庆</td><td>1</td></tr><tr><td>9</td><td>呼和浩特民族学院</td><td>3星级</td><td>内蒙古</td><td>2</td></tr><tr><td>9</td><td>四川音乐学院</td><td>3星级</td><td>四川</td><td>1</td></tr><tr><td>9</td><td>哈尔滨师范大学</td><td>3星级</td><td>黑龙江</td><td>1</td></tr><tr><td>9</td><td>吉林大学</td><td>3星级</td><td>吉林</td><td>2</td></tr><tr><td>9</td><td>福建师范大学</td><td>3星级</td><td>福建</td><td>1</td></tr><tr><td>9</td><td>湖南师范大学</td><td>3星级</td><td>湖南</td><td>1</td></tr><tr><td>9</td><td>武汉大学</td><td>3星级</td><td>湖北</td><td>1</td></tr><tr><td>9</td><td>湖南大学</td><td>3星级</td><td>湖南</td><td>1</td></tr><tr><td>9</td><td>西北大学</td><td>3星级</td><td>陕西</td><td>2</td></tr><tr><td>9</td><td>西南大学</td><td>3星级</td><td>重庆</td><td>2</td></tr><tr><td>9</td><td>平顶山学院</td><td>3星级</td><td>河南</td><td>1</td></tr><tr><td>9</td><td>安徽师范大学</td><td>3星级</td><td>安徽</td><td>1</td></tr><tr><td>9</td><td>华中科技大学</td><td>3星级</td><td>湖北</td><td>1</td></tr><tr><td>9</td><td>华东师范大学</td><td>3星级</td><td>上海</td><td>2</td></tr><tr><td>9</td><td>暨南大学</td><td>3星级</td><td>广东</td><td>1</td></tr><tr><td>9</td><td>兰州城市学院</td><td>3星级</td><td>甘肃</td><td>1</td></tr><tr><td>9</td><td>广西大学</td><td>3星级</td><td>广西</td><td>1</td></tr></tbody></table><h2><a>1</a><span>民办大学播音与主持艺术专业排名</span></h2><table><colgroup><col width="50"/><col width="146"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>河北传媒学院</td><td>6星级</td><td>河北</td><td>1</td></tr><tr><td>2</td><td>三亚学院</td><td>5星级</td><td>海南</td><td>1</td></tr><tr><td>3</td><td>武汉传媒学院</td><td>4星级</td><td>湖北</td><td>1</td></tr><tr><td>3</td><td>西安培华学院</td><td>4星级</td><td>陕西</td><td>1</td></tr><tr><td>5</td><td>四川电影电视学院</td><td>4星级</td><td>四川</td><td>1</td></tr><tr><td>5</td><td>上海视觉艺术学院</td><td>4星级</td><td>上海</td><td>1</td></tr><tr><td>5</td><td>四川传媒学院</td><td>4星级</td><td>四川</td><td>1</td></tr><tr><td>8</td><td>郑州工商学院</td><td>3星级</td><td>河南</td><td>1</td></tr><tr><td>8</td><td>黄河科技学院</td><td>3星级</td><td>河南</td><td>1</td></tr><tr><td>8</td><td>武汉东湖学院</td><td>3星级</td><td>湖北</td><td>2</td></tr><tr><td>8</td><td>商丘学院</td><td>3星级</td><td>河南</td><td>1</td></tr><tr><td>8</td><td>吉林动画学院</td><td>3星级</td><td>吉林</td><td>1</td></tr><tr><td>8</td><td>大连艺术学院</td><td>3星级</td><td>辽宁</td><td>1</td></tr><tr><td>8</td><td>海口经济学院</td><td>3星级</td><td>海南</td><td>2</td></tr><tr><td>8</td><td>黑龙江外国语学院</td><td>3星级</td><td>黑龙江</td><td>1</td></tr><tr><td>8</td><td>南昌理工学院</td><td>3星级</td><td>江西</td><td>1</td></tr><tr><td>8</td><td>四川文化艺术学院</td><td>3星级</td><td>四川</td><td>3</td></tr></tbody></table><h2><a>1</a><span>独立学院播音与主持艺术专业排名</span></h2><table><colgroup><col width="50"/><col width="146"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>中国传媒大学南广学院</td><td>6星级</td><td>江苏</td><td>1</td></tr><tr><td>2</td><td>西北大学现代学院</td><td>5星级</td><td>陕西</td><td>1</td></tr><tr><td>3</td><td>云南艺术学院文华学院</td><td>4星级</td><td>云南</td><td>1</td></tr><tr><td>3</td><td>杭州师范大学钱江学院</td><td>4星级</td><td>浙江</td><td>1</td></tr><tr><td>3</td><td>北京电影学院现代创意媒体学院</td><td>4星级</td><td>山东</td><td>1</td></tr><tr><td>3</td><td>首都师范大学科德学院</td><td>4星级</td><td>北京</td><td>1</td></tr><tr><td>3</td><td>四川大学锦江学院</td><td>4星级</td><td>四川</td><td>1</td></tr><tr><td>3</td><td>四川大学锦城学院</td><td>4星级</td><td>四川</td><td>1</td></tr><tr><td>9</td><td>东北师范大学人文学院</td><td>3星级</td><td>吉林</td><td>1</td></tr><tr><td>9</td><td>西北工业大学明德学院</td><td>3星级</td><td>陕西</td><td>2</td></tr><tr><td>9</td><td>南京航空航天大学金城学院</td><td>3星级</td><td>江苏</td><td>2</td></tr><tr><td>9</td><td>南京师范大学中北学院</td><td>3星级</td><td>江苏</td><td>2</td></tr><tr><td>9</td><td>北京航空航天大学北海学院</td><td>3星级</td><td>广西</td><td>1</td></tr><tr><td>9</td><td>贵州师范大学求是学院</td><td>3星级</td><td>贵州</td><td>1</td></tr><tr><td>9</td><td>广西师范大学漓江学院</td><td>3星级</td><td>广西</td><td>1</td></tr><tr><td>9</td><td>陕西科技大学镐京学院</td><td>3星级</td><td>陕西</td><td>2</td></tr><tr><td>9</td><td>湖南师范大学树达学院</td><td>3星级</td><td>湖南</td><td>1</td></tr><tr><td>9</td><td>广西民族大学相思湖学院</td><td>3星级</td><td>广西</td><td>1</td></tr><tr><td>9</td><td>河南大学民生学院</td><td>3星级</td><td>河南</td><td>1</td></tr><tr><td>9</td><td>天津师范大学津沽学院</td><td>3星级</td><td>天津</td><td>1</td></tr></tbody></table><h2><a>1</a><span>播音与主持艺术专业介绍</span></h2><p></p><p><img alt="播音与主持艺术专业" src="http://img.gaosan.com/upload/zhuanye/1/898.jpg"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>戏剧与影视学类</td><td>￥6511<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过47%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">19%在北京市工作</span></td><td>女生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男31%-女69%</span></td></tr></tbody></table><p>培养目标：本专业培养具备广播电视新闻传播、语言文学、播音学以及艺术、美学等多学科知识与能力，能在广播电台、电视台及其他单位从事广播电视播音与节目主持工作的复合型应用语言学高级专门人才。</p><p>主要课程：播音发声、播音创作基础、广播播音主持、电视播音主持、文艺作品演播学概论、新闻学概论、新闻采编、广播电视节目制作。</p><p>就业方向：播音与主持艺术专业学生毕业后可在新闻宣传部门及其他企事业单位，从事播音、节目主持等新闻宣传工作。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

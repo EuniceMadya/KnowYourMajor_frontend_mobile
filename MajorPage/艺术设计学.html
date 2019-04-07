@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>艺术设计学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+艺术设计学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    本专业学生主要学习艺术设计学方面的基本原理和基本知识，使学生通过艺术设计理论思维能力、造型艺术基础及设计原理与方法的基本训练，具备了解艺术设计的历史、现状和进行理论研究的基本素质，从事艺术设计教学、设计策划、设计创意和研究等的专业人才。核心课程：设计史论、设计原理、设计美学等。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av36615438?from=search&seid=6700008858701763908" class="">
+								
+								<div class="mui-media-body">
+									2018上海第二工业学应用艺术设计学院迎新晚会
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av9452913?from=search&seid=6700008858701763908" class="">
+								
+								<div class="mui-media-body">
+									2018年苏州大学艺术学院设计学服装艺术设计及理论研究考研讲解
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av9414266?from=search&seid=6700008858701763908" class="">
+								
+								<div class="mui-media-body">
+									2018年浙江理工大学艺术与设计学院设计学环境设计考研参考书
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av9049999?from=search&seid=6700008858701763908" class="">
+								
+								<div class="mui-media-body">
+									《现代设计史》（高振平）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av9414707?from=search&seid=6700008858701763908" class="">
+								
+								<div class="mui-media-body">
+									2018年浙江理工大学艺术与设计学院设计学环境设计考研导师介绍
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av15492542?from=search&seid=13680200789395591305" class="">
+
+    								<div class="mui-media-body">
+    									西安培华学院艺术设计学院团学青宣传片
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av28978307?from=search&seid=13680200789395591305" class="">
+
+    								<div class="mui-media-body">
+    									北邮艺术设计学考研参考书、资料笔记、真题
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av28977604?from=search&seid=13680200789395591305" class="">
+
+    								<div class="mui-media-body">
+    									北邮艺术设计学考研参考书、资料笔记、真题
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av39238788?from=search&seid=13680200789395591305" class="">
+
+    								<div class="mui-media-body">
+    									动力学艺术，永动机的介绍
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av47218219?from=search&seid=13680200789395591305" class="">
+
+    								<div class="mui-media-body">
+    									如何零基础学设计,服装设计入门基础教学！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data205626"><p>有很多的同学是非常的想知道，艺术生都有哪些专业，最好就业的专业是什么的，小编整理了相关信息，希望会对大家有所帮助！</p><p><img alt="艺术生都有哪些专业最吃香的十大专业排名" border="0" height="375" src="http://img.gaosan.com/upload/201803/6365731250872154053365441.jpg" style="width: 600px; height: 375px;" title="艺术生都有哪些专业最吃香的十大专业排名" vspace="0" width="600"/></p><p><strong>艺术生都有什么专业</strong></p><p>1.音乐类专业：含音乐表演（如声乐、器乐等）、作曲与作曲理论、音乐学、音乐教育、乐器修造（如提琴制作、钢琴调律）等。</p><p>2.美术类专业：含绘画（如中国画、油画、版画、壁画）、雕塑、美术学、美术教育、艺术设计学、书法、艺术设计（如环境设计、装潢设计等）、摄影（如商业摄影、图片摄影、新闻摄影等）、戏剧舞台美术设计、戏剧影视美术设计、动画、服装设计与表演等。</p><p>3.舞蹈类专业：含舞蹈表演（如芭蕾舞、中国古典舞、现代舞、国际舞等）、舞蹈编导、舞蹈学（如舞蹈教育）等。</p><p>4.广电、影视、戏剧类专业：含播音与主持、广播电视编导、录音艺术（如录音工程等）、摄影摄像、影视照明、电视节目制作、表演（如影视表演、戏曲表演、戏剧表演等）、导演（如影视导演、戏剧导演等）、影视戏剧文学等。</p><p>5.管理类专业：含公共事业管理（如影视制片管理、艺术管理）等。</p><p>6.公共关系学类专业：含空中乘务、宾馆服务等。</p><p>7.理论类专业：含编导史论、文艺编导、音乐理论、舞蹈史论、美术史论、艺术设计史论等。</p><p><strong>艺术生最受欢迎的十大专业</strong></p><p>未来艺术生有哪些专业最受欢迎，根据以往的艺术生<a href="/gaokaozhiyuan/" target="_blank">填报志愿</a>和就业率来看，工业设计专业在所有艺术生热门专业名列前茅。工业设计专业在各个领域中都很受欢迎，就业范围也很广。比如汽车、手机、电脑中越来越重视产品的工业设计的问题，工业设计的艺术生同时可以获得更广阔的市场和更高的收入。</p><p>艺术生里最受欢迎的专业当然不能少了建筑设计，虽然最近几年中国房地产领域不似之前那么的火热，但是建筑设计师依然是位居100个最具前景的职业之中。建筑专业依然是很多艺术生选择的热门专业。并且建筑专业的工资收入不菲。</p><p>动漫专业是最近几年兴起的朝阳专业，虽然不是很成熟，但是越来越多的艺术生报考这类专业，而动漫专业也大量需要这类的人才。这是一个潜力很高的专业。中国缺少这类的人才，目前社会上这类的艺术生供不应求。</p><p><strong>艺术类考生可以报考什么大学专业</strong></p><p>(1)音乐类：含音乐表演(如声乐、器乐等)、作曲与作曲理论、音乐学、音乐教育、乐器修造(如提琴制作、钢琴调律)等。</p><p>(2)美术类：含绘画(如中国画、油画、版画、壁画)、雕塑、美术学、美术教育、艺术设计学、书法、艺术设计(如环境设计、装潢设计等)、摄影(如商业摄影、图片摄影、新闻摄影等)、戏剧舞台美术设计、戏剧影视美术设计、动画、服装设计与表演等。</p><p>(3)舞蹈类：含舞蹈表演(如芭蕾舞、中国古典舞、现代舞、国际舞等)、舞蹈编导、舞蹈学(如舞蹈教育)等。</p><p>(4)广电、影视、戏剧类：含播音与主持、广播电视编导、录音艺术(如录音工程等)、摄影摄像、影视照明、电视节目制作、表演(如影视表演、戏曲表演、戏剧表演等)、导演(如影视导演、戏剧导演等)、影视戏剧文学等。</p><p>(5)管理类：含公共事业管理(如影视制片管理、艺术管理)等。</p><p>(6)公共关系学类：含空中乘务、宾馆服务等。</p><p>(7)理论类：含编导史论、文艺编导、音乐理论、舞蹈史论、美术史论、艺术设计史论等。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

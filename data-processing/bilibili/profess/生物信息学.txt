@@ -1,0 +1,120 @@
+【山东大学】生物信息学
+www.bilibili.com/video/av22086086?from=search&seid=14237894030536079397
+北京大学生物信息学(中文版) 公开课
+www.bilibili.com/video/av35651619?from=search&seid=14237894030536079397
+清华大学 生物信息学 公开课
+www.bilibili.com/video/av44986673?from=search&seid=14237894030536079397
+生物信息学：导论与方法(北京大学)
+www.bilibili.com/video/av10042290?from=search&seid=14237894030536079397
+2018-01-07 生物信息学教程-GO, KEGG, DO富集分析
+www.bilibili.com/video/av18311108?from=search&seid=14237894030536079397
+生物信息学  41集  高歌 魏丽萍
+www.bilibili.com/video/av40918271?from=search&seid=14237894030536079397
+生物信息学中的R语言绘图
+www.bilibili.com/video/av43410745?from=search&seid=14237894030536079397
+生物信息学: 导论与方法
+www.bilibili.com/video/av40864022?from=search&seid=14237894030536079397
+DNA测序算法-生物信息学基础课程-The Johns Hopkins University-公开课搬运
+www.bilibili.com/video/av44207196?from=search&seid=14237894030536079397
+【生物信息分析师认证】二、Perl编程在生物信息学的应用
+www.bilibili.com/video/av45393933?from=search&seid=14237894030536079397
+【生物信息分析师认证】四、R语言在生物信息学中的基本应用
+www.bilibili.com/video/av45562150?from=search&seid=14237894030536079397
+20190207-生物信息学应该掌握的N张图  直播录像
+www.bilibili.com/video/av43587619?from=search&seid=14237894030536079397
+【生信技能树】生信人应该这样学R语言
+www.bilibili.com/video/av25643438?from=search&seid=14237894030536079397
+【生信技能树】转录组测序数据分析
+www.bilibili.com/video/av28453557?from=search&seid=14237894030536079397
+【生信技能树】生信人应该这样学linux(更新至第14集)
+www.bilibili.com/video/av28813815?from=search&seid=14237894030536079397
+生物数据分析软件视频教学---侵删 仅供学习使用
+www.bilibili.com/video/av39240346?from=search&seid=14237894030536079397
+【生信技能树】GEO数据库挖掘
+www.bilibili.com/video/av26731585?from=search&seid=14237894030536079397
+20171030-学习Python做生信-第1部分-Python基础入门
+www.bilibili.com/video/av15887563?from=search&seid=14237894030536079397
+【重制版】生信小技巧系列课程（第一季已完更！~）
+www.bilibili.com/video/av25131640?from=search&seid=14237894030536079397
+2017-11-30-R语言入门与基础绘图系统 Part I
+www.bilibili.com/video/av16817175?from=search&seid=14237894030536079397
+【从零学测序】转录组和长非编码RNA测序
+www.bilibili.com/video/av35680126?from=search&seid=3168265898791437752
+【生信技能树】生信人应该这样安装软件
+www.bilibili.com/video/av28836717?from=search&seid=3168265898791437752
+2017-11-05-学习Python做生信-Part II
+www.bilibili.com/video/av16064125?from=search&seid=3168265898791437752
+【生信技能树】Chip-seq测序数据分析
+www.bilibili.com/video/av29255401?from=search&seid=3168265898791437752
+【生信技能树】生信小技巧第二季（更新至第6集）
+www.bilibili.com/video/av32774725?from=search&seid=3168265898791437752
+2018-05-R与Bioconductor的入门课
+www.bilibili.com/video/av24355734?from=search&seid=3168265898791437752
+R语言基础教程
+www.bilibili.com/video/av35684083?from=search&seid=3168265898791437752
+【生信技能树】全外显子测序数据分析
+www.bilibili.com/video/av28030610?from=search&seid=3168265898791437752
+2017-10-09-UCSC Genome Browser 和 WashU Genome Browser
+www.bilibili.com/video/av15253446?from=search&seid=3168265898791437752
+2017-12-03-R语言基础绘图详解heatmap与volcano plot
+www.bilibili.com/video/av16922046?from=search&seid=3168265898791437752
+2018-02-05-转录组进阶分析
+www.bilibili.com/video/av19929350?from=search&seid=3168265898791437752
+20180804-如何使用R语言分析生物芯片数据
+www.bilibili.com/video/av29802900?from=search&seid=3168265898791437752
+2017-06-26-R语言相关内容补充
+www.bilibili.com/video/av11655592?from=search&seid=3168265898791437752
+Econometrics in R R语言与经济学
+www.bilibili.com/video/av35686009?from=search&seid=3168265898791437752
+（2012）【Broad Institute】蛋白质组学系列讲座（英文字幕）
+www.bilibili.com/video/av38465269?from=search&seid=3168265898791437752
+20170904-ChIP-Seq实验背景与数据分析
+www.bilibili.com/video/av14178191?from=search&seid=3168265898791437752
+2017-08-04-高通量测序技术交流录像
+www.bilibili.com/video/av12969326?from=search&seid=3168265898791437752
+dragonstar-bioinfo-2018
+www.bilibili.com/video/av25971241?from=search&seid=3168265898791437752
+LBRN _ CCT Summer Bioinformatics Course - Tutorial with Pine Biotech_
+www.bilibili.com/video/av25902006?from=search&seid=3168265898791437752
+应用信息论基础（清华大学）
+www.bilibili.com/video/av28661250?from=search&seid=3168265898791437752
+数值分析（东北大学）
+www.bilibili.com/video/av42972787?from=search&seid=12913111415108815683
+海汐讲组学
+www.bilibili.com/video/av30428766?from=search&seid=12913111415108815683
+化学计量学【42集】(杜一平：华东理工大学)
+www.bilibili.com/video/av46450756?from=search&seid=12913111415108815683
+生物学（英音中字）已翻译-可汗学院公开课
+www.bilibili.com/video/av41852121?from=search&seid=12913111415108815683
+化学信息学-武汉理工大学
+www.bilibili.com/video/av42630225?from=search&seid=12913111415108815683
+【北京大学生物信息平台讨论班】20181008单细胞分析中的降维和聚类
+www.bilibili.com/video/av33441560?from=search&seid=12913111415108815683
+细胞生物学
+www.bilibili.com/video/av28695005?from=search&seid=12913111415108815683
+【北京大学生物信息平台讨论班】20181210 基于成像的染色质分析——FISH
+www.bilibili.com/video/av37909518?from=search&seid=12913111415108815683
+【北京大学生物信息平台讨论班】20181119三维基因组学与疾病
+www.bilibili.com/video/av36358899?from=search&seid=12913111415108815683
+【北京大学】生物学概念与方法
+www.bilibili.com/video/av16565174?from=search&seid=12913111415108815683
+【生物科研视频教程】生物数据库大全解，生物信息必学的数据库知识（共10讲）课件在简介
+www.bilibili.com/video/av35500142?from=search&seid=12913111415108815683
+【Coursera】生物学概念与途径 - 北京大学（中字）
+www.bilibili.com/video/av16200410?from=search&seid=12913111415108815683
+【生物科研视频教程】马哥linux基础入门和架构了解（共122集，一次上传最多100p这里是1----99集）（该教程偏入门级别，建议没基础或未入门的同学学习）
+www.bilibili.com/video/av35123732?from=search&seid=12913111415108815683
+【北京大学生物信息平台讨论班】20181203 Three-Dimensional Organization of Genomes
+www.bilibili.com/video/av37381016?from=search&seid=12913111415108815683
+【Linux &amp; Shell编程】黑马 ***  Linux &amp; Shell编程基础课（18集）+进阶课（10集），生物信息重点学sed和awk
+www.bilibili.com/video/av46712479?from=search&seid=12913111415108815683
+【生物科研视频教程】马哥linux基础入门和架构了解（100----122集）（没有课件）（该教程偏入门级别，建议没基础或未入门的同学学习）
+www.bilibili.com/video/av35124156?from=search&seid=12913111415108815683
+【北京大学生物信息平台讨论班】20181126 ATAC-seq
+www.bilibili.com/video/av36839101?from=search&seid=12913111415108815683
+斯坦福公开课-机器学习，英文中字幕（学生物统计，生物信息的同学只看里面的多变量统计就好啦）
+www.bilibili.com/video/av44143819?from=search&seid=12913111415108815683
+【从零学测序】癌症基因组测序
+www.bilibili.com/video/av35689261?from=search&seid=12913111415108815683
+【西安交通大学】分子生物学原理与技术
+www.bilibili.com/video/av4456327?from=search&seid=12913111415108815683

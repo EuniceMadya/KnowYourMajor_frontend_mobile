@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>材料科学与工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+材料科学与工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    材料科学与工程（英文名：Materials Science and Engineering，缩写MSE）。在国务院学位委员会学科评议组制定和颁布的《授予博士、硕士学位和培养研究生的学科、专业目录》中，材料科学与工程属于工学学科门类之中的其中一个一级学科，下设3个二级学科，分别是：材料物理与化学、材料学、材料加工工程。材料科学与工程专业是研究材料成分、结构、加工工艺与其性能和应用的学科。在现代科学技术中，材料科学是国民经济发展的三大支柱之一。主要专业方向有金属材料、无机非金属材料、高分子材料、耐磨材料、表面强化、材料加工工程等等。国内本学科代表高校有：清华大学、北京科技大学、哈尔滨工业大学、上海交通大学的金属材料学科；北京化工大学、浙江大学的高分子材料；西北工业大学、西南交通大学、中南大学、华南理工大学的材料加工学科等。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av12983212?from=search&seid=3121471266523324409" class="">
+								
+								<div class="mui-media-body">
+									西北工业大学和华南理工大学公开课：材料科学与工程导论
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av38830316?from=search&seid=3121471266523324409" class="">
+								
+								<div class="mui-media-body">
+									西北工业大学公开课——材料科学与工程导论
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av34459832?from=search&seid=3121471266523324409" class="">
+								
+								<div class="mui-media-body">
+									北京工业大学 材料科学与工程学导论 30讲 视频教程..
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av20703649?from=search&seid=3121471266523324409" class="">
+								
+								<div class="mui-media-body">
+									[设计课程 ]工程设计导论（LightTools） 厦门工学院 材料科学与工程系
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av39224015?from=search&seid=3121471266523324409" class="">
+								
+								<div class="mui-media-body">
+									材料科学与工程学院2019元旦晚会
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av34138340?from=search&seid=12651764647830187652" class="">
+
+    								<div class="mui-media-body">
+    									秒懂专业： 材料科学与工程专业
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10527908?from=search&seid=12651764647830187652" class="">
+
+    								<div class="mui-media-body">
+    									在暨南大学读材料科学与工程专业是什么体验？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av34207033?from=search&seid=12651764647830187652" class="">
+
+    								<div class="mui-media-body">
+    									畅想2030-浙江大学材料科学与工程学院
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av9741831?from=search&seid=12651764647830187652" class="">
+
+    								<div class="mui-media-body">
+    									在东北大学读材料科学与工程专业，是怎样的体验？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24163344?from=search&seid=12651764647830187652" class="">
+
+    								<div class="mui-media-body">
+    									2015年中南大学963材料科学与工程基础考研真题答案与详解材料学院考研
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data183940"><p>中国大学哪些本科的材料科学与工程专业跻身2018世界一流、世界高水平、中国顶尖和中国一流专业行列？艾瑞深中国校友会网最新公布的2018本科专业排行榜中就有你想知道的答案，和小编一起来看看吧！</p><p><img alt="材料科学与工程专业全国大学排名" border="0" height="370" src="http://img.gaosan.com/upload/201710/6364472803099234688404583.jpg" style="width: 600px; height: 370px;" title="材料科学与工程专业全国大学排名" vspace="0" width="600"/></p><p>在2018本科材料科学与工程专业排行榜中，清华大学雄居排行榜榜首，哈尔滨工业大学、武汉理工大学紧随其后，占据第二、第三名。北京科技大学位列第四名，上海交通大学位列第五名，全部排名数据请看下表：</p><h2><a>1</a><span>本科大学材料科学与工程专业排名</span></h2><table><colgroup><col width="72"/><col width="163"/><col width="72"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td style="word-break: break-all;">清华大学</td><td>8星级</td><td>北京</td><td>1</td></tr><tr><td>2</td><td>哈尔滨工业大学</td><td>7星级</td><td>黑龙江</td><td>1</td></tr><tr><td>2</td><td>武汉理工大学</td><td>7星级</td><td>湖北</td><td>1</td></tr><tr><td>2</td><td>北京科技大学</td><td>7星级</td><td>北京</td><td>2</td></tr><tr><td>2</td><td>上海交通大学</td><td>7星级</td><td>上海</td><td>1</td></tr><tr><td>2</td><td>中南大学</td><td>7星级</td><td>湖南</td><td>1</td></tr><tr><td>7</td><td>西北工业大学</td><td>7星级</td><td>陕西</td><td>1</td></tr><tr><td>7</td><td>北京大学</td><td>7星级</td><td>北京</td><td>3</td></tr><tr><td>9</td><td>西安交通大学</td><td>6星级</td><td>陕西</td><td>2</td></tr><tr><td>9</td><td>浙江大学</td><td>6星级</td><td>浙江</td><td>1</td></tr><tr><td>9</td><td>华南理工大学</td><td>6星级</td><td>广东</td><td>1</td></tr><tr><td>12</td><td>东北大学</td><td>6星级</td><td>辽宁</td><td>1</td></tr><tr><td>12</td><td>天津大学</td><td>6星级</td><td>天津</td><td>1</td></tr><tr><td>12</td><td>华中科技大学</td><td>6星级</td><td>湖北</td><td>2</td></tr><tr><td>12</td><td>同济大学</td><td>6星级</td><td>上海</td><td>2</td></tr><tr><td>12</td><td>重庆大学</td><td>6星级</td><td>重庆</td><td>1</td></tr><tr><td>17</td><td>南昌大学</td><td>5星级</td><td>江西</td><td>1</td></tr><tr><td>17</td><td>吉林大学</td><td>5星级</td><td>吉林</td><td>1</td></tr><tr><td>17</td><td>南京理工大学</td><td>5星级</td><td>江苏</td><td>1</td></tr><tr><td>17</td><td>北京理工大学</td><td>5星级</td><td>北京</td><td>4</td></tr><tr><td>17</td><td>北京工业大学</td><td>5星级</td><td>北京</td><td>4</td></tr><tr><td>22</td><td>湖南大学</td><td>5星级</td><td>湖南</td><td>2</td></tr><tr><td>22</td><td>中国地质大学（北京）</td><td>5星级</td><td>北京</td><td>6</td></tr><tr><td>22</td><td>厦门大学</td><td>5星级</td><td>福建</td><td>1</td></tr><tr><td>22</td><td>北京航空航天大学</td><td>5星级</td><td>北京</td><td>6</td></tr><tr><td>22</td><td>西安理工大学</td><td>5星级</td><td>陕西</td><td>3</td></tr><tr><td>22</td><td>西南科技大学</td><td>5星级</td><td>四川</td><td>1</td></tr><tr><td>22</td><td>郑州大学</td><td>5星级</td><td>河南</td><td>1</td></tr><tr><td>22</td><td>南京工业大学</td><td>5星级</td><td>江苏</td><td>2</td></tr><tr><td>22</td><td>湘潭大学</td><td>5星级</td><td>湖南</td><td>2</td></tr><tr><td>31</td><td>中国矿业大学</td><td>4星级</td><td>江苏</td><td>3</td></tr><tr><td>31</td><td>四川大学</td><td>4星级</td><td>四川</td><td>2</td></tr><tr><td>33</td><td>中国计量大学</td><td>4星级</td><td>浙江</td><td>2</td></tr><tr><td>33</td><td>北方民族大学</td><td>4星级</td><td>宁夏</td><td>1</td></tr><tr><td>33</td><td>北京化工大学</td><td>4星级</td><td>北京</td><td>8</td></tr><tr><td>33</td><td>济南大学</td><td>4星级</td><td>山东</td><td>1</td></tr><tr><td>33</td><td>西安建筑科技大学</td><td>4星级</td><td>陕西</td><td>4</td></tr><tr><td>33</td><td>辽宁工业大学</td><td>4星级</td><td>辽宁</td><td>2</td></tr><tr><td>33</td><td>上海应用技术大学</td><td>4星级</td><td>上海</td><td>3</td></tr><tr><td>33</td><td>天津工业大学</td><td>4星级</td><td>天津</td><td>2</td></tr><tr><td>33</td><td>盐城工学院</td><td>4星级</td><td>江苏</td><td>4</td></tr><tr><td>33</td><td>贵州大学</td><td>4星级</td><td>贵州</td><td>1</td></tr><tr><td>33</td><td>南方科技大学</td><td>4星级</td><td>广东</td><td>2</td></tr><tr><td>33</td><td>上海大学</td><td>4星级</td><td>上海</td><td>3</td></tr><tr><td>33</td><td>合肥工业大学</td><td>4星级</td><td>安徽</td><td>1</td></tr><tr><td>33</td><td>西安科技大学</td><td>4星级</td><td>陕西</td><td>4</td></tr><tr><td>33</td><td>河海大学</td><td>4星级</td><td>江苏</td><td>4</td></tr><tr><td>33</td><td>宁波大学</td><td>4星级</td><td>浙江</td><td>2</td></tr><tr><td>33</td><td>东南大学</td><td>4星级</td><td>江苏</td><td>4</td></tr><tr><td>33</td><td>上海理工大学</td><td>4星级</td><td>上海</td><td>3</td></tr><tr><td>33</td><td>福州大学</td><td>4星级</td><td>福建</td><td>2</td></tr><tr><td>33</td><td>昆明理工大学</td><td>4星级</td><td>云南</td><td>1</td></tr><tr><td>33</td><td>杭州电子科技大学</td><td>4星级</td><td>浙江</td><td>2</td></tr><tr><td>33</td><td>广西大学</td><td>4星级</td><td>广西</td><td>1</td></tr><tr><td>33</td><td>浙江工业大学</td><td>4星级</td><td>浙江</td><td>2</td></tr><tr><td>56</td><td>桂林电子科技大学</td><td>3星级</td><td>广西</td><td>2</td></tr><tr><td>56</td><td>成都理工大学</td><td>3星级</td><td>四川</td><td>3</td></tr><tr><td>56</td><td>黑龙江工程学院</td><td>3星级</td><td>黑龙江</td><td>2</td></tr><tr><td>56</td><td>哈尔滨工程大学</td><td>3星级</td><td>黑龙江</td><td>2</td></tr><tr><td>56</td><td>中国海洋大学</td><td>3星级</td><td>山东</td><td>2</td></tr><tr><td>56</td><td>中国地质大学（武汉）</td><td>3星级</td><td>湖北</td><td>3</td></tr><tr><td>56</td><td>龙岩学院</td><td>3星级</td><td>福建</td><td>3</td></tr><tr><td>56</td><td>攀枝花学院</td><td>3星级</td><td>四川</td><td>3</td></tr><tr><td>56</td><td>华侨大学</td><td>3星级</td><td>福建</td><td>3</td></tr><tr><td>56</td><td>常熟理工学院</td><td>3星级</td><td>江苏</td><td>7</td></tr><tr><td>56</td><td>金陵科技学院</td><td>3星级</td><td>江苏</td><td>7</td></tr><tr><td>56</td><td>四川理工学院</td><td>3星级</td><td>四川</td><td>3</td></tr><tr><td>56</td><td>安徽工业大学</td><td>3星级</td><td>安徽</td><td>2</td></tr><tr><td>56</td><td>福建工程学院</td><td>3星级</td><td>福建</td><td>3</td></tr><tr><td>56</td><td>南京航空航天大学</td><td>3星级</td><td>江苏</td><td>7</td></tr><tr><td>56</td><td>暨南大学</td><td>3星级</td><td>广东</td><td>3</td></tr><tr><td>56</td><td>中国矿业大学（北京）</td><td>3星级</td><td>北京</td><td>9</td></tr><tr><td>56</td><td>青岛理工大学</td><td>3星级</td><td>山东</td><td>2</td></tr><tr><td>56</td><td>西南交通大学</td><td>3星级</td><td>四川</td><td>3</td></tr><tr><td>56</td><td>浙江理工大学</td><td>3星级</td><td>浙江</td><td>6</td></tr><tr><td>76</td><td>深圳大学</td><td>3星级</td><td>广东</td><td>4</td></tr><tr><td>76</td><td>重庆交通大学</td><td>3星级</td><td>重庆</td><td>2</td></tr><tr><td>76</td><td>河南工业大学</td><td>3星级</td><td>河南</td><td>2</td></tr><tr><td>76</td><td>华北电力大学</td><td>3星级</td><td>北京</td><td>10</td></tr><tr><td>76</td><td>中国石油大学（北京）</td><td>3星级</td><td>北京</td><td>10</td></tr><tr><td>76</td><td>中国石油大学（华东）</td><td>3星级</td><td>山东</td><td>4</td></tr><tr><td>76</td><td>西安电子科技大学</td><td>3星级</td><td>陕西</td><td>6</td></tr><tr><td>76</td><td>大连海事大学</td><td>3星级</td><td>辽宁</td><td>3</td></tr><tr><td>76</td><td>海南大学</td><td>3星级</td><td>海南</td><td>1</td></tr><tr><td>76</td><td>新疆大学</td><td>3星级</td><td>新疆</td><td>1</td></tr><tr><td>76</td><td>淮海工学院</td><td>3星级</td><td>江苏</td><td>10</td></tr><tr><td>76</td><td>南京工程学院</td><td>3星级</td><td>江苏</td><td>10</td></tr><tr><td>76</td><td>大连工业大学</td><td>3星级</td><td>辽宁</td><td>3</td></tr><tr><td>76</td><td>天津城建大学</td><td>3星级</td><td>天津</td><td>3</td></tr><tr><td>76</td><td>西华大学</td><td>3星级</td><td>四川</td><td>7</td></tr><tr><td>76</td><td>山东理工大学</td><td>3星级</td><td>山东</td><td>4</td></tr><tr><td>76</td><td>太原科技大学</td><td>3星级</td><td>山西</td><td>1</td></tr><tr><td>76</td><td>山东建筑大学</td><td>3星级</td><td>山东</td><td>4</td></tr><tr><td>76</td><td>太原工业学院</td><td>3星级</td><td>山西</td><td>1</td></tr><tr><td>76</td><td>大连交通大学</td><td>3星级</td><td>辽宁</td><td>3</td></tr><tr><td>76</td><td>台州学院</td><td>3星级</td><td>浙江</td><td>7</td></tr><tr><td>76</td><td>河南理工大学</td><td>3星级</td><td>河南</td><td>2</td></tr></tbody></table><h2><a>1</a><span>民办大学材料科学与工程专业排名<br/></span></h2><table><colgroup><col width="72"/><col width="163"/><col width="72"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>郑州工商学院</td><td>5星级</td><td>河南</td><td>1</td></tr><tr><td>2</td><td>江西科技学院</td><td>4星级</td><td>江西</td><td>1</td></tr><tr><td>3</td><td>厦门工学院</td><td>3星级</td><td>福建</td><td>1</td></tr></tbody></table><h2><a>1</a><span>独立学院材料科学与工程专业排名</span></h2><p><br/></p><table><colgroup><col width="72"/><col width="163"/><col width="72"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>北京科技大学天津学院</td><td>5星级</td><td>天津</td><td>1</td></tr><tr><td>2</td><td>北京理工大学珠海学院</td><td>4星级</td><td>广东</td><td>1</td></tr><tr><td>3</td><td>吉林大学珠海学院</td><td>3星级</td><td>广东</td><td>2</td></tr><tr><td>4</td><td>西安建筑科技大学华清学院</td><td>3星级</td><td>陕西</td><td>1</td></tr><tr><td>4</td><td>福州大学至诚学院</td><td>3星级</td><td>福建</td><td>1</td></tr><tr><td>4</td><td>中国矿业大学徐海学院</td><td>3星级</td><td>江苏</td><td style="word-break: break-all;">1</td></tr></tbody></table><p><br/></p><h2><a>1</a><span>中外合作办学大学材料科学与工程专业排名</span></h2><table><colgroup><col width="72"/><col width="163"/><col width="72"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>昆山杜克大学</td><td>3星级</td><td>江苏</td><td>1</td></tr><tr><td>1</td><td>广东以色列理工学院</td><td>3星级</td><td>广东</td><td>1</td></tr></tbody></table><p>艾瑞深中国校友会网2018中国大学本科专业排行榜专业星级划分：中国九星级专业：世界顶尖专业；中国八星级专业：世界一流、中国最顶尖专业；中国七星级专业：世界知名高水平、中国顶尖专业；中国六星级专业：世界高水平、中国顶尖专业；中国五星级专业：世界知名、中国一流专业；中国四星级专业：中国高水平专业；中国三星级专业：中国知名、区域一流专业；中国二星级专业：中国区域高水平专业；中国一星级专业：中国区域知名专业。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

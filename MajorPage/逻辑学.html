@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>逻辑学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+逻辑学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    逻辑学 研究思维规律的学问。逻辑和逻辑学的发展，经过了具象逻辑—抽象逻辑—具象逻辑与抽象逻辑相统一的对称逻辑三大阶段。 </h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    本专业以逻辑学为核心，横跨多学科，培养文理交叉、理论与应用相结合的复合型高级人才。逻辑学专业学生主要学习逻辑学、数学、计算机科学和哲学方面的基本理论和基础知识，受到公理化方法、形式化方法和语义分析方面的基本训练，具有专业研究的基本能力。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    鼓励学生向逻辑学与哲学、逻辑学与数学、逻辑学与法学、逻辑学与计算机科学等四个方向发展。 </h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av6494938?from=search&seid=1804417983608954313" class="">
+								
+								<div class="mui-media-body">
+									【逻辑学】陈晓平 教授
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av11713642?from=search&seid=1804417983608954313" class="">
+								
+								<div class="mui-media-body">
+									中山大学 逻辑学导论 全46讲 主讲-熊明辉 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av13047556?from=search&seid=1804417983608954313" class="">
+								
+								<div class="mui-media-body">
+									十五分钟逻辑学 27集
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av21128421?from=search&seid=1804417983608954313" class="">
+								
+								<div class="mui-media-body">
+									【公开课】逻辑学导论（完）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av28859621?from=search&seid=1804417983608954313" class="">
+								
+								<div class="mui-media-body">
+									【逻辑学】普通逻辑
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24734293?from=search&seid=9672191748320391076" class="">
+
+    								<div class="mui-media-body">
+    									【逻辑学】关于各种逻辑谬误 logical fallacies
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av35713081?from=search&seid=9672191748320391076" class="">
+
+    								<div class="mui-media-body">
+    									【干货】逻辑学与逻辑思维入门介绍
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av16158208?from=search&seid=9672191748320391076" class="">
+
+    								<div class="mui-media-body">
+    									【有书快看】5分钟看完《简单的逻辑学》让你成为社会需求的实践家
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av26767502?from=search&seid=9672191748320391076" class="">
+
+    								<div class="mui-media-body">
+    									【西方逻辑学】第一集 基础符号
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10112044?from=search&seid=9672191748320391076" class="">
+
+    								<div class="mui-media-body">
+    									简明逻辑学导论part2
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data185079"><p>中国大学哪些本科的逻辑学专业，是2018高考优秀考生报考的最佳选择呢？和小编一起来看看吧！</p><p><img alt="逻辑学专业大学排名 " border="0" height="350" src="http://img.gaosan.com/upload/peitu/600/0420.jpg" style="width: 600px; height: 350px;" title="逻辑学专业大学排名 " vspace="0" width="600"/></p><p><strong>在2018本科逻辑学专业排行榜中，北京大学雄居排行榜榜首，中国人民大学、复旦大学紧随其后，占据第二、第三名。</strong>想知道全部的逻辑学专业排名请看下表：</p><h2><a>1</a><span>公办本科大学逻辑学专业排名</span></h2><table><colgroup><col width="43"/><col width="167"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>北京大学</td><td>6星级</td><td>北京</td><td>1</td></tr><tr><td>2</td><td>中国人民大学</td><td>5星级</td><td>北京</td><td>2</td></tr><tr><td>3</td><td>复旦大学</td><td>4星级</td><td>上海</td><td>1</td></tr><tr><td>4</td><td>中山大学</td><td>4星级</td><td>广东</td><td>1</td></tr><tr><td>4</td><td>南开大学</td><td>4星级</td><td>天津</td><td>1</td></tr><tr><td>6</td><td>浙江大学</td><td>3星级</td><td>浙江</td><td>1</td></tr><tr><td>7</td><td>贵州工程应用技术学院</td><td>3星级</td><td>贵州</td><td>1</td></tr></tbody></table><h2><a>1</a><span>逻辑学专业介绍</span></h2><p></p><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-12/f347b536-3212-42db-ac5c-804b93c6dcce.jpg" title="逻辑学专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>哲学类</td><td>￥6565<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过49%的专业</span></td><td>广州市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">18%在广州市工作</span></td><td style="word-break: break-all;">男生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男66%-女34%</span></td></tr></tbody></table><p>专业介绍：逻辑学专业学生主要学习逻辑学、数学、计算机科学和哲学方面的基本理论和基础知识，受到公理化方法、形式化方法和语义分析方面的基本训练，具有专业研究的基本能力。</p><p>就业方向：该专业毕业生可在高等院校、科研单位、国家机关及企事业管理部门从事逻辑学的教学、科研和应用方面的工作，从事计算机科学和语言学的科研和应用方面相关工作。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>石油工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+石油工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    石油工程，是根据油气和储层特性建立适宜的流动通道并优选举升方法，经济有效地将深埋于地下油气从油气藏中开采到地面所实施的一系列工程和工艺技术的总称。包括油藏、钻井、采油和石油地面工程等。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    石油工程是集多种工艺技术和工程措施于一体，多种工艺技术相互配合、相互渗透、相互促进和发展的综合工程。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av7172621?from=search&seid=16435684717335932325" class="">
+								
+								<div class="mui-media-body">
+									【票圈】【工程技术】【共8集】《石油工程导论》中国石油大学（北京）公开课&amp;微博@票圈
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av35104915?from=search&seid=16435684717335932325" class="">
+								
+								<div class="mui-media-body">
+									石油工程学院迎新晚会
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av34606218?from=search&seid=16435684717335932325" class="">
+								
+								<div class="mui-media-body">
+									【资源学院石油工程系】中国地质大学(武汉) 世界油气田 主讲-陈振林【全32讲】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av40183350?from=search&seid=16435684717335932325" class="">
+								
+								<div class="mui-media-body">
+									石油工程学院2018届毕业生晚会01
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av44515713?from=search&seid=16435684717335932325" class="">
+								
+								<div class="mui-media-body">
+									中国石油大学 油气田开发地质学 全38讲 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av42109238?from=search&seid=14640760518027357503" class="">
+
+    								<div class="mui-media-body">
+    									石油工程
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av20588877?from=search&seid=14640760518027357503" class="">
+
+    								<div class="mui-media-body">
+    									Is a Petroleum Engineering Degree Still Worth It
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10654092?from=search&seid=14640760518027357503" class="">
+
+    								<div class="mui-media-body">
+    									一首歌送给拼搏的石油人
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24479359?from=search&seid=14640760518027357503" class="">
+
+    								<div class="mui-media-body">
+    									《从苹果城到琴岛珍珠的青漂记》
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av42564701?from=search&seid=14640760518027357503" class="">
+
+    								<div class="mui-media-body">
+    									新年视频
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data139443"><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-09/b3f3c4b1-936d-428a-bbf8-77c50ec1b3da.jpg" title="石油工程专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>矿业类</td><td>￥7159<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过66%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">13%在北京市工作</span></td><td>男生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男81%-女19%</span></td></tr></tbody></table><p>培养目标：本专业培养具备工程基础理论和石油工程专业知识，能在石油工程领域从事油气钻井工程、采油工程、油藏工程、储层评价等方面的工程设计、工程施工与管理、应用研究与科技开发等方面工作，获得石油工程师基本训练的高级专门技术人才。</p><p>主要课程：技术经济学、油气田开发地质、工程力学、计算机程序设计、流体力学、渗流力学、钻井工程、采油工程、油藏工程、油田化学、钻采新技术等。</p><p>就业方向：石油工程毕业生主要到石油工程领域从事油气钻井与完井工程、采油工程、油藏工程、储层评价等方面的工程设计、工程施工与管理、应用研究与科技开发等方面的工作。</p><h2><a>1</a><span>2018最新石油工程专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>中国石油大学(北京)</td><td>5★</td><td>21</td></tr><tr><td>2</td><td>中国石油大学(华东)</td><td>4★</td><td>21</td></tr><tr><td>3</td><td>西南石油大学</td><td>4★</td><td>21</td></tr><tr><td>4</td><td>东北石油大学</td><td>4★</td><td>21</td></tr><tr><td>5</td><td>西安石油大学</td><td>3★</td><td>21</td></tr></tbody></table><h2><a>1</a><span>石油工程专业排名大学介绍</span></h2><p>中国石油大学（北京）坐落在风景秀丽的北京市昌平区军都山南麓，校园总面积496.5亩。学校是一所石油特色鲜明、以工为主、多学科协调发展的教育部直属的全国重点大学，1997年，学校首批进入国家“211工程”建设高校行列。校现有在校全日制本科生7714人、硕士研究生5538人、博士研究生1142人、留学生800余人（含语言生），在校生总数15000余人。</p><p><img alt="中国石油大学(北京) 主楼" src="http://img.gaosan.com/upload/webimg/1677.jpg" title="中国石油大学(北京) 主楼"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1953年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><p>中国石油大学(华东)是教育部直属全国重点大学，是国家“211工程”和“985工程优势学科创新平台”高校，是高水平行业特色大学优质资源共享联盟成员高校，是“卓越工程师教育培养计划”、“111计划”、“国家建设高水平大学公派研究生项目”、千人计划重点建设的行业特色型大学入选高校之一。</p><p><img alt="1403317093_2d5b0c220c983e42d5f9ee3aeff406a3_meitu_1.jpg" src="http://img.gaosan.com/upload/201605/6359916451265607244831889.jpg" title="1403317093_2d5b0c220c983e42d5f9ee3aeff406a3_meitu_1.jpg"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1953年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><p>西南石油大学是新中国创建的第二所石油本科院校，是一所中央与地方共建、以四川省人民政府管理为主的高等学校。2013年，学校入选“国家中西部高校基础能力建设工程”，成为入选该工程的100所高校之一。为了加快开发四川石油天然气资源，也为西南协作区发展石油天然气工业培养技术干部，国家决定成立第二所石油高校，校址就设在川中石油会战指挥部所在地川北重镇南充市。</p><p><img alt="西南石油大学校门" src="http://img.gaosan.com/upload/webimg/1780.jpg" title="西南石油大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1958年</td><td>公立</td><td>综合</td><td>四川省人民政府</td></tr></tbody></table><p>东北石油大学，创建于1960年，是当时全国88所重点大学之一。2010年更名为东北石油大学。学校现有18个教学院（部），占地面积150.3万平方米，教学行政用房面积60万平方米。室内外体育场所面积15.7万平方米。教学科研仪器设备总值超过2亿元。有单体建筑面积为4.5万平方米的现代化图书馆，馆藏图书222万册，有数据资源19种。</p><p><img alt="东北石油大学校门" src="http://img.gaosan.com/upload/webimg/1836.jpg" title="东北石油大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1960年</td><td>公立</td><td>理工</td><td>黑龙江省人民政府</td></tr></tbody></table><p>西安石油大学是西北地区惟一一所以石油石化为特色的多科性普通高等学校，是陕西省人民政府和中国三大石油公司共建院校、陕西省“十二五”期间高水平大学建设工程入选院校。2000年，由中国石油天然气集团公司所属划转为中央与地方共建、以陕西省为主管。2003年，更名为西安石油大学。</p><p><img alt="西安石油大学校门" src="http://img.gaosan.com/upload/webimg/1934.jpg" title="西安石油大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1951年</td><td>公立</td><td>工科</td><td>陕西省人民政府</td></tr></tbody></table><p>　　以上2018年石油工程专业大学排名石油工程专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

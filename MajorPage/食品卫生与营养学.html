@@ -1,0 +1,174 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>食品卫生与营养学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+食品卫生与营养学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    食品卫生与营养学是研究食物与机体的相互作用，以及食物营养成分（包括营养素、非营养素、抗营养素等成分）在机体里分布、运输、消化、代谢等方面的一门学科。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av44574558?from=search&seid=15390043991666697139" class="">
+								
+								<div class="mui-media-body">
+									基础营养学【66集】(何计国：中国农业大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av44319841?from=search&seid=15390043991666697139" class="">
+								
+								<div class="mui-media-body">
+									合理膳食与营养配餐【7集】(何计国：中国农业大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av37852360?from=search&seid=3076530263118361069" class="">
+
+    								<div class="mui-media-body">
+    									营养与食品卫生学～食品有害物质限量标准的制定
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av14436364?from=search&seid=3076530263118361069" class="">
+
+    								<div class="mui-media-body">
+    									卡通版幼儿园食品安全与卫生宣讲
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av6829606?from=search&seid=4899224939249612645" class="">
+
+    								<div class="mui-media-body">
+    									【CCTV】揭秘速冻水饺（2015）【全一集】
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av11329877?from=search&seid=4899224939249612645" class="">
+
+    								<div class="mui-media-body">
+    									网红食品成现象级热点，背后种种问题难以忽视
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av11032784?from=search&seid=4899224939249612645" class="">
+
+    								<div class="mui-media-body">
+    									【14营养】170601团日活动
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data140713"><p><img alt="24.jpg" src="http://img.gaosan.com/upload/201606/6360082218610781629598882.jpg" title="24.jpg"/></p><p>培养目标：通过专业四年的学习，培养学生具备基础医学、营养学和预防医学、临床医学的基本知识、基本理论和基本技能，使毕业生能够成为从事人群的营养指导、保健和营养知识的宣传教育、防病治病、医院临床营养治疗和指导食品配制的高级营养专业人才。就业单位如学校、幼儿教育机构、宾馆、医院营养科、高等院校、科研单位、各级疾病预防控制中心(CDC)、卫生监督所、食品药品管理局、社区卫生服务中心、学校和卫生管理机构等。</p><p>就业方向：食品卫生与营养专业学生毕业后可在各级医疗卫生机构、动植物检验部门、营养与食品安全服务部门、食品企业、食品流通、各类餐饮业、教学单位等从事营养与食品卫生技术工作，以及从事食品安全检测、社区人群营养卫生管理和社区人群卫生保健工作等。</p><h2><a>1</a><span>2018最新食品卫生与营养学专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>上海交通大学</td><td>5★</td><td>21</td></tr><tr><td>2</td><td>四川大学</td><td>4★</td><td>21</td></tr><tr><td>3</td><td>南京中医药大学</td><td>4★</td><td>21</td></tr><tr><td>4</td><td>贵州医科大学</td><td>4★</td><td>21</td></tr><tr><td>5</td><td>重庆医科大学</td><td>3★</td><td>21</td></tr></tbody></table><h2><a>1</a><span>食品卫生与营养学专业排名大学介绍</span></h2><p>上海交通大学是我国历史最悠久、享誉海内外的高等学府之一，是教育部直属并与上海市共建的全国重点大学。经过120年的不懈努力，上海交通大学已经成为一所“综合性、研究型、国际化”的国内一流、国际知名大学。十九世纪末，甲午战败，民族危难。中国近代著名实业家、教育家盛宣怀和一批有识之士秉持“自强首在储才，储才必先兴学”的信念，于1896年在上海创办了交通大学的前身——南洋公学。建校伊始，学校即坚持“求实学，务实业”的宗旨，以培养“第一等人才”为教育目标，精勤进取，笃行不倦，在二十世纪二三十年代已成为国内著名的高等学府，被誉为“东方MIT”。抗战时期，广大师生历尽艰难，移转租界，内迁重庆，坚持办学，不少学生投笔从戎，浴血沙场。解放前夕，广大师生积极投身民主革命，学校被誉为“民主堡垒”。</p><p><img alt="上海交通大学 思远湖" src="http://img.gaosan.com/upload/webimg/1625.jpg" title="上海交通大学 思远湖"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1896年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>四川大学是教育部直属全国重点大学，是布局在中国西部、“985工程”和“211工程”重点建设的高水平研究型综合大学。学校现任党委书记杨泉明教授、校长谢和平院士。</p><p><img alt="四川大学校门" src="http://img.gaosan.com/upload/webimg/1645.jpg" title="四川大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1896年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>南京中医药大学始建于1954年，是全国建校最早的中医药高等院校之一。学校坐落于南京，拥有仙林和汉中门两个校区。现有各类在校生近2万名，设有基础医学院、第一临床医学院、第二临床医学院、药学院、经贸管理学院、护理学院、外国语学院、信息技术学院、心理学院共9所直属学院，26个本科专业，涉及医、管、理、工、经、文等6个学科门类。</p><p><img alt="南京中医药大学 校名石" src="http://img.gaosan.com/upload/webimg/1813.jpg" title="南京中医药大学 校名石"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1954年</td><td>公立</td><td>医药</td><td>江苏省人民政府</td></tr></tbody></table><p>贵州医科大学地处祖国西南的避暑之都——林城贵阳。其前身为创建于1938年的国立贵阳医学院，是当时隶属于教育部的九所国立医学院校之一。1950年更名为贵阳医学院，2015年更名为贵州医科大学，是贵州省唯一拥有医学学士——硕士——博士完整人才培养体系的省属重点高校。</p><p><img alt="贵州医科大学校门" src="http://img.gaosan.com/upload/webimg/1874.jpg" title="贵州医科大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1938年</td><td>公立</td><td>医药</td><td>贵州省教育厅</td></tr></tbody></table><p>重庆医科大学创建于1956年，由上海第一医学院分迁来渝组建而成，原名重庆医学院，1985年更名为重庆医科大学。学校是国务院学位委员会批准的首批具有博士和硕士学位授予权的单位。学校由位于渝中区的袁家岗校区和位于重庆大学城的缙云校区组成，校园总面积2650余亩。其中，缙云校区占地2000余亩，校园环境优美，风景如画。</p><p><img alt="重庆医科大学校门" src="http://img.gaosan.com/upload/webimg/1748.jpg" title="重庆医科大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1956年</td><td>公立</td><td>医药</td><td>重庆市教育委员会</td></tr></tbody></table><p>　　以上2018年食品卫生与营养学专业大学排名食品卫生与营养学专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

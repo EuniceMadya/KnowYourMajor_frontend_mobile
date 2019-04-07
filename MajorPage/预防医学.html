@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>预防医学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+预防医学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    以人群为研究对象，应用宏观与微观的技术手段，研究健康影响因素及其作用规律，阐明外界环境因素与人群健康的相互关系，制定公共卫生策略与措施，以达到预防疾病增进健康延长寿命提高生命质量为目标的一门医学科学。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    预防医学是从医学科学体系中分化出来的，它是研究预防和消灭病害，讲究卫生，增强体质，改善和创造有利于健康的生产环境和生活条件的科学。预防医学与临床医学不同之处在于它是以人群为对象，而不是仅限于以个体为对象。医学发展的趋势之一，是从个体医学发展到群体医学，今天许多医学问题的真正彻底解决，不可能离开群体和群体医学方法。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    预防医学是以“环境-人群-健康”为模式，以人群为研究对象，以预防为主要思想指导，运用现代医学知识和方法研究环境对健康影响的规律，制定预防人类疾病发生的措施，实现促进健康，预防伤残和疾病为目的的一门科学。预防医学的特点包括：工作对象包括个体和群体，工作重点是健康和无症状患者，对策与措施更具积极预防作用，更具人群健康效益，研究方法上更注重微观和宏观相结合，研究重点是环境与人群健康之间的关系。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    该学科应用现代医学及其他科学技术手段研究人体健康与环境因素之间的关系，制定疾病防治策略与措施，以达到控制疾病，保障人民健康，延长人类寿命之目的。随着医学模式的发展，该专业日益显示出其在医学科学中的重要性。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av22030705?from=search&seid=14729355801266396401" class="">
+								
+								<div class="mui-media-body">
+									听段老师讲预防医学
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av22468354?from=search&seid=14729355801266396401" class="">
+								
+								<div class="mui-media-body">
+									预防医学
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av10604882?from=search&seid=14729355801266396401" class="">
+								
+								<div class="mui-media-body">
+									口腔预防医学（金英杰口腔医学）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av19393579?from=search&seid=14729355801266396401" class="">
+								
+								<div class="mui-media-body">
+									2017临床核心考点全攻略-第七章 预防医学（共2讲）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av18920769?from=search&seid=14729355801266396401" class="">
+								
+								<div class="mui-media-body">
+									预防医学与公共卫生
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av25467720?from=search&seid=16033294024382669635" class="">
+
+    								<div class="mui-media-body">
+    									复旦大学2013级预防医学毕业MV《遇见这五年》
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av6914801?from=search&seid=16033294024382669635" class="">
+
+    								<div class="mui-media-body">
+    									预防医学：花小钱防大病，这个专业学起来超划算！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av12227538?from=search&seid=16033294024382669635" class="">
+
+    								<div class="mui-media-body">
+    									同袍有话说：5：预防医学
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av25585162?from=search&seid=16033294024382669635" class="">
+
+    								<div class="mui-media-body">
+    									重庆医科大学2013级预防医学毕业视频
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av20486893?from=search&seid=16033294024382669635" class="">
+
+    								<div class="mui-media-body">
+    									卫爱前行（about公共卫生与预防医学）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data212394"><p>预防医学专业最好的大学有哪几所，中国哪些本科大学预防医学专业实力最强？下面是全国最好的预防医学专业大学排名，欢迎阅读。<br/></p><p><img alt="预防医学专业大学排名" border="0" height="375" src="http://img.gaosan.com/upload/201805/6366311915732671027996519.jpg" style="width: 600px; height: 375px;" title="预防医学专业大学排名" vspace="0" width="600"/></p><h2><a>1</a><span>全国预防医学专业高校排行榜</span></h2><p>在最新公布的2018年预防医学专业大学排名中，排名第一的是北京大学，<a href="/gaokao/175022.html" target="_blank">复旦大学</a>排名第二，华中科技大学排名第三。</p><p><img alt="预防医学专业大学排名" border="0" height="624" src="http://img.gaosan.com/upload/201805/6366311918418436626390143.png" style="width: 600px; height: 624px;" title="预防医学专业大学排名" vspace="0" width="600"/></p><p>注：以上预防医学专业最好大学排名数据比较权威，可信度较高。</p><h2><a>1</a><span>预防医学专业介绍</span></h2><p>预防医学是从医学科学体系中分化出来的，它是研究预防和消灭病害，讲究卫生，增强体质，改善和创造有利于健康的生产环境和生活条件的科学。预防医学的特点包括：工作对象包括个体和群体，工作重点是健康和无症状患者，对策与措施更具积极预防作用，更具人群健康效益，研究方法上更注重微观和宏观相结合，研究重点是环境与人群健康之间的关系。</p><p>预防医学是从医学科学体系中分化出来的，它是研究预防和消灭病害，讲究卫生，增强体质，改善和创造有利于健康的生产环境和生活条件的科学。预防医学与临床医学不同之处在于它是以人群为对象，而不是仅限于以个体为对象。医学发展的趋势之一，是从个体医学发展到群体医学，今天许多医学问题的真正彻底解决，不可能离开群体和群体医学方法。</p><p>以上是高三网小编整理的关于全国预防医学专业的大学排名数据，仅供参考，大家在报考时可以根据自己的分数选择相应的预防医学专业院校。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

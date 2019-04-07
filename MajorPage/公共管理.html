@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>公共管理</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+公共管理</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    公共管理是针对政府管理的缺陷而产生的一种管理理念和管理模式。它一方面强调管理目标的“公共性”，即公共权力必须履行公共职能; 另一方面强调对公共权力(权威)的监督、制约和规范，强调运用公共权力(权威) 的科学方法 。 </h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    公共管理是对公共事务的管理，公共事务是公共管理的起点，决定了公共行政走向公共管理的必然态势。近年来，国内学界对公共管理的一些相关问题进行了深入探讨，取得了可喜的成绩。总体上看，公共管理对我们还是一个新课题，公共管理学科发展还处在起步阶段。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av23121659?from=search&seid=7737221583054696329" class="">
+								
+								<div class="mui-media-body">
+									2018.3.24-3.25 公共管理 徐老师
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av32136473?from=search&seid=7737221583054696329" class="">
+								
+								<div class="mui-media-body">
+									清华大学 以人为本与公共管理伦理
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av41247177?from=search&seid=7737221583054696329" class="">
+								
+								<div class="mui-media-body">
+									高级公共管理研究方法【33集】(范柏乃：浙江大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av46354591?from=search&seid=7737221583054696329" class="">
+								
+								<div class="mui-media-body">
+									公共行政学考研竺乾威 2020考研陈庆云公共政策分析 欧文休斯公共管理 陈振明公共政策分析 夏书章行政管理学 张永桃行政管理学 持续更新分享
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av46354403?from=search&seid=7737221583054696329" class="">
+								
+								<div class="mui-media-body">
+									公共管理导论考研欧文休斯 2020考研张成福公共管理学导论 公共管理学考研陈振明 竺乾威公共行政学 张国庆公共行政学等 分享
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av23395980?from=search&seid=16847486805602413559" class="">
+
+    								<div class="mui-media-body">
+    									公共管理学院14级信管毕业视频
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av27783995?from=search&seid=16847486805602413559" class="">
+
+    								<div class="mui-media-body">
+    									报上了公共管理类专业，这个结果靠谱吗？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10347182?from=search&seid=16847486805602413559" class="">
+
+    								<div class="mui-media-body">
+    									报考首都经济贸易大学公共管理专业你需要知道这些
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av23438650?from=search&seid=16847486805602413559" class="">
+
+    								<div class="mui-media-body">
+    									四川大学公共管理学院2018届档案学毕业视频
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av32549978?from=search&seid=16847486805602413559" class="">
+
+    								<div class="mui-media-body">
+    									中国留学生40年之薛澜：中国公共管理教育的先行者
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div class="text"><p>中国大学公共管理类哪些本科专业跻身2018世界一流专业、中国顶尖专业和中国一流专业行列？哪些公共管理类专业是2018年中国高考最优秀考生选择报考的最佳专业？													</p><p>为了给2018年全国高考考生和外国来华留学生选择报考中国大学公共管理类本科专业提供权威参考指南，艾瑞深中国校友会网(Cuaa.Net)编写完成、科学出版社出版发行的《2018中国大学评价研究报告―中国高考志愿填报指南（校友会版）》最新发布2018中国大学一流专业排行榜、2018中国大学各学科一流专业排行榜和2018中国大学公共管理类本科专业排行榜等榜单。																										报告显示，全国206个专业荣膺2018中国八星级专业（8★），跻身世界一流专业、中国最顶尖专业行列；清华大学雄居2018中国大学一流专业排行榜冠军，北京大学第2，中国人民大学第3，复旦大学第4，浙江大学第5，天津大学跻身前10强。中国社会科学院大学、西南政法大学和昆明理工大学等10所非双一流大学跻身全国100强。最引人关注的是，工商管理、经济学和计算机专业最盛产全球亿万富豪，168位福布斯全球富豪榜上榜富豪财富总额高达4.32万亿, 堪称“中国全球亿万富豪摇篮”。深圳大学计算机专业造富能力最强，培养了马化腾、张志东和周群飞等4名全球顶级亿万富豪，财富总额近4500亿，雄居2018中国最具财富创造力专业排行榜榜首；杭州师范大学英语、武汉科技大学材料学专业跻身全国前3甲。													</p><p>值得关注的是，全国有15所世界一流学科建设高校跌出全国200强，本科专业建设水平有待提升；中国社会科学院大学、北京电影学院、上海戏剧学院、中国戏曲学院、西南政法大学、深圳大学、燕山大学、北京舞蹈学院、天津师范大学和昆明理工大学等10所非双一流大学跻身全国前100强。吉林大学珠海学院、云南师范大学商学院、四川大学锦江学院、北京师范大学珠海分校、武汉科技大学城市学院列2018中国独立学院一流专业排行榜前5强。武昌首义学院、文华学院、三亚学院、郑州工商学院、西安欧亚学院列2018中国民办大学一流专业排行榜前5强，西交利物浦大学、北京师范大学－香港浸会大学联合国际学院和宁波诺丁汉大学居2018中国合作办学大学一流专业排行榜前3强。													</p><p>													一流本科教育是建设世界一流大学的重要基础，本科专业建设是中国高校本科教育教学建设中重要工作。自2015年起，艾瑞深中国校友会网(Cuaa.Net)已连续4年发布中国大学本科专业排行榜，旨在为全国高考考生、外国来华留学生高考填报志愿挑选大学与专业提供权威参考指南。校友会 2018中国大学本科专业评价指标由学科水平、毕业生质量、师资水平、专业水平和专业影响等五大指标构成，涵盖包括了国家“双一流”建设学科、教育部第四轮学科评估结果、国家级特色专业、省级特色重点专业、杰出校友和杰出师资等100多项指标，详情请参阅由艾瑞深研究院赵德国、蔡言厚、党亚茹、王凌峰、刘明和蔡莉编写完成、科学出版社面向全国出版发行的《2018中国大学评价研究报告―中国高考志愿填报指南（校友会版）》。													</p><p><b>艾瑞深中国校友会网2018中国大学公共管理类各本科专业排行榜</b>：													 </p><p align="center"><b>校友会2018中国大学城市管理专业排名</b></p><table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr><tr><td>1</td><td>北京大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>北京</td><td>1</td></tr><tr><td>2</td><td>中南财经政法大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>湖北</td><td>1</td></tr><tr><td>2</td><td>南开大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>天津</td><td>1</td></tr><tr><td>2</td><td>中国人民大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>北京</td><td>2</td></tr></table><p align="center"><b>校友会2017中国民办大学城市管理专业排行榜																																												   		  <table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr><tr><td>1</td><td>北京城市学院</td><td>6星级</td><td>中国顶尖民办大学专业</td><td>北京</td><td>1</td></tr></table></b></p><p align="center"><b>校友会2017中国独立学院城市管理专业排行榜																																												   		  <table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr><tr><td>1</td><td>东北师范大学人文学院</td><td>6星级</td><td>中国顶尖独立学院专业</td><td>吉林</td><td>1</td></tr><tr><td>2</td><td>云南师范大学商学院</td><td>5星级</td><td>中国一流独立学院专业</td><td>云南</td><td>1</td></tr></table></b></p><p align="center"><b>校友会2018中国大学公共关系学专业排名</b></p><table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr></table><p align="center"><b>校友会2017中国独立学院公共关系学专业排行榜																																												   		  <table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr><tr><td>1</td><td>中山大学南方学院</td><td>5星级</td><td>中国一流独立学院专业</td><td>广东</td><td>1</td></tr></table></b></p><p align="center"><b>校友会2017中外合作办学大学公共关系学专业排行榜																																												   		  <table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr><tr><td>1</td><td>北京师范大学－香港浸会大学联合国际学院</td><td>5星级</td><td>中国一流合作办学大学专业</td><td>广东</td><td>1</td></tr></table></b></p><p align="center"><b>校友会2018中国大学公共事业管理专业排名</b></p><table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr><tr><td>1</td><td>复旦大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>上海</td><td>1</td></tr><tr><td>1</td><td>北京大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>北京</td><td>1</td></tr><tr><td>1</td><td>中国人民大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>北京</td><td>1</td></tr><tr><td>4</td><td>中山大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>广东</td><td>1</td></tr><tr><td>4</td><td>东北大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>辽宁</td><td>1</td></tr><tr><td>6</td><td>浙江大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>浙江</td><td>1</td></tr><tr><td>6</td><td>上海交通大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>上海</td><td>2</td></tr><tr><td>6</td><td>武汉体育学院</td><td>5星级</td><td>世界知名、中国一流专业</td><td>湖北</td><td>1</td></tr><tr><td>6</td><td>吉林大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>吉林</td><td>1</td></tr><tr><td>6</td><td>华中科技大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>湖北</td><td>1</td></tr><tr><td>6</td><td>武汉大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>湖北</td><td>1</td></tr></table><p align="center"><b>校友会2017中国民办大学公共事业管理专业排行榜																																												   		  <table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr><tr><td>1</td><td>北京城市学院</td><td>6星级</td><td>中国顶尖民办大学专业</td><td>北京</td><td>1</td></tr><tr><td>2</td><td>文华学院</td><td>5星级</td><td>中国一流民办大学专业</td><td>湖北</td><td>1</td></tr><tr><td>2</td><td>武昌理工学院</td><td>5星级</td><td>中国一流民办大学专业</td><td>湖北</td><td>1</td></tr></table></b></p><p align="center"><b>校友会2017中国独立学院公共事业管理专业排行榜																																												   		  <table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr><tr><td>1</td><td>燕山大学里仁学院</td><td>5星级</td><td>中国一流独立学院专业</td><td>河北</td><td>1</td></tr><tr><td>1</td><td>北京师范大学珠海分校</td><td>5星级</td><td>中国一流独立学院专业</td><td>广东</td><td>1</td></tr><tr><td>1</td><td>云南师范大学商学院</td><td>5星级</td><td>中国一流独立学院专业</td><td>云南</td><td>1</td></tr></table></b></p><p align="center"><b>校友会2017中外合作办学大学公共事业管理专业排行榜																																												   		  <table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr><tr><td>1</td><td>西交利物浦大学</td><td>5星级</td><td>中国一流合作办学大学专业</td><td>江苏</td><td>1</td></tr></table></b></p><p align="center"><b>校友会2018中国大学交通管理专业排名</b></p><table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr><tr><td>1</td><td>上海海事大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>上海</td><td>1</td></tr><tr><td>2</td><td>中国民用航空飞行学院</td><td>5星级</td><td>世界知名、中国一流专业</td><td>四川</td><td>1</td></tr></table><p align="center"><b>校友会2018中国大学劳动与社会保障专业排名</b></p><table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr><tr><td>1</td><td>首都经济贸易大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>北京</td><td>1</td></tr><tr><td>2</td><td>中南财经政法大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>湖北</td><td>1</td></tr><tr><td>2</td><td>中国人民大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>北京</td><td>2</td></tr><tr><td>2</td><td>吉林大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>吉林</td><td>1</td></tr></table><p align="center"><b>校友会2017中国民办大学劳动与社会保障专业排行榜																																												   		  <table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr><tr><td>1</td><td>上海杉达学院</td><td>5星级</td><td>中国一流民办大学专业</td><td>上海</td><td>1</td></tr></table></b></p><p align="center"><b>校友会2017中国独立学院劳动与社会保障专业排行榜																																												   		  <table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr><tr><td>1</td><td>吉林大学珠海学院</td><td>5星级</td><td>中国一流独立学院专业</td><td>广东</td><td>1</td></tr><tr><td>2</td><td>北京师范大学珠海分校</td><td>5星级</td><td>中国一流独立学院专业</td><td>广东</td><td>2</td></tr></table></b></p><p align="center"><b>校友会2018中国大学土地资源管理专业排名</b></p><table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr><tr><td>1</td><td>中国人民大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>北京</td><td>1</td></tr><tr><td>2</td><td>中国地质大学（北京）</td><td>5星级</td><td>世界知名、中国一流专业</td><td>北京</td><td>2</td></tr><tr><td>3</td><td>南京农业大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>江苏</td><td>1</td></tr><tr><td>3</td><td>甘肃农业大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>甘肃</td><td>1</td></tr><tr><td>3</td><td>河北地质大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>河北</td><td>1</td></tr></table><p align="center"><b>校友会2017中国独立学院土地资源管理专业排行榜																																												   		  <table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr><tr><td>1</td><td>中国地质大学长城学院</td><td>5星级</td><td>中国一流独立学院专业</td><td>河北</td><td>1</td></tr></table></b></p><p align="center"><b>校友会2018中国大学行政管理专业排名</b></p><table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr><tr><td>1</td><td>中国人民大学</td><td>8星级</td><td>世界一流专业</td><td>北京</td><td>1</td></tr><tr><td>1</td><td>清华大学</td><td>8星级</td><td>世界一流专业</td><td>北京</td><td>1</td></tr><tr><td>3</td><td>中山大学</td><td>7星级</td><td>世界知名高水平、中国顶尖专业</td><td>广东</td><td>1</td></tr><tr><td>3</td><td>北京大学</td><td>7星级</td><td>世界知名高水平、中国顶尖专业</td><td>北京</td><td>3</td></tr><tr><td>5</td><td>南京大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>江苏</td><td>1</td></tr><tr><td>5</td><td>复旦大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>上海</td><td>1</td></tr><tr><td>7</td><td>中南财经政法大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>湖北</td><td>1</td></tr><tr><td>7</td><td>浙江大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>浙江</td><td>1</td></tr><tr><td>7</td><td>武汉大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>湖北</td><td>1</td></tr><tr><td>10</td><td>西安交通大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>陕西</td><td>1</td></tr><tr><td>10</td><td>上海交通大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>上海</td><td>2</td></tr><tr><td>10</td><td>南开大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>天津</td><td>1</td></tr><tr><td>13</td><td>厦门大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>福建</td><td>1</td></tr><tr><td>13</td><td>南京农业大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>江苏</td><td>2</td></tr><tr><td>13</td><td>东北大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>辽宁</td><td>1</td></tr><tr><td>13</td><td>北京师范大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>北京</td><td>4</td></tr><tr><td>13</td><td>东北财经大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>辽宁</td><td>1</td></tr><tr><td>13</td><td>华东师范大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>上海</td><td>3</td></tr><tr><td>13</td><td>山东大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>山东</td><td>1</td></tr><tr><td>13</td><td>西南政法大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>重庆</td><td>1</td></tr></table><p align="center"><b>校友会2017中国民办大学行政管理专业排行榜																																												   		  <table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr><tr><td>1</td><td>湖南涉外经济学院</td><td>5星级</td><td>中国一流民办大学专业</td><td>湖南</td><td>1</td></tr><tr><td>1</td><td>武昌理工学院</td><td>5星级</td><td>中国一流民办大学专业</td><td>湖北</td><td>1</td></tr></table></b></p><p align="center"><b>校友会2017中国独立学院行政管理专业排行榜																																												   		  <table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr><tr><td>1</td><td>吉林大学珠海学院</td><td>5星级</td><td>中国一流独立学院专业</td><td>广东</td><td>1</td></tr><tr><td>2</td><td>河南师范大学新联学院</td><td>5星级</td><td>中国一流独立学院专业</td><td>河南</td><td>1</td></tr></table></b></p></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

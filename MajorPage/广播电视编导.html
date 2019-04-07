@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>广播电视编导</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+广播电视编导</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    广播电视编导是戏剧与影视学一级学科下属的二级专业，学科门类属于艺术学，颁发艺术学学士学位。作为国家级特色专业，着眼于媒体发展的学科和产业前沿，致力于培养具有综合素质、专业精神、团队意识和全局把握能力的创造性人才，为主流电视传媒机构输送各类电视节目的主创人员，塑造影响中国未来电视发展的高级编导人才和领军人物。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av45150228?from=search&seid=14950552169381242969" class="">
+								
+								<div class="mui-media-body">
+									南京师范大学中北学院2018级广播电视编导普通话训练课结课表演
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av16922560?from=search&seid=14950552169381242969" class="">
+								
+								<div class="mui-media-body">
+									徐州领航传媒教育2017年下学期学习生活掠影
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av37984521?from=search&seid=14950552169381242969" class="">
+								
+								<div class="mui-media-body">
+									超多老师亲述！中国传媒大学2019艺考专业超详细介绍！
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av12022456?from=search&seid=14950552169381242969" class="">
+								
+								<div class="mui-media-body">
+									第七放映室 14编导专业展映
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av40791565?from=search&seid=14950552169381242969" class="">
+								
+								<div class="mui-media-body">
+									天津师范大学16编导作品展映现场回放
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av16082143?from=search&seid=15839715950120987041" class="">
+
+    								<div class="mui-media-body">
+    									2018届广播电视编导专业本科毕业生MG视频简历【林建新】
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av42444123?from=search&seid=15839715950120987041" class="">
+
+    								<div class="mui-media-body">
+    									【生僻字】传媒广播电视编导版
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av21428732?from=search&seid=15839715950120987041" class="">
+
+    								<div class="mui-media-body">
+    									武夷学院16广播电视编导专业 作品《他》
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24326452?from=search&seid=15839715950120987041" class="">
+
+    								<div class="mui-media-body">
+    									《一盒饭》——中国传媒大学2016级广播电视编导（电视编辑方向）辅修双学位结课作业
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av37991929?from=search&seid=15839715950120987041" class="">
+
+    								<div class="mui-media-body">
+    									四川传媒学院-电影电视学院-2018级广播电视编导四班-摄影四组第一学期学业混剪
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data185050"><p>中国大学哪些本科的广播电视编导专业，是2018高考优秀考生报考的最佳选择呢？和小编一起来看看吧！</p><p><img alt="广播电视编导专业大学排名" border="0" height="350" src="http://img.gaosan.com/upload/201711/6364515871920383283352369.jpg" style="width: 600px; height: 350px;" title="广播电视编导专业大学排名" vspace="0" width="600"/></p><p><strong>在2018本科广播电视编导专业排行榜中，中国传媒大学雄居排行榜榜首，浙江传媒学院紧随其后，占据第二名。</strong>想知道全部的广播电视编导专业排名请看下表：</p><h2><a>1</a><span>公办本科大学广播电视编导专业排名</span></h2><table><colgroup><col width="50"/><col width="146"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>中国传媒大学</td><td>6星级</td><td>北京</td><td>1</td></tr><tr><td>2</td><td>浙江传媒学院</td><td>5星级</td><td>浙江</td><td>1</td></tr><tr><td>3</td><td>东北师范大学</td><td>5星级</td><td>吉林</td><td>1</td></tr><tr><td>3</td><td>西南大学</td><td>5星级</td><td>重庆</td><td>1</td></tr><tr><td>3</td><td>北京大学</td><td>5星级</td><td>北京</td><td>2</td></tr><tr><td>3</td><td>华东师范大学</td><td>5星级</td><td>上海</td><td>1</td></tr><tr><td>3</td><td>哈尔滨工业大学</td><td>5星级</td><td>黑龙江</td><td>1</td></tr><tr><td>3</td><td>上海戏剧学院</td><td>5星级</td><td>上海</td><td>1</td></tr><tr><td>3</td><td>四川大学</td><td>5星级</td><td>四川</td><td>1</td></tr><tr><td>10</td><td>北京电影学院</td><td>4星级</td><td>北京</td><td>3</td></tr><tr><td>11</td><td>中国美术学院</td><td>4星级</td><td>浙江</td><td>2</td></tr><tr><td>11</td><td>上海师范大学</td><td>4星级</td><td>上海</td><td>3</td></tr><tr><td>11</td><td>湖南大学</td><td>4星级</td><td>湖南</td><td>1</td></tr><tr><td>14</td><td>山东艺术学院</td><td>3星级</td><td>山东</td><td>1</td></tr><tr><td>14</td><td>重庆师范大学</td><td>3星级</td><td>重庆</td><td>2</td></tr><tr><td>14</td><td>西北大学</td><td>3星级</td><td>陕西</td><td>1</td></tr><tr><td>14</td><td>广州美术学院</td><td>3星级</td><td>广东</td><td>1</td></tr><tr><td>14</td><td>上海大学</td><td>3星级</td><td>上海</td><td>4</td></tr><tr><td>14</td><td>吉林艺术学院</td><td>3星级</td><td>吉林</td><td>2</td></tr><tr><td>14</td><td>南京师范大学</td><td>3星级</td><td>江苏</td><td>1</td></tr><tr><td>14</td><td>云南艺术学院</td><td>3星级</td><td>云南</td><td>1</td></tr><tr><td>14</td><td>吉林大学</td><td>3星级</td><td>吉林</td><td>2</td></tr><tr><td>14</td><td>四川音乐学院</td><td>3星级</td><td>四川</td><td>2</td></tr><tr><td>14</td><td>西安外国语大学</td><td>3星级</td><td>陕西</td><td>1</td></tr><tr><td>14</td><td>长安大学</td><td>3星级</td><td>陕西</td><td>1</td></tr><tr><td>14</td><td>南京艺术学院</td><td>3星级</td><td>江苏</td><td>1</td></tr><tr><td>14</td><td>华南农业大学</td><td>3星级</td><td>广东</td><td>1</td></tr><tr><td>14</td><td>沈阳音乐学院</td><td>3星级</td><td>辽宁</td><td>1</td></tr><tr><td>14</td><td>成都体育学院</td><td>3星级</td><td>四川</td><td>2</td></tr><tr><td>14</td><td>重庆大学</td><td>3星级</td><td>重庆</td><td>2</td></tr><tr><td>14</td><td>天津师范大学</td><td>3星级</td><td>天津</td><td>1</td></tr><tr><td>14</td><td>广西艺术学院</td><td>3星级</td><td>广西</td><td>1</td></tr><tr><td>14</td><td>湖南师范大学</td><td>3星级</td><td>湖南</td><td>2</td></tr><tr><td>14</td><td>福建师范大学</td><td>3星级</td><td>福建</td><td>1</td></tr><tr><td>14</td><td>山西传媒学院</td><td>3星级</td><td>山西</td><td>1</td></tr><tr><td>14</td><td>上海交通大学</td><td>3星级</td><td>上海</td><td>4</td></tr><tr><td>14</td><td>新疆艺术学院</td><td>3星级</td><td>新疆</td><td>1</td></tr><tr><td>14</td><td>同济大学</td><td>3星级</td><td>上海</td><td>4</td></tr><tr><td>14</td><td>四川外国语大学</td><td>3星级</td><td>重庆</td><td>2</td></tr><tr><td>14</td><td>广州体育学院</td><td>3星级</td><td>广东</td><td>1</td></tr><tr><td>14</td><td>重庆邮电大学</td><td>3星级</td><td>重庆</td><td>2</td></tr><tr><td>14</td><td>武夷学院</td><td>3星级</td><td>福建</td><td>1</td></tr></tbody></table><h2><a>1</a><span>民办大学广播电视编导专业排名</span></h2><table><colgroup><col width="50"/><col width="146"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>四川传媒学院</td><td>6星级</td><td>四川</td><td>1</td></tr><tr><td>2</td><td>广州商学院</td><td>5星级</td><td>广东</td><td>1</td></tr><tr><td>2</td><td>武汉传媒学院</td><td>5星级</td><td>湖北</td><td>1</td></tr><tr><td>2</td><td>河北传媒学院</td><td>5星级</td><td>河北</td><td>1</td></tr><tr><td>5</td><td>黄河科技学院</td><td>4星级</td><td>河南</td><td>1</td></tr><tr><td>5</td><td>辽宁传媒学院</td><td>4星级</td><td>辽宁</td><td>1</td></tr><tr><td>5</td><td>大连艺术学院</td><td>4星级</td><td>辽宁</td><td>1</td></tr><tr><td>5</td><td>哈尔滨华德学院</td><td>4星级</td><td>黑龙江</td><td>1</td></tr><tr><td>5</td><td>成都文理学院</td><td>4星级</td><td>四川</td><td>2</td></tr><tr><td>5</td><td>武汉晴川学院</td><td>4星级</td><td>湖北</td><td>2</td></tr><tr><td>5</td><td>上海视觉艺术学院</td><td>4星级</td><td>上海</td><td>1</td></tr><tr><td>5</td><td>吉林动画学院</td><td>4星级</td><td>吉林</td><td>1</td></tr><tr><td>5</td><td>沈阳城市学院</td><td>4星级</td><td>辽宁</td><td>1</td></tr><tr><td>14</td><td>四川文化艺术学院</td><td>3星级</td><td>四川</td><td>3</td></tr><tr><td>14</td><td>河北美术学院</td><td>3星级</td><td>河北</td><td>2</td></tr><tr><td>14</td><td>武昌首义学院</td><td>3星级</td><td>湖北</td><td>3</td></tr><tr><td>14</td><td>西安培华学院</td><td>3星级</td><td>陕西</td><td>1</td></tr><tr><td>14</td><td>福州外语外贸学院</td><td>3星级</td><td>福建</td><td>1</td></tr><tr><td>14</td><td>江西科技学院</td><td>3星级</td><td>江西</td><td>1</td></tr><tr><td>14</td><td>南昌理工学院</td><td>3星级</td><td>江西</td><td>1</td></tr></tbody></table><h2><a>1</a><span>独立学院广播电视编导专业排名</span></h2><table><colgroup><col width="50"/><col width="146"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>山东师范大学历山学院</td><td>5星级</td><td>山东</td><td>1</td></tr><tr><td>2</td><td>中国传媒大学南广学院</td><td>4星级</td><td>江苏</td><td>1</td></tr><tr><td>2</td><td>云南艺术学院文华学院</td><td>4星级</td><td>云南</td><td>1</td></tr><tr><td>2</td><td>河南大学民生学院</td><td>4星级</td><td>河南</td><td>1</td></tr><tr><td>2</td><td>河北师范大学汇华学院</td><td>4星级</td><td>河北</td><td>1</td></tr><tr><td>2</td><td>杭州师范大学钱江学院</td><td>4星级</td><td>浙江</td><td>1</td></tr><tr><td>2</td><td>四川大学锦江学院</td><td>4星级</td><td>四川</td><td>1</td></tr><tr><td>2</td><td>南京师范大学中北学院</td><td>4星级</td><td>江苏</td><td>1</td></tr><tr><td>2</td><td>河北大学工商学院</td><td>4星级</td><td>河北</td><td>1</td></tr><tr><td>2</td><td>北京电影学院现代创意媒体学院</td><td>4星级</td><td>山东</td><td>2</td></tr><tr><td>2</td><td>首都师范大学科德学院</td><td>4星级</td><td>北京</td><td>1</td></tr><tr><td>2</td><td>四川大学锦城学院</td><td>4星级</td><td>四川</td><td>1</td></tr><tr><td>13</td><td>东北师范大学人文学院</td><td>3星级</td><td>吉林</td><td>1</td></tr><tr><td>13</td><td>南京大学金陵学院</td><td>3星级</td><td>江苏</td><td>3</td></tr><tr><td>13</td><td>山西师范大学现代文理学院</td><td>3星级</td><td>山西</td><td>1</td></tr><tr><td>13</td><td>中原工学院信息商务学院</td><td>3星级</td><td>河南</td><td>2</td></tr><tr><td>13</td><td>南京师范大学泰州学院</td><td>3星级</td><td>江苏</td><td>3</td></tr><tr><td>13</td><td>聊城大学东昌学院</td><td>3星级</td><td>山东</td><td>3</td></tr><tr><td>13</td><td>西北大学现代学院</td><td>3星级</td><td>陕西</td><td>1</td></tr><tr><td>13</td><td>江苏师范大学科文学院</td><td>3星级</td><td>江苏</td><td>3</td></tr></tbody></table><h2><a>1</a><span>广播电视编导专业介绍</span></h2><p></p><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-12/14efb6e7-9eb0-4f7c-a266-5acaedc30e23.jpg" title="广播电视编导专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>戏剧与影视学类</td><td>￥6747<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过53%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">24%在北京市工作</span></td><td>女生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男35%-女65%</span></td></tr></tbody></table><p>培养目标：本专业培养具备广播电视节目策划、创作、制作等方面的专业知识、具备较高的政治水平、理论修养和艺术鉴赏等方面的能力的高级专门人才。</p><p>主要课程：传播学、电视艺术概论、戏剧艺术概论、中国戏曲、影视作品分析、视听语言、电视节目制作、色彩学、摄影技术、照明技术、电视节目策划、纪录片创作等。</p><p>就业方向：具体工作可以为记者、策划、节目编导、摄像、编辑、撰稿、制片、后期制作、剪辑，乃至灯光、场记。也可以在电视台的频道成立的栏目组中担当制片人,这样你就能管理一个栏目组了。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

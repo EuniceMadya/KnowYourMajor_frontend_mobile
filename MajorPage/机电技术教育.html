@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>机电技术教育</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+机电技术教育</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    本专业培养具有机械设计、制造与电学等机电技术基本理论、基本知识和基本技能，掌握科学教育理论和教学方法，具有创新精神、实践能力和良好教师素质，毕业后能在中等职业技术院校从事机电技术专业教学工作的教师，以及能从事机电技术领域内的设计制造、产品开发与推广、生产经营管理方面的应用型高级专门人才。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av40568310?from=search&seid=15122042787959824180" class="">
+								
+								<div class="mui-media-body">
+									机电控制技术【哈尔滨工业大学】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av17338839?from=search&seid=15122042787959824180" class="">
+								
+								<div class="mui-media-body">
+									理论力学（哈尔滨工业大学）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av30619202?from=search&seid=15122042787959824180" class="">
+								
+								<div class="mui-media-body">
+									东南大学 数控技术（共40讲）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av13452076?from=search&seid=15122042787959824180" class="">
+								
+								<div class="mui-media-body">
+									清华大学 控制工程基础53讲
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av30693169?from=search&seid=15122042787959824180" class="">
+								
+								<div class="mui-media-body">
+									哈尔滨工业大学  精密和超精密加工技术（共24讲）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av35790350?from=search&seid=11396066313107678695" class="">
+
+    								<div class="mui-media-body">
+    									岭南师范学院机电技术教育专业16机电1团支部
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av17045825?from=search&seid=11396066313107678695" class="">
+
+    								<div class="mui-media-body">
+    									广东机电职业技术学院2018元旦晚会视频片尾
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av33859595?from=search&seid=11396066313107678695" class="">
+
+    								<div class="mui-media-body">
+    									山西机电60周年校庆，外国友人讲话。
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av43644175?from=search&seid=11396066313107678695" class="">
+
+    								<div class="mui-media-body">
+    									印度鲁班工坊见闻
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av39696769?from=search&seid=11396066313107678695" class="">
+
+    								<div class="mui-media-body">
+    									【武汉商学院.大学生艺术团.舞蹈队】翻跳七朵-落花情
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data139131"><p style="text-align: center;"><img src="http://img.gaosan.com/upload/2016-04-04/595ddb1b-5ecd-45cb-b001-48840e2bd3c0.jpg" title="机电技术教育专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>机械类</td><td>￥9043<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过94%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">16%在北京市工作</span></td><td>男生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男78%-女22%</span></td></tr></tbody></table><p>培养目标：培养具有机械设计、制造与电学等机电技术基本理论、基本知识和基本技能，掌握科学教育理论和教学方法，具有创新精神、实践能力和良好教师素质的应用型高级专门人才。</p><p>主要课程：画法几何与机械制图、工程力学、电工技术基础、电子技术基础、机械制造基础、机械设计基础、机械工程控制基础、数控机床与编程、微机原理和接口技术、计算机辅助设计基础、机械学科教学论。</p><p>就业方向：可从事职业高中、技校、中专、大专院校机电专业课程教学工作，也可以到机械制造、机电产品生产等行业，从事机电产品的设计与制造，机电设备维修和生产管理等方面的技术工作。</p><h2><a>1</a><span>2017最新机电技术教育专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>天津职业技术师范大学</td><td>5★</td><td>5</td></tr><tr><td>2</td><td>湖北第二师范学院</td><td>4★</td><td>5</td></tr><tr><td>3</td><td>岭南师范学院</td><td>3★</td><td>5</td></tr></tbody></table><h2><a>1</a><span>机电技术教育专业排名大学介绍</span></h2><p>天津职业技术师范大学是我国最早建立的以培养职业教育师资为主要任务的普通高等师范院校，成立于1979年，隶属于原国家劳动部；2000年，转制为中央与地方共建，以天津市管理为主；2010年，更名为天津职业技术师范大学；2012年，国家教育部与天津市人民政府共建天津职业技术师范大学，学校成为天津市地方高校中唯一一所部市共建高校。</p><p><img alt="天津职业技术师范大学校门" src="http://img.gaosan.com/upload/webimg/2039.jpg" title="天津职业技术师范大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1979年</td><td>公立</td><td>师范</td><td>教育部、天津市教育委员会</td></tr></tbody></table><p>湖北第二师范学院位于九省通衢的湖北省武汉市，是一所省属普通本科院校。建校80多年来，学校培养了近15万名优秀毕业生，为基础教育和经济社会发展做出了突出贡献。学校地处中国光谷核心区，山清水秀，交通便利。校园面积1718亩，建筑面积43.4万平方米，纸质图书资料105万册。学校设15个二级学院，开办45个普通本科专业，全日制在校生1.7万人。</p><p><img alt="湖北第二师范学院校门" src="http://img.gaosan.com/upload/webimg/2310.jpg" title="湖北第二师范学院校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1931年</td><td>公立</td><td>师范</td><td>湖北省教育厅</td></tr></tbody></table><p>岭南师范学院（原湛江师范学院）是一所具有百年师范教育历史的广东省属普通本科院校，坐落在中国大陆最南端的美丽港城湛江市。学校1904年始设师范科教育，1978年更名为雷州师范专科学校，1991年升格更名为湛江师范学院，2014年更名为岭南师范学院。在百余年的师范教育历程中，培养了大批优秀教师、教育工作者和社会应用人才。</p><p><img alt="岭南师范学院校门" src="http://img.gaosan.com/upload/webimg/2083.jpg" title="岭南师范学院校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1904年</td><td>公立</td><td>师范</td><td>广东省人民政府</td></tr></tbody></table><p>　　以上2017年机电技术教育专业大学排名机电技术教育专业排行榜由高三网收集整理，更多专业排名请查看<a href="http://www.gaosan.com/zhuanyepaiming/">大学专业开设高校排名</a>栏目</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

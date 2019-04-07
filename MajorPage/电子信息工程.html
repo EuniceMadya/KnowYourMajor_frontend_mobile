@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>电子信息工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+电子信息工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    电子信息工程是一门应用计算机等现代化技术进行电子信息控制和信息处理的学科，主要研究信息的获取与处理，电子设备与信息系统的设计、开发、应用和集成。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    电子信息工程已经涵盖了社会的诸多方面。电子信息工程专业是集现代电子技术、信息技术、通信技术于一体的专业。本专业培养掌握现代电子技术理论、通晓电子系统设计原理与设计方法，具有较强的计算机、外语和相应工程技术应用能力，面向电子技术、自动控制和智能控制、计算机与网络技术等电子、信息、通信领域的宽口径、高素质、德智体全面发展的具有创新能力的高级工程技术人才。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    电子信息工程专业主要是学习基本电路知识，并掌握用计算机等处理信息的方法。首先要有扎实的数学知识，对物理学的要求也很高，并且主要是电学方面；要学习许多电路知识、电工基础、电子技术、信号与系统、计算机控制原理、通信原理等基本课程。学习电子信息工程自己还要动手设计、连接一些电路并结合计算机进行实验，对动手操作和使用工具的要求也是比较高的。譬如自己连接传感器的电路，用计算机设置小的通信系统，还会参观一些大公司的电子和信息处理设备，理解手机信号、有线电视是如何传输的等，并能有机会在老师指导下参与大的工程设计。学习电子信息工程，要喜欢钻研思考，善于开动脑筋发现问题。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    随着社会信息化的深入，各行业大都需要电子信息工程专业人才，而且薪金很高。学生毕业后可以从事电子设备和信息系统的设计、应用开发以及技术管理等。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av24922079?from=search&seid=16972660045165606197" class="">
+								
+								<div class="mui-media-body">
+									川大 电子信息工程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av39432630?from=search&seid=16972660045165606197" class="">
+								
+								<div class="mui-media-body">
+									邯郸职业技术学院 2019年电子信息工程系 元旦晚会
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av11506097?from=search&seid=16972660045165606197" class="">
+								
+								<div class="mui-media-body">
+									“EE惜别”2013级北航电子信息工程学院本科生毕业晚会
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av17809647?from=search&seid=16972660045165606197" class="">
+								
+								<div class="mui-media-body">
+									北海职业学院 电信信息工程系 2018元旦晚会
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av39123339?from=search&seid=16972660045165606197" class="">
+								
+								<div class="mui-media-body">
+									【STM32单片机视频教程】从基础开始学起！！！
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av30608061?from=search&seid=17856570845016163978" class="">
+
+    								<div class="mui-media-body">
+    									秒懂专业：大数据下的热门专业——电子信息工程专业
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av5825561?from=search&seid=17856570845016163978" class="">
+
+    								<div class="mui-media-body">
+    									华南理工大学之信息工程专业
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10357214?from=search&seid=17856570845016163978" class="">
+
+    								<div class="mui-media-body">
+    									首都师范大学电子信息工程专业好不好，听前人怎么说
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10447212?from=search&seid=17856570845016163978" class="">
+
+    								<div class="mui-media-body">
+    									在北华大学读电子信息工程专业是什么体验？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av9790151?from=search&seid=17856570845016163978" class="">
+
+    								<div class="mui-media-body">
+    									在河北工程大学读电子信息工程专业，是怎样的体验？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data184181"><p>中国大学哪些本科的电子信息工程专业跻身2018世界一流、世界高水平、中国顶尖和中国一流专业行列？艾瑞深中国校友会网最新公布的2018本科专业排行榜中就有你想知道的答案，和小编一起来看看吧！</p><p><img alt="电子信息工程专业大学排名" border="0" height="350" src="http://img.gaosan.com/upload/201710/6364488999768704843288973.jpg" style="width: 600px; height: 350px;" title="电子信息工程专业大学排名" vspace="0" width="600"/></p><p>在2018本科电子信息工程专业排行榜中，清华大学雄居排行榜榜首，北京航空航天大学、天津大学紧随其后，占据第二、第三名。全部排名数据请看下表：</p><h2><a>1</a><span>本科大学电子信息工程专业排名</span></h2><table><colgroup><col width="41"/><col width="203"/><col width="72"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>清华大学</td><td>7星级</td><td>北京</td><td>1</td></tr><tr><td>2</td><td>北京航空航天大学</td><td>7星级</td><td>北京</td><td>2</td></tr><tr><td>2</td><td>天津大学</td><td>7星级</td><td>天津</td><td>1</td></tr><tr><td>4</td><td>杭州电子科技大学</td><td>6星级</td><td>浙江</td><td>1</td></tr><tr><td>4</td><td>深圳大学</td><td>6星级</td><td>广东</td><td>1</td></tr><tr><td>4</td><td>中国科学技术大学</td><td>6星级</td><td>安徽</td><td>1</td></tr><tr><td>4</td><td>浙江大学</td><td>6星级</td><td>浙江</td><td>1</td></tr><tr><td>8</td><td>西安电子科技大学</td><td>5星级</td><td>陕西</td><td>1</td></tr><tr><td>8</td><td>电子科技大学</td><td>5星级</td><td>四川</td><td>1</td></tr><tr><td>10</td><td>燕山大学</td><td>5星级</td><td>河北</td><td>1</td></tr><tr><td>10</td><td>华中科技大学</td><td>5星级</td><td>湖北</td><td>1</td></tr><tr><td>10</td><td>东莞理工学院</td><td>5星级</td><td>广东</td><td>2</td></tr><tr><td>10</td><td>南京理工大学</td><td>5星级</td><td>江苏</td><td>1</td></tr><tr><td>10</td><td>北京信息科技大学</td><td>5星级</td><td>北京</td><td>3</td></tr><tr><td>10</td><td>东北大学</td><td>5星级</td><td>辽宁</td><td>1</td></tr><tr><td>10</td><td>大连理工大学</td><td>5星级</td><td>辽宁</td><td>1</td></tr><tr><td>10</td><td>北京电子科技学院</td><td>5星级</td><td>北京</td><td>3</td></tr><tr><td>10</td><td>成都信息工程大学</td><td>5星级</td><td>四川</td><td>2</td></tr><tr><td>10</td><td>南京邮电大学</td><td>5星级</td><td>江苏</td><td>1</td></tr><tr><td>10</td><td>西南交通大学</td><td>5星级</td><td>四川</td><td>2</td></tr><tr><td>10</td><td>重庆大学</td><td>5星级</td><td>重庆</td><td>1</td></tr><tr><td>22</td><td>云南民族大学</td><td>4星级</td><td>云南</td><td>1</td></tr><tr><td>22</td><td>中南民族大学</td><td>4星级</td><td>湖北</td><td>2</td></tr><tr><td>22</td><td>浙江理工大学</td><td>4星级</td><td>浙江</td><td>3</td></tr><tr><td>22</td><td>五邑大学</td><td>4星级</td><td>广东</td><td>3</td></tr><tr><td>22</td><td>武汉理工大学</td><td>4星级</td><td>湖北</td><td>2</td></tr><tr><td>22</td><td>吉林大学</td><td>4星级</td><td>吉林</td><td>1</td></tr><tr><td>22</td><td>东北电力大学</td><td>4星级</td><td>吉林</td><td>1</td></tr><tr><td>22</td><td>上海工程技术大学</td><td>4星级</td><td>上海</td><td>1</td></tr><tr><td>22</td><td>中国农业大学</td><td>4星级</td><td>北京</td><td>5</td></tr><tr><td>22</td><td>安徽大学</td><td>4星级</td><td>安徽</td><td>2</td></tr><tr><td>22</td><td>北方工业大学</td><td>4星级</td><td>北京</td><td>5</td></tr><tr><td>22</td><td>大连海事大学</td><td>4星级</td><td>辽宁</td><td>3</td></tr><tr><td>22</td><td>大连民族大学</td><td>4星级</td><td>辽宁</td><td>3</td></tr><tr><td>22</td><td>合肥学院</td><td>4星级</td><td>安徽</td><td>2</td></tr><tr><td>22</td><td>江苏理工学院</td><td>4星级</td><td>江苏</td><td>3</td></tr><tr><td>22</td><td>南昌航空大学</td><td>4星级</td><td>江西</td><td>1</td></tr><tr><td>22</td><td>山东科技大学</td><td>4星级</td><td>山东</td><td>1</td></tr><tr><td>22</td><td>沈阳航空航天大学</td><td>4星级</td><td>辽宁</td><td>3</td></tr><tr><td>22</td><td>梧州学院</td><td>4星级</td><td>广西</td><td>1</td></tr><tr><td>22</td><td>新疆大学</td><td>4星级</td><td>新疆</td><td>1</td></tr><tr><td>22</td><td>中北大学</td><td>4星级</td><td>山西</td><td>1</td></tr><tr><td>22</td><td>暨南大学</td><td>4星级</td><td>广东</td><td>3</td></tr><tr><td>22</td><td>桂林电子科技大学</td><td>4星级</td><td>广西</td><td>1</td></tr><tr><td>22</td><td>青岛大学</td><td>4星级</td><td>山东</td><td>1</td></tr><tr><td>22</td><td>南京信息工程大学</td><td>4星级</td><td>江苏</td><td>3</td></tr><tr><td>22</td><td>安徽师范大学</td><td>4星级</td><td>安徽</td><td>2</td></tr><tr><td>48</td><td>合肥工业大学</td><td>3星级</td><td>安徽</td><td>5</td></tr><tr><td>48</td><td>宁波工程学院</td><td>3星级</td><td>浙江</td><td>4</td></tr><tr><td>48</td><td>长安大学</td><td>3星级</td><td>陕西</td><td>2</td></tr><tr><td>48</td><td>北京邮电大学</td><td>3星级</td><td>北京</td><td>7</td></tr><tr><td>48</td><td>东北石油大学</td><td>3星级</td><td>黑龙江</td><td>1</td></tr><tr><td>48</td><td>长江大学</td><td>3星级</td><td>湖北</td><td>4</td></tr><tr><td>48</td><td>常州工学院</td><td>3星级</td><td>江苏</td><td>5</td></tr><tr><td>48</td><td>东南大学</td><td>3星级</td><td>江苏</td><td>5</td></tr><tr><td>48</td><td>东华理工大学</td><td>3星级</td><td>江西</td><td>2</td></tr><tr><td>48</td><td>厦门理工学院</td><td>3星级</td><td>福建</td><td>1</td></tr><tr><td>48</td><td>湖南大学</td><td>3星级</td><td>湖南</td><td>1</td></tr><tr><td>48</td><td>哈尔滨工业大学</td><td>3星级</td><td>黑龙江</td><td>1</td></tr><tr><td>48</td><td>河海大学</td><td>3星级</td><td>江苏</td><td>5</td></tr><tr><td>48</td><td>北京工业大学</td><td>3星级</td><td>北京</td><td>7</td></tr><tr><td>48</td><td>淮阴工学院</td><td>3星级</td><td>江苏</td><td>5</td></tr><tr><td>48</td><td>宁夏大学</td><td>3星级</td><td>宁夏</td><td>1</td></tr><tr><td>48</td><td>上海电力学院</td><td>3星级</td><td>上海</td><td>2</td></tr><tr><td>48</td><td>西北工业大学</td><td>3星级</td><td>陕西</td><td>2</td></tr><tr><td>48</td><td>华北理工大学</td><td>3星级</td><td>河北</td><td>2</td></tr><tr><td>48</td><td>南华大学</td><td>3星级</td><td>湖南</td><td>1</td></tr><tr><td>48</td><td>天津理工大学</td><td>3星级</td><td>天津</td><td>2</td></tr><tr><td>48</td><td>南昌大学</td><td>3星级</td><td>江西</td><td>2</td></tr><tr><td>48</td><td>湖南理工学院</td><td>3星级</td><td>湖南</td><td>1</td></tr><tr><td>48</td><td>中国海洋大学</td><td>3星级</td><td>山东</td><td>3</td></tr><tr><td>48</td><td>哈尔滨工程大学</td><td>3星级</td><td>黑龙江</td><td>1</td></tr><tr><td>48</td><td>武汉大学</td><td>3星级</td><td>湖北</td><td>4</td></tr><tr><td>48</td><td>四川大学</td><td>3星级</td><td>四川</td><td>4</td></tr><tr><td>48</td><td>北京理工大学</td><td>3星级</td><td>北京</td><td>7</td></tr><tr><td>48</td><td>东华大学</td><td>3星级</td><td>上海</td><td>2</td></tr><tr><td>48</td><td>上海大学</td><td>3星级</td><td>上海</td><td>2</td></tr><tr><td>48</td><td>中南大学</td><td>3星级</td><td>湖南</td><td>1</td></tr><tr><td>48</td><td>山东大学</td><td>3星级</td><td>山东</td><td>3</td></tr><tr><td>48</td><td>中国石油大学（华东）</td><td>3星级</td><td>山东</td><td>3</td></tr><tr><td>48</td><td>中国民航大学</td><td>3星级</td><td>天津</td><td>2</td></tr><tr><td>48</td><td>汕头大学</td><td>3星级</td><td>广东</td><td>5</td></tr><tr><td>48</td><td>同济大学</td><td>3星级</td><td>上海</td><td>2</td></tr><tr><td>48</td><td>北京科技大学</td><td>3星级</td><td>北京</td><td>7</td></tr><tr><td>85</td><td>内蒙古工业大学</td><td>3星级</td><td>内蒙古</td><td>1</td></tr><tr><td>85</td><td>吉林师范大学</td><td>3星级</td><td>吉林</td><td>3</td></tr><tr><td>85</td><td>南阳理工学院</td><td>3星级</td><td>河南</td><td>1</td></tr><tr><td>85</td><td>宿州学院</td><td>3星级</td><td>安徽</td><td>6</td></tr><tr><td>85</td><td>中国民用航空飞行学院</td><td>3星级</td><td>四川</td><td>5</td></tr><tr><td>85</td><td>福建师范大学</td><td>3星级</td><td>福建</td><td>2</td></tr><tr><td>85</td><td>南昌师范学院</td><td>3星级</td><td>江西</td><td>4</td></tr><tr><td>85</td><td>山东师范大学</td><td>3星级</td><td>山东</td><td>6</td></tr><tr><td>85</td><td>公安海警学院</td><td>3星级</td><td>浙江</td><td>5</td></tr><tr><td>85</td><td>浙江师范大学</td><td>3星级</td><td>浙江</td><td>5</td></tr><tr><td>85</td><td>南通大学</td><td>3星级</td><td>江苏</td><td>9</td></tr><tr><td>85</td><td>盐城师范学院</td><td>3星级</td><td>江苏</td><td>9</td></tr><tr><td>85</td><td>赣南师范大学</td><td>3星级</td><td>江西</td><td>4</td></tr><tr><td>85</td><td>沈阳工业大学</td><td>3星级</td><td>辽宁</td><td>6</td></tr><tr><td>85</td><td>河北建筑工程学院</td><td>3星级</td><td>河北</td><td>3</td></tr><tr><td>85</td><td>青岛科技大学</td><td>3星级</td><td>山东</td><td>6</td></tr><tr><td>85</td><td>安徽建筑大学</td><td>3星级</td><td>安徽</td><td>6</td></tr><tr><td>85</td><td>安阳师范学院</td><td>3星级</td><td>河南</td><td>1</td></tr><tr><td>85</td><td>长春工业大学</td><td>3星级</td><td>吉林</td><td>3</td></tr><tr><td>85</td><td>西安工业大学</td><td>3星级</td><td>陕西</td><td>4</td></tr><tr><td>85</td><td>重庆三峡学院</td><td>3星级</td><td>重庆</td><td>2</td></tr><tr><td>85</td><td>西安科技大学</td><td>3星级</td><td>陕西</td><td>4</td></tr><tr><td>85</td><td>延安大学</td><td>3星级</td><td>陕西</td><td>4</td></tr><tr><td>85</td><td>重庆理工大学</td><td>3星级</td><td>重庆</td><td>2</td></tr><tr><td>85</td><td>闽江学院</td><td>3星级</td><td>福建</td><td>2</td></tr><tr><td>85</td><td>武夷学院</td><td>3星级</td><td>福建</td><td>2</td></tr><tr><td>85</td><td>华南农业大学</td><td>3星级</td><td>广东</td><td>6</td></tr><tr><td>85</td><td>哈尔滨理工大学</td><td>3星级</td><td>黑龙江</td><td>4</td></tr><tr><td>85</td><td>安阳工学院</td><td>3星级</td><td>河南</td><td>1</td></tr><tr><td>85</td><td>北华航天工业学院</td><td>3星级</td><td>河北</td><td>3</td></tr><tr><td>85</td><td>贵阳学院</td><td>3星级</td><td>贵州</td><td>1</td></tr><tr><td>85</td><td>华东理工大学</td><td>3星级</td><td>上海</td><td>6</td></tr><tr><td>85</td><td>中国地质大学（武汉）</td><td>3星级</td><td>湖北</td><td>6</td></tr><tr><td>85</td><td>福州大学</td><td>3星级</td><td>福建</td><td>2</td></tr><tr><td>85</td><td>中国传媒大学</td><td>3星级</td><td>北京</td><td>11</td></tr><tr><td>85</td><td>首都师范大学</td><td>3星级</td><td>北京</td><td>11</td></tr><tr><td>85</td><td>华中师范大学</td><td>3星级</td><td>湖北</td><td>6</td></tr><tr><td>85</td><td>昆明理工大学</td><td>3星级</td><td>云南</td><td>2</td></tr><tr><td>85</td><td>中国矿业大学</td><td>3星级</td><td>江苏</td><td>9</td></tr><tr><td>85</td><td>西南大学</td><td>3星级</td><td>重庆</td><td>2</td></tr><tr><td>85</td><td>长春理工大学</td><td>3星级</td><td>吉林</td><td>3</td></tr><tr><td>85</td><td>吉林工程技术师范学院</td><td>3星级</td><td>吉林</td><td>3</td></tr><tr><td>85</td><td>中国计量大学</td><td>3星级</td><td>浙江</td><td>5</td></tr><tr><td>85</td><td>哈尔滨商业大学</td><td>3星级</td><td>黑龙江</td><td>4</td></tr><tr><td>85</td><td>黑龙江大学</td><td>3星级</td><td>黑龙江</td><td>4</td></tr><tr><td>85</td><td>湖北汽车工业学院</td><td>3星级</td><td>湖北</td><td>6</td></tr><tr><td>85</td><td>湖北师范大学</td><td>3星级</td><td>湖北</td><td>6</td></tr><tr><td>85</td><td>黄冈师范学院</td><td>3星级</td><td>湖北</td><td>6</td></tr><tr><td>85</td><td>湖北理工学院</td><td>3星级</td><td>湖北</td><td>6</td></tr><tr><td>85</td><td>淮海工学院</td><td>3星级</td><td>江苏</td><td>9</td></tr><tr><td>85</td><td>南京工程学院</td><td>3星级</td><td>江苏</td><td>9</td></tr><tr><td>85</td><td>巢湖学院</td><td>3星级</td><td>安徽</td><td>6</td></tr><tr><td>85</td><td>广东技术师范学院</td><td>3星级</td><td>广东</td><td>6</td></tr><tr><td>85</td><td>邯郸学院</td><td>3星级</td><td>河北</td><td>3</td></tr><tr><td>85</td><td>合肥师范学院</td><td>3星级</td><td>安徽</td><td>6</td></tr><tr><td>85</td><td>河南工业大学</td><td>3星级</td><td>河南</td><td>1</td></tr><tr><td>85</td><td>长沙理工大学</td><td>3星级</td><td>湖南</td><td>5</td></tr><tr><td>85</td><td>湖南科技学院</td><td>3星级</td><td>湖南</td><td>5</td></tr><tr><td>85</td><td>邵阳学院</td><td>3星级</td><td>湖南</td><td>5</td></tr><tr><td>85</td><td>山西大学</td><td>3星级</td><td>山西</td><td>2</td></tr><tr><td>85</td><td>北京化工大学</td><td>3星级</td><td>北京</td><td>11</td></tr><tr><td>85</td><td>厦门大学</td><td>3星级</td><td>福建</td><td>2</td></tr><tr><td>85</td><td>仲恺农业工程学院</td><td>3星级</td><td>广东</td><td>6</td></tr><tr><td>85</td><td>广州大学</td><td>3星级</td><td>广东</td><td>6</td></tr><tr><td>85</td><td>广东石油化工学院</td><td>3星级</td><td>广东</td><td>6</td></tr><tr><td>85</td><td>台州学院</td><td>3星级</td><td>浙江</td><td>5</td></tr><tr><td>85</td><td>浙江工商大学</td><td>3星级</td><td>浙江</td><td>5</td></tr><tr><td>85</td><td>集宁师范学院</td><td>3星级</td><td>内蒙古</td><td>1</td></tr><tr><td>85</td><td>河池学院</td><td>3星级</td><td>广西</td><td>3</td></tr></tbody></table><h2><a>1</a><span>民办大学电子信息工程专业排名</span></h2><table><colgroup><col width="41"/><col width="203"/><col width="72"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>山东协和学院</td><td>6星级</td><td>山东</td><td>1</td></tr><tr><td>1</td><td>山东英才学院</td><td>6星级</td><td>山东</td><td>1</td></tr><tr><td>1</td><td>文华学院</td><td>6星级</td><td>湖北</td><td>1</td></tr><tr><td>1</td><td>武昌首义学院</td><td>6星级</td><td>湖北</td><td>1</td></tr><tr><td>5</td><td>泉州信息工程学院</td><td>5星级</td><td>福建</td><td>1</td></tr><tr><td>5</td><td>黄河科技学院</td><td>5星级</td><td>河南</td><td>1</td></tr><tr><td>5</td><td>西安培华学院</td><td>5星级</td><td>陕西</td><td>1</td></tr><tr><td>5</td><td>西安欧亚学院</td><td>5星级</td><td>陕西</td><td>1</td></tr><tr><td>5</td><td>郑州工商学院</td><td>5星级</td><td>河南</td><td>1</td></tr><tr><td>5</td><td>四川工商学院</td><td>5星级</td><td>四川</td><td>1</td></tr><tr><td>5</td><td>西安外事学院</td><td>5星级</td><td>陕西</td><td>1</td></tr><tr><td>12</td><td>三亚学院</td><td>4星级</td><td>海南</td><td>1</td></tr><tr><td>12</td><td>武汉工商学院</td><td>4星级</td><td>湖北</td><td>3</td></tr><tr><td>12</td><td>广东白云学院</td><td>4星级</td><td>广东</td><td>1</td></tr><tr><td>12</td><td>商丘工学院</td><td>4星级</td><td>河南</td><td>3</td></tr><tr><td>12</td><td>闽南理工学院</td><td>4星级</td><td>福建</td><td>2</td></tr><tr><td>12</td><td>安徽三联学院</td><td>4星级</td><td>安徽</td><td>1</td></tr><tr><td>12</td><td>汉口学院</td><td>4星级</td><td>湖北</td><td>3</td></tr><tr><td>12</td><td>仰恩大学</td><td>4星级</td><td>福建</td><td>2</td></tr><tr><td>12</td><td>大连东软信息学院</td><td>4星级</td><td>辽宁</td><td>1</td></tr><tr><td>12</td><td>北京城市学院</td><td>4星级</td><td>北京</td><td>1</td></tr><tr><td>12</td><td>长春光华学院</td><td>4星级</td><td>吉林</td><td>1</td></tr><tr><td>12</td><td>西安思源学院</td><td>4星级</td><td>陕西</td><td>4</td></tr><tr><td>12</td><td>阳光学院</td><td>4星级</td><td>福建</td><td>2</td></tr><tr><td>12</td><td>沈阳工学院</td><td>4星级</td><td>辽宁</td><td>1</td></tr><tr><td>12</td><td>南昌理工学院</td><td>4星级</td><td>江西</td><td>1</td></tr><tr><td>12</td><td>三江学院</td><td>4星级</td><td>江苏</td><td>1</td></tr><tr><td>12</td><td>无锡太湖学院</td><td>4星级</td><td>江苏</td><td>1</td></tr><tr><td>12</td><td>武昌理工学院</td><td>4星级</td><td>湖北</td><td>3</td></tr><tr><td>30</td><td>齐鲁理工学院</td><td>3星级</td><td>山东</td><td>3</td></tr><tr><td>30</td><td>青岛工学院</td><td>3星级</td><td>山东</td><td>3</td></tr><tr><td>30</td><td>黑龙江东方学院</td><td>3星级</td><td>黑龙江</td><td>1</td></tr><tr><td>30</td><td>哈尔滨华德学院</td><td>3星级</td><td>黑龙江</td><td>1</td></tr><tr><td>30</td><td>湖南涉外经济学院</td><td>3星级</td><td>湖南</td><td>1</td></tr><tr><td>30</td><td>福州理工学院</td><td>3星级</td><td>福建</td><td>5</td></tr><tr><td>30</td><td>江西工程学院</td><td>3星级</td><td>江西</td><td>2</td></tr><tr><td>30</td><td>广东东软学院</td><td>3星级</td><td>广东</td><td>2</td></tr><tr><td>30</td><td>安徽文达信息工程学院</td><td>3星级</td><td>安徽</td><td>2</td></tr><tr><td>30</td><td>安徽新华学院</td><td>3星级</td><td>安徽</td><td>2</td></tr><tr><td>30</td><td>浙江树人学院</td><td>3星级</td><td>浙江</td><td>1</td></tr><tr><td>30</td><td>重庆人文科技学院</td><td>3星级</td><td>重庆</td><td>1</td></tr><tr><td>30</td><td>武汉华夏理工学院</td><td>3星级</td><td>湖北</td><td>6</td></tr><tr><td>30</td><td>湖南信息学院</td><td>3星级</td><td>湖南</td><td>1</td></tr></tbody></table><h2><a>1</a><span>独立学院电子信息工程专业排名</span></h2><table><colgroup><col width="41"/><col width="203"/><col width="72"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>桂林电子科技大学信息科技学院</td><td>5星级</td><td>广西</td><td>1</td></tr><tr><td>1</td><td>燕山大学里仁学院</td><td>5星级</td><td>河北</td><td>1</td></tr><tr><td>1</td><td>长春理工大学光电信息学院</td><td>5星级</td><td>吉林</td><td>1</td></tr><tr><td>1</td><td>杭州电子科技大学信息工程学院</td><td>5星级</td><td>浙江</td><td>1</td></tr><tr><td>1</td><td>东南大学成贤学院</td><td>5星级</td><td>江苏</td><td>1</td></tr><tr><td>1</td><td>四川大学锦江学院</td><td>5星级</td><td>四川</td><td>1</td></tr><tr><td>1</td><td>浙江大学城市学院</td><td>5星级</td><td>浙江</td><td>1</td></tr><tr><td>1</td><td>华南理工大学广州学院</td><td>5星级</td><td>广东</td><td>1</td></tr><tr><td>9</td><td>安徽农业大学经济技术学院</td><td>4星级</td><td>安徽</td><td>1</td></tr><tr><td>9</td><td>四川大学锦城学院</td><td>4星级</td><td>四川</td><td>2</td></tr><tr><td>9</td><td>南京理工大学泰州科技学院</td><td>4星级</td><td>江苏</td><td>2</td></tr><tr><td>9</td><td>浙江工业大学之江学院</td><td>4星级</td><td>浙江</td><td>3</td></tr><tr><td>9</td><td>电子科技大学中山学院</td><td>4星级</td><td>广东</td><td>2</td></tr><tr><td>9</td><td>河南师范大学新联学院</td><td>4星级</td><td>河南</td><td>1</td></tr><tr><td>9</td><td>陕西科技大学镐京学院</td><td>4星级</td><td>陕西</td><td>1</td></tr><tr><td>9</td><td>广州大学松田学院</td><td>4星级</td><td>广东</td><td>2</td></tr><tr><td>9</td><td>青岛理工大学琴岛学院</td><td>4星级</td><td>山东</td><td>1</td></tr><tr><td>9</td><td>东莞理工学院城市学院</td><td>4星级</td><td>广东</td><td>2</td></tr><tr><td>9</td><td>西北师范大学知行学院</td><td>4星级</td><td>甘肃</td><td>1</td></tr><tr><td>9</td><td>福建师范大学协和学院</td><td>4星级</td><td>福建</td><td>1</td></tr><tr><td>9</td><td>湖北工业大学工程技术学院</td><td>4星级</td><td>湖北</td><td>1</td></tr><tr><td>9</td><td>大连理工大学城市学院</td><td>4星级</td><td>辽宁</td><td>1</td></tr><tr><td>9</td><td>西北工业大学明德学院</td><td>4星级</td><td>陕西</td><td>1</td></tr><tr><td>9</td><td>河北工业大学城市学院</td><td>4星级</td><td>河北</td><td>2</td></tr><tr><td>9</td><td>电子科技大学成都学院</td><td>4星级</td><td>四川</td><td>2</td></tr><tr><td>9</td><td>西安交通大学城市学院</td><td>4星级</td><td>陕西</td><td>1</td></tr><tr><td>9</td><td>重庆邮电大学移通学院</td><td>4星级</td><td>重庆</td><td>1</td></tr><tr><td>9</td><td>中国地质大学长城学院</td><td>4星级</td><td>河北</td><td>2</td></tr><tr><td>9</td><td>重庆大学城市科技学院</td><td>4星级</td><td>重庆</td><td>1</td></tr><tr><td>9</td><td>北京邮电大学世纪学院</td><td>4星级</td><td>北京</td><td>1</td></tr><tr><td>31</td><td>浙江大学宁波理工学院</td><td>3星级</td><td>浙江</td><td>4</td></tr><tr><td>31</td><td>同济大学浙江学院</td><td>3星级</td><td>浙江</td><td>4</td></tr><tr><td>31</td><td>湖州师范学院求真学院</td><td>3星级</td><td>浙江</td><td>4</td></tr><tr><td>31</td><td>淮北师范大学信息学院</td><td>3星级</td><td>安徽</td><td>2</td></tr><tr><td>31</td><td>湖北工程学院新技术学院</td><td>3星级</td><td>湖北</td><td>2</td></tr><tr><td>31</td><td>西南科技大学城市学院</td><td>3星级</td><td>四川</td><td>4</td></tr><tr><td>31</td><td>南京工业大学浦江学院</td><td>3星级</td><td>江苏</td><td>3</td></tr><tr><td>31</td><td>辽宁科技大学信息技术学院</td><td>3星级</td><td>辽宁</td><td>2</td></tr><tr><td>31</td><td>西安电子科技大学长安学院</td><td>3星级</td><td>陕西</td><td>4</td></tr><tr><td>31</td><td>江西科技师范大学理工学院</td><td>3星级</td><td>江西</td><td>1</td></tr><tr><td>31</td><td>宁夏大学新华学院</td><td>3星级</td><td>宁夏</td><td>1</td></tr><tr><td>31</td><td>南昌航空大学科技学院</td><td>3星级</td><td>江西</td><td>1</td></tr><tr><td>31</td><td>广西师范学院师园学院</td><td>3星级</td><td>广西</td><td>2</td></tr><tr><td>31</td><td>贵州大学科技学院</td><td>3星级</td><td>贵州</td><td>1</td></tr><tr><td>31</td><td>苏州科技大学天平学院</td><td>3星级</td><td>江苏</td><td>3</td></tr><tr><td>31</td><td>江汉大学文理学院</td><td>3星级</td><td>湖北</td><td>2</td></tr><tr><td>31</td><td>湖南科技大学潇湘学院</td><td>3星级</td><td>湖南</td><td>1</td></tr><tr><td>31</td><td>北京工业大学耿丹学院</td><td>3星级</td><td>北京</td><td>2</td></tr><tr><td>31</td><td>云南大学滇池学院</td><td>3星级</td><td>云南</td><td>1</td></tr><tr><td>31</td><td>北京科技大学天津学院</td><td>3星级</td><td>天津</td><td>1</td></tr><tr><td>31</td><td>宁波大学科学技术学院</td><td>3星级</td><td>浙江</td><td>4</td></tr><tr><td>31</td><td>广州大学华软软件学院</td><td>3星级</td><td>广东</td><td>5</td></tr><tr><td>31</td><td>长春工业大学人文信息学院</td><td>3星级</td><td>吉林</td><td>2</td></tr><tr><td>31</td><td>长江大学文理学院</td><td>3星级</td><td>湖北</td><td>2</td></tr><tr><td>31</td><td>浙江理工大学科技与艺术学院</td><td>3星级</td><td>浙江</td><td>4</td></tr><tr><td>31</td><td>广东技术师范学院天河学院</td><td>3星级</td><td>广东</td><td>5</td></tr><tr><td>31</td><td>河北大学工商学院</td><td>3星级</td><td>河北</td><td>4</td></tr></tbody></table><h2><a>1</a><span>中外合作办学大学电子信息工程专业排名</span></h2><table><colgroup><col width="41"/><col width="203"/><col width="72"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>上海纽约大学</td><td>4星级</td><td>上海</td><td>1</td></tr><tr><td>2</td><td>香港中文大学（深圳）</td><td>3星级</td><td>广东</td><td>1</td></tr></tbody></table><p>艾瑞深中国校友会网2018中国大学本科专业排行榜专业星级划分：中国九星级专业：世界顶尖专业；中国八星级专业：世界一流、中国最顶尖专业；中国七星级专业：世界知名高水平、中国顶尖专业；中国六星级专业：世界高水平、中国顶尖专业；中国五星级专业：世界知名、中国一流专业；中国四星级专业：中国高水平专业；中国三星级专业：中国知名、区域一流专业；中国二星级专业：中国区域高水平专业；中国一星级专业：中国区域知名专业。<br/></p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

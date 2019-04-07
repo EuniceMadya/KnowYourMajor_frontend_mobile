@@ -1,0 +1,163 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>矿物加工工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+矿物加工工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    矿物加工工程是研究矿物分离的一门应用技术学科。 其学科目的是将有用矿物和脉石（无用）矿物分离。例如：将铁、铜、铅、锌矿石中含有石英等脉石矿物，通过重选、磁选、浮选、化学选、生物选等方法，将品位较低的原矿富集为人造富矿，为进行下一步的冶炼工作（冶炼过程属于冶金工程专业）工作做准备。在煤炭行业，用重选和浮选的办法将选出精煤，抛弃煤矸石。主要任务：</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    1、提高有用矿物含量，将有用矿物和脉石矿物分离；</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    2、外种金属分离；       3、除掉有害元素。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av6399678?from=search&seid=6738262781861077624" class="">
+								
+								<div class="mui-media-body">
+									【票圈】【工程技术】【共10集】《走进矿山》中国矿业大学公开课&amp;微博@票圈
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av11546991?from=search&seid=3758653348307316640" class="">
+
+    								<div class="mui-media-body">
+    									西安科技大学矿物加工1303班毕业视频
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av45977780?from=search&seid=3758653348307316640" class="">
+
+    								<div class="mui-media-body">
+    									黎明重工欧版磨生产现场，倾听客户经理怎么说
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av45978187?from=search&seid=3758653348307316640" class="">
+
+    								<div class="mui-media-body">
+    									粉磨生产设备如何选？跟着小编看看别人家的设备
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av45980797?from=search&seid=3758653348307316640" class="">
+
+    								<div class="mui-media-body">
+    									湖南岳阳和玉溪峨山碎石生产线情况
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av45980910?from=search&seid=3758653348307316640" class="">
+
+    								<div class="mui-media-body">
+    									临沂莒南碎石线，跟随小编了解下成品用途
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data184319"><p>中国大学哪些本科的矿物加工工程专业跻身2018世界一流、世界高水平、中国顶尖和中国一流专业行列？艾瑞深中国校友会网最新公布的2018本科专业排行榜中就有你想知道的答案，和小编一起来看看吧！</p><p><img alt="矿物加工工程专业大学排名" border="0" height="350" src="http://img.gaosan.com/upload/201710/6364495992686907269498405.jpg" style="width: 600px; height: 350px;" title="矿物加工工程专业大学排名" vspace="0" width="600"/></p><p>在2018本科矿物加工工程专业排行榜中，中国矿业大学雄居排行榜榜首，<a href="/gaokao/169008.html" target="_blank">中南大学</a>、东北大学紧随其后，占据第二、第三名。全部排名数据请看下表：</p><h2><a>1</a><span>本科大学矿物加工工程专业排名</span></h2><table><colgroup><col width="72"/><col width="181"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>中国矿业大学</td><td>7星级</td><td>江苏</td><td>1</td></tr><tr><td>1</td><td>中南大学</td><td>7星级</td><td>湖南</td><td>1</td></tr><tr><td>3</td><td>东北大学</td><td>6星级</td><td>辽宁</td><td>1</td></tr><tr><td>4</td><td>辽宁工程技术大学</td><td>6星级</td><td>辽宁</td><td>2</td></tr><tr><td>4</td><td>太原理工大学</td><td>6星级</td><td>山西</td><td>1</td></tr><tr><td>4</td><td>北京科技大学</td><td>6星级</td><td>北京</td><td>1</td></tr><tr><td>7</td><td>安徽理工大学</td><td>5星级</td><td>安徽</td><td>1</td></tr><tr><td>7</td><td>昆明理工大学</td><td>5星级</td><td>云南</td><td>1</td></tr><tr><td>7</td><td>中国矿业大学（北京）</td><td>5星级</td><td>北京</td><td>2</td></tr><tr><td>7</td><td>西安科技大学</td><td>5星级</td><td>陕西</td><td>1</td></tr><tr><td>11</td><td>黑龙江科技大学</td><td>5星级</td><td>黑龙江</td><td>1</td></tr><tr><td>11</td><td>西安建筑科技大学</td><td>5星级</td><td>陕西</td><td>2</td></tr><tr><td>13</td><td>辽宁科技大学</td><td>4星级</td><td>辽宁</td><td>3</td></tr><tr><td>13</td><td>贵州大学</td><td>4星级</td><td>贵州</td><td>1</td></tr><tr><td>13</td><td>山东理工大学</td><td>4星级</td><td>山东</td><td>1</td></tr><tr><td>13</td><td>山东科技大学</td><td>4星级</td><td>山东</td><td>1</td></tr><tr><td>13</td><td>长安大学</td><td>4星级</td><td>陕西</td><td>3</td></tr><tr><td>13</td><td>武汉理工大学</td><td>4星级</td><td>湖北</td><td>1</td></tr><tr><td>13</td><td>河南理工大学</td><td>4星级</td><td>河南</td><td>1</td></tr><tr><td>13</td><td>河北地质大学</td><td>4星级</td><td>河北</td><td>1</td></tr><tr><td>21</td><td>江西理工大学</td><td>4星级</td><td>江西</td><td>1</td></tr><tr><td>21</td><td>武汉科技大学</td><td>4星级</td><td>湖北</td><td>2</td></tr><tr><td>23</td><td>华北理工大学</td><td>3星级</td><td>河北</td><td>2</td></tr><tr><td>23</td><td>武汉工程大学</td><td>3星级</td><td>湖北</td><td>3</td></tr><tr><td>23</td><td>福州大学</td><td>3星级</td><td>福建</td><td>1</td></tr><tr><td>26</td><td>华北科技学院</td><td>3星级</td><td>河北</td><td>3</td></tr><tr><td>26</td><td>内蒙古科技大学</td><td>3星级</td><td>内蒙古</td><td>1</td></tr><tr><td>26</td><td>安徽工业大学</td><td>3星级</td><td>安徽</td><td>2</td></tr><tr><td>26</td><td>西南科技大学</td><td>3星级</td><td>四川</td><td>1</td></tr><tr><td>26</td><td>南华大学</td><td>3星级</td><td>湖南</td><td>2</td></tr></tbody></table><h2><a>1</a><span>独立学院矿物加工工程专业排名</span></h2><table><colgroup><col width="72"/><col width="181"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>中国矿业大学银川学院</td><td>5星级</td><td>宁夏</td><td>1</td></tr><tr><td>2</td><td>辽宁石油化工大学顺华能源学院</td><td>4星级</td><td>辽宁</td><td>1</td></tr><tr><td>3</td><td>华北理工大学轻工学院</td><td>3星级</td><td>河北</td><td>1</td></tr></tbody></table><p>艾瑞深中国校友会网2018中国大学本科专业排行榜专业星级划分：中国九星级专业：世界顶尖专业；中国八星级专业：世界一流、中国最顶尖专业；中国七星级专业：世界知名高水平、中国顶尖专业；中国六星级专业：世界高水平、中国顶尖专业；中国五星级专业：世界知名、中国一流专业；中国四星级专业：中国高水平专业；中国三星级专业：中国知名、区域一流专业；中国二星级专业：中国区域高水平专业；中国一星级专业：中国区域知名专业。<br/></p><h2><a>1</a><span>矿物加工工程专业介绍</span></h2><p></p><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-09/94a55435-41a9-4854-aaf4-abb5e92d0c84.jpg" title="矿物加工工程专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>矿业类</td><td>￥5904<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过27%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">16%在北京市工作</span></td><td>男生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男83%-女17%</span></td></tr></tbody></table><p>培养目标：本专业培养从事矿物(金属、非金属、煤炭)分选加工和矿产资源综合利用领域内的生产、设计、科学研究与开发及技术改造与管理的高等工程技术人才。</p><p>主要课程：物理化学，工程流体力学，选矿学，矿物加工厂工艺设计，矿物加工试验研究方法，技术经济分析与生产管理等。</p><p>就业方向：矿山选矿厂——在工厂里工作，控制生产指标。工作较为轻松，工资非常客观；科研院所——像北京矿冶总院，北京有色金属研究院，西北有色金属研究院等大型国企科研机构；投资公司——为投资公司提供矿山投资建议；外国大型企业——国内矿山行业发展形式太好了，而国内生产装备总体落后，国外的矿山机械公司看准了中国市场，需要本土员工，待遇很好。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

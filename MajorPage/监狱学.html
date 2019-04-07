@@ -1,0 +1,185 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>监狱学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+监狱学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    监狱学是以监狱法作为基本研究对象的科学，属于部门法学。监狱学除研究监狱法律制度外，还要研究监狱历史、狱政管理、罪犯教育、罪犯劳动、罪犯心理、监狱经济管理、监狱医疗卫生、监狱建筑和刑满释放人员的社会保护等极其广泛的内容。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av3942374?from=search&seid=10818180003412633779" class="">
+								
+								<div class="mui-media-body">
+									【小智逗比实况】监狱建筑师07——没钱了怎么办？
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av10686878?from=search&seid=10818180003412633779" class="">
+								
+								<div class="mui-media-body">
+									【小智直播录播】城市天际线——咱也是监狱留过学的
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av10277830?from=search&seid=10818180003412633779" class="">
+								
+								<div class="mui-media-body">
+									【小手】全程3倍速，快速学会监狱经营不破产！2小时地上5层！（COG 教学视频第一期0.63版本）【建议自己玩了破产再看】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av46536387?from=search&seid=7279421772046163048" class="">
+
+    								<div class="mui-media-body">
+    									椰奶监狱学坏，安宥真开挂carry全监狱！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av22040100?from=search&seid=7279421772046163048" class="">
+
+    								<div class="mui-media-body">
+    									拳释3-监狱学拳，为梦想转型的电焊工人
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av14616312?from=search&seid=7279421772046163048" class="">
+
+    								<div class="mui-media-body">
+    									【Ido影视特效】韩国超帅小伙，监狱学会超能力，拐走别人老婆！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av2760600?from=search&seid=7279421772046163048" class="">
+
+    								<div class="mui-media-body">
+    									监狱学园之风云再起 为什么我看的监狱和你们不一样？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10411168?from=search&seid=7279421772046163048" class="">
+
+    								<div class="mui-media-body">
+    									监狱学院（1/4）【第十三期】
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data183865"><p>中国大学哪些本科的监狱学专业跻身2018世界一流、世界高水平、中国顶尖和中国一流专业行列？艾瑞深中国校友会网最新公布的2018本科专业排行榜中就有你想知道的答案，和小编一起来看看吧！</p><p><img alt="监狱学专业全国大学排名" border="0" height="375" src="http://img.gaosan.com/upload/201710/6364471543063181547884338.jpg" style="width: 600px; height: 375px;" title="监狱学专业全国大学排名" vspace="0" width="600"/></p><p>在2018本科监狱学专业排行榜中，中央司法警官学院雄居排行榜榜首，上海政法学院、山东政法学院紧随其后，占据第二、第三名。福建警察学院位列第四名，辽宁警察学院位列第五名，全部排名数据请看下表：</p><h2><a>1</a><span>本科大学监狱学专业排名</span></h2><table><colgroup><col width="72"/><col width="163"/><col width="72"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td style="word-break: break-all;">中央司法警官学院</td><td>6星级</td><td>河北</td><td>1</td></tr><tr><td>2</td><td style="word-break: break-all;">上海政法学院</td><td>5星级</td><td>上海</td><td>1</td></tr><tr><td>3</td><td style="word-break: break-all;">山东政法学院</td><td>4星级</td><td>山东</td><td>1</td></tr><tr><td>4</td><td>福建警察学院</td><td>3星级</td><td>福建</td><td>1</td></tr><tr><td>4</td><td>辽宁警察学院</td><td>3星级</td><td>辽宁</td><td style="word-break: break-all;">1</td></tr></tbody></table><h2><a>1</a><span>中央司法警官学院</span></h2><p></p><p>中央司法警官学院是司法部直属的唯一一所普通高等院校，坐落于历史文化名城——河北省保定市。学校是中国司法行政系统的最高学府，承担着培养中国司法行政尤其是监狱劳教系统高层次专门人才和培训司法行政系统领导干部与高级警官的重任，被誉为中国"中高级警官的摇篮"。</p><p><img alt="20131028123801-1400087807_meitu_1.jpg" src="http://img.gaosan.com/upload/201605/6359917720021549232381768.jpg" title="20131028123801-1400087807_meitu_1.jpg"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1956年</td><td>公立</td><td>政法类</td><td>中华人民共和国司法部</td></tr></tbody></table><h2><a>1</a><span>上海政法学院</span></h2><p></p><p>上海政法学院始建于1984年。2004年9月，上海市人民政府批准上海政法学院为独立设置的普通本科院校。学校注重教学科研与社会发展、经济建设的紧密结合，已经初步形成以法学为主干，政治学、经济学、社会学、管理学、语言文学等多学科协调发展的办学体系。</p><p><img alt="上海政法学院校门" src="http://img.gaosan.com/upload/webimg/2137.jpg" title="上海政法学院校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1984年</td><td>公立</td><td>政法</td><td>上海市教育委员会上海市司法局</td></tr></tbody></table><h2><a>1</a><span>山东政法学院</span></h2><p></p><p>山东政法学院坐落在历史文化名城济南，肇始于1955年7月山东省人民委员会批准建立的山东省政法干部学校。1979年12月山东省委省政府决定恢复建立山东省政法干部学校；1983年7月更名为山东省司法管理干部学院；1987年10月更名为山东省政法管理干部学院；2005年2月开始筹建山东政法学院；2007年3月16日和4月26日教育部和山东省人民政府发文同意正式设立山东政法学院。</p><p><img alt="山东政法学院校门" src="http://img.gaosan.com/upload/webimg/2236.jpg" title="山东政法学院校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1955年</td><td>公立</td><td>政法</td><td>山东省教育厅</td></tr></tbody></table><h2><a>1</a><span>福建警察学院</span></h2><p></p><p>福建警察学院是福建省人民政府举办的福建省唯一一所以培养公安、司法警察为主的全日制警察本科院校。经过60余年的建设和发展，学院现已成为福建省警务人才的培养基地、福建省在职中级警官培训基地、福建省警务科技和警务理论的研发基地、闽台警务学术的交流基地，是国内同类院校中特色鲜明的警察本科院校。</p><p><img alt="福建警察学院 毕业典礼" src="http://img.gaosan.com/upload/webimg/3031.jpg" title="福建警察学院 毕业典礼"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1949年</td><td>公立</td><td>其他</td><td>福建省教育委员会</td></tr></tbody></table><h2><a>1</a><span>辽宁警察学院</span></h2><p></p><p>辽宁警察学院于2014年5月经教育部批准正式建立，是全省唯一一所省属公安本科院校。学院位于大连市甘井子区营平路，校园占地59万平方米，校舍总建筑面积18.33万平方米。现有专任教师341人，其中教授35人，副高级以上专业技术职务教师126人，具有研究生学历教师210人，双师型教师167人。现有全日制本专科在校生5825人。</p><p><img alt="辽宁警察学院 2014毕业典礼" src="http://img.gaosan.com/upload/webimg/3372.jpg" title="辽宁警察学院 2014毕业典礼"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1960年</td><td>公立</td><td>政法</td><td>辽宁省教育厅、辽宁省公安厅</td></tr></tbody></table><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

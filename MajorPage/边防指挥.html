@@ -1,0 +1,174 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>边防指挥</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+边防指挥</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;  边防指挥专业是一门主要研究部队管理与部队指挥的学科，旨在培养熟悉我国公安工作的方针政策和相关的法律法规，掌握部队管理、作战指挥等方面的基本知识和技能，能胜任部队管理、作战指挥等任务的高级技术应用性专门人才。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av36921652?from=search&seid=10614769035231571692" class="">
+								
+								<div class="mui-media-body">
+									【历史】明成祖——病中治国的皇帝 全五讲 中国社会科学院 中国明史学会会长 商传 教授 主讲
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av16604281?from=search&seid=10614769035231571692" class="">
+								
+								<div class="mui-media-body">
+									【战争/剧情】：自豪吧，母亲/1980年【国语无字】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av38255941?from=search&seid=2374083725978230916" class="">
+
+    								<div class="mui-media-body">
+    									【边防巡逻进行曲】季承 晓藕 魏群 郑路作曲 张治荣指挥 2012年建军85周年音乐会
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av17587155?from=search&seid=2374083725978230916" class="">
+
+    								<div class="mui-media-body">
+    									东德人民军边防大队1984年宣传片
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av6344637?from=search&seid=2374083725978230916" class="">
+
+    								<div class="mui-media-body">
+    									中国人民武警部队学院，官方征兵宣传片！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24649603?from=search&seid=2374083725978230916" class="">
+
+    								<div class="mui-media-body">
+    									河北公安警察职业学院2018年招生宣传视频
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av11589666?from=search&seid=2374083725978230916" class="">
+
+    								<div class="mui-media-body">
+    									民主德国边防军-《边防之歌》（中德双字）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data183881"><p>中国大学哪些本科的边防指挥专业跻身2018世界一流、世界高水平、中国顶尖和中国一流专业行列？艾瑞深中国校友会网最新公布的2018本科专业排行榜中就有你想知道的答案，和小编一起来看看吧！</p><p><img alt="边防指挥专业全国大学排名" border="0" height="370" src="http://img.gaosan.com/upload/peitu/600/0600.jpg" style="width: 600px; height: 370px;" title="边防指挥专业全国大学排名" vspace="0" width="600"/></p><p>在2018本科边防指挥专业排行榜中，中国人民武装警察部队学院雄居排行榜榜首，全部排名数据请看下表：</p><h2><a>1</a><span>本科大学边防指挥专业排名</span></h2><table><colgroup><col width="72"/><col width="163"/><col width="72"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>中国人民武装警察部队学院</td><td>3星级</td><td>河北</td><td>1</td></tr></tbody></table><p>艾瑞深中国校友会网2018中国大学本科专业排行榜专业星级划分：中国九星级专业：世界顶尖专业；中国八星级专业：世界一流、中国最顶尖专业；中国七星级专业：世界知名高水平、中国顶尖专业；中国六星级专业：世界高水平、中国顶尖专业；中国五星级专业：世界知名、中国一流专业；中国四星级专业：中国高水平专业；中国三星级专业：中国知名、区域一流专业；中国二星级专业：中国区域高水平专业；中国一星级专业：中国区域知名专业。</p><h2><a>1</a><span>边防指挥专业就业前景<br/></span></h2><p>边防指挥专业是一门主要研究部队管理与部队指挥的学科，旨在培养熟悉我国公安工作的方针政策和相关的法律法规，掌握部队管理、作战指挥等方面的基本知识和技能，能胜任部队管理、作战指挥等任务的高级技术应用性专门人才。</p><p>边防管理是边防系最老的专业，也是边防部队最对口的专业，主要学公安类和法律类的课程，但是要注意你们在报考中所谓的边防管理专业现在是以方向的形式分为三个专业：管理、检查和情报，管理是我前面说的边防管理，检查是学习出入境检查和法律以及部分边防管理的课程，情报是新专业，今年才第二年，以前就有这个硕士点，现在开了本科，应该也算老专业，学的是边防管理部分课程和情报收集分析传递之类的，只不过是听起来有些神秘，其实差不多；边防指挥最早是只招部队生的，招地方生大概才四五年，学习的是军事指挥部队管理法律和部分边防管理边防检查的课程，说白了就是别的专业的课很多都要学还要学自己的专业课，军事训练也更多。边防指挥专业毕业生中，54%的学生在毕业之前或刚刚毕业时找到工作，46%的学生在毕业1年以后实现就业。按照10分制进行计算，该专业的应届就业率指数为5.40，与其他专业相比，应届就业率指数属于中等偏下。</p><h2><a>1</a><span>边防指挥专业介绍</span></h2><p></p><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-11/14faf17b-dcad-4417-afe3-be4d06292e50.jpg" title="边防指挥专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>公安学类</td><td>未知<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">样本不足，无法分析</span></td><td>惠州市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">100%在惠州市工作</span></td><td>未知男---女--</td></tr></tbody></table><p>培养目标：培养熟悉我国公安工作的方针政策和相关的法律法规，掌握部队管理、作战指挥等方面的基本知识和技能，能胜任部队管理、作战指挥等任务的高级技术应用性专门人才。</p><p>主干课程：部队基层政治工作、部队基层行政管理、参谋业务基础、公安学概论、边境管理学、边防情报学、边防勤务学、边防战术学、公安边防部队实习、社会调查等，以及各校的主要特色课程和实践环节。</p><p>就业方向：管理的对口方向是基层派出所和各级机关的边防管理科室，主要是做公安业务的；检查的对口是边防检查站，主要就是在站里管理出入境车辆人员轮船飞机，说白了就是盖章；指挥对口是各级机动中队和检查站的监护中队等有兵单位带兵，但是边防部队这类单位很少，需求远远少于毕业生的数量；情报对口是各级情报站和业务科室，除了一些敌我斗争很激烈的地区基本都是很闲的。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

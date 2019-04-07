@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>汉语言</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+汉语言</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    汉语，即汉族的传统语言，是中国通用语言，国际通用语言之一，属汉藏语系，与藏语、壮语、傣语、侗语、黎语、彝语、苗语、瑶语等都是亲属语言。 </h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    汉语历史悠久，使用人数最多，世界上使用汉语的人数至少15亿 ，超过世界总人口的20%，是中国、新加坡的官方语言，亦是联合国六种工作语言之一，主要流通于中国和新加坡、马来西亚、缅甸、泰国等东南亚国家以及美国、加拿大、澳大利亚、新西兰、日本等国的华人社区。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    汉语是分析语，一般有三到十五种声调。汉语的文字系统汉字是一种意音文字，兼具表意和表音功能。汉语包含口语和书面语两部分，古代书面汉语被称为文言文，现代书面汉语被称为白话文，以现代标准汉语为规范。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    汉语有标准语和方言之分。现代标准汉语即普通话，以北京语音为标准音、以官话为基础方言、以典范的现代白话文著作为语法规范。现代标准汉语中，除轻声外共有四个声调。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    汉语一般划分为13种方言（如国际标准化组织ISO 639-3 国际语种代号标准），各方言可分成多种次方言。十三种汉语一级方言分别是：官话、晋方言、粤方言、湘方言、淮方言、吴方言、徽方言、赣方言、客家方言、闽北方言、闽南方言、闽东方言、闽中方言、莆仙方言。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av21844350?from=search&seid=17167275077254323727" class="">
+								
+								<div class="mui-media-body">
+									北京大学 汉语言修辞 全41讲 主讲-吕艺 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av45463234?from=search&seid=17167275077254323727" class="">
+								
+								<div class="mui-media-body">
+									北京大学公开课系列50：汉语言修辞 全41讲 主讲-吕艺
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av46285559?from=search&seid=17167275077254323727" class="">
+								
+								<div class="mui-media-body">
+									《外国文学史》00540 自考汉语言本科
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av26852757?from=search&seid=17167275077254323727" class="">
+								
+								<div class="mui-media-body">
+									2019考研汉语言国际硕士基础课程汉语国际教育基础系列
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av31240877?from=search&seid=17167275077254323727" class="">
+								
+								<div class="mui-media-body">
+									翻译硕士怎么备考，看汉语言与百科、翻译基础、英语导学班就明白
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av45264903?from=search&seid=13614620213336412237" class="">
+
+    								<div class="mui-media-body">
+    									中国汉语言在全世界各地大学都有课程，看外国学生是怎么评价中文
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av9824662?from=search&seid=13614620213336412237" class="">
+
+    								<div class="mui-media-body">
+    									汉语言专业里的高级涉外文秘到底学什么？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av34892146?from=search&seid=13614620213336412237" class="">
+
+    								<div class="mui-media-body">
+    									【藏墨】南师院18级汉语言三四班纪念视频
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24732871?from=search&seid=13614620213336412237" class="">
+
+    								<div class="mui-media-body">
+    									【毕业季】中国传媒大学2018届汉语言（应用语言学方向）专业毕业班鉴
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av11518889?from=search&seid=13614620213336412237" class="">
+
+    								<div class="mui-media-body">
+    									西安工程大学人文学院2013级汉语言专业毕业视频
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data141960"><p><img alt="汉语言专业" src="http://img.gaosan.com/upload/zhuanye/1/711.jpg"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>中国语言文学类</td><td>￥5980<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过31%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">15%在北京市工作</span></td><td>女生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男23%-女77%</span></td></tr></tbody></table><p>培养目标：本专业培养具备汉语及语言学、中国文学等方面的系统知识和专业技能，能在高校、科研机构和机关企事业相关部门从事汉语言文字的教学科研、对外汉语教学、语言文字管理及语言应用方面实际工作的语言学高级专门人才。</p><p>就业方向：一般像技术类以外的职位，由于专业界限不是很明显，因此中文专业的大学生也可以结合自己的兴趣，有选择地往这些方向发展：政府公务员、市场营销、客户服务等。</p><h2><a>1</a><span>2018最新汉语言专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>复旦大学</td><td>5★</td><td>32</td></tr><tr><td>2</td><td>北京大学</td><td>4★</td><td>32</td></tr><tr><td>3</td><td>四川大学</td><td>4★</td><td>32</td></tr><tr><td>4</td><td>华中师范大学</td><td>4★</td><td>32</td></tr><tr><td>5</td><td>暨南大学</td><td>4★</td><td>32</td></tr></tbody></table><h2><a>1</a><span>汉语言专业排名大学介绍</span></h2><p><a href="/gaokao/175022.html" target="_blank">复旦大学</a>创建于1905年，原名复旦公学，是中国人自主创办的第一所高等院校，创始人为中国近代知名教育家马相伯。校名“复旦”二字选自《尚书大传·虞夏传》中“日月光华，旦复旦兮”的名句，意在自强不息，寄托当时中国知识分子自主办学、教育强国的希望。1917年复旦公学改名为私立复旦大学；1937年抗战爆发后，学校内迁重庆北碚，并于1941年改为“国立”；1946年迁回上海江湾原址；1952年全国高等学校院系调整后，复旦大学成为文理科综合大学；1959年成为全国重点大学。</p><p><img alt="复旦大学校门" src="http://img.gaosan.com/upload/webimg/1627.jpg" title="复旦大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1905年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>北京大学创办于1898年，初名京师大学堂，是中国第一所国立综合性大学，也是当时中国最高教育行政机关。辛亥革命后，于1912年改为现名。作为新文化运动的中心和“五四”运动的策源地，作为中国最早传播马克思主义和民主科学思想的发祥地，作为中国共产党最早的活动基地，北京大学为民族的振兴和解放、国家的建设和发展、社会的文明和进步做出了不可替代的贡献，在中国走向现代化的进程中起到了重要的先锋作用。爱国、进步、民主、科学的传统精神和勤奋、严谨、求实、创新的学风在这里生生不息、代代相传。</p><p><img alt="北京大学校门" src="http://img.gaosan.com/upload/webimg/1623.jpg" title="北京大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1898年</td><td>公立</td><td>综合</td><td>中华人民共和国教育部</td></tr></tbody></table><p>四川大学是教育部直属全国重点大学，是布局在中国西部、“985工程”和“211工程”重点建设的高水平研究型综合大学。学校现任党委书记杨泉明教授、校长谢和平院士。</p><p><img alt="四川大学校门" src="http://img.gaosan.com/upload/webimg/1645.jpg" title="四川大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1896年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>华中师范大学位于九省通衢的湖北省武汉市，占地面积120余万平方米，是中国教育部直属重点综合性师范大学，国家“211工程”重点建设的大学。学校在百余年的发展中既继承了中国传统文化的精华，又汲取了外来文化的养分，更弘扬了革命文化教育的传统，形成了“忠诚博雅、朴实刚毅”的华师精神，为国家培养了近30万优秀人才。</p><p><img alt="华中师范大学 学校大门" src="http://img.gaosan.com/upload/webimg/1656.jpg" title="华中师范大学 学校大门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1903年</td><td>公立</td><td>师范</td><td>教育部</td></tr></tbody></table><p>暨南大学是中国第一所由政府创办的华侨学府，是国务院侨办、教育部、广东省共建的“211工程”重点综合性大学，直属国务院侨办领导。现任校长为胡军教授，校党委书记为林如鹏教授。“暨南”二字出自《尚书·禹贡》：“东渐于海，西被于流沙，朔南暨，声教讫于四海。”意即面向南洋，将中华文化远播到五洲四海。</p><p><img alt="暨南大学校门" src="http://img.gaosan.com/upload/webimg/1686.jpg" title="暨南大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1906年</td><td>公立</td><td>综合</td><td>国务院侨务办公室</td></tr></tbody></table><p>　　以上2018年汉语言专业大学排名汉语言专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

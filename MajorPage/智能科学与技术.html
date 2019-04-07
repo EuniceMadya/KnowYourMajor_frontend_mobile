@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>智能科学与技术</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+智能科学与技术</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    智能科学与技术专业是西安电子科技大学雷达信号处理国家重点实验室和北京大学智能科学系在2003年共同提出成立的，智能科学系的前身是西电智能信息处理研究所和北大信息科学中心，由两校数学系、计算机系、电子学系等10个系（所）于1985年成立，主要从事机器感知、智能机器人、智能信息处理和机器学习等交叉学科的研究和教学。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av44813791?from=search&seid=15493672393912770583" class="">
+								
+								<div class="mui-media-body">
+									类脑计算：人工智能的社会期待与技术现实 【4集】(危辉：复旦大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av39146888?from=search&seid=15493672393912770583" class="">
+								
+								<div class="mui-media-body">
+									1.3 机器学习基本要素与基本流程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av7360744?from=search&seid=15493672393912770583" class="">
+								
+								<div class="mui-media-body">
+									【票圈】【工程技术】【共8集】《从自然世界到智能时代》湖南大学公开课&amp;微博@票圈
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av32000987?from=search&seid=15493672393912770583" class="">
+								
+								<div class="mui-media-body">
+									【公开课】计算机导论（完）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av37009483?from=search&seid=15493672393912770583" class="">
+								
+								<div class="mui-media-body">
+									人工智能 | 生成对抗网络在图像翻译上的应用
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av30423321?from=search&seid=1061483202780550122" class="">
+
+    								<div class="mui-media-body">
+    									秒懂专业：带你走进人工智能的时代——电子科学与技术专业
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av25565761?from=search&seid=1061483202780550122" class="">
+
+    								<div class="mui-media-body">
+    									【高考志愿填报】智能科学与技术专业介绍
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av47040726?from=search&seid=1061483202780550122" class="">
+
+    								<div class="mui-media-body">
+    									上周末去听课 厦门大学智能科学与技术系教授、博士生导师周昌乐教授
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av31785116?from=search&seid=1061483202780550122" class="">
+
+    								<div class="mui-media-body">
+    									Linear RGB-D SLAM for Planar Environments (ECCV 2018)
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av6271090?from=search&seid=1061483202780550122" class="">
+
+    								<div class="mui-media-body">
+    									WIFI智能开窗器，远程操控，防盗报警《创新科技3分钟》
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data139352"><p style="text-align: center;"><img src="http://img.gaosan.com/upload/2016-04-04/0be7d0dd-7c34-4952-9ddd-c3a6de33ae9e.jpg" title="智能科学与技术专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>计算机类</td><td>￥7756<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过80%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">26%在北京市工作</span></td><td>男生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男76%-女24%</span></td></tr></tbody></table><p>培养目标：智能科学与技术专业以夯实计算机科学技术为基础，以加强智能科学理论方法和应用技术为核心，以促进学生知识、能力、素质协调发展为目标，注重培养学生良好的科学研究素养和技术应用能力。</p><p>主要课程：智能科学技术导论（含脑科学、生命科学与认知科学）、人工智能原理、智能机器人、智能游戏、虚拟现实技术、模式识别、数据挖掘、仿真建模与MATLAB、自然语言处理、智能信息获取技术、智能管理等。</p><p style="text-align: justify;">就业方向：除计算机设备以外的电子和电气设备及其零件业，电力、燃气、公共环卫服务业。毕业生可在工业企业、信息网络、信息产业、电子政务、电子商务、文化教育、医疗卫生、国防等领域从事各类信息处理、计算机应用、智能化产品设计与开发等工作；也可以报考智能科学技术相关的研究生专业。</p><h2><a>1</a><span>2018最新智能科学与技术专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>北京大学</td><td>5★</td><td>27</td></tr><tr><td>2</td><td>西安电子科技大学</td><td>4★</td><td>27</td></tr><tr><td>3</td><td>中南大学</td><td>4★</td><td>27</td></tr><tr><td>4</td><td>中山大学</td><td>4★</td><td>27</td></tr><tr><td>5</td><td>湖南大学</td><td>4★</td><td>27</td></tr></tbody></table><h2><a>1</a><span>智能科学与技术专业排名大学介绍</span></h2><p>北京大学创办于1898年，初名京师大学堂，是中国第一所国立综合性大学，也是当时中国最高教育行政机关。辛亥革命后，于1912年改为现名。作为新文化运动的中心和“五四”运动的策源地，作为中国最早传播马克思主义和民主科学思想的发祥地，作为中国共产党最早的活动基地，北京大学为民族的振兴和解放、国家的建设和发展、社会的文明和进步做出了不可替代的贡献，在中国走向现代化的进程中起到了重要的先锋作用。爱国、进步、民主、科学的传统精神和勤奋、严谨、求实、创新的学风在这里生生不息、代代相传。</p><p><img alt="北京大学校门" src="http://img.gaosan.com/upload/webimg/1623.jpg" title="北京大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1898年</td><td>公立</td><td>综合</td><td>中华人民共和国教育部</td></tr></tbody></table><p>西安电子科技大学是以信息与电子学科为主，工、理、管、文多学科协调发展的全国重点大学，是国家“优势学科创新平台”项目和“211工程”项目重点建设高校之一、首批35所示范性软件学院。学校前身是1931年诞生于江西瑞金的中央军委无线电学校，是毛泽东等老一辈革命家亲手创建的第一所工程技术学校。1958年学校迁址西安，1966年转为地方建制，1988年定为现名。</p><p><img alt="西安电子科技大学校门" src="http://img.gaosan.com/upload/webimg/1689.jpg" title="西安电子科技大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1931年</td><td>公立</td><td>理工</td><td>教育部直属、工信部共建</td></tr></tbody></table><p><a href="/gaokao/169008.html" target="_blank">中南大学</a>坐落在中国历史文化名城──湖南省长沙市，占地面积5886亩，建筑面积276万平方米。中南大学是教育部直属全国重点大学、国家“211工程”首批重点建设高校、国家“985工程”部省重点共建高水平大学和国家“2011计划”首批牵头高校。现任校党委书记高文兵、校长张尧学。</p><p><img alt="中南大学校门" src="http://img.gaosan.com/upload/webimg/1653.jpg" title="中南大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>2000年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>中山大学由孙中山先生创办，有着一百多年办学传统，是中国南方科学研究、文化学术与人才培养的重镇。作为中国教育部直属高校，通过部省共建，中山大学已经成为一所国内一流、国际知名的现代综合性大学。现由广州校区、珠海校区、深圳校区三个校区、五个校园及八家附属医院组成。中山大学正在向世界一流大学迈进，努力成为全球学术重镇。</p><p><img alt="中山大学校门" src="http://img.gaosan.com/upload/webimg/1639.jpg" title="中山大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1924年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>湖南大学坐落在中国历史文化名城长沙，校区位于湘江之滨、岳麓山下，享有“千年学府，百年名校”之誉。她不仅是国家教育部直属的全国重点综合性大学，也是国家“211工程”、“985工程”重点建设的高水平大学。1963年起隶属国家机械工业部，1978年列为全国重点大学，1998年调整为教育部直属高校。2000年，湖南大学与湖南财经学院合并组建成新的湖南大学。</p><p><img alt="湖南大学校门石刻" src="http://img.gaosan.com/upload/webimg/1638.jpg" title="湖南大学校门石刻"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1903年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>　　以上2018年智能科学与技术专业大学排名智能科学与技术专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

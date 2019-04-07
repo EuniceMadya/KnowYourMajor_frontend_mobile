@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>蚕学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+蚕学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    蚕业科学（sericultural science），简称蚕学（sericology），又称蚕丝学（sericologia），广义养蚕学，研究生招生专业中又称特种经济动物饲养，是蚕业生产业务的理论基础，是指导蚕业生产各种业务活动的方法和原理。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av9252841?from=search&seid=8008289401216905647" class="">
+								
+								<div class="mui-media-body">
+									【蛆帕斯】蚕宝宝的血源之旅第一期 热情好客的亚楠镇
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av34052990?from=search&seid=8008289401216905647" class="">
+								
+								<div class="mui-media-body">
+									【剧情】蚕花姑娘 1963【高清TS】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av9424382?from=search&seid=8008289401216905647" class="">
+								
+								<div class="mui-media-body">
+									【蛆帕斯】蚕宝宝的血源之旅第三期 好多黄鳝好可怕！老王弱！蚕宝宝强！
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av9335780?from=search&seid=8008289401216905647" class="">
+								
+								<div class="mui-media-body">
+									【蛆帕斯】蚕宝宝的血源之旅第二期 关键时刻还得小李飞刀
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av9789889?from=search&seid=8008289401216905647" class="">
+								
+								<div class="mui-media-body">
+									【蛆帕斯】蚕宝宝的血源之旅第五期  我TM脑袋被路德维格踢了
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av23442906?from=search&seid=7445414682967332089" class="">
+
+    								<div class="mui-media-body">
+    									【我们的班】2015蚕学班团日活动集锦（第一弹）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av23443024?from=search&seid=7445414682967332089" class="">
+
+    								<div class="mui-media-body">
+    									【我们的班】2015蚕学班团日活动集锦（第二弹）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av36050463?from=search&seid=7445414682967332089" class="">
+
+    								<div class="mui-media-body">
+    									【山花】魏白魏  恋爱循环
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av46112743?from=search&seid=12262067039644123845" class="">
+
+    								<div class="mui-media-body">
+    									蚕宝宝蜕皮全过程
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av22429383?from=search&seid=12262067039644123845" class="">
+
+    								<div class="mui-media-body">
+    									略重口~超高清近距离拍摄蚕啃桑叶 镜头下蚕宝宝好像怪兽！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data140604"><p><img alt="蚕学专业 " src="http://img.gaosan.com/upload/zhuanye/1/828.jpg"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>动物生产类</td><td>￥7207<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过68%的专业</span></td><td>合肥市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">9%在合肥市工作</span></td><td>男生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男73%-女27%</span></td></tr></tbody></table><p>培养目标：本专业培养具备蚕学方面的基本理论、基本知识和基本技能，能在蚕业或农业部门从事技术推广与开发、生产管理与经营、教学与科研等工作的高级科学技术人才。</p><p>主要课程：蚕体解剖生理学、桑树栽培及育种学、桑树病虫害防治学、养蚕学、蚕病学、蚕种学、家蚕育种学、茧丝学、家蚕遗传学、蚕业经济及经营管理、蚕桑副产物综合利用。</p><p>就业方向：以前的蚕学学生几乎都转行了。不转行就有几个出路，去蚕学专业最好的几个名校，或者去日本，或者考研做与蚕相关的制药。蚕学的本科都是专业被调剂的学生。</p><h2><a>1</a><span>2018最新蚕学专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>西南大学</td><td>5★</td><td>6</td></tr><tr><td>2</td><td>山东农业大学</td><td>4★</td><td>6</td></tr><tr><td>3</td><td>华南农业大学</td><td>3★</td><td>6</td></tr></tbody></table><h2><a>1</a><span>蚕学专业排名大学介绍</span></h2><p>西南大学是教育部直属，教育部、农业部、重庆市共建的重点综合大学，是国家"211工程"和"985工程优势学科创新平台"建设高校。现任党委书记黄蓉生教授、校长张卫国教授。</p><p><img alt="西南大学 北大门" src="http://img.gaosan.com/upload/webimg/1673.jpg" title="西南大学 北大门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1906年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>山东农业大学坐落在雄伟壮丽的泰山脚下，前身是1906年创办于济南的山东高等农业学堂。目前，学校已经发展成为一所以农业科学为优势，生命科学为特色，融农、理、工、管、经、文、法、艺术学等于一体的多科性大学。近年来，学校毕业生初次就业率一直在92%以上，考研率在30%以上，荣获全国毕业生就业典型经验高校50强。</p><p><img alt="山东农业大学校门" src="http://img.gaosan.com/upload/webimg/1746.jpg" title="山东农业大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1906年</td><td>公立</td><td>农林</td><td>山东省教育厅</td></tr></tbody></table><p>华南农业大学是全国重点大学，学校悠久的办学历史可追溯至始创于1909年的广东全省农事试验场暨附设农业讲习所。1952年，在全国高校院系调整时，由中山大学农学院、岭南大学农学院和广西大学农学院畜牧兽医系及病虫害系的一部分合并成立华南农学院，隶属农业部主管。华南农业大学是广东省和农业部共建的“211工程”大学。校园坐落在素有“花城”美誉的广州市，占地8250多亩，校舍总建筑面积约137万平方米。</p><p><img alt="华南农业大学 学校大门" src="http://img.gaosan.com/upload/webimg/1707.jpg" title="华南农业大学 学校大门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1909年</td><td>公立</td><td>综合</td><td>广东省人民政府、农业部</td></tr></tbody></table><p>　　以上2018年蚕学专业大学排名蚕学专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

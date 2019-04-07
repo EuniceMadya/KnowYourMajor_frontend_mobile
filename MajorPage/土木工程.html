@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>土木工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+土木工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    土木工程是建造各类土地工程设施的科学技术的统称。它既指所应用的材料、设备和所进行的勘测、设计、施工、保养、维修等技术活动，也指工程建设的对象。即建造在地上或地下、陆上，直接或间接为人类生活、生产、军事、科研服务的各种工程设施，例如房屋、道路、铁路、管道、隧道、桥梁、运河、堤坝、港口、电站、飞机场、海洋平台、给水排水以及防护工程等。土木工程是指除房屋建筑以外，为新建、改建或扩建各类工程的建筑物、构筑物和相关配套设施等所进行的勘察、规划、设计、施工、安装和维护等各项技术工作及其完成的工程实体。 </h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av16333448?from=search&seid=7516859802005997214" class="">
+								
+								<div class="mui-media-body">
+									西安交大土木工程施工64讲
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av28926731?from=search&seid=7516859802005997214" class="">
+								
+								<div class="mui-media-body">
+									【公开课】土木工程概论（完）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av13619680?from=search&seid=7516859802005997214" class="">
+								
+								<div class="mui-media-body">
+									西安交大土木工程材料
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av39175714?from=search&seid=7516859802005997214" class="">
+								
+								<div class="mui-media-body">
+									【同济大学】土木工程施工（全27讲）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av39091256?from=search&seid=7516859802005997214" class="">
+								
+								<div class="mui-media-body">
+									【2018】西南科技大学土木工程与建筑学院2018届毕业典礼
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av29733644?from=search&seid=3394562347064184072" class="">
+
+    								<div class="mui-media-body">
+    									【前方高能】同样土木工程毕业，男女差别怎么那么大
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av30432971?from=search&seid=3394562347064184072" class="">
+
+    								<div class="mui-media-body">
+    									土木工程专业同学毕业后，最真实的感受
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av31207979?from=search&seid=3394562347064184072" class="">
+
+    								<div class="mui-media-body">
+    									【高能预警】土木工程实习日常，我要换专业！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av31904967?from=search&seid=3394562347064184072" class="">
+
+    								<div class="mui-media-body">
+    									秒懂专业：土木工程专业
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av34980955?from=search&seid=3394562347064184072" class="">
+
+    								<div class="mui-media-body">
+    									【真香时刻】学土木工程的小姐姐毕业后……
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data184435"><p>中国大学哪些本科的土木工程专业是2018年高考优秀考生选择报考的最佳专业？艾瑞深中国校友会网最新公布的2018本科专业排行榜中就有你想知道的答案，和小编一起来看看吧！</p><p><img alt="土木工程专业大学排名" border="0" height="350" src="http://img.gaosan.com/upload/201710/6364498133957588206648405.jpg" style="width: 600px; height: 350px;" title="土木工程专业大学排名" vspace="0" width="600"/></p><p><strong>在2018本科土木工程专业排行榜中，同济大学雄居排行榜榜首，清华大学、哈尔滨工业大学紧随其后，占据第二、第三名。</strong>想知道全部的土木工程专业排名请看下表：</p><h2><a>1</a><span>公办本科大学土木工程专业排名</span></h2><table><colgroup><col width="72"/><col width="181"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>同济大学</td><td>7星级</td><td>上海</td><td>1</td></tr><tr><td>1</td><td>清华大学</td><td>7星级</td><td>北京</td><td>1</td></tr><tr><td>3</td><td>哈尔滨工业大学</td><td>7星级</td><td>黑龙江</td><td>1</td></tr><tr><td>3</td><td>东南大学</td><td>7星级</td><td>江苏</td><td>1</td></tr><tr><td>5</td><td>大连理工大学</td><td>6星级</td><td>辽宁</td><td>1</td></tr><tr><td>5</td><td>浙江大学</td><td>6星级</td><td>浙江</td><td>1</td></tr><tr><td>5</td><td>湖南大学</td><td>6星级</td><td>湖南</td><td>1</td></tr><tr><td>5</td><td>中南大学</td><td>6星级</td><td>湖南</td><td>1</td></tr><tr><td>9</td><td>天津大学</td><td>6星级</td><td>天津</td><td>1</td></tr><tr><td>9</td><td>西南交通大学</td><td>6星级</td><td>四川</td><td>1</td></tr><tr><td>9</td><td>重庆大学</td><td>6星级</td><td>重庆</td><td>1</td></tr><tr><td>12</td><td>河海大学</td><td>5星级</td><td>江苏</td><td>2</td></tr><tr><td>12</td><td>深圳大学</td><td>5星级</td><td>广东</td><td>1</td></tr><tr><td>12</td><td>上海交通大学</td><td>5星级</td><td>上海</td><td>2</td></tr><tr><td>12</td><td>长安大学</td><td>5星级</td><td>陕西</td><td>1</td></tr><tr><td>12</td><td>武汉大学</td><td>5星级</td><td>湖北</td><td>1</td></tr><tr><td>17</td><td>华中科技大学</td><td>5星级</td><td>湖北</td><td>2</td></tr><tr><td>17</td><td>广州大学</td><td>5星级</td><td>广东</td><td>2</td></tr><tr><td>17</td><td>长沙理工大学</td><td>5星级</td><td>湖南</td><td>3</td></tr><tr><td>17</td><td>兰州交通大学</td><td>5星级</td><td>甘肃</td><td>1</td></tr><tr><td>17</td><td>山东建筑大学</td><td>5星级</td><td>山东</td><td>1</td></tr><tr><td>17</td><td>沈阳建筑大学</td><td>5星级</td><td>辽宁</td><td>2</td></tr><tr><td>17</td><td>石家庄铁道大学</td><td>5星级</td><td>河北</td><td>1</td></tr><tr><td>17</td><td>天津城建大学</td><td>5星级</td><td>天津</td><td>2</td></tr><tr><td>17</td><td>西安建筑科技大学</td><td>5星级</td><td>陕西</td><td>2</td></tr><tr><td>17</td><td>华东交通大学</td><td>5星级</td><td>江西</td><td>1</td></tr><tr><td>17</td><td>安徽建筑大学</td><td>5星级</td><td>安徽</td><td>1</td></tr><tr><td>17</td><td>安徽理工大学</td><td>5星级</td><td>安徽</td><td>1</td></tr><tr><td>17</td><td>北京建筑大学</td><td>5星级</td><td>北京</td><td>2</td></tr><tr><td>17</td><td>北京交通大学</td><td>5星级</td><td>北京</td><td>2</td></tr><tr><td>17</td><td>北京工业大学</td><td>5星级</td><td>北京</td><td>2</td></tr><tr><td>32</td><td>广西大学</td><td>4星级</td><td>广西</td><td>1</td></tr><tr><td>32</td><td>北京航空航天大学</td><td>4星级</td><td>北京</td><td>5</td></tr><tr><td>32</td><td>南京理工大学</td><td>4星级</td><td>江苏</td><td>3</td></tr><tr><td>32</td><td>中国矿业大学</td><td>4星级</td><td>江苏</td><td>3</td></tr><tr><td>32</td><td>西安交通大学</td><td>4星级</td><td>陕西</td><td>3</td></tr><tr><td>32</td><td>山东大学</td><td>4星级</td><td>山东</td><td>2</td></tr><tr><td>32</td><td>武汉理工大学</td><td>4星级</td><td>湖北</td><td>3</td></tr><tr><td>32</td><td>东北大学</td><td>4星级</td><td>辽宁</td><td>3</td></tr><tr><td>32</td><td>成都理工大学</td><td>4星级</td><td>四川</td><td>2</td></tr><tr><td>32</td><td>浙江科技学院</td><td>4星级</td><td>浙江</td><td>2</td></tr><tr><td>32</td><td>新疆大学</td><td>4星级</td><td>新疆</td><td>1</td></tr><tr><td>32</td><td>苏州科技大学</td><td>4星级</td><td>江苏</td><td>3</td></tr><tr><td>32</td><td>山东科技大学</td><td>4星级</td><td>山东</td><td>2</td></tr><tr><td>32</td><td>青岛理工大学</td><td>4星级</td><td>山东</td><td>2</td></tr><tr><td>32</td><td>华侨大学</td><td>4星级</td><td>福建</td><td>1</td></tr><tr><td>32</td><td>河南工业大学</td><td>4星级</td><td>河南</td><td>1</td></tr><tr><td>32</td><td>吉林大学</td><td>4星级</td><td>吉林</td><td>1</td></tr><tr><td>32</td><td>西北工业大学</td><td>4星级</td><td>陕西</td><td>3</td></tr><tr><td>32</td><td>四川大学</td><td>4星级</td><td>四川</td><td>2</td></tr><tr><td>32</td><td>河北建筑工程学院</td><td>4星级</td><td>河北</td><td>2</td></tr><tr><td>32</td><td>广西科技大学</td><td>4星级</td><td>广西</td><td>1</td></tr><tr><td>32</td><td>福建工程学院</td><td>4星级</td><td>福建</td><td>1</td></tr><tr><td>54</td><td>浙江工业大学</td><td>4星级</td><td>浙江</td><td>3</td></tr><tr><td>54</td><td>重庆交通大学</td><td>4星级</td><td>重庆</td><td>2</td></tr><tr><td>54</td><td>中山大学</td><td>4星级</td><td>广东</td><td>3</td></tr><tr><td>54</td><td>常州工学院</td><td>4星级</td><td>江苏</td><td>6</td></tr><tr><td>54</td><td>大连交通大学</td><td>4星级</td><td>辽宁</td><td>4</td></tr><tr><td>54</td><td>宁波工程学院</td><td>4星级</td><td>浙江</td><td>3</td></tr><tr><td>54</td><td>山东交通学院</td><td>4星级</td><td>山东</td><td>5</td></tr><tr><td>54</td><td>汕头大学</td><td>4星级</td><td>广东</td><td>3</td></tr><tr><td>54</td><td>五邑大学</td><td>4星级</td><td>广东</td><td>3</td></tr><tr><td>54</td><td>西安科技大学</td><td>4星级</td><td>陕西</td><td>5</td></tr><tr><td>54</td><td>盐城工学院</td><td>4星级</td><td>江苏</td><td>6</td></tr><tr><td>54</td><td>中国矿业大学（北京）</td><td>4星级</td><td>北京</td><td>6</td></tr><tr><td>54</td><td>华北理工大学</td><td>4星级</td><td>河北</td><td>3</td></tr><tr><td>54</td><td>南京工业大学</td><td>4星级</td><td>江苏</td><td>6</td></tr><tr><td>54</td><td>大连民族大学</td><td>4星级</td><td>辽宁</td><td>4</td></tr><tr><td>54</td><td>佛山科学技术学院</td><td>4星级</td><td>广东</td><td>3</td></tr><tr><td>54</td><td>福州大学</td><td>4星级</td><td>福建</td><td>3</td></tr><tr><td>54</td><td>广东工业大学</td><td>4星级</td><td>广东</td><td>3</td></tr><tr><td>54</td><td>合肥工业大学</td><td>4星级</td><td>安徽</td><td>3</td></tr><tr><td>54</td><td>河北工程大学</td><td>4星级</td><td>河北</td><td>3</td></tr><tr><td>54</td><td>河北农业大学</td><td>4星级</td><td>河北</td><td>3</td></tr><tr><td>54</td><td>河南理工大学</td><td>4星级</td><td>河南</td><td>2</td></tr><tr><td>54</td><td>兰州理工大学</td><td>4星级</td><td>甘肃</td><td>2</td></tr><tr><td>54</td><td>三峡大学</td><td>4星级</td><td>湖北</td><td>4</td></tr><tr><td>54</td><td>宁波大学</td><td>4星级</td><td>浙江</td><td>3</td></tr><tr><td>54</td><td>华南理工大学</td><td>4星级</td><td>广东</td><td>3</td></tr><tr><td>54</td><td>河北工业大学</td><td>4星级</td><td>河北</td><td>3</td></tr><tr><td>54</td><td>东北林业大学</td><td>4星级</td><td>黑龙江</td><td>2</td></tr><tr><td>54</td><td>吉林建筑大学</td><td>4星级</td><td>吉林</td><td>2</td></tr><tr><td>83</td><td>内蒙古科技大学</td><td>3星级</td><td>内蒙古</td><td>1</td></tr><tr><td>83</td><td>太原理工大学</td><td>3星级</td><td>山西</td><td>1</td></tr><tr><td>83</td><td>兰州大学</td><td>3星级</td><td>甘肃</td><td>3</td></tr><tr><td>83</td><td>湖南农业大学</td><td>3星级</td><td>湖南</td><td>4</td></tr><tr><td>83</td><td>长江大学</td><td>3星级</td><td>湖北</td><td>5</td></tr><tr><td>83</td><td>辽宁工程技术大学</td><td>3星级</td><td>辽宁</td><td>6</td></tr><tr><td>83</td><td>黑龙江科技大学</td><td>3星级</td><td>黑龙江</td><td>3</td></tr><tr><td>83</td><td>成都学院</td><td>3星级</td><td>四川</td><td>4</td></tr><tr><td>83</td><td>大连大学</td><td>3星级</td><td>辽宁</td><td>6</td></tr><tr><td>83</td><td>华北水利水电大学</td><td>3星级</td><td>河南</td><td>3</td></tr><tr><td>83</td><td>湖南工业大学</td><td>3星级</td><td>湖南</td><td>4</td></tr><tr><td>83</td><td>湘潭大学</td><td>3星级</td><td>湖南</td><td>4</td></tr><tr><td>83</td><td>西北农林科技大学</td><td>3星级</td><td>陕西</td><td>6</td></tr><tr><td>83</td><td>南京航空航天大学</td><td>3星级</td><td>江苏</td><td>9</td></tr><tr><td>83</td><td>昆明理工大学</td><td>3星级</td><td>云南</td><td>1</td></tr><tr><td>83</td><td>电子科技大学</td><td>3星级</td><td>四川</td><td>4</td></tr><tr><td>83</td><td>暨南大学</td><td>3星级</td><td>广东</td><td>9</td></tr><tr><td>83</td><td>厦门大学</td><td>3星级</td><td>福建</td><td>4</td></tr><tr><td>83</td><td>哈尔滨工程大学</td><td>3星级</td><td>黑龙江</td><td>3</td></tr><tr><td>83</td><td>中国海洋大学</td><td>3星级</td><td>山东</td><td>6</td></tr><tr><td>83</td><td>湖南科技大学</td><td>3星级</td><td>湖南</td><td>4</td></tr><tr><td>83</td><td>中国地质大学（武汉）</td><td>3星级</td><td>湖北</td><td>5</td></tr><tr><td>83</td><td>上海理工大学</td><td>3星级</td><td>上海</td><td>3</td></tr><tr><td>83</td><td>北京科技大学</td><td>3星级</td><td>北京</td><td>7</td></tr><tr><td>83</td><td>山西大学</td><td>3星级</td><td>山西</td><td>1</td></tr><tr><td>83</td><td>郑州大学</td><td>3星级</td><td>河南</td><td>3</td></tr><tr><td>83</td><td>内蒙古大学</td><td>3星级</td><td>内蒙古</td><td>1</td></tr><tr><td>83</td><td>云南农业大学</td><td>3星级</td><td>云南</td><td>1</td></tr><tr><td>83</td><td>西南科技大学</td><td>3星级</td><td>四川</td><td>4</td></tr><tr><td>83</td><td>南昌大学</td><td>3星级</td><td>江西</td><td>2</td></tr><tr><td>83</td><td>中国农业大学</td><td>3星级</td><td>北京</td><td>7</td></tr><tr><td>114</td><td>内蒙古农业大学</td><td>3星级</td><td>内蒙古</td><td>3</td></tr><tr><td>114</td><td>辽宁科技大学</td><td>3星级</td><td>辽宁</td><td>8</td></tr><tr><td>114</td><td>衢州学院</td><td>3星级</td><td>浙江</td><td>6</td></tr><tr><td>114</td><td>南昌工程学院</td><td>3星级</td><td>江西</td><td>3</td></tr><tr><td>114</td><td>安阳工学院</td><td>3星级</td><td>河南</td><td>5</td></tr><tr><td>114</td><td>安徽工业大学</td><td>3星级</td><td>安徽</td><td>4</td></tr><tr><td>114</td><td>长春工程学院</td><td>3星级</td><td>吉林</td><td>3</td></tr><tr><td>114</td><td>湖南城市学院</td><td>3星级</td><td>湖南</td><td>8</td></tr><tr><td>114</td><td>南阳理工学院</td><td>3星级</td><td>河南</td><td>5</td></tr><tr><td>114</td><td>江苏科技大学</td><td>3星级</td><td>江苏</td><td>10</td></tr><tr><td>114</td><td>江西理工大学</td><td>3星级</td><td>江西</td><td>3</td></tr><tr><td>114</td><td>西南石油大学</td><td>3星级</td><td>四川</td><td>7</td></tr><tr><td>114</td><td>青海大学</td><td>3星级</td><td>青海</td><td>1</td></tr><tr><td>114</td><td>西昌学院</td><td>3星级</td><td>四川</td><td>7</td></tr><tr><td>114</td><td>黑龙江工程学院</td><td>3星级</td><td>黑龙江</td><td>5</td></tr><tr><td>114</td><td>湖北工程学院</td><td>3星级</td><td>湖北</td><td>7</td></tr><tr><td>114</td><td>湖北理工学院</td><td>3星级</td><td>湖北</td><td>7</td></tr><tr><td>114</td><td>淮阴工学院</td><td>3星级</td><td>江苏</td><td>10</td></tr><tr><td>114</td><td>南京林业大学</td><td>3星级</td><td>江苏</td><td>10</td></tr><tr><td>114</td><td>防灾科技学院</td><td>3星级</td><td>河北</td><td>7</td></tr><tr><td>114</td><td>烟台大学</td><td>3星级</td><td>山东</td><td>7</td></tr><tr><td>114</td><td>厦门理工学院</td><td>3星级</td><td>福建</td><td>5</td></tr><tr><td>114</td><td>贵州大学</td><td>3星级</td><td>贵州</td><td>1</td></tr><tr><td>114</td><td>云南大学</td><td>3星级</td><td>云南</td><td>3</td></tr><tr><td>114</td><td>云南民族大学</td><td>3星级</td><td>云南</td><td>3</td></tr><tr><td>114</td><td>绍兴文理学院</td><td>3星级</td><td>浙江</td><td>6</td></tr><tr><td>114</td><td>湖北工业大学</td><td>3星级</td><td>湖北</td><td>7</td></tr><tr><td>114</td><td>西安理工大学</td><td>3星级</td><td>陕西</td><td>7</td></tr><tr><td>114</td><td>上海应用技术大学</td><td>3星级</td><td>上海</td><td>4</td></tr><tr><td>114</td><td>莆田学院</td><td>3星级</td><td>福建</td><td>5</td></tr><tr><td>114</td><td>唐山学院</td><td>3星级</td><td>河北</td><td>7</td></tr><tr><td>114</td><td>东北石油大学</td><td>3星级</td><td>黑龙江</td><td>5</td></tr><tr><td>114</td><td>河南城建学院</td><td>3星级</td><td>河南</td><td>5</td></tr><tr><td>114</td><td>山西师范大学</td><td>3星级</td><td>山西</td><td>3</td></tr><tr><td>114</td><td>西南大学</td><td>3星级</td><td>重庆</td><td>3</td></tr><tr><td>114</td><td>白城师范学院</td><td>3星级</td><td>吉林</td><td>3</td></tr><tr><td>114</td><td>广东石油化工学院</td><td>3星级</td><td>广东</td><td>10</td></tr><tr><td>114</td><td>邵阳学院</td><td>3星级</td><td>湖南</td><td>8</td></tr><tr><td>114</td><td>塔里木大学</td><td>3星级</td><td>新疆</td><td>2</td></tr><tr><td>114</td><td>天水师范学院</td><td>3星级</td><td>甘肃</td><td>4</td></tr><tr><td>114</td><td>皖西学院</td><td>3星级</td><td>安徽</td><td>4</td></tr><tr><td>114</td><td>温州大学</td><td>3星级</td><td>浙江</td><td>6</td></tr><tr><td>114</td><td>新乡学院</td><td>3星级</td><td>河南</td><td>5</td></tr><tr><td>114</td><td>中南林业科技大学</td><td>3星级</td><td>湖南</td><td>8</td></tr><tr><td>114</td><td>西华大学</td><td>3星级</td><td>四川</td><td>7</td></tr><tr><td>114</td><td>中国地质大学（北京）</td><td>3星级</td><td>北京</td><td>9</td></tr><tr><td>114</td><td>中国石油大学（华东）</td><td>3星级</td><td>山东</td><td>7</td></tr><tr><td>114</td><td>长春工业大学</td><td>3星级</td><td>吉林</td><td>3</td></tr><tr><td>114</td><td>延边大学</td><td>3星级</td><td>吉林</td><td>3</td></tr><tr><td>114</td><td>武汉科技大学</td><td>3星级</td><td>湖北</td><td>7</td></tr><tr><td>114</td><td>北方工业大学</td><td>3星级</td><td>北京</td><td>9</td></tr><tr><td>114</td><td>北华大学</td><td>3星级</td><td>吉林</td><td>3</td></tr><tr><td>114</td><td>东北电力大学</td><td>3星级</td><td>吉林</td><td>3</td></tr><tr><td>114</td><td>哈尔滨商业大学</td><td>3星级</td><td>黑龙江</td><td>5</td></tr><tr><td>114</td><td>河北地质大学</td><td>3星级</td><td>河北</td><td>7</td></tr><tr><td>114</td><td>河北科技师范学院</td><td>3星级</td><td>河北</td><td>7</td></tr><tr><td>114</td><td>黑龙江八一农垦大学</td><td>3星级</td><td>黑龙江</td><td>5</td></tr><tr><td>114</td><td>淮海工学院</td><td>3星级</td><td>江苏</td><td>10</td></tr><tr><td>114</td><td>济南大学</td><td>3星级</td><td>山东</td><td>7</td></tr><tr><td>114</td><td>江西科技师范大学</td><td>3星级</td><td>江西</td><td>3</td></tr><tr><td>114</td><td>辽宁工业大学</td><td>3星级</td><td>辽宁</td><td>8</td></tr><tr><td>114</td><td>南昌航空大学</td><td>3星级</td><td>江西</td><td>3</td></tr><tr><td>114</td><td>湖南理工学院</td><td>3星级</td><td>湖南</td><td>8</td></tr><tr><td>114</td><td>宁夏大学</td><td>3星级</td><td>宁夏</td><td>1</td></tr><tr><td>114</td><td>青岛农业大学</td><td>3星级</td><td>山东</td><td>7</td></tr><tr><td>114</td><td>陕西理工学院</td><td>3星级</td><td>陕西</td><td>7</td></tr><tr><td>114</td><td>沈阳大学</td><td>3星级</td><td>辽宁</td><td>8</td></tr><tr><td>114</td><td>沈阳工业大学</td><td>3星级</td><td>辽宁</td><td>8</td></tr><tr><td>114</td><td>石河子大学</td><td>3星级</td><td>新疆</td><td>2</td></tr><tr><td>114</td><td>武汉工程大学</td><td>3星级</td><td>湖北</td><td>7</td></tr><tr><td>114</td><td>武汉轻工大学</td><td>3星级</td><td>湖北</td><td>7</td></tr><tr><td>114</td><td>西安工业大学</td><td>3星级</td><td>陕西</td><td>7</td></tr><tr><td>114</td><td>西南林业大学</td><td>3星级</td><td>云南</td><td>3</td></tr><tr><td>114</td><td>新疆农业大学</td><td>3星级</td><td>新疆</td><td>2</td></tr><tr><td>114</td><td>大连海洋大学</td><td>3星级</td><td>辽宁</td><td>8</td></tr><tr><td>114</td><td>福建农林大学</td><td>3星级</td><td>福建</td><td>5</td></tr><tr><td>114</td><td>信阳师范学院</td><td>3星级</td><td>河南</td><td>5</td></tr><tr><td>114</td><td>山东农业大学</td><td>3星级</td><td>山东</td><td>7</td></tr><tr><td>114</td><td>燕山大学</td><td>3星级</td><td>河北</td><td>7</td></tr><tr><td>114</td><td>河南科技大学</td><td>3星级</td><td>河南</td><td>5</td></tr><tr><td>114</td><td>湖南文理学院</td><td>3星级</td><td>湖南</td><td>8</td></tr><tr><td>114</td><td>沈阳农业大学</td><td>3星级</td><td>辽宁</td><td>8</td></tr><tr><td>114</td><td>西北民族大学</td><td>3星级</td><td>甘肃</td><td>4</td></tr><tr><td>114</td><td>西藏大学</td><td>3星级</td><td>西藏</td><td>1</td></tr><tr><td>114</td><td>西藏民族大学</td><td>3星级</td><td>西藏</td><td>1</td></tr><tr><td>114</td><td>延安大学</td><td>3星级</td><td>陕西</td><td>7</td></tr><tr><td>114</td><td>北京林业大学</td><td>3星级</td><td>北京</td><td>9</td></tr><tr><td>114</td><td>江西农业大学</td><td>3星级</td><td>江西</td><td>3</td></tr><tr><td>114</td><td>哈尔滨学院</td><td>3星级</td><td>黑龙江</td><td>5</td></tr><tr><td>114</td><td>湖北文理学院</td><td>3星级</td><td>湖北</td><td>7</td></tr><tr><td>114</td><td>佳木斯大学</td><td>3星级</td><td>黑龙江</td><td>5</td></tr><tr><td>114</td><td>九江学院</td><td>3星级</td><td>江西</td><td>3</td></tr><tr><td>114</td><td>山东理工大学</td><td>3星级</td><td>山东</td><td>7</td></tr><tr><td>114</td><td>西安石油大学</td><td>3星级</td><td>陕西</td><td>7</td></tr><tr><td>114</td><td>浙江理工大学</td><td>3星级</td><td>浙江</td><td>6</td></tr><tr><td>114</td><td>中国民航大学</td><td>3星级</td><td>天津</td><td>3</td></tr><tr><td>114</td><td>东莞理工学院</td><td>3星级</td><td>广东</td><td>10</td></tr><tr><td>114</td><td>华北科技学院</td><td>3星级</td><td>河北</td><td>7</td></tr><tr><td>114</td><td>浙江农林大学</td><td>3星级</td><td>浙江</td><td>6</td></tr><tr><td>114</td><td>南京工程学院</td><td>3星级</td><td>江苏</td><td>10</td></tr><tr><td>114</td><td>河北大学</td><td>3星级</td><td>河北</td><td>7</td></tr><tr><td>114</td><td>桂林电子科技大学</td><td>3星级</td><td>广西</td><td>3</td></tr><tr><td>114</td><td>新余学院</td><td>3星级</td><td>江西</td><td>3</td></tr><tr><td>114</td><td>攀枝花学院</td><td>3星级</td><td>四川</td><td>7</td></tr><tr><td>114</td><td>嘉兴学院</td><td>3星级</td><td>浙江</td><td>6</td></tr><tr><td>114</td><td>上海大学</td><td>3星级</td><td>上海</td><td>4</td></tr><tr><td>114</td><td>内蒙古工业大学</td><td>3星级</td><td>内蒙古</td><td>3</td></tr><tr><td>114</td><td>桂林理工大学</td><td>3星级</td><td>广西</td><td>3</td></tr></tbody></table><h2><a>1</a><span>民办大学土木工程专业排名</span></h2><table><colgroup><col width="72"/><col width="181"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>文华学院</td><td>6星级</td><td>湖北</td><td>1</td></tr><tr><td>1</td><td>武昌首义学院</td><td>6星级</td><td>湖北</td><td>1</td></tr><tr><td>3</td><td>安徽新华学院</td><td>5星级</td><td>安徽</td><td>1</td></tr><tr><td>3</td><td>南昌理工学院</td><td>5星级</td><td>江西</td><td>1</td></tr><tr><td>3</td><td>西安欧亚学院</td><td>5星级</td><td>陕西</td><td>1</td></tr><tr><td>3</td><td>江西科技学院</td><td>5星级</td><td>江西</td><td>1</td></tr><tr><td>3</td><td>郑州工业应用技术学院</td><td>5星级</td><td>河南</td><td>1</td></tr><tr><td>3</td><td>郑州工商学院</td><td>5星级</td><td>河南</td><td>1</td></tr><tr><td>3</td><td>北京城市学院</td><td>5星级</td><td>北京</td><td>1</td></tr><tr><td>3</td><td>山东协和学院</td><td>5星级</td><td>山东</td><td>1</td></tr><tr><td>3</td><td>黄河科技学院</td><td>5星级</td><td>河南</td><td>1</td></tr><tr><td>12</td><td>江西应用科技学院</td><td>4星级</td><td>江西</td><td>3</td></tr><tr><td>12</td><td>武昌理工学院</td><td>4星级</td><td>湖北</td><td>3</td></tr><tr><td>12</td><td>广东白云学院</td><td>4星级</td><td>广东</td><td>1</td></tr><tr><td>12</td><td>西安培华学院</td><td>4星级</td><td>陕西</td><td>2</td></tr><tr><td>12</td><td>沈阳城市建设学院</td><td>4星级</td><td>辽宁</td><td>1</td></tr><tr><td>12</td><td>武昌工学院</td><td>4星级</td><td>湖北</td><td>3</td></tr><tr><td>12</td><td>西安思源学院</td><td>4星级</td><td>陕西</td><td>2</td></tr><tr><td>12</td><td>河北科技学院</td><td>4星级</td><td>河北</td><td>1</td></tr><tr><td>12</td><td>山东英才学院</td><td>4星级</td><td>山东</td><td>2</td></tr><tr><td>12</td><td>西京学院</td><td>4星级</td><td>陕西</td><td>2</td></tr><tr><td>12</td><td>无锡太湖学院</td><td>4星级</td><td>江苏</td><td>1</td></tr><tr><td>12</td><td>哈尔滨石油学院</td><td>4星级</td><td>黑龙江</td><td>1</td></tr><tr><td>12</td><td>青岛工学院</td><td>4星级</td><td>山东</td><td>2</td></tr><tr><td>12</td><td>宁夏理工学院</td><td>4星级</td><td>宁夏</td><td>1</td></tr><tr><td>12</td><td>长春建筑学院</td><td>4星级</td><td>吉林</td><td>1</td></tr><tr><td>12</td><td>青岛滨海学院</td><td>4星级</td><td>山东</td><td>2</td></tr><tr><td>12</td><td>沈阳城市学院</td><td>4星级</td><td>辽宁</td><td>1</td></tr><tr><td>29</td><td>河北工程技术学院</td><td>3星级</td><td>河北</td><td>2</td></tr><tr><td>29</td><td>浙江树人学院</td><td>3星级</td><td>浙江</td><td>1</td></tr><tr><td>29</td><td>三江学院</td><td>3星级</td><td>江苏</td><td>2</td></tr><tr><td>29</td><td>黑龙江东方学院</td><td>3星级</td><td>黑龙江</td><td>2</td></tr><tr><td>29</td><td>哈尔滨远东理工学院</td><td>3星级</td><td>黑龙江</td><td>2</td></tr><tr><td>29</td><td>海口经济学院</td><td>3星级</td><td>海南</td><td>1</td></tr></tbody></table><h2><a>1</a><span>独立学院土木工程专业排名</span></h2><table><colgroup><col width="72"/><col width="72"/><col width="72"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>浙江大学城市学院</td><td>6星级</td><td>浙江</td><td>1</td></tr><tr><td>1</td><td>同济大学浙江学院</td><td>6星级</td><td>浙江</td><td>1</td></tr><tr><td>1</td><td>四川大学锦江学院</td><td>6星级</td><td>四川</td><td>1</td></tr><tr><td>1</td><td>武汉科技大学城市学院</td><td>6星级</td><td>湖北</td><td>1</td></tr><tr><td>5</td><td>重庆大学城市科技学院</td><td>5星级</td><td>重庆</td><td>1</td></tr><tr><td>5</td><td>东南大学成贤学院</td><td>5星级</td><td>江苏</td><td>1</td></tr><tr><td>5</td><td>燕山大学里仁学院</td><td>5星级</td><td>河北</td><td>1</td></tr><tr><td>5</td><td>西安建筑科技大学华清学院</td><td>5星级</td><td>陕西</td><td>1</td></tr><tr><td>5</td><td>福州大学至诚学院</td><td>5星级</td><td>福建</td><td>1</td></tr><tr><td>5</td><td>桂林理工大学博文管理学院</td><td>5星级</td><td>广西</td><td>1</td></tr><tr><td>11</td><td>中国地质大学长城学院</td><td>4星级</td><td>河北</td><td>2</td></tr><tr><td>11</td><td>河北大学工商学院</td><td>4星级</td><td>河北</td><td>2</td></tr><tr><td>11</td><td>宁波大学科学技术学院</td><td>4星级</td><td>浙江</td><td>3</td></tr><tr><td>11</td><td>西南交通大学希望学院</td><td>4星级</td><td>四川</td><td>2</td></tr><tr><td>11</td><td>吉首大学张家界学院</td><td>4星级</td><td>湖南</td><td>1</td></tr><tr><td>11</td><td>石河子大学科技学院</td><td>4星级</td><td>新疆</td><td>1</td></tr><tr><td>11</td><td>新疆大学科学技术学院</td><td>4星级</td><td>新疆</td><td>1</td></tr><tr><td>11</td><td>中国矿业大学徐海学院</td><td>4星级</td><td>江苏</td><td>2</td></tr><tr><td>11</td><td>兰州交通大学博文学院</td><td>4星级</td><td>甘肃</td><td>1</td></tr><tr><td>11</td><td>温州大学瓯江学院</td><td>4星级</td><td>浙江</td><td>3</td></tr><tr><td>11</td><td>吉林建筑大学城建学院</td><td>4星级</td><td>吉林</td><td>1</td></tr><tr><td>11</td><td>华南理工大学广州学院</td><td>4星级</td><td>广东</td><td>1</td></tr><tr><td>11</td><td>南京理工大学泰州科技学院</td><td>4星级</td><td>江苏</td><td>2</td></tr><tr><td>24</td><td>西安交通大学城市学院</td><td>3星级</td><td>陕西</td><td>2</td></tr><tr><td>24</td><td>厦门大学嘉庚学院</td><td>3星级</td><td>福建</td><td>2</td></tr><tr><td>24</td><td>成都理工大学工程技术学院</td><td>3星级</td><td>四川</td><td>3</td></tr><tr><td>24</td><td>河海大学文天学院</td><td>3星级</td><td>安徽</td><td>1</td></tr><tr><td>24</td><td>辽宁石油化工大学顺华能源学院</td><td>3星级</td><td>辽宁</td><td>1</td></tr><tr><td>24</td><td>福建农林大学金山学院</td><td>3星级</td><td>福建</td><td>2</td></tr><tr><td>24</td><td>西安工业大学北方信息工程学院</td><td>3星级</td><td>陕西</td><td>2</td></tr><tr><td>24</td><td>南京工业大学浦江学院</td><td>3星级</td><td>江苏</td><td>4</td></tr><tr><td>24</td><td>青岛理工大学琴岛学院</td><td>3星级</td><td>山东</td><td>1</td></tr><tr><td>24</td><td>华东交通大学理工学院</td><td>3星级</td><td>江西</td><td>1</td></tr><tr><td>24</td><td>长沙理工大学城南学院</td><td>3星级</td><td>湖南</td><td>2</td></tr><tr><td>24</td><td>北京科技大学天津学院</td><td>3星级</td><td>天津</td><td>1</td></tr><tr><td>24</td><td>广东工业大学华立学院</td><td>3星级</td><td>广东</td><td>2</td></tr><tr><td>24</td><td>北京交通大学海滨学院</td><td>3星级</td><td>河北</td><td>4</td></tr><tr><td>24</td><td>南昌大学科学技术学院</td><td>3星级</td><td>江西</td><td>1</td></tr><tr><td>24</td><td>云南师范大学文理学院</td><td>3星级</td><td>云南</td><td>1</td></tr><tr><td>24</td><td>西南科技大学城市学院</td><td>3星级</td><td>四川</td><td>3</td></tr><tr><td>24</td><td>湖南理工学院南湖学院</td><td>3星级</td><td>湖南</td><td>2</td></tr><tr><td>24</td><td>湖南科技大学潇湘学院</td><td>3星级</td><td>湖南</td><td>2</td></tr><tr><td>24</td><td>安徽建筑大学城市建设学院</td><td>3星级</td><td>安徽</td><td>1</td></tr><tr><td>24</td><td>宁夏大学新华学院</td><td>3星级</td><td>宁夏</td><td>1</td></tr><tr><td>24</td><td>广西科技大学鹿山学院</td><td>3星级</td><td>广西</td><td>2</td></tr><tr><td>24</td><td>中国矿业大学银川学院</td><td>3星级</td><td>宁夏</td><td>1</td></tr><tr><td>24</td><td>贵州大学明德学院</td><td>3星级</td><td>贵州</td><td>1</td></tr><tr><td>24</td><td>苏州科技大学天平学院</td><td>3星级</td><td>江苏</td><td>4</td></tr><tr><td>24</td><td>山东科技大学泰山科技学院</td><td>3星级</td><td>山东</td><td>1</td></tr><tr><td>24</td><td>河南师范大学新联学院</td><td>3星级</td><td>河南</td><td>1</td></tr><tr><td>24</td><td>河北农业大学现代科技学院</td><td>3星级</td><td>河北</td><td>4</td></tr><tr><td>24</td><td>南京航空航天大学金城学院</td><td>3星级</td><td>江苏</td><td>4</td></tr><tr><td>24</td><td>河南大学民生学院</td><td>3星级</td><td>河南</td><td>1</td></tr><tr><td>24</td><td>南京理工大学紫金学院</td><td>3星级</td><td>江苏</td><td>4</td></tr><tr><td>24</td><td>济南大学泉城学院</td><td>3星级</td><td>山东</td><td>1</td></tr><tr><td>24</td><td>青岛农业大学海都学院</td><td>3星级</td><td>山东</td><td>1</td></tr><tr><td>24</td><td>浙江农林大学暨阳学院</td><td>3星级</td><td>浙江</td><td>5</td></tr><tr><td>24</td><td>安徽工业大学工商学院</td><td>3星级</td><td>安徽</td><td>1</td></tr><tr><td>24</td><td>天津大学仁爱学院</td><td>3星级</td><td>天津</td><td>1</td></tr><tr><td>24</td><td>云南大学滇池学院</td><td>3星级</td><td>云南</td><td>1</td></tr><tr><td>24</td><td>南京大学金陵学院</td><td>3星级</td><td>江苏</td><td>4</td></tr><tr><td>24</td><td>华北理工大学轻工学院</td><td>3星级</td><td>河北</td><td>4</td></tr><tr><td>24</td><td>浙江大学宁波理工学院</td><td>3星级</td><td>浙江</td><td>5</td></tr><tr><td>24</td><td>四川大学锦城学院</td><td>3星级</td><td>四川</td><td>3</td></tr></tbody></table><h2><a>1</a><span>中外合作办学大学土木工程专业排名</span></h2><table><colgroup><col width="72"/><col width="72"/><col width="72"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>西交利物浦大学</td><td>4星级</td><td>江苏</td><td>1</td></tr><tr><td>1</td><td>宁波诺丁汉大学</td><td>4星级</td><td>浙江</td><td>1</td></tr></tbody></table><h2><a>1</a><span>土木工程专业介绍<br/></span></h2><p></p><p><img alt="土木工程专业" src="http://img.gaosan.com/upload/zhuanye/1/1221.jpg"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>土木类</td><td>￥7342<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过71%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">10%在北京市工作</span></td><td>男生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男85%-女15%</span></td></tr></tbody></table><p>专业介绍：一般的土木工作项目包括：道路、水务、渠务、防洪工程及交通等。过去曾经将一切非军事用途的民用工程项目，归类入本类，但随着工程科学日益广阔，不少原来属于土木工程范围的内容都已经独立成科。</p><p>就业方向：建筑工程方向的毕业生在建筑材料、工程和大地测量、房屋建筑学、建筑物与构筑物的构造与设计。涉及的领域包括建筑物、构筑物的结构设计、施工组织及管理、建筑工程甲方管理、监及房地产管理等。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

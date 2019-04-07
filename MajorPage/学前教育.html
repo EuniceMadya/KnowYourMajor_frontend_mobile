@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>学前教育</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+学前教育</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    学前教育（Preschool Education）是由家长及幼师利用各种方法、实物，有系统、有计划而且科学地对孩童的大脑进行各种刺激，使大脑各部位的功能逐渐完善而进行的教育。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    学前教育是学前教育学的重要内容之一，是构成学前教育学的科学体系的一部分。儿童是人生智力发展的基础阶段，又是发展最快的时期，适当、正确的学前教育对幼儿智力及其日后的发展有很大的作用。超常儿童的形成、发展，无一不与适当、正确的学前教育有关，尤其是智力方面的学前教育。学前智育是一个多方面的培养过程。对学前儿童的心理健康关注也不可小觑。这个年龄段的儿童心智发展极不成熟，需要家长及幼师积极的引导。现在的孩子很多都是独生子女，自我意识很强，缺乏对他人的关心，不懂得分享，因此，作为家长和幼师，应积极引导孩子学会关心他人、学会分享、乐于分享。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av32001371?from=search&seid=14997183417117354860" class="">
+								
+								<div class="mui-media-body">
+									【公开课】学前教育原理（完）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av12591177?from=search&seid=14997183417117354860" class="">
+								
+								<div class="mui-media-body">
+									南京师范大学 学前教育心理学 全30讲 主讲-许卓娅 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av24597699?from=search&seid=14997183417117354860" class="">
+								
+								<div class="mui-media-body">
+									【学前教育】小人国
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av23581079?from=search&seid=14997183417117354860" class="">
+								
+								<div class="mui-media-body">
+									南京师范大学 学前教育心理学 全30讲 主讲-许卓娅 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av10427948?from=search&seid=14997183417117354860" class="">
+								
+								<div class="mui-media-body">
+									学前教育
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av18713860?from=search&seid=10393139246109293935" class="">
+
+    								<div class="mui-media-body">
+    									【美国高瞻 宣传片】国际先进学前教育课程—高瞻 品牌宣传片
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av25136389?from=search&seid=10393139246109293935" class="">
+
+    								<div class="mui-media-body">
+    									脸比我小的小姐姐介绍学前教育专业
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24597125?from=search&seid=10393139246109293935" class="">
+
+    								<div class="mui-media-body">
+    									【学前教育】皮亚杰三山实验
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av25183465?from=search&seid=10393139246109293935" class="">
+
+    								<div class="mui-media-body">
+    									【学前教育】舞蹈基本步法
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24592652?from=search&seid=10393139246109293935" class="">
+
+    								<div class="mui-media-body">
+    									【学前教育】幼儿创编课程舞蹈精选——啼春细雨
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data209235"><p>中国学前教育专业最好的大学有哪几所，中国哪些本科大学学前教育专业实力最强？下面是全国最好的学前教育专业大学排名，欢迎阅读。<br/></p><p><img alt="学前教育专业最好的大学" border="0" height="375" src="http://img.gaosan.com/upload/201805/6366096598590660943961353.jpg" style="width: 600px; height: 375px;" title="学前教育专业最好的大学" vspace="0" width="600"/></p><h2><a>1</a><span>全国学前教育专业高校排行榜</span></h2><p>在最新公布的2018年中国学前教育大学排名中，学前教育专业最好的排名第一的大学是北京师范大学，<a href="/gaokao/174896.html" target="_blank">华东师范大学</a>排名第二，陕西学前师范学院学前教育专业在全国排名第三。</p><p><img alt="学前教育大学排名" border="0" height="626" src="http://img.gaosan.com/upload/201805/6366096611293168245852134.png" style="width: 600px; height: 626px;" title="学前教育大学排名" vspace="0" width="600"/></p><p>注：“学校数”表示全国开设学前教育专业的大学一共有多少所。以上数据比较权威，可信度较高。</p><p>点击查看：<a href="/gaokao/186545.html" target="_blank" title="学前教育专业就业方向及就业前景分析">学前教育专业就业方向及就业前景</a></p><h2><a>1</a><span>中国学前教育专业介绍</span></h2><p><strong>培养要求</strong></p><p>该专业学生主要学习学前教育方面的基本理论和基本知识，受到幼儿教育技能的基本训练，具有在托幼机构进行保育、教育和研究的基本能力。</p><p><strong>知识技能</strong></p><p>毕业生应获得以下几方面的知识和能力：</p><p>1．掌握学前教育学、幼儿心理学、幼儿园课程的设计与实施、幼儿教育研究方法等学科的基本理论和基本知识；</p><p>2．掌握观察幼儿、分析幼儿的基本能力以及对幼儿实施保育和教育的技能；</p><p>3．具有编制具体教育方案和实施方案的初步能力；</p><p>4．熟悉国家和地方幼儿教育的方针、政策和法规；</p><p>5．了解学前教育理论的发展动态；</p><p>6．掌握文献检索、资料查询的基本方法，具有初步的科学研究和实际工作能力。</p><p><strong>主干学科</strong></p><p>教育学、心理学。</p><p><strong>主干课程</strong></p><p>普通心理学、人体解剖生理学、教育社会学、儿童文学、幼儿园课程、学前儿童语言教育、学前儿童科学教育、声乐、舞蹈、美术、学前教育学、幼儿心理健康教育、幼儿心理学、幼儿教育心理学、学前儿童卫生学、幼儿保健学、幼儿教育研究方法等。</p><p>以上是高三网小编整理的关于全国学前教育专业的大学排名数据，仅供参考，大家在报考时可以根据自己的分数选择相应的学前教育专业院校。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>电子与计算机工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+电子与计算机工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    电子与计算机工程专业是教育部的特设专业，结合电气工程和计算机科学，具有很好的发展前景。电子与计算机工程专业是将软件设计与硬件设计一体化，并结合电力电子学的一门专业。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av16521723?from=search&seid=13925401760764999923" class="">
+								
+								<div class="mui-media-body">
+									陆吾生老师机器学习入门系列讲座
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av45376992?from=search&seid=13925401760764999923" class="">
+								
+								<div class="mui-media-body">
+									Introduction to Silicon Photonics【4集】(周治平：北京大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av27266733?from=search&seid=13925401760764999923" class="">
+								
+								<div class="mui-media-body">
+									【天津大学/杨挺】工程优化
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av41404195?from=search&seid=13925401760764999923" class="">
+								
+								<div class="mui-media-body">
+									计算机网络
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av42278524?from=search&seid=13925401760764999923" class="">
+								
+								<div class="mui-media-body">
+									数字电路与系统（大连理工大学）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av36457276?from=search&seid=14061079794971836309" class="">
+
+    								<div class="mui-media-body">
+    									Willie Padilla-太赫兹频段的超材料
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av29984753?from=search&seid=14061079794971836309" class="">
+
+    								<div class="mui-media-body">
+    									科学家疯起来有多可怕？I 麻省理工学院电子工程与计算机科学系教授 I 郑立中
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av42229897?from=search&seid=14061079794971836309" class="">
+
+    								<div class="mui-media-body">
+    									世界五百强行业分布，哪个行业最有钱请了解一下
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av38243303?from=search&seid=14061079794971836309" class="">
+
+    								<div class="mui-media-body">
+    									【科普】走进科学与工程计算国家重点实验室
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av20210364?from=search&seid=14061079794971836309" class="">
+
+    								<div class="mui-media-body">
+    									pocketlab口袋实验室宣传视频
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data112666"><p>截至目前，开设电子与计算机工程专业的大学共计4所，在这些高校中，电子与计算机工程专业最好的大学有：</p><h2><a>1</a><span>上海交通大学</span></h2><p>上海交通大学是我国历史最悠久、享誉海内外的高等学府之一，是教育部直属并与上海市共建的全国重点大学。经过120年的不懈努力，上海交通大学已经成为一所“综合性、研究型、国际化”的国内一流、国际知名大学。十九世纪末，甲午战败，民族危难。中国近代著名实业家、教育家盛宣怀和一批有识之士秉持“自强首在储才，储才必先兴学”的信念，于1896年在上海创办了交通大学的前身——南洋公学。建校伊始，学校即坚持“求实学，务实业”的宗旨，以培养“第一等人才”为教育目标，精勤进取，笃行不倦，在二十世纪二三十年代已成为国内著名的高等学府，被誉为“东方MIT”。抗战时期，广大师生历尽艰难，移转租界，内迁重庆，坚持办学，不少学生投笔从戎，浴血沙场。解放前夕，广大师生积极投身民主革命，学校被誉为“民主堡垒”。</p><p><img alt="上海交通大学 思远湖" src="http://img.gaosan.com/upload/webimg/1625.jpg" title="上海交通大学 思远湖"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1896年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>浙江大学</span></h2><p>浙江大学是一所历史悠久、声誉卓著的高等学府，坐落于中国历史文化名城、风景旅游胜地杭州。浙江大学的前身求是书院创立于1897年，为中国人自己最早创办的新式高等学校之一。1928年，定名国立浙江大学。浙江大学是一所特色鲜明、在海内外有较大影响的综合型、研究型大学，其学科涵盖哲学、经济学、法学、教育学、文学、<a href="/gaokao/184680.html" target="_blank">历史学</a>、艺术学、理学、工学、农学、医学、管理学等十二个门类。学校设有7个学部，36个学院（系）。拥有一级学科国家重点学科14个，二级学科国家重点学科21个。据ESI公布的数据，截至2015年9月，我校18个学科进入世界学术机构前1%，居全国高校第二；7个学科进入世界前100位，4个学科进入世界前50位，居全国高校第一。</p><p><img alt="浙江大学 学校大门" src="http://img.gaosan.com/upload/webimg/1631.jpg" title="浙江大学 学校大门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1897年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>西南石油大学</span></h2><p>西南石油大学是新中国创建的第二所石油本科院校，是一所中央与地方共建、以四川省人民政府管理为主的高等学校。2013年，学校入选“国家中西部高校基础能力建设工程”，成为入选该工程的100所高校之一。为了加快开发四川石油天然气资源，也为西南协作区发展石油天然气工业培养技术干部，国家决定成立第二所石油高校，校址就设在川中石油会战指挥部所在地川北重镇南充市。</p><p><img alt="西南石油大学校门" src="http://img.gaosan.com/upload/webimg/1780.jpg" title="西南石油大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1958年</td><td>公立</td><td>综合</td><td>四川省人民政府</td></tr></tbody></table><p>以上关于电子与计算机工程专业的排名数据，参考自中国科教评价网金平果排行榜，由高三网重新整理发布，转载请注明出处。</p><script>content_end();</script><p class="xgyundu">高三网小编推荐你继续浏览：<script>authorCommend();</script><a href="/gaokao/72865.html">2017年高考最受欢迎的十大专业</a><a href="/gaokao/74670.html">盘点未来最吃香的十大专业</a><a href="/gaokao/76737.html">女生最吃香的十大专业</a><a href="/gaokao/78276.html">女生最容易就业的十大专业</a><a href="/gaokao/48347.html">最难就业的十大专业</a></p></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

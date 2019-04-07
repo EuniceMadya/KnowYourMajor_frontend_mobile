@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>应用语言学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+应用语言学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    应用语言学( applied linguistics)  语言学分支之一。运用语言学的知识来解决其他科学领域与语言相关的问题的学科。19世纪末库尔德内就提出了“应用语言学”的概念，但其形成则在20世纪40-50年代。有狭义与广义之分。狭义的应用语言学，指对本族语、第二语言及外国语教学所作的研究，相当于语言教学法研究，而不是类似应用物理、应用数学那样的应用科学。广义的应用语言学，指各种与语言有关的实际问题所作的研究。 </h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av35849784?from=search&seid=2073687320069015815" class="">
+								
+								<div class="mui-media-body">
+									【语言学及应用语言学】清华大学 语言哲学和语言逻辑  主讲-蔡曙山【全75讲】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av11577754?from=search&seid=2073687320069015815" class="">
+								
+								<div class="mui-media-body">
+									武汉大学 应用语言学研究 全23讲 主讲-萧国政 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av39073801?from=search&seid=2073687320069015815" class="">
+								
+								<div class="mui-media-body">
+									应用语言学研究【23集】(萧国政：武汉大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av23434032?from=search&seid=2073687320069015815" class="">
+								
+								<div class="mui-media-body">
+									中国人民大学  语言学及应用语言学（高分考研经验分享）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av34982729?from=search&seid=2073687320069015815" class="">
+								
+								<div class="mui-media-body">
+									2011年北京语言大学语言学及应用语言学语言学纲要（代码818）真题及详解_1540957390
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24732871?from=search&seid=10209483854535881092" class="">
+
+    								<div class="mui-media-body">
+    									【毕业季】中国传媒大学2018届汉语言（应用语言学方向）专业毕业班鉴
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av39121072?from=search&seid=10209483854535881092" class="">
+
+    								<div class="mui-media-body">
+    									2019年北京大学文艺学、语言学及应用语言学、广播电视考研历年参考书重点、专业课复习计划
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24096698?from=search&seid=10209483854535881092" class="">
+
+    								<div class="mui-media-body">
+    									中国传媒大学2018届汉语言（应用语言学方向）专业毕业班鉴
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av31509048?from=search&seid=10209483854535881092" class="">
+
+    								<div class="mui-media-body">
+    									中传语言学及应用语言学考博历年真题资料笔记、专业课复习计划
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av4850814?from=search&seid=10209483854535881092" class="">
+
+    								<div class="mui-media-body">
+    									2017年南开大学语言学及应用语言学考研报录比-复习指导
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data184850"><p>中国大学哪些本科的应用语言学专业，是2018高考优秀考生报考的最佳选择呢？艾瑞深中国校友会网最新公布的2018本科专业排行榜中就有你想知道的答案，和小编一起来看看吧！</p><p><img alt="应用语言学专业大学排名" border="0" height="350" src="http://img.gaosan.com/upload/peitu/600/0107.jpg" style="width: 600px; height: 350px;" title="应用语言学专业大学排名" vspace="0" width="600"/></p><p><strong>在2018本科应用语言学专业排行榜中，北京大学雄居排行榜榜首，中央民族大学、河北师范大学紧随其后，占据第二、第三名。</strong>想知道全部的应用语言学专业排名请看下表：</p><h2><a>1</a><span>公办本科大学应用语言学专业排名</span></h2><table><colgroup><col width="43"/><col width="217"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>北京大学</td><td>5星级</td><td>北京</td><td>1</td></tr><tr><td>2</td><td>中央民族大学</td><td>4星级</td><td>北京</td><td>2</td></tr><tr><td>3</td><td style="word-break: break-all;">河北师范大学</td><td>3星级</td><td>河北</td><td>1</td></tr></tbody></table><h2><a>1</a><span>独立学院应用语言学专业排名</span></h2><table><colgroup><col width="43"/><col width="217"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>广东外语外贸大学南国商学院</td><td>3星级</td><td>广东</td><td>1</td></tr></tbody></table><h2><a>1</a><span>应用语言学专业介绍</span></h2><p></p><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-11/a2e73a3a-9b59-49fd-87e0-d57b783af3a7.jpg" title="应用语言学专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>中国语言文学类</td><td>￥6805<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过55%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">23%在北京市工作</span></td><td>女生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男29%-女71%</span></td></tr></tbody></table><p>培养目标：培养能在实际教学中独立从事科学研究，能熟练进行对外汉语多种课程的教学，并能在实际教学中独立从事科学研究的通用型汉语专门人才。</p><p>主要课程：语言理论，语言研究方法，应用语言学，对外汉语教学概论，语法理论，语义理论，词汇理论，实验语音学，汉语语用学，汉语方言与方言调查，语言与文化，跨文化交际等。</p><p>就业方向：应用语言学专业毕业生可从事高等院校、研究、出版等机构从事相关专业的教学及研究，或进入国家机关和公司企业从事语言应用方面的工作。</p><h2><a>1</a><span>北京大学<br/></span></h2><p></p><p>北京大学创办于1898年，初名京师大学堂，是中国第一所国立综合性大学，也是当时中国最高教育行政机关。辛亥革命后，于1912年改为现名。作为新文化运动的中心和“五四”运动的策源地，作为中国最早传播马克思主义和民主科学思想的发祥地，作为中国共产党最早的活动基地，北京大学为民族的振兴和解放、国家的建设和发展、社会的文明和进步做出了不可替代的贡献，在中国走向现代化的进程中起到了重要的先锋作用。爱国、进步、民主、科学的传统精神和勤奋、严谨、求实、创新的学风在这里生生不息、代代相传。</p><p><img alt="北京大学校门" src="http://img.gaosan.com/upload/webimg/1623.jpg" title="北京大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1898年</td><td>公立</td><td>综合</td><td>中华人民共和国教育部</td></tr></tbody></table><h2><a>1</a><span>中央民族大学</span></h2><p></p><p>中央民族大学的前身是1941年9月中国共产党在延安创办的民族学院。1951年6月，中央民族学院在北京正式成立，1993年11月，更名为中央民族大学。现任校党委书记鄂义太教授、校长陈理教授，坐落于北京学府林立的海淀区。在党和国家的高度重视下，学校1978年被批准为国家重点大学，1999年、2004年先后进入“211工程”和“985工程”国家重点建设大学行列。</p><p><img alt="中央民族大学 学校大门" src="http://img.gaosan.com/upload/webimg/1703.jpg" title="中央民族大学 学校大门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1941年</td><td>公立</td><td>综合</td><td>国家民族事务委员会</td></tr></tbody></table><h2><a>1</a><span>河北师范大学</span></h2><p></p><p>河北师范大学是河北省人民政府与教育部共建的省属重点大学。学校新校区占地1829亩，馆藏图书340.6万册。学校现有在职教职工2818名，其中专任教师1469人。在职教职工中，正高职人员420人，副高职人员960人，中国科学院院士1人，省级以上各类优秀专家117人次，博士研究生导师145人，各类硕士研究生导师970人。在校本、专科生21838人，研究生4109人，成人教育学生13202人。</p><p><img alt="河北师范大学校门" src="http://img.gaosan.com/upload/webimg/1770.jpg" title="河北师范大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1902年</td><td>公立</td><td>师范</td><td>河北省教育厅</td></tr></tbody></table><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

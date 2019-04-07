@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>工程管理</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+工程管理</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    工程管理是指工程活动不仅受到工程理念、决策设计、构建、组织运行等过程的支配也关联到资源、材料、资金人力土地、环境和信息等要素的合理配置。同时，一个工程往往有多种技术多个方案、多种路径可被选择，如何有效地利用各类资源，用最小的投入获得最大的回报，实现在一定边界条件下的综合集成和多目标优化。必须在正确的理念的指导下，对工程活动进行决策计划、组织、指挥协调和控制，亦即工程管理。 </h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av18997985?from=search&seid=17165639962063934735" class="">
+								
+								<div class="mui-media-body">
+									01 《水利水电工程管理与实务》教材变化 1
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av45762455?from=search&seid=17165639962063934735" class="">
+								
+								<div class="mui-media-body">
+									2019二建《市政公用工程管理与实务》+《建设工程施工管理》+《建设工程法规及相关知识》备考指南
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av34099224?from=search&seid=17165639962063934735" class="">
+								
+								<div class="mui-media-body">
+									【公开课】工程管理信息系统（完）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av46224556?from=search&seid=17165639962063934735" class="">
+								
+								<div class="mui-media-body">
+									2019年二级建造师水利水电工程管理与实务精讲班233网校李俊宏
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av37948867?from=search&seid=17165639962063934735" class="">
+								
+								<div class="mui-media-body">
+									【2019二级建造师】市政建设工程管理与实务精讲班（持续更新）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av36450042?from=search&seid=7539647819771953430" class="">
+
+    								<div class="mui-media-body">
+    									【考研】本科工程管理专业不喜欢，考研跨考怎么选？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av5763170?from=search&seid=7539647819771953430" class="">
+
+    								<div class="mui-media-body">
+    									2016年南开大学工程管理硕士考研复试线考研复试真题考研复试技巧复试经验
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10089748?from=search&seid=7539647819771953430" class="">
+
+    								<div class="mui-media-body">
+    									4工程管理
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10328989?from=search&seid=7539647819771953430" class="">
+
+    								<div class="mui-media-body">
+    									对厦门大学嘉庚学院工程管理（房建方向）专业你知道多少？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10298022?from=search&seid=7539647819771953430" class="">
+
+    								<div class="mui-media-body">
+    									对长江大学工程管理专业你知道多少？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data184496"><p>中国大学哪些本科的工程管理专业是2018年高考优秀考生选择报考的最佳专业？艾瑞深中国校友会网最新公布的2018本科专业排行榜中就有你想知道的答案，和小编一起来看看吧！</p><p><img alt="工程管理专业大学排名" border="0" height="370" src="http://img.gaosan.com/upload/201710/6364504478562051912411587.jpg" style="width: 600px; height: 370px;" title="工程管理专业大学排名" vspace="0" width="600"/></p><p><strong>在2018本科工程管理专业排行榜中，清华大学雄居排行榜榜首，哈尔滨工业大学、天津大学紧随其后，占据第二、第三名。</strong>想知道全部的工程管理专业排名请看下表：</p><h2><a>1</a><span>公办本科大学工程管理专业排名</span></h2><table><colgroup><col width="72"/><col width="181"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>清华大学</td><td>7星级</td><td>北京</td><td>1</td></tr><tr><td>2</td><td>哈尔滨工业大学</td><td>6星级</td><td>黑龙江</td><td>1</td></tr><tr><td>3</td><td>天津大学</td><td>5星级</td><td>天津</td><td>1</td></tr><tr><td>3</td><td>东南大学</td><td>5星级</td><td>江苏</td><td>1</td></tr><tr><td>3</td><td>同济大学</td><td>5星级</td><td>上海</td><td>1</td></tr><tr><td>3</td><td>重庆大学</td><td>5星级</td><td>重庆</td><td>1</td></tr><tr><td>3</td><td>东北财经大学</td><td>5星级</td><td>辽宁</td><td>1</td></tr><tr><td>8</td><td>华中科技大学</td><td>5星级</td><td>湖北</td><td>1</td></tr><tr><td>8</td><td>中南大学</td><td>5星级</td><td>湖南</td><td>1</td></tr><tr><td>8</td><td>厦门大学</td><td>5星级</td><td>福建</td><td>1</td></tr><tr><td>8</td><td>北京航空航天大学</td><td>5星级</td><td>北京</td><td>2</td></tr><tr><td>8</td><td>中国人民大学</td><td>5星级</td><td>北京</td><td>2</td></tr><tr><td>8</td><td>武汉大学</td><td>5星级</td><td>湖北</td><td>1</td></tr><tr><td>8</td><td>长安大学</td><td>5星级</td><td>陕西</td><td>1</td></tr><tr><td>8</td><td>华南理工大学</td><td>5星级</td><td>广东</td><td>1</td></tr><tr><td>8</td><td>四川大学</td><td>5星级</td><td>四川</td><td>1</td></tr><tr><td>8</td><td>吉林大学</td><td>5星级</td><td>吉林</td><td>1</td></tr><tr><td>8</td><td>西安交通大学</td><td>5星级</td><td>陕西</td><td>1</td></tr><tr><td>19</td><td>山东大学</td><td>4星级</td><td>山东</td><td>1</td></tr><tr><td>19</td><td>大连理工大学</td><td>4星级</td><td>辽宁</td><td>2</td></tr><tr><td>21</td><td>上海财经大学</td><td>4星级</td><td>上海</td><td>2</td></tr><tr><td>21</td><td>华北电力大学</td><td>4星级</td><td>北京</td><td>4</td></tr><tr><td>21</td><td>三峡大学</td><td>4星级</td><td>湖北</td><td>3</td></tr><tr><td>21</td><td>沈阳建筑大学</td><td>4星级</td><td>辽宁</td><td>3</td></tr><tr><td>21</td><td>石家庄铁道大学</td><td>4星级</td><td>河北</td><td>1</td></tr><tr><td>21</td><td>西安建筑科技大学</td><td>4星级</td><td>陕西</td><td>3</td></tr><tr><td>21</td><td>安徽建筑大学</td><td>4星级</td><td>安徽</td><td>1</td></tr><tr><td>21</td><td>河海大学</td><td>4星级</td><td>江苏</td><td>2</td></tr><tr><td>21</td><td>哈尔滨商业大学</td><td>4星级</td><td>黑龙江</td><td>2</td></tr><tr><td>21</td><td>中国矿业大学</td><td>4星级</td><td>江苏</td><td>2</td></tr><tr><td>21</td><td>湖南大学</td><td>4星级</td><td>湖南</td><td>2</td></tr><tr><td>21</td><td>西南交通大学</td><td>4星级</td><td>四川</td><td>2</td></tr><tr><td>21</td><td>中南财经政法大学</td><td>4星级</td><td>湖北</td><td>3</td></tr><tr><td>21</td><td>西北工业大学</td><td>4星级</td><td>陕西</td><td>3</td></tr><tr><td>21</td><td>西安理工大学</td><td>4星级</td><td>陕西</td><td>3</td></tr><tr><td>21</td><td>重庆交通大学</td><td>4星级</td><td>重庆</td><td>2</td></tr><tr><td>21</td><td>北京建筑大学</td><td>4星级</td><td>北京</td><td>4</td></tr><tr><td>21</td><td>贵州财经大学</td><td>4星级</td><td>贵州</td><td>1</td></tr><tr><td>21</td><td>华侨大学</td><td>4星级</td><td>福建</td><td>2</td></tr><tr><td>21</td><td>广州大学</td><td>4星级</td><td>广东</td><td>2</td></tr><tr><td>21</td><td>天津城建大学</td><td>4星级</td><td>天津</td><td>2</td></tr><tr><td>21</td><td>南京林业大学</td><td>4星级</td><td>江苏</td><td>2</td></tr><tr><td>21</td><td>南京工业大学</td><td>4星级</td><td>江苏</td><td>2</td></tr><tr><td>21</td><td>山西财经大学</td><td>4星级</td><td>山西</td><td>1</td></tr><tr><td>21</td><td>辽宁工程技术大学</td><td>4星级</td><td>辽宁</td><td>3</td></tr><tr><td>46</td><td>中央财经大学</td><td>3星级</td><td>北京</td><td>6</td></tr><tr><td>46</td><td>北京交通大学</td><td>3星级</td><td>北京</td><td>6</td></tr><tr><td>46</td><td>昆明理工大学</td><td>3星级</td><td>云南</td><td>1</td></tr><tr><td>46</td><td>上海理工大学</td><td>3星级</td><td>上海</td><td>3</td></tr><tr><td>50</td><td>深圳大学</td><td>3星级</td><td>广东</td><td>3</td></tr><tr><td>50</td><td>湖南城市学院</td><td>3星级</td><td>湖南</td><td>3</td></tr><tr><td>50</td><td>合肥学院</td><td>3星级</td><td>安徽</td><td>2</td></tr><tr><td>50</td><td>西华大学</td><td>3星级</td><td>四川</td><td>3</td></tr><tr><td>50</td><td>黑龙江工程学院</td><td>3星级</td><td>黑龙江</td><td>3</td></tr><tr><td>50</td><td>东北电力大学</td><td>3星级</td><td>吉林</td><td>2</td></tr><tr><td>50</td><td>河北经贸大学</td><td>3星级</td><td>河北</td><td>2</td></tr><tr><td>50</td><td>中国石油大学（华东）</td><td>3星级</td><td>山东</td><td>2</td></tr><tr><td>50</td><td>西安电子科技大学</td><td>3星级</td><td>陕西</td><td>6</td></tr><tr><td>50</td><td>武汉理工大学</td><td>3星级</td><td>湖北</td><td>5</td></tr><tr><td>50</td><td>北京邮电大学</td><td>3星级</td><td>北京</td><td>8</td></tr><tr><td>50</td><td>福州大学</td><td>3星级</td><td>福建</td><td>3</td></tr><tr><td>50</td><td>华东理工大学</td><td>3星级</td><td>上海</td><td>4</td></tr><tr><td>50</td><td>上海大学</td><td>3星级</td><td>上海</td><td>4</td></tr><tr><td>50</td><td>云南大学</td><td>3星级</td><td>云南</td><td>2</td></tr><tr><td>50</td><td>华中农业大学</td><td>3星级</td><td>湖北</td><td>5</td></tr><tr><td>50</td><td>南昌大学</td><td>3星级</td><td>江西</td><td>1</td></tr><tr><td>50</td><td>浙江工业大学</td><td>3星级</td><td>浙江</td><td>1</td></tr><tr><td>50</td><td>中国地质大学（武汉）</td><td>3星级</td><td>湖北</td><td>5</td></tr><tr><td>50</td><td>兰州交通大学</td><td>3星级</td><td>甘肃</td><td>1</td></tr><tr><td>50</td><td>吉林建筑大学</td><td>3星级</td><td>吉林</td><td>2</td></tr><tr><td>50</td><td>湖北第二师范学院</td><td>3星级</td><td>湖北</td><td>5</td></tr><tr><td>50</td><td>山东工商学院</td><td>3星级</td><td>山东</td><td>2</td></tr><tr><td>50</td><td>河南城建学院</td><td>3星级</td><td>河南</td><td>1</td></tr><tr><td>50</td><td>华北水利水电大学</td><td>3星级</td><td>河南</td><td>1</td></tr><tr><td>50</td><td>攀枝花学院</td><td>3星级</td><td>四川</td><td>3</td></tr><tr><td>50</td><td>四川理工学院</td><td>3星级</td><td>四川</td><td>3</td></tr><tr><td>50</td><td>郑州航空工业管理学院</td><td>3星级</td><td>河南</td><td>1</td></tr></tbody></table><h2><a>1</a><span>民办大学工程管理专业排名</span></h2><table><colgroup><col width="72"/><col width="181"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>武昌首义学院</td><td>5星级</td><td>湖北</td><td>1</td></tr><tr><td>1</td><td>文华学院</td><td>5星级</td><td>湖北</td><td>1</td></tr><tr><td>3</td><td>西安欧亚学院</td><td>5星级</td><td>陕西</td><td>1</td></tr><tr><td>3</td><td>上海杉达学院</td><td>5星级</td><td>上海</td><td>1</td></tr><tr><td>3</td><td>三亚学院</td><td>5星级</td><td>海南</td><td>1</td></tr><tr><td>3</td><td>上海建桥学院</td><td>5星级</td><td>上海</td><td>1</td></tr><tr><td>7</td><td>黄河科技学院</td><td>4星级</td><td>河南</td><td>1</td></tr><tr><td>7</td><td>江西科技学院</td><td>4星级</td><td>江西</td><td>1</td></tr><tr><td>7</td><td>三江学院</td><td>4星级</td><td>江苏</td><td>1</td></tr><tr><td>7</td><td>青岛黄海学院</td><td>4星级</td><td>山东</td><td>1</td></tr><tr><td>7</td><td>云南经济管理学院</td><td>4星级</td><td>云南</td><td>1</td></tr><tr><td>12</td><td>西安翻译学院</td><td>3星级</td><td>陕西</td><td>2</td></tr><tr><td>12</td><td>武昌理工学院</td><td>3星级</td><td>湖北</td><td>3</td></tr><tr><td>12</td><td>武汉学院</td><td>3星级</td><td>湖北</td><td>3</td></tr><tr><td>12</td><td>大连东软信息学院</td><td>3星级</td><td>辽宁</td><td>1</td></tr><tr><td>12</td><td>安徽新华学院</td><td>3星级</td><td>安徽</td><td>1</td></tr><tr><td>12</td><td>宁夏理工学院</td><td>3星级</td><td>宁夏</td><td>1</td></tr><tr><td>12</td><td>河北科技学院</td><td>3星级</td><td>河北</td><td>1</td></tr><tr><td>12</td><td>郑州成功财经学院</td><td>3星级</td><td>河南</td><td>2</td></tr><tr><td>12</td><td>长春建筑学院</td><td>3星级</td><td>吉林</td><td>1</td></tr><tr><td>12</td><td>无锡太湖学院</td><td>3星级</td><td>江苏</td><td>2</td></tr><tr><td>12</td><td>哈尔滨华德学院</td><td>3星级</td><td>黑龙江</td><td>1</td></tr><tr><td>12</td><td>海口经济学院</td><td>3星级</td><td>海南</td><td>2</td></tr><tr><td>12</td><td>潍坊科技学院</td><td>3星级</td><td>山东</td><td>2</td></tr><tr><td>12</td><td>西京学院</td><td>3星级</td><td>陕西</td><td>2</td></tr></tbody></table><h2><a>1</a><span>独立学院工程管理专业排名</span></h2><table><colgroup><col width="72"/><col width="181"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>四川大学锦江学院</td><td>6星级</td><td>四川</td><td>1</td></tr><tr><td>2</td><td>武汉科技大学城市学院</td><td>5星级</td><td>湖北</td><td>1</td></tr><tr><td>2</td><td>天津大学仁爱学院</td><td>5星级</td><td>天津</td><td>1</td></tr><tr><td>2</td><td>北京理工大学珠海学院</td><td>5星级</td><td>广东</td><td>1</td></tr><tr><td>5</td><td>浙江财经大学东方学院</td><td>4星级</td><td>浙江</td><td>1</td></tr><tr><td>5</td><td>北京工业大学耿丹学院</td><td>4星级</td><td>北京</td><td>1</td></tr><tr><td>5</td><td>云南大学滇池学院</td><td>4星级</td><td>云南</td><td>1</td></tr><tr><td>5</td><td>西安建筑科技大学华清学院</td><td>4星级</td><td>陕西</td><td>1</td></tr><tr><td>5</td><td>河北工业大学城市学院</td><td>4星级</td><td>河北</td><td>1</td></tr><tr><td>5</td><td>东南大学成贤学院</td><td>4星级</td><td>江苏</td><td>1</td></tr><tr><td>5</td><td>河南师范大学新联学院</td><td>4星级</td><td>河南</td><td>1</td></tr><tr><td>5</td><td>四川大学锦城学院</td><td>4星级</td><td>四川</td><td>2</td></tr><tr><td>5</td><td>重庆大学城市科技学院</td><td>4星级</td><td>重庆</td><td>1</td></tr><tr><td>5</td><td>西南财经大学天府学院</td><td>4星级</td><td>四川</td><td>2</td></tr><tr><td>5</td><td>广东技术师范学院天河学院</td><td>4星级</td><td>广东</td><td>2</td></tr><tr><td>16</td><td>中国地质大学长城学院</td><td>3星级</td><td>河北</td><td>2</td></tr><tr><td>17</td><td>浙江大学宁波理工学院</td><td>3星级</td><td>浙江</td><td>2</td></tr><tr><td>17</td><td>厦门大学嘉庚学院</td><td>3星级</td><td>福建</td><td>1</td></tr><tr><td>17</td><td>兰州财经大学陇桥学院</td><td>3星级</td><td>甘肃</td><td>1</td></tr><tr><td>17</td><td>重庆邮电大学移通学院</td><td>3星级</td><td>重庆</td><td>2</td></tr><tr><td>17</td><td>浙江工商大学杭州商学院</td><td>3星级</td><td>浙江</td><td>2</td></tr><tr><td>17</td><td>华北理工大学轻工学院</td><td>3星级</td><td>河北</td><td>3</td></tr><tr><td>17</td><td>云南师范大学商学院</td><td>3星级</td><td>云南</td><td>2</td></tr><tr><td>17</td><td>北京交通大学海滨学院</td><td>3星级</td><td>河北</td><td>3</td></tr><tr><td>17</td><td>西北大学现代学院</td><td>3星级</td><td>陕西</td><td>2</td></tr><tr><td>17</td><td>集美大学诚毅学院</td><td>3星级</td><td>福建</td><td>1</td></tr><tr><td>17</td><td>中南林业科技大学涉外学院</td><td>3星级</td><td>湖南</td><td>1</td></tr><tr><td>17</td><td>河北地质大学华信学院</td><td>3星级</td><td>河北</td><td>3</td></tr><tr><td>17</td><td>南昌大学科学技术学院</td><td>3星级</td><td>江西</td><td>1</td></tr><tr><td>17</td><td>广东工业大学华立学院</td><td>3星级</td><td>广东</td><td>3</td></tr><tr><td>17</td><td>浙江工业大学之江学院</td><td>3星级</td><td>浙江</td><td>2</td></tr><tr><td>17</td><td>四川外国语大学重庆南方翻译学院</td><td>3星级</td><td>重庆</td><td>2</td></tr><tr><td>17</td><td>华东交通大学理工学院</td><td>3星级</td><td>江西</td><td>1</td></tr><tr><td>17</td><td>中国矿业大学徐海学院</td><td>3星级</td><td>江苏</td><td>2</td></tr><tr><td>17</td><td>大连理工大学城市学院</td><td>3星级</td><td>辽宁</td><td>1</td></tr><tr><td>17</td><td>河海大学文天学院</td><td>3星级</td><td>安徽</td><td>1</td></tr><tr><td>17</td><td>西南交通大学希望学院</td><td>3星级</td><td>四川</td><td>4</td></tr><tr><td>17</td><td>中国矿业大学银川学院</td><td>3星级</td><td>宁夏</td><td>1</td></tr><tr><td>17</td><td>常州大学怀德学院</td><td>3星级</td><td>江苏</td><td>2</td></tr><tr><td>17</td><td>内蒙古师范大学鸿德学院</td><td>3星级</td><td>内蒙古</td><td>1</td></tr></tbody></table><h2><a>1</a><span>工程管理专业介绍<br/></span></h2><p></p><p><img alt="工程管理专业" src="http://img.gaosan.com/upload/zhuanye/1/1070.jpg"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>管理科学与工程类</td><td>￥7466<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过74%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">10%在北京市工作</span></td><td>男生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男64%-女36%</span></td></tr></tbody></table><p>专业介绍：属于管理学大类，管理科学与工程类。工程管理专业学生主要学习工程管理方面的基本理论、方法和土木工程技术知识；受到工程项目管理方面的基本训练；具备从事工程项目管理的基本能力。</p><p>就业方向：工程管理专业学生毕业后可在工程、管理、科研和咨询等领域获得广阔的就业机会，能在制作业、服务业、公共事业、科研院所、政府部门和事业单位从事教学、科研、管理及设计开发工作。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>能源经济</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+能源经济</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    该专业为2011年新增本科专业，本专业主要学习能源和经济增长(增长率和增长结构)、社会发展、环境污染的关系，能源资源的优化配置，能源价格和税收，节能与循环经济等相关的知识和技能。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av11428941?from=search&seid=10780511496783662029" class="">
+								
+								<div class="mui-media-body">
+									1美国科罗拉多矿业学院 能源经济学前沿系列讲座 全28讲 主讲-Carol Dahl 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av12501767?from=search&seid=10780511496783662029" class="">
+								
+								<div class="mui-media-body">
+									【熟肉】 美国纪录片 《地下能源的隐患 Groundswell Rising (2015)》 全集 英语中字 720P
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av10050665?from=search&seid=10780511496783662029" class="">
+								
+								<div class="mui-media-body">
+									【france 24：down to earth 】适合高中生挑战的听力素材
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av8223244?from=search&seid=10780511496783662029" class="">
+								
+								<div class="mui-media-body">
+									【城市与人】【公视TV】国家的远见2008
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av34097404?from=search&seid=10780511496783662029" class="">
+								
+								<div class="mui-media-body">
+									【公开课】现代煤化工概论（完）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av23767934?from=search&seid=3116845517842017223" class="">
+
+    								<div class="mui-media-body">
+    									澳大利亚能源经济遭打击深陷困局，澳洲能找到中国市场的替代者吗
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av18639094?from=search&seid=3116845517842017223" class="">
+
+    								<div class="mui-media-body">
+    									2017.晋中学院-能源经济
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av29867733?from=search&seid=3116845517842017223" class="">
+
+    								<div class="mui-media-body">
+    									1985-2008年山西省各地市煤炭产量数据可视化
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av23153289?from=search&seid=3116845517842017223" class="">
+
+    								<div class="mui-media-body">
+    									日本最便宜的煤炭，产自最后一个煤矿 | 马叔日本
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av32629119?from=search&seid=3116845517842017223" class="">
+
+    								<div class="mui-media-body">
+    									新能源汽车真的省钱吗？试驾秦100行驶800公里后得出惊人答案
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data138231"><p><img alt="能源经济专业" border="0" height="340" src="http://img.gaosan.com/upload/201705/6363158113330707571590887.jpg" style="width: 600px; height: 340px;" title="能源经济专业" vspace="0" width="600"/><br/></p><p>主要课程：能源经济学、宏微观经济学、计量经济学、环境经济学、运筹学、金融学、技术经济学、国际石油经济学、石油地质学、能源法、能源政策与战略、能源金融、能源项目管理、气候变化经济学、新能源与可再生能源等。</p><p>发展前景：能源经济专业是顺应中国能源形势而急待发展的一个新兴学科，就业前景广阔。学生毕业后能够胜任各级政府能源管理部门、大中型能源企业、能源金融机构中的能源管理、能源预测、能源规划、能源经济研究和咨询、国际能源合作等领域工作。</p><p>毕业生适合在各类能源经营与管理部门、事业单位、各级银行和金融机构、能源企业及下设能源规划与管理部门、跨国能源生产与贸易企业、能源物流企业、能源投资与交易机构从事能源生产经营管理、能源期货与期权交易、能源国际合作与开发等工作，从事上述各类能源领域的调研咨询、政策分析、市场策划、业务操作与管理等工作，也能够在科研机构、高等院校从事教学科研工作。</p><h2><a>1</a><span>2017最新能源经济专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>中国人民大学</td><td>5★</td><td>14</td></tr><tr><td>2</td><td>重庆大学</td><td>4★</td><td>14</td></tr><tr><td>3</td><td>中国石油大学(北京)</td><td>3★</td><td>14</td></tr><tr><td>4</td><td>银川能源学院</td><td>3★</td><td>14</td></tr><tr><td>5</td><td>上海电机学院</td><td>3★</td><td>14</td></tr></tbody></table><h2><a>1</a><span>能源经济专业排名大学介绍</span></h2><p>中国人民大学（RenminUniversityofChina）是一所以人文社会科学为主的综合性研究型全国重点大学，直属于教育部，由教育部与北京市共建。学校的前身是1937年诞生于抗日战争烽火中的陕北公学，以及后来的华北联合大学和华北大学。著名教育家吴玉章、成仿吾、袁宝华、黄达、李文海、纪宝成、陈雨露先后担任校长。现任党委书记为靳诺教授，校长为刘伟教授。</p><p><img alt="中国人民大学校门" src="http://img.gaosan.com/upload/webimg/1633.jpg" title="中国人民大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1937年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>重庆大学是教育部直属的全国重点大学，是国家“211工程”和“985工程”重点建设的高水平研究型综合性大学。学校地处国家西南工商业重镇、长江上游经济中心——重庆市，坐落在人文荟萃的文化名区——沙坪坝区。重庆大学创办于1929年，早在20世纪40年代就成为拥有文、理、工、商、法、医等6个学院的国立综合性大学。</p><p><img alt="重庆大学校门" src="http://img.gaosan.com/upload/webimg/1648.jpg" title="重庆大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1929年</td><td>公立</td><td>综合</td><td>中华人民共和国教育部</td></tr></tbody></table><p>中国石油大学（北京）坐落在风景秀丽的北京市昌平区军都山南麓，校园总面积496.5亩。学校是一所石油特色鲜明、以工为主、多学科协调发展的教育部直属的全国重点大学，1997年，学校首批进入国家“211工程”建设高校行列。校现有在校全日制本科生7714人、硕士研究生5538人、博士研究生1142人、留学生800余人（含语言生），在校生总数15000余人。</p><p><img alt="中国石油大学(北京) 主楼" src="http://img.gaosan.com/upload/webimg/1677.jpg" title="中国石油大学(北京) 主楼"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1953年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><p>银川能源学院(银川大学)坐落于中国历史文化名城银川市南大门，是一所普通本科高校。学校占地面积1800亩，建筑面积45万平方米，总资产13亿元，在校学生15000人，留学生42人。现有专任教师600人，兼职教师190人，副高以上职称教师190人，具有博士、硕士研究生学历教师216人，双师型教师150人，石油和化工行业教学名师1人，省级教学名师2人，省级优秀教学团队4个。</p><p><img alt="银川能源学院校门" src="http://img.gaosan.com/upload/webimg/2556.jpg" title="银川能源学院校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1999年</td><td>私立</td><td>综合</td><td>宁夏回族自治区教育厅</td></tr></tbody></table><p>上海电机学院是一所以工学为主，经济学、管理学、文学、艺术学、教育学等学科协调发展的全日制普通本科院校。学校创建于1953年，前身为上海电机制造学校。2004年9月，经上海市人民政府批准，升格为全日制普通本科高校。2011年10月，学校被国务院学位办列为“服务国家特殊需求人才培养项目”专业学位研究生试点单位，开始硕士研究生教育。</p><p><img alt="上海电机学院校门" src="http://img.gaosan.com/upload/webimg/2285.jpg" title="上海电机学院校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1953年</td><td>公立</td><td>理工</td><td>上海市教育委员会</td></tr></tbody></table><p>　　以上2017年能源经济专业大学排名能源经济专业排行榜由高三网收集整理，更多<a href="/youshizhuanye/" target="_blank">专业排名</a>请查看<a href="http://www.gaosan.com/zhuanyepaiming/">大学专业开设高校排名</a>栏目</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

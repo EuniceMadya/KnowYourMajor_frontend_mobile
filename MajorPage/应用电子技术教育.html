@@ -1,0 +1,163 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>应用电子技术教育</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+应用电子技术教育</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    “应用电子技术教育”专业培养德智体全面发展，具备电子与信息系统、通讯系统理论与技术以及计算机等方面的基本理论、基本知识和师范技能，受到严格的师范技能训练、科学实验训练和科学研究初步训练，能在高（中）等职业技术院校和普通中学从事电子应用技术、计算机应用和信息技术教育等方面教学和研究的师资，以及能在电子与信息、计算机及相关领域和从事科学研究、教学、科技开发的高级工程技术人才。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av42065045?from=search&seid=9374209077248345964" class="">
+								
+								<div class="mui-media-body">
+									高效图像压缩技术及在深空探测中的应用【西安电子科技大学】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av37604668?from=search&seid=3177339731595415340" class="">
+
+    								<div class="mui-media-body">
+    									数字电子技术——数字逻辑电路的应用
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av30031472?from=search&seid=14690877437201724710" class="">
+
+    								<div class="mui-media-body">
+    									电子兽牌记录/串口液晶屏应用
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av18831289?from=search&seid=14690877437201724710" class="">
+
+    								<div class="mui-media-body">
+    									4/21【Future bass制作系列】和弦转位的应用（中文字幕）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av9291383?from=search&seid=14690877437201724710" class="">
+
+    								<div class="mui-media-body">
+    									Green单片机应用系列 03项目简介(下集)
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av9140469?from=search&seid=14690877437201724710" class="">
+
+    								<div class="mui-media-body">
+    									Green单片机应用系列 02项目简介(中集)
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data112625"><p>截至目前，开设应用电子技术教育专业的大学共计11所，在这些高校中，应用电子技术教育专业最好的大学有：</p><h2><a>1</a><span>湖南师范大学</span></h2><p>湖南师范大学创建于1938年，位于历史文化名城长沙，是国家“211工程”重点建设的大学。学校现有6个校区，占地2475亩，建筑面积100余万平方米。主校区西偎麓山，东濒湘江，风光秀丽，是全国绿化“400佳”单位之一。</p><p><img alt="湖南师范大学 校训" src="http://img.gaosan.com/upload/webimg/1684.jpg" title="湖南师范大学 校训"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1938年</td><td>公立</td><td>师范</td><td>湖南省人民政府</td></tr></tbody></table><h2><a>1</a><span>云南大学</span></h2><p>云南大学始建于1922年，时为私立东陆大学，1934年更名为省立云南大学，1938年改为国立云南大学，是我国西部边疆最早建立的综合性大学之一。1958年，云南大学由中央高教部下放云南省管理，1978年，云南大学被国务院确定为全国88所重点大学之一。</p><p><img alt="云南大学 雕塑" src="http://img.gaosan.com/upload/webimg/1680.jpg" title="云南大学 雕塑"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1922年</td><td>公立</td><td>综合</td><td>云南省人民政府</td></tr></tbody></table><h2><a>1</a><span>广西师范学院</span></h2><p>广西师范学院坐落于广西壮族自治区首府南宁市。2013年，我校获批为广西新增博士学位授予单位立项建设单位。学校现有明秀、长岗、五合三个校区，占地面积1688.7亩，校舍建筑面积46.48万平方米，教学、科研仪器设备总值达1.26亿元，馆藏图书316.92万册。现有全日制普通13408人，专科生160人，硕士研究生1180人，留学生本科生、研究生256人，成人高等教育在校学生13570人。</p><p><img alt="广西师范学院校门" src="http://img.gaosan.com/upload/webimg/1996.jpg" title="广西师范学院校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1953年</td><td>公立</td><td>师范</td><td>广西壮族自治区教育厅</td></tr></tbody></table><h2><a>1</a><span>浙江师范大学</span></h2><p>浙江师范大学本部位于国家历史文化名城金华市，地处浙江中部，北依沪杭，南联闽粤，交通便捷。学校占地面积3300余亩，建筑面积100余万平方米。2015年入选浙江省第一批重点建设高校。2000年、2001年、2004年浙江财政学校、浙江幼儿师范学校和金华铁路司机学校相继并入。<br/></p><p><img alt="浙江师范大学 东门" src="http://img.gaosan.com/upload/webimg/1737.jpg" title="浙江师范大学 东门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1956年</td><td>公立</td><td>师范</td><td>浙江省人民政府</td></tr></tbody></table><h2><a>1</a><span>西华师范大学</span></h2><p>西华师范大学是四川省人民政府举办的全日制重点师范大学，座落在南充。学校现有北湖校区和华凤校区两个校区，校园占地面积2600余亩，是四川省园林式学校。1989年，学校恢复校名为四川师范学院。2003年4月16日，经教育部批准，学校更名为西华师范大学。</p><p><img alt="西华师范大学校门" src="http://img.gaosan.com/upload/webimg/1932.jpg" title="西华师范大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1946年</td><td>公立</td><td>师范</td><td>四川省人民政府</td></tr></tbody></table><p>以上关于应用电子技术教育专业的排名数据，参考自中国科教评价网金平果排行榜，由高三网重新整理发布，转载请注明出处。</p><script>content_end();</script><p class="xgyundu">高三网小编推荐你继续浏览：<script>authorCommend();</script><a href="/gaokao/72865.html">2017年高考最受欢迎的十大专业</a><a href="/gaokao/74670.html">盘点未来最吃香的十大专业</a><a href="/gaokao/76737.html">女生最吃香的十大专业</a><a href="/gaokao/78276.html">女生最容易就业的十大专业</a><a href="/gaokao/48347.html">最难就业的十大专业</a></p></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

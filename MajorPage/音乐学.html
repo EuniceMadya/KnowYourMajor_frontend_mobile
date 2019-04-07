@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>音乐学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+音乐学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    音乐学（musicology）是研究音乐的所有理论学科的总称。 音乐学的总任务就是透过与音乐有关的各种现象来阐明它们的本质及其规律。如研究音乐与意识形态的关系，有音乐美学、音乐史学、音乐民族学、音乐心理学、音乐教育学等；研究音乐的物质材料的特点的，有音乐声学、律学、乐器学等；研究音乐形态及其构成的，有旋律学、和声学、对位法、曲式学等作曲技术理论；还有从表演方面来考虑的，如表演理论、指挥法等。代表高校：中央音乐学院、中国音乐学院、中国传媒大学。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av42470061?from=search&seid=536380917864971746" class="">
+								
+								<div class="mui-media-body">
+									【中央音乐学院】轻松学乐理
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av946959?from=search&seid=536380917864971746" class="">
+								
+								<div class="mui-media-body">
+									【伯克利音乐学院】作曲/写歌/创作入门【内嵌srt双语字幕】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av6804201?from=search&seid=536380917864971746" class="">
+								
+								<div class="mui-media-body">
+									【音乐网络课堂】-《视唱练耳》中央音乐学院公开课
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av34397839?from=search&seid=536380917864971746" class="">
+								
+								<div class="mui-media-body">
+									龚琳娜 星海音乐学院唱谈会《中国音乐之美》  2018年10月19日
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av42275466?from=search&seid=536380917864971746" class="">
+								
+								<div class="mui-media-body">
+									【中央音乐学院】钢琴即兴伴奏入门
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av36988328?from=search&seid=14033553172895937811" class="">
+
+    								<div class="mui-media-body">
+    									最怕音乐学院突然的认真，内容震撼，引起极度舒适！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av46633139?from=search&seid=14033553172895937811" class="">
+
+    								<div class="mui-media-body">
+    									快手上最新火的一个流浪者 ，之前是加拿大皇家音乐学院教授
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av46135255?from=search&seid=14033553172895937811" class="">
+
+    								<div class="mui-media-body">
+    									《勇气》四川师范大学音乐学院合唱版，绝对让你流连忘返的合唱歌曲~
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av33656867?from=search&seid=14033553172895937811" class="">
+
+    								<div class="mui-media-body">
+    									开口跪！音乐学院的学生日常，正常说话根本不会的！（第4期）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av2459966?from=search&seid=14033553172895937811" class="">
+
+    								<div class="mui-media-body">
+    									 星海音乐学院学生公然上课斗地主!
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data179905"><p>每年都会有很多学生选择成为艺术生，考取音乐学院。对于音乐生来说，选择一所好的音乐学院是很重要的。下面小编整理了《中国十大音乐学院最新排名》，供大家参考！</p><p><img alt="音乐学院排名" border="0" height="375" src="http://img.gaosan.com/upload/201709/6364202289524924784805270.jpg" style="width: 600px; height: 375px;" title="音乐学院排名" vspace="0" width="600"/></p><h2><a>1</a><span>中国十大音乐学院最新排名</span></h2><table><tbody><tr class="firstRow"><td><center>排 序</center></td><td><center>学校名称</center></td><td><center>水 平</center></td><td><center>开此专业学校数</center></td></tr><tr><td>1</td><td>福建师范大学</td><td>5★</td><td>348</td></tr><tr><td>2</td><td>中央音乐学院</td><td>5★</td><td>348</td></tr><tr><td>3</td><td>中国音乐学院</td><td>5★</td><td>348</td></tr><tr><td>4</td><td>武汉音乐学院</td><td>5★</td><td>348</td></tr><tr><td>5</td><td>星海音乐学院</td><td>5★</td><td>348</td></tr><tr><td>6</td><td>新疆师范大学</td><td>5★</td><td>348</td></tr><tr><td>7</td><td>哈尔滨师范大学</td><td>5★</td><td>348</td></tr><tr><td>8</td><td>沈阳音乐学院</td><td>5★</td><td>348</td></tr><tr><td>9</td><td>南京艺术学院</td><td>5★</td><td>348</td></tr><tr><td>10</td><td>山东师范大学</td><td>5★</td><td>348</td></tr></tbody></table><h2><a>1</a><span>音乐声艺考内容是什么</span></h2><p>1、音乐教育类：声乐、钢琴、视唱练耳、音乐知识、素质面试等。</p><p>开设此类专业的高校多是师范类院校和综合性大学，对考生的文化成绩要求较高，适宜有艺术特长文化成绩较好的考生报考。</p><p>2、器乐类：主科(相关器乐择其一)、声乐、视唱练耳、音乐知识、素质面试等。</p><p>除了钢琴外，其他所需乐器需要考生自己携带。</p><p>提醒：</p><p>1、除了上述考试形式外，许多专业还辅之以笔试。笔试内容一般是相关的文学常识。</p><p>2、在考试时间不冲突的前提下，考生可以根据个人的特长、精力及家庭财力，选报几个考试内容相近的专业，以增加录取的保险系数。</p><p>3、省统考结束后，由省级招办根据本省的招生计划制定各专业的合格分数线;校考结束后，由学校自行颁发各专业的合格证，其发放数量原则上按与本校相应艺术类专业招生计划4∶1的比例制定。</p><p>以上《中国十大音乐学院最新排名》由高三网小编发布，想知道更多相关信息，请关注高三网。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

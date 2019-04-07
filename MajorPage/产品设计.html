@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>产品设计</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+产品设计</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    《 产品设计》是2009年由机械工业出版社出版的图书，作者是刘永翔。本书系统地介绍了产品设计的基本概念、要素组成、一般方法流程，以及设计中形态塑造和工程结构等专题内容。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av19013052?from=search&seid=10017124641770994766" class="">
+								
+								<div class="mui-media-body">
+									【工业产品设计手绘】30天基础实战训练：磨笔与第一周训练
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av41408080?from=search&seid=10017124641770994766" class="">
+								
+								<div class="mui-media-body">
+									产品设计作品集排版技巧讲解
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av31876318?from=search&seid=10017124641770994766" class="">
+								
+								<div class="mui-media-body">
+									【producttank】Students of Product Design （适合初学者的产品设计流程讲解）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av37187703?from=search&seid=10017124641770994766" class="">
+								
+								<div class="mui-media-body">
+									个人文创产品设计经历小分析
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av22195180?from=search&seid=10017124641770994766" class="">
+								
+								<div class="mui-media-body">
+									【设计】产品设计入门 Students of Product Design（生肉）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av36802588?from=search&seid=18222904931769284586" class="">
+
+    								<div class="mui-media-body">
+    									【毕业设计】2018年中国美院产品设计本科毕设优秀作品-NOTICARE阿尔茨海默氏症关怀系列餐具
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av37461491?from=search&seid=18222904931769284586" class="">
+
+    								<div class="mui-media-body">
+    									我是怎么做毕业设计的？一个产品设计学生的一天。 #30天vlog挑战#
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av35898957?from=search&seid=18222904931769284586" class="">
+
+    								<div class="mui-media-body">
+    									做设计很难吗？难受啊马飞（一个产品设计的制作过程）从思路到改进，到实物
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av35284188?from=search&seid=18222904931769284586" class="">
+
+    								<div class="mui-media-body">
+    									【产品设计】Alessi：设计工厂 The Design Factory.
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av28568696?from=search&seid=18222904931769284586" class="">
+
+    								<div class="mui-media-body">
+    									首象工业产品设计数位板PS渲染教程
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data185020"><p>中国大学哪些本科的产品设计专业，是2018高考优秀考生报考的最佳选择呢？和小编一起来看看吧！</p><p><img alt="产品设计专业大学排名" border="0" height="350" src="http://img.gaosan.com/upload/201711/6364515371145463723569339.jpg" style="width: 600px; height: 350px;" title="产品设计专业大学排名" vspace="0" width="600"/></p><p><strong>在2018本科产品设计专业排行榜中，清华大学、中央美术学院、中国美术学院并列排行榜第一名，</strong>想知道全部的<a href="/gaokao/185020.html" target="_blank">产品设计专业</a>排名请看下表：</p><h2><a>1</a><span>公办本科大学产品设计专业排名</span></h2><table><colgroup><col width="50"/><col width="146"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>清华大学</td><td>5星级</td><td>北京</td><td>1</td></tr><tr><td>1</td><td>中央美术学院</td><td>5星级</td><td>北京</td><td>1</td></tr><tr><td>1</td><td>中国美术学院</td><td>5星级</td><td>浙江</td><td>1</td></tr><tr><td>4</td><td>四川美术学院</td><td>5星级</td><td>重庆</td><td>1</td></tr><tr><td>4</td><td>鲁迅美术学院</td><td>5星级</td><td>辽宁</td><td>1</td></tr><tr><td>4</td><td>广州美术学院</td><td>5星级</td><td>广东</td><td>1</td></tr><tr><td>7</td><td>湖南工业大学</td><td>4星级</td><td>湖南</td><td>1</td></tr><tr><td>7</td><td>湖北美术学院</td><td>4星级</td><td>湖北</td><td>1</td></tr><tr><td>7</td><td>北京电影学院</td><td>4星级</td><td>北京</td><td>3</td></tr><tr><td>7</td><td>西安美术学院</td><td>4星级</td><td>陕西</td><td>1</td></tr><tr><td>7</td><td>东北师范大学</td><td>4星级</td><td>吉林</td><td>1</td></tr><tr><td>7</td><td>西南交通大学</td><td>4星级</td><td>四川</td><td>1</td></tr><tr><td>7</td><td>广西艺术学院</td><td>4星级</td><td>广西</td><td>1</td></tr><tr><td>7</td><td>北京理工大学</td><td>4星级</td><td>北京</td><td>3</td></tr><tr><td>7</td><td>华东理工大学</td><td>4星级</td><td>上海</td><td>1</td></tr><tr><td>7</td><td>南京理工大学</td><td>4星级</td><td>江苏</td><td>1</td></tr><tr><td>7</td><td>华南理工大学</td><td>4星级</td><td>广东</td><td>2</td></tr><tr><td>7</td><td>山东大学</td><td>4星级</td><td>山东</td><td>1</td></tr><tr><td>7</td><td>浙江大学</td><td>4星级</td><td>浙江</td><td>2</td></tr><tr><td>7</td><td>中国地质大学（武汉）</td><td>4星级</td><td>湖北</td><td>1</td></tr><tr><td>7</td><td>西北工业大学</td><td>4星级</td><td>陕西</td><td>1</td></tr><tr><td>7</td><td>武汉大学</td><td>4星级</td><td>湖北</td><td>1</td></tr><tr><td>7</td><td>华中科技大学</td><td>4星级</td><td>湖北</td><td>1</td></tr><tr><td>7</td><td>南京师范大学</td><td>4星级</td><td>江苏</td><td>1</td></tr><tr><td>7</td><td>同济大学</td><td>4星级</td><td>上海</td><td>1</td></tr><tr><td>7</td><td>武汉理工大学</td><td>4星级</td><td>湖北</td><td>1</td></tr><tr><td>7</td><td>云南艺术学院</td><td>4星级</td><td>云南</td><td>1</td></tr><tr><td>7</td><td>山东工艺美术学院</td><td>4星级</td><td>山东</td><td>1</td></tr><tr><td>29</td><td>杭州电子科技大学</td><td>3星级</td><td>浙江</td><td>3</td></tr><tr><td>29</td><td>四川音乐学院</td><td>3星级</td><td>四川</td><td>2</td></tr><tr><td>29</td><td>山东艺术学院</td><td>3星级</td><td>山东</td><td>3</td></tr><tr><td>29</td><td>江南大学</td><td>3星级</td><td>江苏</td><td>3</td></tr><tr><td>29</td><td>大连外国语大学</td><td>3星级</td><td>辽宁</td><td>2</td></tr><tr><td>29</td><td>昆明理工大学</td><td>3星级</td><td>云南</td><td>2</td></tr><tr><td>29</td><td>北京化工大学</td><td>3星级</td><td>北京</td><td>5</td></tr><tr><td>29</td><td>上海理工大学</td><td>3星级</td><td>上海</td><td>3</td></tr><tr><td>29</td><td>东北林业大学</td><td>3星级</td><td>黑龙江</td><td>1</td></tr><tr><td>29</td><td>东华大学</td><td>3星级</td><td>上海</td><td>3</td></tr><tr><td>29</td><td>浙江师范大学</td><td>3星级</td><td>浙江</td><td>3</td></tr><tr><td>40</td><td>沈阳航空航天大学</td><td>3星级</td><td>辽宁</td><td>3</td></tr><tr><td>40</td><td>北京服装学院</td><td>3星级</td><td>北京</td><td>6</td></tr><tr><td>40</td><td>景德镇陶瓷大学</td><td>3星级</td><td>江西</td><td>1</td></tr><tr><td>40</td><td>大连民族大学</td><td>3星级</td><td>辽宁</td><td>3</td></tr><tr><td>40</td><td>江西财经大学</td><td>3星级</td><td>江西</td><td>1</td></tr><tr><td>40</td><td>仲恺农业工程学院</td><td>3星级</td><td>广东</td><td>3</td></tr></tbody></table><h2><a>1</a><span>民办大学产品设计专业排名</span></h2><table><colgroup><col width="50"/><col width="146"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>上海建桥学院</td><td>5星级</td><td>上海</td><td>1</td></tr><tr><td>2</td><td>上海杉达学院</td><td>4星级</td><td>上海</td><td>2</td></tr><tr><td>2</td><td>上海视觉艺术学院</td><td>4星级</td><td>上海</td><td>2</td></tr><tr><td>2</td><td>山东英才学院</td><td>4星级</td><td>山东</td><td>1</td></tr><tr><td>2</td><td>武汉学院</td><td>4星级</td><td>湖北</td><td>1</td></tr><tr><td>2</td><td>成都文理学院</td><td>4星级</td><td>四川</td><td>1</td></tr><tr><td>2</td><td>武昌首义学院</td><td>4星级</td><td>湖北</td><td>1</td></tr><tr><td>2</td><td>广州商学院</td><td>4星级</td><td>广东</td><td>1</td></tr><tr><td>2</td><td>广东白云学院</td><td>4星级</td><td>广东</td><td>1</td></tr><tr><td>2</td><td>湖北商贸学院</td><td>4星级</td><td>湖北</td><td>1</td></tr><tr><td>11</td><td>宁波大红鹰学院</td><td>3星级</td><td>浙江</td><td>1</td></tr><tr><td>12</td><td>三亚学院</td><td>3星级</td><td>海南</td><td>1</td></tr><tr><td>12</td><td>西安外事学院</td><td>3星级</td><td>陕西</td><td>1</td></tr><tr><td>12</td><td>长春建筑学院</td><td>3星级</td><td>吉林</td><td>1</td></tr><tr><td>12</td><td>北京城市学院</td><td>3星级</td><td>北京</td><td>1</td></tr><tr><td>12</td><td>湖南涉外经济学院</td><td>3星级</td><td>湖南</td><td>1</td></tr><tr><td>12</td><td>武汉东湖学院</td><td>3星级</td><td>湖北</td><td>4</td></tr><tr><td>12</td><td>河北美术学院</td><td>3星级</td><td>河北</td><td>1</td></tr><tr><td>12</td><td>吉林动画学院</td><td>3星级</td><td>吉林</td><td>1</td></tr><tr><td>12</td><td>四川文化艺术学院</td><td>3星级</td><td>四川</td><td>2</td></tr><tr><td>12</td><td>四川传媒学院</td><td>3星级</td><td>四川</td><td>2</td></tr></tbody></table><h2><a>1</a><span>独立学院产品设计专业排名</span></h2><table><colgroup><col width="50"/><col width="146"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>云南师范大学商学院</td><td>5星级</td><td>云南</td><td>1</td></tr><tr><td>2</td><td>中国传媒大学南广学院</td><td>4星级</td><td>江苏</td><td>1</td></tr><tr><td>2</td><td>浙江理工大学科技与艺术学院</td><td>4星级</td><td>浙江</td><td>1</td></tr><tr><td>2</td><td>四川大学锦江学院</td><td>4星级</td><td>四川</td><td>1</td></tr><tr><td>2</td><td>华南理工大学广州学院</td><td>4星级</td><td>广东</td><td>1</td></tr><tr><td>2</td><td>北京工业大学耿丹学院</td><td>4星级</td><td>北京</td><td>1</td></tr><tr><td>2</td><td>北京师范大学珠海分校</td><td>4星级</td><td>广东</td><td>1</td></tr><tr><td>2</td><td>内蒙古大学创业学院</td><td>4星级</td><td>内蒙古</td><td>1</td></tr><tr><td>9</td><td>中国地质大学长城学院</td><td>3星级</td><td>河北</td><td>1</td></tr><tr><td>10</td><td>兰州财经大学陇桥学院</td><td>3星级</td><td>甘肃</td><td>1</td></tr><tr><td>10</td><td>厦门大学嘉庚学院</td><td>3星级</td><td>福建</td><td>1</td></tr><tr><td>10</td><td>电子科技大学中山学院</td><td>3星级</td><td>广东</td><td>3</td></tr><tr><td>10</td><td>云南大学旅游文化学院</td><td>3星级</td><td>云南</td><td>2</td></tr><tr><td>10</td><td>成都理工大学工程技术学院</td><td>3星级</td><td>四川</td><td>2</td></tr><tr><td>10</td><td>济南大学泉城学院</td><td>3星级</td><td>山东</td><td>1</td></tr><tr><td>10</td><td>四川外国语大学重庆南方翻译学院</td><td>3星级</td><td>重庆</td><td>1</td></tr><tr><td>10</td><td>安徽师范大学皖江学院</td><td>3星级</td><td>安徽</td><td>1</td></tr><tr><td>10</td><td>华北电力大学科技学院</td><td>3星级</td><td>河北</td><td>2</td></tr><tr><td>10</td><td>成都信息工程大学银杏酒店管理学院</td><td>3星级</td><td>四川</td><td>2</td></tr><tr><td>10</td><td>山东师范大学历山学院</td><td>3星级</td><td>山东</td><td>1</td></tr><tr><td>10</td><td>北京理工大学珠海学院</td><td>3星级</td><td>广东</td><td>3</td></tr><tr><td>10</td><td>广州大学松田学院</td><td>3星级</td><td>广东</td><td>3</td></tr><tr><td>10</td><td>陕西科技大学镐京学院</td><td>3星级</td><td>陕西</td><td>1</td></tr><tr><td>10</td><td>广东技术师范学院天河学院</td><td>3星级</td><td>广东</td><td>3</td></tr><tr><td>10</td><td>福建农林大学东方学院</td><td>3星级</td><td>福建</td><td>1</td></tr></tbody></table><h2><a>1</a><span>产品设计专业介绍</span></h2><p></p><p><img alt="zbzGrtgv.jpg" src="http://img.gaosan.com/upload/201607/6360488466729237856069627.jpg" title="zbzGrtgv.jpg"/></p><p>培养目标：该专业培养拥护党的基本路线，适应社会主义市场经济需要的德、智、体、美全面发展，具有良好的工业产品艺术造型设计修养和素质，掌握必备的产品造型设计专业基础理论知识及较强的实践应用能力的高素质技能型人才。</p><p>就业前景：科学技术的突飞猛进推动着产品的发展和演化，而设计则是将科技成果转化为现实生产力的媒介。近几年，许多企业已意识到设计的重要性。今天的文化、艺术、食品、汽车、手机、电脑市场中，各企业越来越关注设计问题，谁的设计有创新能取胜，谁就能赢得市场。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>心理学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+心理学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    心理学是一门研究人类心理现象及其影响下的精神功能和行为活动的科学，兼顾突出的理论性和应用（实践）性。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    心理学包括基础心理学与应用心理学两大领域，其研究涉及知觉、认知、情绪、思维、人格、行为习惯、人际关系、社会关系等许多领域，也与日常生活的许多领域——家庭、教育、健康、社会等发生关联。心理学一方面尝试用大脑运作来解释个体基本的行为与心理机能，同时，心理学也尝试解释个体心理机能在社会行为与社会动力中的角色；另外，它还与神经科学、医学、哲学、生物学、宗教学等学科有关，因为这些学科所探讨的生理或心理作用会影响个体的心智。实际上，很多人文和自然学科都与心理学有关，人类心理活动其本身就与人类生存环境密不可分。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    心理学家从事基础研究的目的是描述、解释、预测和影响行为。应用心理学家还有第五个目的——提高人类生活的质量。这些目标构成了心理学事业的基础。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    心理学符号的含义：符号在希腊语里是灵魂的意思，后来变成英文psyche。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av23266957?from=search&seid=10832673237370938205" class="">
+								
+								<div class="mui-media-body">
+									清华大学心理学概论 59讲
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av42112054?from=search&seid=10832673237370938205" class="">
+								
+								<div class="mui-media-body">
+									【心理术心理学】12节课快速助你成为读心大师
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av86387?from=search&seid=10832673237370938205" class="">
+								
+								<div class="mui-media-body">
+									耶鲁开放课之【心理学导论】（完全体）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av10270582?from=search&seid=10832673237370938205" class="">
+								
+								<div class="mui-media-body">
+									【北京师范大学】普通心理学
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av920083?from=search&seid=10832673237370938205" class="">
+								
+								<div class="mui-media-body">
+									耶鲁大学公开课：心理学导论
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av26632803?from=search&seid=18148501449973889128" class="">
+
+    								<div class="mui-media-body">
+    									人类才是最大的漏洞，黑客最厉害的不是技术，而是心理学、几分钟看完悬疑剧情片《我是谁》
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av45709044?from=search&seid=18148501449973889128" class="">
+
+    								<div class="mui-media-body">
+    									10种永远有效的简单心理学技巧
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av20476174?from=search&seid=18148501449973889128" class="">
+
+    								<div class="mui-media-body">
+    									犯罪心理学专家李玫瑾老师教你一眼辨别人渣
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av15226372?from=search&seid=18148501449973889128" class="">
+
+    								<div class="mui-media-body">
+    									心理学告诉你怎么知道女生是不是喜欢你
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av44360187?from=search&seid=18148501449973889128" class="">
+
+    								<div class="mui-media-body">
+    									【逼我学习】让记忆效率提升300%的心理学小技巧
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div class="text"><p>中国大学心理学类哪些本科专业跻身2018世界一流专业、中国顶尖专业和中国一流专业行列？哪些心理学类专业是2018年中国高考最优秀考生选择报考的最佳专业？													</p><p>为了给2018年全国高考考生和外国来华留学生选择报考中国大学心理学类本科专业提供权威参考指南，艾瑞深中国校友会网(Cuaa.Net)编写完成、科学出版社出版发行的《2018中国大学评价研究报告―中国高考志愿填报指南（校友会版）》最新发布2018中国大学一流专业排行榜、2018中国大学各学科一流专业排行榜和2018中国大学心理学类本科专业排行榜等榜单。																										报告显示，全国206个专业荣膺2018中国八星级专业（8★），跻身世界一流专业、中国最顶尖专业行列；清华大学雄居2018中国大学一流专业排行榜冠军，北京大学第2，中国人民大学第3，复旦大学第4，浙江大学第5，天津大学跻身前10强。中国社会科学院大学、西南政法大学和昆明理工大学等10所非双一流大学跻身全国100强。最引人关注的是，工商管理、经济学和计算机专业最盛产全球亿万富豪，168位福布斯全球富豪榜上榜富豪财富总额高达4.32万亿, 堪称“中国全球亿万富豪摇篮”。深圳大学计算机专业造富能力最强，培养了马化腾、张志东和周群飞等4名全球顶级亿万富豪，财富总额近4500亿，雄居2018中国最具财富创造力专业排行榜榜首；杭州师范大学英语、武汉科技大学材料学专业跻身全国前3甲。													</p><p>值得关注的是，全国有15所世界一流学科建设高校跌出全国200强，本科专业建设水平有待提升；中国社会科学院大学、北京电影学院、上海戏剧学院、中国戏曲学院、西南政法大学、深圳大学、燕山大学、北京舞蹈学院、天津师范大学和昆明理工大学等10所非双一流大学跻身全国前100强。吉林大学珠海学院、云南师范大学商学院、四川大学锦江学院、北京师范大学珠海分校、武汉科技大学城市学院列2018中国独立学院一流专业排行榜前5强。武昌首义学院、文华学院、三亚学院、郑州工商学院、西安欧亚学院列2018中国民办大学一流专业排行榜前5强，西交利物浦大学、北京师范大学－香港浸会大学联合国际学院和宁波诺丁汉大学居2018中国合作办学大学一流专业排行榜前3强。													</p><p>													一流本科教育是建设世界一流大学的重要基础，本科专业建设是中国高校本科教育教学建设中重要工作。自2015年起，艾瑞深中国校友会网(Cuaa.Net)已连续4年发布中国大学本科专业排行榜，旨在为全国高考考生、外国来华留学生高考填报志愿挑选大学与专业提供权威参考指南。校友会 2018中国大学本科专业评价指标由学科水平、毕业生质量、师资水平、专业水平和专业影响等五大指标构成，涵盖包括了国家“双一流”建设学科、教育部第四轮学科评估结果、国家级特色专业、省级特色重点专业、杰出校友和杰出师资等100多项指标，详情请参阅由艾瑞深研究院赵德国、蔡言厚、党亚茹、王凌峰、刘明和蔡莉编写完成、科学出版社面向全国出版发行的《2018中国大学评价研究报告―中国高考志愿填报指南（校友会版）》。													</p><p><b>艾瑞深中国校友会网2018中国大学心理学类各本科专业排行榜</b>：													 </p><p align="center"><b>校友会2018中国大学心理学专业排名</b></p><table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr><tr><td>1</td><td>北京师范大学</td><td>8星级</td><td>世界一流专业</td><td>北京</td><td>1</td></tr><tr><td>1</td><td>北京大学</td><td>8星级</td><td>世界一流专业</td><td>北京</td><td>1</td></tr><tr><td>3</td><td>华东师范大学</td><td>7星级</td><td>世界知名高水平、中国顶尖专业</td><td>上海</td><td>1</td></tr><tr><td>4</td><td>清华大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>北京</td><td>3</td></tr><tr><td>4</td><td>华南师范大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>广东</td><td>1</td></tr><tr><td>6</td><td>西南大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>重庆</td><td>1</td></tr><tr><td>7</td><td>浙江大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>浙江</td><td>1</td></tr><tr><td>8</td><td>中国人民大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>北京</td><td>4</td></tr><tr><td>8</td><td>华中师范大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>湖北</td><td>1</td></tr><tr><td>8</td><td>复旦大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>上海</td><td>2</td></tr></table><p align="center"><b>校友会2017中国独立学院心理学专业排行榜																																												   		  <table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr><tr><td>1</td><td>北京师范大学珠海分校</td><td>5星级</td><td>中国一流独立学院专业</td><td>广东</td><td>1</td></tr></table></b></p><p align="center"><b>校友会2017中外合作办学大学心理学专业排行榜																																												   		  <table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr><tr><td>1</td><td>北京师范大学－香港浸会大学联合国际学院</td><td>5星级</td><td>中国一流合作办学大学专业</td><td>广东</td><td>1</td></tr></table></b></p><p align="center"><b>校友会2018中国大学应用心理学专业排名</b></p><table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr><tr><td>1</td><td>天津师范大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>天津</td><td>1</td></tr><tr><td>2</td><td>北京师范大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>北京</td><td>1</td></tr><tr><td>2</td><td>北京大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>北京</td><td>1</td></tr><tr><td>4</td><td>华东师范大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>上海</td><td>1</td></tr><tr><td>5</td><td>南京师范大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>江苏</td><td>1</td></tr><tr><td>6</td><td>南京大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>江苏</td><td>2</td></tr><tr><td>6</td><td>中山大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>广东</td><td>1</td></tr><tr><td>6</td><td>浙江大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>浙江</td><td>1</td></tr><tr><td>6</td><td>南开大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>天津</td><td>2</td></tr><tr><td>6</td><td>中国人民大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>北京</td><td>3</td></tr></table><p align="center"><b>校友会2017中国独立学院应用心理学专业排行榜																																												   		  <table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr><tr><td>1</td><td>北京师范大学珠海分校</td><td>6星级</td><td>中国顶尖独立学院专业</td><td>广东</td><td>1</td></tr><tr><td>2</td><td>南开大学滨海学院</td><td>5星级</td><td>中国一流独立学院专业</td><td>天津</td><td>1</td></tr><tr><td>3</td><td>云南师范大学商学院</td><td>5星级</td><td>中国一流独立学院专业</td><td>云南</td><td>1</td></tr><tr><td>3</td><td>河南大学民生学院</td><td>5星级</td><td>中国一流独立学院专业</td><td>河南</td><td>1</td></tr><tr><td>3</td><td>湖北师范大学文理学院</td><td>5星级</td><td>中国一流独立学院专业</td><td>湖北</td><td>1</td></tr></table></b></p></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

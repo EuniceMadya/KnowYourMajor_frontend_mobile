@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>涉外警务</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+涉外警务</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    涉外警务即公安机关和警察人员依法行使警察职权，对具有涉外因素的事务实施行政和刑事管辖活动的总称。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av44494486?from=search&seid=2553978728810419851" class="">
+								
+								<div class="mui-media-body">
+									中国涉外收养立法与实践问题【7集】(蒋新苗：湖南师范大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av46578768?from=search&seid=2553978728810419851" class="">
+								
+								<div class="mui-media-body">
+									金正昆-国际礼仪之涉外交往礼仪
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av4825038?from=search&seid=2553978728810419851" class="">
+								
+								<div class="mui-media-body">
+									系统强化课程之三国：11.涉外民商事关系法律适用（二）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av23856318?from=search&seid=2553978728810419851" class="">
+								
+								<div class="mui-media-body">
+									湖南师范大学 中国涉外收养立法与实践问题 全7讲 主讲-蒋新苗 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av12542581?from=search&seid=2553978728810419851" class="">
+								
+								<div class="mui-media-body">
+									湖南师范大学 中国涉外收养立法与实践问题 全7讲 主讲-蒋新苗 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24865303?from=search&seid=13566725606517362802" class="">
+
+    								<div class="mui-media-body">
+    									师兄师姐对你说丨中国人民公安大学涉外警务专业
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av20695840?from=search&seid=13566725606517362802" class="">
+
+    								<div class="mui-media-body">
+    									浙江警察学院六大队宣传
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av28530012?from=search&seid=13566725606517362802" class="">
+
+    								<div class="mui-media-body">
+    									师兄师姐对你说丨外语不麻溜的法学生不是好警察！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av25174693?from=search&seid=3185468596717657770" class="">
+
+    								<div class="mui-media-body">
+    									[misscocaine&#39;s show]高考特辑第二弹 中国人民公安大学
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av9932529?from=search&seid=17950574698512096861" class="">
+
+    								<div class="mui-media-body">
+    									《涉外大饭店 2》诺顿秀——朱迪丹奇、戴夫·帕特尔
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data183920"><p>中国大学哪些本科的涉外警务专业跻身2018世界一流、世界高水平、中国顶尖和中国一流专业行列？艾瑞深中国校友会网最新公布的2018本科专业排行榜中就有你想知道的答案，和小编一起来看看吧！</p><p><img alt="涉外警务专业全国大学排名" border="0" height="370" src="http://img.gaosan.com/upload/201710/6364472197747971432476029.jpg" style="width: 600px; height: 370px;" title="涉外警务专业全国大学排名" vspace="0" width="600"/></p><p>在2018本科涉外警务专业排行榜中，甘肃政法学院雄居排行榜榜首，中国人民武装警察部队学院、云南警官学院紧随其后，占据第二、第三名。华东政法大学位列第四名，中南财经政法大学位列第五名，全部排名数据请看下表：</p><h2><a>1</a><span>本科大学涉外警务专业排名</span></h2><table><colgroup><col width="72"/><col width="163"/><col width="72"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>中国人民公安大学</td><td>4星级</td><td>北京</td><td>1</td></tr><tr><td>2</td><td>浙江警察学院</td><td>3星级</td><td>浙江</td><td>1</td></tr><tr><td>2</td><td>中国刑事警察学院</td><td>3星级</td><td>辽宁</td><td>1</td></tr><tr><td>2</td><td>北京警察学院</td><td>3星级</td><td>北京</td><td>2</td></tr></tbody></table><p>艾瑞深中国校友会网2018中国大学本科专业排行榜专业星级划分：中国九星级专业：世界顶尖专业；中国八星级专业：世界一流、中国最顶尖专业；中国七星级专业：世界知名高水平、中国顶尖专业；中国六星级专业：世界高水平、中国顶尖专业；中国五星级专业：世界知名、中国一流专业；中国四星级专业：中国高水平专业；中国三星级专业：中国知名、区域一流专业；中国二星级专业：中国区域高水平专业；中国一星级专业：中国区域知名专业。</p><p><strong>中国人民公安大学</strong><br/></p><p></p><p>中国人民公安大学是公安部直属普通高等学校暨公安部高级警官学院，创始于1948年7月中共中央社会部在河北解放区举办的华北保卫干部训练班，历经华北公安干部学校、中央公安干部学校、中央人民公安学院、中央政法干部学校等发展阶段。2004年10月15日，胡锦涛、温家宝等党和国家领导人亲临公安大学观摩全国公安民警大练兵汇报演练，胡锦涛同志发表了重要讲话。</p><p><img alt="中国人民公安大学校门" src="http://img.gaosan.com/upload/webimg/2423.jpg" title="中国人民公安大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1948年</td><td>公立</td><td>政法</td><td>公安部</td></tr></tbody></table><p><strong>浙江警察学院</strong></p><p></p><p>浙江警察学院是一所培养公安高等应用人才，实行警务化管理的全日制本科院校。前身为浙江省公安干部学校。学校现有教职工472人（其中专任教师239人）,正高职34人，副高职80人，博士学位45人，省部级教学名师5人、省级学科带头人3人、省级教学团队4个。全日制在校生4000余人，年均民警培训量近8000人次。</p><p><img alt="浙江警察学院 毕业典礼" src="http://img.gaosan.com/upload/webimg/2974.jpg" title="浙江警察学院 毕业典礼"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1949年</td><td>公立</td><td>其他</td><td>浙江省教育厅、浙江省公安厅</td></tr></tbody></table><p><strong>中国刑事警察学院</strong></p><p></p><p>中国刑事警察学院是公安部直属的本科高等院校。60多年来，学院为全国政法机关培养输送了10余万名领导干部、业务骨干和专门技术人才，被誉为“中国刑警的最高学府”、“东方福尔摩斯的摇篮”。如今，警院学子遍布全国各地，他们为打击犯罪、维护社会稳定、创建和谐社会做出了卓越贡献。</p><p><img alt="中国刑事警察学院校门" src="http://img.gaosan.com/upload/webimg/3391.jpg" title="中国刑事警察学院校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1948年</td><td>公立</td><td>政法</td><td>公安部</td></tr></tbody></table><p><strong>北京警察学院</strong></p><p></p><p>北京工业职业技术学院是一所以工科专业为主、独立设置的公办普通高等职业学院。学校前身为创建于1956年的北京煤炭工业学校，1994年开始举办高等职业教育，1999年正式改制为职业技术学院。<br/></p><p><img alt="北京工业职业技术学院校门" src="http://img.gaosan.com/upload/webimg/3449.jpg" title="北京工业职业技术学院校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1956年</td><td>公立</td><td>工科</td><td>北京市教育委员会</td></tr></tbody></table><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

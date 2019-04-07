@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>导航工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+导航工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;  本专业主要学习导航系统与组合导航技术，导航设备与通信设备的性能、结构、工程原理、维修技术等专业知识及检测、调试、维护保养、故障诊断等专业技能。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av27522959?from=search&seid=18079187776537644762" class="">
+								
+								<div class="mui-media-body">
+									web前端开发零基础学习教程 H5最新写法编程蜂窝导航01
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av27598257?from=search&seid=18079187776537644762" class="">
+								
+								<div class="mui-media-body">
+									web前端开发零基础学习教程 H5最新写法编程蜂窝导航02
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av18874563?from=search&seid=18079187776537644762" class="">
+								
+								<div class="mui-media-body">
+									【CSS】【3D动画】CSS3属性高级应用---3D动画导航栏
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av21931310?from=search&seid=18079187776537644762" class="">
+								
+								<div class="mui-media-body">
+									【前端】【CSS】实用项目系列之3D导航栏
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av22933776?from=search&seid=18079187776537644762" class="">
+								
+								<div class="mui-media-body">
+									今年只此一次！！！五年经验全栈工程师亲自带你写前端手风琴效果导航条
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av20464634?from=search&seid=17098828225803148962" class="">
+
+    								<div class="mui-media-body">
+    									中医医术确有专长人员医师资格申报考核培训班新闻发布会于2018年03月05日在蓉召开
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av40729927?from=search&seid=17098828225803148962" class="">
+
+    								<div class="mui-media-body">
+    									15天项目挑战 || 应用浮动布局制作“豆瓣导航栏”
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av38022153?from=search&seid=17098828225803148962" class="">
+
+    								<div class="mui-media-body">
+    									[Unity零基础入门]9.1导航网格寻路-简单应用(使用Unity2018，基于Unity官方教学资源包)
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av43036707?from=search&seid=17098828225803148962" class="">
+
+    								<div class="mui-media-body">
+    									毁灭者（ slam自动导航+图像识别+武器攻击火控系统）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av40262547?from=search&seid=17098828225803148962" class="">
+
+    								<div class="mui-media-body">
+    									国家品牌计划公益广告合辑之国家重大战略工程2018
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data184069"><p>中国大学哪些本科的导航工程专业跻身2018世界一流、世界高水平、中国顶尖和中国一流专业行列？艾瑞深中国校友会网最新公布的2018本科专业排行榜中就有你想知道的答案，和小编一起来看看吧！</p><p><img alt="导航工程专业全国大学排名" border="0" height="350" src="http://img.gaosan.com/upload/201710/6364486987995109133138656.jpg" style="width: 600px; height: 350px;" title="导航工程专业全国大学排名" vspace="0" width="600"/></p><p>在2018本科导航工程专业排行榜中，西安电子科技大学雄居排行榜榜首，武汉大学、桂林电子科技大学紧随其后，占据第二、第三名。全部排名数据请看下表：</p><h2><a>1</a><span>本科大学导航工程专业排名</span></h2><table><colgroup><col width="72"/><col width="163"/><col width="72"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>西安电子科技大学</td><td>4星级</td><td>陕西</td><td>1</td></tr><tr><td>1</td><td>武汉大学</td><td>4星级</td><td>湖北</td><td>1</td></tr><tr><td>3</td><td>桂林电子科技大学</td><td>3星级</td><td>广西</td><td>1</td></tr></tbody></table><p>艾瑞深中国校友会网2018中国大学本科专业排行榜专业星级划分：中国九星级专业：世界顶尖专业；中国八星级专业：世界一流、中国最顶尖专业；中国七星级专业：世界知名高水平、中国顶尖专业；中国六星级专业：世界高水平、中国顶尖专业；中国五星级专业：世界知名、中国一流专业；中国四星级专业：中国高水平专业；中国三星级专业：中国知名、区域一流专业；中国二星级专业：中国区域高水平专业；中国一星级专业：中国区域知名专业。</p><h2><a>1</a><span>西安电子科技大学<br/></span></h2><p></p><p>西安电子科技大学是以信息与电子学科为主，工、理、管、文多学科协调发展的全国重点大学，是国家“优势学科创新平台”项目和“211工程”项目重点建设高校之一、首批35所示范性软件学院。学校前身是1931年诞生于江西瑞金的中央军委无线电学校，是毛泽东等老一辈革命家亲手创建的第一所工程技术学校。1958年学校迁址西安，1966年转为地方建制，1988年定为现名。</p><p><img alt="西安电子科技大学校门" src="http://img.gaosan.com/upload/webimg/1689.jpg" title="西安电子科技大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1931年</td><td>公立</td><td>理工</td><td>教育部直属、工信部共建</td></tr></tbody></table><p>武汉大学</p><p></p><p>武汉大学，简称“武大”，位于湖北武汉，是直属于中华人民共和国教育部的副部级全国重点大学，国家首批“985工程”、“211工程”、“2011计划”重点建设高校，同时是“111计划”、“珠峰计划”、“海外高层次人才引进计划”、“卓越工程师教育培养计划”、“卓越法律人才教育培养计划”和“卓越医生教育培养计划”等重点建设的综合研究型大学，是与法国高校联系最紧密、合作最广泛的中国高校之一，是世界权威期刊《Science》列出的“中国最杰出的大学”之一。武汉大学办学源头可溯源于清朝末期1893年湖广总督张之洞奏请清政府创办的自强学堂；1913年改名国立武昌高等师范学校；1926年组建国立武昌中山大学；1928年定名国立武汉大学，是民国四大名校之一；1949年，更名为武汉大学。</p><p><img alt="武汉大学校门" src="http://img.gaosan.com/upload/webimg/1628.jpg" title="武汉大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1893年</td><td>公立</td><td>综合</td><td>中华人民共和国教育部</td></tr></tbody></table><p>桂林电子科技大学</p><p></p><p>桂林电子科技大学座落在广西壮族自治区桂林市，是工业和信息化部与广西壮族自治区共建高校、广西壮族自治区重点建设高校。中国绕月探测工程总设计师、国家最高科学技术奖获得者、中国科学院孙家栋院士为学校名誉校长。1990年，时任中共中央总书记江泽民同志亲临学校视察，并为学校亲笔题词“为发展电子工业培养更多的合格人才”。</p><p><img alt="桂林电子科技大学校门" src="http://img.gaosan.com/upload/webimg/1897.jpg" title="桂林电子科技大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1960年</td><td>公立</td><td>工科</td><td>广西壮族自治区教育厅</td></tr></tbody></table><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

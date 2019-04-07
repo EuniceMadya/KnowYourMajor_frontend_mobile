@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>影视摄影与制作</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+影视摄影与制作</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    影视摄影与制作专业是电影电视学院新建的特色专业。本专业培养德、智、体、美全面发展，具有良好的职业道德、视听思维和职业摄影摄像师的基本素质，具备广泛的科学文化和艺术理论知识，适应我国影视行业发展需要, 具备在影视行业内以从事影视后期制作为主，涵盖策划、摄像、视频剪辑、节目包装、影视特效、广告设计、场景设计、灯光及布景搭建等相关工作的基本技能，能在影视领域及相关行业内，从事影视编导、影视包装设计、影视合成特效、三维特效动画、影视广告设计等工作的应用型高级专门人才。 </h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av37595861?from=search&seid=6741101387286467515" class="">
+								
+								<div class="mui-media-body">
+									【北京电影学院选修课】电影制作与美学鉴赏
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av19086440?from=search&seid=6741101387286467515" class="">
+								
+								<div class="mui-media-body">
+									低成本影视片拍摄与后期制作视频教程 中文字幕
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av7831773?from=search&seid=6741101387286467515" class="">
+								
+								<div class="mui-media-body">
+									一幅插画的绘制--如何添加合适的元素与神韵
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av7883047?from=search&seid=6741101387286467515" class="">
+								
+								<div class="mui-media-body">
+									影视后期合成|1番外|数字影视后期合成|二维合成|二维动画合成|动画制作|二维动画制作|线检工具|摄影表与合成|动画扫描|三维合成|Director|3dmax
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av24447700?from=search&seid=6741101387286467515" class="">
+								
+								<div class="mui-media-body">
+									电影制作和剪辑的艺术
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av5346529?from=search&seid=10860980161351477220" class="">
+
+    								<div class="mui-media-body">
+    									重庆师范大学传媒学院影视摄影与制作2015级大一课程联合作业
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av11347321?from=search&seid=10860980161351477220" class="">
+
+    								<div class="mui-media-body">
+    									中国传媒大学2013级影视摄影与制作（电影电视剧摄影）毕业班鉴
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av9063819?from=search&seid=10860980161351477220" class="">
+
+    								<div class="mui-media-body">
+    									浙江传媒学院电视艺术学院摄影系2016届影视摄影与制作（照明艺术）班级宣传片
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av25696195?from=search&seid=10860980161351477220" class="">
+
+    								<div class="mui-media-body">
+    									中国传媒大学2014级影视摄影与制作班鉴
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av9407212?from=search&seid=10860980161351477220" class="">
+
+    								<div class="mui-media-body">
+    									浙江传媒学院电视艺术学院2016届影视摄影与制作（照明艺术）灯光班宣传片
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data141258"><p><img alt="1.jpg" src="http://img.gaosan.com/upload/201606/6360144208751122213113608.jpg" title="1.jpg"/></p><p>培养目标：培养德、智、体、美全面发展，具有良好的职业道德、视听思维和职业摄影摄像师的基本素质，具备广泛的科学文化和艺术理论知识，适应我国影视行业发展需要,具备在影视行业内以从事影视后期制作为主，涵盖策划、摄像、视频剪辑、节目包装、影视特效、广告设计、场景设计、灯光及布景搭建等相关工作的基本技能，能在影视领域及相关行业内，从事影视编导、影视包装设计、影视合成特效、三维特效动画、影视广告设计等工作的应用型高级专门人才。</p><p>就业方向：摄影专业学生毕业后可在广告公司、影视剧制作公司、新闻媒体、报社杂志期刊社、出版社，婚纱影楼、文化宣传部门和其他有关事业单位，从事摄影摄像、影视制作、计算机平面设计、广告策划与制作、文化宣传、社会教育、商业摄影等工作。</p><h2><a>1</a><span>2018最新影视摄影与制作专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>浙江传媒学院</td><td>5★</td><td>35</td></tr><tr><td>2</td><td>中国传媒大学</td><td>4★</td><td>35</td></tr><tr><td>3</td><td>山西传媒学院</td><td>4★</td><td>35</td></tr><tr><td>4</td><td>北京电影学院</td><td>4★</td><td>35</td></tr><tr><td>5</td><td>上海戏剧学院</td><td>4★</td><td>35</td></tr></tbody></table><h2><a>1</a><span>影视摄影与制作专业排名大学介绍</span></h2><p>浙江传媒学院是国家新闻出版广电总局和浙江省人民政府共建高校，是目前全国培养广播影视及其他传媒专门人才的主要基地之一。学校拥有两个校区，分别坐落于素有“人间天堂”美誉的杭州市和江南名城桐乡市。学校总占地1286亩，总建筑面积近61万平方米。其中，下沙校区占地786亩，建筑面积近45万平方米；桐乡校区占地500亩，建筑面积16万平方米。</p><p><img alt="浙江传媒学院校门" src="http://img.gaosan.com/upload/webimg/2413.jpg" title="浙江传媒学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1978年</td><td>公立</td><td>语言</td><td>浙江省人民政府</td></tr></tbody></table><p>中国传媒大学是教育部直属的国家“211工程”重点建设大学，已正式进入国家985“优势学科创新平台”项目重点建设高校行列，前身是创建于1954年的中央广播事业局技术人员训练班。2004年8月，北京广播学院更名为中国传媒大学。学校位于中国北京城东古运河畔，校园占地面积46.37万平方米，总建筑面积49.96万平方米。</p><p><img alt="中国传媒大学校门" src="http://img.gaosan.com/upload/webimg/2404.jpg" title="中国传媒大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1954年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>山西传媒学院现有教职员工近500人，其中专任教师400余人，有全国“十佳百优”广播电视理论人才、全国广播影视职业教育教学指导委员会副主任委员兼秘书长、山西省“双师型”教学名师等高水平教师。学院聘请了王铁城、余秋雨、王伟国、白岩松、冯巩、贾樟柯、贡建英等近百名业内知名专家、学者为兼任教师或客座教授。</p><p><img alt="山西传媒学院校门" src="http://img.gaosan.com/upload/webimg/3287.jpg" title="山西传媒学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1983年</td><td>公立</td><td>艺术</td><td>山西省教育厅</td></tr></tbody></table><p>北京电影学院是亚洲规模最大、世界著名的电影专业院校，也是北京市主管、国家新闻出版广电总局和教育部重点支持建设的艺术高校，被誉为“中国电影人才的摇篮”。</p><p><img alt="北京电影学院校门" src="http://img.gaosan.com/upload/webimg/2583.jpg" title="北京电影学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1950年</td><td>公立</td><td>艺术</td><td>北京市教育委员会</td></tr></tbody></table><p>上海戏剧学院是中国培养演艺专门人才的高等艺术院校。2000年4划转为由上海市与文化部共建，2002年6月，原上海师范大学表演艺术学院、上海市戏曲学校、上海市舞蹈学校并入上海戏剧学院。此外，硕士研究生教育层次还设有艺术学、广播电视艺术学。</p><p><img alt="上海戏剧学院校门" src="http://img.gaosan.com/upload/webimg/2597.jpg" title="上海戏剧学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1945年</td><td>公立</td><td>艺术</td><td>上海市人民政府</td></tr></tbody></table><p>　　以上2018年影视摄影与制作专业大学排名影视摄影与制作专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

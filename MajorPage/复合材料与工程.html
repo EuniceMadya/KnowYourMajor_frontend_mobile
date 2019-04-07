@@ -1,0 +1,174 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>复合材料与工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+复合材料与工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    复合材料与工程专业培养具备复合材料与工程领域的基础理论、专业知识和实验技能，适应现代材料学科的高科技化发展的趋势，掌握复合材料学科前沿发展信息，能够在国防、航空航天、汽车、化工、能源等关键行业从事复合材料与工程领域的科学研究、技术开发、材料设计、产品设计、工艺设计、生产运行及经营管理等方面。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av20772658?from=search&seid=13829425572327694801" class="">
+								
+								<div class="mui-media-body">
+									【材料科学】先进复合材料的发展与面临的挑战（叶林）（澳大利亚科学技术与工程院）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av45338438?from=search&seid=13829425572327694801" class="">
+								
+								<div class="mui-media-body">
+									材料工程基础【70集】(肖汉宁：湖南大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av15276354?from=search&seid=11778279658101912001" class="">
+
+    								<div class="mui-media-body">
+    									【性能测试】双向编织玻纤布增强环氧树脂基复合材料的拉伸及弯曲测试【复合材料与工程】
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av8718005?from=search&seid=11778279658101912001" class="">
+
+    								<div class="mui-media-body">
+    									瑞典空军 JAS39“鹰狮” - 2017印度航空展
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av33234134?from=search&seid=11778279658101912001" class="">
+
+    								<div class="mui-media-body">
+    									混泥土浇筑基本操作原理及实际运用
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av4716048?from=search&seid=11778279658101912001" class="">
+
+    								<div class="mui-media-body">
+    									Besiege JAS 39鹰狮战斗机战斗记录 by Shade
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av37311470?from=search&seid=11778279658101912001" class="">
+
+    								<div class="mui-media-body">
+    									玻璃钢排烟管/烟筒/排气筒 玻璃钢缠绕管道FRP地埋防腐电缆管
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data139189"><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-09/6c8d117e-808b-479e-954b-7fb4532ac7ca.jpg" title="复合材料与工程专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>材料类</td><td>￥7073<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过64%的专业</span></td><td>上海市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">15%在上海市工作</span></td><td>男生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男70%-女30%</span></td></tr></tbody></table><p>培养目标：培养具有良好的思想素质，强烈的社会责任感，健康的体魄和健全的心理素质、德、智、体全面发展，掌握新型复合材料生产原理和生产工艺、能胜任无机材料、高分子材料、新型复合材料等生产企业基层管理工作和实际岗位操作，具有较高综合素质的应用型人才。</p><p>主要课程：材料复合原理、复合材料学、复合材料工艺设备、复合材料工厂设计概论、材料学概论、复合材料的实验技术、高分子化学及物理、高分子物理、机械制图、热工基础及设备、复合材料工艺学、复合材料聚合物基础、有机化学、物理化学、大学物理、无机化学。</p><p>就业方向：复合材料与工程专业毕业生可从事与复合材料相关的汽车、建筑、电机、电子、航空航天、国防军工、信息通讯、轻工、化工等有关企业和公司，担任工程研究人员、工程师和营销管理人员，从事设计、研发、分析、生产、测试、评价、营销、管理等工作。</p><h2><a>1</a><span>2017最新复合材料与工程专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>哈尔滨工业大学</td><td>5★</td><td>29</td></tr><tr><td>2</td><td>武汉理工大学</td><td>4★</td><td>29</td></tr><tr><td>3</td><td>华东理工大学</td><td>4★</td><td>29</td></tr><tr><td>4</td><td>东华大学</td><td>4★</td><td>29</td></tr><tr><td>5</td><td>济南大学</td><td>4★</td><td>29</td></tr></tbody></table><h2><a>1</a><span>复合材料与工程专业排名大学介绍</span></h2><p>哈尔滨工业大学隶属于工业和信息化部，是首批进入国家“211工程”和“985工程”建设的若干所大学之一。2000年，同根同源的哈尔滨工业大学、哈尔滨建筑大学合并组建新的哈尔滨工业大学。如今，学校已经发展成为一所以理工为主，理、工、管、文、经、法等多学科协调发展的国家重点大学。</p><p><img alt="哈尔滨工业大学校门" src="http://img.gaosan.com/upload/webimg/1658.jpg" title="哈尔滨工业大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1920年</td><td>公立</td><td>综合</td><td>工信部</td></tr></tbody></table><p>武汉理工大学是由原武汉工业大学、武汉交通科技大学、武汉汽车工业大学于2000年5月27日合并组建而成，是教育部直属的全国重点大学，是首批列入国家“211工程”重点建设的高校。学校现有三个校区，占地面积4000余亩，校舍总建筑面积逾167万平方米，四座现代化图书馆藏书400余万册。</p><p><img alt="武汉理工大学校门" src="http://img.gaosan.com/upload/webimg/1674.jpg" title="武汉理工大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>2000年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><p>华东理工大学原名华东化工学院，办学历史可追溯到100多年前的南洋公学和震旦学院。学校现有徐汇校区、奉贤校区和金山科技园区三部分，占地面积2535亩，各类建筑总面积91万平方米，建有一批标准体育设施；图书馆总藏书量309.3万册，收订中外文期刊4.3万余种，具有CA、EI等84种大型中外文文献数据库和网络镜像数据库。</p><p><img alt="华东理工大学校门" src="http://img.gaosan.com/upload/webimg/1663.jpg" title="华东理工大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1952年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>致力于建设“国内一流、国际有影响，有特色的高水平大学”的东华大学以“海纳百川、追求卓越”之勇气，坚持走“观念兴校、学术兴校、管理兴校”发展之路，在“211工程”国家重点建设的高等院校中独树一帜。学校地处中国上海，三个校区分别位于松江区和长宁区，占地面积近2000亩。学校创建于1951年，时名华东纺织工学院，1985年，更名为中国纺织大学，1999年，更名为东华大学。1960年，被国家教育部确定为全国重点大学。</p><p><img alt="东华大学校门" src="http://img.gaosan.com/upload/webimg/1705.jpg" title="东华大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1951年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>济南大学是山东省人民政府和国家教育部共建的综合性大学，是山东省重点建设大学和首批应用型人才培养特色名校，具有学士、硕士、博士学位授予权。学校始建于1948年，建校67年来，为国家建设和经济社会发展培养了大批优秀人才，近20万名校友遍布海内外。</p><p><img alt="济南大学 济南大学" src="http://img.gaosan.com/upload/webimg/1835.jpg" title="济南大学 济南大学"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1948年</td><td>公立</td><td>综合</td><td>山东省人民政府</td></tr></tbody></table><p>　　以上2017年复合材料与工程专业大学排名复合材料与工程专业排行榜由高三网收集整理，更多专业排名请查看<a href="http://www.gaosan.com/zhuanyepaiming/">大学专业开设高校排名</a>栏目</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

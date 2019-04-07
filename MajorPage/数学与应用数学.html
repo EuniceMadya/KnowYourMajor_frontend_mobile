@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>数学与应用数学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+数学与应用数学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    数学与应用数学（Mathematics and Applied Mathematics）是一个学科专业，该专业培养掌握数学科学的基本理论与基本方法，具备运用数学知识、使用计算机解决实际问题的能力，受到科学研究的初步训练。 </h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    能在科技、教育和经济部门从事研究、教学工作或在生产经营及管理部门从事实际应用、开发研究和管理工作的高级专门人才。 </h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av25645911?from=search&seid=10937760642657084125" class="">
+								
+								<div class="mui-media-body">
+									内蒙古财经大学14级数学与应用数学毕业聚餐
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av32103405?from=search&seid=10937760642657084125" class="">
+								
+								<div class="mui-media-body">
+									第二讲 行列式的综合计算与应用
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av38527138?from=search&seid=10937760642657084125" class="">
+								
+								<div class="mui-media-body">
+									自动控制原理与应用（机械）【68集】(陈春俊：西南交通大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av26323762?from=search&seid=10937760642657084125" class="">
+								
+								<div class="mui-media-body">
+									16讲  高中数学——【方法归纳与应用】 之解题策略篇
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av23810972?from=search&seid=10937760642657084125" class="">
+								
+								<div class="mui-media-body">
+									深度学习进阶-算法与应用（麦子学院）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10360238?from=search&seid=13495731933539493379" class="">
+
+    								<div class="mui-media-body">
+    									潍坊学院数学与应用数学专业怎么样
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10454542?from=search&seid=13495731933539493379" class="">
+
+    								<div class="mui-media-body">
+    									广东金融学院数学与应用数学专业怎么样？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24915187?from=search&seid=13495731933539493379" class="">
+
+    								<div class="mui-media-body">
+    									西安交通大学2018届数学与应用数学试验班毕业视频
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av11539376?from=search&seid=13495731933539493379" class="">
+
+    								<div class="mui-media-body">
+    									2013届 广东金融学院 数学与应用数学专业 毕业快乐！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av36050396?from=search&seid=13495731933539493379" class="">
+
+    								<div class="mui-media-body">
+    									【青春修炼手册】-刘郡格 西南民族大学数学与应用数学1701班
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data138836"><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-11/9e2540fd-003a-4e0a-9cdb-881422ac3b09.jpg" title="数学与应用数学专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>数学类</td><td>￥6070<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过32%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">13%在北京市工作</span></td><td>男生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男56%-女44%</span></td></tr></tbody></table><p>培养目标：数学与应用数学是一个学科专业，该专业培养掌握数学科学的基本理论与基本方法，具备运用数学知识、使用计算机解决实际问题的能力，受到科学研究的初步训练的高级专门人才。</p><p>就业方向：数学与应用数学专业主要到科技、教育和经济部门从事研究、教学工作或在生产经营及管理部门从事实际应用、开发研究和管理工作。能胜任高等院校、科研院所、企业和其他单位的教学、科研技术和技术管理工作。</p><h2><a>1</a><span>2018最新数学与应用数学专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>复旦大学</td><td>5★</td><td>462</td></tr><tr><td>2</td><td>北京师范大学</td><td>5★</td><td>462</td></tr><tr><td>3</td><td>南开大学</td><td>5★</td><td>462</td></tr><tr><td>4</td><td>清华大学</td><td>5★</td><td>462</td></tr><tr><td>5</td><td>浙江大学</td><td>5★</td><td>462</td></tr></tbody></table><h2><a>1</a><span>数学与应用数学专业排名大学介绍</span></h2><p><a href="/gaokao/175022.html" target="_blank">复旦大学</a>创建于1905年，原名复旦公学，是中国人自主创办的第一所高等院校，创始人为中国近代知名教育家马相伯。校名“复旦”二字选自《尚书大传·虞夏传》中“日月光华，旦复旦兮”的名句，意在自强不息，寄托当时中国知识分子自主办学、教育强国的希望。1917年复旦公学改名为私立复旦大学；1937年抗战爆发后，学校内迁重庆北碚，并于1941年改为“国立”；1946年迁回上海江湾原址；1952年全国高等学校院系调整后，复旦大学成为文理科综合大学；1959年成为全国重点大学。</p><p><img alt="复旦大学校门" src="http://img.gaosan.com/upload/webimg/1627.jpg" title="复旦大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1905年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>北京师范大学是一所以教师教育、教育科学和文理基础科学为主要特色的著名学府。2002年9月8日，在人民大会堂举行建校100周年庆祝大会。江泽民等党和国家领导同志出席庆祝大会。江泽民同志在会上充分肯定了百年北师大的办学成就，并强调实施科教兴国战略。</p><p><img alt="北京师范大学校门" src="http://img.gaosan.com/upload/webimg/1641.jpg" title="北京师范大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1902年</td><td>公立</td><td>师范</td><td>教育部</td></tr></tbody></table><p>南开大学是国家教育部直属重点综合性大学，是敬爱的周恩来总理的母校。南开大学由严修、张伯苓秉承教育救国理念创办，肇始于1904年，成立于1919年。南开大学占地448.97万平方米，其中八里台校区占地122.50万平方米，津南校区占地245.89万平方米，泰达学院占地6.72万平方米。</p><p><img alt="南开大学校门" src="http://img.gaosan.com/upload/webimg/1649.jpg" title="南开大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1919年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>清华大学是中国著名高等学府，坐落于北京西北郊风景秀丽的清华园，是中国高层次人才培养和科学技术研究的重要基地。清华大学的前身是清华学堂，成立于1911年，当初是清政府建立的留美预备学校。1912年更名为清华学校，为尝试人才的本地培养，1925年设立大学部，同年开办国学研究院，1928年更名为"国立清华大学"。1937年抗日战争爆发后，南迁长沙，与北京大学、南开大学联合办学，组建国立长沙临时大学，1938年迁至昆明，改名为国立西南联合大学。1946年，清华大学迁回清华园原址复校。</p><p><img alt="清华大学校门" src="http://img.gaosan.com/upload/webimg/1624.jpg" title="清华大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1911年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>浙江大学是一所历史悠久、声誉卓著的高等学府，坐落于中国历史文化名城、风景旅游胜地杭州。浙江大学的前身求是书院创立于1897年，为中国人自己最早创办的新式高等学校之一。1928年，定名国立浙江大学。浙江大学是一所特色鲜明、在海内外有较大影响的综合型、研究型大学，其学科涵盖哲学、经济学、法学、教育学、文学、<a href="/gaokao/184680.html" target="_blank">历史学</a>、艺术学、理学、工学、农学、医学、管理学等十二个门类。学校设有7个学部，36个学院（系）。拥有一级学科国家重点学科14个，二级学科国家重点学科21个。据ESI公布的数据，截至2015年9月，我校18个学科进入世界学术机构前1%，居全国高校第二；7个学科进入世界前100位，4个学科进入世界前50位，居全国高校第一。</p><p><img alt="浙江大学 学校大门" src="http://img.gaosan.com/upload/webimg/1631.jpg" title="浙江大学 学校大门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1897年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>　　以上2018年数学与应用数学专业大学排名数学与应用数学专业排行榜由高三网收集整理，更多专业排名请查看大学专业开设高校排名栏目</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

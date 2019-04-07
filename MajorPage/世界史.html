@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>世界史</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+世界史</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    世界史，一般是指有人类以来地球上历史的总和，虽然世界的历史本身早在人类文明出现前就存在，但是人类一直到近现代才真正用这个概念来研究和述说历史。 </h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    早期的“世界史”不可能记述本身文明之外的历史，因此真正意义上的世界史，则必须要近代地理大发现以后才可能逐渐出现。世界历史根据不同的时间段，可以分为古代史、近代史、现代史等；根据不同的地区，可分为不同地区的历史；根据不同的代表事物，可以分为不同事物的历史。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av17944339?from=search&seid=8579307613127539337" class="">
+								
+								<div class="mui-media-body">
+									《简明世界史》【武汉大学历史学院 主讲人：潘迎春】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av30599022?from=search&seid=8579307613127539337" class="">
+								
+								<div class="mui-media-body">
+									华东师范大学16-19世纪世界史（目前合集最全，按教材排序）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av29514711?from=search&seid=8579307613127539337" class="">
+								
+								<div class="mui-media-body">
+									历史学考研·世界史
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av33330021?from=search&seid=8579307613127539337" class="">
+								
+								<div class="mui-media-body">
+									20世纪世界史 复旦大学 主讲人：冯玮教授
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av1893599?from=search&seid=8579307613127539337" class="">
+								
+								<div class="mui-media-body">
+									【Crash Course】十分钟世界史
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av46886586?from=search&seid=822388029056656776" class="">
+
+    								<div class="mui-media-body">
+    									一张地图，193个国家，5000年世界史
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av9715300?from=search&seid=822388029056656776" class="">
+
+    								<div class="mui-media-body">
+    									世界史第一期！五分钟告诉你曾为帝国主义正名的社会达尔文主义到底是什么
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av27301408?from=search&seid=822388029056656776" class="">
+
+    								<div class="mui-media-body">
+    									锦灰视读5《枪炮、病菌与钢铁》：十分钟看懂世界史，了解亚欧人为什么能统治地球
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av34081842?from=search&seid=822388029056656776" class="">
+
+    								<div class="mui-media-body">
+    									世界史诗级配乐《Star Sky》真人翻唱版，这声线和唱功也太厉害了
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av46416174?from=search&seid=822388029056656776" class="">
+
+    								<div class="mui-media-body">
+    									YouTube网友评论：100位世界史上取得胜仗最多的将领
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data184681"><p>中国大学哪些本科的世界史专业，是2018高考优秀考生报考的最佳选择呢？艾瑞深中国校友会网最新公布的2018本科专业排行榜中就有你想知道的答案，和小编一起来看看吧！</p><p><img alt="世界史专业大学排名" border="0" height="350" src="http://img.gaosan.com/upload/201710/6364507840305556502032617.png" style="width: 600px; height: 350px;" title="世界史专业大学排名" vspace="0" width="600"/></p><p><strong>在2018本科世界史专业排行榜中，北京大学雄居排行榜榜首，武汉大学、南开大学紧随其后，并列第二名。</strong>想知道全部的世界史专业排名请看下表：</p><h2><a>1</a><span>公办本科大学世界史专业排名</span></h2><table><colgroup><col width="43"/><col width="217"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>北京大学</td><td>7星级</td><td>北京</td><td>1</td></tr><tr><td>2</td><td>武汉大学</td><td>6星级</td><td>湖北</td><td>1</td></tr><tr><td>2</td><td>南开大学</td><td>6星级</td><td>天津</td><td>1</td></tr><tr><td>4</td><td>山东大学</td><td>5星级</td><td>山东</td><td>1</td></tr><tr><td>5</td><td>首都师范大学</td><td>5星级</td><td>北京</td><td>2</td></tr><tr><td>5</td><td>天津师范大学</td><td>5星级</td><td>天津</td><td>2</td></tr><tr><td>7</td><td>中国人民大学</td><td>4星级</td><td>北京</td><td>3</td></tr><tr><td>8</td><td>河北大学</td><td>4星级</td><td>河北</td><td>1</td></tr><tr><td>8</td><td>郑州大学</td><td>4星级</td><td>河南</td><td>1</td></tr><tr><td>8</td><td>兰州大学</td><td>4星级</td><td>甘肃</td><td>1</td></tr><tr><td>8</td><td>云南大学</td><td>4星级</td><td>云南</td><td>1</td></tr><tr><td>12</td><td>哈尔滨师范大学</td><td>3星级</td><td>黑龙江</td><td>1</td></tr><tr><td>12</td><td>山东师范大学</td><td>3星级</td><td>山东</td><td>2</td></tr><tr><td>12</td><td>河南师范大学</td><td>3星级</td><td>河南</td><td>2</td></tr><tr><td>12</td><td>河北师范大学</td><td>3星级</td><td>河北</td><td>2</td></tr><tr><td>12</td><td>河南大学</td><td>3星级</td><td>河南</td><td>2</td></tr><tr><td>12</td><td>山西师范大学</td><td>3星级</td><td>山西</td><td>1</td></tr><tr><td>12</td><td>安徽师范大学</td><td>3星级</td><td>安徽</td><td>1</td></tr></tbody></table><h2><a>1</a><span>中外合作办学大学世界史专业排名</span></h2><table><colgroup><col width="43"/><col width="217"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>上海纽约大学</td><td>3星级</td><td>上海</td><td>1</td></tr></tbody></table><h2><a>1</a><span>世界史专业介绍<br/></span></h2><p></p><p><img alt="2.jpg" src="http://img.gaosan.com/upload/201606/6360126170686140934938478.jpg" title="2.jpg"/></p><p>培养目标：本专业培养具有一定的马克思主义基本理论素养和系统的专业基本知识，有进一步培养潜能的史学专门人才，以及能在国家机关、文教事业、新闻出版、文博档案及各类事业单位从事实际工作的应用型、复合型高级专门人才。</p><p>就业方向：世界历史专业毕业生既能在教育、科研部门胜任世界历史的教学科研及管理工作，又可在各级党政机关、涉外部门、公安、法院、新闻出版、海关、银行、保险、商检以及涉外企事业单位等部门、行业发挥专长,胜任行政、编辑、文秘、涉外宣传、文化交流、文教宣传等工作;也可以为各大专院校提供世界史专业的教学研究后备力量，尤其是各高校世界史专业研究生的高质量生源。还可继续读研深造。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

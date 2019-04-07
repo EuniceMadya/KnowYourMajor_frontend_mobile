@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>公安情报学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+公安情报学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    现代公安教育中，公安情报学是一门新兴的分支学科。由于公安情报工作活动的特殊性，而形成了本学科独特的结构特征和发展路径。现代公安部门在实施侦破案件、打击犯罪的警务活动中，情报起了至关重要的作用，它是决策的依据和基础。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av34866887?from=search&seid=225941757169895345" class="">
+								
+								<div class="mui-media-body">
+									2018国考 公安专业知识（完）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av37555877?from=search&seid=225941757169895345" class="">
+								
+								<div class="mui-media-body">
+									2019年公安专业知识公安基础知识中公华图粉笔招警考试视频课程课件警察辅警公安招聘考试公务员省考警校联考黑龙江西吉林内蒙古山东陕西浙江苏湖南四川云南河北湖北山西
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av43333197?from=search&seid=225941757169895345" class="">
+								
+								<div class="mui-media-body">
+									2019公安专业知识系统班（持续更新）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av46103229?from=search&seid=225941757169895345" class="">
+								
+								<div class="mui-media-body">
+									2019省考公务员公安基础知识（专业知识）直播课程-公安基础理论（1-3讲）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av32524490?from=search&seid=225941757169895345" class="">
+								
+								<div class="mui-media-body">
+									2019年2018年公安招聘考试国考招警考试警察招考公安专业知识公安基础知识视频课程课件教程国家公务员省考联考辽宁公检法黑龙江云南贵州四川陕西山东山西河北内蒙古
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av23861193?from=search&seid=9265862598362526678" class="">
+
+    								<div class="mui-media-body">
+    									我国的公安和警察到底有什么区别？终于解开多年疑惑
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av14246882?from=search&seid=9265862598362526678" class="">
+
+    								<div class="mui-media-body">
+    									公安和警察到底有什么区别？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av30497174?from=search&seid=9265862598362526678" class="">
+
+    								<div class="mui-media-body">
+    									【中国人民公安大学宣传片】当你甘心做个废物时，看看这个短片提提神吧！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av46314145?from=search&seid=9265862598362526678" class="">
+
+    								<div class="mui-media-body">
+    									“抠脚大汉”秒变萌妹只需两步！桃山公安另类防诈骗宣传片走红
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av43052899?from=search&seid=9265862598362526678" class="">
+
+    								<div class="mui-media-body">
+    									广州公安的公益广告火到日本，日本网友：结局让我一脸懵逼！！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data183890"><p>中国大学哪些本科的公安情报学专业跻身2018世界一流、世界高水平、中国顶尖和中国一流专业行列？艾瑞深中国校友会网最新公布的2018本科专业排行榜中就有你想知道的答案，和小编一起来看看吧！</p><p><img alt="公安情报学专业全国大学排名" border="0" height="370" src="http://img.gaosan.com/upload/201710/6364471884443261147344300.jpg" style="width: 600px; height: 370px;" title="公安情报学专业全国大学排名" vspace="0" width="600"/></p><p>在2018本科公安情报学专业排行榜中，中国刑事警察学院雄居排行榜榜首，<a href="/gaokao/175022.html" target="_blank">中国人民公安大学</a>紧随其后，占据第二名。全部排名数据请看下表：</p><h2><a>1</a><span>本科大学公安情报学专业排名</span></h2><table><colgroup><col width="72"/><col width="163"/><col width="72"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td style="word-break: break-all;">中国刑事警察学院</td><td>3星级</td><td>辽宁</td><td>1</td></tr><tr><td>2</td><td>中国人民公安大学</td><td>3星级</td><td>北京</td><td>1</td></tr></tbody></table><p>艾瑞深中国校友会网2018中国大学本科专业排行榜专业星级划分：中国九星级专业：世界顶尖专业；中国八星级专业：世界一流、中国最顶尖专业；中国七星级专业：世界知名高水平、中国顶尖专业；中国六星级专业：世界高水平、中国顶尖专业；中国五星级专业：世界知名、中国一流专业；中国四星级专业：中国高水平专业；中国三星级专业：中国知名、区域一流专业；中国二星级专业：中国区域高水平专业；中国一星级专业：中国区域知名专业。</p><h2><a>1</a><span>中国刑事警察学院<br/></span></h2><p></p><p>中国刑事警察学院是公安部直属的本科高等院校。60多年来，学院为全国政法机关培养输送了10余万名领导干部、业务骨干和专门技术人才，被誉为“中国刑警的最高学府”、“东方福尔摩斯的摇篮”。如今，警院学子遍布全国各地，他们为打击犯罪、维护社会稳定、创建和谐社会做出了卓越贡献。</p><p><img alt="中国刑事警察学院校门" src="http://img.gaosan.com/upload/webimg/3391.jpg" title="中国刑事警察学院校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1948年</td><td>公立</td><td>政法</td><td>公安部</td></tr></tbody></table><h2><a>1</a><span>中国人民公安大学</span></h2><p></p><p>中国人民公安大学是公安部直属普通高等学校暨公安部高级警官学院，创始于1948年7月中共中央社会部在河北解放区举办的华北保卫干部训练班，历经华北公安干部学校、中央公安干部学校、中央人民公安学院、中央政法干部学校等发展阶段。2004年10月15日，胡锦涛、温家宝等党和国家领导人亲临公安大学观摩全国公安民警大练兵汇报演练，胡锦涛同志发表了重要讲话。</p><p><img alt="中国人民公安大学校门" src="http://img.gaosan.com/upload/webimg/2423.jpg" title="中国人民公安大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1948年</td><td>公立</td><td>政法</td><td>公安部</td></tr></tbody></table><h2><a>1</a><span>公安情报学专业介绍</span></h2><p></p><p><img alt="公安情报学专业" src="http://img.gaosan.com/upload/zhuanye/1/776.jpg"/></p><table><tbody><tr bgcolor="#e9f5fc"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>公安学类</td><td>未知<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">样本不足，无法分析</span></td><td>南京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">25%在南京市工作</span></td><td>男生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男66%-女34%</span></td></tr></tbody></table><p>培养目标：本专业培养具备扎实的公安情报理论基础，掌握情报收集、处理、分析、评估、判断和管理的方法与技术，具备使用现代信息技术开展公安情报活动的能力，能在公安各警种从事个情报公安收集、分析、研判和管理的应用型高级专门人才。</p><p>主要课程：情报学导论、公安情报学、公安情报技术、公安情报管理信息系统、公安情报分析与研判、公安情报组织与利用、公安情报工作实务、公安情报政策与法规等。</p><p>就业方向：从事公安情报工作，包括国内安全保卫、各类刑事犯罪侦查、社会治安管理情报的搜集、整理、分析和使用等工作。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

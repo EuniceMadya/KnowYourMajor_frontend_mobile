@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>艺术与科技</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+艺术与科技</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    艺术与科技专业是2012教育部颁布的高校本科专业目录的特设专业，专业代码为130509T，该专业是基于艺术设计与科学技术深度融合的基本理念，结合国家文化发展战略，在文化创意产业和数字内容产业，整合空间、艺术、媒体、技术与商业的视角，在空间环境设计、信息交互设计、新媒体艺术等领域，培养具有国际视野、交叉学科基础和创意创新能力的高端艺术设计人才。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av36634121?from=search&seid=1688728570693876789" class="">
+								
+								<div class="mui-media-body">
+									麻省理工学院公开课——艺术和科技中的感觉与想象
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av4680602?from=search&seid=1688728570693876789" class="">
+								
+								<div class="mui-media-body">
+									【MIT】 艺术和科技中的感觉与想象
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av39190518?from=search&seid=1688728570693876789" class="">
+								
+								<div class="mui-media-body">
+									“当科技邂逅艺术”系列讲座（一）：油画的收藏与保护
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av43629530?from=search&seid=1688728570693876789" class="">
+								
+								<div class="mui-media-body">
+									【艺术】敦煌石窟艺术与中外科技交流 全五讲  敦煌研究院 王进玉 研究员 主讲
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av23586746?from=search&seid=1688728570693876789" class="">
+								
+								<div class="mui-media-body">
+									华中科技大学 数字媒体艺术与图形工业的关系 全5讲 主讲-李自力 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av17991348?from=search&seid=2380807521496668088" class="">
+
+    								<div class="mui-media-body">
+    									【科技与艺术的完美结合】你一定没见过的&quot;AR艺术展&quot;   增强现实技术将彻底改变我们的生活 （中英字幕）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av864149?from=search&seid=2380807521496668088" class="">
+
+    								<div class="mui-media-body">
+    									看老外顶级的视觉投影艺术，科技与艺术的精致结合
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av45103716?from=search&seid=2380807521496668088" class="">
+
+    								<div class="mui-media-body">
+    									突破维度限制  二次元走出现实世界 AR虚拟现实技术与艺术的结合 【Mirages &amp; miracles-海市蜃楼与奇迹】科技影响下的新舞蹈演绎
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av39397317?from=search&seid=2380807521496668088" class="">
+
+    								<div class="mui-media-body">
+    									【传统与现代碰撞 艺术与商业相融！东京城市宣传片】
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av40723665?from=search&seid=2380807521496668088" class="">
+
+    								<div class="mui-media-body">
+    									两分视频 | 科技与艺术完美碰撞，真无线蓝牙耳机体验
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data185045"><p>中国大学哪些本科的艺术与科技专业，是2018高考优秀考生报考的最佳选择呢？和小编一起来看看吧！</p><p><img alt="艺术与科技专业大学排名" border="0" height="350" src="http://img.gaosan.com/upload/201711/6364515743365237493730894.jpg" style="width: 600px; height: 350px;" title="艺术与科技专业大学排名" vspace="0" width="600"/></p><p><strong>在2018本科艺术与科技专业排行榜中，东华大学雄居排行榜榜首，上海大学、清华大学紧随其后，并列第二名。</strong>想知道全部的艺术与科技专业排名请看下表：</p><h2><a>1</a><span>公办本科大学艺术与科技专业排名</span></h2><table><colgroup><col width="50"/><col width="146"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>东华大学</td><td>4星级</td><td>上海</td><td>1</td></tr><tr><td>2</td><td>上海大学</td><td>4星级</td><td>上海</td><td>2</td></tr><tr><td>2</td><td>清华大学</td><td>4星级</td><td>北京</td><td>1</td></tr><tr><td>4</td><td>广州美术学院</td><td>3星级</td><td>广东</td><td>1</td></tr><tr><td>4</td><td>中国美术学院</td><td>3星级</td><td>浙江</td><td>1</td></tr><tr><td>6</td><td>西安音乐学院</td><td>3星级</td><td>陕西</td><td>1</td></tr><tr><td>6</td><td>浙江传媒学院</td><td>3星级</td><td>浙江</td><td>2</td></tr><tr><td>6</td><td>四川美术学院</td><td>3星级</td><td>重庆</td><td>1</td></tr><tr><td>6</td><td>南京艺术学院</td><td>3星级</td><td>江苏</td><td>1</td></tr><tr><td>6</td><td>大连工业大学</td><td>3星级</td><td>辽宁</td><td>1</td></tr><tr><td>6</td><td>北京电影学院</td><td>3星级</td><td>北京</td><td>2</td></tr><tr><td>6</td><td>山东工艺美术学院</td><td>3星级</td><td>山东</td><td>1</td></tr></tbody></table><h2><a>1</a><span>民办大学艺术与科技专业排名</span></h2><table><colgroup><col width="50"/><col width="146"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>上海视觉艺术学院</td><td>5星级</td><td>上海</td><td>1</td></tr><tr><td>2</td><td>吉林动画学院</td><td>4星级</td><td>吉林</td><td>1</td></tr></tbody></table><h2><a>1</a><span>独立学院艺术与科技专业排名</span></h2><table><colgroup><col width="50"/><col width="146"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>首都师范大学科德学院</td><td>3星级</td><td>北京</td><td>1</td></tr></tbody></table><h2><a>1</a><span>艺术与科技专业介绍</span></h2><p></p><p><img alt="2.jpg" src="http://img.gaosan.com/upload/201606/6360142923283142148358779.jpg" title="2.jpg"/></p><p>培养目标：艺术与科技专业培养德、智、体、美全面发展的、适应现代会展经济产业发展需要的、具有现代会展设计知识与创新能力的优秀人才。</p><p>就业方向：毕业生主要就职范围是文化与创意产业的相关教育、科研机构，或相关企业，包括空间及环境设计公司、IT公司的用户体验与产品开发部门、影视动画公司、数字娱乐相关公司、传媒及媒体艺术机构等。本系与国内外多家专业机构和公司建立了长期稳定的合作关系，尤其在对与国外交流方面表现积极，吸取国外优秀的教学理念，并实施到专业的教学工作中，使学生能够接受到更为先进的教学，并成为适应国际化发展需求的高级专业人才。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

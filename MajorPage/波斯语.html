@@ -1,0 +1,185 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>波斯语</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+波斯语</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    波斯语 (波斯语：فارسی‎ = Fârsi) 亦称帕尔斯语，属于印欧语系—伊朗语族—西支，是伊朗和塔吉克斯坦的官方语言 ，也是阿富汗斯坦境内两种主要语言之一(另一种是普什图语)。波斯语还分布于中亚其他地区，波斯语在塔吉克斯坦称为“塔吉克语”。全世界使用波斯语的人口约有1亿。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    波斯语是世界上的古老语言之一。随着移民从这些国家流入到周边国家，很多国家现在都有说波斯语的社群。由于历史与宗教的原因，现代波斯语中，有近40%的词汇来自属于闪含语系的阿拉伯语。波斯文用阿拉伯字母拼写。波斯语曾经是波斯帝国的官方语言。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av7468320?from=search&seid=10872045489402114329" class="">
+								
+								<div class="mui-media-body">
+									波斯语语法
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av44813894?from=search&seid=10872045489402114329" class="">
+								
+								<div class="mui-media-body">
+									马克思的政治经济学研究之路-马克思在巴黎【3集】(Marcello Musto：加拿大约克大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av45466376?from=search&seid=10872045489402114329" class="">
+								
+								<div class="mui-media-body">
+									【刺客信条奥德赛】袖剑传承第三章：血脉主线流程合集
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av13228980?from=search&seid=5233592066403008451" class="">
+
+    								<div class="mui-media-body">
+    									【波斯语快速入门】跟伊朗人打招呼
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av20287116?from=search&seid=5233592066403008451" class="">
+
+    								<div class="mui-media-body">
+    									波斯语字母发音
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av5633517?from=search&seid=5233592066403008451" class="">
+
+    								<div class="mui-media-body">
+    									【Langfocus】波斯语和什么使它迷人的
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av13332291?from=search&seid=5233592066403008451" class="">
+
+    								<div class="mui-media-body">
+    									伊朗波斯语字母/a：/的发音和例词
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av13627742?from=search&seid=5233592066403008451" class="">
+
+    								<div class="mui-media-body">
+    									伊朗波斯语字母/kh/的发音和例词
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data185127"><p>中国大学哪些本科的波斯语专业，是2018高考优秀考生报考的最佳选择呢？和小编一起来看看吧！</p><p><img alt="波斯语专业大学排名" border="0" height="370" src="http://img.gaosan.com/upload/peitu/600/0383.jpg" style="width: 600px; height: 370px;" title="波斯语专业大学排名" vspace="0" width="600"/></p><p><strong>在2018本科波斯语专业排行榜中，北京大学雄居排行榜榜首，上海外国语大学紧随其后，占据第二名。</strong>想知道全部的波斯语专业排名请看下表：</p><h2><a>1</a><span>公办本科大学波斯语专业排名</span></h2><table><colgroup><col width="43"/><col width="167"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>北京大学</td><td>6星级</td><td>北京</td><td>1</td></tr><tr><td>2</td><td>上海外国语大学</td><td>5星级</td><td>上海</td><td>1</td></tr><tr><td>3</td><td>天津外国语大学</td><td>4星级</td><td>天津</td><td>1</td></tr><tr><td>3</td><td>对外经济贸易大学</td><td>4星级</td><td>北京</td><td>2</td></tr><tr><td>3</td><td>西安外国语大学</td><td>4星级</td><td>陕西</td><td>1</td></tr><tr><td>3</td><td>北京外国语大学</td><td>4星级</td><td>北京</td><td>2</td></tr><tr><td>7</td><td>广东外语外贸大学</td><td>3星级</td><td>广东</td><td>1</td></tr><tr><td>7</td><td>石河子大学</td><td>3星级</td><td>新疆</td><td>1</td></tr></tbody></table><h2><a>1</a><span>波斯语专业介绍</span></h2><p></p><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-11/316ba938-9b82-4921-9aa5-e2c52e6d9bf8.jpg" title="波斯语专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>外国语言文学类</td><td>￥13696<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过99%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">41%在北京市工作</span></td><td>女生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男0%-女100%</span></td></tr></tbody></table><p>培养目标：培养具有扎实的相应语语言基础比较广泛的科学文化知识，能在外事、经贸、文化、新闻出版、教育、科研、旅游等部门从事翻译、研究、教学、管理工作的相应语言高级专门人才。</p><p>主要课程：基础相应语、高级相应语、报刊选读、视听、口语、相应语写作、翻译理论与实践、语言理论、语言学概论、主要相应语国家文学史及文学作品选读、主要相应国家国情等。</p><p>就业方向：波斯语专业毕业生可从事翻译、研究、教学、管理工作。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>功能材料</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+功能材料</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    功能材料是指通过光、电、磁、热、化学、生化等作用后具有特定功能的材料。在国外，常将这类材料称为功能材料（Functional Materials）、特种材料（Speciality Materials）或精细材料（Fine Materials）。功能材料涉及面广，具体包括光、电功能，磁功能，分离功能，形状记忆功能等等。这类材料相对于通常的结构材料而言，一般除了具有机械特性外，还具有其他的功能特性（《现代功能材料及其应用》） 。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    功能材料根据材料的特性特征和用途，可以将功能材料定义为：具有优良的电学、磁学、光学、热学、声学、力学、化学、生物学功能及其相互转化的功能，被用于非结构目的的高技术材料（《新型功能材料》） 。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av44641774?from=search&seid=13516263481974926425" class="">
+								
+								<div class="mui-media-body">
+									功能材料【4集】(潘峰：清华大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av45338438?from=search&seid=13516263481974926425" class="">
+								
+								<div class="mui-media-body">
+									材料工程基础【70集】(肖汉宁：湖南大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av44192357?from=search&seid=13516263481974926425" class="">
+								
+								<div class="mui-media-body">
+									有机化学（上）（天津大学）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av38939399?from=search&seid=13516263481974926425" class="">
+								
+								<div class="mui-media-body">
+									反应工程【86集】(徐艳：天津大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av44461356?from=search&seid=13516263481974926425" class="">
+								
+								<div class="mui-media-body">
+									生活中的化学日用品【3集】(李权：四川师范大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av46796957?from=search&seid=8271009667688070555" class="">
+
+    								<div class="mui-media-body">
+    									科普动画系列第一集《创新功能材料液态金属》
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av43637606?from=search&seid=8271009667688070555" class="">
+
+    								<div class="mui-media-body">
+    									科普动画系列第一集《创新功能材料液态金属》
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av11889892?from=search&seid=8271009667688070555" class="">
+
+    								<div class="mui-media-body">
+    									《磁流体合集》
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av44965955?from=search&seid=8271009667688070555" class="">
+
+    								<div class="mui-media-body">
+    									中国最矛盾的军工央企，啥都想看见又啥都不想让人看见
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av12433985?from=search&seid=8271009667688070555" class="">
+
+    								<div class="mui-media-body">
+    									【黑科技】怒火攻心现实版，苏黎世科学家在实验室造出了一个“塑料心脏”，无限续命模式开启，郭达斯塔森再也不需要满大街狂飙了
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data139212"><p><img alt="2.jpg" src="http://img.gaosan.com/upload/201606/6360186491418522011345335.jpg" title="2.jpg"/></p><p>培养目标：国家将生命科学和新材料科学列为21世纪重点发展的领域，而生物材料学作为生命科学和材料科学的前沿性交叉学科，更是优先发展的重点。</p><p>就业方向：由于生物功能材料是一门正在高速发展的交叉学科，因此随着相关研究和技术的进步，功能材料专业毕业生就业、继续升学和出国深造的前景广阔。可在研究院所、设计院、大专院校和企事业单位工作。</p><h2><a>1</a><span>2017最新功能材料专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>大连理工大学</td><td>5★</td><td>34</td></tr><tr><td>2</td><td>东华大学</td><td>4★</td><td>34</td></tr><tr><td>3</td><td>兰州大学</td><td>4★</td><td>34</td></tr><tr><td>4</td><td>华中科技大学</td><td>4★</td><td>34</td></tr><tr><td>5</td><td>天津大学</td><td>4★</td><td>34</td></tr></tbody></table><h2><a>1</a><span>功能材料专业排名大学介绍</span></h2><p>大连理工大学是教育部直属全国重点大学，也是国家“211工程”和“985工程”重点建设高校。2012年12月教育部正式批准大连理工大学建设盘锦校区，该校区依照“统筹规划、错位发展、坚持标准、创新模式”的指导思想建设，与主校区同标准、同档次、同水平办学。</p><p><img alt="大连理工大学校门" src="http://img.gaosan.com/upload/webimg/1642.jpg" title="大连理工大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1949年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>致力于建设“国内一流、国际有影响，有特色的高水平大学”的东华大学以“海纳百川、追求卓越”之勇气，坚持走“观念兴校、学术兴校、管理兴校”发展之路，在“211工程”国家重点建设的高等院校中独树一帜。学校地处中国上海，三个校区分别位于松江区和长宁区，占地面积近2000亩。学校创建于1951年，时名华东纺织工学院，1985年，更名为中国纺织大学，1999年，更名为东华大学。1960年，被国家教育部确定为全国重点大学。</p><p><img alt="东华大学校门" src="http://img.gaosan.com/upload/webimg/1705.jpg" title="东华大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1951年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>兰州大学是教育部直属的全国重点综合性大学，是国家“985工程”和“211工程”重点建设高校之一。学校创建于1909年，是甘肃近代高等教育开端之标志，开启了西北高等教育的先河。2002年和2004年，原甘肃省草原生态研究所、兰州医学院先后并入兰州大学，使学校的学科更加齐全，综合优势更加突出，并以办学历史长、办学实力强、办学成绩突出，进入一流大学建设行列。</p><p><img alt="兰州大学校门" src="http://img.gaosan.com/upload/webimg/1660.jpg" title="兰州大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1909年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>华中科技大学是国家教育部直属的全国重点大学，由原华中理工大学、同济医科大学、武汉城市建设学院于2000年5月26日合并成立，是首批列入国家“211工程”重点建设和国家“985工程”建设高校之一，学校校园占地7000余亩，被誉为“森林式大学”。</p><p><img alt="华中科技大学校门" src="http://img.gaosan.com/upload/webimg/1643.jpg" title="华中科技大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1952年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>天津大学是教育部直属国家重点大学，其前身为北洋大学，始建于1895年10月2日，是中国第一所现代大学。1951年经国家院系调整定名为天津大学，是1959年中共中央首批确定的16所国家重点大学之一，是“211工程”、“985工程”首批重点建设的大学。天津大学的发展始终得到了党和国家主要领导人的热情关怀和有力支持。</p><p><img alt="天津大学校门" src="http://img.gaosan.com/upload/webimg/1629.jpg" title="天津大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1895年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><p>　　以上2017年功能材料专业大学排名功能材料专业排行榜由高三网收集整理，更多<a href="/youshizhuanye/" target="_blank">专业排名</a>请查看<a href="http://www.gaosan.com/zhuanyepaiming/">大学专业开设高校排名</a>栏目</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

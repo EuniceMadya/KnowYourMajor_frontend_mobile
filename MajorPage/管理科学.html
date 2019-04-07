@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>管理科学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+管理科学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    管理科学是自然科学、社会科学与经济学相互渗透并在它们的边缘上发展起来的新学科，因此它既有自然科学的属性，也有社会科学的属性。例如，在定量分析时采用数学方法,但在定性分析时却采用逻辑推理和辩证分析的方法，有时是两者的结合。 </h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av44881429?from=search&seid=15539392533968113049" class="">
+								
+								<div class="mui-media-body">
+									2011国防科学技术大学——管理科学前沿【46集】(倪军：美国爱荷华大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av41240267?from=search&seid=15539392533968113049" class="">
+								
+								<div class="mui-media-body">
+									管理科学与工程博士研究生论文选题、研究与评价【6集】(刘思峰：南京航空航天大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av23462323?from=search&seid=15539392533968113049" class="">
+								
+								<div class="mui-media-body">
+									南京航空航天大学 管理科学与工程博士研究生论文选题.研究与评价 全6讲 主讲-刘思峰 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av6361426?from=search&seid=15539392533968113049" class="">
+								
+								<div class="mui-media-body">
+									2015年天津大学工商管理工业工程公共管理管理科学与工程教育经济与管理情报学应用经济学应用心理学中国哲学中共党史考研复试
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av5775775?from=search&seid=15539392533968113049" class="">
+								
+								<div class="mui-media-body">
+									2016年天津大学管理科学与工程工商管理工业工程语言学物流工程考研复试参考书考研复试真题考研复试辅导
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av38062794?from=search&seid=2551061187206200487" class="">
+
+    								<div class="mui-media-body">
+    									考研小课堂之管理科学与工程~
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av16109412?from=search&seid=2551061187206200487" class="">
+
+    								<div class="mui-media-body">
+    									考研热门之管理科学与工程
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24780496?from=search&seid=2551061187206200487" class="">
+
+    								<div class="mui-media-body">
+    									告别少年-四川大学2014级管理科学专业毕业mv–温情版
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av46137584?from=search&seid=2551061187206200487" class="">
+
+    								<div class="mui-media-body">
+    									【考研院校】东华大学的管理科学与工程专业怎么样？(20管理类考研真题群：680267582）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av47020797?from=search&seid=2551061187206200487" class="">
+
+    								<div class="mui-media-body">
+    									【考研专业】管理科学与工程研究方向（20管理学考研qq群：726853149）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data140790"><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-09/a17b2b33-69fd-474d-808f-63c34976155e.jpg" title="管理科学专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>管理科学与工程类</td><td>￥7014<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过61%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">15%在北京市工作</span></td><td>女生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男49%-女51%</span></td></tr></tbody></table><p>培养目标：管理科学专业运用现代管理决策理论和方法，能在企业、事业单位、政府部门以及教学、科研单位进行量化分析、科学决策和组织实施的高级管理人才。</p><p>就业方向：管理科学专业的毕业生适合在各类行政单位、事业单位、科研院所、工商企业从事管理和科研工作，以及在相关单位从事教育、培训、咨询工作。</p><h2><a>1</a><span>2018最新管理科学专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>复旦大学</td><td>5★</td><td>43</td></tr><tr><td>2</td><td>西安交通大学</td><td>5★</td><td>43</td></tr><tr><td>3</td><td>中国科学技术大学</td><td>4★</td><td>43</td></tr><tr><td>4</td><td>中国人民大学</td><td>4★</td><td>43</td></tr><tr><td>5</td><td>厦门大学</td><td>4★</td><td>43</td></tr></tbody></table><h2><a>1</a><span>管理科学专业排名大学介绍</span></h2><p><a href="/gaokao/175022.html" target="_blank">复旦大学</a>创建于1905年，原名复旦公学，是中国人自主创办的第一所高等院校，创始人为中国近代知名教育家马相伯。校名“复旦”二字选自《尚书大传·虞夏传》中“日月光华，旦复旦兮”的名句，意在自强不息，寄托当时中国知识分子自主办学、教育强国的希望。1917年复旦公学改名为私立复旦大学；1937年抗战爆发后，学校内迁重庆北碚，并于1941年改为“国立”；1946年迁回上海江湾原址；1952年全国高等学校院系调整后，复旦大学成为文理科综合大学；1959年成为全国重点大学。</p><p><img alt="复旦大学校门" src="http://img.gaosan.com/upload/webimg/1627.jpg" title="复旦大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1905年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>西安交通大学是国家教育部直属重点大学，为我国最早兴办的高等学府之一。是首批进入国家“211”和“985”工程建设，被国家确定为以建设世界知名高水平大学为目标的学校。2000年4月，国务院决定，将原西安医科大学、原陕西财经学院并入原西安交通大学组建新的西安交通大学。</p><p><img alt="西安交通大学校门" src="http://img.gaosan.com/upload/webimg/1655.jpg" title="西安交通大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1896年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>中国科学技术大学是中国科学院所属的一所的综合性全国重点大学。1958年9月创建于北京，首任校长由郭沫若兼任。建校后，中国科学院实施“全院办校，所系结合”的办学方针，学校紧紧围绕国家急需的新兴科技领域设置系科专业，创造性地把理科与工科即前沿科学与高新技术相结合，注重基础课教学，高起点、宽口径培养新兴、边缘、交叉学科的尖端科技人才。</p><p><img alt="中国科学技术大学校门" src="http://img.gaosan.com/upload/webimg/1647.jpg" title="中国科学技术大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1958年</td><td>公立</td><td>理工</td><td>中国科学院</td></tr></tbody></table><p>中国人民大学（RenminUniversityofChina）是一所以人文社会科学为主的综合性研究型全国重点大学，直属于教育部，由教育部与北京市共建。学校的前身是1937年诞生于抗日战争烽火中的陕北公学，以及后来的华北联合大学和华北大学。著名教育家吴玉章、成仿吾、袁宝华、黄达、李文海、纪宝成、陈雨露先后担任校长。现任党委书记为靳诺教授，校长为刘伟教授。</p><p><img alt="中国人民大学校门" src="http://img.gaosan.com/upload/webimg/1633.jpg" title="中国人民大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1937年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p><a href="/gaokao/168986.html" target="_blank">厦门大学</a>由著名爱国华侨领袖陈嘉庚先生于1921年创办，是中国近代教育史上第一所华侨创办的大学，也是国家“211工程”和“985工程”重点建设的高水平大学。建校迄今，已先后为国家培养了20万多名本科生和研究生，在厦大学习、工作过的两院院士达60多人。</p><p><img alt="厦门大学校门" src="http://img.gaosan.com/upload/webimg/1657.jpg" title="厦门大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1921年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>　　以上2018年管理科学专业大学排名管理科学专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

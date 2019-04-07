@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>生物信息学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+生物信息学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    生物信息学(Bioinformatics)是研究生物信息的采集、处理、存储、传播，分析和解释等各方面的学科，也是随着生命科学和计算机科学的迅猛发展，生命科学和计算机科学相结合形成的一门新学科。它通过综合利用生物学，计算机科学和信息技术而揭示大量而复杂的生物数据所赋有的生物学奥秘。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av22086086?from=search&seid=14237894030536079397" class="">
+								
+								<div class="mui-media-body">
+									【山东大学】生物信息学
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av35651619?from=search&seid=14237894030536079397" class="">
+								
+								<div class="mui-media-body">
+									北京大学生物信息学(中文版) 公开课
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av44986673?from=search&seid=14237894030536079397" class="">
+								
+								<div class="mui-media-body">
+									清华大学 生物信息学 公开课
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av10042290?from=search&seid=14237894030536079397" class="">
+								
+								<div class="mui-media-body">
+									生物信息学：导论与方法(北京大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av18311108?from=search&seid=14237894030536079397" class="">
+								
+								<div class="mui-media-body">
+									2018-01-07 生物信息学教程-GO, KEGG, DO富集分析
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av34409661?from=search&seid=6268460668653315756" class="">
+
+    								<div class="mui-media-body">
+    									【生物信息学】BLAST
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av34833842?from=search&seid=6268460668653315756" class="">
+
+    								<div class="mui-media-body">
+    									【生物信息学】分子进化-MEGA7构建NJ树
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av35153309?from=search&seid=6268460668653315756" class="">
+
+    								<div class="mui-media-body">
+    									【生物信息学】BLAST分类
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av35961334?from=search&seid=6268460668653315756" class="">
+
+    								<div class="mui-media-body">
+    									【生物信息学】蛋白质结构预测-同源建模法
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av34834044?from=search&seid=6268460668653315756" class="">
+
+    								<div class="mui-media-body">
+    									【生物信息学】分子进化-MEGA7构建NJ树2
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data139039"><p style="text-align: center"><img src="http://img.gaosan.com/upload/peitu/600/0723.jpg" title="生物信息学专业"/></p><p>培养目标：培养信息技术在医学中应用、研究和开发的基本能力，具备在医疗卫生、生物科学和医学工程等相关部门和领域从事计算机应用、软件研究及开发、网络管理等工作的能力。</p><p>主要课程：人体结构机能学、生物化学、病原生物学、病理学、药理学、医用高等数学、计算机网络管理、网站建设与管理、WEB程序设计、数据库原理与应用、计算机网络技术、互联网与网页制作、VB应用开发技术、细胞生物学、人体解剖学、组织学和胚胎学、生理学、生物化学、分子生物学、病理学、病理生理学、病原生物学、免疫学、药理学、预防医学、内科学、外科学、妇产科学、儿科学和中医学等。</p><p>就业方向：医学信息学专业毕业生可从事医疗卫生、生物科学和医学工程等相关部门和领域从事计算机应用、软件研究及开发、网络管理等工作。</p><h2><a>1</a><span>2018最新生物信息学专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>同济大学</td><td>5★</td><td>28</td></tr><tr><td>2</td><td>华中农业大学</td><td>4★</td><td>28</td></tr><tr><td>3</td><td>东南大学</td><td>4★</td><td>28</td></tr><tr><td>4</td><td>哈尔滨医科大学</td><td>4★</td><td>28</td></tr><tr><td>5</td><td>南方医科大学</td><td>4★</td><td>28</td></tr></tbody></table><h2><a>1</a><span>生物信息学专业排名大学介绍</span></h2><p>同济大学是国家“985工程”和“211工程”重点建设的教育部直属高校，在百余年办学历程中，始终注重人才培养、科学研究、社会服务、文化传承创新四大功能均衡发展，综合实力位居国内高校前列。1912年与创办不久的同济德文工学堂合并，更名为同济德文医工学堂。1923年正式定名为大学。1927年成为国立同济大学，是中国最早的七所国立大学之一。</p><p><img alt="同济大学校门" src="http://img.gaosan.com/upload/webimg/1626.jpg" title="同济大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1907年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>中国高等农业教育起点之一。学校前身是清朝光绪年间湖广总督张之洞1898年创办的湖北农务学堂。2000年，由农业部划转教育部直属领导。2005年，进入国家“211工程”建设行列。2011年，时任中共中央总书记、国家主席胡锦涛听取我校关于生物产业的汇报。2013年，中共中央总书记、国家主席习近平为我校“本禹志愿服务队”亲笔回信。</p><p><img alt="华中农业大学校门" src="http://img.gaosan.com/upload/webimg/1666.jpg" title="华中农业大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1898年</td><td>公立</td><td>农林</td><td>教育部</td></tr></tbody></table><p>东南大学是中央直管、教育部直属的全国重点大学，是“985工程”和“211工程”重点建设的大学之一。学校坐落于历史文化名城南京，占地面积5888亩，建有四牌楼、九龙湖、丁家桥等校区。1988年5月，学校复更名为东南大学，校庆日为每年6月6日。2000年4月，原东南大学、南京铁道医学院、南京交通高等专科学校合并，南京地质学校并入，组建了新的东南大学。</p><p><img alt="东南大学校门" src="http://img.gaosan.com/upload/webimg/1632.jpg" title="东南大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1902年</td><td>公立</td><td>综合</td><td>中国教育部</td></tr></tbody></table><p>哈尔滨医科大学是由原哈尔滨医科大学（我国医学先驱伍连德博士于1926年创建的哈尔滨医学专门学校，1938年改名为哈尔滨医科大学）和原兴山（现鹤岗市）中国医科大学第一、二分校组建而成。具有相当的发展规模和鲜明的办学特色，已经跻身于全国高等医学院校前列，是黑龙江省重点建设高水平大学、中俄医科大学联盟中方牵头单位、部委省共建大学。</p><p><img alt="哈尔滨医科大学校门" src="http://img.gaosan.com/upload/webimg/1724.jpg" title="哈尔滨医科大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1926年</td><td>公立</td><td>医药</td><td>黑龙江省教育厅</td></tr></tbody></table><p>南方医科大学前身为中国人民解放军第一军医大学，创建于1951年。现有校本部、顺德2个校区，占地面积168万平方米，建筑面积84.5万平方米，面向全国31个省、自治区、直辖市及港澳地区招生。现有17个学院，开设本科专业29个，其中7个国家特色专业，9个广东省特色专业，6个广东省名牌专业，全日制在校生约2万人，研究生近4000人，博士招生规模位列全国医学院校第二。</p><p><img alt="南方医科大学校门" src="http://img.gaosan.com/upload/webimg/1727.jpg" title="南方医科大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1951年</td><td>公立</td><td>医药</td><td>广东省教育厅</td></tr></tbody></table><p>　　以上2018年生物信息学专业大学排名生物信息学专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

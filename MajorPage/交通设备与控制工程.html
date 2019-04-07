@@ -1,0 +1,185 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>交通设备与控制工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+交通设备与控制工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    交通设备与控制工程是为适应我国交通运输行业高速发展需要，隶属于交通运输工程学科下的二级学科。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    交通设备与控制工程专业培养适应国家交通运输设备现代化建设和未来社会与科学发展需要，具备交通设备与控制工程及机电技术方面专业基础知识与应用能力，富有创新精神、实践能力的高素质复合型人才，能在交通设备及其相关领域从事科学研究、技术开发、设计制造、检修、运用研究、生产及经营管理、教学等方面的工作。 </h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av38527138?from=search&seid=13531393119441131633" class="">
+								
+								<div class="mui-media-body">
+									自动控制原理与应用（机械）【68集】(陈春俊：西南交通大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av41291750?from=search&seid=13531393119441131633" class="">
+								
+								<div class="mui-media-body">
+									热工基础【56集】(秦萍：西南交通大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av43134365?from=search&seid=13531393119441131633" class="">
+								
+								<div class="mui-media-body">
+									电气与电子测量技术（上海交通大学）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av23847556?from=search&seid=7714798004441884622" class="">
+
+    								<div class="mui-media-body">
+    									中南大学交通设备与控制工程1404班毕业纪念册
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av28111733?from=search&seid=10664604516802502909" class="">
+
+    								<div class="mui-media-body">
+    									Lumia 950 XL 工程机运行 Win10 Pro ARM64 和 Win10 Mobile
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av20828994?from=search&seid=10664604516802502909" class="">
+
+    								<div class="mui-media-body">
+    									【音乐工程】自制Music Video合集（MV01-06）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av38396636?from=search&seid=10664604516802502909" class="">
+
+    								<div class="mui-media-body">
+    									【展会】今天来逛巴西圣保罗的M&amp;T Expo！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av25849847?from=search&seid=10664604516802502909" class="">
+
+    								<div class="mui-media-body">
+    									【214Studio·POV004】上海巴士四公司975路 周东南路鹤沙路→广灵四路广粤路 前挡第一视角前方展望（18号线建设Ver.）【绝版视频】
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data184307"><p>中国大学哪些本科的交通设备与控制工程专业跻身2018世界一流、世界高水平、中国顶尖和中国一流专业行列？艾瑞深中国校友会网最新公布的2018本科专业排行榜中就有你想知道的答案，和小编一起来看看吧！</p><p><img alt="交通设备与控制工程专业大学排名" border="0" height="350" src="http://img.gaosan.com/upload/201710/6364495856160147463554798.jpg" style="width: 600px; height: 350px;" title="交通设备与控制工程专业大学排名" vspace="0" width="600"/></p><p>在2018本科交通设备与控制工程专业排行榜中，西南交通大学雄居排行榜榜首，<a href="/gaokao/169008.html" target="_blank">中南大学</a>、哈尔滨工业大学紧随其后，占据第二、第三名。全部排名数据请看下表：</p><h2><a>1</a><span>本科大学交通设备与控制工程专业排名</span></h2><table><colgroup><col width="72"/><col width="181"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>西南交通大学</td><td>5星级</td><td>四川</td><td>1</td></tr><tr><td>1</td><td>中南大学</td><td>5星级</td><td>湖南</td><td>1</td></tr><tr><td>3</td><td>哈尔滨工业大学</td><td>4星级</td><td>黑龙江</td><td>1</td></tr><tr><td>4</td><td>大连交通大学</td><td>4星级</td><td>辽宁</td><td>1</td></tr><tr><td>4</td><td>华东交通大学</td><td>4星级</td><td>江西</td><td>1</td></tr><tr><td>6</td><td>山东交通学院</td><td>3星级</td><td>山东</td><td>1</td></tr><tr><td>7</td><td>西北工业大学</td><td>3星级</td><td>陕西</td><td>1</td></tr><tr><td>7</td><td>太原理工大学</td><td>3星级</td><td>山西</td><td>1</td></tr></tbody></table><h2><a>1</a><span>独立学院交通设备与控制工程专业排名</span></h2><table><colgroup><col width="72"/><col width="181"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>南通大学杏林学院</td><td>3星级</td><td>江苏</td><td>1</td></tr></tbody></table><p>艾瑞深中国校友会网2018中国大学本科专业排行榜专业星级划分：中国九星级专业：世界顶尖专业；中国八星级专业：世界一流、中国最顶尖专业；中国七星级专业：世界知名高水平、中国顶尖专业；中国六星级专业：世界高水平、中国顶尖专业；中国五星级专业：世界知名、中国一流专业；中国四星级专业：中国高水平专业；中国三星级专业：中国知名、区域一流专业；中国二星级专业：中国区域高水平专业；中国一星级专业：中国区域知名专业。<br/></p><h2><a>1</a><span>交通设备与控制工程专业介绍</span></h2><p></p><p><img alt="2.jpg" src="http://img.gaosan.com/upload/201606/6360203874573272047835039.jpg" title="2.jpg"/></p><p>培养目标：培养适应国家交通运输设备现代化建设和未来社会与科学发展需要，具备交通设备与控制工程及机电技术方面专业基础知识与应用能力，富有创新精神、实践能力的高素质复合型人才，能在交通设备及其相关领域从事科学研究、技术开发、设计制造、检修、运用研究、生产及经营管理、教学等方面的工作。</p><p>就业方向：专业就业前景不错，毕业生从事交通设备设计制造、科技开发、检修、应用研究、运行管理等的工作。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

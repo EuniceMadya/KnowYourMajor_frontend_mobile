@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>金融数学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+金融数学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    金融数学是一门新兴学科，是“金融高技术 ”的重要组成部分。研究目标是利用我国数学界某些方面的优势，围绕金融市场的均衡与有价证券定价的数学理论进行深入剖析，建立适合国情的数学模型，编写一定的计算机软件，对理论研究结果进行仿真计算，对实际数据进行计量经济分析研究，为实际金融部门提供较深入的技术分析咨询。核心内容就是研究不确定随机环境下的投资组合的最优选择理论和资产的定价理论。套利、最优与均衡是金融数学的基本经济思想和三大基本概念。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av38740686?from=search&seid=8433422917628705878" class="">
+								
+								<div class="mui-media-body">
+									【中字】麻省理工 金融数学应用 (MIT 18.S096 Topics in Mathematics w Applications in Finance)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av27170531?from=search&seid=8433422917628705878" class="">
+								
+								<div class="mui-media-body">
+									中国精算师 金融数学
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av38269647?from=search&seid=8433422917628705878" class="">
+								
+								<div class="mui-media-body">
+									金融数学与建模【57集】(谭忠：厦门大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av13401067?from=search&seid=8433422917628705878" class="">
+								
+								<div class="mui-media-body">
+									耶鲁大学公开课：金融理论（全）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av38266543?from=search&seid=8433422917628705878" class="">
+								
+								<div class="mui-media-body">
+									麻省理工 金融数学应用 (MIT 18.S096 Topics in Mathematics w Applications in Finance)【英】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10454542?from=search&seid=13735517894682015795" class="">
+
+    								<div class="mui-media-body">
+    									广东金融学院数学与应用数学专业怎么样？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10454243?from=search&seid=13735517894682015795" class="">
+
+    								<div class="mui-media-body">
+    									广东财经大学金融数学专业好不好，听前人怎么说
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av15290728?from=search&seid=13735517894682015795" class="">
+
+    								<div class="mui-media-body">
+    									考研十大热门专业之金融学
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av8071141?from=search&seid=13735517894682015795" class="">
+
+    								<div class="mui-media-body">
+    									布朗运动&amp;随机漫步
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av11370018?from=search&seid=13735517894682015795" class="">
+
+    								<div class="mui-media-body">
+    									2017新疆财经大学金融数学13-1班毕业视频Ⅰ
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data141525"><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-12/34ef6f0c-9f0d-4baa-9cf4-17a5ad89f07d.jpg" title="金融数学专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>金融学类</td><td>￥8379<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过88%的专业</span></td><td>广州市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">18%在广州市工作</span></td><td>男生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男52%-女48%</span></td></tr></tbody></table><p>培养目标：培养对金融活动进行定量分析和科学预测的复合型金融人才。</p><p>主要课程：数学基础课程，该系学生还要学习利息理论及应用、证券投资学、寿险精算等金融数学专业课程。</p><p>就业方向：商业性质银行、保险公司、金融业相关委员会、政策性银行、证券公司、基金公司、投资公司、上市(或欲上市)股份公司证券部及财务部和高等院校金融财政专业教师、研究机构研究人员、出版传播机构等。</p><h2><a>1</a><span>2018最新金融数学专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>西南财经大学</td><td>5★</td><td>50</td></tr><tr><td>2</td><td>安徽财经大学</td><td>5★</td><td>50</td></tr><tr><td>3</td><td>山东财经大学</td><td>4★</td><td>50</td></tr><tr><td>4</td><td>西交利物浦大学</td><td>4★</td><td>50</td></tr><tr><td>5</td><td>河南财经政法大学</td><td>4★</td><td>50</td></tr></tbody></table><h2><a>1</a><span>金融数学专业排名大学介绍</span></h2><p>西南财经大学是教育部直属的国家“211工程”和“985工程”优势学科创新平台建设的全国重点大学，也是国家教育体制改革试点高校。学校坐落在成都平原，携光华、柳林两校区，辖地2300余亩，校园湖光柳影，芳草绿树，翩翩学者，蔚为大观，是著名的“园林式院校”。</p><p><img alt="西南财经大学校门" src="http://img.gaosan.com/upload/webimg/1719.jpg" title="西南财经大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1925年</td><td>公立</td><td>财经</td><td>教育部</td></tr></tbody></table><p>安徽财经大学是一所以经、管、法学为主，跨文学、理学、工学、史学、艺术学八大学科门类，面向全国招生、就业的多科性高等财经院校，是我国首批具有学士学位授予权、第二批具有硕士学位授予权的高校，是安徽省重点建设的大学。2004年5月，经教育部批准，学校更名为安徽财经大学；同年9月，学校迁入龙湖东校区。</p><p><img alt="安徽财经大学校门" src="http://img.gaosan.com/upload/webimg/1888.jpg" title="安徽财经大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1959年</td><td>公立</td><td>财经</td><td>安徽省教育厅</td></tr></tbody></table><p>山东财经大学坐落在山东省省会济南市，是财政部、教育部、山东省共建高校，是一所办学历史悠久、财经特色鲜明、综合实力突出，在国内外有一定影响的普通高等财经院校。2013年7月，经国务院学位委员会批准，学校取得博士学位授予权。2013年12月，学校入选山东省“省部共建人才培养特色名校立项建设单位”。</p><p><img alt="山东财经大学校门" src="http://img.gaosan.com/upload/webimg/1880.jpg" title="山东财经大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1952年</td><td>公立</td><td>财经</td><td>财政部、教育部、山东省人民政府</td></tr></tbody></table><p>西交利物浦大学是经中国教育部批准，由西安交通大学和英国利物浦大学合作创立的，具有独立法人资格和鲜明特色的新型国际大学。西交利物浦大学坐落在中国苏州，今天的苏州不仅保留了水陆并行的古城风貌和崇文重教的文化传统，同时又是一个与时俱进、对世界开放的现代化城市。</p><p><img alt="西交利物浦大学 行政信息楼" src="http://img.gaosan.com/upload/webimg/2448.jpg" title="西交利物浦大学 行政信息楼"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>2006年</td><td>公立</td><td>综合</td><td>江苏省教育厅</td></tr></tbody></table><p>河南财经政法大学位于河南省郑州市。学校由原河南财经学院和原河南省政法管理干部学院于2010年3月合并组建而成。学校现有文北校区、文南校区和龙子湖新校区3个校区，占地面积近2000亩，总建筑面积107万余平方米，在建建筑面积1.6万平方米。学校建有各类教学实验室，图书馆藏书近380万册，教学、科研、体育场等基础设施齐全。</p><p><img alt="河南财经政法大学校门" src="http://img.gaosan.com/upload/webimg/2070.jpg" title="河南财经政法大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1983年</td><td>公立</td><td>财经</td><td>河南省教育厅</td></tr></tbody></table><p>　　以上2018年金融数学专业大学排名金融数学专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

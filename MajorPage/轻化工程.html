@@ -1,0 +1,163 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>轻化工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+轻化工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    轻化工程是一个高校专业名称，涉及制浆造纸、精细化工、纺织染整、皮革等国民经济中地位重要的基础工业和原材料工业领域。轻化工产品已经成为国民经济各相关部门不可缺少的物质材料和人们日常生活的必需品。随着人们生活水平的提高和社会经济的快速发展，轻化工程所扮演的作用越来越重要。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av12849472?from=search&seid=14987155127013305643" class="">
+								
+								<div class="mui-media-body">
+									Mystic Hero 特摄脑洞延续：失去力量或年轻时的奥特之王——皮克奥特曼【鼠绘】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av44263247?from=search&seid=537086018275081282" class="">
+
+    								<div class="mui-media-body">
+    									秒懂专业：轻化工程专业
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10298148?from=search&seid=537086018275081282" class="">
+
+    								<div class="mui-media-body">
+    									浙江理工大学轻化工程专业怎么样？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av46148958?from=search&seid=537086018275081282" class="">
+
+    								<div class="mui-media-body">
+    									轻化工程实习开始
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av46151512?from=search&seid=537086018275081282" class="">
+
+    								<div class="mui-media-body">
+    									轻化工程实习进行中
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av46155803?from=search&seid=537086018275081282" class="">
+
+    								<div class="mui-media-body">
+    									轻化工程实习第二天
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data139479"><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-09/b6a3fe70-3c21-4b3b-a4da-2c74e1e515c0.jpg" title="轻化工程专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>轻工类</td><td>￥6323<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过40%的专业</span></td><td>上海市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">15%在上海市工作</span></td><td>男生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男64%-女36%</span></td></tr></tbody></table><p>培养目标：培养在染整工程、皮革工程、制浆造纸等轻纺化工领域从事工业生产、工艺设计、科学研究、技术管理和新产品开发的工程技术人才。</p><p>主要课程：无机及分析化学、有机化学、物理化学、高分子化学及物理、化工原理、生物化学。</p><p>就业方向：轻化工程专业学生毕业后可在染整工程、皮革工程、制浆造纸等轻纺化工领域从事工业生产、工艺设计、科学研究、技术管理和新产品开发工作。轻化工程专业就业岗位如产品检验工程师验货员、客户经理、销售代表、高级销售代表、房地产项目总经理、软件项目经理等。</p><h2><a>1</a><span>2018最新轻化工程专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>四川大学</td><td>5★</td><td>47</td></tr><tr><td>2</td><td>华南理工大学</td><td>5★</td><td>47</td></tr><tr><td>3</td><td>东华大学</td><td>4★</td><td>47</td></tr><tr><td>4</td><td>天津科技大学</td><td>4★</td><td>47</td></tr><tr><td>5</td><td>陕西科技大学</td><td>4★</td><td>47</td></tr></tbody></table><h2><a>1</a><span>轻化工程专业排名大学介绍</span></h2><p>四川大学是教育部直属全国重点大学，是布局在中国西部、“985工程”和“211工程”重点建设的高水平研究型综合大学。学校现任党委书记杨泉明教授、校长谢和平院士。</p><p><img alt="四川大学校门" src="http://img.gaosan.com/upload/webimg/1645.jpg" title="四川大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1896年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>华南理工大学是直属教育部的全国重点大学，坐落在南方名城广州，占地面积294多万平方米。校园分为两个校区，五山校区位于广州市天河区石牌高校区。广东工业专科学校的前身是1918年成立的广东省立第一甲种工业学校，其历史可追溯至1910年清政府创办的广东工艺局。这些院校是早期中国南方培养高级工程技术人才的摇篮和民主科学思想的重要策源地。</p><p><img alt="华南理工大学校门" src="http://img.gaosan.com/upload/webimg/1636.jpg" title="华南理工大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1952年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><p>致力于建设“国内一流、国际有影响，有特色的高水平大学”的东华大学以“海纳百川、追求卓越”之勇气，坚持走“观念兴校、学术兴校、管理兴校”发展之路，在“211工程”国家重点建设的高等院校中独树一帜。学校地处中国上海，三个校区分别位于松江区和长宁区，占地面积近2000亩。学校创建于1951年，时名华东纺织工学院，1985年，更名为中国纺织大学，1999年，更名为东华大学。1960年，被国家教育部确定为全国重点大学。</p><p><img alt="东华大学校门" src="http://img.gaosan.com/upload/webimg/1705.jpg" title="东华大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1951年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>天津科技大学位于渤海之滨、海河之畔，是中央和地方共建、天津市重点建设的以工为主，工、理、文、经、管、法、艺等学科协调发展的多科性大学。学校毕业生以基础扎实、素质全面、富于开拓精神和实践能力而受到社会各界青睐。</p><p><img alt="天津科技大学校门" src="http://img.gaosan.com/upload/webimg/1858.jpg" title="天津科技大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1958年</td><td>公立</td><td>理工</td><td>天津市教育委员会</td></tr></tbody></table><p>陕西科技大学是我国西部地区唯一一所以轻工为特色的多科性大学。学校现有西安和咸阳两个校区，总面积2003亩，建筑面积118.4万平米。西安校区占地面积1590亩。学校有专任教师1200多人，具有高级专业技术职称的近600人；有全日制各类在校学生22900多人，其中博士、硕士研究生2700多人。图书馆藏书近200万册。</p><p><img alt="陕西科技大学校门" src="http://img.gaosan.com/upload/webimg/1853.jpg" title="陕西科技大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1958年</td><td>公立</td><td>理工</td><td>陕西省人民政府</td></tr></tbody></table><p>　　以上2018年轻化工程专业大学排名轻化工程专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>新闻学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+新闻学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    新闻学是研究新闻事业和新闻工作规律的科学。新闻学是以人类社会客观存在的新闻现象作为自己的研究对象，研究的重点是新闻事业和人类社会的关系，探索新闻事业的产生、发展的特殊规律和新闻工作的基本要求的一门科学。它研究的内容是新闻理论、新闻史和新闻业务。新闻学的中心议题是：客观社会的诸条件对人类新闻活动的决定、支配作用以及新闻活动对社会的反作用。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av10834526?from=search&seid=16141702322170547052" class="">
+								
+								<div class="mui-media-body">
+									MJC新闻与传播硕士|334课程|李良荣《新闻学概论》全套
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av14221670?from=search&seid=16141702322170547052" class="">
+								
+								<div class="mui-media-body">
+									新闻与传播：李良荣《新闻学概论》（第五版）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av33602309?from=search&seid=16141702322170547052" class="">
+								
+								<div class="mui-media-body">
+									【复旦大学】新闻学概论（全12P）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av31277406?from=search&seid=16141702322170547052" class="">
+								
+								<div class="mui-media-body">
+									2019考研 新闻《新闻学概论》考研考点精讲
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av44147294?from=search&seid=16141702322170547052" class="">
+								
+								<div class="mui-media-body">
+									【新闻学】自媒体时代，真相有多远 全六讲 复旦大学新闻学院研究员 窦锋昌 主讲
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av12805230?from=search&seid=14107082129993721040" class="">
+
+    								<div class="mui-media-body">
+    									如何看新闻学英语？推荐几个英文网站
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av46648998?from=search&seid=14107082129993721040" class="">
+
+    								<div class="mui-media-body">
+    									李良荣《新闻学概论》《西方新闻事业概论》笔记和考研真题详解
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av26058794?from=search&seid=14107082129993721040" class="">
+
+    								<div class="mui-media-body">
+    									【毕业季】“我们都喝新闻理想！”中国传媒大学2014级新闻学专业班鉴
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av32907897?from=search&seid=14107082129993721040" class="">
+
+    								<div class="mui-media-body">
+    									超级厉害的体育记者是怎样进行采访的？新闻学学生及媒体人士请谨慎观看！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av16727177?from=search&seid=14107082129993721040" class="">
+
+    								<div class="mui-media-body">
+    									过来！4分钟，告诉你新闻和新闻学是啥！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data184809"><p>中国大学哪些本科的新闻学专业，是2018高考优秀考生报考的最佳选择呢？艾瑞深中国校友会网最新公布的2018本科专业排行榜中就有你想知道的答案，和小编一起来看看吧！</p><p><img alt="新闻学专业大学排名" border="0" height="350" src="http://img.gaosan.com/upload/201711/6364513328555876109489718.jpg" style="width: 600px; height: 350px;" title="新闻学专业大学排名" vspace="0" width="600"/></p><p><strong>在2018本科新闻学专业排行榜中，中国人民大学、武汉大学、北京大学、复旦大学并列排行榜第一名，</strong>想知道全部的新闻学专业排名请看下表：</p><h2><a>1</a><span>公办本科大学新闻学专业排名</span></h2><table><colgroup><col width="43"/><col width="217"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>中国人民大学</td><td>7星级</td><td>北京</td><td>1</td></tr><tr><td>1</td><td>武汉大学</td><td>7星级</td><td>湖北</td><td>1</td></tr><tr><td>1</td><td>北京大学</td><td>7星级</td><td>北京</td><td>1</td></tr><tr><td>1</td><td>复旦大学</td><td>7星级</td><td>上海</td><td>1</td></tr><tr><td>5</td><td>清华大学</td><td>7星级</td><td>北京</td><td>3</td></tr><tr><td>6</td><td>中国传媒大学</td><td>6星级</td><td>北京</td><td>4</td></tr><tr><td>7</td><td>南京大学</td><td>6星级</td><td>江苏</td><td>1</td></tr><tr><td>7</td><td>华中科技大学</td><td>6星级</td><td>湖北</td><td>2</td></tr><tr><td>7</td><td>河北大学</td><td>6星级</td><td>河北</td><td>1</td></tr><tr><td>7</td><td>暨南大学</td><td>6星级</td><td>广东</td><td>1</td></tr><tr><td>7</td><td>四川大学</td><td>6星级</td><td>四川</td><td>1</td></tr><tr><td>7</td><td>吉林大学</td><td>6星级</td><td>吉林</td><td>1</td></tr><tr><td>13</td><td>南京师范大学</td><td>5星级</td><td>江苏</td><td>2</td></tr><tr><td>13</td><td>广西大学</td><td>5星级</td><td>广西</td><td>1</td></tr><tr><td>13</td><td>中山大学</td><td>5星级</td><td>广东</td><td>2</td></tr><tr><td>13</td><td>南昌大学</td><td>5星级</td><td>江西</td><td>1</td></tr><tr><td>17</td><td>浙江传媒学院</td><td>4星级</td><td>浙江</td><td>1</td></tr><tr><td>18</td><td>华中师范大学</td><td>4星级</td><td>湖北</td><td>3</td></tr><tr><td>18</td><td>安徽师范大学</td><td>4星级</td><td>安徽</td><td>1</td></tr><tr><td>18</td><td>北京外国语大学</td><td>4星级</td><td>北京</td><td>5</td></tr><tr><td>18</td><td>郑州大学</td><td>4星级</td><td>河南</td><td>1</td></tr><tr><td>18</td><td>云南大学</td><td>4星级</td><td>云南</td><td>1</td></tr><tr><td>18</td><td>天津师范大学</td><td>4星级</td><td>天津</td><td>1</td></tr><tr><td>18</td><td>湖南大学</td><td>4星级</td><td>湖南</td><td>1</td></tr><tr><td>18</td><td>兰州大学</td><td>4星级</td><td>甘肃</td><td>1</td></tr><tr><td>18</td><td>北京第二外国语学院</td><td>4星级</td><td>北京</td><td>5</td></tr><tr><td>18</td><td>湖南师范大学</td><td>4星级</td><td>湖南</td><td>1</td></tr><tr><td>18</td><td>浙江大学</td><td>4星级</td><td>浙江</td><td>2</td></tr><tr><td>18</td><td>安徽大学</td><td>4星级</td><td>安徽</td><td>1</td></tr><tr><td>18</td><td>西南政法大学</td><td>4星级</td><td>重庆</td><td>1</td></tr><tr><td>18</td><td>浙江万里学院</td><td>4星级</td><td>浙江</td><td>2</td></tr><tr><td>18</td><td>黑龙江大学</td><td>4星级</td><td>黑龙江</td><td>1</td></tr><tr><td>18</td><td>华东师范大学</td><td>4星级</td><td>上海</td><td>2</td></tr><tr><td>18</td><td>湘潭大学</td><td>4星级</td><td>湖南</td><td>1</td></tr><tr><td>35</td><td>厦门大学</td><td>3星级</td><td>福建</td><td>1</td></tr><tr><td>35</td><td>上海外国语大学</td><td>3星级</td><td>上海</td><td>3</td></tr><tr><td>35</td><td>重庆大学</td><td>3星级</td><td>重庆</td><td>2</td></tr><tr><td>35</td><td>西安外国语大学</td><td>3星级</td><td>陕西</td><td>1</td></tr><tr><td>35</td><td>中国政法大学</td><td>3星级</td><td>北京</td><td>7</td></tr><tr><td>35</td><td>北京语言大学</td><td>3星级</td><td>北京</td><td>7</td></tr><tr><td>35</td><td>北京体育大学</td><td>3星级</td><td>北京</td><td>7</td></tr><tr><td>35</td><td>中央民族大学</td><td>3星级</td><td>北京</td><td>7</td></tr><tr><td>35</td><td>东北师范大学</td><td>3星级</td><td>吉林</td><td>2</td></tr><tr><td>35</td><td>西北政法大学</td><td>3星级</td><td>陕西</td><td>1</td></tr><tr><td>35</td><td>成都体育学院</td><td>3星级</td><td>四川</td><td>2</td></tr><tr><td>35</td><td>武汉体育学院</td><td>3星级</td><td>湖北</td><td>4</td></tr><tr><td>47</td><td>渤海大学</td><td>3星级</td><td>辽宁</td><td>1</td></tr><tr><td>47</td><td>上饶师范学院</td><td>3星级</td><td>江西</td><td>2</td></tr><tr><td>47</td><td>衡阳师范学院</td><td>3星级</td><td>湖南</td><td>4</td></tr><tr><td>47</td><td>中央财经大学</td><td>3星级</td><td>北京</td><td>11</td></tr><tr><td>47</td><td>山东大学</td><td>3星级</td><td>山东</td><td>1</td></tr><tr><td>47</td><td>西北大学</td><td>3星级</td><td>陕西</td><td>3</td></tr><tr><td>47</td><td>山西大学</td><td>3星级</td><td>山西</td><td>1</td></tr><tr><td>47</td><td>山东师范大学</td><td>3星级</td><td>山东</td><td>1</td></tr><tr><td>47</td><td>苏州大学</td><td>3星级</td><td>江苏</td><td>3</td></tr><tr><td>47</td><td>新疆大学</td><td>3星级</td><td>新疆</td><td>1</td></tr><tr><td>47</td><td>中南财经政法大学</td><td>3星级</td><td>湖北</td><td>5</td></tr><tr><td>47</td><td>华南理工大学</td><td>3星级</td><td>广东</td><td>3</td></tr><tr><td>47</td><td>沈阳师范大学</td><td>3星级</td><td>辽宁</td><td>1</td></tr><tr><td>47</td><td>湖北大学</td><td>3星级</td><td>湖北</td><td>5</td></tr><tr><td>47</td><td>四川外国语大学</td><td>3星级</td><td>重庆</td><td>3</td></tr><tr><td>47</td><td>陕西师范大学</td><td>3星级</td><td>陕西</td><td>3</td></tr><tr><td>47</td><td>天津体育学院</td><td>3星级</td><td>天津</td><td>2</td></tr><tr><td>47</td><td>上海政法学院</td><td>3星级</td><td>上海</td><td>4</td></tr><tr><td>47</td><td>广东外语外贸大学</td><td>3星级</td><td>广东</td><td>3</td></tr><tr><td>47</td><td>广州体育学院</td><td>3星级</td><td>广东</td><td>3</td></tr><tr><td>47</td><td>乐山师范学院</td><td>3星级</td><td>四川</td><td>3</td></tr><tr><td>47</td><td>宿州学院</td><td>3星级</td><td>安徽</td><td>3</td></tr><tr><td>47</td><td>上海财经大学</td><td>3星级</td><td>上海</td><td>4</td></tr><tr><td>47</td><td>西南大学</td><td>3星级</td><td>重庆</td><td>3</td></tr><tr><td>47</td><td>东北大学</td><td>3星级</td><td>辽宁</td><td>1</td></tr><tr><td>47</td><td>河南大学</td><td>3星级</td><td>河南</td><td>2</td></tr><tr><td>47</td><td>东北财经大学</td><td>3星级</td><td>辽宁</td><td>1</td></tr><tr><td>47</td><td>天津外国语大学</td><td>3星级</td><td>天津</td><td>2</td></tr><tr><td>47</td><td>西南财经大学</td><td>3星级</td><td>四川</td><td>3</td></tr><tr><td>47</td><td>华南师范大学</td><td>3星级</td><td>广东</td><td>3</td></tr><tr><td>47</td><td>海南师范大学</td><td>3星级</td><td>海南</td><td>1</td></tr><tr><td>47</td><td>吉首大学</td><td>3星级</td><td>湖南</td><td>4</td></tr><tr><td>47</td><td>广东财经大学</td><td>3星级</td><td>广东</td><td>3</td></tr><tr><td>47</td><td>内蒙古师范大学</td><td>3星级</td><td>内蒙古</td><td>1</td></tr><tr><td>47</td><td>内蒙古大学</td><td>3星级</td><td>内蒙古</td><td>1</td></tr><tr><td>47</td><td>江西财经大学</td><td>3星级</td><td>江西</td><td>2</td></tr><tr><td>47</td><td>辽宁大学</td><td>3星级</td><td>辽宁</td><td>1</td></tr><tr><td>47</td><td>西藏民族大学</td><td>3星级</td><td>西藏</td><td>1</td></tr></tbody></table><h2><a>1</a><span>民办大学新闻学专业排名</span></h2><table><colgroup><col width="43"/><col width="217"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>三江学院</td><td>6星级</td><td>江苏</td><td>1</td></tr><tr><td>2</td><td>西安培华学院</td><td>5星级</td><td>陕西</td><td>1</td></tr><tr><td>2</td><td>安徽新华学院</td><td>5星级</td><td>安徽</td><td>1</td></tr><tr><td>2</td><td>武汉学院</td><td>5星级</td><td>湖北</td><td>1</td></tr><tr><td>2</td><td>文华学院</td><td>5星级</td><td>湖北</td><td>1</td></tr><tr><td>2</td><td>武汉工商学院</td><td>5星级</td><td>湖北</td><td>1</td></tr><tr><td>2</td><td>武昌首义学院</td><td>5星级</td><td>湖北</td><td>1</td></tr><tr><td>8</td><td>西安欧亚学院</td><td>4星级</td><td>陕西</td><td>2</td></tr><tr><td>9</td><td>上海杉达学院</td><td>4星级</td><td>上海</td><td>1</td></tr><tr><td>9</td><td>仰恩大学</td><td>4星级</td><td>福建</td><td>1</td></tr><tr><td>9</td><td>上海建桥学院</td><td>4星级</td><td>上海</td><td>1</td></tr><tr><td>9</td><td>武汉晴川学院</td><td>4星级</td><td>湖北</td><td>5</td></tr><tr><td>13</td><td>西安外事学院</td><td>3星级</td><td>陕西</td><td>3</td></tr><tr><td>13</td><td>武汉传媒学院</td><td>3星级</td><td>湖北</td><td>6</td></tr><tr><td>13</td><td>江西科技学院</td><td>3星级</td><td>江西</td><td>1</td></tr><tr><td>13</td><td>黑龙江东方学院</td><td>3星级</td><td>黑龙江</td><td>1</td></tr></tbody></table><h2><a>1</a><span>独立学院新闻学专业排名</span></h2><table><colgroup><col width="43"/><col width="217"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>云南大学滇池学院</td><td>6星级</td><td>云南</td><td>1</td></tr><tr><td>2</td><td>中国传媒大学南广学院</td><td>5星级</td><td>江苏</td><td>1</td></tr><tr><td>2</td><td>南京大学金陵学院</td><td>5星级</td><td>江苏</td><td>1</td></tr><tr><td>2</td><td>厦门大学嘉庚学院</td><td>5星级</td><td>福建</td><td>1</td></tr><tr><td>2</td><td>四川大学锦江学院</td><td>5星级</td><td>四川</td><td>1</td></tr><tr><td>6</td><td>河北大学工商学院</td><td>4星级</td><td>河北</td><td>1</td></tr><tr><td>6</td><td>中山大学南方学院</td><td>4星级</td><td>广东</td><td>1</td></tr><tr><td>6</td><td>天津师范大学津沽学院</td><td>4星级</td><td>天津</td><td>1</td></tr><tr><td>6</td><td>浙江大学城市学院</td><td>4星级</td><td>浙江</td><td>1</td></tr><tr><td>10</td><td>山西大学商务学院</td><td>3星级</td><td>山西</td><td>1</td></tr><tr><td>10</td><td>广西大学行健文理学院</td><td>3星级</td><td>广西</td><td>1</td></tr><tr><td>10</td><td>苏州大学文正学院</td><td>3星级</td><td>江苏</td><td>3</td></tr><tr><td>10</td><td>山东师范大学历山学院</td><td>3星级</td><td>山东</td><td>1</td></tr><tr><td>10</td><td>天津体育学院运动与文化艺术学院</td><td>3星级</td><td>天津</td><td>2</td></tr><tr><td>10</td><td>阜阳师范学院信息工程学院</td><td>3星级</td><td>安徽</td><td>1</td></tr><tr><td>10</td><td>湖北大学知行学院</td><td>3星级</td><td>湖北</td><td>1</td></tr><tr><td>10</td><td>西北大学现代学院</td><td>3星级</td><td>陕西</td><td>1</td></tr><tr><td>10</td><td>四川大学锦城学院</td><td>3星级</td><td>四川</td><td>2</td></tr><tr><td>10</td><td>西北师范大学知行学院</td><td>3星级</td><td>甘肃</td><td>1</td></tr><tr><td>10</td><td>南昌大学科学技术学院</td><td>3星级</td><td>江西</td><td>1</td></tr><tr><td>10</td><td>山东财经大学东方学院</td><td>3星级</td><td>山东</td><td>1</td></tr><tr><td>10</td><td>广东财经大学华商学院</td><td>3星级</td><td>广东</td><td>2</td></tr><tr><td>10</td><td>河北经贸大学经济管理学院</td><td>3星级</td><td>河北</td><td>2</td></tr><tr><td>10</td><td>浙江工商大学杭州商学院</td><td>3星级</td><td>浙江</td><td>2</td></tr><tr><td>10</td><td>四川外国语大学成都学院</td><td>3星级</td><td>四川</td><td>2</td></tr><tr><td>10</td><td>河南大学民生学院</td><td>3星级</td><td>河南</td><td>1</td></tr></tbody></table><h2><a>1</a><span>中外合作办学大学新闻学专业排名</span></h2><table><colgroup><col width="43"/><col width="217"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>北京师范大学－香港浸会大学联合国际学院</td><td>5星级</td><td>广东</td><td>1</td></tr></tbody></table><h2><a>1</a><span>新闻学专业介绍<br/></span></h2><p></p><p><img alt="新闻学专业" src="http://img.gaosan.com/upload/zhuanye/1/959.jpg"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>新闻传播学类</td><td>￥6557<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过48%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">19%在北京市工作</span></td><td>女生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男26%-女74%</span></td></tr></tbody></table><p>专业介绍：新闻学是以人类社会客观存在的新闻现象作为自己的研究对象，研究的重点是新闻事业和人类社会的关系，探索新闻事业的产生、发展的特殊规律和新闻工作的基本要求的一门科学。</p><p>就业方向：新闻学专业的学生毕业后，大都在新闻媒体、政府机关、高等院校和科研机构从事较高层次的新闻业务、教学、科研和管理工作，有不少毕业生成为本单位的业务骨干。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

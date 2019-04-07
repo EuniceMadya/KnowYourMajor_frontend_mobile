@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>海事管理</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+海事管理</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    海事管理是研究辖区海事监管特点，贯彻落实海事法规的专业管理部门，为海事执法类内设部门。对海事业务进行专业研究、指导、监督和管理，具体承担船舶监督、危险品和防污染管理、船员管理、通航管理、航运公司安全管理体系审核管理等海事监管业务的专业管理职能和口岸有关管理职能。海事管理处原则上不直接实施海事具体行政行为（特殊规定的除外）。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av45620028?from=search&seid=14298405591540686940" class="">
+								
+								<div class="mui-media-body">
+									船舶避碰与值班 武汉理工大学翁建军
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av8548231?from=search&seid=14298405591540686940" class="">
+								
+								<div class="mui-media-body">
+									【票圈】【工程技术】【共5集】《通向航运强国之路-航海类专业导论》大连海事大学公开课&amp;微博@票圈
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av36940467?from=search&seid=14298405591540686940" class="">
+								
+								<div class="mui-media-body">
+									大连海事大学-领航计划-高数-第一章-函数与极限
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av41729617?from=search&seid=14298405591540686940" class="">
+								
+								<div class="mui-media-body">
+									内河油船安全管理体系简介
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av41745526?from=search&seid=14298405591540686940" class="">
+								
+								<div class="mui-media-body">
+									内河化学品船安全管理体系简介
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av30042031?from=search&seid=10669883906991637305" class="">
+
+    								<div class="mui-media-body">
+    									手制立体书《海事，历史与使命》
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av42180555?from=search&seid=10669883906991637305" class="">
+
+    								<div class="mui-media-body">
+    									军事化管理的海事大学鹅
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10776341?from=search&seid=10669883906991637305" class="">
+
+    								<div class="mui-media-body">
+    									大连海事大学2017春季运动会方队
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av32035018?from=search&seid=10669883906991637305" class="">
+
+    								<div class="mui-media-body">
+    									来看看半军事化管理的院校是怎么军训的
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av33467375?from=search&seid=10669883906991637305" class="">
+
+    								<div class="mui-media-body">
+    									海事局宣传片
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data141015"><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-09/b1147c61-1a2f-4e4a-89ad-22dad1e02bdd.jpg" title="海事管理专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>公共管理类</td><td>￥9418<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过96%的专业</span></td><td>上海市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">24%在上海市工作</span></td><td>男生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男72%-女28%</span></td></tr></tbody></table><p>培养目标：培养掌握文秘、航运企业管理、海事业务的基本理论和实践技能，能从事航运企业管理和海事事务处理的高级管理专门人才。</p><p>核心课程：秘书学及秘书实务、海事人力资源管理、航运企业管理、水上交通安全管理、交通运输设备、船舶与货运代理实务、国际航运管理、海事公约与法规、国际货物运输与保险、集装箱运输与管理、国际经济法、海商法、航运英语、海事电子政务操作、海事文书写作、船舶与货运代理单证实训、毕业综合实训，以及各校的主要特色课程和实践环节。</p><p>就业方向：海事管理专业毕业生主要面向航运或海运企业、海事事务处理部门、市县海事处等单位，从事航运企业的经营管理、海事事务处理、船舶与货运代理与养护工作以及与海事工作相关的法律事务及与海上货运有关的保险业务等工作。</p><h2><a>1</a><span>2018最新海事管理专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>大连海事大学</td><td>5★</td><td>5</td></tr><tr><td>2</td><td>武汉理工大学</td><td>4★</td><td>5</td></tr><tr><td>3</td><td>山东交通学院</td><td>3★</td><td>5</td></tr></tbody></table><h2><a>1</a><span>海事管理专业排名大学介绍</span></h2><p>大连海事大学（原大连海运学院）是交通运输部所属的全国重点大学，是中国著名的高等航海学府，是被国际海事组织认定的世界上少数几所“享有国际盛誉”的海事院校之一。2006年，交通部、教育部、辽宁省、大连市就支持加快大连海事大学的建设和发展，进一步提升学校的综合实力和办学水平，达成了共建协议。</p><p><img alt="大连海事大学校门" src="http://img.gaosan.com/upload/webimg/1764.jpg" title="大连海事大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1909年</td><td>公立</td><td>理工</td><td>交通运输部</td></tr></tbody></table><p>武汉理工大学是由原武汉工业大学、武汉交通科技大学、武汉汽车工业大学于2000年5月27日合并组建而成，是教育部直属的全国重点大学，是首批列入国家“211工程”重点建设的高校。学校现有三个校区，占地面积4000余亩，校舍总建筑面积逾167万平方米，四座现代化图书馆藏书400余万册。</p><p><img alt="武汉理工大学校门" src="http://img.gaosan.com/upload/webimg/1674.jpg" title="武汉理工大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>2000年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><p>山东交通学院始建于1956年，2000年由交通部划转山东省，实行中央与地方共建，以地方管理为主的管理体制。学校占地面积3200余亩，分为长清校区、无影山校区、威海校区3个校区办学。教学科研仪器设备总值2.6亿元，馆藏纸质图书179.11万册。现有全日制在校学生21381人，在职教职工1403人，专任教师1038人。</p><p><img alt="山东交通学院校门" src="http://img.gaosan.com/upload/webimg/2205.jpg" title="山东交通学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1956年</td><td>公立</td><td>工科</td><td>山东省教育厅</td></tr></tbody></table><p>　　以上2018年海事管理专业大学排名海事管理专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

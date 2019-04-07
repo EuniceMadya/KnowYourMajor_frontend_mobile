@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>藏医学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+藏医学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    藏医藏药历史悠久。早在远古时代，生活在西藏高原的居民在同大自然作斗争中逐步认识到了一些植物的性能及其用于治疗的经验；在狩猎过程中，又逐渐知道了一些动物的药理作用。相传在公元前三世纪，就有了“有毒就有药”的说法。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av46633510?from=search&seid=13246108980716151905" class="">
+								
+								<div class="mui-media-body">
+									《周易与中医》   广东中医药大学潘毅教授主讲
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av18921897?from=search&seid=7930856390157665403" class="">
+
+    								<div class="mui-media-body">
+    									《香巴拉深处》一心想学藏医的女孩
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data184977"><p>中国大学哪些本科的藏医学专业，是2018高考优秀考生报考的最佳选择呢？和小编一起来看看吧！</p><p><img alt="藏医学专业大学排名" border="0" height="370" src="http://img.gaosan.com/upload/201711/6364514987846550499789054.png" style="width: 600px; height: 370px;" title="藏医学专业大学排名" vspace="0" width="600"/></p><p><strong>在2018本科藏医学专业排行榜中，西藏藏医学院雄居排行榜榜首，青海大学、成都中医药大学、甘肃中医药大学紧随其后，并列第二名。</strong>想知道全部的藏医学专业排名请看下表：</p><h2><a>1</a><span>公办本科大学藏医学专业排名</span></h2><table><colgroup><col width="50"/><col width="110"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>西藏藏医学院</td><td>5星级</td><td>西藏</td><td>1</td></tr><tr><td>2</td><td>青海大学</td><td>4星级</td><td>青海</td><td>1</td></tr><tr><td>2</td><td>成都中医药大学</td><td>4星级</td><td>四川</td><td>1</td></tr><tr><td>2</td><td>甘肃中医药大学</td><td>4星级</td><td>甘肃</td><td>1</td></tr><tr><td>5</td><td>中央民族大学</td><td>3星级</td><td>北京</td><td>1</td></tr></tbody></table><h2><a>1</a><span>藏医学专业介绍</span></h2><p></p><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-12/3afef17b-4d7c-418a-97fd-942f35286c6a.jpg" title="藏医学专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>中医学类</td><td>未知<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">样本不足，无法分析</span></td><td>甘南藏族自治州<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">25%在甘南藏族自治州工作</span></td><td>未知男---女--</td></tr></tbody></table><p>培养目标：本专业培养具备藏医学基础理论知识和临床操作技能以及认药、制药、用药等方面的知识和能力，能在藏医院、藏药厂及藏医药学的研究领域和有关单位从事藏医医疗、教学、科研及藏药开发工作的藏医学高级专门人才。</p><p>主要课程：藏医概论学、藏医人体学、藏医病机学、藏医三大基因学、藏医保健学、藏药方剂学、藏医外治学、藏医诊断学、藏医内科学、藏医热病疫病学、等。</p><p>就业方向：藏医医疗、教学、科研及藏药开发工作。藏医学专业毕业生认为该专业发展前景很好和比较好的比例为20%，30%的毕业生认为该专业发展前景为“不太好”或“很不好”。按照10分制进行计算，该专业的发展前景指数为5.64，与其他专业相比，发展前景指数为中等偏下。</p><h2><a>1</a><span>西藏藏医学院</span></h2><p></p><p>西藏藏医学院成立于1989年9月，是全国乃至世界惟一一所经国家教育部批准公办独立设置的藏医药高等学府。2004年开始与北京中医药大学联合招收培养世界上首批民族医学（藏医专业）博士研究生。目前开设有1个民族医学（藏医专业）硕士研究生班，3个藏医本科、藏药本科、藏药营销本科专业，3个藏医专科、天文星算、高护专科专业，共有各类在校生2235人。</p><p><img alt="西藏藏医学院校门" src="http://img.gaosan.com/upload/webimg/2298.jpg" title="西藏藏医学院校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1989年</td><td>公立</td><td>医药</td><td>西藏自治区教育厅</td></tr></tbody></table><h2><a>1</a><span>青海大学</span></h2><p></p><p>青海大学始建于1958年，是一所以工、农、医、管四大学科为主，其他学科协调发展的综合性大学，是教育部和青海省人民政府共同建设、清华大学等知名高校对口支援的国家“211工程”重点建设大学，也是14所国家“中西部高校提升综合实力工程”入选高校。学校坐落在青藏西宁市，校园花木繁茂、环境优美，极具现代人文气息，是读书治学的理想之地。</p><p><img alt="青海大学校门" src="http://img.gaosan.com/upload/webimg/1769.jpg" title="青海大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1958年</td><td>公立</td><td>综合</td><td>青海省人民政府</td></tr></tbody></table><h2><a>1</a><span>成都中医药大学</span></h2><p></p><p>成都中医药大学原名成都中医学院，创建于1956年，是在周恩来等党和国家第一代领导集体的亲切关怀下，经国务院批准建立的我国最早的四所中医药高等院校之一。学校占地面积1800亩，有16个学院、34个本科专业，全日制在校学生2.2万人，其中研究生2000余人。</p><p><img alt="成都中医药大学校门" src="http://img.gaosan.com/upload/webimg/1820.jpg" title="成都中医药大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1956年</td><td>公立</td><td>医药</td><td>四川省教育厅、国家中医药管理局</td></tr></tbody></table><h2><a>1</a><span>甘肃中医药大学</span></h2><p></p><p>甘肃中医药大学成立于1978年。建校36年来，经过几代人辛勤耕耘，不懈奋斗，在教学、科研、医疗等方面取得了长足发展。学校占地面积878.5亩，建筑面积27.5万平米，共有教职工及医护人员2847人，其中专任教师629人，有双聘院士3人，博士研究生导师32人，硕士研究生导师249人。</p><p><img alt="甘肃中医药大学 校牌" src="http://img.gaosan.com/upload/webimg/2041.jpg" title="甘肃中医药大学 校牌"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1978年</td><td>公立</td><td>医药</td><td>甘肃省教育厅</td></tr></tbody></table><h2><a>1</a><span>中央民族大学</span></h2><p></p><p>中央民族大学的前身是1941年9月中国共产党在延安创办的民族学院。1951年6月，中央民族学院在北京正式成立，1993年11月，更名为中央民族大学。现任校党委书记鄂义太教授、校长陈理教授，坐落于北京学府林立的海淀区。在党和国家的高度重视下，学校1978年被批准为国家重点大学，1999年、2004年先后进入“211工程”和“985工程”国家重点建设大学行列。</p><p><img alt="中央民族大学 学校大门" src="http://img.gaosan.com/upload/webimg/1703.jpg" title="中央民族大学 学校大门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1941年</td><td>公立</td><td>综合</td><td>国家民族事务委员会</td></tr></tbody></table><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

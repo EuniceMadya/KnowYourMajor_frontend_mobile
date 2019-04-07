@@ -1,0 +1,185 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>环境生态工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+环境生态工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    本专业培养学生具有环境科学的理论基础、知识和技能、成为适合在科研机构、高等学校、企事业单位及行政部门从事科研、教学、环境保护和环境管理等工作的高级专业人才。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av40785620?from=search&seid=3524710021064325153" class="">
+								
+								<div class="mui-media-body">
+									环境微生物学【68集】(郑平：浙江大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av44686631?from=search&seid=3524710021064325153" class="">
+								
+								<div class="mui-media-body">
+									生物环境与能源工程【30集】(邱凌：西北农林科技大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av21794826?from=search&seid=3524710021064325153" class="">
+								
+								<div class="mui-media-body">
+									【工程技术】【北京大学】 【环境生态学】 【主讲-刘树华】【全49讲】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av38573444?from=search&seid=11167557078991677191" class="">
+
+    								<div class="mui-media-body">
+    									环境生态工程专业
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av14644136?from=search&seid=11167557078991677191" class="">
+
+    								<div class="mui-media-body">
+    									盘锦校区星空延时
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av19974581?from=search&seid=11167557078991677191" class="">
+
+    								<div class="mui-media-body">
+    									这个国家靠填海起家，新增20%国土，把大海变淡水湖！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av30547067?from=search&seid=11167557078991677191" class="">
+
+    								<div class="mui-media-body">
+    									【我的国411】这里将从重口味到小清新？垃圾填埋场的蜕变之路
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av38240953?from=search&seid=11167557078991677191" class="">
+
+    								<div class="mui-media-body">
+    									湖北大学资源环境学院2016级环境工程环境生态学线下直播花絮
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data140102"><p><img alt="2.jpg" src="http://img.gaosan.com/upload/201607/6360323417915368053612085.jpg" title="2.jpg"/></p><p>就业方向:环境生态工程专业毕业生主要在各级政府环保部门、规划部门、建设管理部门、设计研究院所、环境工程公司、科研单位、高等院校等从事环境规划、环境管理、环境工程设计、环保产品开发以及教学和环境科学研究等方面的工作。环境生态工程专业专业毕业生还可报考环境工程、环境科学、市政工程、环境管理、城市环境与生态工程等专业研究生。</p><h2><a>1</a><span>2017最新环境生态工程专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>大连理工大学</td><td>5★</td><td>32</td></tr><tr><td>2</td><td>华东师范大学</td><td>4★</td><td>32</td></tr><tr><td>3</td><td>重庆大学</td><td>4★</td><td>32</td></tr><tr><td>4</td><td>青海大学</td><td>4★</td><td>32</td></tr><tr><td>5</td><td>河北环境工程学院</td><td>4★</td><td>32</td></tr></tbody></table><h2><a>1</a><span>环境生态工程专业排名大学介绍</span></h2><p>大连理工大学是教育部直属全国重点大学，也是国家“211工程”和“985工程”重点建设高校。2012年12月教育部正式批准大连理工大学建设盘锦校区，该校区依照“统筹规划、错位发展、坚持标准、创新模式”的指导思想建设，与主校区同标准、同档次、同水平办学。</p><p><img alt="大连理工大学校门" src="http://img.gaosan.com/upload/webimg/1642.jpg" title="大连理工大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1949年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p><a href="/gaokao/174896.html" target="_blank">华东师范大学</a>是由国家举办，教育部主管，教育部与上海市人民政府重点共建的综合性研究型大学。学校成立于1951年10月16日，在大夏大学原址上创办的。2002年根据上海市高校布局结构调整的战略部署，启动闵行校区规划建设，2006年学校主体搬迁到闵行校区。2006年教育部和上海市决定重点共建华东师范大学，学校进入国家“985工程”高校行列。</p><p><img alt="华东师范大学校门" src="http://img.gaosan.com/upload/webimg/1630.jpg" title="华东师范大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1951年</td><td>公立</td><td>师范</td><td>教育部</td></tr></tbody></table><p>重庆大学是教育部直属的全国重点大学，是国家“211工程”和“985工程”重点建设的高水平研究型综合性大学。学校地处国家西南工商业重镇、长江上游经济中心——重庆市，坐落在人文荟萃的文化名区——沙坪坝区。重庆大学创办于1929年，早在20世纪40年代就成为拥有文、理、工、商、法、医等6个学院的国立综合性大学。</p><p><img alt="重庆大学校门" src="http://img.gaosan.com/upload/webimg/1648.jpg" title="重庆大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1929年</td><td>公立</td><td>综合</td><td>中华人民共和国教育部</td></tr></tbody></table><p>青海大学始建于1958年，是一所以工、农、医、管四大学科为主，其他学科协调发展的综合性大学，是教育部和青海省人民政府共同建设、清华大学等知名高校对口支援的国家“211工程”重点建设大学，也是14所国家“中西部高校提升综合实力工程”入选高校。学校坐落在青藏西宁市，校园花木繁茂、环境优美，极具现代人文气息，是读书治学的理想之地。</p><p><img alt="青海大学校门" src="http://img.gaosan.com/upload/webimg/1769.jpg" title="青海大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1958年</td><td>公立</td><td>综合</td><td>青海省人民政府</td></tr></tbody></table><p>河北环境工程学院是中华人民共和国环境保护部和河北省人民政府共同建设的一所环保应用型本科高校，其前身为中国环境管理干部学院.。秦皇岛是河北省省辖市，中国首批沿海开放城市之一，北方重要的对外贸易口岸。原全国人大环境与资源委员会主任曲格平教授和现任国家发改委副主任解振华先生曾先后兼任学院院长。<br/></p><p><img alt="中国环境管理干部学院 学校大门" src="http://img.gaosan.com/upload/webimg/4182.jpg" title="中国环境管理干部学院 学校大门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1981年</td><td>公立</td><td>其他</td><td>河北省教育厅</td></tr></tbody></table><p>　　以上2017年环境生态工程专业大学排名环境生态工程专业排行榜由高三网收集整理，更多<a href="/youshizhuanye/" target="_blank">专业排名</a>请查看<a href="http://www.gaosan.com/zhuanyepaiming/">大学专业开设高校排名</a>栏目</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

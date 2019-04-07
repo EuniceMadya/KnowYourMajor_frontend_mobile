@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>药物化学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+药物化学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    药物化学（Medicinal chemistry）指的是利用化学的概念和方法发现确证和开发药物，从分子水平上研究药物在体内的作用方式和作用机理的一门学科。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    药物化学(Medicinal Chemistry)是建立在化学和生物学基础上，对药物结构和活性进行研究的一门学科。研究内容涉及发现、修饰和优化先导化合物，从分子水平上揭示药物及具有生理活性物质的作用机理，研究药物及生理活性物质在体内的代谢过程。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av8083070?from=search&seid=2270505622890872491" class="">
+								
+								<div class="mui-media-body">
+									【中国药科大学】药物化学
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av44035086?from=search&seid=2270505622890872491" class="">
+								
+								<div class="mui-media-body">
+									药物化学 北京大学
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av40933159?from=search&seid=2270505622890872491" class="">
+								
+								<div class="mui-media-body">
+									沈阳药科大学药物化学（孙铁民等）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av28102230?from=search&seid=2270505622890872491" class="">
+								
+								<div class="mui-media-body">
+									【公开课】药物化学（完）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av18417493?from=search&seid=2270505622890872491" class="">
+								
+								<div class="mui-media-body">
+									0601第01讲　药物化学（一）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av35902679?from=search&seid=9351451426670608988" class="">
+
+    								<div class="mui-media-body">
+    									沈阳药科大学84k药物化学二班历史剧片尾
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av9410897?from=search&seid=9351451426670608988" class="">
+
+    								<div class="mui-media-body">
+    									【言和】药物化学
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av34550781?from=search&seid=9351451426670608988" class="">
+
+    								<div class="mui-media-body">
+    									【药学/化学实验】茶叶中咖啡因的提取 虹吸阶段
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av18038960?from=search&seid=9351451426670608988" class="">
+
+    								<div class="mui-media-body">
+    									选1221怎样合理使用药物
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av21398760?from=search&seid=9351451426670608988" class="">
+
+    								<div class="mui-media-body">
+    									蜘蛛在化学药物的侵袭下，长成巨型蜘蛛，整座城市都沦陷了
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data140738"><p><img alt="24.jpg" src="http://img.gaosan.com/upload/201606/6360081791043673478961363.jpg" title="24.jpg"/></p><p>培养目标：本专业是培养能在科研与开发生产领域从事药物合成、药物设计和功能基因药物的研究，药品监督和管理的高级专业人才。本专业的毕业生具有在高校、科研机构及企业从事教学、科研及新产品、新设备、新工艺的开发研究等专门技术工作的能力。掌握现代化学合成药物和天然药物提取、合成新工艺和手性技术的研究方法，能独立地、创造性地开展新药研究与开发，具有分析问题、解决复杂疑难问题的能力。</p><p>发展前景：该专业的毕业生，因为有着扎实的生化研究和分析的基础，则也有着多方面的就业机会，一是可以进入日用化工行业，二是可以进入生化药品行业，三是可以进入石油化工行业，四是可以直接进入制药和从事药物制剂开发、研究、质检以及销售代理岗位。</p><h2><a>1</a><span>2018最新药物化学专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>中国药科大学</td><td>5★</td><td>5</td></tr><tr><td>2</td><td>沈阳药科大学</td><td>4★</td><td>5</td></tr><tr><td>3</td><td>上海工程技术大学</td><td>3★</td><td>5</td></tr></tbody></table><h2><a>1</a><span>药物化学专业排名大学介绍</span></h2><p>中国药科大学是一所历史悠久、特色鲜明、学风优良、在药学界享有盛誉的教育部直属、国家“211工程”重点建设的大学，是我国首批具有博士、硕士学位授予权的高等学校之一。</p><p><img alt="中国药科大学校门" src="http://img.gaosan.com/upload/webimg/1747.jpg" title="中国药科大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1936年</td><td>公立</td><td>医药</td><td>教育部</td></tr></tbody></table><p>沈阳药科大学是一所具有光荣革命传统的学校，是我国历史最悠久的综合性药科大学。学校总占地面积143.45万平方米，总建筑面积70.4万平方米。其中校本部校区占地面积为21.5万平方米，建筑面积为17.9万平方米；铁西校区占地面积为1.6万平方米，建筑面积为1.7万平方米；南校区占地面积为120.35万平方米，一期工程建筑面积8.9万平方米，二期工程建筑面积41.9万平方米。</p><p><img alt="沈阳药科大学校门" src="http://img.gaosan.com/upload/webimg/1844.jpg" title="沈阳药科大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1931年</td><td>公立</td><td>医药</td><td>辽宁省教育厅</td></tr></tbody></table><p>上海工程技术大学是全日制普通高等学校。学校的主校区坐落于上海松江大学城。松江校区占地近1200亩，总建筑面积43万平方米。学校拥有4个一级学科硕士点，19个二级学科硕士点，2个硕士专业学位点，88个本、专科专业(含专业方向)，全日制在校生近20000名，硕士研究生近1500名。学校各本科专业实行完全学分制，标准学制4年，学生可在3—6年内完成学业。</p><p><img alt="上海工程技术大学 图书馆" src="http://img.gaosan.com/upload/webimg/1980.jpg" title="上海工程技术大学 图书馆"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1978年</td><td>公立</td><td>理工</td><td>上海市教育委员会</td></tr></tbody></table><p>　　以上2018年药物化学专业大学排名药物化学专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

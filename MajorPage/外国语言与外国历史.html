@@ -1,0 +1,185 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>外国语言与外国历史</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+外国语言与外国历史</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    外国语言与外国历史专业是中国高等学校2011年新增的专业，该专业学生主要通过世界历史的学习，了解人类文明的一般发展历程和世界历史研究的基本方法、学术史和最新动态，同时对主修国家和地区的历史、文化、政治、社会、军事、经济的概貌与特点有比较深入的认识，有较强的独立研究或实际工作能力。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    “外国语言与外国历史”专业是北京大学元培学院牵手外国语学院、历史系将要联合设立的新型跨学科专业。目标是培养素质高、学识宽阔、基础扎实、适应力强的国际文化交流人才，并为相关学科输送高质量的研究人才。 </h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av26008976?from=search&seid=17715481348871392369" class="">
+								
+								<div class="mui-media-body">
+									【广东外语外贸大学/桂诗春】心理语言学
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av33658267?from=search&seid=17715481348871392369" class="">
+								
+								<div class="mui-media-body">
+									乔治·莱考夫认知语言学十讲
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av23314519?from=search&seid=17715481348871392369" class="">
+								
+								<div class="mui-media-body">
+									【2017年】华南师范大学合唱节之三校区合唱决赛
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av45726996?from=search&seid=639341680574325003" class="">
+
+    								<div class="mui-media-body">
+    									【搬运】But i can Destory this game，默哀三分钟
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av27322588?from=search&seid=639341680574325003" class="">
+
+    								<div class="mui-media-body">
+    									作为一个广东人听完后我不会说粤语了
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av37425137?from=search&seid=639341680574325003" class="">
+
+    								<div class="mui-media-body">
+    									《狄仁杰断案传奇叁》之阮经天剪辑cuts
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av18880343?from=search&seid=16009077223012271034" class="">
+
+    								<div class="mui-media-body">
+    									英语能成为世界语言，中国话（汉语）有能力挤进世界语言吗？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av43276629?from=search&seid=9748438482537589012" class="">
+
+    								<div class="mui-media-body">
+    									中国美女老师教外国学生学汉语系列
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data184691"><p>中国大学哪些本科的外国语言与外国历史专业，是2018高考优秀考生报考的最佳选择呢？艾瑞深中国校友会网最新公布的2018本科专业排行榜中就有你想知道的答案，和小编一起来看看吧！</p><p><img alt="外国语言与外国历史专业大学排名" border="0" height="350" src="http://img.gaosan.com/upload/201711/6364512277745830456362234.jpg" style="width: 600px; height: 350px;" title="外国语言与外国历史专业大学排名" vspace="0" width="600"/></p><p><strong>在2018本科外国语言与外国历史专业排行榜中，北京大学雄居排行榜榜首，</strong>想知道全部的外国语言与外国历史专业排名请看下表：</p><h2><a>1</a><span>公办本科大学外国语言与外国历史专业排名</span></h2><table><colgroup><col width="43"/><col width="217"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td style="word-break: break-all;">北京大学</td><td>5星级</td><td>北京</td><td>1</td></tr></tbody></table><h2><a>1</a><span>外国语言与外国历史专业介绍</span></h2><p></p><p><img alt="24.jpg" src="http://img.gaosan.com/upload/201606/6360081126840265345851452.jpg" title="24.jpg"/></p><p>培养目标：通过学习，使学生获得良好的政治思想、道德品质、文化修养和身心素质教育，能够比较熟练地运用主修外语进行交流，具备较好的听、说、读、写、译等综合能力。通过世界历史的学习，了解人类文明的一般发展历程和世界历史研究的基本方法、学术史和最新动态，同时对主修国家和地区的历史、文化、政治、社会、军事、经济的概貌与特点有比较深入的认识，有较强的独立研究或实际工作能力。</p><p>就业前景：随着世界经济的全球化和我国对外开放程度的扩大，与外国机构及人员交流的机会越来越频繁，对外语类人才的需求也越来越大。虽然各高校都积极培养各种外语类人才，但是比起目前蓬勃增长的对外经济、文化交流的需求，其数量还是相对较少，的外语类人才在未来社会将受到各行各业的重视。</p><h2><a>1</a><span>北京大学<br/></span></h2><p></p><p>北京大学创办于1898年，初名京师大学堂，是中国第一所国立综合性大学，也是当时中国最高教育行政机关。辛亥革命后，于1912年改为现名。作为新文化运动的中心和“五四”运动的策源地，作为中国最早传播马克思主义和民主科学思想的发祥地，作为中国共产党最早的活动基地，北京大学为民族的振兴和解放、国家的建设和发展、社会的文明和进步做出了不可替代的贡献，在中国走向现代化的进程中起到了重要的先锋作用。爱国、进步、民主、科学的传统精神和勤奋、严谨、求实、创新的学风在这里生生不息、代代相传。</p><p><img alt="北京大学校门" src="http://img.gaosan.com/upload/webimg/1623.jpg" title="北京大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1898年</td><td>公立</td><td>综合</td><td>中华人民共和国教育部</td></tr></tbody></table><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

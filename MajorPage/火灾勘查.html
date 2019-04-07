@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>火灾勘查</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+火灾勘查</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    火灾勘查专业是一门主要研究火灾事故调查理论、技术、方法、刑事办案的学科，该专业具有多学科相互交叉性，其理论性和实践性都很强。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av38842115?from=search&seid=12421610430783195716" class="">
+								
+								<div class="mui-media-body">
+									【火灾事故案例】消防安全知识【自救常识】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av38796010?from=search&seid=12421610430783195716" class="">
+								
+								<div class="mui-media-body">
+									第一集 防止火灾事故
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av46076884?from=search&seid=12421610430783195716" class="">
+								
+								<div class="mui-media-body">
+									建筑弱电系统应用技术-火灾监控系统
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av21549258?from=search&seid=12421610430783195716" class="">
+								
+								<div class="mui-media-body">
+									【稳稳注册消防】精讲班1（上）： 火灾基础知识
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av43968690?from=search&seid=12421610430783195716" class="">
+								
+								<div class="mui-media-body">
+									消防工程师-火灾自动报警系统设计规范
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av47230236?from=search&seid=16383975408790700998" class="">
+
+    								<div class="mui-media-body">
+    									【谷阿莫Life】火灾时你要撞几下玻璃才能撞破跳楼逃生？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av46635789?from=search&seid=16383975408790700998" class="">
+
+    								<div class="mui-media-body">
+    									河南开封一小区由于电动车引发火灾，不是亲眼看到都无法相信火势的蔓延速度！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av21285449?from=search&seid=16383975408790700998" class="">
+
+    								<div class="mui-media-body">
+    									瞬间起火，无处逃生！俄商场火灾监控公布
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av37551147?from=search&seid=16383975408790700998" class="">
+
+    								<div class="mui-media-body">
+    									【非礼大合集】众人为了占便宜，制造火灾现场
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av2864419?from=search&seid=16383975408790700998" class="">
+
+    								<div class="mui-media-body">
+    									黑人大叔火灾中救出自己的烧烤肋排后接受采访 @柚子木字幕组
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data98231"><p>在2017-2018年度本科专业排行榜中，共涉及523个专业，其中开设高校数大于和等于5所的专业有393个；开设高校数最多的专业有英语748所、计算机科学与技术718所、视觉传达设计581所、市场营销572所、环境设计561所。</p><p><a href="http://www.gaosan.com/zhuanyepaiming/" target="_blank" title="大学专业排名">查看更多大学专业排名统计数据</a></p><p><img alt="232.jpg" src="http://img.gaosan.com/upload/201702/6362295350600550111869854.jpg" title="232.jpg"/></p><h2><a>1</a><span>火灾勘查专业排名</span></h2><p>截至2017年，全国开设火灾勘查专业的高校数为1所，在上述院校中，火灾勘查专业的排名如下：</p><table><tbody><tr class="firstRow"><td>专业排名</td><td>学校名称</td><td>星级排名</td></tr><tr><td>1</td><td>中国人民武装警察部队学院</td><td>3★</td></tr></tbody></table><h2><a>1</a><span>火灾勘查专业介绍</span></h2><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-11/b0f65766-eae8-4625-921d-1d9d7b744090.jpg" title="火灾勘查专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>公安技术类</td><td>未知<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">样本不足，无法分析</span></td><td>深圳市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">100%在深圳市工作</span></td><td>未知男---女--</td></tr></tbody></table><p>培养目标：火灾现场勘查、火灾刑事案件侦查、火场图像技术、火灾物证技术鉴定等知识和技能，熟悉消防监督的政策、法规和程序，具有独立从事火灾事故调查和办理刑事案件的能力的高级专门人才。</p><p>主要课程：行政法与行政诉讼法、火灾学、防火工程与技术、火灾证据学、火灾专案调查、火场图像技术、火灾物证技术鉴定、火灾现场勘查、火灾刑事案件侦查。</p><p>以上关于火灾勘查专业的排名数据，由中国科教评价网金平果排行榜独家发布，转载请注明出处。</p><script>content_end();</script><p class="xgyundu">高三网小编推荐你继续浏览：<script>authorCommend();</script><a href="/gaokao/46254.html">大学坑爹专业排行榜</a><a href="/gaokao/40853.html">理科女生学什么专业好</a><a href="/gaokao/74533.html">文科生可以报哪些专业</a><a href="/shequ/20816.html">大专有哪些专业</a><a href="/gaokao/48347.html">最难就业的十大专业</a></p></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

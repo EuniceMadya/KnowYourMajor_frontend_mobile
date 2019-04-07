@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>安全防范工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+安全防范工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    培养熟悉我国安全防范相关政策法规，掌握安全防范系统的构成、技术原理及工程设计方法，掌握解决各种环境下安全防范问题的基本手段，掌握保密技术基础知识及相关管理、技术手段，熟悉安全技术及管理知识，了解消防法规、消防安全技术和管理方法，具备安全防范技术与管理专业知识和技能的高级工程技术人才。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av30622113?from=search&seid=4084093336157277458" class="">
+								
+								<div class="mui-media-body">
+									【三人行不行S2】Vol.4 老白脸安全防范指南
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av7329670?from=search&seid=4084093336157277458" class="">
+								
+								<div class="mui-media-body">
+									现阶段智能家居的使用
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av7396242?from=search&seid=4084093336157277458" class="">
+								
+								<div class="mui-media-body">
+									科技发展之物联网家居
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av7407866?from=search&seid=4084093336157277458" class="">
+								
+								<div class="mui-media-body">
+									智能生活-智慧城市-家庭生活科技提供动力
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av30346885?from=search&seid=4084093336157277458" class="">
+								
+								<div class="mui-media-body">
+									【公开课】生物医药实验室安全知识（完）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av31095309?from=search&seid=11475398638831919799" class="">
+
+    								<div class="mui-media-body">
+    									【毕业特辑】公安大学夕阳红艺术团北戴河之旅
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av9072335?from=search&seid=11475398638831919799" class="">
+
+    								<div class="mui-media-body">
+    									21.消防及安全防范设备安装工程
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av25109191?from=search&seid=11860942090720148054" class="">
+
+    								<div class="mui-media-body">
+    									【加QQ294694033】2018一级建造师建筑李佳升4318工程安全生产隐患防范2
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av2840696?from=search&seid=15530868752835767759" class="">
+
+    								<div class="mui-media-body">
+    									【优雅地使用windows】软件使用经验和安全防范意识
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av4896899?from=search&seid=15530868752835767759" class="">
+
+    								<div class="mui-media-body">
+    									美国IIHS碰撞安全测试之各品牌的黑历史~【不定期更新】
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data98179"><p>在2017-2018年度本科专业排行榜中，共涉及523个专业，其中开设高校数大于和等于5所的专业有393个；开设高校数最多的专业有英语748所、计算机科学与技术718所、视觉传达设计581所、市场营销572所、环境设计561所。</p><p><a href="http://www.gaosan.com/zhuanyepaiming/" target="_blank" title="大学专业排名">查看更多大学专业排名统计数据</a></p><p><img alt="232.jpg" src="http://img.gaosan.com/upload/201702/6362295350600550111869854.jpg" title="232.jpg"/></p><h2><a>1</a><span>安全防范工程专业排名</span></h2><p>截至2017年，全国开设安全防范工程专业的高校数为3所，在上述院校中，安全防范工程专业的排名如下：</p><table><tbody><tr class="firstRow"><td>专业排名</td><td>学校名称</td><td>星级排名</td></tr><tr><td>1</td><td>中国人民公安大学</td><td>4★</td></tr><tr><td>2</td><td>甘肃政法学院</td><td>3★</td></tr></tbody></table><h2><a>1</a><span>安全防范工程专业介绍</span></h2><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-12/e6453596-e94c-43c8-820f-e8a35e0e0579.jpg" title="安全防范工程专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>公安技术类</td><td>未知<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">样本不足，无法分析</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">29%在北京市工作</span></td><td>男生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男71%-女29%</span></td></tr></tbody></table><p>培养目标：本专业培养熟练掌握有关法律法规和安全防范工程的基础理论、基本技能，从事安全防范工程技术工作的较高层次应用型专门人才。</p><p>主要课程：主要课程有政治理论、英语、计算机、法学概论、安全防范概论、安全防范法规、现代科技、安全防范技术、安全防范工程、危险品与违禁品处理、犯罪预防、事故预防等。</p><p>以上关于安全防范工程专业的排名数据，由中国科教评价网金平果排行榜独家发布，转载请注明出处。</p><script>content_end();</script><p class="xgyundu">高三网小编推荐你继续浏览：<script>authorCommend();</script><a href="/gaokao/46254.html">大学坑爹专业排行榜</a><a href="/gaokao/40853.html">理科女生学什么专业好</a><a href="/gaokao/74533.html">文科生可以报哪些专业</a><a href="/shequ/20816.html">大专有哪些专业</a><a href="/gaokao/48347.html">最难就业的十大专业</a></p></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

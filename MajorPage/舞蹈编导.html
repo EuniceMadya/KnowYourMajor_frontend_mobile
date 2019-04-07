@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>舞蹈编导</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+舞蹈编导</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    Choreographer，舞蹈（舞剧）作品创作、排练和演出过程中的组织者和领导者。其专业特点是“编”和“导”的紧密结合和高度统一。舞蹈艺术在表现手段上的特殊性是通过舞蹈动作来表达人物的思想感情和情节内容，塑造典型形象。在舞蹈创作中，创作者从深入生活捕捉舞蹈形象、创造和组织舞蹈语言、编排设计舞段，到将其艺术构思通过排练最终由演员体现于舞台之上，是一个不可分割的完整的艺术创作过程。因此，在舞蹈作品的创作过程中，编和导也是紧密相连不可分割的。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av20667475?from=search&seid=4024835085668476124" class="">
+								
+								<div class="mui-media-body">
+									【陈维亚编导《飞天》】大合集——飘飘九霄外，下视望仙宫
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av36295021?from=search&seid=4024835085668476124" class="">
+								
+								<div class="mui-media-body">
+									【舞蹈编导】传统舞蹈的现代性编创（王玫）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av14166697?from=search&seid=4024835085668476124" class="">
+								
+								<div class="mui-media-body">
+									【舞蹈 • 专场】南京艺术学院舞蹈学院编导系“踏舞留痕”原创作系列展演
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av11272195?from=search&seid=4024835085668476124" class="">
+								
+								<div class="mui-media-body">
+									【舞剧】《大梦敦煌&lt;2000年版&gt;》（编导陈维亚；领舞刘震、刘晶等）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av9863530?from=search&seid=4024835085668476124" class="">
+								
+								<div class="mui-media-body">
+									【古典舞编导大神合集】第一弹——北京舞蹈学院胡岩
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av16871029?from=search&seid=147241441547709238" class="">
+
+    								<div class="mui-media-body">
+    									【古典舞】群舞《楚腰》&lt;青莲班&gt;（编导孙颖）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av8277361?from=search&seid=147241441547709238" class="">
+
+    								<div class="mui-media-body">
+    									【周丽君&amp;张娅姝】中国好舞蹈超美双人舞 《尤物》（金星编导）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av32557740?from=search&seid=147241441547709238" class="">
+
+    								<div class="mui-media-body">
+    									【《邵多丽》傣族三人舞】编导：赵梁；表演：王锦、崔美英、刘晓智（中央民族歌舞团）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av31575272?from=search&seid=147241441547709238" class="">
+
+    								<div class="mui-media-body">
+    									【华云舞蹈工作室】原创舞蹈剧目《芳华》，编导：舒晓黎老师
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av16836373?from=search&seid=147241441547709238" class="">
+
+    								<div class="mui-media-body">
+    									古典舞身韵【行云】《舞蹈世界20170310》星海音乐学院舞蹈学院 编导：赵文婷
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data141208"><p style="text-align:center"><img alt="舞蹈编导专业" border="0" height="350" hspace="0" src="http://img.gaosan.com/upload/zhuanye/1/892.jpg" style="width: 600px; height: 350px;" title="" vspace="0" width="600"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>音乐与舞蹈学类</td><td>￥4730<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过5%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">17%在北京市工作</span></td><td>女生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男30%-女70%</span></td></tr></tbody></table><p>培养目标：本专业培养能在专业表演团体、学校、科研单位、演艺机构等从事中国舞、芭蕾舞、现代舞等舞蹈、舞剧编导以及教学与研究工作的高级专门人才。</p><p>主要课程：舞蹈编导、舞蹈基本功训练、现代舞技术、舞蹈组合训练、舞蹈剧目分析、舞蹈创作实习、音乐(钢琴、曲式分析)、舞蹈编导理论、现代舞专业基础课程、现代舞课程等。</p><p>就业方向：舞蹈编导专业学生毕业后可在专业表演团体、学校、科研单位、演艺机构等从事中国舞、芭蕾舞、现代舞等舞蹈、舞剧编导以及教学与研究工作。</p><h2><a>1</a><span>2018最新舞蹈编导专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>北京舞蹈学院</td><td>5★</td><td>62</td></tr><tr><td>2</td><td>湖南文理学院</td><td>5★</td><td>62</td></tr><tr><td>3</td><td>山东大学</td><td>5★</td><td>62</td></tr><tr><td>4</td><td>浙江传媒学院</td><td>4★</td><td>62</td></tr><tr><td>5</td><td>西安音乐学院</td><td>4★</td><td>62</td></tr></tbody></table><h2><a>1</a><span>舞蹈编导专业排名大学介绍</span></h2><p>北京舞蹈学院创办于1954年。目前，学院在编教职员工近600人，全日制在校生约2500人，继续教育学院在校函授生约700人、进修生2600余人，舞蹈考级教育学院每年在海内外培训舞蹈考级师资3万余人，有近30万学生参加舞蹈等级考试。</p><p><img alt="北京舞蹈学院校门" src="http://img.gaosan.com/upload/webimg/3085.jpg" title="北京舞蹈学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1954年</td><td>公立</td><td>艺术</td><td>北京市教育委员会</td></tr></tbody></table><p>湖南文理学院是一所多学科全日制普通本科院校，至今已有近六十年的办学历史。学校占地面积1791亩，校舍建筑总面积近47.8万㎡；图书馆藏纸质图书154.3万册，电子图书164万种。现有18个教学院、2个教学部、1个独立学院，51个本科专业，涵盖文、理、工、农、史、法、经、管、教、艺十大学科门类。学校面向全国31个省（市、自治区）招生，在校全日制本科生25000余人。</p><p><img alt="湖南文理学院校门" src="http://img.gaosan.com/upload/webimg/2044.jpg" title="湖南文理学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1958年</td><td>公立</td><td>综合</td><td>湖南省教育厅</td></tr></tbody></table><p>山东大学是国家“211工程”和“985工程”重点建设的高水平大学之一。山东大学是中国近代高等教育的起源性大学。其医学学科起源于1864年，为近代中国高等教育历史之最。其主体是1901年创办的山东大学堂，是继京师大学堂之后中国创办的第二所国立大学，也是中国第一所按章程办学的大学。</p><p><img alt="山东大学校门" src="http://img.gaosan.com/upload/webimg/1651.jpg" title="山东大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1901年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>浙江传媒学院是国家新闻出版广电总局和浙江省人民政府共建高校，是目前全国培养广播影视及其他传媒专门人才的主要基地之一。学校拥有两个校区，分别坐落于素有“人间天堂”美誉的杭州市和江南名城桐乡市。学校总占地1286亩，总建筑面积近61万平方米。其中，下沙校区占地786亩，建筑面积近45万平方米；桐乡校区占地500亩，建筑面积16万平方米。</p><p><img alt="浙江传媒学院校门" src="http://img.gaosan.com/upload/webimg/2413.jpg" title="浙江传媒学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1978年</td><td>公立</td><td>语言</td><td>浙江省人民政府</td></tr></tbody></table><p>西安音乐学院坐落于世界历史文化名城古都西安。学院隶属陕西省教育厅，是一所培养音乐舞蹈艺术专门人才的全日制普通高等学校，是全国9所独立设置的音乐专业院校之一，也是西北地区唯一一所独立建制的高等音乐学府。近年来，学院不断加强业余音乐培训，已成为西北地区社会音乐推广中心。现有全日制学生4750人，其中，本科生3836人、研究生420人、附中学生494人。</p><p><img alt="西安音乐学院校门" src="http://img.gaosan.com/upload/webimg/2862.jpg" title="西安音乐学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1949年</td><td>公立</td><td>艺术</td><td>陕西省人民政府</td></tr></tbody></table><p>　　以上2018年舞蹈编导专业大学排名舞蹈编导专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

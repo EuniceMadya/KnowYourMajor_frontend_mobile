@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>理学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+理学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    理学又名为道学，两宋时期产生的主要哲学流派。理学是中国古代最为精致、最为完备的理论体系，其影响至深至巨。理学的天理是道德神学，同时成为儒家神权和王权的合法性依据， 理学以儒家学说为中心，兼容佛道两家的哲学理论，论证了封建纲常名教的合理性和永恒性，至南宋末期 被采纳为官方哲学。重要的理学家有北宋五子、南宋的杨时、朱熹、陆九渊、林希逸以及元朝吴澄、许衡、刘因、 郝经、姚枢，廉希宪，张文谦，刘秉忠、赵汸、汪克宽、华幼武、吴海、戴良、李祁、张宪、梁寅、苏天爵、张昶等等、明朝湛若水、王阳明、朱得之等，广义上包含三苏、王安石、司马光等人。他们哲学的中心观念是“理”，把“理”说成是产生世界万物的精神的东西。理学的出现对后世政治文化产生了深远影响。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av30992516?from=search&seid=9493548260903976881" class="">
+								
+								<div class="mui-media-body">
+									伍光和《自然地理学》考研
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av9781864?from=search&seid=9493548260903976881" class="">
+								
+								<div class="mui-media-body">
+									【哈佛大学公开课】幸福课（积极心理学）【心理学】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av23164751?from=search&seid=9493548260903976881" class="">
+								
+								<div class="mui-media-body">
+									药理学 自用
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av5735619?from=search&seid=9493548260903976881" class="">
+								
+								<div class="mui-media-body">
+									北京大学公开课：法理学
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av29575641?from=search&seid=9493548260903976881" class="">
+								
+								<div class="mui-media-body">
+									2019刘忠保（宝）考研生理学视频
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av47199728?from=search&seid=3063950713951882089" class="">
+
+    								<div class="mui-media-body">
+    									Youtube播放量超千万：梅西还是人类吗？梅西的15个非人类壮举——最后一个违反物理学？！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av38844736?from=search&seid=3063950713951882089" class="">
+
+    								<div class="mui-media-body">
+    									【永动机】我物理学的不好，这到底是不是真的？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av14568890?from=search&seid=3063950713951882089" class="">
+
+    								<div class="mui-media-body">
+    									人死后的世界不存在？科学家感叹目前的物理学不够用！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av15226372?from=search&seid=3063950713951882089" class="">
+
+    								<div class="mui-media-body">
+    									心理学告诉你怎么知道女生是不是喜欢你
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av22511679?from=search&seid=3063950713951882089" class="">
+
+    								<div class="mui-media-body">
+    									越优秀的人，往往越不合群？ ｜人际心理学#5｜阅部客
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data7878"><div class="lcontent"><p>哪些大学开设了理学专业？哪个学校理学专业实力比较强？下面小编整理了理学专业大学的排名，供大家参考！</p><p><img alt="理学类专业大学排名" border="0" height="375" src="http://img.gaosan.com/upload/201805/6366312158957923923215589.jpg" style="width: 600px; height: 375px;" title="理学类专业大学排名" vspace="0" width="600"/></p><p><strong>理学专业高校排行榜</strong><br/></p><p>在最新公布的理学专业大学排名中，最好的学校是排名第一的北京大学，其次是南京大学排名第二。下面是具体排名：</p><table><colgroup><col width="44"/><col width="243"/><col width="89"/><col width="48"/></colgroup><tbody><tr class="firstRow"><td>排名</td><td>学校名称</td><td>星级</td><td>学校数</td></tr><tr><td>1</td><td style="word-break: break-all;">北京大学</td><td>5★+</td><td>705</td></tr><tr><td>2</td><td>南京大学</td><td>5★+</td><td>705</td></tr><tr><td>3</td><td>北京师范大学</td><td>5★+</td><td>705</td></tr><tr><td>4</td><td>复旦大学</td><td>5★+</td><td>705</td></tr><tr><td>5</td><td>吉林大学</td><td>5★+</td><td>705</td></tr><tr><td>6</td><td>南开大学</td><td>5★+</td><td>705</td></tr><tr><td>7</td><td>浙江大学</td><td>5★+</td><td>705</td></tr><tr><td>8</td><td>武汉大学</td><td>5★</td><td>705</td></tr><tr><td>9</td><td>清华大学</td><td>5★</td><td>705</td></tr><tr><td>10</td><td>中国科学技术大学</td><td>5★</td><td>705</td></tr><tr><td>11</td><td>中山大学</td><td>5★</td><td>705</td></tr><tr><td>12</td><td>华东师范大学</td><td>5★</td><td>705</td></tr><tr><td>13</td><td>四川大学</td><td>5★</td><td>705</td></tr><tr><td>14</td><td>厦门大学</td><td>5★</td><td>705</td></tr><tr><td>15</td><td>山东大学</td><td>5★</td><td>705</td></tr><tr><td>16</td><td>兰州大学</td><td>5★</td><td>705</td></tr><tr><td>17</td><td>上海交通大学</td><td>5★</td><td>705</td></tr><tr><td>18</td><td>东北师范大学</td><td>5★</td><td>705</td></tr><tr><td>19</td><td>陕西师范大学</td><td>5★</td><td>705</td></tr><tr><td>20</td><td>华中科技大学</td><td>5★</td><td>705</td></tr><tr><td>21</td><td>南京师范大学</td><td>5★</td><td>705</td></tr><tr><td>22</td><td>西北大学</td><td>5★</td><td>705</td></tr><tr><td>23</td><td>华南师范大学</td><td>5★</td><td>705</td></tr><tr><td>24</td><td>华中师范大学</td><td>5★</td><td>705</td></tr><tr><td>25</td><td>西南大学</td><td>5★</td><td>705</td></tr><tr><td>26</td><td>中南大学</td><td>5★</td><td>705</td></tr><tr><td>27</td><td>首都师范大学</td><td>5★</td><td>705</td></tr><tr><td>28</td><td>中国地质大学(武汉)</td><td>5★</td><td>705</td></tr><tr><td>29</td><td>中国农业大学</td><td>5★</td><td>705</td></tr><tr><td>30</td><td>云南大学</td><td>5★</td><td>705</td></tr></tbody></table><p>注：以上理学专业大学排行榜信息来源于中国科教评价网，供大家参考！</p><p><strong>北京大学介绍</strong></p><p>北京大学创办于1898年，初名京师大学堂，是中国第一所国立综合性大学，也是当时中国最高教育行政机关。辛亥革命后，于1912年改为现名。</p><p>作为新文化运动的中心和“五四”运动的策源地，作为中国最早传播马克思主义和民主科学思想的发祥地，作为中国共产党最早的活动基地，北京大学为民族的振兴和解放、国家的建设和发展、社会的文明和进步做出了不可替代的贡献，在中国走向现代化的进程中起到了重要的先锋作用。</p><p>以上理学专业大学排名由高三网小编整理，仅供考生和家长参考，想知道更多关于理学专业的信息，请关注高三网。</p><script>content_end();</script></div></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

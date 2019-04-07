@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>飞行器质量与可靠性</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+飞行器质量与可靠性</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    飞行器质量与可靠性工程专业是教育部新批准的急需专业，是国内唯一的可靠性系统工程专业方向，而且本学科具有较强的交叉性、综合性和实践性特点。 </h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av18890276?from=search&seid=8219056944455154317" class="">
+								
+								<div class="mui-media-body">
+									[纪录片]]飞行器史话 Reaching for the Skies（12集原声无字幕）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av7568336?from=search&seid=8219056944455154317" class="">
+								
+								<div class="mui-media-body">
+									【苏联之翼】苏联飞行器发展史
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av45380652?from=search&seid=8219056944455154317" class="">
+								
+								<div class="mui-media-body">
+									从C919看中国民用飞行器的发展与突破【6集】(艾剑良：复旦大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av4965427?from=search&seid=8219056944455154317" class="">
+								
+								<div class="mui-media-body">
+									飞行器构造工程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av31983480?from=search&seid=8219056944455154317" class="">
+								
+								<div class="mui-media-body">
+									SpaceX的“大猎鹰”飞行器与首位环月飞行旅客
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av2940650?from=search&seid=4590079626495705895" class="">
+
+    								<div class="mui-media-body">
+    									四轴飞行器超神操作（建议全屏 )
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10920695?from=search&seid=4590079626495705895" class="">
+
+    								<div class="mui-media-body">
+    									葡萄牙杯工作人员脚踩飞行器送球 这出场方式真拉风
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av47184955?from=search&seid=4590079626495705895" class="">
+
+    								<div class="mui-media-body">
+    									中国造世界最高速风洞，以此研发的飞行器，1小时打遍全球
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24496394?from=search&seid=4590079626495705895" class="">
+
+    								<div class="mui-media-body">
+    									设计并制作一个单旋翼自稳飞行器
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av38658481?from=search&seid=4590079626495705895" class="">
+
+    								<div class="mui-media-body">
+    									『飞行器』从迪拜起飞的A380
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data112846"><p>截至目前，开设飞行器质量与可靠性专业的大学共计4所，在这些高校中，飞行器质量与可靠性专业最好的大学有：</p><h2><a>1</a><span>北京航空航天大学</span></h2><p>北京航空航天大学（简称北航）成立于1952年，由当时的清华大学、北洋大学、<a href="/gaokao/168986.html" target="_blank">厦门大学</a>、四川大学等八所院校的航空系合并组建，是新中国第一所航空航天高等学府，现隶属于工业和信息化部。学校分为学院路校区和沙河校区，占地3000亩，总建筑面积150余万平方米。北航一直是国家重点建设的高校，是全国第一批16所重点高校之一，是首批进入“211工程”，2001年进入“985工程”。</p><p><img alt="北京航空航天大学校门" src="http://img.gaosan.com/upload/webimg/1622.jpg" title="北京航空航天大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1952年</td><td>公立</td><td>综合</td><td>工信部</td></tr></tbody></table><h2><a>1</a><span>沈阳航空航天大学</span></h2><p>沈阳航空航天大学是一所以航空宇航为特色，以工为主，工、理、文、经、管等学科协调发展的多科性高等院校，是教育部、中航工业集团公司与辽宁省三方共建高校，是国防科工局与辽宁省共建高校，是空军依托培养后备军官的全国18所地方院校之一。学校始建于1952年，是原航空工业部所属的6所本科航空院校之一，学校于2010年3月正式更名为“沈阳航空航天大学”。<br/></p><p><img alt="沈阳航空航天大学校门" src="http://img.gaosan.com/upload/webimg/1966.jpg" title="沈阳航空航天大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1952年</td><td>公立</td><td>工科</td><td>辽宁省教育厅</td></tr></tbody></table><h2><a>1</a><span>郑州航空工业管理学院</span></h2><p>郑州航空工业管理学院是一所全日制普通本科院校。2009年，顺利通过硕士单位立项建设评审，2013年，国务院学位委员会第三十次会议审批通过我校新增为硕士学位授予单位，学校办学水平上了一个新的台阶。在60多年的办学历程中，形成了“管理学科为主，管理学与工学密切结合”的人才培养特色。学校现已建设成为管理学科优势明显，多学科协调发展，培养复合型应用人才的重要基地。</p><p><img alt="郑州航空工业管理学院校门" src="http://img.gaosan.com/upload/webimg/2141.jpg" title="郑州航空工业管理学院校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1949年</td><td>公立</td><td>财经</td><td>河南省人民政府</td></tr></tbody></table><p>以上关于飞行器质量与可靠性专业的排名数据，参考自中国科教评价网金平果排行榜，由高三网重新整理发布，转载请注明出处。</p><script>content_end();</script><p class="xgyundu">高三网小编推荐你继续浏览：<script>authorCommend();</script><a href="/gaokao/72865.html">2017年高考最受欢迎的十大专业</a><a href="/gaokao/74670.html">盘点未来最吃香的十大专业</a><a href="/gaokao/76737.html">女生最吃香的十大专业</a><a href="/gaokao/78276.html">女生最容易就业的十大专业</a><a href="/gaokao/48347.html">最难就业的十大专业</a></p></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

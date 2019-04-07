@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>医学信息工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+医学信息工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    医学信息工程是一门以信息科学和生命科学为主的多学科交叉与融合的新兴综合性学科；是电子、计算机、通信、智能仪器、传感检测、医学仪器以及生物学、现代医学等在生命科学中的应用与融合。培养生物医学信息采集、传输、处理、分析、存储及研制新型生物医疗电子、信息仪器等方面的专业性、实用性且具有宽广的知识面、较强的综合应用能力的实用性人才。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av35651619?from=search&seid=9564360053254826265" class="">
+								
+								<div class="mui-media-body">
+									北京大学生物信息学(中文版) 公开课
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av43015770?from=search&seid=9564360053254826265" class="">
+								
+								<div class="mui-media-body">
+									人因工程学（东北大学）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av41289640?from=search&seid=9564360053254826265" class="">
+								
+								<div class="mui-media-body">
+									通信电子线路【103集】(王怀阳：中国海洋大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av12135457?from=search&seid=9564360053254826265" class="">
+								
+								<div class="mui-media-body">
+									全国医学信息技术考试实操课
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av42278524?from=search&seid=9564360053254826265" class="">
+								
+								<div class="mui-media-body">
+									数字电路与系统（大连理工大学）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10308119?from=search&seid=18110203267745392064" class="">
+
+    								<div class="mui-media-body">
+    									对湖南中医药大学医学信息工程专业,你知道多少？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10306641?from=search&seid=18110203267745392064" class="">
+
+    								<div class="mui-media-body">
+    									报考广州中医药大学医学信息工程专业你需要了解这些
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10519162?from=search&seid=18110203267745392064" class="">
+
+    								<div class="mui-media-body">
+    									广州中医药大学医学信息工程专业怎么样？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av23503844?from=search&seid=18110203267745392064" class="">
+
+    								<div class="mui-media-body">
+    									LiU国际硕士专业之生物医学工程
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av27772889?from=search&seid=18110203267745392064" class="">
+
+    								<div class="mui-media-body">
+    									【生物/基因工程】基因编辑工具 CRISPR-Cas9
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data184198"><p>中国大学哪些本科的医学信息工程专业跻身2018世界一流、世界高水平、中国顶尖和中国一流专业行列？艾瑞深中国校友会网最新公布的2018本科专业排行榜中就有你想知道的答案，和小编一起来看看吧！</p><p><img alt="医学信息工程专业大学排名" border="0" height="370" src="http://img.gaosan.com/upload/201710/6364489237472562355680379.jpg" style="width: 600px; height: 370px;" title="医学信息工程专业大学排名" vspace="0" width="600"/></p><p>在2018本科医学信息工程专业排行榜中，四川大学雄居排行榜榜首，杭州电子科技大学、辽宁中医药大学紧随其后，占据第二、第三名。全部排名数据请看下表：</p><h2><a>1</a><span>本科大学医学信息工程专业排名</span></h2><table><colgroup><col width="41"/><col width="170"/><col width="72"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>四川大学</td><td>5星级</td><td>四川</td><td>1</td></tr><tr><td>2</td><td>杭州电子科技大学</td><td>4星级</td><td>浙江</td><td>1</td></tr><tr><td>2</td><td>辽宁中医药大学</td><td>4星级</td><td>辽宁</td><td>1</td></tr><tr><td>2</td><td>湖北中医药大学</td><td>4星级</td><td>湖北</td><td>1</td></tr><tr><td>5</td><td>湖南中医药大学</td><td>3星级</td><td>湖南</td><td>1</td></tr><tr><td>5</td><td>济宁医学院</td><td>3星级</td><td>山东</td><td>1</td></tr><tr><td>5</td><td>遵义医学院</td><td>3星级</td><td>贵州</td><td>1</td></tr><tr><td>5</td><td>中南民族大学</td><td>3星级</td><td>湖北</td><td>2</td></tr><tr><td>5</td><td>泰山医学院</td><td>3星级</td><td>山东</td><td>1</td></tr><tr><td>5</td><td>徐州医科大学</td><td>3星级</td><td>江苏</td><td>1</td></tr><tr><td>5</td><td>黑龙江中医药大学</td><td>3星级</td><td>黑龙江</td><td>1</td></tr><tr><td>5</td><td>浙江中医药大学</td><td>3星级</td><td>浙江</td><td>2</td></tr><tr><td>5</td><td>广州中医药大学</td><td>3星级</td><td>广东</td><td>1</td></tr><tr><td>5</td><td>甘肃中医药大学</td><td>3星级</td><td>甘肃</td><td>1</td></tr><tr><td>5</td><td>成都中医药大学</td><td>3星级</td><td>四川</td><td>2</td></tr></tbody></table><h2><a>1</a><span>民办大学医学信息工程专业排名</span></h2><table><colgroup><col width="41"/><col width="170"/><col width="72"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>西安培华学院</td><td>3星级</td><td>陕西</td><td>1</td></tr></tbody></table><h2><a>1</a><span>独立学院医学信息工程专业排名</span></h2><table><colgroup><col width="41"/><col width="170"/><col width="72"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>大连医科大学中山学院</td><td>3星级</td><td>辽宁</td><td>1</td></tr><tr><td>1</td><td>北京中医药大学东方学院</td><td>3星级</td><td>河北</td><td>1</td></tr></tbody></table><p>艾瑞深中国校友会网2018中国大学本科专业排行榜专业星级划分：中国九星级专业：世界顶尖专业；中国八星级专业：世界一流、中国最顶尖专业；中国七星级专业：世界知名高水平、中国顶尖专业；中国六星级专业：世界高水平、中国顶尖专业；中国五星级专业：世界知名、中国一流专业；中国四星级专业：中国高水平专业；中国三星级专业：中国知名、区域一流专业；中国二星级专业：中国区域高水平专业；中国一星级专业：中国区域知名专业。</p><h2><a>1</a><span>医学信息工程专业介绍</span></h2><p></p><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-07/309aaf91-07af-4b22-b8b9-da0f3f67dc52.jpg" title="医学信息工程"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>电子信息类</td><td>￥7741<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过79%的专业</span></td><td>成都市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">14%在成都市工作</span></td><td>男生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男65%-女35%</span></td></tr></tbody></table><p>培养目标：培养适应社会主义建设和医药信息化发展需要的德、智、体、美全面发展的、掌握计算机科学与技术和医药学的基本知识、基本理论及基本技能、具备利用信息技术进行医药科学研究的基础能力、能从事医药领域信息系统的开发、维护、测评的软件工程技术人才。</p><p>主要课程：计算机科学、医药学、电路、模拟电子技术、数字电子技术、电磁场与电磁波、信号与系统、数字信号处理、数据结构、操作系统、微机原理及应用、程序设计语言、数据库技术、生理解剖、医学信息、医学传感检测、医学仪器、医学信号及图像、生物系统及建模、计算机网络与通信控制系统等。</p><p>就业方向：医学信息工程专业毕业生可从事生物医学信息工程、医学仪器设备研发的高新技术企业，以及其它电子、计算机、信息、生物等领域的高新技术企业、高等院校、科研单位、商检等部门。此外，医学信息工程专业毕业生还可以在政府医药卫生部门，各级各类医疗机构、社会医药相关事业机构、医药软件开发企业、研究机构、医药企业等部门求职。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

@@ -1,0 +1,196 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>冶金工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+冶金工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    冶金工程专业是一门研究成有良好使用性从矿石中提取有价金属或其化合物并进行加工能材料的应用性学科，培养的是冶金工程领域科学研究与开发应用、工程设计与实施、技术攻关与技术改造、新技术推广与应用、工程规划与冶金企业管理等方面的专门人才。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av43027399?from=search&seid=13494199258300486249" class="">
+								
+								<div class="mui-media-body">
+									冶金学（东北大学）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av31996353?from=search&seid=13494199258300486249" class="">
+								
+								<div class="mui-media-body">
+									【公开课】冶金学（完）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av33848030?from=search&seid=13494199258300486249" class="">
+								
+								<div class="mui-media-body">
+									西南交通大学南国相声社2018迎新专场
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av6531060?from=search&seid=13494199258300486249" class="">
+								
+								<div class="mui-media-body">
+									【票圈】【工程技术】【共5集】《古代冶金与中华文明》北京科技大学公开课&amp;微博@票圈
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av15977597?from=search&seid=9394794781790301613" class="">
+
+    								<div class="mui-media-body">
+    									冶金1503班《冶金工程概论》铜冶金的发展概况
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av23233573?from=search&seid=9394794781790301613" class="">
+
+    								<div class="mui-media-body">
+    									安徽工业大学冶金工程学院合唱《保卫黄河》
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10786555?from=search&seid=9394794781790301613" class="">
+
+    								<div class="mui-media-body">
+    									历史会说话第二季·第三集 预告片：宋朝科技/中国四大发明为何集中诞生于宋朝？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10454129?from=search&seid=9394794781790301613" class="">
+
+    								<div class="mui-media-body">
+    									东北大学冶金学院能源与动力工程专业怎么样？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av6355107?from=search&seid=9189474295794029768" class="">
+
+    								<div class="mui-media-body">
+    									【中南大学2016新生微电影】青蛙日记
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data184066"><p>中国大学哪些本科的冶金工程专业跻身2018世界一流、世界高水平、中国顶尖和中国一流专业行列？艾瑞深中国校友会网最新公布的2018本科专业排行榜中就有你想知道的答案，和小编一起来看看吧！</p><p><img alt="冶金工程专业全国大学排名" border="0" height="350" src="http://img.gaosan.com/upload/201710/6364486927197122349526826.jpg" style="width: 600px; height: 350px;" title="冶金工程专业全国大学排名" vspace="0" width="600"/></p><p>在2018本科冶金工程专业排行榜中，<a href="/gaokao/169008.html" target="_blank">中南大学</a>雄居排行榜榜首，东北大学、北京科技大学紧随其后，占据第二、第三名。昆明理工大学位列第四名，上海大学位列第五名，全部排名数据请看下表：</p><h2><a>1</a><span>本科大学冶金工程专业排名</span></h2><table><colgroup><col width="72"/><col width="163"/><col width="72"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>中南大学</td><td>8星级</td><td>湖南</td><td>1</td></tr><tr><td>2</td><td>东北大学</td><td>7星级</td><td>辽宁</td><td>1</td></tr><tr><td>2</td><td>北京科技大学</td><td>7星级</td><td>北京</td><td>1</td></tr><tr><td>4</td><td>昆明理工大学</td><td>7星级</td><td>云南</td><td>1</td></tr><tr><td>5</td><td>上海大学</td><td>6星级</td><td>上海</td><td>1</td></tr><tr><td>5</td><td>重庆大学</td><td>6星级</td><td>重庆</td><td>1</td></tr><tr><td>7</td><td>内蒙古科技大学</td><td>5星级</td><td>内蒙古</td><td>1</td></tr><tr><td>7</td><td>辽宁科技大学</td><td>5星级</td><td>辽宁</td><td>2</td></tr><tr><td>7</td><td>江西理工大学</td><td>5星级</td><td>江西</td><td>1</td></tr><tr><td>7</td><td>安徽工业大学</td><td>5星级</td><td>安徽</td><td>1</td></tr><tr><td>7</td><td>武汉科技大学</td><td>5星级</td><td>湖北</td><td>1</td></tr><tr><td>7</td><td>华南理工大学</td><td>5星级</td><td>广东</td><td>1</td></tr><tr><td>7</td><td>河南科技大学</td><td>5星级</td><td>河南</td><td>1</td></tr><tr><td>14</td><td>华北理工大学</td><td>4星级</td><td>河北</td><td>1</td></tr><tr><td>14</td><td>西安建筑科技大学</td><td>4星级</td><td>陕西</td><td>1</td></tr><tr><td>14</td><td>桂林理工大学</td><td>4星级</td><td>广西</td><td>1</td></tr><tr><td>14</td><td>太原理工大学</td><td>4星级</td><td>山西</td><td>1</td></tr><tr><td>14</td><td>山东理工大学</td><td>4星级</td><td>山东</td><td>1</td></tr><tr><td>14</td><td>广西大学</td><td>4星级</td><td>广西</td><td>1</td></tr><tr><td>14</td><td>四川大学</td><td>4星级</td><td>四川</td><td>1</td></tr><tr><td>21</td><td>辽宁科技学院</td><td>4星级</td><td>辽宁</td><td>3</td></tr><tr><td>21</td><td>重庆科技学院</td><td>4星级</td><td>重庆</td><td>2</td></tr><tr><td>21</td><td>内蒙古工业大学</td><td>4星级</td><td>内蒙古</td><td>2</td></tr><tr><td>21</td><td>河北科技大学</td><td>4星级</td><td>河北</td><td>2</td></tr><tr><td>21</td><td>贵州大学</td><td>4星级</td><td>贵州</td><td>1</td></tr><tr><td>26</td><td>青海大学</td><td>3星级</td><td>青海</td><td>1</td></tr><tr><td>27</td><td>首钢工学院</td><td>3星级</td><td>北京</td><td>2</td></tr><tr><td>27</td><td>兰州理工大学</td><td>3星级</td><td>甘肃</td><td>1</td></tr><tr><td>27</td><td>太原科技大学</td><td>3星级</td><td>山西</td><td>2</td></tr><tr><td>27</td><td>攀枝花学院</td><td>3星级</td><td>四川</td><td>2</td></tr><tr><td>27</td><td>湖南工业大学</td><td>3星级</td><td>湖南</td><td>2</td></tr></tbody></table><h2><a>1</a><span>独立学院冶金工程专业排名</span></h2><table><colgroup><col width="72"/><col width="163"/><col width="72"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>江西理工大学应用科学学院</td><td>5星级</td><td>江西</td><td>1</td></tr><tr><td>2</td><td>兰州理工大学技术工程学院</td><td>4星级</td><td>甘肃</td><td>1</td></tr><tr><td>2</td><td>西安建筑科技大学华清学院</td><td>4星级</td><td>陕西</td><td>1</td></tr><tr><td>2</td><td>华北理工大学轻工学院</td><td>4星级</td><td>河北</td><td>1</td></tr><tr><td>5</td><td>江苏大学京江学院</td><td>3星级</td><td>江苏</td><td>1</td></tr><tr><td>5</td><td>太原理工大学现代科技学院</td><td>3星级</td><td>山西</td><td>1</td></tr></tbody></table><p>艾瑞深中国校友会网2018中国大学本科专业排行榜专业星级划分：中国九星级专业：世界顶尖专业；中国八星级专业：世界一流、中国最顶尖专业；中国七星级专业：世界知名高水平、中国顶尖专业；中国六星级专业：世界高水平、中国顶尖专业；中国五星级专业：世界知名、中国一流专业；中国四星级专业：中国高水平专业；中国三星级专业：中国知名、区域一流专业；中国二星级专业：中国区域高水平专业；中国一星级专业：中国区域知名专业。</p><h2><a>1</a><span>冶金工程专业介绍<br/></span></h2><p></p><p><img alt="冶金工程专业" src="http://img.gaosan.com/upload/zhuanye/1/1156.jpg"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>材料类</td><td>￥6065<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过31%的专业</span></td><td>上海市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">12%在上海市工作</span></td><td>男生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男87%-女13%</span></td></tr></tbody></table><p>培养目标：本专业培养具备冶金物理化学、钢铁冶金和有色金属冶金等方面的知识。能在冶金领域从事生产、设计、科研和管理工作的高级工程技术人才。</p><p>主要课程：物理化学、金属学、冶金传输原理、冶金原理、钢铁冶金学、有色金属冶金学。</p><p>就业方向：毕业生可以到冶金、化工、材料、环境保护及其相关行业的生产、科研和管理部门从事生产技术管理、工程设计、技术开发、新型结构材料和功能材料的研制和开发等工作，也可以到高等院校和高等职业学校从事专业教学工作。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

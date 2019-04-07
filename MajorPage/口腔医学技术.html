@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>口腔医学技术</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+口腔医学技术</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    口腔医学技术是国家教育部规定的相关高职高专院校招生专业名称，旨在培育学生专业核心能力——口腔修复工艺技术的基本操作技能。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    专业核心课程和主要实践环节：口腔解剖生理学、口腔内科、口腔外科、口腔正畸学、口腔修复材料、口腔修复工艺、口腔医学、口腔美学、口腔修复工艺实训、口腔科见习、毕业实习等，以及各校主要特色课程和实践环节。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av22587448?from=search&seid=14507043367985061735" class="">
+								
+								<div class="mui-media-body">
+									口腔综合《口腔解剖生理学》考点精讲
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av6347761?from=search&seid=14507043367985061735" class="">
+								
+								<div class="mui-media-body">
+									【票圈】【农林医药】【共8集】《口腔常见疾病的诊治》石河子大学公开课&amp;微博@票圈
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av14438089?from=search&seid=14507043367985061735" class="">
+								
+								<div class="mui-media-body">
+									瓷粘接技术
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av15087554?from=search&seid=14507043367985061735" class="">
+								
+								<div class="mui-media-body">
+									根管治疗图谱 （上）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av29151066?from=search&seid=14507043367985061735" class="">
+								
+								<div class="mui-media-body">
+									深圳职业技术学院口腔固定修复工艺技术37集
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av27534699?from=search&seid=16217012544841523459" class="">
+
+    								<div class="mui-media-body">
+    									牙齿正畸案例分析
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av28482129?from=search&seid=16217012544841523459" class="">
+
+    								<div class="mui-media-body">
+    									牙贴面的全过程，啥玩意儿啊，有丶厉害啊
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av34682746?from=search&seid=16217012544841523459" class="">
+
+    								<div class="mui-media-body">
+    									佛山科学技术学院口腔医学院口腔医学专业17口腔医学2团支部
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av35935173?from=search&seid=16217012544841523459" class="">
+
+    								<div class="mui-media-body">
+    									佛山科学技术学院口腔医学院17口腔医学2支部风采
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av35917434?from=search&seid=16217012544841523459" class="">
+
+    								<div class="mui-media-body">
+    									佛山科学技术学院口腔医学院17口腔医学2团员心声
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data184942"><p>中国大学哪些本科的口腔医学技术专业，是2018高考优秀考生报考的最佳选择呢？和小编一起来看看吧！</p><p><img alt="口腔医学技术专业大学排名" border="0" height="350" src="http://img.gaosan.com/upload/201711/6364514682613294383853457.png" style="width: 600px; height: 350px;" title="口腔医学技术专业大学排名" vspace="0" width="600"/></p><p><strong>在2018本科口腔医学技术专业排行榜中，北京大学雄居排行榜榜首，四川大学、重庆医科大学紧随其后，占据第二、第三名。</strong>想知道全部的<a href="/gaokao/184891.html" target="_blank">口腔医学</a>技术专业排名请看下表：</p><h2><a>1</a><span>公办本科大学口腔医学技术专业排名</span></h2><table><colgroup><col width="50"/><col width="110"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>北京大学</td><td>6星级</td><td>北京</td><td>1</td></tr><tr><td>2</td><td>四川大学</td><td>5星级</td><td>四川</td><td>1</td></tr><tr><td>3</td><td>重庆医科大学</td><td>3星级</td><td>重庆</td><td>1</td></tr></tbody></table><h2><a>1</a><span>独立学院口腔医学技术专业排名</span></h2><table><colgroup><col width="50"/><col width="110"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>大连医科大学中山学院</td><td>3星级</td><td>辽宁</td><td>1</td></tr></tbody></table><h2><a>1</a><span>口腔医学技术专业介绍</span></h2><p></p><p><img alt="口腔医学技术专业" src="http://img.gaosan.com/upload/zhuanye/1/189.jpg"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>医学技术类</td><td>未知<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">样本不足，无法分析</span></td><td>大连市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">27%在大连市工作</span></td><td>女生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男19%-女81%</span></td></tr></tbody></table><p>培养目标：培养掌握口腔医学的基本理论和口腔治疗技术与工艺技术的基本操作技能，从事口腔疾病的治疗以及牙齿整复和整形技术工作的高级技术应用性专门人才。</p><p>核心能力：口腔治疗技术与工艺技术的基本操作技能。</p><p>就业方向：毕业生可从事口腔治疗技术、口腔工艺技术等工作。如各级口腔医院和综合性医院口腔科的口腔治疗技术与工艺技术岗位。</p><h2><a>1</a><span>北京大学</span></h2><p></p><p>北京大学创办于1898年，初名京师大学堂，是中国第一所国立综合性大学，也是当时中国最高教育行政机关。辛亥革命后，于1912年改为现名。作为新文化运动的中心和“五四”运动的策源地，作为中国最早传播马克思主义和民主科学思想的发祥地，作为中国共产党最早的活动基地，北京大学为民族的振兴和解放、国家的建设和发展、社会的文明和进步做出了不可替代的贡献，在中国走向现代化的进程中起到了重要的先锋作用。爱国、进步、民主、科学的传统精神和勤奋、严谨、求实、创新的学风在这里生生不息、代代相传。</p><p><img alt="北京大学校门" src="http://img.gaosan.com/upload/webimg/1623.jpg" title="北京大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1898年</td><td>公立</td><td>综合</td><td>中华人民共和国教育部</td></tr></tbody></table><h2><a>1</a><span>四川大学</span></h2><p></p><p>四川大学是教育部直属全国重点大学，是布局在中国西部、“985工程”和“211工程”重点建设的高水平研究型综合大学。学校现任党委书记杨泉明教授、校长谢和平院士。</p><p><img alt="四川大学校门" src="http://img.gaosan.com/upload/webimg/1645.jpg" title="四川大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1896年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>重庆医科大学</span></h2><p></p><p>重庆医科大学创建于1956年，由上海第一医学院分迁来渝组建而成，原名重庆医学院，1985年更名为重庆医科大学。学校是国务院学位委员会批准的首批具有博士和硕士学位授予权的单位。学校由位于渝中区的袁家岗校区和位于重庆大学城的缙云校区组成，校园总面积2650余亩。其中，缙云校区占地2000余亩，校园环境优美，风景如画。</p><p><img alt="重庆医科大学校门" src="http://img.gaosan.com/upload/webimg/1748.jpg" title="重庆医科大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1956年</td><td>公立</td><td>医药</td><td>重庆市教育委员会</td></tr></tbody></table><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

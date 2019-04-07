@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>挪威语</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+挪威语</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    挪威语(Norsk)是挪威的官方语言。使用人口除本国的420万外，移居美国的挪威人中约有60万。挪威语经历过漫长的变化后，变得与瑞典语和丹麦语十分相似，这三种语言的人也可以互相沟通。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    由于丹麦语从16世纪至19世纪期间一直是挪威地区的标准书写语言，以致近代的挪威语发展一直都受着爱国主义、城乡隔阂以及挪威文学史的争议所影响。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av19002181?from=search&seid=5664841364898604096" class="">
+								
+								<div class="mui-media-body">
+									挪威语初级
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av31721073?from=search&seid=5664841364898604096" class="">
+								
+								<div class="mui-media-body">
+									五小时睡前挪威语
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av17263076?from=search&seid=5664841364898604096" class="">
+								
+								<div class="mui-media-body">
+									【音乐剧】悲惨世界 Les Miserables 2004挪威官摄全场【2004|官摄|挪威语|Bømlo|露天剧院|雨果|经典】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av13525547?from=search&seid=5664841364898604096" class="">
+								
+								<div class="mui-media-body">
+									【学习挪威语】Karin姐姐给你讲解挪剧SKAM
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av35656859?from=search&seid=5664841364898604096" class="">
+								
+								<div class="mui-media-body">
+									Simple Norwegian
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av7081262?from=search&seid=8591849062882944382" class="">
+
+    								<div class="mui-media-body">
+    									【中挪字幕】挪威语字母教学 @黑番茄小语组
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av2265146?from=search&seid=8591849062882944382" class="">
+
+    								<div class="mui-media-body">
+    									【挪威语推荐】歌曲三连弹
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av16393187?from=search&seid=8591849062882944382" class="">
+
+    								<div class="mui-media-body">
+    									小语种，挪威语。挪威朋友带你学习挪威语。
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av9757136?from=search&seid=8591849062882944382" class="">
+
+    								<div class="mui-media-body">
+    									【有字幕】1.1挪威语基础
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av9895177?from=search&seid=8591849062882944382" class="">
+
+    								<div class="mui-media-body">
+    									【强推挪威语歌曲】Cezinando - Botanisk Hage
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data185235"><p>中国大学哪些本科的挪威语专业，是2018高考优秀考生报考的最佳选择呢？和小编一起来看看吧！</p><p><img alt="挪威语专业大学排名" border="0" height="350" src="http://img.gaosan.com/upload/201711/6364522760652242702516993.jpg" style="width: 600px; height: 350px;" title="挪威语专业大学排名" vspace="0" width="600"/></p><p><strong>在2018本科挪威语专业排行榜中，北京外国语大学雄居排行榜榜首，</strong>想知道全部的挪威语专业排名请看下表：</p><h2><a>1</a><span>公办本科大学挪威语专业排名</span></h2><table><colgroup><col width="43"/><col width="199"/><col width="72"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>北京外国语大学</td><td>4星级</td><td>北京</td><td>1</td></tr></tbody></table><h2><a>1</a><span>挪威语专业介绍</span></h2><p></p><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-11/ab8b3afb-1b84-4177-a930-158e51045d90.jpg" title="挪威语专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>外国语言文学类</td><td>未知<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">样本不足，无法分析</span></td><td>上海市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">100%在上海市工作</span></td><td>未知男---女--</td></tr></tbody></table><p>培养目标：培养具有扎实的相应语语言基础比较广泛的科学文化知识，能在外事、经贸、文化、新闻出版、教育、科研、旅游等部门从事翻译、研究、教学、管理工作的相应语言高级专门人才。</p><p>主要课程：基础相应语、高级相应语、报刊选读、视听、口语、相应语写作、翻译理论与实践、语言理论、语言学概论、主要相应语国家文学史及文学作品选读、主要相应国家国情等。</p><p>就业方向：挪威语专业毕业生可从事从事翻译、研究、教学、管理工作。</p><h2><a>1</a><span>北京外国语大学</span></h2><p></p><p>北京外国语大学坐落在北京市海淀区西三环北路，在三环路两侧分设东、西两个校区，是教育部直属、“985”优势学科创新平台和首批国家“211工程”建设的全国重点大学。新中国成立后，学校归外交部领导，1954年更名为北京外国语学院，1959年与北京俄语学院合并组建新的北京外国语学院。1980年后直属国家教育部领导，1994年正式更名为北京外国语大学。</p><p><img alt="北京外国语大学 体育馆" src="http://img.gaosan.com/upload/webimg/1750.jpg" title="北京外国语大学 体育馆"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1941年</td><td>公立</td><td>语言</td><td>教育部</td></tr></tbody></table><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

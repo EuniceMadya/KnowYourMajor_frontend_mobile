@@ -1,0 +1,154 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>弹药工程与爆炸技术</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+弹药工程与爆炸技术</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    培养具备弹药战斗与爆炸技术以及在民用机械工程和工程爆破等方面的基础理论知识和工程实践能力，能在有关科研单位、高等学校、生产企业和管理部门从事系统设计、技术开发、产品制造、实验测试和科技管理方面工作的高级工程技术人才。 </h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    
+        <h5>暂时没有相关视频</h5>
+        
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av42148960?from=search&seid=2272790696157387892" class="">
+
+    								<div class="mui-media-body">
+    									爆破专业毕业生“光明正大”炸了母校大楼：我也是本着为母校做贡献！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av42182723?from=search&seid=2272790696157387892" class="">
+
+    								<div class="mui-media-body">
+    									儿时梦想？爆破专业毕业生因工炸了母校大楼！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av42268821?from=search&seid=2272790696157387892" class="">
+
+    								<div class="mui-media-body">
+    									“光明正大把母校大楼炸了”！#爆破专业毕业生亲手炸母校# 网友：完成儿时梦想
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av42166232?from=search&seid=2272790696157387892" class="">
+
+    								<div class="mui-media-body">
+    									“光明正大把母校大楼炸了”
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av42155627?from=search&seid=2272790696157387892" class="">
+
+    								<div class="mui-media-body">
+    									我的老学长把咱们的母校炸了
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data139782"><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-12/b64cba74-bd14-4b19-81f9-b962fc1c8ace.jpg" title="弹药工程与爆炸技术专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>兵器类</td><td>￥5179<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过12%的专业</span></td><td>沈阳市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">13%在沈阳市工作</span></td><td>男生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男84%-女16%</span></td></tr></tbody></table><p>培养目标：本专业培养具备弹药战斗部与爆炸技术以及在民用机械工程和工程爆破等方面的基础理论知识和工程实践能力，能在有关科研单位、高等学校、生产企业和管理部门从事系统设计、技术开发，产品制造，实验测试和科技管理方面工作的高级工程技术人才。</p><p>主要课程：弹药系统分析与设计、爆炸物理、弹道学、终点效应、动态检测技术、冲击动力学、爆炸技术、安全工程学等。</p><p>就业方向：弹药工程与爆炸技术专业毕业生可以在公安、消防、安全等公共管理机构及化工、铁道、水利水电、矿业、建筑工程、兵器工业、高等院校和科研院所等企事业单位从事设计、研发、产品制造、实验测试和科技与安全管理等工作。</p><h2><a>1</a><span>2017最新弹药工程与爆炸技术专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>中北大学</td><td>5★</td><td>6</td></tr><tr><td>2</td><td>安徽理工大学</td><td>4★</td><td>6</td></tr><tr><td>3</td><td>北京理工大学</td><td>3★</td><td>6</td></tr></tbody></table><h2><a>1</a><span>弹药工程与爆炸技术专业排名大学介绍</span></h2><p>中北大学是一所由山西省人民政府与国家国防科技工业局共建、山西省人民政府管理的多科性教学研究型大学。2004年6月经教育部批准更名为中北大学。中北大学位于山西省太原市，并在朔州市设有校区。学校总占地2501亩，建筑面积近101万平方米，固定资产总值19.3亿元，教学科研仪器设备总值6.1亿元，可利用中外文图书资源291万册，拥有完善的教学和公共服务设施。</p><p><img alt="中北大学校门" src="http://img.gaosan.com/upload/webimg/1768.jpg" title="中北大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1941年</td><td>公立</td><td>理工</td><td>山西省教育厅</td></tr></tbody></table><p>安徽理工大学是安徽省重点建设的特色高水平大学，是国家“中西部高等教育振兴计划”—中西部高校基础能力建设工程支持建设的高校，是安徽省和国家安全生产监督管理总局共建高校和教育部“卓越工程师教育培养计划”实施高校。2002年更名为安徽理工大学。经过70年的建设和发展，学校形成了鲜明的办学特色，成为地方和行业人才培养、科技创新、社会服务和文化传承的重要基地。<br/></p><p><img alt="安徽理工大学校门" src="http://img.gaosan.com/upload/webimg/1827.jpg" title="安徽理工大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1945年</td><td>公立</td><td>理工</td><td>安徽省教育厅</td></tr></tbody></table><p>北京理工大学创办于1940年，是中国共产党创办的第一所理工科高校，是新中国成立以来国家历批次重点建设的大学，首批设立研究生院，首批进入国家“211工程”和“985工程”建设行列，现隶属于工业和信息化部。2012年，学校首次进入在全球具有广泛影响力的英国QS世界大学排名“亚洲大学100强”和“世界大学500强”，在入选的19所中国高校中名列第13位。</p><p><img alt="北京理工大学校门" src="http://img.gaosan.com/upload/webimg/1646.jpg" title="北京理工大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1940年</td><td>公立</td><td>理工</td><td>工信部</td></tr></tbody></table><p>　　以上2017年弹药工程与爆炸技术专业大学排名弹药工程与爆炸技术专业排行榜由高三网收集整理，更多专业排名请查看<a href="http://www.gaosan.com/zhuanyepaiming/">大学专业开设高校排名</a>栏目</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

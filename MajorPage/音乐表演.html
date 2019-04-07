@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>音乐表演</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+音乐表演</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    音乐表演是音乐的再创作活动。通过乐器的演奏，人声的歌唱，以及包括指挥在内的多种艺术手段，将乐曲用具体可感的音响表现出来，传达给听众，以发挥其社会功能。它是音乐创作与音乐欣赏的中介，是音乐活动中不可缺少的环节。指挥家、演奏家、歌唱家等通过自己的艺术实践，对乐曲做出不同的解释和表现，从而给听众以不同的影响和感受。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av36698056?from=search&seid=9161582150018897068" class="">
+								
+								<div class="mui-media-body">
+									QQJOY波洞星球电波之夜 音乐表演+女团&amp;歌曲表演（181124）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av17428032?from=search&seid=9161582150018897068" class="">
+								
+								<div class="mui-media-body">
+									2017级音乐表演1711班班级音乐会
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av31663790?from=search&seid=9161582150018897068" class="">
+								
+								<div class="mui-media-body">
+									太原师范学院2014级音乐表演二班毕业音乐会
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av34141029?from=search&seid=9161582150018897068" class="">
+								
+								<div class="mui-media-body">
+									年代秀2011
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av31154466?from=search&seid=9161582150018897068" class="">
+								
+								<div class="mui-media-body">
+									【收藏向】PD48舞台公演表演现场合集！
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av39770962?from=search&seid=15593183027965514158" class="">
+
+    								<div class="mui-media-body">
+    									日本富士山精彩烟火音乐表演秀，感觉像加了特效
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10985199?from=search&seid=15593183027965514158" class="">
+
+    								<div class="mui-media-body">
+    									浙江师范大学音乐学院音乐表演132班毕业视频
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av47202624?from=search&seid=15593183027965514158" class="">
+
+    								<div class="mui-media-body">
+    									街头震撼音乐表演
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av7459954?from=search&seid=15593183027965514158" class="">
+
+    								<div class="mui-media-body">
+    									跑车上的音乐表演 男酷女美 大爱
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av17060890?from=search&seid=15593183027965514158" class="">
+
+    								<div class="mui-media-body">
+    									TGA2017年度游戏开奖前音乐表演
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data141189"><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-06/1b896b13-4d69-45e8-8e97-c441f9527624.jpg" title="音乐表演专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>音乐与舞蹈学类</td><td>￥5048<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过10%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">14%在北京市工作</span></td><td>女生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男36%-女64%</span></td></tr></tbody></table><p>培养目标：本专业培养具有一定的马克思主义基本理论素养，并具备音乐表演方面的能力，能在专业文艺团体、艺术院校等相关部门、机构从事表演、教学及研究工作的高级专门人才。</p><p>主要课程：表演、音乐技术理论、音乐史、民族民间音乐、重奏(唱)合奏(唱)等。</p><p>就业方向：音乐<a href="/gaokao/185046.html" target="_blank">表演专业</a>毕业生可在幼儿园、幼儿特长培训机构从事音乐教学、节目编排与编导等工作，也可在文化娱乐产业、表演团体、演艺机构、电视台、文化团体等从事音乐表演、编排或编导、播音与主持、影视评论等工作。</p><h2><a>1</a><span>2018最新音乐表演专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>中央音乐学院</td><td>5★</td><td>221</td></tr><tr><td>2</td><td>沈阳音乐学院</td><td>5★</td><td>221</td></tr><tr><td>3</td><td>武汉音乐学院</td><td>5★</td><td>221</td></tr><tr><td>4</td><td>上海音乐学院</td><td>5★</td><td>221</td></tr><tr><td>5</td><td>星海音乐学院</td><td>5★</td><td>221</td></tr></tbody></table><h2><a>1</a><span>音乐表演专业排名大学介绍</span></h2><p>中央音乐学院是一所培养高级专门音乐人才的高等学府，全国艺术院校中唯一的一所“211工程”建设院校。现有本科在校生1543人，研究生在校生663人。作为全国音乐教育中心，音乐研究、创作和表演中心，以及社会音乐推广中心，中央音乐学院是一所能代表中国专业音乐教育水平，专业设置齐全,并在国内外享有很高声誉的音乐学府。</p><p><img alt="中央音乐学院 校名石" src="http://img.gaosan.com/upload/webimg/2587.jpg" title="中央音乐学院 校名石"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1940年</td><td>公立</td><td>艺术</td><td>教育部</td></tr></tbody></table><p>沈阳音乐学院是高等音乐艺术院校。她缘起于1938年由毛泽东、周恩来等老一辈无产阶级革命家发起、创立的我党第一所艺术院校——延安鲁迅艺术学院。建校75年来，学院为国家培养了大批音乐、舞蹈人才，为我国的文化事业和艺术教育事业做出了重要贡献。他们中的许多人已成为著名的艺术家、教育家和全国各地文艺团体、艺术院校、研究机构的领导与骨干。</p><p><img alt="沈阳音乐学院校门" src="http://img.gaosan.com/upload/webimg/3271.jpg" title="沈阳音乐学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1938年</td><td>公立</td><td>艺术</td><td>辽宁省教育厅</td></tr></tbody></table><p>武汉音乐学院是全国9所独立设置的音乐学院之一，也是我国中部地区唯一独立设置的高等音乐学府。学院座落在历史悠久、人文荟萃的武昌古城，解放路校区位于湖北省武汉市武昌区解放路255号，毗邻的滨江校区位于武昌区张之洞路1号。</p><p><img alt="武汉音乐学院校门" src="http://img.gaosan.com/upload/webimg/3128.jpg" title="武汉音乐学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1953年</td><td>公立</td><td>艺术</td><td>湖北省教育厅</td></tr></tbody></table><p>上海音乐学院前身是伟大的民主革命家、杰出的教育家、思想家蔡元培先生和音乐教育家萧友梅博士于1927年11月27日共同创办的国立音乐院。首任院长为蔡元培先生。1929年9月更名为国立音乐专科学校。中华人民共和国成立后，于1956年定名为上海音乐学院。1984年后，桑桐、江明惇、杨立青、许舒亚教授曾先后任院长。学院现任党委书记、院长：林在勇。</p><p><img alt="上海音乐学院校门" src="http://img.gaosan.com/upload/webimg/2704.jpg" title="上海音乐学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1927年</td><td>公立</td><td>艺术</td><td>上海市教育委员会</td></tr></tbody></table><p>岭南大地，钟灵毓秀，音乐文化底蕴深厚。这里，名家辈出，孕育了冼星海、萧友梅、马思聪、李凌等一批引领中国近现代音乐文化潮流的杰出音乐家。星海音乐学院位于岭南文化中心——广州，是华南地区唯一的高等音乐专业学府。1981年6月经国务院批准，升格为广州音乐学院；1985年12月，为纪念广东籍人民音乐家冼星海，更名为星海音乐学院。</p><p><img alt="星海音乐学院校门" src="http://img.gaosan.com/upload/webimg/3016.jpg" title="星海音乐学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1957年</td><td>公立</td><td>艺术</td><td>广东省教育厅</td></tr></tbody></table><p>　　以上2018年音乐表演专业大学排名音乐表演专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

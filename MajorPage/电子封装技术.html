@@ -1,0 +1,174 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>电子封装技术</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+电子封装技术</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    电子封装就是安装集成电路内置芯片外用的管壳，起着安放固定密封，保护集成电路内置芯片，增强环境适应的能力，并且集成电路芯片上的铆点也就是接点，是焊接到封装管壳的引脚上的。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av3656888?from=search&seid=2523675719040366276" class="">
+								
+								<div class="mui-media-body">
+									【工大电封】哈工大电封我爱记歌词
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av40366133?from=search&seid=2523675719040366276" class="">
+								
+								<div class="mui-media-body">
+									材料分析理论与方法【84集】(包生祥：电子科技大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av3709076?from=search&seid=6727439959703311744" class="">
+
+    								<div class="mui-media-body">
+    									【工大电封】辣条之夜鬼畜花絮
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av35711467?from=search&seid=6727439959703311744" class="">
+
+    								<div class="mui-media-body">
+    									【PCB焊接技术】SSOP24封装芯片的焊接
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av32756264?from=search&seid=6727439959703311744" class="">
+
+    								<div class="mui-media-body">
+    									第四期：创建封装
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av38742780?from=search&seid=6727439959703311744" class="">
+
+    								<div class="mui-media-body">
+    									电子设计大赛 多功能六足智能机器人
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av32077525?from=search&seid=6727439959703311744" class="">
+
+    								<div class="mui-media-body">
+    									世界上最小的LED闪烁灯（自带机翻！机翻字幕介意勿看！勿评论机翻 ！介意请绕道！）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data139299"><p><img alt="2.jpg" src="http://img.gaosan.com/upload/201606/6360193378117110849599039.jpg" title="2.jpg"/></p><p>培养目标:电子封装技术专业培养适应科学技术、工业技术发展和人民生活水平提高的需要，具有优良的思想品质、科学素养和人文素质，具有宽厚的基础理论和先进合理的专业知识，具有良好的分析、表达和解决工程技术问题能力，具有较强的自学能力、创新能力、实践能力、组织协调能力，爱国敬业、诚信务实、身心健康的复合型专业人才。</p><p>主干课程:微电子制造科学与工程概论、电子工艺材料、微连接技术与原理、电子封装可靠性理论与工程、电子制造技术基础、电子组装技术、半导体工艺基础、先进基板技术</p><h2><a>1</a><span>2017最新电子封装技术专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>西安电子科技大学</td><td>5★</td><td>10</td></tr><tr><td>2</td><td>北京理工大学</td><td>4★</td><td>10</td></tr><tr><td>3</td><td>哈尔滨工业大学</td><td>3★</td><td>10</td></tr><tr><td>4</td><td>哈尔滨工程大学</td><td>3★</td><td>10</td></tr><tr><td>5</td><td>华中科技大学</td><td>3★</td><td>10</td></tr></tbody></table><h2><a>1</a><span>电子封装技术专业排名大学介绍</span></h2><p>西安电子科技大学是以信息与电子学科为主，工、理、管、文多学科协调发展的全国重点大学，是国家“优势学科创新平台”项目和“211工程”项目重点建设高校之一、首批35所示范性软件学院。学校前身是1931年诞生于江西瑞金的中央军委无线电学校，是毛泽东等老一辈革命家亲手创建的第一所工程技术学校。1958年学校迁址西安，1966年转为地方建制，1988年定为现名。</p><p><img alt="西安电子科技大学校门" src="http://img.gaosan.com/upload/webimg/1689.jpg" title="西安电子科技大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1931年</td><td>公立</td><td>理工</td><td>教育部直属、工信部共建</td></tr></tbody></table><p>北京理工大学创办于1940年，是中国共产党创办的第一所理工科高校，是新中国成立以来国家历批次重点建设的大学，首批设立研究生院，首批进入国家“211工程”和“985工程”建设行列，现隶属于工业和信息化部。2012年，学校首次进入在全球具有广泛影响力的英国QS世界大学排名“亚洲大学100强”和“世界大学500强”，在入选的19所中国高校中名列第13位。</p><p><img alt="北京理工大学校门" src="http://img.gaosan.com/upload/webimg/1646.jpg" title="北京理工大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1940年</td><td>公立</td><td>理工</td><td>工信部</td></tr></tbody></table><p>哈尔滨工业大学隶属于工业和信息化部，是首批进入国家“211工程”和“985工程”建设的若干所大学之一。2000年，同根同源的哈尔滨工业大学、哈尔滨建筑大学合并组建新的哈尔滨工业大学。如今，学校已经发展成为一所以理工为主，理、工、管、文、经、法等多学科协调发展的国家重点大学。</p><p><img alt="哈尔滨工业大学校门" src="http://img.gaosan.com/upload/webimg/1658.jpg" title="哈尔滨工业大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1920年</td><td>公立</td><td>综合</td><td>工信部</td></tr></tbody></table><p>哈尔滨工程大学坐落于哈尔滨市。学校前身是创建于1953年的中国人民解放军军事工程学院（“哈军工”）。1996年，进入首批“211工程”建设高校行列；2011年，进入国家“985”工程优势学科创新平台项目建设高校行列。学校现隶属于国家工业和信息化部，是我国“三海一核”（船舶工业、海军装备、海洋开发、核能应用）领域重要的人才培养和科学研究基地。学校占地面积125.61万平方米，建筑面积93.13万平方米。</p><p><img alt="哈尔滨工程大学校门" src="http://img.gaosan.com/upload/webimg/1681.jpg" title="哈尔滨工程大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1953年</td><td>公立</td><td>理工</td><td>工信部</td></tr></tbody></table><p>华中科技大学是国家教育部直属的全国重点大学，由原华中理工大学、同济医科大学、武汉城市建设学院于2000年5月26日合并成立，是首批列入国家“211工程”重点建设和国家“985工程”建设高校之一，学校校园占地7000余亩，被誉为“森林式大学”。</p><p><img alt="华中科技大学校门" src="http://img.gaosan.com/upload/webimg/1643.jpg" title="华中科技大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1952年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>　　以上2017年电子封装技术专业大学排名电子封装技术专业排行榜由高三网收集整理，更多专业排名请查看<a href="http://www.gaosan.com/zhuanyepaiming/">大学专业开设高校排名</a>栏目</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

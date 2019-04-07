@@ -1,0 +1,163 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>武器发射工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+武器发射工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    武器系统与发射工程专业研究适应新形势条件下的武器从发射、飞行到命中目标全过程的力学现象、运动规律和测试等有关理论和工程应用技术。随着高新技术迅猛发展及其在兵器技术中的应用，使得弹箭、火炮高新技术含量不断提高，出现了许多新概念武器。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av11722206?from=search&seid=2026896013161304679" class="">
+								
+								<div class="mui-media-body">
+									【战争前线】#35 苏联特种部队专用消音步枪 - AS Val微声自动步枪（AR-&quot;GAR&quot;）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av11695771?from=search&seid=1827135372520225232" class="">
+
+    								<div class="mui-media-body">
+    									史上最矮坦克究竟有多矮？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av39870558?from=search&seid=1827135372520225232" class="">
+
+    								<div class="mui-media-body">
+    									历时20余年 先后发射38颗卫星 我国超级工程打破西方国家垄断
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av25939354?from=search&seid=1827135372520225232" class="">
+
+    								<div class="mui-media-body">
+    									《World of Guns》CZ-75 拆解（1）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av25595014?from=search&seid=1827135372520225232" class="">
+
+    								<div class="mui-media-body">
+    									《太空工程师》：城市防空GBI系统夜间拦截实战视频
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av9822958?from=search&seid=1827135372520225232" class="">
+
+    								<div class="mui-media-body">
+    									【太空工程师】【MEA】分导多弹头战略导弹
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data139778"><p><img alt="12.jpg" src="http://img.gaosan.com/upload/201606/6360066293519915777202136.jpg" title="12.jpg"/></p><p>培养目标：本专业培养具备武器发射系统总体、战斗载荷发射和飞行控制技术以及民用工程技术等方面的基础理论知识和工程实践能力，能在有关科研单位、高等学校、生产企业和管理部门从事系统设计、技术开发、产品制造、实验测试和科技管理方面工作，具有较好的人文社科和管理知识、良好的职业道德素质、身心健康、全面发展的高素质工程科技人才。</p><p>培养要求：本专业学生主要学习武器系统及其发射、运载、飞行控制以及民用机械工程与自动，化方面的基本理论和基本知识。接受到系统设计、技术开发、产品研制、实验测试及工程管理方面的基本训练，具备武器发射系统分析与综合、工程设计与计算、计算机应用、试验检测方面的基本能力。</p><h2><a>1</a><span>2017最新武器发射工程专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>南京理工大学</td><td>5★</td><td>5</td></tr><tr><td>2</td><td>北京理工大学</td><td>4★</td><td>5</td></tr><tr><td>3</td><td>中北大学</td><td>3★</td><td>5</td></tr></tbody></table><h2><a>1</a><span>武器发射工程专业排名大学介绍</span></h2><p>南京理工大学是隶属于中华人民共和国工业与信息化部的全国重点大学，坐落在古都南京。学校北依紫金山，西临明城墙，校园占地3118亩。校舍建筑总面积119.6万平方米，固定资产总值15.3亿元，各类基础设施齐全，后勤服务系统完善。现有实验室56个，各类教学科研仪器设备5.2亿元；图书馆藏有中外文图书文献182万册；拥有2个标准运动场和室内体育场馆等完备的体育设施。</p><p><img alt="南京理工大学校门" src="http://img.gaosan.com/upload/webimg/1672.jpg" title="南京理工大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1953年</td><td>公立</td><td>理工</td><td>工信部</td></tr></tbody></table><p>北京理工大学创办于1940年，是中国共产党创办的第一所理工科高校，是新中国成立以来国家历批次重点建设的大学，首批设立研究生院，首批进入国家“211工程”和“985工程”建设行列，现隶属于工业和信息化部。2012年，学校首次进入在全球具有广泛影响力的英国QS世界大学排名“亚洲大学100强”和“世界大学500强”，在入选的19所中国高校中名列第13位。</p><p><img alt="北京理工大学校门" src="http://img.gaosan.com/upload/webimg/1646.jpg" title="北京理工大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1940年</td><td>公立</td><td>理工</td><td>工信部</td></tr></tbody></table><p>中北大学是一所由山西省人民政府与国家国防科技工业局共建、山西省人民政府管理的多科性教学研究型大学。2004年6月经教育部批准更名为中北大学。中北大学位于山西省太原市，并在朔州市设有校区。学校总占地2501亩，建筑面积近101万平方米，固定资产总值19.3亿元，教学科研仪器设备总值6.1亿元，可利用中外文图书资源291万册，拥有完善的教学和公共服务设施。</p><p><img alt="中北大学校门" src="http://img.gaosan.com/upload/webimg/1768.jpg" title="中北大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1941年</td><td>公立</td><td>理工</td><td>山西省教育厅</td></tr></tbody></table><p>　　以上2017年武器发射工程专业大学排名武器发射工程专业排行榜由高三网收集整理，更多专业排名请查看<a href="http://www.gaosan.com/zhuanyepaiming/">大学专业开设高校排名</a>栏目</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

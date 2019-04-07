@@ -1,0 +1,163 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>酿酒工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+酿酒工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    酿酒工程专业是以化学、生物学和工程学为基础，研究现代优质葡萄酒酿造工艺、鉴赏艺术和营销理念的科学理论与应用技术的理、工、农交叉性综合学科。它是生物工程、食品科学与工程、园艺学及感官鉴评艺术的重要组成和综合体现，其基本任务是以优质酿酒葡萄为原料，利用现代食品生物工程的先进理论和高新技术，酿造具特定文化内涵和典型感官质量的系列优质葡萄酒产品；并通过先进营销理念和高雅鉴赏艺术的有机结合，促进葡萄酒的健康消费。本专业除传统的葡萄与葡萄酒生产外，还扩展到鉴赏艺术、管理营销、文化推广、食品营养、医药保健、质量控制、工程设计等诸多领域，在生物工程、食品科学与营养和文化艺术等领域中的作用愈加重要。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av6434756?from=search&seid=85004166473229146" class="">
+								
+								<div class="mui-media-body">
+									【票圈】【工程技术】【共6集】《食品科学与工程类专业导论》江南大学公开课&amp;微博@票圈
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av13062263?from=search&seid=14725140794575026454" class="">
+
+    								<div class="mui-media-body">
+    									水果杨梅酒的酿制技术——高级酿酒工程师教你三招
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av44124989?from=search&seid=14725140794575026454" class="">
+
+    								<div class="mui-media-body">
+    									2015年四川理工酿酒工程专业个人自制短片《Its time to get up》
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av44511622?from=search&seid=14725140794575026454" class="">
+
+    								<div class="mui-media-body">
+    									四川理工学院2014级酿酒工程2班毕业照 扔学士帽
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av44510842?from=search&seid=14725140794575026454" class="">
+
+    								<div class="mui-media-body">
+    									四川理工学院酿酒工程专业DDD俱乐部大学同学中秋重聚成都
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av5541743?from=search&seid=5181562812922411720" class="">
+
+    								<div class="mui-media-body">
+    									【Minecraft】鲜花的遗物&amp;令人费解的酿酒师
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data140287"><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-09/63320232-7a7a-4208-beb6-13a9d87367be.jpeg" title="酿酒工程专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>食品科学与工程类</td><td>￥4713<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过5%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">26%在北京市工作</span></td><td style="word-break: break-all;">男生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男53%-女47%</span></td></tr></tbody></table><p>培养目标：培养能从事粮食生产技术管理、粮油产品加工、粮食工程规划管理等工作的高级技术应用性专门人才。</p><p>核心课程：粮食工程概论、粮食生产技术、粮食产品加工、粮食贮藏、粮食运输、粮食市场营销、食品工程原理、食品微生物、食品分析、粮油加工工艺、发酵食品工艺、焙烤制品工艺、食品机械与设备、课程设计、粮食储运综合实训、生产实习、毕业实习等，以及各校的主要特色课程和实验环节。</p><p>就业方向：粮食生产、储运、加工、销售领域的技术与管理工作。酿酒工程专业毕业生可从事酿酒科学与工程领域内从事教学、科学研究与开发、生产管理、检验、产品营销与技术服务等工作。</p><h2><a>1</a><span>2017最新酿酒工程专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>江南大学</td><td>5★</td><td>14</td></tr><tr><td>2</td><td>河北科技师范学院</td><td>4★</td><td>14</td></tr><tr><td>3</td><td>内蒙古农业大学</td><td>3★</td><td>14</td></tr><tr><td>4</td><td>齐鲁工业大学</td><td>3★</td><td>14</td></tr><tr><td>5</td><td>贵州理工学院</td><td>3★</td><td>14</td></tr></tbody></table><h2><a>1</a><span>酿酒工程专业排名大学介绍</span></h2><p>江南大学是教育部直属、国家“211工程”重点建设高校。学校具有悠久的办学历史、厚重的文化积淀，源起1902年创建的三江师范学堂，历经国立中央大学、南京大学等发展时期；1958年南京工学院食品工业系整建制东迁无锡，建立无锡轻工业学院；1995年更名为无锡轻工大学；2001年无锡轻工大学、江南学院、无锡教育学院合并组建江南大学；2003年东华大学无锡校区并入江南大学。</p><p><img alt="江南大学校门" src="http://img.gaosan.com/upload/webimg/1704.jpg" title="江南大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1902年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><p>河北科技师范学院是一所具有硕士学位授予权的省属高等学校。学校位于沿海城市秦皇岛市。设秦皇岛校区、开发区校区、昌黎校区和欧美学院4个校区，校园占地面积1600多亩，建筑面积57万平方米；教学科研仪器设备总值1.73亿元，馆藏图书文献167余万册；专任教学、科研人员1300余人，其中教授、副教授600余人，博士、硕士学位教师920人，国家级和省级专家10人。</p><p><img alt="河北科技师范学院校门" src="http://img.gaosan.com/upload/webimg/2170.jpg" title="河北科技师范学院校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1941年</td><td>公立</td><td>师范</td><td>河北省教育厅</td></tr></tbody></table><p>内蒙古农业大学成立于1952年，是内蒙古自治区成立最早的本科高等学校，是一所以农为主，以草原畜牧业为优势和特色，具有农、工、理、经、管、文、教、法、艺等9个学科门类的多科性大学，具备培养高职高专、学士、硕士及博士的完整高等教育体系。学校现设有动物科学学院等21个院（部）。现有在校学生3.5万余人，其中硕士和博士研究生4183人。</p><p><img alt="内蒙古农业大学校门" src="http://img.gaosan.com/upload/webimg/1789.jpg" title="内蒙古农业大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1952年</td><td>公立</td><td>农林</td><td>内蒙古自治区教育厅</td></tr></tbody></table><p>齐鲁工业大学是山东省重点建设的省属普通本科高校，学校创建于1948年，是山东省建校较早的公办本科院校之一。学校现有2个学部、12个学院，全日制在校生26300余人。学校教学科研设施完备、条件先进，基础设施齐全，建有山东教育科研网大学科技园网络节点，可为学生提供优质的学习资源和便捷高速的万兆网络服务。<img alt="齐鲁工业大学校门" src="http://img.gaosan.com/upload/webimg/1933.jpg" title="齐鲁工业大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1948年</td><td>公立</td><td>工科</td><td>山东省教育厅</td></tr></tbody></table><p>贵州理工学院是应省委、省政府实施工业强省战略和城镇化带动战略对理工类应用型人才之需，经教育部批准设立的一所省属本科理工院校，并于2013年正式开始招生，是贵州省唯一一所理工类院校。学校紧紧围绕贵州省实施主基调、主战略的需要和人民群众对加快发展的新期待，走内涵式发展道路，努力把贵州理工学院建设成为西部一流、人民满意的高水平理工大学。</p><p><img alt="贵州理工学院校门" src="http://img.gaosan.com/upload/webimg/2297.jpg" title="贵州理工学院校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>2013年</td><td>公立</td><td>理工</td><td>贵州省教育厅</td></tr></tbody></table><p>　　以上2017年酿酒工程专业大学排名酿酒工程专业排行榜由高三网收集整理，更多专业排名请查看<a href="http://www.gaosan.com/zhuanyepaiming/">大学专业开设高校排名</a>栏目</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

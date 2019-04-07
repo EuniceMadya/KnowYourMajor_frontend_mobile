@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>风景园林</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+风景园林</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    Landscape Architecture的解读：</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    1.全国农林院校介定为“风景园林”专业</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    2.清华大学译为“地景”</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    3.香港、台湾译为“景观建筑”学</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    4.工科院校译为”景观“学</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    5.日本译为”造园”、韩国译为“造景科”</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    “Landscape Architecture”为美国近代园林之父Olmsted发明</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    定义：用艺术的手段，处理人，建筑与环境之间复杂关系的一门学科</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av40096270?from=search&seid=3046054461418870660" class="">
+								
+								<div class="mui-media-body">
+									风景园林考研快题公开课分享给大家啦
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av43774548?from=search&seid=3046054461418870660" class="">
+								
+								<div class="mui-media-body">
+									【上海交通大学】西方风景园林艺术史（更新中）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av39415515?from=search&seid=3046054461418870660" class="">
+								
+								<div class="mui-media-body">
+									北林风景园林快题考研之模仿和创新
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av19637111?from=search&seid=3046054461418870660" class="">
+								
+								<div class="mui-media-body">
+									风景园林景观规划设计基本原理
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av42092568?from=search&seid=3046054461418870660" class="">
+								
+								<div class="mui-media-body">
+									【公开课】风景园林景观规划原理（完）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av32031233?from=search&seid=8713561454498385218" class="">
+
+    								<div class="mui-media-body">
+    									风景园林读书推荐
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av33884354?from=search&seid=8713561454498385218" class="">
+
+    								<div class="mui-media-body">
+    									【LILO】风景园林专业学习小日常嘻
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av45045490?from=search&seid=8713561454498385218" class="">
+
+    								<div class="mui-media-body">
+    									【女生节有点甜】这首女生节有点甜送给17风景园林所有女生
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10297812?from=search&seid=8713561454498385218" class="">
+
+    								<div class="mui-media-body">
+    									在厦门大学嘉庚学院读风景园林专业是什么体验？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av13710717?from=search&seid=8713561454498385218" class="">
+
+    								<div class="mui-media-body">
+    									中国高考报考第一人薛立新报考百问百答之3.风景园林专业如何选择院校!
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data140339"><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-09/8518e2e5-6da8-49a2-bf3e-08ed882fbe81.jpg" title="风景园林专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>建筑类</td><td>￥8590<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过90%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">13%在北京市工作</span></td><td>女生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男46%-女54%</span></td></tr></tbody></table><p>培养目标：培养德、智、体、美全面发展，政治信念坚定，基础扎实，知识面宽，专业素质高，实践能力强，具备风景园林规划设计、城市规划与设计、风景名胜区和各类城市绿地的规划设计等方面的知识，能在城市建设、园林等部门从事规划设计、施工和管理的应用型人才。</p><p>主要课程：中国画、艺术传媒、书法、艺术传媒、工程力学III、建筑工程、摄影、园林建筑结构与构造学、建筑工程、中国园林史、园林园艺、设计思维学、园林园艺、管理学基础、经济与管理、外国园林史、园林园艺、地质地貌学、资源与环境、园林计算机辅助设计B、园林园艺、室内设计、艺术与传媒、环境心理及行为学、园林园艺、环境艺术小品、园林园艺、园林树木栽植养护、园林园艺、风景区规划、园林园艺、插花艺术、园林园艺、西方现代景观艺术、园林园艺、园林模型制作、园林园艺、草坪学、园林园艺、专业英语（风景园林）、园林园艺、旅游学、园林园艺、园林快题设计、园林园艺、城市景观设计。</p><p>就业方向：风景<a href="/gaokao/184718.html" target="_blank">园林专业</a>毕业生可从事园林局、苗圃、园林设计公司、旅游规划设计公司、风景旅游区、房地产公司、大中专院校教师以及其他建筑与环境工程、市政园林、公用事业、城乡规划建设管理等相关的行业、部门机构。</p><h2><a>1</a><span>2017最新风景园林专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>北京林业大学</td><td>5★</td><td>130</td></tr><tr><td>2</td><td>同济大学</td><td>5★</td><td>130</td></tr><tr><td>3</td><td>东南大学</td><td>5★</td><td>130</td></tr><tr><td>4</td><td>华南理工大学</td><td>5★</td><td>130</td></tr><tr><td>5</td><td>福建农林大学</td><td>5★</td><td>130</td></tr></tbody></table><h2><a>1</a><span>风景园林专业排名大学介绍</span></h2><p>北京林业大学是教育部直属、教育部与国家林业局共建的全国重点大学。学校办学历史可追溯至1902年的京师大学堂农业科林学目。1952年全国高校院系调整，北京农业大学森林系与河北农学院森林系合并，成立北京林学院。1956年，北京农业大学造园系和清华大学建筑系部分并入学校。1960年被列为全国重点高等院校，1981年成为首批具有博士、硕士学位授予权的高校。1985年更名为北京林业大学。</p><p><img alt="北京林业大学校门" src="http://img.gaosan.com/upload/webimg/1690.jpg" title="北京林业大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1952年</td><td>公立</td><td>农林</td><td>教育部</td></tr></tbody></table><p>同济大学是国家“985工程”和“211工程”重点建设的教育部直属高校，在百余年办学历程中，始终注重人才培养、科学研究、社会服务、文化传承创新四大功能均衡发展，综合实力位居国内高校前列。1912年与创办不久的同济德文工学堂合并，更名为同济德文医工学堂。1923年正式定名为大学。1927年成为国立同济大学，是中国最早的七所国立大学之一。</p><p><img alt="同济大学校门" src="http://img.gaosan.com/upload/webimg/1626.jpg" title="同济大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1907年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>东南大学是中央直管、教育部直属的全国重点大学，是“985工程”和“211工程”重点建设的大学之一。学校坐落于历史文化名城南京，占地面积5888亩，建有四牌楼、九龙湖、丁家桥等校区。1988年5月，学校复更名为东南大学，校庆日为每年6月6日。2000年4月，原东南大学、南京铁道医学院、南京交通高等专科学校合并，南京地质学校并入，组建了新的东南大学。</p><p><img alt="东南大学校门" src="http://img.gaosan.com/upload/webimg/1632.jpg" title="东南大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1902年</td><td>公立</td><td>综合</td><td>中国教育部</td></tr></tbody></table><p>华南理工大学是直属教育部的全国重点大学，坐落在南方名城广州，占地面积294多万平方米。校园分为两个校区，五山校区位于广州市天河区石牌高校区。广东工业专科学校的前身是1918年成立的广东省立第一甲种工业学校，其历史可追溯至1910年清政府创办的广东工艺局。这些院校是早期中国南方培养高级工程技术人才的摇篮和民主科学思想的重要策源地。</p><p><img alt="华南理工大学校门" src="http://img.gaosan.com/upload/webimg/1636.jpg" title="华南理工大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1952年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><p>福建农林大学是农业部、国家林业局与福建省政府共建大学，是福建省重点建设的三所高水平大学之一。设有23个以全日制本科生和研究生培养为主的学院，全日制在校生2.8万人，其中博、硕士研究生4500人。校园占地4800余亩，另有科教基地1178亩，教学林场4.59万亩。校园环境优美，鸟语花香，先后荣赝全国文明单位、全国绿化模范单位，全国生态文明教育基地等称号。</p><p><img alt="福建农林大学校门" src="http://img.gaosan.com/upload/webimg/1767.jpg" title="福建农林大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1936年</td><td>公立</td><td>综合</td><td>福建省人民政府</td></tr></tbody></table><p>　　以上2017年风景园林专业大学排名风景园林专业排行榜由高三网收集整理，更多专业排名请查看<a href="http://www.gaosan.com/zhuanyepaiming/">大学专业开设高校排名</a>栏目</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

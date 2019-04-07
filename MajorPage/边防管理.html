@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>边防管理</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+边防管理</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    边防管理 ，主要课程有国际法、刑法、刑事诉讼法、当代世界政治经济等等，本专业培养具备国(边)境管理、部队管理和出入境边防检查等方面的知识和能力，能在公安边防部队和出入境管理部门从事国(边)境管理和出入境边防检查等方面工作的高级专门人才。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    本专业学生主要学习法律、公安边防业务、部队管理等方面的基本理论和基本知识，受到国(边)境管理、边防勤务与战术、护照证件及交通运工具检查(监护)等方面的基本训练，具有边防执勤、依法处置边境突发事件、管理部队和检查(监护)护照证件、交通运输工具等的基本能力。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av27486584?from=search&seid=8952138968360920953" class="">
+								
+								<div class="mui-media-body">
+									央视网 《见证》 维和勇士——公安边防维和纪实
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av39976977?from=search&seid=8952138968360920953" class="">
+								
+								<div class="mui-media-body">
+									【军歌MV】（珍藏）因为有了你-南疆军区各边防连主题曲合集
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av3997890?from=search&seid=8952138968360920953" class="">
+								
+								<div class="mui-media-body">
+									【桑葚·搬运】新疆边防总队集训纪实
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av13196276?from=search&seid=8952138968360920953" class="">
+								
+								<div class="mui-media-body">
+									【剧情】边防风暴 22集全【2007】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av3749330?from=search&seid=8952138968360920953" class="">
+								
+								<div class="mui-media-body">
+									【CCTV4】家在边疆 寻访边防卫士-2012远方的家边疆行除夕特别节目（高糊）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av36665419?from=search&seid=8861981680912310944" class="">
+
+    								<div class="mui-media-body">
+    									「侦查大比武」华东政法大学边防管理专业17级&amp;18级作品之校花神秘坠楼事件
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av7423065?from=search&seid=8861981680912310944" class="">
+
+    								<div class="mui-media-body">
+    									超赞！中国武警广东总队宣传片！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av45374070?from=search&seid=8861981680912310944" class="">
+
+    								<div class="mui-media-body">
+    									致敬！世界海拔最高的国门，他们在坚守！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24649603?from=search&seid=8861981680912310944" class="">
+
+    								<div class="mui-media-body">
+    									河北公安警察职业学院2018年招生宣传视频
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av6344637?from=search&seid=8861981680912310944" class="">
+
+    								<div class="mui-media-body">
+    									中国人民武警部队学院，官方征兵宣传片！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data141807"><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-12/7e93aef9-e6aa-4ecc-980f-518f6f337d5c.jpg" title="边防管理专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>公安学类</td><td>未知<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">样本不足，无法分析</span></td><td>上海市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">20%在上海市工作</span></td><td>男生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男58%-女42%</span></td></tr></tbody></table><p>培养目标：培养具备国(边)境管理、部队管理和出入境边防检查等方面的知识和能力，能在公安边防部队和出入境管理部门从事国(边)境管理和出入境边防检查等方面工作的高级专门人才。</p><p>主要课程：国际法、刑法、刑事诉讼法、当代世界政治经济法、边防公安法规、公安学概论、治安管理学、刑事侦查学、边境管理学、边防勤务学、边防战术学、边防情报学、边防检查学、护照鉴证制度、口岸管理、国际移民管理概论、行政法与行政诉讼法等。</p><p>就业方向：边防部队、人民警察和武警部队中的出入境管理部门和出入境边防检查部门，从事国境管理和出入境边防检查等方面的工作。</p><h2><a>1</a><span>2018最新边防管理专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>中国人民武装警察部队学院</td><td>5★</td><td>4</td></tr><tr><td>2</td><td>甘肃政法学院</td><td>4★</td><td>4</td></tr><tr><td>3</td><td>华东政法大学</td><td>3★</td><td>4</td></tr></tbody></table><h2><a>1</a><span>边防管理专业排名大学介绍</span></h2><p>甘肃政法学院是甘肃省属的唯一一所政法公安类普通本科院校。学校现有安宁区和兰州新区职教园区两个校区，占地面积1080亩，校舍建筑面积30万平方米，教学科研仪器设备总值6100余万元，图书馆现有各类图书150余万册，数字资源1.6万GB，是甘肃省重要的政法类文献资料信息中心。学校面向全国招生，现有全日制在校学生近1.2万人，其中硕士研究生500余人，继续教育学员2000余人。</p><p><img alt="甘肃政法学院校门" src="http://img.gaosan.com/upload/webimg/2028.jpg" title="甘肃政法学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1956年</td><td>公立</td><td>政法</td><td>甘肃省教育厅</td></tr></tbody></table><p>华东政法大学是新中国创办的第一批高等政法院校。学校是上海市管理的高校。现任党委书记曹文泽教授，校长叶青教授。多年来，华政人遵循“笃行致知，明德崇法”的校训，发扬“逆境中崛起，忧患中奋进，辉煌中卓越”的精神，已把学校建设成为一所以法学学科为主，兼有经济学、管理学、文学、理学等学科的办学特色鲜明的多科性大学，被誉为“法学教育的东方明珠”。</p><p><img alt="华东政法大学校门" src="http://img.gaosan.com/upload/webimg/1811.jpg" title="华东政法大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1952年</td><td>公立</td><td>政法</td><td>上海市人民政府</td></tr></tbody></table><p>　　以上2018年边防管理专业大学排名边防管理专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

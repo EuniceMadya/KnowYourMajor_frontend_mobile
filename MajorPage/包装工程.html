@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>包装工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+包装工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    包装工程是人们综合运用物理学、化学、材料学、美学、色彩等包装学知识，在社会、经济、资源及时间等因素限制范围内，为满足包装的主要功能（保护产品，方便储运，促进销售）主要从产品内包装设计、外包装设计、结构包装设计、缓冲包装设计、运输包装设计、包装工艺设计、集合包装设计等方面采取的各种技术活动。该专业以培养具备包装系统设计与管理等方面的能力，能在商品生产与流通部门、包装企业、科研机构、外贸、商检等部门从事包装系统设计、质量检测、技术管理和科学研究的高级工程技术人才为目标。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av16639861?from=search&seid=4805088981057852830" class="">
+								
+								<div class="mui-media-body">
+									教程：motion5入门到高手！Mac上的AE 特效 包装 动画
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av26918037?from=search&seid=4805088981057852830" class="">
+								
+								<div class="mui-media-body">
+									电视包装商业流体广告
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av17279348?from=search&seid=4805088981057852830" class="">
+								
+								<div class="mui-media-body">
+									【平面设计基础教程】之不得了的包装设计
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av24495196?from=search&seid=4805088981057852830" class="">
+								
+								<div class="mui-media-body">
+									AE CC 2018影视包装特效快速入门
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av25805359?from=search&seid=4805088981057852830" class="">
+								
+								<div class="mui-media-body">
+									[开头]包装
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av25273143?from=search&seid=11817856652907072713" class="">
+
+    								<div class="mui-media-body">
+    									欢迎报考西安工业大学包装工程专业
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av36303651?from=search&seid=11817856652907072713" class="">
+
+    								<div class="mui-media-body">
+    									江南大学机械学院包装工程-1802班会视频
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24927583?from=search&seid=11817856652907072713" class="">
+
+    								<div class="mui-media-body">
+    									包装工程6.14.0
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av32399666?from=search&seid=11817856652907072713" class="">
+
+    								<div class="mui-media-body">
+    									2018级暨南大学珠海校区包装工程新生训练营
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av33898275?from=search&seid=11817856652907072713" class="">
+
+    								<div class="mui-media-body">
+    									仲恺农业工程学院轻工食品学院包装工程182班活动视频
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data139491"><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-09/8d2f0816-a7ba-4501-9f55-f65fbf173c08.jpg" title="包装工程专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>轻工类</td><td>￥6274<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过38%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">11%在北京市工作</span></td><td>男生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男52%-女48%</span></td></tr></tbody></table><p>培养目标：本专业培养具备包装系统设计与管理等方面的能力，能在商品生产与流通部门、包装企业、科研机构、外贸、商检等部门从事包装系统设计、质量检测、技术管理和科学研究的高级工程技术人才。</p><p>主要课程：高分子物理与化学、工程力学、机械设计基础、包装材料学、包装工艺学、包装结构设计。</p><p>包装工程专业学生毕业后可在商品生产与流通部门、包装企业、科研机构、外贸、商检等部门从事包装系统设计、质量检测、技术管理和科学研究工作。</p><h2><a>1</a><span>2018最新包装工程专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>天津科技大学</td><td>5★</td><td>59</td></tr><tr><td>2</td><td>陕西科技大学</td><td>5★</td><td>59</td></tr><tr><td>3</td><td>武汉大学</td><td>5★</td><td>59</td></tr><tr><td>4</td><td>大连工业大学</td><td>4★</td><td>59</td></tr><tr><td>5</td><td>江南大学</td><td>4★</td><td>59</td></tr></tbody></table><h2><a>1</a><span>包装工程专业排名大学介绍</span></h2><p>天津科技大学位于渤海之滨、海河之畔，是中央和地方共建、天津市重点建设的以工为主，工、理、文、经、管、法、艺等学科协调发展的多科性大学。学校毕业生以基础扎实、素质全面、富于开拓精神和实践能力而受到社会各界青睐。</p><p><img alt="天津科技大学校门" src="http://img.gaosan.com/upload/webimg/1858.jpg" title="天津科技大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1958年</td><td>公立</td><td>理工</td><td>天津市教育委员会</td></tr></tbody></table><p>陕西科技大学是我国西部地区唯一一所以轻工为特色的多科性大学。学校现有西安和咸阳两个校区，总面积2003亩，建筑面积118.4万平米。西安校区占地面积1590亩。学校有专任教师1200多人，具有高级专业技术职称的近600人；有全日制各类在校学生22900多人，其中博士、硕士研究生2700多人。图书馆藏书近200万册。</p><p><img alt="陕西科技大学校门" src="http://img.gaosan.com/upload/webimg/1853.jpg" title="陕西科技大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1958年</td><td>公立</td><td>理工</td><td>陕西省人民政府</td></tr></tbody></table><p>武汉大学，简称“武大”，位于湖北武汉，是直属于中华人民共和国教育部的副部级全国重点大学，国家首批“985工程”、“211工程”、“2011计划”重点建设高校，同时是“111计划”、“珠峰计划”、“海外高层次人才引进计划”、“卓越工程师教育培养计划”、“卓越法律人才教育培养计划”和“卓越医生教育培养计划”等重点建设的综合研究型大学，是与法国高校联系最紧密、合作最广泛的中国高校之一，是世界权威期刊《Science》列出的“中国最杰出的大学”之一。武汉大学办学源头可溯源于清朝末期1893年湖广总督张之洞奏请清政府创办的自强学堂；1913年改名国立武昌高等师范学校；1926年组建国立武昌中山大学；1928年定名国立武汉大学，是民国四大名校之一；1949年，更名为武汉大学。</p><p><img alt="武汉大学校门" src="http://img.gaosan.com/upload/webimg/1628.jpg" title="武汉大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1893年</td><td>公立</td><td>综合</td><td>中华人民共和国教育部</td></tr></tbody></table><p>大连工业大学创建于1958年，是我国最早建立的4所轻工业院校之一。半个多世纪来，已为国家培养各类毕业生6万余人。学校有3个博士学位授权一级学科，1个博士后科研流动站，13个硕士学位授权一级学科，9个工程硕士招生领域、1个艺术硕士、1个农业推广硕士专业学位授权点；5个辽宁省重点学科，并有3个一级学科被评为辽宁省高校一流特色学科。</p><p><img alt="大连工业大学校门" src="http://img.gaosan.com/upload/webimg/1875.jpg" title="大连工业大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1958年</td><td>公立</td><td>理工</td><td>辽宁省教育厅</td></tr></tbody></table><p>江南大学是教育部直属、国家“211工程”重点建设高校。学校具有悠久的办学历史、厚重的文化积淀，源起1902年创建的三江师范学堂，历经国立中央大学、南京大学等发展时期；1958年南京工学院食品工业系整建制东迁无锡，建立无锡轻工业学院；1995年更名为无锡轻工大学；2001年无锡轻工大学、江南学院、无锡教育学院合并组建江南大学；2003年东华大学无锡校区并入江南大学。</p><p><img alt="江南大学校门" src="http://img.gaosan.com/upload/webimg/1704.jpg" title="江南大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1902年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><p>　　以上2018年包装工程专业大学排名包装工程专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

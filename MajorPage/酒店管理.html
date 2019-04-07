@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>酒店管理</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+酒店管理</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    酒店管理（Hotel Management ），是全球十大热门行业之一，高级酒店管理人才在全球都是一直很紧缺的。近年来，在国际人才市场上，酒店管理人才出现了供不应求的局面。随着2008北京奥运会成功的举办，以及2010上海世博会和越来越多的国际大型活动在中国举行，中国对旅游、酒店管理专业人才的需求也日益增大。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av32000906?from=search&seid=17881398665793313867" class="">
+								
+								<div class="mui-media-body">
+									【公开课】酒店管理原理（完）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av17446806?from=search&seid=17881398665793313867" class="">
+								
+								<div class="mui-media-body">
+									c#程序设计 — 北京大学MOOC
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av39155673?from=search&seid=17881398665793313867" class="">
+								
+								<div class="mui-media-body">
+									四季酒店合集
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av32707932?from=search&seid=17881398665793313867" class="">
+								
+								<div class="mui-media-body">
+									【公开课】c#程序设计（完）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av42528611?from=search&seid=17881398665793313867" class="">
+								
+								<div class="mui-media-body">
+									【c#程序设计】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av33890244?from=search&seid=10725401965175377561" class="">
+
+    								<div class="mui-media-body">
+    									【易酱】超热门酒店管理专业界的扛把子！了解一下？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av40406566?from=search&seid=10725401965175377561" class="">
+
+    								<div class="mui-media-body">
+    									【职业百科】酒店管理人员
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av36163544?from=search&seid=10725401965175377561" class="">
+
+    								<div class="mui-media-body">
+    									看日本酒店管理，可以说是事无巨细了,值得学习啊！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av40060382?from=search&seid=10725401965175377561" class="">
+
+    								<div class="mui-media-body">
+    									英国外商在商业论坛请教王健林万达酒店管理模式，万达居然能够做到光奖励员工就给10%
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10835393?from=search&seid=10725401965175377561" class="">
+
+    								<div class="mui-media-body">
+    									酒店管理实训系统后台
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data141127"><p><img alt="酒店管理专业" src="http://img.gaosan.com/upload/zhuanye/1/82.jpg"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>旅游管理类</td><td>￥6314<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过40%的专业</span></td><td>广州市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">11%在广州市工作</span></td><td>女生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男31%-女69%</span></td></tr></tbody></table><p>培养目标：酒店管理专业培养拥护党的基本路线，适应生产、建设、管理、服务第一线的，德智体美等全面发展的中等职业技术应用性专门人才。要求学生掌握经济管理基础理论，酒店、餐饮与旅游基础知识，具备酒店基本管理与服务能力。学生毕业后主要去各饭店、酒店、宾馆从事酒店基层管理及餐饮、客房服务工作。</p><p>主要课程：酒店管理专业注重学生综合素质的培养，主要学习经济管理基础知识、酒店基本理论。突出技能培训，学生在学习期间，将接受酒店、宾馆的餐饮、客房顶岗实习实训等多方面的技能训练。</p><p>就业方向：各类酒店、饭店、宾馆的门迎、前厅接待人员和客房服务人员；各类旅游公司，旅游管理部门工作人员；各类酒店、饭店、宾馆楼层管理、大堂管理、咨询、会展等工作；各类酒店、饭店、宾馆的商务部门从事业务洽谈、对外联络服务工作；各类酒店、饭店、宾馆的商务部门从事市场调查、情报、信息服务等工作。</p><h2><a>1</a><span>2018最新酒店管理专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>天津商业大学</td><td>5★</td><td>162</td></tr><tr><td>2</td><td>福建师范大学</td><td>5★</td><td>162</td></tr><tr><td>3</td><td>湖南师范大学</td><td>5★</td><td>162</td></tr><tr><td>4</td><td>太原学院</td><td>5★</td><td>162</td></tr><tr><td>5</td><td>浙江越秀外国语学院</td><td>5★</td><td>162</td></tr></tbody></table><h2><a>1</a><span>酒店管理专业排名大学介绍</span></h2><p>天津商业大学的前身是天津商学院，由国家商业部和天津市人民政府于1980年创建。学校现有54个本科专业，68个硕士点，其中一级学科硕士点9个，专业硕士点10个，在校生近2.3万人，教学科研仪器设备总值2.65亿元。图书馆现有中外文藏书200万余册，期刊杂志2000余种，中外文数据库60余个，电子图书100万余册。</p><p><img alt="天津商业大学校门" src="http://img.gaosan.com/upload/webimg/1955.jpg" title="天津商业大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1980年</td><td>公立</td><td>财经</td><td>天津市教育委员会</td></tr></tbody></table><p>福建师范大学是福建省人民政府与教育部共建高校，是我国建校最早的师范大学之一，前身为1907年由清朝帝师陈宝琛创办的福建优级师范学堂。后由华南女子文理学院、福建协和大学、福建省立师范专科学校等单位几经调整合并，于1953年成立福建师范学院，1972年易名为福建师范大学并沿用至今。</p><p><img alt="福建师范大学校门" src="http://img.gaosan.com/upload/webimg/2416.jpg" title="福建师范大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1907年</td><td>公立</td><td>综合</td><td>福建省人民政府</td></tr></tbody></table><p>湖南师范大学创建于1938年，位于历史文化名城长沙，是国家“211工程”重点建设的大学。学校现有6个校区，占地2475亩，建筑面积100余万平方米。主校区西偎麓山，东濒湘江，风光秀丽，是全国绿化“400佳”单位之一。</p><p><img alt="湖南师范大学 校训" src="http://img.gaosan.com/upload/webimg/1684.jpg" title="湖南师范大学 校训"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1938年</td><td>公立</td><td>师范</td><td>湖南省人民政府</td></tr></tbody></table><p>太原学院（原太原大学）创建于1984年，2002年太原市教育学院、太原师范学校、太原市园林技校撤销原建制并入我校，2013年4月经国家教育部批准，升格为综合类普通本科院校。学院位于太原教育园区中央，是太原市与晋中市“同城化”建设的交汇点和衔接带，区位优势突出。</p><p><img alt="太原学院校门" src="http://img.gaosan.com/upload/webimg/2130.jpg" title="太原学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1984年</td><td>公立</td><td>其他</td><td>山西省教育厅</td></tr></tbody></table><p>浙江越秀外国语学院（以下简称“越秀”）是经国家教育部批准设立的全日制普通本科高校。学校位于中国首批历史文化名城、著名的江南水乡、鲁迅的故乡——浙江绍兴，始创于1981年，2008年经国家教育部批准升格为本科高校。学校现有稽山、镜湖两个校区，占地面积近1300亩，校园建筑面积42万余平方米；图书馆馆藏纸质图书约160万册，电子图书107万册。</p><p><img alt="浙江越秀外国语学院校门" src="http://img.gaosan.com/upload/webimg/2489.jpg" title="浙江越秀外国语学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1981年</td><td>私立</td><td>语言</td><td>浙江省教育厅</td></tr></tbody></table><p>　　以上2018年酒店管理专业大学排名酒店管理专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

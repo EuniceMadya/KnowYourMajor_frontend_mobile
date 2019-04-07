@@ -1,0 +1,163 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>海洋资源开发技术</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+海洋资源开发技术</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    海洋资源开发技术专业，是2010年教育部审批的高等学校战略性新兴产业相关本科新专业 。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    该专业着重培养能够掌握海洋资源开发的基本理论和基本知识，具备可持续发展视野，适应海洋空间开发利用工程陆海统筹规划、设计、施工和管理的高级复合型人才。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av2235333?from=search&seid=11795042776874867293" class="">
+								
+								<div class="mui-media-body">
+									【近未来硬科幻】星空清理者1080p 26集全附特典
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av14015638?from=search&seid=18026954463275159759" class="">
+
+    								<div class="mui-media-body">
+    									【我的国122】美国没有的技术我们先掌握，下潜152次潜深一万米
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av45469020?from=search&seid=9086912903379356065" class="">
+
+    								<div class="mui-media-body">
+    									NCRE三级嵌入式系统开发技术-第一章自测题详解
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av32095716?from=search&seid=9086912903379356065" class="">
+
+    								<div class="mui-media-body">
+    									大数据学习开发阿里云大数据操作实战开发技术1
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av32095658?from=search&seid=9086912903379356065" class="">
+
+    								<div class="mui-media-body">
+    									大数据学习开发阿里云大数据操作实战开发技术3
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av29487309?from=search&seid=9086912903379356065" class="">
+
+    								<div class="mui-media-body">
+    									大数据Python开发海量数据获取【阿里云大数据操作实战开发技术】完整版01
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data139662"><p><img alt="2.jpg" src="http://img.gaosan.com/upload/201607/6360304886777204658643361.jpg" title="2.jpg"/></p><p>专业简介:海洋资源开发技术专业是为满足国家战略性新兴海洋相关产业发展对高素质人才的迫切需求，于2010年设置的专业，现已获批国家级特色专业。该专业依托中国海洋大学相关涉海专业的优势，主要学习开发和利用海洋资源的基本知识和核心技术，以海洋生物资源开发利用为特色。</p><p>主干课程:生物化学、海洋微生物工程、水产食品化学、海洋生物资源加工工厂设计、海洋资源原料学、海洋生物资源加工机械、海洋生物资源评估、海洋生物资源加工与利用工程、海洋生物资源产品质量控制、海洋资源综合利用技术专题、海洋管理概论等。</p><h2><a>1</a><span>2018最新海洋资源开发技术专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>中国海洋大学</td><td>5★</td><td>10</td></tr><tr><td>2</td><td>同济大学</td><td>4★</td><td>10</td></tr><tr><td>3</td><td>大连理工大学</td><td>3★</td><td>10</td></tr><tr><td>4</td><td>大连工业大学</td><td>3★</td><td>10</td></tr><tr><td>5</td><td>淮海工学院</td><td>3★</td><td>10</td></tr></tbody></table><h2><a>1</a><span>海洋资源开发技术专业排名大学介绍</span></h2><p>中国海洋大学是一所以海洋和水产学科为特色，包括理学、工学、农学、医（药）学、经济学、管理学、文学、法学、教育学、<a href="/gaokao/184680.html" target="_blank">历史学</a>、艺术学等学科门类较为齐全的教育部直属重点综合性大学，是国家“985工程”和“211工程”重点建设高校之一，是国务院学位委员会首批批准的具有博士、硕士、学士学位授予权的单位。</p><p><img alt="中国海洋大学校门" src="http://img.gaosan.com/upload/webimg/1671.jpg" title="中国海洋大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1924年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>同济大学是国家“985工程”和“211工程”重点建设的教育部直属高校，在百余年办学历程中，始终注重人才培养、科学研究、社会服务、文化传承创新四大功能均衡发展，综合实力位居国内高校前列。1912年与创办不久的同济德文工学堂合并，更名为同济德文医工学堂。1923年正式定名为大学。1927年成为国立同济大学，是中国最早的七所国立大学之一。</p><p><img alt="同济大学校门" src="http://img.gaosan.com/upload/webimg/1626.jpg" title="同济大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1907年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>大连理工大学是教育部直属全国重点大学，也是国家“211工程”和“985工程”重点建设高校。2012年12月教育部正式批准大连理工大学建设盘锦校区，该校区依照“统筹规划、错位发展、坚持标准、创新模式”的指导思想建设，与主校区同标准、同档次、同水平办学。</p><p><img alt="大连理工大学校门" src="http://img.gaosan.com/upload/webimg/1642.jpg" title="大连理工大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1949年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>大连工业大学创建于1958年，是我国最早建立的4所轻工业院校之一。半个多世纪来，已为国家培养各类毕业生6万余人。学校有3个博士学位授权一级学科，1个博士后科研流动站，13个硕士学位授权一级学科，9个工程硕士招生领域、1个艺术硕士、1个农业推广硕士专业学位授权点；5个辽宁省重点学科，并有3个一级学科被评为辽宁省高校一流特色学科。</p><p><img alt="大连工业大学校门" src="http://img.gaosan.com/upload/webimg/1875.jpg" title="大连工业大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1958年</td><td>公立</td><td>理工</td><td>辽宁省教育厅</td></tr></tbody></table><p>淮海工学院是江苏省委、省政府为响应国家进一步加快沿海地区改革开放，于1985年创办的一所普通本科院校。2013年8月，国务院学位委员会审议批准我校为硕士学位授予单位。目前占地1956亩，校舍面积56万多平方米。现有教职工1483人，全日制在校本科生18549人，硕士研究生95人。</p><p><img alt="淮海工学院校门" src="http://img.gaosan.com/upload/webimg/2069.jpg" title="淮海工学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1985年</td><td>公立</td><td>工科</td><td>江苏省人民政府</td></tr></tbody></table><p>　　以上2018年海洋资源开发技术专业大学排名海洋资源开发技术专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

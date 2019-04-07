@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>中西医临床医学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+中西医临床医学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    中西医临床医学专业在传授传统中医学理论的同时，加强对西方现代医学新成就、新技术的学习，注重学生的实践能力和创新精神的培养，顺应中医药进入世界医疗主流体系的趋势，以培养适应社会需要和医药卫生事业发展需要的优秀人才。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av41966686?from=search&seid=12390102452411799186" class="">
+								
+								<div class="mui-media-body">
+									2019军队文职临床医学专业课。云南四川贵州重庆广西广东福建安徽江西浙江湖北湖南山西陕西甘肃宁夏新疆内蒙古黑龙江吉林辽宁北京天津上海海南河北河南，公共科目通用
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av15276776?from=search&seid=12390102452411799186" class="">
+								
+								<div class="mui-media-body">
+									临床医学 医学免疫学  人卫第六版
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av7689996?from=search&seid=12390102452411799186" class="">
+								
+								<div class="mui-media-body">
+									安徽医科大学第一临床医学院学生会元旦晚会
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av47197683?from=search&seid=12390102452411799186" class="">
+								
+								<div class="mui-media-body">
+									2019医疗卫生面试-临床医学专业知识问答-洪涛-(持续更新...)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av46166214?from=search&seid=12390102452411799186" class="">
+								
+								<div class="mui-media-body">
+									【E类-临床医学】2019医疗卫生事业单位统考E类-临床医学-综合能力运用-第1讲
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24861069?from=search&seid=1853933772085639962" class="">
+
+    								<div class="mui-media-body">
+    									南方医科大学中西医临床医学招生宣传
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av32805957?from=search&seid=1853933772085639962" class="">
+
+    								<div class="mui-media-body">
+    									国庆快闪-《我爱你中国》❤为祖国母亲庆生，69周年生日快乐!  河北中医学院2016级中西医临床医学1班全体
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av15609200?from=search&seid=1853933772085639962" class="">
+
+    								<div class="mui-media-body">
+    									【study with me】20171021中西医临床医学狗“大树”向所有自习的学霸小姐姐们致敬~
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24035641?from=search&seid=1853933772085639962" class="">
+
+    								<div class="mui-media-body">
+    									福中医版《纸短情长》
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24044413?from=search&seid=1853933772085639962" class="">
+
+    								<div class="mui-media-body">
+    									Study with me 中西医医学生的期末日常
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data140722"><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-06/ad9f9c6c-9403-4c21-8aca-7e3c731f582e.jpg" title="中西医临床专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>中西医结合类</td><td>￥5953<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过29%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">10%在北京市工作</span></td><td>女生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男46%-女54%</span></td></tr></tbody></table><p>专业介绍：中西医<a href="/gaokao/184901.html" target="_blank">临床医学专业</a>在传授传统中医学理论的同时，加强对西方现代医学新成就、新技术的学习，注重学生的实践能力和创新精神的培养，顺应中医药进入世界医疗主流体系的趋势，以培养适应社会需要和医药卫生事业发展需要的优秀人才。</p><p>就业方向：中西医临床医学专业学生毕业后，能够掌握中西医学基本理论和基本技能，并有良好的人文素质和社会适应能力，可以从事医药卫生行业的医疗、科研、教学、社区保健、卫生防疫、卫生行政事业管理等工作。</p><h2><a>1</a><span>2018最新中西医临床医学专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>成都中医药大学</td><td>5★</td><td>37</td></tr><tr><td>2</td><td>福建中医药大学</td><td>5★</td><td>37</td></tr><tr><td>3</td><td>河南中医药大学</td><td>4★</td><td>37</td></tr><tr><td>4</td><td>湖南中医药大学</td><td>4★</td><td>37</td></tr><tr><td>5</td><td>安徽中医药大学</td><td>4★</td><td>37</td></tr></tbody></table><h2><a>1</a><span>中西医临床医学专业排名大学介绍</span></h2><p>成都中医药大学原名成都中医学院，创建于1956年，是在周恩来等党和国家第一代领导集体的亲切关怀下，经国务院批准建立的我国最早的四所中医药高等院校之一。学校占地面积1800亩，有16个学院、34个本科专业，全日制在校学生2.2万人，其中研究生2000余人。</p><p><img alt="成都中医药大学校门" src="http://img.gaosan.com/upload/webimg/1820.jpg" title="成都中医药大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1956年</td><td>公立</td><td>医药</td><td>四川省教育厅、国家中医药管理局</td></tr></tbody></table><p>福建中医药大学原名福建中医学院，创建于1958年，是我国创办较早的高等中医药院校之一，是福建省重点建设高校，2010年3月经教育部批准更名为福建中医药大学。学校设有13个学院（部），2个研究院；有中医学、中西医结合等2个博士学位授权一级学科，17个博士学位授权点。现有全日制在校生1.2万多人，其中研究生1400多人。</p><p><img alt="福建中医药大学校门" src="http://img.gaosan.com/upload/webimg/1962.jpg" title="福建中医药大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1958年</td><td>公立</td><td>医药</td><td>福建省人民政府</td></tr></tbody></table><p>河南，是中华民族的主要发祥地之一，是华夏民族始祖、人文初祖黄帝的故里，是医圣张仲景的故乡。学校位于省会郑州，现有4校区，分别为龙子湖校区、东明路校区、人民路校区、东风路校区，占地面积1594.94亩。是河南省人民政府和国家中医药管理局共建高校、国家中西部高等教育振兴计划高校、教育部中国政府奖学金生培养高校、博士学位授权单位、省级文明单位。</p><p><img alt="河南中医学院校门" src="http://img.gaosan.com/upload/webimg/1910.jpg" title="河南中医学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1955年</td><td>公立</td><td>医药</td><td>河南省教育厅</td></tr></tbody></table><p>学校创办于1934年，2012年学校进入一本招生序列。学校现有含浦、东塘2个校区，总占地面积1000余亩，校舍建筑面积47万平方米。学校下设17个学院、16个研究中心（所）。学校图书馆藏书109.7万册，线装古籍2.5万余册。拥有教学科研仪器设备总值1.50亿元，有40万元以上的贵重仪器设备17台件、多媒体教室165间。</p><p><img alt="湖南中医药大学校门" src="http://img.gaosan.com/upload/webimg/1865.jpg" title="湖南中医药大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1934年</td><td>公立</td><td>医药</td><td>湖南省教育厅</td></tr></tbody></table><p>安徽中医药大学创建于1959年。2011年，省政府批准在安徽中医学院的基础上组建成立安徽省中医药科学院。2013年，教育部同意安徽中医学院更名为安徽中医药大学。2009年学校以优异成绩通过国家教育部<a href="/gaokao/184987.html" target="_blank">中医学专业</a>试点认证。少荃湖新校区建设被列入安徽省“861”计划，2013年上半年一期工程竣工并投入使用。</p><p><img alt="安徽中医药大学校门" src="http://img.gaosan.com/upload/webimg/1974.jpg" title="安徽中医药大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1952年</td><td>公立</td><td>医药</td><td>安徽省教育厅</td></tr></tbody></table><p>　　以上2018年中西医临床医学专业大学排名中西医临床医学专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

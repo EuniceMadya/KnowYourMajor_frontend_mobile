@@ -1,0 +1,163 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>会展经济与管理</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+会展经济与管理</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    会展经济，是指由于会展业而带动的相关产业，并形成商机无限的全新行业经济。作为现代化服务业的门类之一，会展业能带动交通运输业、物流业、建筑业、商业、广告、旅游、金融等相关行业的发展。广阔的发展前景和良好的发展机遇，为会展经济与管理人才创造了良好的外部环境，已经成为各国经贸交流的重要渠道。随着中国的入世，中国会展业需要立刻与国际接轨，迎接历史的机遇和挑战。而客观上，中国会展业管理和运作模式相对滞后，会展行业的生存和发展归根到底取决于独特的设计理念和有效的管理，这就是人才的建设。我国会展业急需补充一批既具有现代设计理念，掌握会展设计的基本技能和方法，又具有现代管理知识的高等复合型人才。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av46289867?from=search&seid=372343847985412041" class="">
+								
+								<div class="mui-media-body">
+									会展策划【6集】(许传宏：上海工程技术大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av9544754?from=search&seid=8138972846626490091" class="">
+
+    								<div class="mui-media-body">
+    									会展经济与管理到底学的是什么？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10995145?from=search&seid=8138972846626490091" class="">
+
+    								<div class="mui-media-body">
+    									广州大学旅游学院会展经济与管理专业怎么样？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av23453395?from=search&seid=8138972846626490091" class="">
+
+    								<div class="mui-media-body">
+    									四川大学旅游学院2014级会展经济与管理专业毕业视频·一期一会
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av35857257?from=search&seid=8138972846626490091" class="">
+
+    								<div class="mui-media-body">
+    									18会展经济与管理一班团日活动2
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av35856939?from=search&seid=8138972846626490091" class="">
+
+    								<div class="mui-media-body">
+    									18会展经济与管理一班团日活动
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data141140"><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-11/03565a1d-f6d0-48bd-bb15-3d52f41bfc59.jpg" title="会展经济与管理专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>旅游管理类</td><td>￥7367<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过72%的专业</span></td><td>上海市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">31%在上海市工作</span></td><td>女生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男31%-女69%</span></td></tr></tbody></table><p>培养目标：培养具备管理、经济、法律及工商管理（会展管理）方面的知识和能力，熟悉会展策划、营销、管理和服务等全过程实务运作流程，具备会展组织与管理等基本能力，具有较强的外语和计算机运用能力，能在企、事业单位等相关部门工作的高级应用性专门人才。</p><p>主要课程：微观经济学、宏观经济学、管理学、统计学、市场营销、市场调查与预测、财务管理、人力资源管理、会展概论、传播学、会展策划、会展组织与管理、展示设计与制图、会议运营管理、会展项目管理、会展管理信息系统、会展政策与法规、商务谈判等。</p><p>就业方向：可从事企、事业单位等相关部门从事会展营销、会展招展、会展项目开发与管理、会议组织与管理、展位设计等。</p><h2><a>1</a><span>2018最新会展经济与管理专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>南开大学</td><td>5★</td><td>83</td></tr><tr><td>2</td><td>四川大学</td><td>5★</td><td>83</td></tr><tr><td>3</td><td>华南理工大学</td><td>5★</td><td>83</td></tr><tr><td>4</td><td>中山大学</td><td>5★</td><td>83</td></tr><tr><td>5</td><td>上海师范大学</td><td>4★</td><td>83</td></tr></tbody></table><h2><a>1</a><span>会展经济与管理专业排名大学介绍</span></h2><p>南开大学是国家教育部直属重点综合性大学，是敬爱的周恩来总理的母校。南开大学由严修、张伯苓秉承教育救国理念创办，肇始于1904年，成立于1919年。南开大学占地448.97万平方米，其中八里台校区占地122.50万平方米，津南校区占地245.89万平方米，泰达学院占地6.72万平方米。</p><p><img alt="南开大学校门" src="http://img.gaosan.com/upload/webimg/1649.jpg" title="南开大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1919年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>四川大学是教育部直属全国重点大学，是布局在中国西部、“985工程”和“211工程”重点建设的高水平研究型综合大学。学校现任党委书记杨泉明教授、校长谢和平院士。</p><p><img alt="四川大学校门" src="http://img.gaosan.com/upload/webimg/1645.jpg" title="四川大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1896年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>华南理工大学是直属教育部的全国重点大学，坐落在南方名城广州，占地面积294多万平方米。校园分为两个校区，五山校区位于广州市天河区石牌高校区。广东工业专科学校的前身是1918年成立的广东省立第一甲种工业学校，其历史可追溯至1910年清政府创办的广东工艺局。这些院校是早期中国南方培养高级工程技术人才的摇篮和民主科学思想的重要策源地。</p><p><img alt="华南理工大学校门" src="http://img.gaosan.com/upload/webimg/1636.jpg" title="华南理工大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1952年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><p>中山大学由孙中山先生创办，有着一百多年办学传统，是中国南方科学研究、文化学术与人才培养的重镇。作为中国教育部直属高校，通过部省共建，中山大学已经成为一所国内一流、国际知名的现代综合性大学。现由广州校区、珠海校区、深圳校区三个校区、五个校园及八家附属医院组成。中山大学正在向世界一流大学迈进，努力成为全球学术重镇。</p><p><img alt="中山大学校门" src="http://img.gaosan.com/upload/webimg/1639.jpg" title="中山大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1924年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>上海师范大学是市重点建设的高校，是一所以文科见长并具教师教育特色的文、理、工、艺学科协调发展的综合性大学。学校已进入上海市教育综合改革部市共同支持的高校行列。1997年9月至2003年8月，上海师范高等专科学校、南林师范学校黄陵卫生保健师范部、上海行知艺术师范学校、上海旅游高等专科学校等先后并入或划归我校管理。学校下设17个二级学院、134个研究机构。<br/></p><p><img alt="上海师范大学校门" src="http://img.gaosan.com/upload/webimg/1749.jpg" title="上海师范大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1954年</td><td>公立</td><td>综合</td><td>上海市人民政府</td></tr></tbody></table><p>　　以上2018年会展经济与管理专业大学排名会展经济与管理专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

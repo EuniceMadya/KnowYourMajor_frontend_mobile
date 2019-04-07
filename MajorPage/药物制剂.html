@@ -1,0 +1,185 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>药物制剂</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+药物制剂</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    所谓药物制剂，从狭义上来讲，就是具体的按照一定形式制备的药物成品，如阿莫西林胶囊等，从广义上来讲是药物制剂学，是一门学科。根据《中华人民共和国药品管理法》第一百零二条关于药品的定义：药品是指用于预防、治疗、诊断人的疾病，有目的地调节人的生理机能并规定有适应症、用法和用量的物质，包括中药材、中药饮片、中成药、化学原料药及其制剂、抗生素、生化药品、放射性药品、血清疫苗、血液制品和诊断药品等。药物制剂解决了药品的用法和用量问题。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    药物制剂对人类起到非常大的意义，具有重大的作用。药物制剂其实就在我们身边。如果我们感冒了，我们会吃一些感冒药，有的人吃的是胶囊的“康泰克”，有的人吃的是片状的“感康”。其实“胶囊”、“片状”这就是药物制剂，药物制剂的作用一般分为两类。药物制剂能为患者减少痛苦，有的人生病了，也不想吃药，因为他讨厌药的苦味，药真的是苦涩难咽.但是一旦把药做成糖衣片的话，这就不同了，避免了让患者饱受苦涩的煎熬。药物制剂能使药物发挥其作为“药物”的作用和效果，胰岛素是一种蛋白质，被人体食用后会分解从而失去效用，但是把胰岛素做成针剂，注射到糖尿病患者的体内，将会对糖尿病患者起到治疗的作用。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av35345576?from=search&seid=3805624315646723452" class="">
+								
+								<div class="mui-media-body">
+									药物制剂技术 张健泓    47讲 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av8082667?from=search&seid=3805624315646723452" class="">
+								
+								<div class="mui-media-body">
+									【中国药科大学】药剂学
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av27975978?from=search&seid=3805624315646723452" class="">
+								
+								<div class="mui-media-body">
+									【公开课】工业药剂学（完）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10305442?from=search&seid=16014474685080814360" class="">
+
+    								<div class="mui-media-body">
+    									广州中医药大学药物制剂专业怎么样？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av8901942?from=search&seid=16014474685080814360" class="">
+
+    								<div class="mui-media-body">
+    									陕西科技大学药物制剂2001级同学毕业10周年再聚首
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av36486900?from=search&seid=16014474685080814360" class="">
+
+    								<div class="mui-media-body">
+    									河南大学2016级药物制剂班宣传视频
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av29455124?from=search&seid=16014474685080814360" class="">
+
+    								<div class="mui-media-body">
+    									2014药物制剂2班毕业视频
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av40437943?from=search&seid=16014474685080814360" class="">
+
+    								<div class="mui-media-body">
+    									深读-冠心病5：心脏不好的你赶紧看
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data140729"><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-12/f6ffe27b-31f0-40ed-a56a-93bb18292f09.jpg" title="药物制剂专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>药学类</td><td>￥4837<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过7%的专业</span></td><td>上海市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">10%在上海市工作</span></td><td>女生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男44%-女56%</span></td></tr></tbody></table><p>培养目标：本专业培养具备药学、药剂学和药物制剂工程等方面的基本理论知识和基本实验技能，能在药物制剂和与制剂技术相关联的领域从事研究、开发、工艺设计、生产技术改进和质量控制等方面工作的高级科学技术人才。</p><p>主要课程：物理化学、化工原理、药物化学、药物分析学、药理学、物理药学、药用高分子材料学、生物药剂学、工业药剂学、制剂设备与车间工艺设计。</p><p>就业方向：药物制剂专业学生毕业后可在药物制剂和与制剂技术相关联的领域从事研究、开发、工艺设计、生产技术改进和质量控制等方面工作药物制剂专业就业岗位如药物制剂研究员、制剂研究员、药物分析、药品研发销售人员、生产工艺员、药物制剂、药物制剂研发人员、药物制剂项目经理、制剂工艺研究员、研发人员、药品研发、制剂研发人员等。</p><h2><a>1</a><span>2018最新药物制剂专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>中国药科大学</td><td>5★</td><td>86</td></tr><tr><td>2</td><td>沈阳药科大学</td><td>5★</td><td>86</td></tr><tr><td>3</td><td>黑龙江中医药大学</td><td>5★</td><td>86</td></tr><tr><td>4</td><td>广东药科大学</td><td>5★</td><td>86</td></tr><tr><td>5</td><td>浙江大学</td><td>4★</td><td>86</td></tr></tbody></table><h2><a>1</a><span>药物制剂专业排名大学介绍</span></h2><p>中国药科大学是一所历史悠久、特色鲜明、学风优良、在药学界享有盛誉的教育部直属、国家“211工程”重点建设的大学，是我国首批具有博士、硕士学位授予权的高等学校之一。</p><p><img alt="中国药科大学校门" src="http://img.gaosan.com/upload/webimg/1747.jpg" title="中国药科大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1936年</td><td>公立</td><td>医药</td><td>教育部</td></tr></tbody></table><p>沈阳药科大学是一所具有光荣革命传统的学校，是我国历史最悠久的综合性药科大学。学校总占地面积143.45万平方米，总建筑面积70.4万平方米。其中校本部校区占地面积为21.5万平方米，建筑面积为17.9万平方米；铁西校区占地面积为1.6万平方米，建筑面积为1.7万平方米；南校区占地面积为120.35万平方米，一期工程建筑面积8.9万平方米，二期工程建筑面积41.9万平方米。</p><p><img alt="沈阳药科大学校门" src="http://img.gaosan.com/upload/webimg/1844.jpg" title="沈阳药科大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1931年</td><td>公立</td><td>医药</td><td>辽宁省教育厅</td></tr></tbody></table><p>黑龙江中医药大学始建于1954年，经六十年的建设与发展，学校已成为具有较高教学、科研、医疗水平，在国内外有一定影响的高等中医药院校，现为黑龙江省重点建设的高水平大学。2008年被确定为国家中医临床研究基地建设单位，2009年和2014年被评为全国精神文明建设工作先进单位。</p><p><img alt="黑龙江中医药大学校门" src="http://img.gaosan.com/upload/webimg/1856.jpg" title="黑龙江中医药大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1954年</td><td>公立</td><td>医药</td><td>黑龙江省教育厅</td></tr></tbody></table><p>广东药学院是华南地区最早开办现代药学教育，最早设置药学本科专业的公办普通高等院校。学校拥有广州大学城校区、赤岗校区、宝岗校区和中山校区等4个校区。学校建有18个二级院（部），拥有直属附属三级甲等医院1家，有全日制在校生19740人。学校校舍建筑面积77.52万平方米，教学科研仪器设备资产总值24682.75万元；拥有功能齐全的现代化图书馆，各类图书181.07万册。</p><p><img alt="广东药学院校门" src="http://img.gaosan.com/upload/webimg/2566.jpg" title="广东药学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1958年</td><td>公立</td><td>医药</td><td>广东省教育厅</td></tr></tbody></table><p>浙江大学是一所历史悠久、声誉卓著的高等学府，坐落于中国历史文化名城、风景旅游胜地杭州。浙江大学的前身求是书院创立于1897年，为中国人自己最早创办的新式高等学校之一。1928年，定名国立浙江大学。浙江大学是一所特色鲜明、在海内外有较大影响的综合型、研究型大学，其学科涵盖哲学、经济学、法学、教育学、文学、<a href="/gaokao/184680.html" target="_blank">历史学</a>、艺术学、理学、工学、农学、医学、管理学等十二个门类。学校设有7个学部，36个学院（系）。拥有一级学科国家重点学科14个，二级学科国家重点学科21个。据ESI公布的数据，截至2015年9月，我校18个学科进入世界学术机构前1%，居全国高校第二；7个学科进入世界前100位，4个学科进入世界前50位，居全国高校第一。</p><p><img alt="浙江大学 学校大门" src="http://img.gaosan.com/upload/webimg/1631.jpg" title="浙江大学 学校大门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1897年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>　　以上2018年药物制剂专业大学排名药物制剂专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

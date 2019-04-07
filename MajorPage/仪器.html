@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>仪器</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+仪器</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    仪器，指科学技术上用于实验、计量、观测、检验、绘图等的器具或装置。通常是为某一特定用途所准备的一套装置或机器。仪器通常用于科学研究或技术测量、工业自动化过程控制、生产等用途，一般来说专用于一个目的的设备或装置。仪器构造较为复杂，属于高新技术产品，由多个部件组成的。仪器体积、重量、形状有各种各样，最小的可以直接拿在手中操作，较大体积的仪器一般被称为装置或设备。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av16109890?from=search&seid=17840989864635272619" class="">
+								
+								<div class="mui-media-body">
+									【仪分】清华大学 张新荣教授 仪器分析课程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av32521197?from=search&seid=17840989864635272619" class="">
+								
+								<div class="mui-media-body">
+									北京化工大学仪器分析
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av46520274?from=search&seid=17840989864635272619" class="">
+								
+								<div class="mui-media-body">
+									爱课程-清华大学-张新荣教授-仪器分析
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av37086121?from=search&seid=17840989864635272619" class="">
+								
+								<div class="mui-media-body">
+									吉林大学 智能仪器
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av20631395?from=search&seid=17840989864635272619" class="">
+								
+								<div class="mui-media-body">
+									测绘仪器介绍与使用
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av16582366?from=search&seid=15098509639780942999" class="">
+
+    								<div class="mui-media-body">
+    									当下5款热门洗脸机使用心得分享！到底哪个洁面仪适合？Clarisonic|luna|the beautools....仪器那么贵选好再买！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av5528644?from=search&seid=15098509639780942999" class="">
+
+    								<div class="mui-media-body">
+    									【仪器音乐】極！楽！净！土！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av36806237?from=search&seid=15098509639780942999" class="">
+
+    								<div class="mui-media-body">
+    									褚君浩院士--判断国家是否强大,先去实验室看看 有多少仪器是自己造的
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av27694905?from=search&seid=15098509639780942999" class="">
+
+    								<div class="mui-media-body">
+    									你认得这里的几个仪器？【固液不加热型装置】
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av31634435?from=search&seid=15098509639780942999" class="">
+
+    								<div class="mui-media-body">
+    									这才是自由能磁铁发电机, 如此厉害的仪器, 其实制作很简单
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div class="text"><p>中国大学仪器类哪些本科专业跻身2018世界一流专业、中国顶尖专业和中国一流专业行列？哪些仪器类专业是2018年中国高考最优秀考生选择报考的最佳专业？													</p><p>为了给2018年全国高考考生和外国来华留学生选择报考中国大学仪器类本科专业提供权威参考指南，艾瑞深中国校友会网(Cuaa.Net)编写完成、科学出版社出版发行的《2018中国大学评价研究报告―中国高考志愿填报指南（校友会版）》最新发布2018中国大学一流专业排行榜、2018中国大学各学科一流专业排行榜和2018中国大学仪器类本科专业排行榜等榜单。																										报告显示，全国206个专业荣膺2018中国八星级专业（8★），跻身世界一流专业、中国最顶尖专业行列；清华大学雄居2018中国大学一流专业排行榜冠军，北京大学第2，中国人民大学第3，复旦大学第4，浙江大学第5，天津大学跻身前10强。中国社会科学院大学、西南政法大学和昆明理工大学等10所非双一流大学跻身全国100强。最引人关注的是，工商管理、经济学和计算机专业最盛产全球亿万富豪，168位福布斯全球富豪榜上榜富豪财富总额高达4.32万亿, 堪称“中国全球亿万富豪摇篮”。深圳大学计算机专业造富能力最强，培养了马化腾、张志东和周群飞等4名全球顶级亿万富豪，财富总额近4500亿，雄居2018中国最具财富创造力专业排行榜榜首；杭州师范大学英语、武汉科技大学材料学专业跻身全国前3甲。													</p><p>值得关注的是，全国有15所世界一流学科建设高校跌出全国200强，本科专业建设水平有待提升；中国社会科学院大学、北京电影学院、上海戏剧学院、中国戏曲学院、西南政法大学、深圳大学、燕山大学、北京舞蹈学院、天津师范大学和昆明理工大学等10所非双一流大学跻身全国前100强。吉林大学珠海学院、云南师范大学商学院、四川大学锦江学院、北京师范大学珠海分校、武汉科技大学城市学院列2018中国独立学院一流专业排行榜前5强。武昌首义学院、文华学院、三亚学院、郑州工商学院、西安欧亚学院列2018中国民办大学一流专业排行榜前5强，西交利物浦大学、北京师范大学－香港浸会大学联合国际学院和宁波诺丁汉大学居2018中国合作办学大学一流专业排行榜前3强。													</p><p>													一流本科教育是建设世界一流大学的重要基础，本科专业建设是中国高校本科教育教学建设中重要工作。自2015年起，艾瑞深中国校友会网(Cuaa.Net)已连续4年发布中国大学本科专业排行榜，旨在为全国高考考生、外国来华留学生高考填报志愿挑选大学与专业提供权威参考指南。校友会 2018中国大学本科专业评价指标由学科水平、毕业生质量、师资水平、专业水平和专业影响等五大指标构成，涵盖包括了国家“双一流”建设学科、教育部第四轮学科评估结果、国家级特色专业、省级特色重点专业、杰出校友和杰出师资等100多项指标，详情请参阅由艾瑞深研究院赵德国、蔡言厚、党亚茹、王凌峰、刘明和蔡莉编写完成、科学出版社面向全国出版发行的《2018中国大学评价研究报告―中国高考志愿填报指南（校友会版）》。													</p><p><b>艾瑞深中国校友会网2018中国大学仪器类各本科专业排行榜</b>：													 </p><p align="center"><b>校友会2018中国大学测控技术与仪器专业排名</b></p><table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr><tr><td>1</td><td>清华大学</td><td>8星级</td><td>世界一流专业</td><td>北京</td><td>1</td></tr><tr><td>2</td><td>北京航空航天大学</td><td>7星级</td><td>世界知名高水平、中国顶尖专业</td><td>北京</td><td>2</td></tr><tr><td>2</td><td>天津大学</td><td>7星级</td><td>世界知名高水平、中国顶尖专业</td><td>天津</td><td>1</td></tr><tr><td>4</td><td>上海交通大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>上海</td><td>1</td></tr><tr><td>4</td><td>哈尔滨工业大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>黑龙江</td><td>1</td></tr><tr><td>4</td><td>东南大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>江苏</td><td>1</td></tr><tr><td>4</td><td>解放军信息工程大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>河南</td><td>1</td></tr><tr><td>8</td><td>重庆大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>重庆</td><td>1</td></tr><tr><td>8</td><td>电子科技大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>四川</td><td>1</td></tr><tr><td>8</td><td>北京理工大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>北京</td><td>3</td></tr><tr><td>8</td><td>西安交通大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>陕西</td><td>1</td></tr><tr><td>8</td><td>中国计量大学</td><td>6星级</td><td>世界高水平、中国顶尖专业</td><td>浙江</td><td>1</td></tr><tr><td>13</td><td>沈阳工业大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>辽宁</td><td>1</td></tr><tr><td>13</td><td>吉林大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>吉林</td><td>1</td></tr><tr><td>13</td><td>大连理工大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>辽宁</td><td>1</td></tr><tr><td>13</td><td>北京信息科技大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>北京</td><td>4</td></tr><tr><td>13</td><td>长春理工大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>吉林</td><td>1</td></tr><tr><td>18</td><td>湖北工业大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>湖北</td><td>1</td></tr><tr><td>18</td><td>华中科技大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>湖北</td><td>1</td></tr><tr><td>18</td><td>国防科技大学</td><td>5星级</td><td>世界知名、中国一流专业</td><td>湖南</td><td>1</td></tr></table><p align="center"><b>校友会2017中国民办大学测控技术与仪器专业排行榜																																												   		  <table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr><tr><td>1</td><td>三亚学院</td><td>6星级</td><td>中国顶尖民办大学专业</td><td>海南</td><td>1</td></tr><tr><td>2</td><td>郑州工商学院</td><td>5星级</td><td>中国一流民办大学专业</td><td>河南</td><td>1</td></tr></table></b></p><p align="center"><b>校友会2017中国独立学院测控技术与仪器专业排行榜																																												   		  <table border="1" width="90%"><tr><td><b>名次</b></td><td><b>学校名称</b></td><td><b>专业星级</b></td><td><b>专业层次</b></td><td><b>所在地区</b></td><td><b>地区排名</b></td></tr><tr><td>1</td><td>燕山大学里仁学院</td><td>6星级</td><td>中国顶尖独立学院专业</td><td>河北</td><td>1</td></tr><tr><td>2</td><td>南京理工大学紫金学院</td><td>5星级</td><td>中国一流独立学院专业</td><td>江苏</td><td>1</td></tr><tr><td>2</td><td>长春理工大学光电信息学院</td><td>5星级</td><td>中国一流独立学院专业</td><td>吉林</td><td>1</td></tr></table></b></p></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

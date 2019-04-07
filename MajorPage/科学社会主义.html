@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>科学社会主义</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+科学社会主义</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    科学社会主义是关于无产阶级解放条件的学说。马克思主义经典作家在论述无产阶级彻底解放的规律时，既批判了那种企图凭借法律来创立新的社会制度的所谓“法学家社会主义”，又充分估量了摧毁剥削阶级法制、建立无产阶级法制对实现无产阶级解放的重大作用,从而把法律问题同无产阶级彻底解放的条件紧密地联系在一起。 </h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    科学社会主义是与空想社会主义相对而言的、关于社会主义的科学的理论体系、理论模型与实践模式。科学社会主义是人类一切文明成果的结晶。科学社会主义是关于社会主义的本质、性质、特征和发展规律的科学理论，是由科学的哲学、经济学、社会管理学、行为科学等科学理论组成的完整严密的理论体系，是人类关于社会发展理论的最新成果。科学社会主义与其他社会科学的区别在于它的综合性，与社会科学之王经济学的区别在于它的操作性与制度设计，与经济学中的制度经济学的区别在于对政府行为的制度设计。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av36356753?from=search&seid=15087219988887986367" class="">
+								
+								<div class="mui-media-body">
+									【历史】社会主义将军陈炯明 全七讲 广东省社会科学院 研究员 赵立人 教授 主讲
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av23512772?from=search&seid=15087219988887986367" class="">
+								
+								<div class="mui-media-body">
+									广东省社会科学院 社会主义将军陈炯明 全7讲 主讲-赵立人 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av40031097?from=search&seid=15087219988887986367" class="">
+								
+								<div class="mui-media-body">
+									社会主义理论与实践【33集】(李刚：西北大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av6003213?from=search&seid=15087219988887986367" class="">
+								
+								<div class="mui-media-body">
+									2015年中共中央党校法学理论国际政治国外马克思主义科学社会主义马克思主义基本原理思想政治理论中共党史政治学考博真题解析
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av11889581?from=search&seid=15087219988887986367" class="">
+								
+								<div class="mui-media-body">
+									广东省社会科学院 社会主义将军陈炯明 全7讲 主讲-赵立人 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av37164961?from=search&seid=9984285710387079289" class="">
+
+    								<div class="mui-media-body">
+    									《社会主义核心价值观：新时期爱国的三种维度》——食品科学技术学院 胡楠
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av34614613?from=search&seid=9984285710387079289" class="">
+
+    								<div class="mui-media-body">
+    									中业考研政治考察知识点剖析：科学社会主义
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av36251179?from=search&seid=9984285710387079289" class="">
+
+    								<div class="mui-media-body">
+    									【好君的网络小说书单03】【黎明之剑】魔法与骑士？不不不，我们走的是社会主义科学发展路线！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av40461140?from=search&seid=9984285710387079289" class="">
+
+    								<div class="mui-media-body">
+    									中国特色社会主义道路，让“历史终结论”彻底破产！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av4640585?from=search&seid=9984285710387079289" class="">
+
+    								<div class="mui-media-body">
+    									你抑郁了还怎么建设社会主义
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data183930"><p>中国大学哪些本科的科学社会主义专业跻身2018世界一流、世界高水平、中国顶尖和中国一流专业行列？艾瑞深中国校友会网最新公布的2018本科专业排行榜中就有你想知道的答案，和小编一起来看看吧！</p><p><img alt="科学社会主义专业全国大学排名" border="0" height="370" src="http://img.gaosan.com/upload/201710/6364472378561649018227754.jpg" style="width: 600px; height: 370px;" title="科学社会主义专业全国大学排名" vspace="0" width="600"/></p><p>在2018本科科学社会主义专业排行榜中，北京大学雄居排行榜榜首，中国人民大学、山东大学紧随其后，占据第二、第三名。全部排名数据请看下表：</p><h2><a>1</a><span>本科大学科学社会主义专业排名</span></h2><table><colgroup><col width="72"/><col width="163"/><col width="72"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>北京大学</td><td>6星级</td><td>北京</td><td>1</td></tr><tr><td>2</td><td style="word-break: break-all;">中国人民大学</td><td>5星级</td><td>北京</td><td>2</td></tr><tr><td>3</td><td>山东大学</td><td>4星级</td><td>山东</td><td>1</td></tr><tr><td>4</td><td>中国地质大学（北京）</td><td>3星级</td><td>北京</td><td>3</td></tr></tbody></table><p>艾瑞深中国校友会网2018中国大学本科专业排行榜专业星级划分：中国九星级专业：世界顶尖专业；中国八星级专业：世界一流、中国最顶尖专业；中国七星级专业：世界知名高水平、中国顶尖专业；中国六星级专业：世界高水平、中国顶尖专业；中国五星级专业：世界知名、中国一流专业；中国四星级专业：中国高水平专业；中国三星级专业：中国知名、区域一流专业；中国二星级专业：中国区域高水平专业；中国一星级专业：中国区域知名专业。</p><h2><a>1</a><span>北京大学<br/></span></h2><p></p><p>北京大学创办于1898年，初名京师大学堂，是中国第一所国立综合性大学，也是当时中国最高教育行政机关。辛亥革命后，于1912年改为现名。作为新文化运动的中心和“五四”运动的策源地，作为中国最早传播马克思主义和民主科学思想的发祥地，作为中国共产党最早的活动基地，北京大学为民族的振兴和解放、国家的建设和发展、社会的文明和进步做出了不可替代的贡献，在中国走向现代化的进程中起到了重要的先锋作用。爱国、进步、民主、科学的传统精神和勤奋、严谨、求实、创新的学风在这里生生不息、代代相传。</p><p><img alt="北京大学校门" src="http://img.gaosan.com/upload/webimg/1623.jpg" title="北京大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1898年</td><td>公立</td><td>综合</td><td>中华人民共和国教育部</td></tr></tbody></table><h2><a>1</a><span>中国人民大学</span></h2><p></p><p>中国人民大学（RenminUniversityofChina）是一所以人文社会科学为主的综合性研究型全国重点大学，直属于教育部，由教育部与北京市共建。学校的前身是1937年诞生于抗日战争烽火中的陕北公学，以及后来的华北联合大学和华北大学。著名教育家吴玉章、成仿吾、袁宝华、黄达、李文海、纪宝成、陈雨露先后担任校长。现任党委书记为靳诺教授，校长为刘伟教授。</p><p><img alt="中国人民大学校门" src="http://img.gaosan.com/upload/webimg/1633.jpg" title="中国人民大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1937年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>山东大学</span></h2><p></p><p>山东大学是国家“211工程”和“985工程”重点建设的高水平大学之一。山东大学是中国近代高等教育的起源性大学。其医学学科起源于1864年，为近代中国高等教育历史之最。其主体是1901年创办的山东大学堂，是继京师大学堂之后中国创办的第二所国立大学，也是中国第一所按章程办学的大学。</p><p><img alt="山东大学校门" src="http://img.gaosan.com/upload/webimg/1651.jpg" title="山东大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1901年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

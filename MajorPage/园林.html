@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>园林</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+园林</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    在一定的地域运用工程技术和艺术手段，通过改造地形（或进一步筑山、叠石、理水）、种植树木花草、营造建筑和布置园路等途径创作而成的美的自然环境和游憩境域，就称为园林。在中国传统建筑中独树一帜，有重大成就的是古典园林建筑。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    传统中国文化中的一种艺术形式，受到传统“礼乐”文化影响很深。通过地形、山水、建筑群、花木等作为载体衬托出人类主体的精神文化。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    园林具有很多的外延概念：园林社区、园林街道、园林城市（生态城市）、国家园林县城等等。现代的生活方式和生活环境对于园林有着迫切的功能性和艺术性的要求。对于我们现代的生活和未来的人民发展方向有着越来越重要的作用。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av13555248?from=search&seid=17256569944586663168" class="">
+								
+								<div class="mui-media-body">
+									《CCTV9｜超清合集》园林｜长城之内是花园
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av15658363?from=search&seid=17256569944586663168" class="">
+								
+								<div class="mui-media-body">
+									【纪录片】园林【CGTN国际版】【1080P/全8集】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av37279719?from=search&seid=17256569944586663168" class="">
+								
+								<div class="mui-media-body">
+									【华中科技大学】园林植物
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av2428290?from=search&seid=17256569944586663168" class="">
+								
+								<div class="mui-media-body">
+									纪录片【中国古典园林之旅】7P
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av43897051?from=search&seid=17256569944586663168" class="">
+								
+								<div class="mui-media-body">
+									【北京林业大学】西方园林历史与艺术
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av21978620?from=search&seid=5185152576447989176" class="">
+
+    								<div class="mui-media-body">
+    									老唐lumion表现动画-苏州园林
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av15260235?from=search&seid=5185152576447989176" class="">
+
+    								<div class="mui-media-body">
+    									花园集---传统苏式园林庭院
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av47149717?from=search&seid=5185152576447989176" class="">
+
+    								<div class="mui-media-body">
+    									北京林业大学女大学生上学日常/zzf话超多/园林专业/宿舍沙雕快乐
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av34642367?from=search&seid=5185152576447989176" class="">
+
+    								<div class="mui-media-body">
+    									浸入式园林昆曲《浮生六记》纪录片PV
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av40821157?from=search&seid=5185152576447989176" class="">
+
+    								<div class="mui-media-body">
+    									外国人点评苏州园林--世界上最美丽的花园！！（外国网友/YouTube/油管/越南/泰国/印度/江苏/南京/旅游/旅行/摄影/拍照）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data184718"><p>中国大学哪些本科的园林专业，是2018高考优秀考生报考的最佳选择呢？艾瑞深中国校友会网最新公布的2018本科专业排行榜中就有你想知道的答案，和小编一起来看看吧！</p><p><img alt="园林专业大学排名" border="0" height="350" src="http://img.gaosan.com/upload/201711/6364512603327762318687900.png" style="width: 600px; height: 350px;" title="园林专业大学排名" vspace="0" width="600"/></p><p><strong>在2018本科园林专业排行榜中，北京林业大学雄居排行榜榜首，华中农业大学、南京林业大学、浙江大学紧随其后，并列第二名。</strong>想知道全部的<a href="/gaokao/184718.html" target="_blank">园林专业</a>排名请看下表：</p><h2><a>1</a><span>公办本科大学园林专业排名</span></h2><table><colgroup><col width="43"/><col width="217"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>北京林业大学</td><td>6星级</td><td>北京</td><td>1</td></tr><tr><td>2</td><td>华中农业大学</td><td>5星级</td><td>湖北</td><td>1</td></tr><tr><td>2</td><td>南京林业大学</td><td>5星级</td><td>江苏</td><td>1</td></tr><tr><td>2</td><td>浙江大学</td><td>5星级</td><td>浙江</td><td>1</td></tr><tr><td>5</td><td>东北农业大学</td><td>4星级</td><td>黑龙江</td><td>1</td></tr><tr><td>5</td><td>安徽农业大学</td><td>4星级</td><td>安徽</td><td>1</td></tr><tr><td>5</td><td>重庆文理学院</td><td>4星级</td><td>重庆</td><td>1</td></tr><tr><td>5</td><td>河南农业大学</td><td>4星级</td><td>河南</td><td>1</td></tr><tr><td>5</td><td>福建农林大学</td><td>4星级</td><td>福建</td><td>1</td></tr><tr><td>5</td><td>中国农业大学</td><td>4星级</td><td>北京</td><td>2</td></tr><tr><td>5</td><td>上海交通大学</td><td>4星级</td><td>上海</td><td>1</td></tr><tr><td>5</td><td>天津大学</td><td>4星级</td><td>天津</td><td>1</td></tr><tr><td>5</td><td>四川大学</td><td>4星级</td><td>四川</td><td>1</td></tr><tr><td>5</td><td>同济大学</td><td>4星级</td><td>上海</td><td>1</td></tr><tr><td>5</td><td>四川农业大学</td><td>4星级</td><td>四川</td><td>1</td></tr><tr><td>5</td><td>北华大学</td><td>4星级</td><td>吉林</td><td>1</td></tr><tr><td>5</td><td>东北林业大学</td><td>4星级</td><td>黑龙江</td><td>1</td></tr><tr><td>5</td><td>河北农业大学</td><td>4星级</td><td>河北</td><td>1</td></tr><tr><td>5</td><td>浙江农林大学</td><td>4星级</td><td>浙江</td><td>2</td></tr><tr><td>5</td><td>西南林业大学</td><td>4星级</td><td>云南</td><td>1</td></tr><tr><td>21</td><td>江西农业大学</td><td>3星级</td><td>江西</td><td>1</td></tr><tr><td>21</td><td>黄山学院</td><td>3星级</td><td>安徽</td><td>2</td></tr><tr><td>21</td><td>西南大学</td><td>3星级</td><td>重庆</td><td>2</td></tr><tr><td>21</td><td>西北农林科技大学</td><td>3星级</td><td>陕西</td><td>1</td></tr><tr><td>21</td><td>安康学院</td><td>3星级</td><td>陕西</td><td>1</td></tr><tr><td>26</td><td>内蒙古农业大学</td><td>3星级</td><td>内蒙古</td><td>1</td></tr><tr><td>26</td><td>广西大学</td><td>3星级</td><td>广西</td><td>1</td></tr><tr><td>26</td><td>仲恺农业工程学院</td><td>3星级</td><td>广东</td><td>1</td></tr><tr><td>26</td><td>普洱学院</td><td>3星级</td><td>云南</td><td>2</td></tr><tr><td>26</td><td>河北科技师范学院</td><td>3星级</td><td>河北</td><td>2</td></tr><tr><td>26</td><td>长江大学</td><td>3星级</td><td>湖北</td><td>2</td></tr><tr><td>26</td><td>成都理工大学</td><td>3星级</td><td>四川</td><td>3</td></tr><tr><td>26</td><td>华南农业大学</td><td>3星级</td><td>广东</td><td>1</td></tr><tr><td>26</td><td>吉林农业科技学院</td><td>3星级</td><td>吉林</td><td>2</td></tr><tr><td>26</td><td>南京农业大学</td><td>3星级</td><td>江苏</td><td>2</td></tr><tr><td>26</td><td>昆明理工大学</td><td>3星级</td><td>云南</td><td>2</td></tr><tr><td>26</td><td>海南大学</td><td>3星级</td><td>海南</td><td>1</td></tr><tr><td>26</td><td>北京农学院</td><td>3星级</td><td>北京</td><td>3</td></tr><tr><td>26</td><td>山东农业大学</td><td>3星级</td><td>山东</td><td>1</td></tr><tr><td>26</td><td>天津农学院</td><td>3星级</td><td>天津</td><td>2</td></tr><tr><td>26</td><td>青岛农业大学</td><td>3星级</td><td>山东</td><td>1</td></tr><tr><td>26</td><td>中南林业科技大学</td><td>3星级</td><td>湖南</td><td>1</td></tr><tr><td>26</td><td>丽水学院</td><td>3星级</td><td>浙江</td><td>3</td></tr><tr><td>26</td><td>韶关学院</td><td>3星级</td><td>广东</td><td>1</td></tr><tr><td>26</td><td>阜阳师范学院</td><td>3星级</td><td>安徽</td><td>3</td></tr><tr><td>26</td><td>南昌工程学院</td><td>3星级</td><td>江西</td><td>2</td></tr><tr><td>26</td><td>榆林学院</td><td>3星级</td><td>陕西</td><td>3</td></tr><tr><td>26</td><td>吉首大学</td><td>3星级</td><td>湖南</td><td>1</td></tr><tr><td>26</td><td>聊城大学</td><td>3星级</td><td>山东</td><td>1</td></tr></tbody></table><h2><a>1</a><span>民办大学园林专业排名</span></h2><table><colgroup><col width="43"/><col width="217"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>西安外事学院</td><td>6星级</td><td>陕西</td><td>1</td></tr><tr><td>2</td><td>山东英才学院</td><td>5星级</td><td>山东</td><td>1</td></tr><tr><td>2</td><td>三亚学院</td><td>5星级</td><td>海南</td><td>1</td></tr><tr><td>2</td><td>商丘学院</td><td>5星级</td><td>河南</td><td>1</td></tr><tr><td>5</td><td>长春建筑学院</td><td>4星级</td><td>吉林</td><td>1</td></tr><tr><td>5</td><td>武昌理工学院</td><td>4星级</td><td>湖北</td><td>1</td></tr><tr><td>5</td><td>重庆人文科技学院</td><td>4星级</td><td>重庆</td><td>1</td></tr><tr><td>5</td><td>武汉生物工程学院</td><td>4星级</td><td>湖北</td><td>1</td></tr><tr><td>5</td><td>武汉设计工程学院</td><td>4星级</td><td>湖北</td><td>1</td></tr><tr><td>10</td><td>沈阳工学院</td><td>3星级</td><td>辽宁</td><td>1</td></tr><tr><td>10</td><td>湖南应用技术学院</td><td>3星级</td><td>湖南</td><td>1</td></tr></tbody></table><h2><a>1</a><span>独立学院园林专业排名</span></h2><table><colgroup><col width="43"/><col width="217"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>云南师范大学文理学院</td><td>5星级</td><td>云南</td><td>1</td></tr><tr><td>1</td><td>湖南农业大学东方科技学院</td><td>5星级</td><td>湖南</td><td>1</td></tr><tr><td>3</td><td>长江大学文理学院</td><td>4星级</td><td>湖北</td><td>1</td></tr><tr><td>3</td><td>中南林业科技大学涉外学院</td><td>4星级</td><td>湖南</td><td>2</td></tr><tr><td>3</td><td>苏州科技大学天平学院</td><td>4星级</td><td>江苏</td><td>1</td></tr><tr><td>3</td><td>江西农业大学南昌商学院</td><td>4星级</td><td>江西</td><td>1</td></tr><tr><td>7</td><td>福建农林大学金山学院</td><td>3星级</td><td>福建</td><td>1</td></tr><tr><td>7</td><td>广东海洋大学寸金学院</td><td>3星级</td><td>广东</td><td>1</td></tr><tr><td>7</td><td>青岛农业大学海都学院</td><td>3星级</td><td>山东</td><td>1</td></tr><tr><td>7</td><td>福建农林大学东方学院</td><td>3星级</td><td>福建</td><td>1</td></tr><tr><td>7</td><td>绍兴文理学院元培学院</td><td>3星级</td><td>浙江</td><td>1</td></tr><tr><td>7</td><td>山西农业大学信息学院</td><td>3星级</td><td>山西</td><td>1</td></tr><tr><td>7</td><td>安徽农业大学经济技术学院</td><td>3星级</td><td>安徽</td><td>1</td></tr><tr><td>7</td><td>浙江农林大学暨阳学院</td><td>3星级</td><td>浙江</td><td>1</td></tr></tbody></table><h2><a>1</a><span>园林专业介绍<br/></span></h2><p></p><p><img alt="园林专业" src="http://img.gaosan.com/upload/zhuanye/1/826.jpg"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>林学类</td><td>￥6870<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过57%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">11%在北京市工作</span></td><td>女生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男44%-女56%</span></td></tr></tbody></table><p>培养目标：本专业主要培养从事园林植物繁育、养护管理与应用，城乡各类园林绿地的规划与设计，园林施工组织与管理等方面的高级复合型科学技术人才。</p><p>主要课程：本专业学生主要学习生态学、园林植物、观赏园艺、园林设计、园林建筑、园林工程等方面的基本理论和基本知识，受到绘画及表现技法、规划设计、园林植物栽培繁育及插花艺术等方面的基本训练，具有城镇绿化、园林建筑、园林工程、园林植物造景等规划设计及园林植物的栽培、繁育及养护管理等方面的基本能力。</p><p>就业方向：农科所、蔬菜公司等农业科研、事业机构。各农业科技园区、园艺类公司。农业局或其他行政部门、考研。各行各业，以市场类职位为主。从事各种所有制的园艺站、园艺场、花木公司、园林公司、农技站、公园、植物园、园艺产品流通协会等岗位的或个体经营的园艺作物以及园艺产品自营实体等单位的生产、管理、营销等工作。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>投资学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+投资学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    投资学研究如何把个人、机构的有限资源分配到诸如股票、国债、不动产等（金融）资产上，以获得合理的现金流量和风险/收益率。其核心就是以效用最大化准则为指导，获得个人财富配置的最优均衡解。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    作为一门学问，投资学就是对投资进行系统研究，从而更科学地进行投资活动。投资学主要包括证券投资、国际投资、企业投资等几个研究领域。投资学专业旨在培养具备当代世界政治、经济视野，了解中国投资政策，能够在银行、证券公司、保险公司、投资公司、投资咨询公司、资产管理公司、基金管理公司及信托公司等金融机构从事投资管理、投资咨询工作的高素质的投资专门人才，以及到各类企事业单位、政府部门以及教学科研单位从事投资管理及相关业务的应用性人才。投资学不仅要学习经济学的基础知识，更要有扎实的专业知识基础做后盾。既要熟悉宏观的投资政策背景，又要精通各种投资的微观技巧。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av26736694?from=search&seid=5316881310485467731" class="">
+								
+								<div class="mui-media-body">
+									中央财经大学 投资学   推荐教材：博迪投资学
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av21076021?from=search&seid=5316881310485467731" class="">
+								
+								<div class="mui-media-body">
+									【公开课】投资学（完）-中财
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av3146004?from=search&seid=5316881310485467731" class="">
+								
+								<div class="mui-media-body">
+									投资学入门
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av46442902?from=search&seid=5316881310485467731" class="">
+								
+								<div class="mui-media-body">
+									投资学 博迪
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av44704286?from=search&seid=5316881310485467731" class="">
+								
+								<div class="mui-media-body">
+									投资银行学【54集】(金德环：上海财经大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av28264287?from=search&seid=6089633559959423096" class="">
+
+    								<div class="mui-media-body">
+    									你必学的分级基金投资课-1分级基金实战课简介
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av14887191?from=search&seid=6089633559959423096" class="">
+
+    								<div class="mui-media-body">
+    									李嘉诚转移千亿财产，手握英国命脉，如今王健林也学投资海外！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av47069236?from=search&seid=6089633559959423096" class="">
+
+    								<div class="mui-media-body">
+    									炎炎学注会 长期股权投资  实时学习 0318
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av35879890?from=search&seid=6089633559959423096" class="">
+
+    								<div class="mui-media-body">
+    									陆家嘴老王带你学投资：让股神巴菲特受用一生的投资圣经，藏着哪些不为人知的秘密？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24921694?from=search&seid=6089633559959423096" class="">
+
+    								<div class="mui-media-body">
+    									小白学理财：基金投资
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data138306"><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-12/a864f9be-aca0-417b-a6ff-3221826d3e9e.jpg" title="投资学专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>金融学类</td><td>￥8831<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过92%的专业</span></td><td>上海市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">17%在上海市工作</span></td><td>男生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男51%-女49%</span></td></tr></tbody></table><p>专业介绍：投资学主要包括证券投资、国际投资、企业投资等几个研究领域。投资学专业旨在培养具备当代世界政治、经济视野，了解中国投资政策，能够在银行、证券公司、保险公司、投资公司、投资咨询公司、资产管理公司、基金管理公司及信托公司等金融机构从事投资管理、投资咨询工作的高素质的投资专门人才，以及到各类企事业单位、政府部门以及教学科研单位从事投资管理及相关业务的应用性人才。<br/></p><p>就业方向：投资学专业的毕业生需求较大，这无疑为投资学专业毕业生的就业增加了不少砝码。一般来说，投资学专业的毕业生主要有以下几个去向：到证券、信托投资公司和投资银行从事证券投资，如投资公司、上市公司、证券公司、信托公司、风险投资公司、商业银行、保险公司等。到一些社会的投资中介机构、咨询公司、财务公司、基金公司、资产管理公司、金融控股公司、房地产公司等，参与操作、协助决策或给予专业建议。到企业的投资部门从事企业投资工作。到各大企业的财会或审计部门，税务部门，参与企业的投资策划与决策、财富理财、风险管理与控制工作。到政府相关部门从事有关投资的政策制定和政策管理，或者是到事业单位，如会计师事务所及税务师事务所等税务代理机构、政府财税部门，从事行政管理和建议工作。到高校、科研部门从事教学、科研工作。</p><h2><a>1</a><span>2017最新投资学专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>中央财经大学</td><td>5★</td><td>95</td></tr><tr><td>2</td><td>西南财经大学</td><td>5★</td><td>95</td></tr><tr><td>3</td><td>上海财经大学</td><td>5★</td><td>95</td></tr><tr><td>4</td><td>安徽财经大学</td><td>5★</td><td>95</td></tr><tr><td>5</td><td>中南财经政法大学</td><td>5★</td><td>95</td></tr></tbody></table><h2><a>1</a><span>投资学专业排名大学介绍</span></h2><p>中央财经大学是教育部直属的国家“211工程”重点建设高校和国家“优势学科创新平台”项目首批试点高校。学校是新中国成立后中央人民政府创办的第一所新型高等财经院校，历经中央税务学校、中央财政学院、中央财经学院、中央财政金融学院等发展阶段，1996年更名为中央财经大学。</p><p><img alt="中央财经大学 学校大门" src="http://img.gaosan.com/upload/webimg/1718.jpg" title="中央财经大学 学校大门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1949年</td><td>公立</td><td>财经</td><td>教育部</td></tr></tbody></table><p>西南财经大学是教育部直属的国家“211工程”和“985工程”优势学科创新平台建设的全国重点大学，也是国家教育体制改革试点高校。学校坐落在成都平原，携光华、柳林两校区，辖地2300余亩，校园湖光柳影，芳草绿树，翩翩学者，蔚为大观，是著名的“园林式院校”。</p><p><img alt="西南财经大学校门" src="http://img.gaosan.com/upload/webimg/1719.jpg" title="西南财经大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1925年</td><td>公立</td><td>财经</td><td>教育部</td></tr></tbody></table><p><a href="/gaokao/174903.html" target="_blank">上海财经大学</a>源于1917年南京高等师范学校创办的商科，著名社会活动家、爱国民主人士杨杏佛任商科主任。1921年，随着以南京高等师范学校为基础建设国立东南大学计划的实施，商科扩充改组并迁址上海，成立国立东南大学分设上海商科大学，这是中国教育史上最早的商科大学，著名教育家郭秉文任校长，著名经济学家马寅初任教务主任。</p><p><img alt="上海财经大学校门" src="http://img.gaosan.com/upload/webimg/1698.jpg" title="上海财经大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1917年</td><td>公立</td><td>财经</td><td>教育部</td></tr></tbody></table><p>安徽财经大学是一所以经、管、法学为主，跨文学、理学、工学、史学、艺术学八大学科门类，面向全国招生、就业的多科性高等财经院校，是我国首批具有学士学位授予权、第二批具有硕士学位授予权的高校，是安徽省重点建设的大学。2004年5月，经教育部批准，学校更名为安徽财经大学；同年9月，学校迁入龙湖东校区。</p><p><img alt="安徽财经大学校门" src="http://img.gaosan.com/upload/webimg/1888.jpg" title="安徽财经大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1959年</td><td>公立</td><td>财经</td><td>安徽省教育厅</td></tr></tbody></table><p>中南财经政法大学是中华人民共和国教育部直属的一所普通高等学校，是国家“211工程”和“985工程”优势学科创新平台项目重点建设高校之一。学校现有两个校区，南湖校区位于风景秀丽的南湖水畔，首义校区位于历史悠久的黄鹤楼下。2012年10月，教育部、财政部、湖北省人民政府签署正式协议，共建中南财经政法大学。</p><p><img alt="中南财经政法大学校门" src="http://img.gaosan.com/upload/webimg/2418.jpg" title="中南财经政法大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1948年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>　　以上2017年投资学专业大学排名投资学专业排行榜由高三网收集整理，更多专业排名请查看<a href="http://www.gaosan.com/zhuanyepaiming/">大学专业开设高校排名</a>栏目</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

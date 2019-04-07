@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>环保设备工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+环保设备工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    环保产业与设备工程专业：培养具有环境保护基本理论知识，能够运用环保产业运营、管理等知识；掌握环境保护产品营销、售后服务的规律、特点与技能；熟练掌握CAD技术；具有在环保产业和各类工程机械设备的开发、设计、制造、安装、调试、操作、维护、营销等方面的高级技术应用型专门人才。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    计算机应用、高等数学、英语等基础课具有扎实的基础,提高学生的基础知识水平， 满足学生专科毕业后专接本、专升本、考研等学历提高的要求。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av5074275?from=search&seid=433584703877897783" class="">
+								
+								<div class="mui-media-body">
+									【CCTV】环保住宅 2013(科教频道科技之光栏目) [国语/标清无字幕]
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av13249780?from=search&seid=433584703877897783" class="">
+								
+								<div class="mui-media-body">
+									【合集】环保剑 1-52集 高清
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av40654135?from=search&seid=433584703877897783" class="">
+								
+								<div class="mui-media-body">
+									注册电气工程师发输变电供配电基础考试视频普通物理热学、勘察注册设计注册土木结构环保化工工程师公共基础考试视频
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av42975042?from=search&seid=433584703877897783" class="">
+								
+								<div class="mui-media-body">
+									環保綜藝池水抽光好吃驚-高知城-寺島進,印旙沼,靜岡-鱉養殖場,福島鍬形蟲
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av12251525?from=search&seid=433584703877897783" class="">
+								
+								<div class="mui-media-body">
+									【AMY】科技之光——环保住宅
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av27387144?from=search&seid=570511406903354281" class="">
+
+    								<div class="mui-media-body">
+    									厨房新时代！深圳商用厨房油烟净化器价格油烟净化器哪个牌子好！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av27386757?from=search&seid=570511406903354281" class="">
+
+    								<div class="mui-media-body">
+    									福建大型工业油烟净化器供应厂家——广杰环保
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av22029613?from=search&seid=570511406903354281" class="">
+
+    								<div class="mui-media-body">
+    									安装油烟净化器实拍
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av44754015?from=search&seid=570511406903354281" class="">
+
+    								<div class="mui-media-body">
+    									四效蒸发器（多效蒸发器）运行现场，橡胶助剂行业，工业废水处理设备等环保设备运行现场-青岛康景辉集团
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av44753560?from=search&seid=570511406903354281" class="">
+
+    								<div class="mui-media-body">
+    									这是双效MVR蒸发器的安装过程，青岛康景辉还生产多效蒸发器、工业废水零排放，换热器、结晶器等环保设备-青岛康景辉集团
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data140120"><p><img alt="2.jpg" src="http://img.gaosan.com/upload/201607/6360323701859083572014459.jpg" title="2.jpg"/></p><p>培养要求:该专业要求学生通过系统的专业学习，具备环保设备的设计与制造﹑操纵与维护、设备功能的改进和完善、环保设备的科技开发、应用研究和运行管理等方面的基础理论和基本技能，同时注重学生的动手能力的培养，通过拓展课程学习、课外科技活动以及实习实践等环节培养学生分析问题和解决实际问题的能力。</p><p>发展前景：环保设备工程专业主要阐述污染控制与减排、污染清理与废物处理、清洁生产技术与洁净产品、节能技术、生态设计和与环境相关的服务等。该课程的任务是使学生了解环境保护产业的基本结构及在国民经济中的地位作用;了解我过环境保护产业的发展现状;明确大气污染控制、水污染处理、固体废物处理等相关产业的市场需求;初步了解环保产业的各方面的内容，明确学习的方向。</p><h2><a>1</a><span>2017最新环保设备工程专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>中国石油大学(华东)</td><td>5★</td><td>10</td></tr><tr><td>2</td><td>江苏大学</td><td>4★</td><td>10</td></tr><tr><td>3</td><td>盐城工学院</td><td>3★</td><td>10</td></tr><tr><td>4</td><td>太原科技大学</td><td>3★</td><td>10</td></tr><tr><td>5</td><td>南华大学</td><td>3★</td><td>10</td></tr></tbody></table><h2><a>1</a><span>环保设备工程专业排名大学介绍</span></h2><p>中国石油大学(华东)是教育部直属全国重点大学，是国家“211工程”和“985工程优势学科创新平台”高校，是高水平行业特色大学优质资源共享联盟成员高校，是“卓越工程师教育培养计划”、“111计划”、“国家建设高水平大学公派研究生项目”、千人计划重点建设的行业特色型大学入选高校之一。</p><p><img alt="1403317093_2d5b0c220c983e42d5f9ee3aeff406a3_meitu_1.jpg" src="http://img.gaosan.com/upload/201605/6359916451265607244831889.jpg" title="1403317093_2d5b0c220c983e42d5f9ee3aeff406a3_meitu_1.jpg"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1953年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><p>江苏大学是2001年8月经教育部批准，由原江苏理工大学、镇江医学院、镇江师范专科学校合并组建。学校学科门类齐全，涵盖工学、理学、医学、管理学、经济学、法学、文学、<a href="/gaokao/184680.html" target="_blank">历史学</a>、教育学、艺术学等10大学科门类。设有24个学院，87个本科专业；学校博士学位授权点涵盖13个一级学科；硕士学位授权点涵盖42个一级学科，有10个硕士专业学位类别，26个工程硕士授权领域。</p><p><img alt="江苏大学校门" src="http://img.gaosan.com/upload/webimg/1740.jpg" title="江苏大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1902年</td><td>公立</td><td>综合</td><td>江苏省人民政府</td></tr></tbody></table><p>盐城工学院是江苏省属全日制普通本科高校，坐落于素有“东方湿地之都、仙鹤麋鹿之乡”美誉的沿海开放城市——盐城市市区，建有建军东路和希望大道两个校区。2000年，创建于1964年的盐城会计学校并入盐城工学院。</p><p><img alt="盐城工学院校门" src="http://img.gaosan.com/upload/webimg/2071.jpg" title="盐城工学院校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1958年</td><td>公立</td><td>工科</td><td>江苏省人民政府</td></tr></tbody></table><p>太原科技大学是新中国第一所重型机械本科院校，是一所具有鲜明办学特色和光荣办学传统的多科性大学，是我国重大技术装备领域重要的人才培养和科学研究基地。2005年成为博士学位授予权单位。2006年本科教育工作水平评估被教育部评为优秀。</p><p><img alt="太原科技大学校门" src="http://img.gaosan.com/upload/webimg/1895.jpg" title="太原科技大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1952年</td><td>公立</td><td>理工</td><td>山西省教育厅</td></tr></tbody></table><p>南华大学具有57年办学历史的综合大学。学校座落在历史文化名城湖南省衡阳市市区，占地面积近3000亩，交通便捷，环境优美，是读书治学的理想园地。学校有直属学院26个，4所直属型附属医院，21所协作型附属医院，20个研究生协作培养单位。学校设有本科专业75个，博士学位授权学科、专业点18个，硕士学位授权学科、专业点124个。</p><p><img alt="南华大学校门" src="http://img.gaosan.com/upload/webimg/1873.jpg" title="南华大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1958年</td><td>公立</td><td>综合</td><td>湖南省人民政府</td></tr></tbody></table><p>　　以上2017年环保设备工程专业大学排名环保设备工程专业排行榜由高三网收集整理，更多专业排名请查看<a href="http://www.gaosan.com/zhuanyepaiming/">大学专业开设高校排名</a>栏目</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

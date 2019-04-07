@@ -1,0 +1,163 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>康复治疗学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+康复治疗学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    康复治疗学主要用于培养从事医院康复治疗工作的应用型专门技术人才。通过学习此科目，能够从事康复各科的治疗工作、康复医学的教学和研究工作，以及社区康复与预防工作，具有分析问题、科学思维和独立工作的能力，具备开展康复医学各领域的科学研究工作的初步能力。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    通过学习，要求学生掌握基础医学、临床医学和康复治疗学以及中国传统康复治疗学的基本理论和基本知识，熟练地掌握康复治疗学的基本技能，具有较牢固的康复治疗学专业基础，能够从事康复各科的治疗工作、康复医学的教学和研究工作，以及社区康复与预防工作；具有分析问题、科学思维和独立工作的能力；掌握一门外国语，具有阅读本专业外语书刊的能力。具备开展康复医学各领域的科学研究工作的初步能力。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av38010934?from=search&seid=11208737221022798749" class="">
+								
+								<div class="mui-media-body">
+									南方医科大学-东南枝习室-线上课堂0525
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24873645?from=search&seid=3212486756858792959" class="">
+
+    								<div class="mui-media-body">
+    									海南医学院2018届康复治疗学四年回顾人声版
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av28461640?from=search&seid=3212486756858792959" class="">
+
+    								<div class="mui-media-body">
+    									康复治疗学，了解一下?
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10305505?from=search&seid=3212486756858792959" class="">
+
+    								<div class="mui-media-body">
+    									广州中医药大学康复治疗学专业你了解多少？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24872440?from=search&seid=3212486756858792959" class="">
+
+    								<div class="mui-media-body">
+    									海南医学院2018届康复治疗学毕业酒会兔子舞
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24874862?from=search&seid=3212486756858792959" class="">
+
+    								<div class="mui-media-body">
+    									海南医学院2018届康复治疗学四年回顾音乐版
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data99028"><p>在2017-2018年度本科专业排行榜中，共涉及523个专业，其中开设高校数大于和等于5所的专业有393个；开设高校数最多的专业有英语748所、计算机科学与技术718所、视觉传达设计581所、市场营销572所、环境设计561所。</p><p><img alt="232.jpg" src="http://img.gaosan.com/upload/201702/6362295350600550111869854.jpg" title="232.jpg"/><br/></p><h2><a>1</a><span>康复治疗学专业排名</span></h2><p>截至2017年，全国开设康复治疗学专业的高校数为103所，在上述院校中，康复治疗学专业的排名如下：</p><table><tbody><tr class="firstRow"><td>专业排名</td><td>学校名称</td><td>星级排名</td></tr><tr><td>1</td><td>首都医科大学</td><td>5★</td></tr><tr><td>2</td><td>中山大学</td><td>5★</td></tr><tr><td>3</td><td>温州医科大学</td><td>5★</td></tr><tr><td>4</td><td>南京医科大学</td><td>5★</td></tr><tr><td>5</td><td>中国医科大学</td><td>5★</td></tr><tr><td>6</td><td>黑龙江中医药大学</td><td>4★</td></tr><tr><td>7</td><td>成都体育学院</td><td>4★</td></tr><tr><td>8</td><td>四川大学</td><td>4★</td></tr><tr><td>9</td><td>上海中医药大学</td><td>4★</td></tr><tr><td>10</td><td>重庆医科大学</td><td>4★</td></tr><tr><td>11</td><td>山东中医药大学</td><td>4★</td></tr><tr><td>12</td><td>广州中医药大学</td><td>4★</td></tr><tr><td>13</td><td>福建中医药大学</td><td>4★</td></tr><tr><td>14</td><td>新乡医学院</td><td>4★</td></tr><tr><td>15</td><td>南京中医药大学</td><td>4★</td></tr><tr><td>16</td><td>南昌大学</td><td>4★</td></tr><tr><td>17</td><td>承德医学院</td><td>4★</td></tr><tr><td>18</td><td>吉林大学</td><td>4★</td></tr><tr><td>19</td><td>南方医科大学</td><td>4★</td></tr><tr><td>20</td><td>河南中医药大学</td><td>4★</td></tr></tbody></table><h2><a>1</a><span>康复治疗学专业介绍</span></h2><p><img alt="康复治疗学专业" src="http://img.gaosan.com/upload/zhuanye/1/1245.jpg"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>医学技术类</td><td>￥6371<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过41%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">12%在北京市工作</span></td><td style="word-break: break-all;">女生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男41%-女59%</span></td></tr></tbody></table><p>培养目标：要求学生掌握基础医学、临床医学和康复治疗学以及中国传统康复治疗学的基本理论和基本知识，熟练地掌握康复治疗学的基本技能，具有较牢固的康复治疗学专业基础，能够从事康复各科的治疗工作、康复医学的教学和研究工作，以及社区康复与预防工作。</p><p>以上关于康复治疗学专业的排名数据，由中国科教评价网金平果排行榜独家发布，转载请注明出处。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

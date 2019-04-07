@@ -1,0 +1,163 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>卫生监督</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+卫生监督</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    卫生监督是指国家授权卫生部门对所辖区内的企业、事业单位贯彻执行国家的卫生法令、条例和标准的情况进行监督和管理，对违反卫生法规并造成危害人体健康的情况，进行严肃处理。各级政府根据实际需要设立卫生卫生监督机构，在卫生行政部门的领导下，对下列对象行使预防性或经常性监督，卫生监督又分为医疗卫生监督、公共卫生监督、环境卫生监督、计划生育监督、传染病与学校卫生监督、职业卫生监督。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    卫生监督是加强卫生管理的重要手段，各级卫生监督机构是主要的卫生监督管理执行机构，各级卫生行政部门是卫生监督的具体责任部门。卫生监督工作通过监督检查等手段来实施。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av44770694?from=search&seid=16201577403087654210" class="">
+								
+								<div class="mui-media-body">
+									【眯着眼瞎玩】姐姐在线监督打扫卫生的p3
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av42466934?from=search&seid=7868481547230534314" class="">
+
+    								<div class="mui-media-body">
+    									裸体寿司餐厅？卫生监督所:妇联、文明办都让开，让我来！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av15089298?from=search&seid=7868481547230534314" class="">
+
+    								<div class="mui-media-body">
+    									20170828_中国卫生监督片头_样片01_水印
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24372297?from=search&seid=7868481547230534314" class="">
+
+    								<div class="mui-media-body">
+    									《为民理发铺》衢州市卫生监督所
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av46493920?from=search&seid=7868481547230534314" class="">
+
+    								<div class="mui-media-body">
+    									【浙江】卫生监督部门把美容仪搬进校园：大学生贷款美容或成新热门投诉（范大姐帮忙 2019年3月15日）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av46359266?from=search&seid=7868481547230534314" class="">
+
+    								<div class="mui-media-body">
+    									【浙江工业大学】超声刀、水光针、OPT光子脱毛：卫生监督部门把美容仪搬进校园 大学生贷款美容或成新热门投诉
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data184870"><p>中国大学哪些本科的卫生监督专业，是2018高考优秀考生报考的最佳选择呢？艾瑞深中国校友会网最新公布的2018本科专业排行榜中就有你想知道的答案，和小编一起来看看吧！</p><p><img alt="卫生监督专业大学排名" border="0" height="370" src="http://img.gaosan.com/upload/201711/6364514217111596778304206.jpg" style="width: 600px; height: 370px;" title="卫生监督专业大学排名" vspace="0" width="600"/></p><p><strong>在2018本科卫生监督专业排行榜中，哈尔滨医科大学雄居排行榜榜首，</strong>想知道全部的卫生监督专业排名请看下表：</p><h2><a>1</a><span>公办本科大学卫生监督专业排名</span></h2><table><colgroup><col width="43"/><col width="217"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>哈尔滨医科大学</td><td>3星级</td><td>黑龙江</td><td>1</td></tr></tbody></table><h2><a>1</a><span>卫生监督专业介绍</span></h2><p></p><p><img alt="卫生监督专业" src="http://img.gaosan.com/upload/zhuanye/1/185.jpg"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>公共卫生与预防医学类</td><td>￥5654<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过21%的专业</span></td><td>广州市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">8%在广州市工作</span></td><td>女生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男14%-女86%</span></td></tr></tbody></table><p>培养目标：培养德、智、体、能全面发展，掌握一定的医学、法学知识和卫生管理基本技能，具有较高职业综合素质和实际操作能力，能在一线岗位从事卫生管理的高级应用性专门人才。</p><p>课程设置：职业基础课主要包括正常人体结构与机能、医学免疫学与病原生物学、临床医学概论、管理学概论、法学基础等；职业岗位课程主要包括卫生统计、流行病学、卫生法规与管理实务、健康管理学、环境卫生学、营养学、食品卫生与安全、职业卫生与职业医学、公共卫生综合实践技能等。</p><p>就业方向：各类卫生检测评价机构从事危害因素采样、检测和控制措施效果评价工作；食品生产经营企业、公共场所、工矿企业从事卫生监督管理工作；学校、幼托机构、养老院、健康管理机构等从事健康管理工作；卫生监督所及其派出机构从事卫生监督管理工作；各级疾病预防控制机构、医院、社区卫生服务机构等从事疾病预防管理工作。</p><h2><a>1</a><span>哈尔滨医科大学<br/></span></h2><p></p><p>哈尔滨医科大学是由原哈尔滨医科大学（我国医学先驱伍连德博士于1926年创建的哈尔滨医学专门学校，1938年改名为哈尔滨医科大学）和原兴山（现鹤岗市）中国医科大学第一、二分校组建而成。具有相当的发展规模和鲜明的办学特色，已经跻身于全国高等医学院校前列，是黑龙江省重点建设高水平大学、中俄医科大学联盟中方牵头单位、部委省共建大学。</p><p><img alt="哈尔滨医科大学校门" src="http://img.gaosan.com/upload/webimg/1724.jpg" title="哈尔滨医科大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1926年</td><td>公立</td><td>医药</td><td>黑龙江省教育厅</td></tr></tbody></table><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

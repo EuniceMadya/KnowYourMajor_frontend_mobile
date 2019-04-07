@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>蒙医学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+蒙医学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    蒙古族传统医学，简称蒙医学，是蒙古民族逐渐积累的独特的医药学理论和治疗方法。蒙医学既是蒙古民族丰富的文化遗产之一，也是中国传统医学的重要组成部分。 它以长期与疾病斗争中所积累起来的传统医疗实践经验为基础，它吸收了藏医、汉医及古印度医学理论的精华，逐步形成具有鲜明民族特色、地域特点和独特理论体系、临床特点的民族传统医学。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av23542875?from=search&seid=13289637011895588170" class="">
+								
+								<div class="mui-media-body">
+									内蒙古医学院 蒙医心脉系统与诊脉体系 全8讲 主讲-纳顺达来 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av23542782?from=search&seid=13289637011895588170" class="">
+								
+								<div class="mui-media-body">
+									内蒙古医学院 蒙医临床专题讲座 全19讲 主讲-黄志刚 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av23542841?from=search&seid=13289637011895588170" class="">
+								
+								<div class="mui-media-body">
+									内蒙古医学院 蒙医温病学概述 全5讲 主讲-图门乌力吉 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av23542633?from=search&seid=13289637011895588170" class="">
+								
+								<div class="mui-media-body">
+									内蒙古医学院 蒙医传统疗术特色及临床意义和科研价值 全25讲 主讲-明根巴雅尔 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av10969309?from=search&seid=13289637011895588170" class="">
+								
+								<div class="mui-media-body">
+									蒙内铁路纪录片 My Railway, My Story【我的铁路，我的故事】【生肉/英文】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av44199209?from=search&seid=15277448542074992668" class="">
+
+    								<div class="mui-media-body">
+    									老师搞笑演绎，科普胸外按压的正确打开方式
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av44518899?from=search&seid=3701818736824945874" class="">
+
+    								<div class="mui-media-body">
+    									用亮度蒙板恢复天空细节
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av46782256?from=search&seid=3701818736824945874" class="">
+
+    								<div class="mui-media-body">
+    									蒙面女神的按摩 正骨
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av40686379?from=search&seid=3701818736824945874" class="">
+
+    								<div class="mui-media-body">
+    									蒙多一级单杀任何上单 征服者疯狗蒙多
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av41020333?from=search&seid=3701818736824945874" class="">
+
+    								<div class="mui-media-body">
+    									中英日蒙，当各国骑兵遇到机枪大炮，注定是场惨烈的被屠杀 【半泽老师】
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data184981"><p>中国大学哪些本科的蒙医学专业，是2018高考优秀考生报考的最佳选择呢？和小编一起来看看吧！</p><p><img alt="蒙医学专业大学排名" border="0" height="350" src="http://img.gaosan.com/upload/201711/6364515030695145754216063.jpg" style="width: 600px; height: 350px;" title="蒙医学专业大学排名" vspace="0" width="600"/></p><p><strong>在2018本科蒙医学专业排行榜中，内蒙古医科大学雄居排行榜榜首，内蒙古民族大学紧随其后，占据第二名。</strong>想知道全部的蒙医学专业排名请看下表：</p><h2><a>1</a><span>公办本科大学蒙医学专业排名</span></h2><table><colgroup><col width="50"/><col width="110"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>内蒙古医科大学</td><td>4星级</td><td>内蒙古</td><td>1</td></tr><tr><td>2</td><td>内蒙古民族大学</td><td>3星级</td><td>内蒙古</td><td>2</td></tr></tbody></table><h2><a>1</a><span>蒙医学专业介绍</span></h2><p></p><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-12/2fc72961-d388-4f53-bfe8-438394c26c14.jpg" title="蒙医学专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>中医学类</td><td>未知<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">样本不足，无法分析</span></td><td>邯郸市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">14%在邯郸市工作</span></td><td>未知男---女--</td></tr></tbody></table><p>培养目标：本专业培养具备蒙医学基础理论和医疗技能以及一定的现代医学知识，能在本专业和蒙西医结合方面的医疗、教学、科研等领域从事实际工作的蒙医学高级专门人才。</p><p>主要课程：蒙医基础理论、蒙医诊断学、蒙药学、蒙医方剂学、(四部医典)导读、蒙医疗学、蒙医温病学、蒙医内科学、人体解剖学、生理学、诊断学、内科学、中医学。</p><p>就业方向：蒙医学专业毕业生可到医学研究部门、医学院校和各级医疗卫生单位及医院从事科研、教学、医疗工作和管理工作，也可报考蒙医文献研究或蒙医学临床各学科硕士研究生继续深造。</p><h2><a>1</a><span>内蒙古医科大学</span></h2><p></p><p>内蒙古医科大学坐落于内蒙古自治区首府呼和浩特市，是一所以医学为主，集理学、管理学、工学、文学于一体的多科性高等医药院校。经过50多年的建设和发展，内蒙古医科大学为国家培养各级各类人才7万余名，为自治区经济发展、社会进步、科技创新、文化传承、民族团结、边疆稳定做出了重要贡献，已成为一所具有鲜明办学特色的地方高等医药院校。</p><p><img alt="内蒙古医科大学 图书馆" src="http://img.gaosan.com/upload/webimg/1939.jpg" title="内蒙古医科大学 图书馆"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1956年</td><td>公立</td><td>医药</td><td>内蒙古自治区教育厅</td></tr></tbody></table><h2><a>1</a><span>内蒙古民族大学</span></h2><p></p><p>内蒙古民族大学是内蒙古自治区人民政府直属重点建设高校。学校总面积392.6万平方米，校舍建筑面积41.87万平方米。现有专兼教师1054人，具有硕博以上学历教师908人，占教师总数的86.1%，其中教授有168人。学校现有在校本专科生21077人，其中本科生20629人，硕士研究生798人，博士研究生4人，留学生472人。五十多年来，学校累计为社会培养输送了近16万名毕业生。</p><p><img alt="内蒙古民族大学校门" src="http://img.gaosan.com/upload/webimg/1983.jpg" title="内蒙古民族大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1958年</td><td>公立</td><td>综合</td><td>内蒙古自治区教育厅</td></tr></tbody></table><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

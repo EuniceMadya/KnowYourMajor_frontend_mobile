@@ -1,0 +1,185 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>空间科学与技术</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+空间科学与技术</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    空间科学与技术是在天文学、地质学、测绘学、计算机科学及其它边缘学科交叉渗透、相互融合的基础上发展起来的一门新型交叉学科。由西安电子科技大学空间科学与技术学院院长包为民院士提议设立。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av35953084?from=search&seid=11744902306518455868" class="">
+								
+								<div class="mui-media-body">
+									【公开课】随机信号分析（完）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av40014819?from=search&seid=11744902306518455868" class="">
+								
+								<div class="mui-media-body">
+									心理咨询理论与技术研究【45集】(丁建略：吉林大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av44339718?from=search&seid=11744902306518455868" class="">
+								
+								<div class="mui-media-body">
+									磁层物理【53集】(宗秋刚：北京大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av11571892?from=search&seid=14104932579449959420" class="">
+
+    								<div class="mui-media-body">
+    									在西电修炼了7年，毕业快乐！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av6992483?from=search&seid=14104932579449959420" class="">
+
+    								<div class="mui-media-body">
+    									PULSAR@Parkes
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10017030?from=search&seid=14104932579449959420" class="">
+
+    								<div class="mui-media-body">
+    									天舟一号货运飞船与天宫二号空间实验室自动对接
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av37447220?from=search&seid=14104932579449959420" class="">
+
+    								<div class="mui-media-body">
+    									【补发】天宫二号空间实验室在酒泉由长征二号F改火箭成功发射
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av34361452?from=search&seid=14104932579449959420" class="">
+
+    								<div class="mui-media-body">
+    									天舟一号货运飞船在文昌由长征七号遥二火箭成功发射
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data217651"><p>热门专业的学校排名情况也是志愿填报的重要参考，小编整理了空间科学与技术专业的高校排名信息，排行靠前的的学校有哪些呢？赶快来看一下吧！<br/></p><p><img alt="2018空间科学与技术专业大学排名 最好的大学有哪些" border="0" height="375" src="http://img.gaosan.com/upload/201806/6366543376800051874041390.jpg" style="width: 600px; height: 375px;" title="2018空间科学与技术专业大学排名 最好的大学有哪些" vspace="0" width="600"/></p><h2><a>1</a><span>空间科学与技术专业的最新学校排名</span></h2><p>在该专业的大学排行榜中，位列前三位的是北京大学，南京大学，北京航空航天大学。</p><table><colgroup><col span="3" style="WIDTH: 54pt" width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>所在地区</td></tr><tr><td>1</td><td style="word-break: break-all;">北京大学</td><td>北京</td></tr><tr><td>1</td><td style="word-break: break-all;">南京大学</td><td>江苏</td></tr><tr><td>3</td><td style="word-break: break-all;">北京航空航天大学</td><td>北京</td></tr><tr><td>3</td><td>西安电子科技大学</td><td>陕西</td></tr><tr><td>3</td><td>南京航空航天大学</td><td>江苏</td></tr><tr><td>3</td><td>山东大学</td><td>山东</td></tr><tr><td>3</td><td>哈尔滨工业大学</td><td>黑龙江</td></tr><tr><td>8</td><td>成都理工大学</td><td>四川</td></tr><tr><td>8</td><td>河北师范大学</td><td>河北</td></tr></tbody></table><p>以上排名信息仅供各位考生阅读参考，选择学校需考虑自身因素，不要盲目的选择。</p><h2><a>1</a><span>空间科学与技术专业的就业方向</span></h2><p>毕业生除大部分考取国内外研究生外，其余的主要志愿到科研机构、高等院校、能源与资源、航天与通讯和国家机关等部门从事科研、教学和高级管理工作。</p><p>毕业后主要在专业服务、房地产、教育等行业工作，大致如下：<br/></p><p>1、专业服务(咨询、人力资源、财会)</p><p>2、房地产</p><p>3、教育/培训/院校</p><p>4、新能源</p><p>5、互联网/电子商务</p><p>6、其他行业</p><p>7、电子技术/半导体/集成电路</p><p>以上就是小编整理的关于空间科学与技术专业的2018年大学排名，更多的专业高校排行榜信息高三网陆续更新，请考生和家长关注！<br/></p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>物业管理</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+物业管理</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    物业管理是指业主对区分所有建筑物共有部分以及建筑区划内共有建筑物、场所、设施的共同管理或者委托物业服务企业、其他管理人对业主共有的建筑物、设施、设备、场所、场地进行管理的活动；物权法规定，业主可以自行管理物业，也可以委托物业服务企业或者其它管理者进行管理。物业管理有狭义和广义之分；狭义的物业管理是指业主委托物业服务企业依据委托合同进行的房屋建筑及其设备，市政公用设施、绿化、卫生、交通、生活秩序和环境容貌等管理项目进行维护，修缮活动；广义的物业管理应当包括业主共同管理的过程，和委托物业服务企业或者其他管理人进行的管理过程。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av15639485?from=search&seid=7515577835242107050" class="">
+								
+								<div class="mui-media-body">
+									手把手教你做会计--03各行业实操课程--物业管理公司全套帐
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av36091774?from=search&seid=7515577835242107050" class="">
+								
+								<div class="mui-media-body">
+									【simba辛巴】180930“亿万光年”首场个人专场北京[完整全场][超清]
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av26117485?from=search&seid=7515577835242107050" class="">
+								
+								<div class="mui-media-body">
+									物业企业信息采集培训视频2018.6.28
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av34906282?from=search&seid=7515577835242107050" class="">
+								
+								<div class="mui-media-body">
+									无锡五爱家园5号楼王坚20181029制此拙频极度低调庆贺自家上梁沉痛哀悼匹兹堡枪击事件所有受害者及李咏逝世及印尼坠机事件189名遇难者
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av34889173?from=search&seid=7515577835242107050" class="">
+								
+								<div class="mui-media-body">
+									第6章零售商业物业经营管理（1）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av21404702?from=search&seid=4245570996037725840" class="">
+
+    								<div class="mui-media-body">
+    									2018新《物业管理条例》公布这些情况下,业主可以拒缴物业费
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av45233983?from=search&seid=4245570996037725840" class="">
+
+    								<div class="mui-media-body">
+    									java+ssh+mysql小区物业管理系统
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av37979599?from=search&seid=4245570996037725840" class="">
+
+    								<div class="mui-media-body">
+    									物业管理是什么？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av38661933?from=search&seid=4245570996037725840" class="">
+
+    								<div class="mui-media-body">
+    									Java+swing+sqlserver小区物业管理
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av38782593?from=search&seid=4245570996037725840" class="">
+
+    								<div class="mui-media-body">
+    									物业管理（1）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data140947"><p><img alt="物业管理专业 " src="http://img.gaosan.com/upload/zhuanye/1/1060.jpg"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>工商管理类</td><td>￥7331<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过71%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">16%在北京市工作</span></td><td>女生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男44%-女56%</span></td></tr></tbody></table><p>培养目标：培养掌握现代物业管理基本理论基础知识，具有一定物业管理能力和熟练服务技能的高级管理专门人才。</p><p>核心课程：物业管理法规、物业设备维护与管理、房屋维修与预算，、物业统计、物业会计与财务管理、物业管理实务、客户心理学、房地产市场营销、职能建筑管理、合同管理以及各校的主要特色课程和实践环节。物业设备维护管理实训、物业智能化管理毕业论文、毕业实习等，以及各校的主要特色课程和实践环节。</p><p>就业方向：住宅小区、商业大厦、写字楼等物业管理部门。</p><h2><a>1</a><span>2017最新物业管理专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>武汉大学</td><td>5★</td><td>19</td></tr><tr><td>2</td><td>内蒙古财经大学</td><td>4★</td><td>19</td></tr><tr><td>3</td><td>河南牧业经济学院</td><td>4★</td><td>19</td></tr><tr><td>4</td><td>成都文理学院</td><td>3★</td><td>19</td></tr><tr><td>5</td><td>佳木斯大学</td><td>3★</td><td>19</td></tr></tbody></table><h2><a>1</a><span>物业管理专业排名大学介绍</span></h2><p>武汉大学，简称“武大”，位于湖北武汉，是直属于中华人民共和国教育部的副部级全国重点大学，国家首批“985工程”、“211工程”、“2011计划”重点建设高校，同时是“111计划”、“珠峰计划”、“海外高层次人才引进计划”、“卓越工程师教育培养计划”、“卓越法律人才教育培养计划”和“卓越医生教育培养计划”等重点建设的综合研究型大学，是与法国高校联系最紧密、合作最广泛的中国高校之一，是世界权威期刊《Science》列出的“中国最杰出的大学”之一。武汉大学办学源头可溯源于清朝末期1893年湖广总督张之洞奏请清政府创办的自强学堂；1913年改名国立武昌高等师范学校；1926年组建国立武昌中山大学；1928年定名国立武汉大学，是民国四大名校之一；1949年，更名为武汉大学。</p><p><img alt="武汉大学校门" src="http://img.gaosan.com/upload/webimg/1628.jpg" title="武汉大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1893年</td><td>公立</td><td>综合</td><td>中华人民共和国教育部</td></tr></tbody></table><p>内蒙古财经大学始建于1960年，经过50多年的建设与发展，现已成为一所以本科教育为主、同时承担研究生培养任务，以经济学、管理学、理学为主，法、文、工协调发展，具有鲜明民族特色和地区特色的多科性财经大学。学校现有各级各类普通高等教育在校生21300多人。是内蒙古自治区重要的财经类专业人才培养基地。</p><p><img alt="内蒙古财经大学校门" src="http://img.gaosan.com/upload/webimg/2043.jpg" title="内蒙古财经大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1960年</td><td>公立</td><td>财经</td><td>内蒙古自治区教育厅</td></tr></tbody></table><p>河南牧业经济学院是在原郑州牧业工程高等专科学校和原河南商业高等专科学校的基础上合并组建的一所省属公办全日制普通本科院校。学校坐落于九州之中、中华腹地的河南省省会郑州，毗邻中华民族的母亲河——黄河。建设有90多个专业和专业方向，其中畜牧、兽医专业为国家级教学改革试点专业，食品加工技术、会计电算化、市场营销和物流管理等13个专业为省级特色专业。</p><p><img alt="河南牧业经济学院 大门" src="http://img.gaosan.com/upload/webimg/2215.jpg" title="河南牧业经济学院 大门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1957年</td><td>公立</td><td>综合</td><td>河南省教育厅</td></tr></tbody></table><p>成都文理学院（原四川师范大学文理学院）始建于2004年，由1999年建立的四川师范大学文化传播学院和四川师范大学国际商学院合并而成，2004年经教育部批准设置为独立学院。2014年初，顺应国家要求，经专家考察、教育部正式批准，学院转设为独立建制的普通高等本科学校，更名为成都文理学院。学院现有洪河、金堂两个校区，占地面积1678亩。</p><p><img alt="成都文理学院 党校开学典礼" src="http://img.gaosan.com/upload/webimg/2545.jpg" title="成都文理学院 党校开学典礼"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>2004年</td><td>私立</td><td>综合</td><td>四川省教育厅</td></tr></tbody></table><p>佳木斯大学坐落于黑龙江省佳木斯市。学校始建于1947年，经过68年的发展建设，现已成为黑龙江省属重点综合性大学，也是黑龙江省重点建设的十所高水平大学之一。学校占地1965亩，建筑面积57.6万平方米，设有25个学院和66个研究所（室）。学校学科专业设置涵盖文学、理学、工学、医学、经济学、教育学、法学、<a href="/gaokao/184680.html" target="_blank">历史学</a>、管理学、农学、艺术学等十一大学科门类。</p><p><img alt="佳木斯大学校门" src="http://img.gaosan.com/upload/webimg/1953.jpg" title="佳木斯大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1947年</td><td>公立</td><td>综合</td><td>黑龙江省人民政府</td></tr></tbody></table><p>　　以上2017年物业管理专业大学排名物业管理专业排行榜由高三网收集整理，更多专业排名请查看<a href="http://www.gaosan.com/zhuanyepaiming/">大学专业开设高校排名</a>栏目</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

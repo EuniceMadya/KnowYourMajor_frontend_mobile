@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>物联网工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+物联网工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    物联网（Internet of Things）这个词，起源于传媒领域，国内外普遍公认的是MITAuto-ID中心Ashton教授1999年在研究RFID时最早提出来的。在2005年国际电信联盟（ITU）发布的同名报告中，物联网的定义和范围已经发生了变化，覆盖范围有了较大的拓展，不再只是指基于RFID技术的物联网。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    物联网是基于互联网、广播电视网、传统电信网等信息承载体，让所有能够被独立寻址的普通物理对象实现互联互通的网络又称为物联网域名。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av44350743?from=search&seid=16234866671288227458" class="">
+								
+								<div class="mui-media-body">
+									物联网工程导论【12集】(王志良：北京科技大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av12415211?from=search&seid=16234866671288227458" class="">
+								
+								<div class="mui-media-body">
+									华为认证HCNA-IoT物联网工程师教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av45582397?from=search&seid=16234866671288227458" class="">
+								
+								<div class="mui-media-body">
+									江南大学物联网工程学院“甲子江南，缘聚物联”迎新晚会
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av34411081?from=search&seid=16234866671288227458" class="">
+								
+								<div class="mui-media-body">
+									【公开课】面向对象程序设计（C++）（完）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av6373293?from=search&seid=16234866671288227458" class="">
+								
+								<div class="mui-media-body">
+									【票圈】【工程技术】【共8集】《走近通信》西安邮电大学公开课&amp;微博@票圈
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av30787141?from=search&seid=17431476260602773417" class="">
+
+    								<div class="mui-media-body">
+    									秒懂专业：研究交通运输和物流领域的应用——物联网工程专业
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av46572862?from=search&seid=17431476260602773417" class="">
+
+    								<div class="mui-media-body">
+    									你以为 | 物联网工程是送快递的吗？来了解一下物联网工程专业是什么操作
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10382350?from=search&seid=17431476260602773417" class="">
+
+    								<div class="mui-media-body">
+    									仲恺农业工程学院物联网工程专业怎么样
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av25188914?from=search&seid=17431476260602773417" class="">
+
+    								<div class="mui-media-body">
+    									江南大学物联网工程学院：2014级，毕业不说再见
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av22210077?from=search&seid=17431476260602773417" class="">
+
+    								<div class="mui-media-body">
+    									工学院17物联网工程一班 了解历史变革  砥砺奋进
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data112654"><p>截至目前，开设物联网工程专业的大学共计382所，在这些高校中，物联网工程专业最好的大学有：</p><h2><a>1</a><span>西安交通大学</span></h2><p>西安交通大学是国家教育部直属重点大学，为我国最早兴办的高等学府之一。是首批进入国家“211”和“985”工程建设，被国家确定为以建设世界知名高水平大学为目标的学校。2000年4月，国务院决定，将原西安医科大学、原陕西财经学院并入原西安交通大学组建新的西安交通大学。</p><p><img alt="西安交通大学校门" src="http://img.gaosan.com/upload/webimg/1655.jpg" title="西安交通大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1896年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>吉林大学</span></h2><p>吉林大学于2000年6月12日由原吉林大学、吉林工业大学、白求恩医科大学、长春科技大学、长春邮电学院合并组建而成。2004年8月29日，原中国人民解放军军需大学并入吉林大学。合并前的六所学校，都有着光荣的历史。原吉林大学的前身是始建于1946年的东北行政学院，1950年更名为东北人民大学，1952年经院系调整成为我党亲手创建的第一所综合性大学，1958年更名为吉林大学。</p><p><img alt="吉林大学校门" src="http://img.gaosan.com/upload/webimg/1637.jpg" title="吉林大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1946年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>北京邮电大学</span></h2><p>北京邮电大学是教育部直属、工业和信息化部共建、首批进行“211工程”建设的全国重点大学，是“985优势学科创新平台”项目重点建设高校，是我国信息科技人才的重要培养基地。学校现有西土城路校区、沙河校区、宏福校区和延庆世纪学院校区，在江苏无锡和广东深圳分别设有研究院。全日制本、硕、博学生及留学生近30000名，网络教育在籍学生约50000名。</p><p><img alt="北京邮电大学 学校大门" src="http://img.gaosan.com/upload/webimg/1693.jpg" title="北京邮电大学 学校大门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1955年</td><td>公立</td><td>理工</td><td>教育部直属、工信部共建</td></tr></tbody></table><h2><a>1</a><span>东南大学</span></h2><p>东南大学是中央直管、教育部直属的全国重点大学，是“985工程”和“211工程”重点建设的大学之一。学校坐落于历史文化名城南京，占地面积5888亩，建有四牌楼、九龙湖、丁家桥等校区。1988年5月，学校复更名为东南大学，校庆日为每年6月6日。2000年4月，原东南大学、南京铁道医学院、南京交通高等专科学校合并，南京地质学校并入，组建了新的东南大学。</p><p><img alt="东南大学校门" src="http://img.gaosan.com/upload/webimg/1632.jpg" title="东南大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1902年</td><td>公立</td><td>综合</td><td>中国教育部</td></tr></tbody></table><h2><a>1</a><span>江南大学</span></h2><p>江南大学是教育部直属、国家“211工程”重点建设高校。学校具有悠久的办学历史、厚重的文化积淀，源起1902年创建的三江师范学堂，历经国立中央大学、南京大学等发展时期；1958年南京工学院食品工业系整建制东迁无锡，建立无锡轻工业学院；1995年更名为无锡轻工大学；2001年无锡轻工大学、江南学院、无锡教育学院合并组建江南大学；2003年东华大学无锡校区并入江南大学。</p><p><img alt="江南大学校门" src="http://img.gaosan.com/upload/webimg/1704.jpg" title="江南大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1902年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>武汉理工大学</span></h2><p>武汉理工大学是由原武汉工业大学、武汉交通科技大学、武汉汽车工业大学于2000年5月27日合并组建而成，是教育部直属的全国重点大学，是首批列入国家“211工程”重点建设的高校。学校现有三个校区，占地面积4000余亩，校舍总建筑面积逾167万平方米，四座现代化图书馆藏书400余万册。</p><p><img alt="武汉理工大学校门" src="http://img.gaosan.com/upload/webimg/1674.jpg" title="武汉理工大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>2000年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>北京科技大学</span></h2><p>北京科技大学是全国首批正式成立研究生院的高等学校之一。1997年5月，学校首批进入国家“211工程”建设高校行列。2006年，学校成为首批“985工程”优势学科创新平台建设项目试点高校。2014年，学校牵头的，以北京科技大学、东北大学为核心高校的“钢铁共性技术协同创新中心”成功入选国家“2011计划”。</p><p><img alt="北京科技大学校门" src="http://img.gaosan.com/upload/webimg/1661.jpg" title="北京科技大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1952年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>广东工业大学</span></h2><p>广东工业大学由原广东工学院、广东机械学院和华南建设学院（东院）于1995年6月合并组建而成，学校已有近60年的办学历史，是一所以工为主、工理经管文法艺结合的、多科性协调发展的省属重点大学。是广东省高水平大学重点建设高校。学校坐落在中国南方名城广州，地理位置优越，校园占地总面积3348亩，拥有大学城校园及东风路、龙洞等多个校区。</p><p><img alt="广东工业大学校门" border="0" height="364" src="http://img.gaosan.com/upload/webimg/1824.jpg" title="广东工业大学校门" vspace="0" width="600"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1952年</td><td>公立</td><td>工科</td><td>广东省教育厅</td></tr></tbody></table><h2><a>1</a><span>电子科技大学</span></h2><p>电子科技大学是教育部直属、国家“985工程”“211工程”重点建设大学。1961年被中共中央确定为七所国防工业院校之一，1988年更名为电子科技大学，1997年被确定为国家首批“211工程”建设的重点大学，2000年由原信息产业部主管划转为教育部主管，2001年进入国家“985工程”重点建设大学行列。</p><p><img alt="电子科技大学校门" src="http://img.gaosan.com/upload/webimg/1664.jpg" title="电子科技大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1956年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>哈尔滨工业大学</span></h2><p>哈尔滨工业大学隶属于工业和信息化部，是首批进入国家“211工程”和“985工程”建设的若干所大学之一。2000年，同根同源的哈尔滨工业大学、哈尔滨建筑大学合并组建新的哈尔滨工业大学。如今，学校已经发展成为一所以理工为主，理、工、管、文、经、法等多学科协调发展的国家重点大学。</p><p><img alt="哈尔滨工业大学校门" src="http://img.gaosan.com/upload/webimg/1658.jpg" title="哈尔滨工业大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1920年</td><td>公立</td><td>综合</td><td>工信部</td></tr></tbody></table><h2><a>1</a><span>武汉大学</span></h2><p>武汉大学，简称“武大”，位于湖北武汉，是直属于中华人民共和国教育部的副部级全国重点大学，国家首批“985工程”、“211工程”、“2011计划”重点建设高校，同时是“111计划”、“珠峰计划”、“海外高层次人才引进计划”、“卓越工程师教育培养计划”、“卓越法律人才教育培养计划”和“卓越医生教育培养计划”等重点建设的综合研究型大学，是与法国高校联系最紧密、合作最广泛的中国高校之一，是世界权威期刊《Science》列出的“中国最杰出的大学”之一。武汉大学办学源头可溯源于清朝末期1893年湖广总督张之洞奏请清政府创办的自强学堂；1913年改名国立武昌高等师范学校；1926年组建国立武昌中山大学；1928年定名国立武汉大学，是民国四大名校之一；1949年，更名为武汉大学。</p><p><img alt="武汉大学校门" src="http://img.gaosan.com/upload/webimg/1628.jpg" title="武汉大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1893年</td><td>公立</td><td>综合</td><td>中华人民共和国教育部</td></tr></tbody></table><h2><a>1</a><span>河海大学</span></h2><p>河海大学是一所有百年办学历史，以水利为特色，工科为主，多学科协调发展的教育部直属全国重点大学，是国家首批授权授予学士、硕士和博士学位，实施国家“211工程”重点建设、国家优势学科创新平台建设以及设立研究生院的高校，拥有水文水资源与水利工程科学国家重点实验室和水资源高效利用与工程安全国家工程研究中心。</p><p><img alt="河海大学 学校大门" src="http://img.gaosan.com/upload/webimg/1683.jpg" title="河海大学 学校大门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1915年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>东北大学</span></h2><p>东北大学是教育部直属的国家重点大学，坐落在东北中心城市沈阳。学校占地总面积253万平方米,建筑面积137万平方米。东北大学始建于1923年4月，学校是国家首批“211工程”和“985工程”重点建设的高校，并实现教育部、辽宁省、沈阳市重点共建。在90余年的办学历程中，东北大学始终坚持与国家发展和民族复兴同向同行,形成了“自强不息、知行合一”校训精神。</p><p><img alt="东北大学校门" src="http://img.gaosan.com/upload/webimg/1650.jpg" title="东北大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1923年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>北京理工大学</span></h2><p>北京理工大学创办于1940年，是中国共产党创办的第一所理工科高校，是新中国成立以来国家历批次重点建设的大学，首批设立研究生院，首批进入国家“211工程”和“985工程”建设行列，现隶属于工业和信息化部。2012年，学校首次进入在全球具有广泛影响力的英国QS世界大学排名“亚洲大学100强”和“世界大学500强”，在入选的19所中国高校中名列第13位。</p><p><img alt="北京理工大学校门" src="http://img.gaosan.com/upload/webimg/1646.jpg" title="北京理工大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1940年</td><td>公立</td><td>理工</td><td>工信部</td></tr></tbody></table><h2><a>1</a><span>南京航空航天大学</span></h2><p>南京航空航天大学创建于1952年10月，是新中国自己创办的第一批航空高等院校之一。1996年进入国家“211工程”建设；2011年，成为“985工程优势学科创新平台”重点建设高校。学校现隶属于工业和信息化部。2012年12月，工业和信息化部、中国民航局签署协议共建南京航空航天大学。目前，学校已成为一所以工为主，理工结合，工、理、经、管、文等多学科协调发展，具有航空航天民航特色的研究型大学。</p><p><img alt="南京航空航天大学校门" src="http://img.gaosan.com/upload/webimg/1682.jpg" title="南京航空航天大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1952年</td><td>公立</td><td>理工</td><td>工业与信息化部</td></tr></tbody></table><h2><a>1</a><span>中南大学</span></h2><p>中南大学坐落在中国历史文化名城──湖南省长沙市，占地面积5886亩，建筑面积276万平方米。中南大学是教育部直属全国重点大学、国家“211工程”首批重点建设高校、国家“985工程”部省重点共建高水平大学和国家“2011计划”首批牵头高校。现任校党委书记高文兵、校长张尧学。</p><p><img alt="中南大学校门" src="http://img.gaosan.com/upload/webimg/1653.jpg" title="中南大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>2000年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>北京交通大学</span></h2><p>北京交通大学是教育部直属，教育部、中国铁路总公司、北京市人民政府共建的全国重点大学。我校牵头的“2011计划”“轨道交通安全协同创新中心”是国家首批14个认定的协同创新中心之一。学校连续3年入围“QS金砖五国大学排名”前100名，6个学科先后进入QS世界大学学科排名前400强。</p><p><img alt="北京交通大学 学校大门" src="http://img.gaosan.com/upload/webimg/1669.jpg" title="北京交通大学 学校大门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1896年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>北京工业大学</span></h2><p>北京工业大学校本部位于北京市朝阳区平乐园100号，另有三地分校区，校园总建设用地面积约63.97公顷。创建于1960年，是一所以工为主，理、工、经、管、文、法、艺术相结合的多科性市属重点大学。1981年成为国家教育部批准的第一批硕士学位授予单位，1985年成为博士学位授予单位。1996年12月学校通过国家“211工程”预审，正式跨入国家二十一世纪重点建设的百所大学的行列。</p><p><img alt="北京工业大学校门" src="http://img.gaosan.com/upload/webimg/1700.jpg" title="北京工业大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1960年</td><td>公立</td><td>理工</td><td>北京市教育委员会</td></tr></tbody></table><h2><a>1</a><span>西北大学</span></h2><p>西北大学肇始于1902年的陕西大学堂和京师大学堂速成科仕学馆。1978年被确定为全国重点大学。现为国家“211工程”建设院校、教育部与陕西省共建高校。西北大学肩负建设西北之重任”的办学理念，汇聚了众多名师大家，产生了一批高水平学术成果，培养了大批才任天下的杰出人才，享有良好的学术声誉和社会声望，被誉为“中华石油英才之母”“经济学家的摇篮”“作家摇篮”。</p><p><img alt="西北大学校门" src="http://img.gaosan.com/upload/webimg/1659.jpg" title="西北大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1902年</td><td>公立</td><td>综合</td><td>陕西省人民政府</td></tr></tbody></table><h2><a>1</a><span>华中科技大学</span></h2><p>华中科技大学是国家教育部直属的全国重点大学，由原华中理工大学、同济医科大学、武汉城市建设学院于2000年5月26日合并成立，是首批列入国家“211工程”重点建设和国家“985工程”建设高校之一，学校校园占地7000余亩，被誉为“森林式大学”。</p><p><img alt="华中科技大学校门" src="http://img.gaosan.com/upload/webimg/1643.jpg" title="华中科技大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1952年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>以上关于物联网工程专业的排名数据，参考自中国科教评价网金平果排行榜，由高三网重新整理发布，转载请注明出处。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

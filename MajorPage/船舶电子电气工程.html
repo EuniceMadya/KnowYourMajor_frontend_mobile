@@ -1,0 +1,163 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>船舶电子电气工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+船舶电子电气工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    船舶电子电气工程是隶属于电气工程一级学科下的一个二级学科名称。专业学生毕业后主要从事远洋运输工作，另外，也为修造船、船检、船级社、海事管理、科研院所、国内同类院校的师资以及航运企业机电管理等领域输送人才。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av8548231?from=search&seid=15958574554375707724" class="">
+								
+								<div class="mui-media-body">
+									【票圈】【工程技术】【共5集】《通向航运强国之路-航海类专业导论》大连海事大学公开课&amp;微博@票圈
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av14632753?from=search&seid=9248254390099516086" class="">
+
+    								<div class="mui-media-body">
+    									大连海事大学2017级船舶电气工程学院军训风采
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av14646987?from=search&seid=9248254390099516086" class="">
+
+    								<div class="mui-media-body">
+    									大连海事大学船舶电气工程学院军训快闪
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av9002037?from=search&seid=9248254390099516086" class="">
+
+    								<div class="mui-media-body">
+    									马伟明院士：中国在舰艇尖端电磁装备研究方面的实力“肯定超过美国”
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av45692109?from=search&seid=17412853051382711966" class="">
+
+    								<div class="mui-media-body">
+    									【河北工业大学】电气工程国家重点实验室什么样？打算报考的可以看看
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24686463?from=search&seid=17412853051382711966" class="">
+
+    								<div class="mui-media-body">
+    									小周老师讲考研之电气工程专业详解
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data139618"><p><img alt="2.jpg" src="http://img.gaosan.com/upload/201606/6360203940562950704229507.jpg" title="2.jpg"/></p><p>培养目标：培养适应船舶自动化要求，熟练掌握电气技术、电子技术(包括电力电子、通讯电子)、控制技术、计算机控制及其网络技术等先进知识，满足国际海事组织STCW国际公约中规定的“电气、电子和控制工程”、“维护和修理”和“无线电通讯”三项高级海员职能要求，能够胜任现代船舶各项自动装置的维护和修理任务的船舶高级电子电气工程技术人才。</p><p>就业方向：毕业生就业服务方向为船舶运输业、船舶修造、船级社、海事管理、港口电气、同类院校及科研院所等。从事的主要工作有船舶电子电气设备维护，船舶电子电气生产设计、航运企业机电管理、船舶电子电气检验、海事管理、港口电气设备管理和维护、船舶电子电气专业教学及科研等工作。</p><h2><a>1</a><span>2018最新船舶电子电气工程专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>大连海事大学</td><td>5★</td><td>10</td></tr><tr><td>2</td><td>上海海事大学</td><td>4★</td><td>10</td></tr><tr><td>3</td><td>集美大学</td><td>3★</td><td>10</td></tr><tr><td>4</td><td>重庆交通大学</td><td>3★</td><td>10</td></tr><tr><td>5</td><td>浙江海洋大学</td><td>3★</td><td>10</td></tr></tbody></table><h2><a>1</a><span>船舶电子电气工程专业排名大学介绍</span></h2><p>大连海事大学（原大连海运学院）是交通运输部所属的全国重点大学，是中国著名的高等航海学府，是被国际海事组织认定的世界上少数几所“享有国际盛誉”的海事院校之一。2006年，交通部、教育部、辽宁省、大连市就支持加快大连海事大学的建设和发展，进一步提升学校的综合实力和办学水平，达成了共建协议。</p><p><img alt="大连海事大学校门" src="http://img.gaosan.com/upload/webimg/1764.jpg" title="大连海事大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1909年</td><td>公立</td><td>理工</td><td>交通运输部</td></tr></tbody></table><p>中国高等航海教育发轫于上海，2009年学校举行百年校庆系列活动。上海海事大学是一所以航运、物流、海洋为特色，具有工学、管理学、经济学、法学、文学和理学等学科门类的多科性大学。2008年，上海市人民政府与交通运输部签订协议，共建上海海事大学。</p><p><img alt="上海海事大学校门" src="http://img.gaosan.com/upload/webimg/1867.jpg" title="上海海事大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1909年</td><td>公立</td><td>理工</td><td>上海市人民政府</td></tr></tbody></table><p>集美大学为福建省重点建设高校，是交通运输部与福建省、国家海洋局与福建省、福建省与厦门市共建高校，博士学位授予单位，面向全国招生。集美大学办学历史悠久。始于著名爱国华侨领袖陈嘉庚先生1918年创办的集美师范学校，迄今已90多年，校训“诚毅”为陈嘉庚先生和其弟陈敬贤先生所立。</p><p><img alt="集美大学 集大美景" src="http://img.gaosan.com/upload/webimg/1957.jpg" title="集美大学 集大美景"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1918年</td><td>公立</td><td>综合</td><td>福建省人民政府</td></tr></tbody></table><p>重庆交通大学创办于1951年，是一所具有“学士—硕士—博士”多层次人才培养体系，交通运输部与重庆市部市共建，交通特色与优势明显，以工为主，工、管、理、经、文、法等学科协调发展的教学研究型大学。2006年，学校更名为重庆交通大学，增列为博士学位授予单位。</p><p><img alt="重庆交通大学校门" src="http://img.gaosan.com/upload/webimg/1846.jpg" title="重庆交通大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1951年</td><td>公立</td><td>理工</td><td>重庆市教育委员会</td></tr></tbody></table><p>浙江海洋学院创建于1958年，始名舟山水产学院。学校总占地面积1525.63亩，另有海域使用面积720.02亩，校舍建筑面积33.71万平方米，纸质图书102.69万册，教学科研仪器设备资产2.81亿元，各类全日制在校学生10205人。主校区位于浙江舟山群岛新区长峙岛，枕山环海，风景宜人，是求学的理想之地。</p><p><img alt="浙江海洋学院 学校大门" src="http://img.gaosan.com/upload/webimg/1987.jpg" title="浙江海洋学院 学校大门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1958年</td><td>公立</td><td>农林</td><td>浙江省人民政府</td></tr></tbody></table><p>　　以上2018年船舶电子电气工程专业大学排名船舶电子电气工程专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

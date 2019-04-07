@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>工艺美术</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+工艺美术</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    工艺美术（art and craft）1.现代用法，是指制作手工艺品的艺术。这类艺术品通常装饰精美，具有实用性或目的性。其使用的各种手工技术包含了金工、木工、编织、裁缝、塑料造形，以及雕刻、版画制作和绘画的技法。“工艺美术”在学校、社团和其他机构中被当作是一门专业课程教授，其意义在于发展个人爱好或充任娱乐活动，有时甚至作为一种精神治疗的手段。2.“工艺美术运动”一词，出现始于19世纪末期的英国，一般认为是由威廉·莫里斯（William Morris）所发起，而受到约翰·拉斯金（John Ruskin）和奥古斯塔·普京（Augustus Pugin）学说的启发。该运动是自觉性的对抗设计工艺工业化的结果，提倡重返个人手工技术。这种体现在家具、装饰、壁饰、手工印花布、印刷和书籍设计的崭新风格，脱离了主导地位的维多利亚风格，并为19世纪末20世纪初开展的新艺术运动（ART NOUVEAU）打下了基础。 </h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av14321355?from=search&seid=7893875969136285160" class="">
+								
+								<div class="mui-media-body">
+									【清华大学】李砚祖：当代工艺美术发展与鉴赏
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av14401774?from=search&seid=7893875969136285160" class="">
+								
+								<div class="mui-media-body">
+									【清华大学】张夫也：折射世界文明的工艺美术
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av45008264?from=search&seid=7893875969136285160" class="">
+								
+								<div class="mui-media-body">
+									折射世界文明的工艺美术【4集】(张夫也：清华大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av35167174?from=search&seid=7893875969136285160" class="">
+								
+								<div class="mui-media-body">
+									第2章现代设计的萌芽与“工艺美术”运动_1541196360
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av15687271?from=search&seid=7893875969136285160" class="">
+								
+								<div class="mui-media-body">
+									清华美院艺术史论系李砚祖：《当代工艺美术发展与鉴赏》（全，4讲）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av16729352?from=search&seid=8666727168013965137" class="">
+
+    								<div class="mui-media-body">
+    									工艺美术运动-《极简设计史》02（双语字幕）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av30168552?from=search&seid=8666727168013965137" class="">
+
+    								<div class="mui-media-body">
+    									工艺美术大师系列纪录片-遇见大师 高清宣传片  让浮躁的心情，平静下来！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av23501940?from=search&seid=8666727168013965137" class="">
+
+    								<div class="mui-media-body">
+    									工艺美术运动爱好者的5个圣地
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av23550606?from=search&seid=8666727168013965137" class="">
+
+    								<div class="mui-media-body">
+    									山东工艺美术学院14级动画毕业作品《砍价》
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10970735?from=search&seid=8666727168013965137" class="">
+
+    								<div class="mui-media-body">
+    									【AniOne线上展】山东工艺美术学院动画短片《自私》|动画学术趴
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data141369"><p><img alt="2.jpg" src="http://img.gaosan.com/upload/201606/6360142949484441203249637.jpg" title="2.jpg"/></p><p>培养目标：本专业培养将手工艺传统理论与实践相结合、有创意能力，能在文化艺术部门、传统工艺加工领域、设计公司、学校等企事业部门从事各种传统与现代工艺美术品设计制作以及相关教学与研究，设计管理工作方面的德、智、体等方面全面发展的高级专门人才。</p><p>就业方向：工艺制品企业、工艺美术相关行业工艺美术设计工作室艺术设计与制作;建筑装饰、城市景观设计公司等相关艺术设计公司从事室内、室外装潢设计与制作、商业展示空间设计与制作;与工艺美术设计相关的电子商务、宣传、销售、网站与网页设计与制作等。</p><h2><a>1</a><span>2018最新工艺美术专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>广东技术师范学院</td><td>5★</td><td>56</td></tr><tr><td>2</td><td>清华大学</td><td>5★</td><td>56</td></tr><tr><td>3</td><td>鲁迅美术学院</td><td>5★</td><td>56</td></tr><tr><td>4</td><td>四川美术学院</td><td>4★</td><td>56</td></tr><tr><td>5</td><td>景德镇学院</td><td>4★</td><td>56</td></tr></tbody></table><h2><a>1</a><span>工艺美术专业排名大学介绍</span></h2><p>广东技术师范学院是一所具有硕士学位授予权的省属普通高等学校。学院致力于培养高素质职业教育师资和应用型高级专门人才,并承担民族高等教育任务，努力建设国内一流、特色鲜明的高水平技术师范大学。2007年开始招收硕士研究生，2000年开始招收国际留学生。</p><p><img alt="广东技术师范学院校门" src="http://img.gaosan.com/upload/webimg/2144.jpg" title="广东技术师范学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1957年</td><td>公立</td><td>师范</td><td>广东省教育厅</td></tr></tbody></table><p>清华大学是中国著名高等学府，坐落于北京西北郊风景秀丽的清华园，是中国高层次人才培养和科学技术研究的重要基地。清华大学的前身是清华学堂，成立于1911年，当初是清政府建立的留美预备学校。1912年更名为清华学校，为尝试人才的本地培养，1925年设立大学部，同年开办国学研究院，1928年更名为"国立清华大学"。1937年抗日战争爆发后，南迁长沙，与北京大学、南开大学联合办学，组建国立长沙临时大学，1938年迁至昆明，改名为国立西南联合大学。1946年，清华大学迁回清华园原址复校。</p><p><img alt="清华大学校门" src="http://img.gaosan.com/upload/webimg/1624.jpg" title="清华大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1911年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>鲁迅美术学院前身是1938年建于延安的鲁迅艺术学院，由毛泽东、周恩来等老一代领导人亲自倡导创建。1945年，延安鲁艺迁校至东北。1958年发展为鲁迅美术学院。1998年，江泽民同志为学院题词：“弘扬鲁艺传统，培育艺术人才，繁荣社会主义文化事业”。悠久的办学历史积淀了学院深厚的文化内涵和领先的办学实力。</p><p><img alt="鲁迅美术学院校门" src="http://img.gaosan.com/upload/webimg/3011.jpg" title="鲁迅美术学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1938年</td><td>公立</td><td>艺术</td><td>辽宁省教育厅</td></tr></tbody></table><p>经过70余年发展和几代人的努力，学校形成了“贴近生活，服务人民；知能并重，奖掖新人；开放兼容，与时俱进”的办学理念，在各个时期为国家培养了大批优秀的艺术专门人才，创作了一批批艺术精品，产生了广泛影响。学校的艺术设计、工业设计、影视动画创作等方面，为地方经济建设和创意产业发展创造了良好的经济效益和社会效益，进一步扩大了学校的社会影响和巩固了学术地位。</p><p><img alt="四川美术学院校门" src="http://img.gaosan.com/upload/webimg/2790.jpg" title="四川美术学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1940年</td><td>公立</td><td>艺术</td><td>重庆市教育委员会</td></tr></tbody></table><p>景德镇学院坐落在江西省景德镇市，是一所公办多科性全日制普通本科院校。学院占地面积1006.2亩，校舍建筑面积28.2万平方米，其中教学科研行政用房18.6万平方米。纸质图书93万册，有中外文期刊1200种，电子图书21万种，有现代电子图书系统和计算机网络服务体系。教学仪器设备总值5678万元。有实验实训中心12个，共117个实验室，有稳定的校外实习、实训基地108个。</p><p><img alt="景德镇学院 学校大门" src="http://img.gaosan.com/upload/webimg/2290.jpg" title="景德镇学院 学校大门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1977年</td><td>公立</td><td>综合</td><td>江西省人民政府</td></tr></tbody></table><p>　　以上2018年工艺美术专业大学排名工艺美术专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

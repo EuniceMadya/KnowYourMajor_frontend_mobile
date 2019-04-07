@@ -1,0 +1,174 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>新能源科学与工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+新能源科学与工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    新能源科学与工程专业为2011年教育部批准设置的本科专业，2012年将原有的风能与动力工程和新能源科学与工程合并统一改为“新能源科学与工程”。主要学习新能源的种类和特点、利用的方式和方法、应用的现状和未来的发展趋势。具体内容涉及风能、太阳能、生物质能、核电能等等。各开设高校根据自己学校的学科设置和专业特点不同，导致在具体的学科方向上不同。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av24816860?from=search&seid=12880329292204810995" class="">
+								
+								<div class="mui-media-body">
+									工程热力学（上海交通大学）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av43138315?from=search&seid=12880329292204810995" class="">
+								
+								<div class="mui-media-body">
+									工程热力学（上海交通大学）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av35801430?from=search&seid=9362032069005713862" class="">
+
+    								<div class="mui-media-body">
+    									2014新能源科学与工程毕业相册01
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av35974171?from=search&seid=9362032069005713862" class="">
+
+    								<div class="mui-media-body">
+    									河南城建学院2014级新能源科学与工程毕业纪念相册
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av23528601?from=search&seid=9362032069005713862" class="">
+
+    								<div class="mui-media-body">
+    									《材苑欢迎你》——福建农林大学材料工程学院2016级新能源科学与工程（2）班团日活动成果展示
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av23821038?from=search&seid=9362032069005713862" class="">
+
+    								<div class="mui-media-body">
+    									Materials Science and Engineering at Penn State!
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av46977647?from=search&seid=9362032069005713862" class="">
+
+    								<div class="mui-media-body">
+    									设计一个实验来论证地球曲率对大气质量的影响!
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data112542"><p>截至目前，开设新能源科学与工程专业的大学共计80所，在这些高校中，新能源科学与工程专业最好的大学有：</p><h2><a>1</a><span>西安交通大学</span></h2><p>西安交通大学是国家教育部直属重点大学，为我国最早兴办的高等学府之一。是首批进入国家“211”和“985”工程建设，被国家确定为以建设世界知名高水平大学为目标的学校。2000年4月，国务院决定，将原西安医科大学、原陕西财经学院并入原西安交通大学组建新的西安交通大学。</p><p><img alt="西安交通大学校门" src="http://img.gaosan.com/upload/webimg/1655.jpg" title="西安交通大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1896年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>华北电力大学</span></h2><p>华北电力大学是教育部直属的国家“211工程”重点建设大学、国家“985工程优势学科平台”重点建设大学。学校校部设在北京，分设保定校区。学校现有教职工3千余人，全日制在校本科生2万余人，研究生1万人。学校占地1600余亩，建筑面积100余万平方米。1995年华北电力学院与北京动力经济学院（含华北电力学院北京研究生部）合并组建为华北电力大学。</p><p><img alt="华北电力大学(北京)校门" src="http://img.gaosan.com/upload/webimg/2411.jpg" title="华北电力大学(北京)校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1958年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>华中科技大学</span></h2><p>华中科技大学是国家教育部直属的全国重点大学，由原华中理工大学、同济医科大学、武汉城市建设学院于2000年5月26日合并成立，是首批列入国家“211工程”重点建设和国家“985工程”建设高校之一，学校校园占地7000余亩，被誉为“森林式大学”。</p><p><img alt="华中科技大学校门" src="http://img.gaosan.com/upload/webimg/1643.jpg" title="华中科技大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1952年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>浙江大学</span></h2><p>浙江大学是一所历史悠久、声誉卓著的高等学府，坐落于中国历史文化名城、风景旅游胜地杭州。浙江大学的前身求是书院创立于1897年，为中国人自己最早创办的新式高等学校之一。1928年，定名国立浙江大学。浙江大学是一所特色鲜明、在海内外有较大影响的综合型、研究型大学，其学科涵盖哲学、经济学、法学、教育学、文学、历史学、艺术学、理学、工学、农学、医学、管理学等十二个门类。学校设有7个学部，36个学院（系）。拥有一级学科国家重点学科14个，二级学科国家重点学科21个。据ESI公布的数据，截至2015年9月，我校18个学科进入世界学术机构前1%，居全国高校第二；7个学科进入世界前100位，4个学科进入世界前50位，居全国高校第一。</p><p><img alt="浙江大学 学校大门" src="http://img.gaosan.com/upload/webimg/1631.jpg" title="浙江大学 学校大门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1897年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>上海交通大学</span></h2><p>上海交通大学是我国历史最悠久、享誉海内外的高等学府之一，是教育部直属并与上海市共建的全国重点大学。经过120年的不懈努力，上海交通大学已经成为一所“综合性、研究型、国际化”的国内一流、国际知名大学。十九世纪末，甲午战败，民族危难。中国近代著名实业家、教育家盛宣怀和一批有识之士秉持“自强首在储才，储才必先兴学”的信念，于1896年在上海创办了交通大学的前身——南洋公学。建校伊始，学校即坚持“求实学，务实业”的宗旨，以培养“第一等人才”为教育目标，精勤进取，笃行不倦，在二十世纪二三十年代已成为国内著名的高等学府，被誉为“东方MIT”。抗战时期，广大师生历尽艰难，移转租界，内迁重庆，坚持办学，不少学生投笔从戎，浴血沙场。解放前夕，广大师生积极投身民主革命，学校被誉为“民主堡垒”。</p><p><img alt="上海交通大学 思远湖" src="http://img.gaosan.com/upload/webimg/1625.jpg" title="上海交通大学 思远湖"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1896年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>厦门大学</span></h2><p>厦门大学由著名爱国华侨领袖陈嘉庚先生于1921年创办，是中国近代教育史上第一所华侨创办的大学，也是国家“211工程”和“985工程”重点建设的高水平大学。建校迄今，已先后为国家培养了20万多名本科生和研究生，在厦大学习、工作过的两院院士达60多人。</p><p><img alt="厦门大学校门" src="http://img.gaosan.com/upload/webimg/1657.jpg" title="厦门大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1921年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>上海理工大学</span></h2><p>上海理工大学简称上理工，是一所以工学为主，理学、经济学、管理学、文学、法学、艺术学等多学科协调发展的上海市属重点大学，享有中国“制造业黄埔军校”的美誉。上海理工大学有在校学生24600余人；学校设有18个学院、2个教学部，有54个本科专业。</p><p><img src="http://img.gaosan.com/upload/2016-04-18/d7ea62e2-6295-40f7-b497-2b6f662843ea.jpg" title="上海理工大学"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1906年</td><td>公立</td><td>理工</td><td>上海市教育委员会</td></tr></tbody></table><h2><a>1</a><span>北京工业大学</span></h2><p>北京工业大学校本部位于北京市朝阳区平乐园100号，另有三地分校区，校园总建设用地面积约63.97公顷。创建于1960年，是一所以工为主，理、工、经、管、文、法、艺术相结合的多科性市属重点大学。1981年成为国家教育部批准的第一批硕士学位授予单位，1985年成为博士学位授予单位。1996年12月学校通过国家“211工程”预审，正式跨入国家二十一世纪重点建设的百所大学的行列。</p><p><img alt="北京工业大学校门" src="http://img.gaosan.com/upload/webimg/1700.jpg" title="北京工业大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1960年</td><td>公立</td><td>理工</td><td>北京市教育委员会</td></tr></tbody></table><h2><a>1</a><span>长沙理工大学</span></h2><p>长沙理工大学是国家“中西部高校基础能力建设工程”高校。现有金盆岭、云塘两个校区，校园占地面积3112亩，校舍总建筑面积115.1万平方米，固定资产总值33.80亿元。图书馆纸本藏书312.8万册，电子图书76.6万册，中外期刊1951种，建立了教育部科技查新工作站和中国电机工程学会电力科技查新工作站。体育运动场地21.37万平方米，其中室内体育场馆3.45万平方米。</p><p><img alt="长沙理工大学校门" src="http://img.gaosan.com/upload/webimg/1774.jpg" title="长沙理工大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1956年</td><td>公立</td><td>工科</td><td>湖南省人民政府</td></tr></tbody></table><h2><a>1</a><span>河海大学</span></h2><p>河海大学是一所有百年办学历史，以水利为特色，工科为主，多学科协调发展的教育部直属全国重点大学，是国家首批授权授予学士、硕士和博士学位，实施国家“211工程”重点建设、国家优势学科创新平台建设以及设立研究生院的高校，拥有水文水资源与水利工程科学国家重点实验室和水资源高效利用与工程安全国家工程研究中心。</p><p><img alt="河海大学 学校大门" src="http://img.gaosan.com/upload/webimg/1683.jpg" title="河海大学 学校大门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1915年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>重庆大学</span></h2><p>重庆大学是教育部直属的全国重点大学，是国家“211工程”和“985工程”重点建设的高水平研究型综合性大学。学校地处国家西南工商业重镇、长江上游经济中心——重庆市，坐落在人文荟萃的文化名区——沙坪坝区。重庆大学创办于1929年，早在20世纪40年代就成为拥有文、理、工、商、法、医等6个学院的国立综合性大学。</p><p><img alt="重庆大学校门" src="http://img.gaosan.com/upload/webimg/1648.jpg" title="重庆大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1929年</td><td>公立</td><td>综合</td><td>中华人民共和国教育部</td></tr></tbody></table><h2><a>1</a><span>兰州理工大学</span></h2><p>兰州理工大学坐落在黄河之滨的甘肃省省会兰州市。学校两个校区占地面积2430亩，校舍建筑面积108万平方米；图书馆馆藏图书204.5万册，数字资源12450GB。学校设有20个学院、1个教学研究部。全校教职工总数为2309人。学校有普通本科生22729人、研究生4339人、成人本专科生14494人。</p><p><img alt="兰州理工大学校门" src="http://img.gaosan.com/upload/webimg/1786.jpg" title="兰州理工大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1919年</td><td>公立</td><td>理工</td><td>甘肃省人民政府</td></tr></tbody></table><h2><a>1</a><span>江苏大学</span></h2><p>江苏大学是2001年8月经教育部批准，由原江苏理工大学、镇江医学院、镇江师范专科学校合并组建。学校学科门类齐全，涵盖工学、理学、医学、管理学、经济学、法学、文学、历史学、教育学、艺术学等10大学科门类。设有24个学院，87个本科专业；学校博士学位授权点涵盖13个一级学科；硕士学位授权点涵盖42个一级学科，有10个硕士专业学位类别，26个工程硕士授权领域。</p><p><img alt="江苏大学校门" src="http://img.gaosan.com/upload/webimg/1740.jpg" title="江苏大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1902年</td><td>公立</td><td>综合</td><td>江苏省人民政府</td></tr></tbody></table><h2><a>1</a><span>东北电力大学</span></h2><p>东北电力大学坐落在风景秀美的吉林省吉林市。学校是吉林省重点大学，始建于1949年，是新中国建立的第一所电力工科学校，1958年定名为吉林电力学院，1978年更名为东北电力学院。原隶属电力部、国家电力公司，2000年起，实行“中央与地方共建，以地方管理为主”的管理模式，2005年学校更名为东北电力大学。2012年学校入选为国家“中西部高校基础能力建设工程”重点建设高校。</p><p><img alt="东北电力大学 学校大门" src="http://img.gaosan.com/upload/webimg/1837.jpg" title="东北电力大学 学校大门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1949年</td><td>公立</td><td>工科</td><td>吉林省教育厅</td></tr></tbody></table><h2><a>1</a><span>新疆大学</span></h2><p>新疆大学是全国重点大学，是国家“211工程”建设高校、国家西部大开发重点建设高校、国家教育部与新疆维吾尔自治区人民政府共建高校。</p><p><img alt="新疆大学 图书馆" src="http://img.gaosan.com/upload/webimg/1710.jpg" title="新疆大学 图书馆"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1924年</td><td>公立</td><td>综合</td><td>新疆维吾尔自治区人民政府</td></tr></tbody></table><h2><a>1</a><span>福建师范大学</span></h2><p>福建师范大学是福建省人民政府与教育部共建高校，是我国建校最早的师范大学之一，前身为1907年由清朝帝师陈宝琛创办的福建优级师范学堂。后由华南女子文理学院、福建协和大学、福建省立师范专科学校等单位几经调整合并，于1953年成立福建师范学院，1972年易名为福建师范大学并沿用至今。</p><p><img alt="福建师范大学校门" src="http://img.gaosan.com/upload/webimg/2416.jpg" title="福建师范大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1907年</td><td>公立</td><td>综合</td><td>福建省人民政府</td></tr></tbody></table><h2><a>1</a><span>中南大学</span></h2><p>中南大学坐落在中国历史文化名城──湖南省长沙市，占地面积5886亩，建筑面积276万平方米。中南大学是教育部直属全国重点大学、国家“211工程”首批重点建设高校、国家“985工程”部省重点共建高水平大学和国家“2011计划”首批牵头高校。现任校党委书记高文兵、校长张尧学。</p><p><img alt="中南大学校门" src="http://img.gaosan.com/upload/webimg/1653.jpg" title="中南大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>2000年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>沈阳工程学院</span></h2><p>沈阳工程学院是一所以培养高级应用型人才为主的全日制普通本科院校。学校位于辽宁省沈阳市沈北新区，现有主校区、科技园区和产业园区，占地面积近86万平方米，建筑面积近32万平方米，固定资产总值约8.4亿元，2011年资产评估值16.7亿元。学校面向全国29个省（市、自治区）招生。现有全日制在校生11064人，其中全日制硕士研究生143人，普通全日制本科生9962人，专科生959人。</p><p></p><p><img alt="沈阳工程学院校门" src="http://img.gaosan.com/upload/webimg/2293.jpg" title="沈阳工程学院校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>2003年</td><td>公立</td><td>理工</td><td>辽宁省教育厅</td></tr></tbody></table><h2><a>1</a><span>内蒙古工业大学</span></h2><p>内蒙古工业大学坐落在内蒙古自治区呼和浩特市，前身是始建于1951年的绥远省高级工业学校。学校目前在新城校区、金川校区、准格尔校区办学，占地面积3178亩。现设有24个院（部、中心），拥有54个研究院(所)；有博士后流动站1个，博士学位授权一级学科3个，博士学位授权二级学科16个。学校现有全日制本专科学生25672人，硕士研究生4601人，博士研究生216人，留学生177人。</p><p><img alt="内蒙古工业大学校门" src="http://img.gaosan.com/upload/webimg/1931.jpg" title="内蒙古工业大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1951年</td><td>公立</td><td>理工</td><td>内蒙古自治区教育厅</td></tr></tbody></table><h2><a>1</a><span>济南大学</span></h2><p>济南大学是山东省人民政府和国家教育部共建的综合性大学，是山东省重点建设大学和首批应用型人才培养特色名校，具有学士、硕士、博士学位授予权。学校始建于1948年，建校67年来，为国家建设和经济社会发展培养了大批优秀人才，近20万名校友遍布海内外。</p><p><img alt="济南大学 济南大学" src="http://img.gaosan.com/upload/webimg/1835.jpg" title="济南大学 济南大学"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1948年</td><td>公立</td><td>综合</td><td>山东省人民政府</td></tr></tbody></table><p>以上关于新能源科学与工程专业的排名数据，参考自中国科教评价网金平果排行榜，由高三网重新整理发布，转载请注明出处。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

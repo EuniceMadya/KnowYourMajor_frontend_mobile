@@ -1,0 +1,185 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>麻醉学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+麻醉学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    麻醉学是一门研究临床麻醉，生命机能调控，重症监测治疗和疼痛诊疗的科学，通常用于手术或急救过程中， 中国在东汉时期就已经对麻醉学问有研究。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    相传华佗就是第一位采用麻醉技术的医师。他利用麻沸散来减轻病人的痛觉，然后为病人进行外科手术。 现代医学首次运用麻醉技术的记录，在1842年3月30日的美国格鲁吉亚州杰佛逊市。Crawford Williamson Long医生在帮他太太接生的过程中，首次采用了麻醉药。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av27807304?from=search&seid=7592659324868258062" class="">
+								
+								<div class="mui-media-body">
+									临床麻醉学-中南大学-郭曲练【42讲全】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av29671051?from=search&seid=7592659324868258062" class="">
+								
+								<div class="mui-media-body">
+									中南大学临床麻醉学42集
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av27471830?from=search&seid=7592659324868258062" class="">
+								
+								<div class="mui-media-body">
+									麻醉药理学 遵义医学院 喻田【39讲全】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24693705?from=search&seid=7236718942773281134" class="">
+
+    								<div class="mui-media-body">
+    									南方医科大学麻醉学招生视频
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av25130996?from=search&seid=7236718942773281134" class="">
+
+    								<div class="mui-media-body">
+    									南方医科大学麻醉学招生视频修订版
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av11725881?from=search&seid=7236718942773281134" class="">
+
+    								<div class="mui-media-body">
+    									2017届徐州医科大学麻醉学灌注班毕业纪念《如果我们不曾相遇》（五月天）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av23253213?from=search&seid=7236718942773281134" class="">
+
+    								<div class="mui-media-body">
+    									【科普】一位重伤患者的康复之路。麻醉、重症医学以及疼痛医学所扮演的角色。
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10789553?from=search&seid=7236718942773281134" class="">
+
+    								<div class="mui-media-body">
+    									【魔性】5000名麻醉师，分分钟让你不省人事
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data98602"><p>在2017-2018年度本科专业排行榜中，共涉及523个专业，其中开设高校数大于和等于5所的专业有393个；开设高校数最多的专业有英语748所、计算机科学与技术718所、视觉传达设计581所、市场营销572所、环境设计561所。</p><p><img alt="麻醉学专业大学排名" border="0" height="378" src="http://img.gaosan.com/upload/201702/6362295350600550111869854.jpg" title="麻醉学专业大学排名" vspace="0" width="600"/></p><p></p><h2><a>1</a><span>麻醉学专业排名</span></h2><p>截至2017年，全国开设麻醉学专业的高校数为45所，在上述院校中，麻醉学专业的排名如下：</p><table><tbody><tr class="firstRow"><td>专业排名</td><td>学校名称</td><td>星级排名</td></tr><tr><td>1</td><td>徐州医科大学</td><td>5★</td></tr><tr><td>2</td><td>哈尔滨医科大学</td><td>5★</td></tr><tr><td>3</td><td>潍坊医学院</td><td>4★</td></tr><tr><td>4</td><td>中南大学</td><td>4★</td></tr><tr><td>5</td><td>遵义医学院</td><td>4★</td></tr><tr><td>6</td><td>重庆医科大学</td><td>4★</td></tr><tr><td>7</td><td>山西医科大学</td><td>4★</td></tr><tr><td>8</td><td>中国医科大学</td><td>4★</td></tr><tr><td>9</td><td>福建医科大学</td><td>4★</td></tr><tr><td>10</td><td>湖北医药学院</td><td>3★</td></tr><tr><td>11</td><td>安徽医科大学</td><td>3★</td></tr><tr><td>12</td><td>温州医科大学</td><td>3★</td></tr><tr><td>13</td><td>大连医科大学</td><td>3★</td></tr><tr><td>14</td><td>南昌大学</td><td>3★</td></tr><tr><td>15</td><td>广州医科大学</td><td>3★</td></tr><tr><td>16</td><td>赣南医学院</td><td>3★</td></tr><tr><td>17</td><td>天津医科大学</td><td>3★</td></tr><tr><td>18</td><td>河北医科大学</td><td>3★</td></tr><tr><td>19</td><td>皖南医学院</td><td>3★</td></tr><tr><td>20</td><td>新疆医科大学</td><td>3★</td></tr></tbody></table><h2><a>1</a><span>麻醉学专业介绍</span></h2><p><img src="http://img.gaosan.com/upload/2016-04-06/df7a1a84-d983-4379-8e4b-cb40b387d5d0.jpg" title="麻醉学专业"/></p><table><tbody><tr class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>临床医学类</td><td>￥5698<p></p><p>薪酬超过23%的专业</p></td><td>北京市<p></p><p>8%在北京市工作</p></td><td>女生较多<p></p><p>男42%-女58%</p></td></tr></tbody></table><p>培养目标：麻醉学专业学生主要学习基础医学、临床医学、麻醉学的基本理论知识及临床医学、麻醉学的基本技术，接受麻醉、急救与生命复苏的基本训练，具有常见手术的麻醉处理、手术期并发症防治以及危重病症的监测、判断与治疗的基本能力。</p><p></p><p>就业方向：该专业毕业生可以在疼痛诊疗等领域从事临床麻醉、急救和复苏、术后监测、生理本专业的毕业生能在医疗卫生单位的麻醉科、急诊科、急救中心、重症监测治疗病房(ICU)、药物依赖戒断机能调控等方面的工作。</p><p>以上关于麻醉学专业的排名数据，由中国科教评价网金平果排行榜独家发布，转载请注明出处。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

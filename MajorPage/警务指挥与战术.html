@@ -1,0 +1,163 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>警务指挥与战术</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+警务指挥与战术</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    《警务指挥与战术》是高等教育专业，学制为4年。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av9892038?from=search&seid=17585335159794442259" class="">
+								
+								<div class="mui-media-body">
+									CTRU与雪豹突击队
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av41409136?from=search&seid=17585335159794442259" class="">
+								
+								<div class="mui-media-body">
+									全国公安民警大练兵汇报演练【二集全】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24863713?from=search&seid=18423291910629633299" class="">
+
+    								<div class="mui-media-body">
+    									广东警官学院警务指挥战术系比武
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av16213712?from=search&seid=9329768250599524549" class="">
+
+    								<div class="mui-media-body">
+    									【原创】《战术国防》双十一警务装备剁手指南？日久执勤九件套
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av11679499?from=search&seid=9329768250599524549" class="">
+
+    								<div class="mui-media-body">
+    									【警察视角】SWAT查水表剪辑——史密斯堡  查塔努加SWAT
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av6965439?from=search&seid=9329768250599524549" class="">
+
+    								<div class="mui-media-body">
+    									【迈阿密警局揭秘】第二十集：骑单车的警察，也算是骑警！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data141879"><p><img alt="2.jpg" src="http://img.gaosan.com/upload/201606/6360125799276586857414576.jpg" title="2.jpg"/></p><p>培养目标：警务指挥与战术专业旨在培养适应社会主义和谐社会建设需要，掌握马克思主义基本原理，具有良好的科学素质、人文素质与警察基本素质，既有较高的执法能力和指挥辅助决策能力，又有较强的警务实战训练组织能力，全面系统地掌握警务指挥学基本知识和基本技能，能在公安一线从事警务指挥辅助以及警务实战训练组织的应用型高级专门人才。</p><p>就业方向：警察指挥与战术专业毕业生适宜公安机关指挥中心、刑警、巡警、特警、缉毒、治安警、铁路公安、水上公安、森林公安、各级公安领导机关下属的参谋、计划、保障部门等公安机关多种岗位群。就业方向主要与应对恐怖事件、重大自然灾害事件、公共突发安全事件等有关。</p><h2><a>1</a><span>2018最新警务指挥与战术专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>中国人民公安大学</td><td>5★</td><td>10</td></tr><tr><td>2</td><td>南京森林警察学院</td><td>4★</td><td>10</td></tr><tr><td>3</td><td>重庆警察学院</td><td>3★</td><td>10</td></tr><tr><td>4</td><td>湖南警察学院</td><td>3★</td><td>10</td></tr><tr><td>5</td><td>湖北警官学院</td><td>3★</td><td>10</td></tr></tbody></table><h2><a>1</a><span>警务指挥与战术专业排名大学介绍</span></h2><p><a href="/gaokao/175022.html" target="_blank">中国人民公安大学</a>是公安部直属普通高等学校暨公安部高级警官学院，创始于1948年7月中共中央社会部在河北解放区举办的华北保卫干部训练班，历经华北公安干部学校、中央公安干部学校、中央人民公安学院、中央政法干部学校等发展阶段。2004年10月15日，胡锦涛、温家宝等党和国家领导人亲临公安大学观摩全国公安民警大练兵汇报演练，胡锦涛同志发表了重要讲话。</p><p><img alt="中国人民公安大学校门" src="http://img.gaosan.com/upload/webimg/2423.jpg" title="中国人民公安大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1948年</td><td>公立</td><td>政法</td><td>公安部</td></tr></tbody></table><p>南京森林警察学院是由国家林业局主管、与公安部共建的我国唯一一所承担着培养、输送高素质森林公安、森林消防专业人才，培训在职森林公安民警和森林防火指挥员，开展森林公安和森林防火科学研究重任的公安本科院校。学校占地总面积1143亩，校舍总建筑面积20万平方米，由仙林校区、花园路校区组成。</p><p><img alt="南京森林警察学院 南京森林警察学院" src="http://img.gaosan.com/upload/webimg/3184.jpg" title="南京森林警察学院 南京森林警察学院"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1941年</td><td>公立</td><td>政法</td><td>林业局</td></tr></tbody></table><p>重庆警察学院是一所全日制公安类普通本科院校。学院包括大学城校区和石桥铺校区2个校区，占地总面积617亩。2005年起，学院与西南政法大学合作办学，联合培养公安专业（方向）本科生。2012年3月，经教育部批准，重庆警官职业学院升格为公安本科院校，主要承担本科学历教育和在职民警培训，校名更改为重庆警察学院。</p><p><img alt="重庆警察学院校门" src="http://img.gaosan.com/upload/webimg/3251.jpg" title="重庆警察学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1950年</td><td>公立</td><td>政法</td><td>重庆市公安局</td></tr></tbody></table><p>湖南警察学院是由湖南省人民政府举办、湖南省公安厅主管、湖南省教育厅指导的全省唯一一所培养警务专门人才的全日制普通高等本科院校。学院地处长沙市星沙经济技术开发区，占地面积700.5亩，校舍建筑面积21万平方米，固定资产4.9亿元。实验仪器设备总值3983万元，图书馆藏书69万册。</p><p><img alt="湖南警察学院校门" src="http://img.gaosan.com/upload/webimg/2833.jpg" title="湖南警察学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1949年</td><td>公立</td><td>政法</td><td>湖南省公安厅</td></tr></tbody></table><p>湖北警官学院位于“九省通衢”的湖北省省会武汉市，是湖北省唯一的省属公安政法类本科院校，也是全国最早开办本科学历教育的两所省属公安本科院校之一。2006年9月，被湖北省学位委员会和省教育厅批准为硕士点立项建设单位。2012年7月，获批开展双学士学位培养工作。</p><p><img alt="湖北警官学院 毕业典礼" src="http://img.gaosan.com/upload/webimg/2868.jpg" title="湖北警官学院 毕业典礼"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1949年</td><td>公立</td><td>政法</td><td>湖北省公安厅</td></tr></tbody></table><p>　　以上2018年警务指挥与战术专业大学排名警务指挥与战术专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

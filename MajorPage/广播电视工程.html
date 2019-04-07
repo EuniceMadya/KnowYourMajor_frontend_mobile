@@ -1,0 +1,185 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>广播电视工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+广播电视工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    广播电视工程（Radioand Television Engineering）是信息与通信工程一级学科下设的国家级特色专业。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    主干课程：通信原理、计算机网络基础、现代电视原理、数字视音频处理、信号与系统、数字信号处理、信息论与编码原理、数据压缩原理与应用、媒体数据库与云存储、数字电视演播室技术、网络制播技术、融合媒体系统原理与设计、融合媒体制作与播出技术、流媒体技术、媒体大数据处理、智能媒体分析与处理等。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av12634516?from=search&seid=4080922986943281673" class="">
+								
+								<div class="mui-media-body">
+									【江苏广电纪录片/央视播出/1080P高清纪录片】中国大运河 【全八集】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av37984521?from=search&seid=4080922986943281673" class="">
+								
+								<div class="mui-media-body">
+									超多老师亲述！中国传媒大学2019艺考专业超详细介绍！
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av17954256?from=search&seid=4080922986943281673" class="">
+								
+								<div class="mui-media-body">
+									宜昌市机电工程学校2018元旦晚会上半部分
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24846732?from=search&seid=16865260288250790760" class="">
+
+    								<div class="mui-media-body">
+    									【毕业季】中国传媒大学2014级广播电视工程毕业班鉴
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av4526427?from=search&seid=16865260288250790760" class="">
+
+    								<div class="mui-media-body">
+    									爱情保卫战20160428-标清（中国传媒大学2013级广播电视工程系演播室技术课作品）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av45477180?from=search&seid=16865260288250790760" class="">
+
+    								<div class="mui-media-body">
+    									天澜影视_河南广播电视大学青马工程宣传片
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av11285619?from=search&seid=16865260288250790760" class="">
+
+    								<div class="mui-media-body">
+    									【亚瑟王】x【中国传媒大学】13广电工班鉴
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av7908402?from=search&seid=16865260288250790760" class="">
+
+    								<div class="mui-media-body">
+    									连云港：趣味横生 小纸牌有大能量
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data217106"><p>广播电视工程专业在全国最好的大学是哪几所呢，最好的大学排名是什么样呢，小编整理广播电视工程专业大学最好大学排行榜，仅供参考！</p><p><img alt="2018广播电视工程专业大学排名 最好大学排行榜" border="0" height="375" src="http://img.gaosan.com/upload/201806/6366527204907214399203558.jpg" style="width: 600px; height: 375px;" title="2018广播电视工程专业大学排名 最好大学排行榜" vspace="0" width="600"/></p><h2><a>1</a><span>广播电视工程专业最好大学排行榜</span></h2><p>在广播电视工程专业院校排名中，南京邮电大学是开设广播电视工程专业最好的学校，排名第一位！</p><table><colgroup><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>排名</td><td>高校名称</td></tr><tr><td>1</td><td style="word-break: break-all;">南京邮电大学</td></tr><tr><td>2</td><td>中国传媒大学</td></tr><tr><td>3</td><td>浙江传媒学院</td></tr><tr><td>4</td><td>重庆邮电大学</td></tr><tr><td>5</td><td>山西传媒学院</td></tr></tbody></table><p>注：以上信息来源于校友会，仅供参考！<br/></p><h2><a>1</a><span>广播电视工程专业相近专业</span></h2><table><colgroup><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>专业名称</td><td>毕业五年月薪</td></tr><tr><td>电子信息工程</td><td>8000-10000元/月</td></tr><tr><td>电子科学与技术</td><td>7000-20000元/月</td></tr></tbody></table><h2><a>1</a><span>广播电视工程专业就业前景</span></h2><p>广播电视工程专业毕业生认为该专业的发展前景比较好的比例由42%，10%的毕业生认为该专业的发展前景不太好或者非常不好，如果我们按照十分职来计算的话，那么那专业的发展前景为6。96，和其他专业相比，广播电视工程专业的发展前进还算是中等偏上，是国内本领域最有特色的专业之一。</p><p>广播电视工程专业培养适应我国广播影视业飞速发展需要，具有良好的科学文化素质和创新能力，具备广播电视工程的基本理论、基本知识和基本技能，能在数字电视、高清晰度电视、交互电视、通信、信号与信息处理及相关的电子信息科学等领域从事科学研究、教学、产品设计开发或管理工作的综合性高素质专业型人才。</p><p>以上2018广播电视工程专业最好大学排名由高三网小编整理，仅供各大考生和家长参考，想知道更多关于广播电视工程专业的信息，请持续关注高三网。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

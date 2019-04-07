@@ -1,0 +1,154 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>宝石及材料工艺学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+宝石及材料工艺学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    宝石及材料工艺学专业培养具有良好的思想品德、社会公德和职业道德、严谨的科学作风、健康的体魄，能运用现代科学知识、现代宝石学理论和技能以及先进科技手段，为社会主义现代化建设服务，从事宝玉石鉴定和商贸经营管理、首饰设计和首饰加工制作及其管理，具有开拓创新精神和实践能力的高级技术人才。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    
+        <h5>暂时没有相关视频</h5>
+        
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av25275815?from=search&seid=8095177247644913191" class="">
+
+    								<div class="mui-media-body">
+    									齐鲁工业大学宝石及材料工艺学2014级
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av35536829?from=search&seid=8095177247644913191" class="">
+
+    								<div class="mui-media-body">
+    									~磨“钻石”经验~
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av9446398?from=search&seid=8095177247644913191" class="">
+
+    								<div class="mui-media-body">
+    									《钻石的重量》华南理工大学&amp;珠宝V课
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av9669861?from=search&seid=8095177247644913191" class="">
+
+    								<div class="mui-media-body">
+    									《钻石的切工》华南理工大学&amp;珠宝V课共同系列
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av9669443?from=search&seid=11868020832705924673" class="">
+
+    								<div class="mui-media-body">
+    									《钻石的颜色》华南理工大学&amp;珠宝V课共同系列
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data139196"><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-09/5afea4fc-da58-4835-b39a-73a868d7981d.jpg" title="宝石及材料工艺学专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>材料类</td><td>￥6297<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过39%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">26%在北京市工作</span></td><td>女生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男37%-女63%</span></td></tr></tbody></table><p>培养目标：培养适应社会主义现代化建设需要，德、智、体、美全面发展，具备宝石及材料工艺学专业的科学理论、基本知识和较强的实践技能，基础扎实、知识面宽、能力强、素质高，富有创新精神和实践能力的高素质应用型人才。</p><p>主要课程：材料科学概论、地质学基础、结晶学与矿物学、岩石学（含晶体光学）、物理化学、宝石鉴定原理和方法、宝石加工学、宝石包裹体，有色宝石学、钻石学、材料工艺学、宝石改善、晶体生长与合成宝石、中国玉器概论、宝石商贸等。</p><p>就业方向：宝石及材料工艺学专业毕业生可从事珠宝公司、宝石加工厂、执法机关、银行、拍卖公司、典当行、报社、杂志社等单位和部门从事与珠宝和材料工艺有关的商贸、鉴定、加工制作、质量监督和检验、生产管理、科技开发等工作，也可以到专业学校、高等院校、科研部门从事珠宝首饰和材料工艺方面的教学和科研工作。</p><h2><a>1</a><span>2017最新宝石及材料工艺学专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>中国地质大学(武汉)</td><td>5★</td><td>17</td></tr><tr><td>2</td><td>昆明理工大学</td><td>4★</td><td>17</td></tr><tr><td>3</td><td>桂林理工大学</td><td>4★</td><td>17</td></tr><tr><td>4</td><td>天津商业大学</td><td>3★</td><td>17</td></tr><tr><td>5</td><td>上海建桥学院</td><td>3★</td><td>17</td></tr></tbody></table><h2><a>1</a><span>宝石及材料工艺学专业排名大学介绍</span></h2><p>中国地质大学是教育部直属全国重点大学,是国家批准设立研究生院的大学，是国家“211工程”、教育部“优势学科创新平台”项目建设的大学；中国地质大学（武汉）位于武汉东湖之畔，南望山麓。学校是全国文明单位、湖北省最佳文明单位，拥有国家4A级旅游景区——逸夫博物馆。</p><p><img alt="中国地质大学(武汉)校门" src="http://img.gaosan.com/upload/webimg/1667.jpg" title="中国地质大学(武汉)校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1952年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><p>昆明理工大学创建于1954年，现已发展成为一所以工为主，理工结合，行业特色、区域特色鲜明，经济、管理、哲学、法学等多学科协调发展的综合性大学，是云南省规模最大、办学层次和类别齐全的重点大学，在中国有色金属行业和区域经济社会发展中发挥着重要作用。学校现有呈贡、莲华、新迎三个校区，占地4300余亩，主校区为呈贡校区，位于昆明市呈贡大学城。</p><p><img alt="昆明理工大学校门" src="http://img.gaosan.com/upload/webimg/1731.jpg" title="昆明理工大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1954年</td><td>公立</td><td>工科</td><td>云南省人民政府</td></tr></tbody></table><p>桂林理工大学是中央与地方共建、以广西壮族自治区管理为主的高校。中国工程院院士、中华环保联合会副主席、中国环境科学学会副理事长、中国可持续发展研究会副理事长、国家环境咨询委员会委员曲久辉为学校名誉校长。学校现有桂林屏风、桂林雁山、南宁安吉、南宁空港四个校区，校园总面积4000余亩。</p><p><img alt="桂林理工大学校门" src="http://img.gaosan.com/upload/webimg/1893.jpg" title="桂林理工大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1956年</td><td>公立</td><td>工科</td><td>广西壮族自治区教育厅</td></tr></tbody></table><p>天津商业大学的前身是天津商学院，由国家商业部和天津市人民政府于1980年创建。学校现有54个本科专业，68个硕士点，其中一级学科硕士点9个，专业硕士点10个，在校生近2.3万人，教学科研仪器设备总值2.65亿元。图书馆现有中外文藏书200万余册，期刊杂志2000余种，中外文数据库60余个，电子图书100万余册。</p><p><img alt="天津商业大学校门" src="http://img.gaosan.com/upload/webimg/1955.jpg" title="天津商业大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1980年</td><td>公立</td><td>财经</td><td>天津市教育委员会</td></tr></tbody></table><p>上海建桥学院是一所以本科教育为主，培养生产、管理、服务第一线应用型专门人才的多科性民办大学。2006年9月，首批本科学生入学；2010年7月，学校被增列为学士学位授予单位。在上海市政府和浦东新区政府支持下，学校在浦东临港建设新校区，并于2015年秋整体搬迁至浦东临港新城。</p><p><img alt="上海建桥学院校门" src="http://img.gaosan.com/upload/webimg/2331.jpg" title="上海建桥学院校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>2000年</td><td>私立</td><td>综合</td><td>上海市教育委员会</td></tr></tbody></table><p>　　以上2017年宝石及材料工艺学专业大学排名宝石及材料工艺学专业排行榜由高三网收集整理，更多专业排名请查看<a href="http://www.gaosan.com/zhuanyepaiming/">大学专业开设高校排名</a>栏目</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

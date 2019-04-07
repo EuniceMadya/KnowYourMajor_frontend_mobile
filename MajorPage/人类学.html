@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>人类学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+人类学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    人类学（Anthropology）是从生物和文化的角度对人类进行全面研究的学科群。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    从生物和文化的角度对人类进行全面研究的学科群，最早见于古希腊哲学家亚里士多德对具有高尚道德品质及行为的人的描述中。在19世纪以前，人类学这个词的用法相当于今天所说的体质人类学 ，尤其是指对人体解剖学和生理学的研究。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    四大人种：亚洲人种、高加索人种、非洲人种、大洋洲人种。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av10767187?from=search&seid=384898522255248601" class="">
+								
+								<div class="mui-media-body">
+									【人类学】剑桥大学公开课：人类学 中英双语字幕
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av10981355?from=search&seid=384898522255248601" class="">
+								
+								<div class="mui-media-body">
+									【文化人类学】全48讲-冯波-中国传媒大学
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av28923402?from=search&seid=384898522255248601" class="">
+								
+								<div class="mui-media-body">
+									中央民族大学公开课:民族学/人类学理论研究
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av13186752?from=search&seid=384898522255248601" class="">
+								
+								<div class="mui-media-body">
+									Cambridge Anthropology 剑桥人类学
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av11004628?from=search&seid=384898522255248601" class="">
+								
+								<div class="mui-media-body">
+									中山大学 影视人类学 全61讲 主讲-邓启耀
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av43949697?from=search&seid=3904636178418956596" class="">
+
+    								<div class="mui-media-body">
+    									人类学到底在研究什么
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av41886577?from=search&seid=3904636178418956596" class="">
+
+    								<div class="mui-media-body">
+    									【人类学】昆士兰大学关于“人类学是什么”的短片
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av34066478?from=search&seid=3904636178418956596" class="">
+
+    								<div class="mui-media-body">
+    									【斑豆搬运】为什么要学习人类学？ || uOttawa FSS
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av5689777?from=search&seid=3904636178418956596" class="">
+
+    								<div class="mui-media-body">
+    									中国各民族生产生活情况老纪录片节选（中国社会科学院民族学与人类学研究所人类学影片）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av28105822?from=search&seid=3904636178418956596" class="">
+
+    								<div class="mui-media-body">
+    									窦文涛：人类学原因使得男女有别
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data141731"><p><img alt="人类学专业" src="http://img.gaosan.com/upload/zhuanye/1/1043.jpg"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>社会学类</td><td>￥6150<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过34%的专业</span></td><td>广州市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">23%在广州市工作</span></td><td>女生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男41%-女59%</span></td></tr></tbody></table><p>专业介绍：人类学是研究人类的本质的学科。从生物和文化的角度对人类进行全面研究的学科群，最早见于古希腊哲学家亚里士多德对具有高尚道德品质及行为的人的描述中。人类学这个词的用法相当于我们今天所说的体质人类学，尤其是指对人体解剖学和生理学的研究。</p><p>就业方向：人类学专业的毕业生能胜任民族、宗教、计划生育、文化、民政、旅游、宣传、政策研究等工作。毕业后可以去党政机关、社会团体、企事业单位、公共组织和私有机构担任行政、文秘和各项管理工作，主要以博物馆、民俗研究机构、考古方面为主。有的学生还能进入相关的媒体机构担当记者、编辑的角色，进企业从事市场调查等。</p><h2><a>1</a><span>2018最新人类学专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>中山大学</td><td>5★</td><td>4</td></tr><tr><td>2</td><td>厦门大学</td><td>4★</td><td>4</td></tr><tr><td>3</td><td>山东大学</td><td>3★</td><td>4</td></tr></tbody></table><h2><a>1</a><span>人类学专业排名大学介绍</span></h2><p>中山大学由孙中山先生创办，有着一百多年办学传统，是中国南方科学研究、文化学术与人才培养的重镇。作为中国教育部直属高校，通过部省共建，中山大学已经成为一所国内一流、国际知名的现代综合性大学。现由广州校区、珠海校区、深圳校区三个校区、五个校园及八家附属医院组成。中山大学正在向世界一流大学迈进，努力成为全球学术重镇。</p><p><img alt="中山大学校门" src="http://img.gaosan.com/upload/webimg/1639.jpg" title="中山大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1924年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p><a href="/gaokao/168986.html" target="_blank">厦门大学</a>由著名爱国华侨领袖陈嘉庚先生于1921年创办，是中国近代教育史上第一所华侨创办的大学，也是国家“211工程”和“985工程”重点建设的高水平大学。建校迄今，已先后为国家培养了20万多名本科生和研究生，在厦大学习、工作过的两院院士达60多人。</p><p><img alt="厦门大学校门" src="http://img.gaosan.com/upload/webimg/1657.jpg" title="厦门大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1921年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>山东大学是国家“211工程”和“985工程”重点建设的高水平大学之一。山东大学是中国近代高等教育的起源性大学。其医学学科起源于1864年，为近代中国高等教育历史之最。其主体是1901年创办的山东大学堂，是继京师大学堂之后中国创办的第二所国立大学，也是中国第一所按章程办学的大学。</p><p><img alt="山东大学校门" src="http://img.gaosan.com/upload/webimg/1651.jpg" title="山东大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1901年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>　　以上2018年人类学专业大学排名人类学专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

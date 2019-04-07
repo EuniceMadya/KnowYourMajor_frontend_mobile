@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>古生物学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+古生物学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    古生物学，地质学分支学科，是生命科学和地球科学的交叉科学。既是生命科学中唯一具有历史科学性质的时间尺度的一个独特分支，研究生命起源、发展历史、生物宏观进化模型、节奏与作用机制等历史生物学的重要基础和组成部分；又是地球科学的一个分支，研究保存在地层中的生物遗体、遗迹、化石，用以确定地层的顺序、时代，了解地壳发展的历史，推断地质史上水陆分布、气候变迁和沉积矿产形成与分布的规律。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av30232145?from=search&seid=16554078045972836338" class="">
+								
+								<div class="mui-media-body">
+									【古生物学】中国地质大学 童金南
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av4553625?from=search&seid=16554078045972836338" class="">
+								
+								<div class="mui-media-body">
+									【中国海洋大学】古生物学
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av7897665?from=search&seid=16554078045972836338" class="">
+								
+								<div class="mui-media-body">
+									【阿尔伯塔大学】 恐龙古生物学
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av7900689?from=search&seid=16554078045972836338" class="">
+								
+								<div class="mui-media-body">
+									【阿尔伯塔大学】古生物学：兽脚类恐龙与鸟类起源
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av7900294?from=search&seid=16554078045972836338" class="">
+								
+								<div class="mui-media-body">
+									【阿尔伯塔大学】古生物学：古代海洋爬行动物
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24867900?from=search&seid=3777499540587763878" class="">
+
+    								<div class="mui-media-body">
+    									师兄师姐对你说丨中国地质大学古生物学与地层学专业
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av2181030?from=search&seid=3777499540587763878" class="">
+
+    								<div class="mui-media-body">
+    									【Scishow】了解一下古生物学和考古学！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av2635524?from=search&seid=3777499540587763878" class="">
+
+    								<div class="mui-media-body">
+    									【中字】了解你身边的科学家 古生物学和考古学是一回事吗？@阿尔法小分队科教组
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av16729903?from=search&seid=3777499540587763878" class="">
+
+    								<div class="mui-media-body">
+    									【Scishow】地质学世界大战——让美国古生物学产生世仇的大战
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av21244443?from=search&seid=3777499540587763878" class="">
+
+    								<div class="mui-media-body">
+    									中国科学家张弥曼获颁“世界杰出女科学家奖” 60多年致力古生物学研究
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data184653"><p>中国大学哪些本科的古生物学专业，是2018高考优秀考生报考的最佳选择呢？艾瑞深中国校友会网最新公布的2018本科专业排行榜中就有你想知道的答案，和小编一起来看看吧！</p><p><img alt="古生物学专业大学排名" border="0" height="350" src="http://img.gaosan.com/upload/201710/6364506945004383995014247.png" style="width: 600px; height: 350px;" title="古生物学专业大学排名" vspace="0" width="600"/></p><p><strong>在2018本科古生物学专业排行榜中，北京大学雄居排行榜榜首，</strong>想知道全部的古生物学专业排名请看下表：</p><h2><a>1</a><span>公办本科大学古生物学专业排名</span></h2><table><colgroup><col width="43"/><col width="217"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>北京大学</td><td>6星级</td><td>北京</td><td>1</td></tr><tr><td>2</td><td>沈阳师范大学</td><td>4星级</td><td>辽宁</td><td>1</td></tr></tbody></table><h2><a>1</a><span>古生物学专业介绍</span></h2><p></p><p><img alt="古生物学专业" border="0" height="337" src="http://img.gaosan.com/upload/201706/6363208570934324958595643.jpg" style="width: 600px; height: 337px;" title="古生物学专业" vspace="0" width="600"/></p><p>培养目标：通过4年学习，使学生获得良好的政治思想、道德品质、文化修养和身心素质教育，初步掌握生物学、地质学及其相关学科的基本知识、基础理论和研究方法；了解当代生物学、地质学和环境科学的研究现状和发展方向；具有从事科学研究、高等教育、科技开发和行政管理能力；为有志于进一步学习、研究的学生提供良好的专业基础知识教育、基本技能训练。</p><p>发展前景：古生物学专业毕业生主要从事科研院所、高等学校的研究与教学或教辅人员;古生物及其它自然类博物馆、国家及省市自然保护区及地质公园的科研或管理人员;国土资源行政部门化石管理人员;石油、煤炭及地质调查等部门的研究、实验人员等岗位。目前，我国古生物学科人才队伍严重萎缩，新老交替的人才断层问题特别严重，后备人才明显不足，很多地勘单位更是出现了“无人能做古生物工作”的尴尬局面。因此，培养和保持一支与国家建设、国际前沿研究相适应的高水平的古生物学专业人才队伍，更好地为地质找矿服务，已成为重要问题。另外，从事古生物方面地质工作的职工，收入也普遍偏低，这也是这方面人才不断流失的重要原因。</p><h2><a>1</a><span>北京大学<br/></span></h2><p></p><p>北京大学创办于1898年，初名京师大学堂，是中国第一所国立综合性大学，也是当时中国最高教育行政机关。辛亥革命后，于1912年改为现名。作为新文化运动的中心和“五四”运动的策源地，作为中国最早传播马克思主义和民主科学思想的发祥地，作为中国共产党最早的活动基地，北京大学为民族的振兴和解放、国家的建设和发展、社会的文明和进步做出了不可替代的贡献，在中国走向现代化的进程中起到了重要的先锋作用。爱国、进步、民主、科学的传统精神和勤奋、严谨、求实、创新的学风在这里生生不息、代代相传。</p><p><img alt="北京大学校门" src="http://img.gaosan.com/upload/webimg/1623.jpg" title="北京大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1898年</td><td>公立</td><td>综合</td><td>中华人民共和国教育部</td></tr></tbody></table><h2><a>1</a><span>沈阳师范大学</span></h2><p></p><p>沈阳师范大学隶属于辽宁省人民政府，是一所涵盖哲学、经济学、法学、教育学、文学、理学、工学、管理学、艺术学等九大门类的多科性大学。学校始建于1951年，其前身为东北教育学院。1965年更名为辽宁第一师范学院。1978年恢复沈阳师范学院校名。2002年省政府决定并经教育部批准,沈阳师范学院与辽宁教育学院合并组建沈阳师范大学。</p><p><img alt="沈阳师范大学校门" src="http://img.gaosan.com/upload/webimg/1884.jpg" title="沈阳师范大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1951年</td><td>公立</td><td>师范</td><td>辽宁省人民政府</td></tr></tbody></table><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

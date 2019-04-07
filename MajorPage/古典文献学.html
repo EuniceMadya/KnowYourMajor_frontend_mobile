@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>古典文献学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+古典文献学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    《古典文献学》是黄山书社出版的图书，作者是陈广忠。本书科学地分析、整理、研究中国古代文献，进而探讨古代文献的产生、分布、交流和利用的规律，并总结对古代文献进行分析、整理、研究工作的规律与方法。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av11221229?from=search&seid=9550004018509390485" class="">
+								
+								<div class="mui-media-body">
+									东北师范大学 中国古典文献学 全26讲 主讲-李德山 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av37137579?from=search&seid=9550004018509390485" class="">
+								
+								<div class="mui-media-body">
+									【文献学】中国古典文献学
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av22532852?from=search&seid=9550004018509390485" class="">
+								
+								<div class="mui-media-body">
+									【苏州大学】中国古典文献学
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av36479881?from=search&seid=9550004018509390485" class="">
+								
+								<div class="mui-media-body">
+									【中国古典文献学】北京外国语大学 当代翻译学视域下的佛典汉译  主讲-李雪涛【全10讲】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av38649861?from=search&seid=9550004018509390485" class="">
+								
+								<div class="mui-media-body">
+									中南大学---比较文学/古代汉语/外国文学/现代汉语/写作/中国古代文论/古典文献学/现当代文学/文学原理 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av5623351?from=search&seid=12902548801096839050" class="">
+
+    								<div class="mui-media-body">
+    									2017年南开大学中国古典文献学考研-2016年古典文学文献学考研考试大纲
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av43944874?from=search&seid=12902548801096839050" class="">
+
+    								<div class="mui-media-body">
+    									2020年北京电影学院数字电影技术考研中国艺术研究院中国古典文献学考研专业辅导机构
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av44816739?from=search&seid=12902548801096839050" class="">
+
+    								<div class="mui-media-body">
+    									李陵之祸【1集】(张三夕：华中师范大学)
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av21859190?from=search&seid=12902548801096839050" class="">
+
+    								<div class="mui-media-body">
+    									【吉他演奏】成都&amp;红尘客栈
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av8578389?from=search&seid=12902548801096839050" class="">
+
+    								<div class="mui-media-body">
+    									【Glossia】如何流利说读拉丁语
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data141980"><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-11/136fe4ba-31f3-4b32-9325-b001c5cea99a.jpg" title="古典文献学专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>中国语言文学类</td><td>￥4987<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过9%的专业</span></td><td>上海市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">38%在上海市工作</span></td><td>女生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男30%-女70%</span></td></tr></tbody></table><p>专业介绍：中国古典文献学主要涉及中国古代文学典籍的研究、考辨、编纂、译注及现代化传播等重要方面。它既是中国古典文学教学研究的基础，也是其重要组成部分。</p><p>就业方向：古典文献学专业性强，研究内容较为冷僻，就业受到一定的限制。可以进入大学、科研机构、出版社、图书馆、文化产业等相关部门从事古典文献研究及教学工作。最近，由于西方文化思潮的大量涌入，人文学科包括古典文献学的面貌也发生了很大的变化。最明显的现象就是：新的研究思路的大量进入，改进或者代替了一些旧有的研究思路。</p><h2><a>1</a><span>2018最新古典文献学专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>北京大学</td><td>5★</td><td>7</td></tr><tr><td>2</td><td>浙江大学</td><td>4★</td><td>7</td></tr><tr><td>3</td><td>陕西师范大学</td><td>3★</td><td>7</td></tr></tbody></table><h2><a>1</a><span>古典文献学专业排名大学介绍</span></h2><p>北京大学创办于1898年，初名京师大学堂，是中国第一所国立综合性大学，也是当时中国最高教育行政机关。辛亥革命后，于1912年改为现名。作为新文化运动的中心和“五四”运动的策源地，作为中国最早传播马克思主义和民主科学思想的发祥地，作为中国共产党最早的活动基地，北京大学为民族的振兴和解放、国家的建设和发展、社会的文明和进步做出了不可替代的贡献，在中国走向现代化的进程中起到了重要的先锋作用。爱国、进步、民主、科学的传统精神和勤奋、严谨、求实、创新的学风在这里生生不息、代代相传。</p><p><img alt="北京大学校门" src="http://img.gaosan.com/upload/webimg/1623.jpg" title="北京大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1898年</td><td>公立</td><td>综合</td><td>中华人民共和国教育部</td></tr></tbody></table><p>浙江大学是一所历史悠久、声誉卓著的高等学府，坐落于中国历史文化名城、风景旅游胜地杭州。浙江大学的前身求是书院创立于1897年，为中国人自己最早创办的新式高等学校之一。1928年，定名国立浙江大学。浙江大学是一所特色鲜明、在海内外有较大影响的综合型、研究型大学，其学科涵盖哲学、经济学、法学、教育学、文学、<a href="/gaokao/184680.html" target="_blank">历史学</a>、艺术学、理学、工学、农学、医学、管理学等十二个门类。学校设有7个学部，36个学院（系）。拥有一级学科国家重点学科14个，二级学科国家重点学科21个。据ESI公布的数据，截至2015年9月，我校18个学科进入世界学术机构前1%，居全国高校第二；7个学科进入世界前100位，4个学科进入世界前50位，居全国高校第一。</p><p><img alt="浙江大学 学校大门" src="http://img.gaosan.com/upload/webimg/1631.jpg" title="浙江大学 学校大门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1897年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>陕西师范大学是教育部直属、国家“211工程”重点建设大学，国家教师教育“985”优势学科创新平台建设高校，是国家培养高等院校、中等学校师资和教育管理干部以及其他高级专门人才的重要基地，被誉为西北地区“教师的摇篮”。学校前身是1944年成立的陕西省立师范专科学校，1954年更名为西安师范学院,1960年与陕西师范学院合并，定名为陕西师范大学，1978年划归教育部直属。</p><p><img alt="陕西师范大学 体育馆" src="http://img.gaosan.com/upload/webimg/1695.jpg" title="陕西师范大学 体育馆"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1944年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>　　以上2018年古典文献学专业大学排名古典文献学专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

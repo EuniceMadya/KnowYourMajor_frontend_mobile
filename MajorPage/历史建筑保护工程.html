@@ -1,0 +1,196 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>历史建筑保护工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+历史建筑保护工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    历史建筑保护工程专业脱胎于同济的建筑学专业，拥有同一套教学体系和师资力量、教学资源，同时又从历史保护的专业内容出发，参照国外名校如美国宾夕法尼亚大学、哥伦比亚大学同类专业的教学内容和教学方法，保持与之同步。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av11542356?from=search&seid=5926861784952689866" class="">
+								
+								<div class="mui-media-body">
+									纪录片.法国拉斯科洞窟壁画：挽救一万八千年的历史.2017[高清][英字]
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av4185100?from=search&seid=5926861784952689866" class="">
+								
+								<div class="mui-media-body">
+									【水利纪录片】水脉【全八集】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av7392103?from=search&seid=5926861784952689866" class="">
+								
+								<div class="mui-media-body">
+									【聊城大学公开课】古往今来话运河
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av18828131?from=search&seid=5926861784952689866" class="">
+								
+								<div class="mui-media-body">
+									【地理中国】古城里的奥秘（6集全）（1080P）【高清版】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av35946285?from=search&seid=6436884190869487210" class="">
+
+    								<div class="mui-media-body">
+    									南水北调工程为了保护这座道观，将其整体抬升15米，总投资近2亿
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av20448972?from=search&seid=6436884190869487210" class="">
+
+    								<div class="mui-media-body">
+    									【武汉大学】理学院维修项目入围优秀古迹遗址保护项目
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av16649600?from=search&seid=9359021048996303773" class="">
+
+    								<div class="mui-media-body">
+    									大学生相声改编——《论一个相声演员的自我修养》
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av32024343?from=search&seid=9359021048996303773" class="">
+
+    								<div class="mui-media-body">
+    									万科双月湾项目创优工程实施策划施工动画演示（PC构件）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av7004649?from=search&seid=9359021048996303773" class="">
+
+    								<div class="mui-media-body">
+    									命令与征服：被遗忘者 第一幕 夺取柏林电视塔 (2/N) 分矿
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data184296"><p>中国大学哪些本科的历史建筑保护工程专业跻身2018世界一流、世界高水平、中国顶尖和中国一流专业行列？艾瑞深中国校友会网最新公布的2018本科专业排行榜中就有你想知道的答案，和小编一起来看看吧！</p><p><img alt="历史建筑保护工程专业大学排名" border="0" height="370" src="http://img.gaosan.com/upload/201710/6364495720297948839492694.jpg" style="width: 600px; height: 370px;" title="历史建筑保护工程专业大学排名" vspace="0" width="600"/></p><p>在2018本科历史建筑保护工程专业排行榜中，同济大学雄居排行榜榜首，华南理工大学、西安建筑科技大学紧随其后，占据第二、第三名。全部排名数据请看下表：</p><h2><a>1</a><span>本科大学历史建筑保护工程专业排名</span></h2><table><colgroup><col width="72"/><col width="181"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>同济大学</td><td>5星级</td><td>上海</td><td>1</td></tr><tr><td>2</td><td>华南理工大学</td><td>4星级</td><td>广东</td><td>1</td></tr><tr><td>3</td><td>西安建筑科技大学</td><td>3星级</td><td>陕西</td><td>1</td></tr><tr><td>3</td><td>北京建筑大学</td><td>3星级</td><td>北京</td><td>1</td></tr></tbody></table><p>艾瑞深中国校友会网2018中国大学本科专业排行榜专业星级划分：中国九星级专业：世界顶尖专业；中国八星级专业：世界一流、中国最顶尖专业；中国七星级专业：世界知名高水平、中国顶尖专业；中国六星级专业：世界高水平、中国顶尖专业；中国五星级专业：世界知名、中国一流专业；中国四星级专业：中国高水平专业；中国三星级专业：中国知名、区域一流专业；中国二星级专业：中国区域高水平专业；中国一星级专业：中国区域知名专业。<br/></p><h2><a>1</a><span>同济大学</span></h2><p></p><p>同济大学是国家“985工程”和“211工程”重点建设的教育部直属高校，在百余年办学历程中，始终注重人才培养、科学研究、社会服务、文化传承创新四大功能均衡发展，综合实力位居国内高校前列。1912年与创办不久的同济德文工学堂合并，更名为同济德文医工学堂。1923年正式定名为大学。1927年成为国立同济大学，是中国最早的七所国立大学之一。</p><p><img alt="同济大学校门" src="http://img.gaosan.com/upload/webimg/1626.jpg" title="同济大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1907年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>华南理工大学</span></h2><p></p><p>华南理工大学是直属教育部的全国重点大学，坐落在南方名城广州，占地面积294多万平方米。校园分为两个校区，五山校区位于广州市天河区石牌高校区。广东工业专科学校的前身是1918年成立的广东省立第一甲种工业学校，其历史可追溯至1910年清政府创办的广东工艺局。这些院校是早期中国南方培养高级工程技术人才的摇篮和民主科学思想的重要策源地。</p><p><img alt="华南理工大学校门" src="http://img.gaosan.com/upload/webimg/1636.jpg" title="华南理工大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1952年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>西安建筑科技大学</span></h2><p></p><p>西安建筑科技大学坐落在历史文化名城西安。两校区和产业园区总占地4300余亩。学校被国际建筑师协会（UIA）授予“建筑教育特别贡献奖”，被国务院授予“全国就业先进工作单位”，学校党委被中共中央授予“全国先进基层党组织”称号。</p><p><img alt="西安建筑科技大学校门" src="http://img.gaosan.com/upload/webimg/1755.jpg" title="西安建筑科技大学校门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1895年</td><td>公立</td><td>工科</td><td>陕西省人民政府</td></tr></tbody></table><h2><a>1</a><span>北京建筑大学</span></h2><p></p><p>北京建筑大学是一所具有鲜明建筑特色、以工为主的多科性大学，是人才培养基地和科技服务基地，是北京地区唯一一所建筑类高等学校。2014年获批设立“建筑学”博士后科研流动站。2015年10月北京市人民政府和住房城乡建设部签署共建协议，学校正式进入省部共建高校行列。</p><p><img alt="北京建筑大学 学校大门" src="http://img.gaosan.com/upload/webimg/1901.jpg" title="北京建筑大学 学校大门"/></p><table align="center" width="100%"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1936年</td><td>公立</td><td>其他</td><td>北京市教育委员会</td></tr></tbody></table><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

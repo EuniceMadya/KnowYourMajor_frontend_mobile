@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>服装与服饰设计</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+服装与服饰设计</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    培养具备服装设计、服装结构工艺及服装经营管理理论知识和实践能力，能在服装生产和销售企业、服装研究单位、服装行业管理部门及新闻出版机构等从事服装产品开发、市场营销、经营管理、服装理论研究及宣传评论等方面工作的高级专门人才。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av30717225?from=search&seid=659258308488477369" class="">
+								
+								<div class="mui-media-body">
+									二次元服装大赛丨服装设计大赛方法论与实务
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av39137738?from=search&seid=659258308488477369" class="">
+								
+								<div class="mui-media-body">
+									2018中华民族服饰文化国际研讨会:服饰传承与创新（下）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av39136462?from=search&seid=659258308488477369" class="">
+								
+								<div class="mui-media-body">
+									2018中华民族服饰文化国际研讨会:服饰传承与创新（上）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av16750948?from=search&seid=659258308488477369" class="">
+								
+								<div class="mui-media-body">
+									时装画 · 到了该穿牛仔外套的季节
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av41029150?from=search&seid=659258308488477369" class="">
+								
+								<div class="mui-media-body">
+									【巴黎歌剧院芭蕾舞团】巴兰钦《仲夏夜之梦》2017年高清录像
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av45541363?from=search&seid=16998268794585714013" class="">
+
+    								<div class="mui-media-body">
+    									毕业设计服装与服饰设计
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10292072?from=search&seid=16998268794585714013" class="">
+
+    								<div class="mui-media-body">
+    									对辽宁传媒学院服装与服饰设计专业你知道多少？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av38377913?from=search&seid=16998268794585714013" class="">
+
+    								<div class="mui-media-body">
+    									校园一周日常Vlog|跟我过一周吧|服装与服饰设计专业
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av31963799?from=search&seid=16998268794585714013" class="">
+
+    								<div class="mui-media-body">
+    									【花絮】东华大学2017级服装与服饰设计中日合作班  秀场视频花絮 八方来见
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av18093900?from=search&seid=16998268794585714013" class="">
+
+    								<div class="mui-media-body">
+    									IDO学员原创服装设计与制作作品 服装制版 服装缝纫 零基础
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data141351"><p><img alt="2.jpg" src="http://img.gaosan.com/upload/peitu/600/0134.jpg" title="2.jpg"/></p><p>培养要求：培养具备服装设计、服装结构工艺及服装经营管理理论知识和实践能力，能在服装生产和销售企业、服装研究单位、服装行业管理部门及新闻出版机构等从事服装产品开发、市场营销、经营管理、服装理论研究及宣传评论等方面工作的高级专门人才。</p><p>就业方向：服装艺术设计方向培养具有完备的服装和服饰设计理论知识，以艺术审美与社会需求为参照，善于借鉴我国传统服饰文化、掌握和利用现代国内外服装信息，有较高的设计水平和较强的工艺制作能力。毕业后能在相关企业、媒体、学校、科研机构从事服饰文化研究、服饰设计、服装营销及管理、时尚编辑等工作的高水平应用型人才。</p><h2><a>1</a><span>2018最新服装与服饰设计专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>大连工业大学</td><td>5★</td><td>214</td></tr><tr><td>2</td><td>江南大学</td><td>5★</td><td>214</td></tr><tr><td>3</td><td>武汉纺织大学</td><td>5★</td><td>214</td></tr><tr><td>4</td><td>鲁迅美术学院</td><td>5★</td><td>214</td></tr><tr><td>5</td><td>浙江理工大学</td><td>5★</td><td>214</td></tr></tbody></table><h2><a>1</a><span>服装与服饰设计专业排名大学介绍</span></h2><p>大连工业大学创建于1958年，是我国最早建立的4所轻工业院校之一。半个多世纪来，已为国家培养各类毕业生6万余人。学校有3个博士学位授权一级学科，1个博士后科研流动站，13个硕士学位授权一级学科，9个工程硕士招生领域、1个艺术硕士、1个农业推广硕士专业学位授权点；5个辽宁省重点学科，并有3个一级学科被评为辽宁省高校一流特色学科。</p><p><img alt="大连工业大学校门" src="http://img.gaosan.com/upload/webimg/1875.jpg" title="大连工业大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1958年</td><td>公立</td><td>理工</td><td>辽宁省教育厅</td></tr></tbody></table><p>江南大学是教育部直属、国家“211工程”重点建设高校。学校具有悠久的办学历史、厚重的文化积淀，源起1902年创建的三江师范学堂，历经国立中央大学、南京大学等发展时期；1958年南京工学院食品工业系整建制东迁无锡，建立无锡轻工业学院；1995年更名为无锡轻工大学；2001年无锡轻工大学、江南学院、无锡教育学院合并组建江南大学；2003年东华大学无锡校区并入江南大学。</p><p><img alt="江南大学校门" src="http://img.gaosan.com/upload/webimg/1704.jpg" title="江南大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1902年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><p>武汉纺织大学占地2000多亩，拥有阳光、南湖、东湖、雄楚四个校区，植根于荆楚文明之沃土，敢为人先，勇立潮头，践行特色办学理念，秉承“崇真尚美”校训，坚持“自强不息的奋斗精神、求真务实的科学精神、开拓创新的发展精神、彰显特色的执着精神”，历经五十余载，已成为理、工、文、经、管、艺等多学科协调发展，特色鲜明、优势突出的普通高等院校。</p><p><img alt="武汉纺织大学校门" src="http://img.gaosan.com/upload/webimg/1841.jpg" title="武汉纺织大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1958年</td><td>公立</td><td>工科</td><td>湖北省人民政府</td></tr></tbody></table><p>鲁迅美术学院前身是1938年建于延安的鲁迅艺术学院，由毛泽东、周恩来等老一代领导人亲自倡导创建。1945年，延安鲁艺迁校至东北。1958年发展为鲁迅美术学院。1998年，江泽民同志为学院题词：“弘扬鲁艺传统，培育艺术人才，繁荣社会主义文化事业”。悠久的办学历史积淀了学院深厚的文化内涵和领先的办学实力。</p><p><img alt="鲁迅美术学院校门" src="http://img.gaosan.com/upload/webimg/3011.jpg" title="鲁迅美术学院校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1938年</td><td>公立</td><td>艺术</td><td>辽宁省教育厅</td></tr></tbody></table><p>浙江理工大学办学历史悠久，坐落在历史文化名城——杭州市，占地面积2100余亩。1999年，经教育部批准，学校更名为浙江工程学院。2004年，经教育部批准，学校更名为浙江理工大学。2006年，获得博士学位授予权。2010年，经教育部批准，获得推荐优秀应届本科毕业生免试攻读硕士学位研究生资格。</p><p><img alt="浙江理工大学校门" src="http://img.gaosan.com/upload/webimg/1788.jpg" title="浙江理工大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1897年</td><td>公立</td><td>理工</td><td>浙江省人民政府</td></tr></tbody></table><p>　　以上2018年服装与服饰设计专业大学排名服装与服饰设计专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>法语</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+法语</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    法语是属于欧洲印欧语系罗曼语族的独立语言。罗曼语族包括中部罗曼语（法语、意大利语、萨丁岛（Sardinia）方言、加泰罗尼亚（Catalunya）语等）、西部罗曼语（西班牙语、葡萄牙语等）与东部罗曼语（罗马尼亚语等）。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    法语是继西班牙文之后，使用者人数最多的罗曼语言独立语言之一。现时全世界有8700万人把它作为母语，以及其他2.85亿人使用它（包括把它作为第二语言的人）。法文是很多地区或组织的官方语言（例如联合国、欧洲联盟）。法国法语和加拿大法语是世界上两大法语分支，它们之间有很大区别。 </h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av22724858?from=search&seid=14524426563771758538" class="">
+								
+								<div class="mui-media-body">
+									elle/雯姐教你学法语欧标A1直通车
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av44093083?from=search&seid=14524426563771758538" class="">
+								
+								<div class="mui-media-body">
+									法语教学A1（这可能是最好的法语教程）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av5125432?from=search&seid=14524426563771758538" class="">
+								
+								<div class="mui-media-body">
+									2小时轻松法语入门，适合法语零基础小白食用
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av46843912?from=search&seid=14524426563771758538" class="">
+								
+								<div class="mui-media-body">
+									19年最全新版法语（零基础直达高级A1-B2）——全网最全法语资源
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av46042975?from=search&seid=14524426563771758538" class="">
+								
+								<div class="mui-media-body">
+									法语欧标B1+B2精讲课程（2019新版）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av41485886?from=search&seid=17581749344518008742" class="">
+
+    								<div class="mui-media-body">
+    									中国人讲法语能流利到什么程度？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av13754126?from=search&seid=17581749344518008742" class="">
+
+    								<div class="mui-media-body">
+    									法语控/女神的法语永远听不够！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av35867236?from=search&seid=17581749344518008742" class="">
+
+    								<div class="mui-media-body">
+    									法国老太太错认成马克龙夫人，默克尔讲法语解释
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av27055556?from=search&seid=17581749344518008742" class="">
+
+    								<div class="mui-media-body">
+    									学霸之间的日常，汉语、英语、法语随意切换 - 感受一下两亿岁的外星女主
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24883548?from=search&seid=17581749344518008742" class="">
+
+    								<div class="mui-media-body">
+    									法国队只准用法语提问 西班牙记者默默拿出手机翻译
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data142019"><p style="text-align: center"><img src="http://img.gaosan.com/upload/peitu/600/0714.jpg" title="法语专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>外国语言文学类</td><td>￥8872<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过92%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">22%在北京市工作</span></td><td>女生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男15%-女85%</span></td></tr></tbody></table><p>培养目标：培养具有扎实的相应语语言基础比较广泛的科学文化知识，能在外事、经贸、文化、新闻出版、教育、科研、旅游等部门从事翻译、研究、教学、管理工作的相应语言高级专门人才。</p><p>主要课程：基础相应语、高级相应语、报刊选读、视听、口语、相应语写作、翻译理论与实践、语言理论、语言学概论、主要相应语国家文学史及文学作品选读、主要相应国家国情等。法语就业，在中国将会越来越好。大致总结一下，除了跟其他外语就业具有一样的途径外，法语更有其独特优势。</p><p>就业方向：可以到政府部门就业。可以到出版部门。可以进入旅游行业。这个行业聚集了大量的法语人才。随着国内经济和旅游的发展，中国人出境游将会越来越多。以后还可以做领队带团到法语国家去。可以进入外贸行业，外贸和旅游一样是法语人才的聚集领域。可以到学校里当教师。可以做各种企业的翻译。可以到外资企业，主要是法资企业。如果以上几个方面都没有你能做的地方，那么就只有到用不着法语的地方就业。</p><h2><a>1</a><span>2018最新法语专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>武汉大学</td><td>5★</td><td>109</td></tr><tr><td>2</td><td>南京大学</td><td>5★</td><td>109</td></tr><tr><td>3</td><td>北京外国语大学</td><td>5★</td><td>109</td></tr><tr><td>4</td><td>上海外国语大学</td><td>5★</td><td>109</td></tr><tr><td>5</td><td>浙江大学</td><td>5★</td><td>109</td></tr></tbody></table><h2><a>1</a><span>法语专业排名大学介绍</span></h2><p>武汉大学，简称“武大”，位于湖北武汉，是直属于中华人民共和国教育部的副部级全国重点大学，国家首批“985工程”、“211工程”、“2011计划”重点建设高校，同时是“111计划”、“珠峰计划”、“海外高层次人才引进计划”、“卓越工程师教育培养计划”、“卓越法律人才教育培养计划”和“卓越医生教育培养计划”等重点建设的综合研究型大学，是与法国高校联系最紧密、合作最广泛的中国高校之一，是世界权威期刊《Science》列出的“中国最杰出的大学”之一。武汉大学办学源头可溯源于清朝末期1893年湖广总督张之洞奏请清政府创办的自强学堂；1913年改名国立武昌高等师范学校；1926年组建国立武昌中山大学；1928年定名国立武汉大学，是民国四大名校之一；1949年，更名为武汉大学。</p><p><img alt="武汉大学校门" src="http://img.gaosan.com/upload/webimg/1628.jpg" title="武汉大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1893年</td><td>公立</td><td>综合</td><td>中华人民共和国教育部</td></tr></tbody></table><p>南京大学坐落于钟灵毓秀、虎踞龙蟠的金陵古都，是一所历史悠久、声誉卓著的百年名校。其前身是创建于1902年的三江师范学堂，此后历经两江师范学堂、南京高等师范学校、国立东南大学、第四中山大学、国立中央大学、国立南京大学等历史时期，于1950年更名为南京大学。在一个多世纪的办学历程中，南京大学及其前身与时代同呼吸、与民族共命运，谋国家之强盛、求科学之进步，为国家的富强和民族的振兴做出了重要的贡献。尤其是改革开放以来，作为教育部直属的重点综合性大学，南京大学又在崭新的历史机遇中焕发出新的生机，在教学、科研和社会服务等各个领域保持良好的发展态势，各项办学指标和综合实力均位居全国高校前列。。</p><p><img alt="南京大学 学校大门" src="http://img.gaosan.com/upload/webimg/1635.jpg" title="南京大学 学校大门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1902年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>北京外国语大学坐落在北京市海淀区西三环北路，在三环路两侧分设东、西两个校区，是教育部直属、“985”优势学科创新平台和首批国家“211工程”建设的全国重点大学。新中国成立后，学校归外交部领导，1954年更名为北京外国语学院，1959年与北京俄语学院合并组建新的北京外国语学院。1980年后直属国家教育部领导，1994年正式更名为北京外国语大学。</p><p><img alt="北京外国语大学 体育馆" src="http://img.gaosan.com/upload/webimg/1750.jpg" title="北京外国语大学 体育馆"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1941年</td><td>公立</td><td>语言</td><td>教育部</td></tr></tbody></table><p>上海外国语大学，简称“上外”、“SISU”，是教育部直属并与上海市共建、进入国家“211工程”建设的全国重点大学，秉承“格高志远、学贯中外”的校训精神，筚路蓝缕，奋发有为，现已发展成一所培养高端国际型外语人才的多科性、国际化、高水平特色大学，蜚声海内外。</p><p><img alt="上海外国语大学校门" src="http://img.gaosan.com/upload/webimg/1772.jpg" title="上海外国语大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1949年</td><td>公立</td><td>语言</td><td>教育部</td></tr></tbody></table><p>浙江大学是一所历史悠久、声誉卓著的高等学府，坐落于中国历史文化名城、风景旅游胜地杭州。浙江大学的前身求是书院创立于1897年，为中国人自己最早创办的新式高等学校之一。1928年，定名国立浙江大学。浙江大学是一所特色鲜明、在海内外有较大影响的综合型、研究型大学，其学科涵盖哲学、经济学、法学、教育学、文学、<a href="/gaokao/184680.html" target="_blank">历史学</a>、艺术学、理学、工学、农学、医学、管理学等十二个门类。学校设有7个学部，36个学院（系）。拥有一级学科国家重点学科14个，二级学科国家重点学科21个。据ESI公布的数据，截至2015年9月，我校18个学科进入世界学术机构前1%，居全国高校第二；7个学科进入世界前100位，4个学科进入世界前50位，居全国高校第一。</p><p><img alt="浙江大学 学校大门" src="http://img.gaosan.com/upload/webimg/1631.jpg" title="浙江大学 学校大门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1897年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>　　以上2018年<a href="/gaokao/185152.html" target="_blank">法语专业</a>大学排名法语专业排行榜由高三网收集整理，供大家参考阅读！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

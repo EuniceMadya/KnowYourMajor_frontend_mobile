@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>动物生产类专业</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+动物生产类专业</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    动物生产类专业的形成与发展与生物学密不可分。近年来生物科技飞速发展，动物生产类专业正是在这一发展过程中，以生物化学、免疫学、医学、生物物理学等学科发展为基础，从动物学学科中衍生出来的。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av7747051?from=search&seid=8487487976038202811" class="">
+								
+								<div class="mui-media-body">
+									郊区王者平头哥---就是这么蛮横   说了留平头的不要惹！
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av47218857?from=search&seid=8487487976038202811" class="">
+								
+								<div class="mui-media-body">
+									Running Man E141动物的王国篇！大家带上头套都好可爱（PS：私心表白一波我卡）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av7888681?from=search&seid=8487487976038202811" class="">
+								
+								<div class="mui-media-body">
+									CCTV《动物世界》
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av21896057?from=search&seid=8487487976038202811" class="">
+								
+								<div class="mui-media-body">
+									【BBC】野性自然合集（共24集）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av28296697?from=search&seid=8487487976038202811" class="">
+								
+								<div class="mui-media-body">
+									【央视 1080P+高清】人类溯源【2集纪录片】
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av25136869?from=search&seid=16194424880454356815" class="">
+
+    								<div class="mui-media-body">
+    									【孔雀鱼又双叒叕下崽】新买的孔雀鱼生了！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av44834884?from=search&seid=16194424880454356815" class="">
+
+    								<div class="mui-media-body">
+    									一个神奇的问题，动物会被晒黑吗？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av8010751?from=search&seid=16194424880454356815" class="">
+
+    								<div class="mui-media-body">
+    									新手宠物主银哪里买粮？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av27603129?from=search&seid=16194424880454356815" class="">
+
+    								<div class="mui-media-body">
+    									《创·业者》第7期：张晓林-MBA要带领猫奴们“造反”，这是真的？！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av9419080?from=search&seid=9778227352062910950" class="">
+
+    								<div class="mui-media-body">
+    									震惊！原来专业级别悠悠球的设计和生产过程原来是这样的！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data30811"><p>同学们很想了解一下中国动物生产类专业最新学校排名情况，小编整理了相关排名信息，赶快来了解一下吧！</p><p><img alt="2018年中国动物生产类专业大学排名" border="0" height="375" src="http://img.gaosan.com/upload/201806/6366372749333338622213831.jpg" style="width: 600px; height: 375px;" title="2018年中国动物生产类专业大学排名" vspace="0" width="600"/></p><p><strong>2018年中国动物生产类专业大学排行榜</strong><br/></p><table><tbody><tr class="firstRow"><td><center style="MARGIN: 0px">排名</center></td><td><center style="MARGIN: 0px">学校名称</center></td><td><center style="MARGIN: 0px">星级</center></td><td><center style="MARGIN: 0px">学校数</center></td></tr><tr><td>1</td><td>中国农业大学</td><td>5★</td><td>82</td></tr><tr><td>2</td><td>西南大学</td><td>5★</td><td>82</td></tr><tr><td>3</td><td>东北农业大学</td><td>5★</td><td>82</td></tr><tr><td>4</td><td>华中农业大学</td><td>5★</td><td>82</td></tr><tr><td>5</td><td>西北农林科技大学</td><td>5★-</td><td>82</td></tr><tr><td>6</td><td>浙江大学</td><td>5★-</td><td>82</td></tr><tr><td>7</td><td>山东农业大学</td><td>5★-</td><td>82</td></tr><tr><td>8</td><td>华南农业大学</td><td>5★-</td><td>82</td></tr><tr><td>9</td><td>南京农业大学</td><td>4★</td><td>82</td></tr><tr><td>10</td><td>四川农业大学</td><td>4★</td><td>82</td></tr><tr><td>11</td><td>湖南农业大学</td><td>4★</td><td>82</td></tr><tr><td>12</td><td>云南农业大学</td><td>4★</td><td>82</td></tr><tr><td>13</td><td>新疆农业大学</td><td>4★</td><td>82</td></tr><tr><td>14</td><td>扬州大学</td><td>4★</td><td>82</td></tr><tr><td>15</td><td>吉林农业大学</td><td>4★</td><td>82</td></tr><tr><td>16</td><td>江西农业大学</td><td>4★</td><td>82</td></tr><tr><td>17</td><td>吉林大学</td><td>3★</td><td>82</td></tr><tr><td>18</td><td>内蒙古农业大学</td><td>3★</td><td>82</td></tr><tr><td>19</td><td>河南农业大学</td><td>3★</td><td>82</td></tr><tr><td>20</td><td>石河子大学</td><td>3★</td><td>82</td></tr></tbody></table><p>　　动物生产类专业的形成与发展与生物学密不可分。近年来生物科技飞速发展，动物生产类专业正是在这一发展过程中，以生物化学、免疫学、医学、生物物理学等学科发展为基础，从动物学学科中衍生出来的。</p><p>动物生产类专业主要包括动物科学和蚕学两个专业。动物科学主要涉及农业领域的畜牧业方面，侧重培养同学掌握动物解剖及组织结构，动物生理、生化基本理论及实验技术，畜禽良种选育及繁殖等方面的理论与技术。</p><p>而蚕学的研究对象则更具体一些，主要以桑、蚕、茧为主，培养能掌握栽桑、养蚕及桑、蚕的选种、良种繁育的理论和技术，以及桑栽培、蚕饲养和病虫害防治等方面知识的科技人才。</p><p>以上就是小编整理的动物生产类专业最新的院校排名情况，仅供参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

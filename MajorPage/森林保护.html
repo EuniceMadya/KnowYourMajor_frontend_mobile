@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>森林保护</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+森林保护</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    森林保护是指预防和消除森林的各种破坏和灾害的措施，保证树木健康生长，避免或减少森林资源损失的重要措施。森林保护是营林工作中的重要环节。主要内容包括预防和消除森林火灾、林木病虫害、林木鸟兽害以及灾害性天气对森林的损害。森林保护应采取预防为主的方针；在灾害发生后，应积极除治。森林保护的十六字方针：“预防为主，科学防控，依法治理，促进健康。”</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av23279482?from=search&seid=15378379354201707527" class="">
+								
+								<div class="mui-media-body">
+									北京林业大学 植树与森林保护的关系 全5讲 主讲-罗菊春 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av23233722?from=search&seid=15378379354201707527" class="">
+								
+								<div class="mui-media-body">
+									北京林业大学 植树与森林保护的关系 全5讲 主讲-罗菊春 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av23513037?from=search&seid=15378379354201707527" class="">
+								
+								<div class="mui-media-body">
+									海南大学 森林植物多样性的保护 全5讲 主讲-杨小波 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av11889834?from=search&seid=15378379354201707527" class="">
+								
+								<div class="mui-media-body">
+									海南大学 森林植物多样性的保护 全5讲 主讲-杨小波 视频教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av16105424?from=search&seid=15378379354201707527" class="">
+								
+								<div class="mui-media-body">
+									众享独趣游戏实况 中土世界2战争之影 第03部 第二幕 卡南的任务 拯救森林保护大自然
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av34929090?from=search&seid=4474493488055979417" class="">
+
+    								<div class="mui-media-body">
+    									吉娘娘呼吁保护森林：Gisele Bündchen- The Battle in the Forest（公益宣传片）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av35152520?from=search&seid=4474493488055979417" class="">
+
+    								<div class="mui-media-body">
+    									动画短片，森林之卵？保护好它可以拯救一片森林
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av18219522?from=search&seid=4474493488055979417" class="">
+
+    								<div class="mui-media-body">
+    									【宣传片】学科耀东林-东北林业大学森林保护学科宣传片
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av18312824?from=search&seid=4474493488055979417" class="">
+
+    								<div class="mui-media-body">
+    									保护森林-沙漏篇 公益广告 27s
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av43553953?from=search&seid=4474493488055979417" class="">
+
+    								<div class="mui-media-body">
+    									成都一家三口，住30亩森林，保护上万只珍贵的鸟儿
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data184716"><p>中国大学哪些本科的森林保护专业，是2018高考优秀考生报考的最佳选择呢？艾瑞深中国校友会网最新公布的2018本科专业排行榜中就有你想知道的答案，和小编一起来看看吧！</p><p><img alt="森林保护专业大学排名" border="0" height="350" src="http://img.gaosan.com/upload/201711/6364512584896329937083963.jpg" style="width: 600px; height: 350px;" title="森林保护专业大学排名" vspace="0" width="600"/></p><p><strong>在2018本科森林保护专业排行榜中，东北林业大学雄居排行榜榜首，中南林业科技大学紧随其后，占据第二名。</strong>想知道全部的森林保护专业排名请看下表：</p><h2><a>1</a><span>公办本科大学森林保护专业排名</span></h2><table><colgroup><col width="43"/><col width="217"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>东北林业大学</td><td>5星级</td><td>黑龙江</td><td>1</td></tr><tr><td>2</td><td style="word-break: break-all;">中南林业科技大学</td><td>4星级</td><td>湖南</td><td>1</td></tr><tr><td>3</td><td>北京林业大学</td><td>3星级</td><td>北京</td><td>1</td></tr><tr><td>3</td><td>浙江农林大学</td><td>3星级</td><td>浙江</td><td>1</td></tr><tr><td>5</td><td>四川农业大学</td><td>3星级</td><td>四川</td><td>1</td></tr><tr><td>5</td><td>西南林业大学</td><td>3星级</td><td>云南</td><td>1</td></tr><tr><td>5</td><td>南京林业大学</td><td>3星级</td><td>江苏</td><td>1</td></tr><tr><td>5</td><td>河北农业大学</td><td>3星级</td><td>河北</td><td>1</td></tr><tr><td>5</td><td>海南大学</td><td>3星级</td><td>海南</td><td>1</td></tr><tr><td>5</td><td>山东农业大学</td><td>3星级</td><td>山东</td><td>1</td></tr><tr><td>5</td><td>华南农业大学</td><td>3星级</td><td>广东</td><td>1</td></tr><tr><td>5</td><td>西北农林科技大学</td><td>3星级</td><td>陕西</td><td>1</td></tr><tr><td>5</td><td>沈阳农业大学</td><td>3星级</td><td>辽宁</td><td>1</td></tr></tbody></table><h2><a>1</a><span>森林保护专业介绍<br/></span></h2><p></p><p><img alt="2.jpg" src="http://img.gaosan.com/upload/201607/6360333028857863619207024.jpg" title="2.jpg"/></p><p>培养要求:掌握该专业坚实的基础理论和系统知识，具有从事科学研究工作或独立担负森林保护技术工作的能力；具有较宽的知识面和较强的适应性，能熟练地掌握一门外国语；达到各类高等学校、科学研究机构以及高层次的企业等所要求的森林保护专门人才的要求。</p><p>就业方向:森林保护专业的毕业生能在林业、农业、环境保护等相关行业的政府机构、企事业单位从事森林培育、森林资源保护、管理与利用、林业生态建设及管理等工作，也可在高校从事教学工作。森林保护专业的就业范围较窄，毕业生可就职于林业局、林业站、森林公园、自然保护区、环保等单位，从事森林资源调查与资产评估、森林及园林绿化植物的病虫害防治、护林防火、自然保护区和森林公园管理等工作。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

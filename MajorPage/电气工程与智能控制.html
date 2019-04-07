@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>电气工程与智能控制</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+电气工程与智能控制</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    电气工程与智能控制专业培养能够在工业企业运动控制、过程控制、供电技术、检测与自动化仪表、信息处理等领域从事系统分析、系统设计、系统运行维护、科技开发等方面工作的具有创新精神和良好的英语沟通能力的复合型工程技术人才。 </h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av21098762?from=search&seid=589688598242403184" class="">
+								
+								<div class="mui-media-body">
+									电气工程基础 上海交通大学
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av23544760?from=search&seid=589688598242403184" class="">
+								
+								<div class="mui-media-body">
+									西安交通大学   电气工程专业英语
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av35564342?from=search&seid=589688598242403184" class="">
+								
+								<div class="mui-media-body">
+									国家电网2019年招聘-《电气工程类》专业知识
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av15654428?from=search&seid=589688598242403184" class="">
+								
+								<div class="mui-media-body">
+									电气工程及其自动化专业导论
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av40459346?from=search&seid=589688598242403184" class="">
+								
+								<div class="mui-media-body">
+									《电气工程及其自动化专业导论》|爱课程icourses
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24867236?from=search&seid=17315241492088548211" class="">
+
+    								<div class="mui-media-body">
+    									师兄师姐对你说丨北京交通大学电气工程及其自动化专业
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24474985?from=search&seid=17315241492088548211" class="">
+
+    								<div class="mui-media-body">
+    									电气工程及其自动化专业介绍
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av37682047?from=search&seid=17315241492088548211" class="">
+
+    								<div class="mui-media-body">
+    									【职业百科】电气工程技术人员
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av30722880?from=search&seid=17315241492088548211" class="">
+
+    								<div class="mui-media-body">
+    									【十分钟速成课：工程学】第4集-电气工程
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av37532878?from=search&seid=17315241492088548211" class="">
+
+    								<div class="mui-media-body">
+    									郑州科技学院电气工程学院领导对2019届毕业生就业问题的看法
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data212778"><p>相信同学们对电气工程与智能控制这个专业的大学排名情况一定很感兴趣，小编整理了相关排名信息，赶快来看一下吧！</p><p><img alt="2018年电气工程与智能控制专业大学排名 最新院校排行榜" border="0" height="375" src="http://img.gaosan.com/upload/201805/6366318212960526906900292.jpg" style="width: 600px; height: 375px;" title="2018年电气工程与智能控制专业大学排名 最新院校排行榜" vspace="0" width="600"/></p><h2><a>1</a><span>电气工程与智能控制专业大学排行榜</span></h2><p>对于电气工程与智能控制专业大学排行榜中，位列前三位的分别是中北大学，苏州大学，西南交通大学。</p><table border="1"><tbody><tr class="firstRow"><td><center style="MARGIN: 0px">排名</center></td><td><center style="MARGIN: 0px">高校名称</center></td><td><center style="MARGIN: 0px">水平</center></td><td><center style="MARGIN: 0px">开此专业学校数</center></td></tr><tr><td>1</td><td style="word-break: break-all;">中北大学</td><td>5★</td><td>16</td></tr><tr><td>2</td><td style="word-break: break-all;">苏州大学</td><td>4★</td><td>16</td></tr><tr><td>3</td><td style="word-break: break-all;">西南交通大学</td><td>4★</td><td>16</td></tr><tr><td>4</td><td>西安理工大学</td><td>3★</td><td>16</td></tr><tr><td>5</td><td>黑龙江科技大学</td><td>3★</td><td>16</td></tr><tr><td>6</td><td>辽宁工程技术大学</td><td>3★</td><td>16</td></tr><tr><td>7</td><td>南京工程学院</td><td>3★</td><td>16</td></tr><tr><td>8</td><td>泉州师范学院</td><td>3★</td><td>16</td></tr></tbody></table><h2><a>1</a><span>电气工程与智能控制专业简介</span></h2><p>本专业培养能够在工业企业运动控制、过程控制、供电技术、检测与自动化仪表、信息处理等领域从事系统分析、系统设计、系统运行维护、科技开发等方面工作的具有创新精神和良好的英语沟通能力的复合型工程技术人才。</p><p>该专业学生主要学习电气工程与智能控制专业知识，掌握电气工程与智能控制相关的理论知识与技术，具备智能系统设计、系统运行、研制开发、试验分析与管理的能力。</p><h2><a>1</a><span>中北大学介绍</span></h2><p>中北大学(NorthUniversityofChina)位于山西太原，是山西省人民政府与中华人民共和国工业和信息化部共建的综合性教学研究型大学，是中西部高校基础能力建设工程入选高校、卓越工程师教育培养计划重点建设高校、中国航天核心院校，属国家二级保密单位，被誉为中国的"军工泰斗"和"人民兵工第一校"。</p><p>中北大学创办于1941年5月，前身是八路军总司令部在太行抗日根据地创办的兵工学校——太行工业学校，后历经华北兵工工业学校，太原机械制造工业学校；1958年，升格为太原机械学院；1993年，更名为华北工学院；2004年6月，更名为中北大学。</p><p>以上就是小编为各位同学整理的2018年电气工程与智能控制专业的大学排名相关信息，希望对大家有帮助！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

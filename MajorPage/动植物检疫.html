@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>动植物检疫</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+动植物检疫</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    本专业培养具备动植物检验检疫方面的基本理论知识和技能，能在国家各级检验检疫部门、动植物产品卫生安全与监督机构、农畜产品生产销售等企业从事动植物病虫害检验检疫及防治、农畜产品卫生安全检测、动植物保护等方面的技术、管理与推广的高级技术人才。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av10806109?from=search&seid=10918743586156363408" class="">
+								
+								<div class="mui-media-body">
+									【陆晨】《检疫站(Lazaretto)》，通关纪念！
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av24980020?from=search&seid=10918743586156363408" class="">
+								
+								<div class="mui-media-body">
+									[哗啦团子 检疫站通关视频]
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av25387178?from=search&seid=10918743586156363408" class="">
+								
+								<div class="mui-media-body">
+									[哗啦团子 检疫站通关视频]
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av40901910?from=search&seid=10918743586156363408" class="">
+								
+								<div class="mui-media-body">
+									【群星】检疫警报：玛丽卡琳－催情的外星植物。#04
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av13551533?from=search&seid=10918743586156363408" class="">
+								
+								<div class="mui-media-body">
+									【炸毛张】检疫站 Lazaretto 恐怖游戏 开荒 我看不懂剧情英文哒
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av31798053?from=search&seid=14026057592140420900" class="">
+
+    								<div class="mui-media-body">
+    									扬州大学军训教官欢送会（动检）制作人Inoo Satoshi和野生三金
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av32657856?from=search&seid=8025009720162705600" class="">
+
+    								<div class="mui-media-body">
+    									[x-man040925] 那当然了 虎东身上有蓝色的检疫图章？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av46637122?from=search&seid=8025009720162705600" class="">
+
+    								<div class="mui-media-body">
+    									009 我国农产品食品质量 安全控制的紧迫性 威海出入境检验检疫局   农产品质量安全的控制（六）高清原版全套 扣&amp;喂418768025
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av6429226?from=search&seid=8025009720162705600" class="">
+
+    								<div class="mui-media-body">
+    									Vlog 狗狗出国检疫需要经历的事！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av41277033?from=search&seid=8025009720162705600" class="">
+
+    								<div class="mui-media-body">
+    									恐怖游戏检疫站试玩
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data184713"><p>中国大学哪些本科的动植物检疫专业，是2018高考优秀考生报考的最佳选择呢？艾瑞深中国校友会网最新公布的2018本科专业排行榜中就有你想知道的答案，和小编一起来看看吧！</p><p><img alt="动植物检疫专业大学排名" border="0" height="370" src="http://img.gaosan.com/upload/peitu/600/0086.jpg" style="width: 600px; height: 370px;" title="动植物检疫专业大学排名" vspace="0" width="600"/></p><p><strong>在2018本科动植物检疫专业排行榜中，湖南农业大学雄居排行榜榜首，中国计量大学紧随其后，占据第二名。</strong>想知道全部的动植物检疫专业排名请看下表：</p><h2><a>1</a><span>公办本科大学动植物检疫专业排名</span></h2><table><colgroup><col width="43"/><col width="217"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>湖南农业大学</td><td>4星级</td><td>湖南</td><td>1</td></tr><tr><td>2</td><td>中国计量大学</td><td>3星级</td><td>浙江</td><td>1</td></tr><tr><td>3</td><td>云南农业大学</td><td>3星级</td><td>云南</td><td>1</td></tr><tr><td>3</td><td>沈阳农业大学</td><td>3星级</td><td>辽宁</td><td>1</td></tr><tr><td>3</td><td>四川农业大学</td><td>3星级</td><td>四川</td><td>1</td></tr><tr><td>3</td><td>山东农业大学</td><td>3星级</td><td>山东</td><td>1</td></tr><tr><td>3</td><td>河南农业大学</td><td>3星级</td><td>河南</td><td>1</td></tr><tr><td>3</td><td>华中农业大学</td><td>3星级</td><td>湖北</td><td>1</td></tr></tbody></table><h2><a>1</a><span>独立学院动植物检疫专业排名</span></h2><table><colgroup><col width="43"/><col width="217"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>安徽农业大学经济技术学院</td><td>3星级</td><td>安徽</td><td>1</td></tr></tbody></table><h2><a>1</a><span>动植物检疫专业介绍<br/></span></h2><p></p><p><img alt="动植物检疫专业" src="http://img.gaosan.com/upload/zhuanye/1/722.jpg"/></p><table><tbody><tr bgcolor="#e9f5fc"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>动物医学类</td><td>￥4510<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过3%的专业</span></td><td>长沙市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">11%在长沙市工作</span></td><td>女生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男46%-女54%</span></td></tr></tbody></table><p>培养目标：培养具备动植物检疫方面的基本理论知识和技能，能从事动植物病虫害检验检疫及防治、农畜产品卫生安全检测、动植物保护等方面的技术与设计、推广与开发、经营与管理、教学与科研的复合型、应用型高级专门人才。</p><p>主要课程：物化学、微生物学、植物病理学、昆虫学、植物检验检疫、动物卫生检验学、食品卫生检验技术、有害生物风险分析、动植物检验检疫法规。</p><p>就业方向：可从事国家各级检验检疫部门、动植物产品卫生与监督机构、大中专院校、生物科学高新企业、农畜产品生产销售等企业从事动植物病虫害检验检疫及防治、农畜产品卫生安全检测、动植物保护等方面的技术与设计、推广与开发、经营与管理、教学与科研工作。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

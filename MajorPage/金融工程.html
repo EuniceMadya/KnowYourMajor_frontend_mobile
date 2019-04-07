@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>金融工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+金融工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    包括创新型金融工具与金融手段的设计、开发与实施，以及对金融问题给予创造性的解决。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    金融工程的概念有狭义和广义两种。狭义的金融工程主要是指利用先进的数学及通讯工具，在各种现有基本金融产品的基础上，进行不同形式的组合分解，以设计出符合客户需要并具有特定P/L性的新的金融产品。而广义的金融工程则是指一切利用工程化手段来解决金融问题的技术开发，它不仅包括金融产品设计，还包括金融产品定价、交易策略设计、金融风险管理等各个方面。本文采用的是广义的金融工程概念。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av10132147?from=search&seid=3011651234456671691" class="">
+								
+								<div class="mui-media-body">
+									厦门大学 《金融工程》--郑振龙
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av39134772?from=search&seid=3011651234456671691" class="">
+								
+								<div class="mui-media-body">
+									金融工程【98集】(郑振龙：厦门大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av36068530?from=search&seid=3011651234456671691" class="">
+								
+								<div class="mui-media-body">
+									【中央财经大学】金融工程概论（更新中）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av38265703?from=search&seid=3011651234456671691" class="">
+								
+								<div class="mui-media-body">
+									金融工程导论【33集】(劳兰珺：复旦大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av17771624?from=search&seid=3011651234456671691" class="">
+								
+								<div class="mui-media-body">
+									【课程】金融工程+郑振龙+厦门大学（89集）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av39669530?from=search&seid=17056147131859244236" class="">
+
+    								<div class="mui-media-body">
+    									期末复习到头秃【金融工程到底是什么专业】
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av4814703?from=search&seid=17056147131859244236" class="">
+
+    								<div class="mui-media-body">
+    									武汉大学2012级金融工程专业最后一课 彭红枫老师讲话片段
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av11198495?from=search&seid=17056147131859244236" class="">
+
+    								<div class="mui-media-body">
+    									再见了金工班（湖南大学金融工程一班毕业MV）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24730021?from=search&seid=17056147131859244236" class="">
+
+    								<div class="mui-media-body">
+    									金融工程
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av18235218?from=search&seid=17056147131859244236" class="">
+
+    								<div class="mui-media-body">
+    									2018年北美金融工程硕士项目排行榜
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data141514"><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-12/8df1101b-4136-453c-bcdb-0572bcad5f3e.jpg" title="金融工程专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>金融学类</td><td>￥8945<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过93%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">18%在北京市工作</span></td><td style="word-break: break-all;">女生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男44%-女56%</span></td></tr></tbody></table><p>主要课程：金融工程专业学生主要学习经济学、金融学、金融工程和金融管理方面的基本理论和基础知识，接受理财、投融资、以及风险管理方法与技能的基本训练。</p><p>培养目标：具有设计、开发综合运用各种金融工具创造性解决金融实务问题的基本能力，开展金融风险管理、公司理财、投资战略策划以及金融产品定价研究，能在跨国公司和金融机构从事金融财务管理、金融分析和策划的高素质复合型现代金融人才。</p><p>就业方向：金融工程专业的人才大部分都是输送到各大金融机构、大型企业和政府部门，以满足这些企事业单位对金融产品设计开发、投资和风险管理的需求。其工作流程大致是，首先是广泛地搜集金融数据、信息，然后运用相关软件对这些数据进行分析，最后得出结论并制定出一套能规避金融风险且行之有效的方案。因为与金钱打交道，他们的薪水都不会很低，据说起薪都会在2000以上，当然也有区域之别，但是随着经验的增长，收入也会随之上涨。</p><h2><a>1</a><span>2018最新金融工程专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>南开大学</td><td>5★</td><td>125</td></tr><tr><td>2</td><td>中国人民大学</td><td>5★</td><td>125</td></tr><tr><td>3</td><td>西南财经大学</td><td>5★</td><td>125</td></tr><tr><td>4</td><td>中央财经大学</td><td>5★</td><td>125</td></tr><tr><td>5</td><td>武汉大学</td><td>5★</td><td>125</td></tr></tbody></table><h2><a>1</a><span>金融工程专业排名大学介绍</span></h2><p>南开大学是国家教育部直属重点综合性大学，是敬爱的周恩来总理的母校。南开大学由严修、张伯苓秉承教育救国理念创办，肇始于1904年，成立于1919年。南开大学占地448.97万平方米，其中八里台校区占地122.50万平方米，津南校区占地245.89万平方米，泰达学院占地6.72万平方米。</p><p><img alt="南开大学校门" src="http://img.gaosan.com/upload/webimg/1649.jpg" title="南开大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1919年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>中国人民大学（RenminUniversityofChina）是一所以人文社会科学为主的综合性研究型全国重点大学，直属于教育部，由教育部与北京市共建。学校的前身是1937年诞生于抗日战争烽火中的陕北公学，以及后来的华北联合大学和华北大学。著名教育家吴玉章、成仿吾、袁宝华、黄达、李文海、纪宝成、陈雨露先后担任校长。现任党委书记为靳诺教授，校长为刘伟教授。</p><p><img alt="中国人民大学校门" src="http://img.gaosan.com/upload/webimg/1633.jpg" title="中国人民大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1937年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>西南财经大学是教育部直属的国家“211工程”和“985工程”优势学科创新平台建设的全国重点大学，也是国家教育体制改革试点高校。学校坐落在成都平原，携光华、柳林两校区，辖地2300余亩，校园湖光柳影，芳草绿树，翩翩学者，蔚为大观，是著名的“园林式院校”。</p><p><img alt="西南财经大学校门" src="http://img.gaosan.com/upload/webimg/1719.jpg" title="西南财经大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1925年</td><td>公立</td><td>财经</td><td>教育部</td></tr></tbody></table><p>中央财经大学是教育部直属的国家“211工程”重点建设高校和国家“优势学科创新平台”项目首批试点高校。学校是新中国成立后中央人民政府创办的第一所新型高等财经院校，历经中央税务学校、中央财政学院、中央财经学院、中央财政金融学院等发展阶段，1996年更名为中央财经大学。</p><p><img alt="中央财经大学 学校大门" src="http://img.gaosan.com/upload/webimg/1718.jpg" title="中央财经大学 学校大门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1949年</td><td>公立</td><td>财经</td><td>教育部</td></tr></tbody></table><p>武汉大学，简称“武大”，位于湖北武汉，是直属于中华人民共和国教育部的副部级全国重点大学，国家首批“985工程”、“211工程”、“2011计划”重点建设高校，同时是“111计划”、“珠峰计划”、“海外高层次人才引进计划”、“卓越工程师教育培养计划”、“卓越法律人才教育培养计划”和“卓越医生教育培养计划”等重点建设的综合研究型大学，是与法国高校联系最紧密、合作最广泛的中国高校之一，是世界权威期刊《Science》列出的“中国最杰出的大学”之一。武汉大学办学源头可溯源于清朝末期1893年湖广总督张之洞奏请清政府创办的自强学堂；1913年改名国立武昌高等师范学校；1926年组建国立武昌中山大学；1928年定名国立武汉大学，是民国四大名校之一；1949年，更名为武汉大学。</p><p><img alt="武汉大学校门" src="http://img.gaosan.com/upload/webimg/1628.jpg" title="武汉大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1893年</td><td>公立</td><td>综合</td><td>中华人民共和国教育部</td></tr></tbody></table><p>　　以上2018年金融工程专业大学排名金融工程专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

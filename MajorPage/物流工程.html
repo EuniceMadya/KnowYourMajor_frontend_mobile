@@ -1,0 +1,174 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>物流工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+物流工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    物流工程（Logistics Engineering），是以物流系统为研究对象，研究物流系统的规划设计与资源优化配置、物流运作过程的计划与控制以及经营管理的工程领域。 现代物流作为一门新兴的综合性边缘科学，在发达国家已有较早、较全面的研究，并形成了一系列的理论和方法，在指导其物流产业的发展中发挥了重要作用。我国现代物流业尚处在起步发展阶段，与发达国家相比有较大差距。 物流工程是管理与技术的交叉学科，它与交通运输工程、管理科学与工程、工业工程、计算机技术、机械工程、环境工程、建筑与土木工程等领域密切相关。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av5775775?from=search&seid=2666135822789678777" class="">
+								
+								<div class="mui-media-body">
+									2016年天津大学管理科学与工程工商管理工业工程语言学物流工程考研复试参考书考研复试真题考研复试辅导
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av7408736?from=search&seid=2666135822789678777" class="">
+								
+								<div class="mui-media-body">
+									【票圈】【工程技术】【共5集】《物流与生活》北京交通大学公开课&amp;微博@票圈
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24130051?from=search&seid=6390186285687714542" class="">
+
+    								<div class="mui-media-body">
+    									【宣传片】厦门大学物流工程专业
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24428084?from=search&seid=6390186285687714542" class="">
+
+    								<div class="mui-media-body">
+    									学年回顾-上海大学17物流工程
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av24150368?from=search&seid=6390186285687714542" class="">
+
+    								<div class="mui-media-body">
+    									【厦门大学管理学院物流工程专业宣传动画】  湖龙Hibi养成记
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av5747237?from=search&seid=6390186285687714542" class="">
+
+    								<div class="mui-media-body">
+    									2016年天津大学物流工程专硕考研复试线考研复试流程考研复试真题考研复试辅导
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av25709181?from=search&seid=6390186285687714542" class="">
+
+    								<div class="mui-media-body">
+    									山东大学2014级物流工程毕业纪念视频 (゜-゜)つロ
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data141063"><p style="text-align: center"><img src="http://img.gaosan.com/upload/2016-04-09/53b73993-a861-481d-a0e6-7110703276ec.jpg" title="物流工程专业"/></p><table><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>物流管理与工程类</td><td>￥6575<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过49%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">12%在北京市工作</span></td><td>男生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男54%-女46%</span></td></tr></tbody></table><p>培养目标：培养具备物流学、运筹学、管理学、交通运输组织学、运输经济学、运输商务管理等基本理论和基本知识，能在各级物流管理部门、科研院所和企事业单位从事物流规划、管理、组织、指挥、决策、在物流企业及企业物流部门从事生产与经营管理工作的高级物流技术人才。</p><p>主要课程：管理学、运筹学、物流基础、物流信息系统、物流工程、物流机械技术、国际物流学、电子商务概论、物流仓储技术、运输会计学、专业英语（物流）等。</p><p>就业方向：物流工程专业毕业生可从事各类物流企业，工商企业的物流管理部门，各级物流行政管理部门，交通运输企事业单位，物流系统规划与设计部门，商业、流通业管理部门，物流设备研发、销售企业，科研院所、大专院校等。</p><h2><a>1</a><span>2018最新物流工程专业排名</span></h2><table><tbody><tr class="firstRow"><td>排序</td><td>学校名称</td><td>水平</td><td>开此专业学校数</td></tr><tr><td>1</td><td>北京科技大学</td><td>5★</td><td>95</td></tr><tr><td>2</td><td>西南交通大学</td><td>5★</td><td>95</td></tr><tr><td>3</td><td>华南理工大学</td><td>5★</td><td>95</td></tr><tr><td>4</td><td>武汉理工大学</td><td>5★</td><td>95</td></tr><tr><td>5</td><td>北京交通大学</td><td>5★</td><td>95</td></tr></tbody></table><h2><a>1</a><span>物流工程专业排名大学介绍</span></h2><p>北京科技大学是全国首批正式成立研究生院的高等学校之一。1997年5月，学校首批进入国家“211工程”建设高校行列。2006年，学校成为首批“985工程”优势学科创新平台建设项目试点高校。2014年，学校牵头的，以北京科技大学、东北大学为核心高校的“钢铁共性技术协同创新中心”成功入选国家“2011计划”。</p><p><img alt="北京科技大学校门" src="http://img.gaosan.com/upload/webimg/1661.jpg" title="北京科技大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1952年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><p>西南交通大学创建于1896年，跨越三个世纪，是国家首批“211工程”、“特色985工程”重点建设、首批进入国家“2011计划”并设有研究生院的教育部直属全国重点大学，坐落在国家历史文化名城、现代化国际大都市——成都，前身为山海关北洋铁路官学堂，是我国土木工程、交通工程、矿冶工程高等教育的发祥地。</p><p><img alt="西南交通大学校门" src="http://img.gaosan.com/upload/webimg/1685.jpg" title="西南交通大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1896年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><p>华南理工大学是直属教育部的全国重点大学，坐落在南方名城广州，占地面积294多万平方米。校园分为两个校区，五山校区位于广州市天河区石牌高校区。广东工业专科学校的前身是1918年成立的广东省立第一甲种工业学校，其历史可追溯至1910年清政府创办的广东工艺局。这些院校是早期中国南方培养高级工程技术人才的摇篮和民主科学思想的重要策源地。</p><p><img alt="华南理工大学校门" src="http://img.gaosan.com/upload/webimg/1636.jpg" title="华南理工大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1952年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><p>武汉理工大学是由原武汉工业大学、武汉交通科技大学、武汉汽车工业大学于2000年5月27日合并组建而成，是教育部直属的全国重点大学，是首批列入国家“211工程”重点建设的高校。学校现有三个校区，占地面积4000余亩，校舍总建筑面积逾167万平方米，四座现代化图书馆藏书400余万册。</p><p><img alt="武汉理工大学校门" src="http://img.gaosan.com/upload/webimg/1674.jpg" title="武汉理工大学校门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>2000年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><p>北京交通大学是教育部直属，教育部、中国铁路总公司、北京市人民政府共建的全国重点大学。我校牵头的“2011计划”“轨道交通安全协同创新中心”是国家首批14个认定的协同创新中心之一。学校连续3年入围“QS金砖五国大学排名”前100名，6个学科先后进入QS世界大学学科排名前400强。</p><p><img alt="北京交通大学 学校大门" src="http://img.gaosan.com/upload/webimg/1669.jpg" title="北京交通大学 学校大门"/></p><table align="center" width="580px"><tbody><tr bgcolor="#e9f5fc" class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1896年</td><td>公立</td><td>理工</td><td>教育部</td></tr></tbody></table><p>　　以上2018年物流工程专业大学排名物流工程专业排行榜由高三网收集整理，供大家阅读参考！</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

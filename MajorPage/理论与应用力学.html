@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>理论与应用力学</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+理论与应用力学</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    本专业主要培养掌握扎实的数学和力学基础知识，能够解决复杂建筑结构设计、施工中的力学分析、计算问题，能够从事建筑工程领域设计、施工、管理等方面工作并具有俄语交流能力的高级工程技术人才。</h5></br><h5>&nbsp;&nbsp;&nbsp;&nbsp;    本专业在国内目前大致分为两个主流方向：航空航天类大学纯力学方向以及土建大类复杂工程结构分析方向，可授予工学或理学学士学位。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av38527138?from=search&seid=17780020178736065464" class="">
+								
+								<div class="mui-media-body">
+									自动控制原理与应用（机械）【68集】(陈春俊：西南交通大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av18041255?from=search&seid=17780020178736065464" class="">
+								
+								<div class="mui-media-body">
+									现代数学在力学上的应用
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av42877580?from=search&seid=17780020178736065464" class="">
+								
+								<div class="mui-media-body">
+									理论力学（东北大学）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av13362611?from=search&seid=17780020178736065464" class="">
+								
+								<div class="mui-media-body">
+									计算流体力学的基础理论与应用:RANS模型 （哈尔滨工业大学：刘京教授）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av44174427?from=search&seid=17780020178736065464" class="">
+								
+								<div class="mui-media-body">
+									机械原理（北京交通大学）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av9770078?from=search&seid=15067801297310800947" class="">
+
+    								<div class="mui-media-body">
+    									同样称为“力学”，但大学学的内容与高中完全不一样
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av11180700?from=search&seid=15067801297310800947" class="">
+
+    								<div class="mui-media-body">
+    									【凳子舞/15力学】工学院2015年迎新晚会班级表演
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av32890255?from=search&seid=15067801297310800947" class="">
+
+    								<div class="mui-media-body">
+    									两弹烈士科学家——郭永怀
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av6176305?from=search&seid=15067801297310800947" class="">
+
+    								<div class="mui-media-body">
+    									【文史影音馆】爱因斯坦微传记.Albert.Einstein【双语字幕】【@Orange字幕组】
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av31204343?from=search&seid=863003988992276476" class="">
+
+    								<div class="mui-media-body">
+    									变分法及其应用一日特训班
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data217799"><p>全国开设理论与应用力学专业的大学有哪些，哪些学校理论与应用力学专业比较好，排名前三的大学分别是哪几所？下面是最好的理论与应用力学专业大学排名，仅供参考。<br/></p><p><img alt="理论与应用力学专业大学排名" border="0" height="375" src="http://img.gaosan.com/upload/201806/6366545808680356257769660.jpg" style="width: 600px; height: 375px;" title="理论与应用力学专业大学排名" vspace="0" width="600"/></p><h2><a>1</a><span>最好的理论与应用力学专业大学有哪些</span></h2><p>在最好的理论与应用力学专业大学排名中，排名较好的大学分别是北京大学、兰州大学、中国科学院大学。</p><table width="-332"><tbody><tr class="firstRow"><td style="word-break: break-all;">名次</td><td>学校名称</td><td style="word-break: break-all;">所在地区</td><td>地区排名</td></tr><tr><td>1</td><td style="word-break: break-all;">北京大学</td><td>北京</td><td>1</td></tr><tr><td>2</td><td style="word-break: break-all;">兰州大学</td><td>甘肃</td><td>1</td></tr><tr><td>3</td><td style="word-break: break-all;">中国科学院大学</td><td>北京</td><td>2</td></tr><tr><td>3</td><td>哈尔滨工业大学</td><td>黑龙江</td><td>1</td></tr><tr><td>3</td><td>中国科学技术大学</td><td>安徽</td><td>1</td></tr><tr><td>3</td><td>北京理工大学</td><td>北京</td><td>2</td></tr><tr><td>7</td><td>西北工业大学</td><td>陕西</td><td>1</td></tr><tr><td>7</td><td>复旦大学</td><td>上海</td><td>1</td></tr></tbody></table><p>以上理论与应用力学专业最好的大学排名只是参考某一方面数据对该专业进行排序，仅供考生报考参考。<br/></p><h2><a>1</a><span>理论与应用力学专业培养要求</span></h2><p>本专业培养掌握力学基本理论、基本知识和技能,具有良好的数理基础和科学素质，受到相关工程技术应用训练、能够运用理论分析、实验研究和数值模拟手段解决工程实际问题的高级专门人才。</p><p>要求学生通过系统学习和基本工程训练，掌握力学专业及结构工程、材料工程、机械工程等相关学科的基本知识和某一专业方向的专门知识，具有系统、扎实的数学、力学基础，较强的理论分析、计算机应用与实验能力；</p><p>具有广泛的工程知识，能够在实际工作中独立解决复杂的工程结构分析问题；具有创新精神和创造能力；受到科学研究和工程技术应用的初步训练，具有良好的科学素养。</p><p>以上是理论与应用力学专业最好的大学有哪些的全部内容，仅供参考，更多关于大学专业排名情况请持续关注高三网。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

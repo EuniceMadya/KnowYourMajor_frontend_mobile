@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>公共事业管理</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+公共事业管理</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    公共事业管理专业旨在培养具备现代管理理论、技术与方法等方面的知识以及应用这些知识的能力，能在文教、体育、卫生、环保、社会保险、艺术等公共事业单位的行政管理部门从事管理工作的高级专门人才。其中艺术管理包括影视策划、制片管理、文化遗产管理等多个专业方向，是近年来兴起并比较热门的专业。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av35954695?from=search&seid=6423744920898028542" class="">
+								
+								<div class="mui-media-body">
+									【公开课】房地产管理（完）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av12415211?from=search&seid=6423744920898028542" class="">
+								
+								<div class="mui-media-body">
+									华为认证HCNA-IoT物联网工程师教程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av32659213?from=search&seid=6423744920898028542" class="">
+								
+								<div class="mui-media-body">
+									【综合类】2019年2018年下半年重庆市事业单位考试视频课程课件教程管理基础知识综合基础知识公共基础知识垫江县万州涪陵渝中大渡口江北沙坪坝北培彭水奉节云阳忠县
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av36509285?from=search&seid=6423744920898028542" class="">
+								
+								<div class="mui-media-body">
+									2019李梦娇事业单位公共基础速记口诀公文管理常识部分
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av34745635?from=search&seid=6423744920898028542" class="">
+								
+								<div class="mui-media-body">
+									重庆事业单位笔试课程-公共基础知识-管理专业知识
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av35470357?from=search&seid=8322012099212749610" class="">
+
+    								<div class="mui-media-body">
+    									秒懂专业：热门专业-公共事业管理专业
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av23231095?from=search&seid=8322012099212749610" class="">
+
+    								<div class="mui-media-body">
+    									#毕业季#长沙大学公共事业管理1班MV
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av10089882?from=search&seid=8322012099212749610" class="">
+
+    								<div class="mui-media-body">
+    									5公共事业管理
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av23437236?from=search&seid=8322012099212749610" class="">
+
+    								<div class="mui-media-body">
+    									熟悉的地方和你——四川大学2014级公共事业管理专业毕业纪念视频
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av23310474?from=search&seid=8322012099212749610" class="">
+
+    								<div class="mui-media-body">
+    									#毕业季#长沙大学公共事业管理2班毕业MV
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data184480"><p>中国大学哪些本科的公共事业管理专业是2018年高考优秀考生选择报考的最佳专业？艾瑞深中国校友会网最新公布的2018本科专业排行榜中就有你想知道的答案，和小编一起来看看吧！</p><p><img alt="公共事业管理专业大学排名" border="0" height="350" src="http://img.gaosan.com/upload/201710/6364504246929725078543622.jpg" style="width: 600px; height: 350px;" title="公共事业管理专业大学排名" vspace="0" width="600"/></p><p><strong>在2018本科公共事业管理专业排行榜中，复旦大学雄居排行榜榜首，中国人民大学、北京大学紧随其后，占据第二、第三名。</strong>想知道全部的公共事业管理专业排名请看下表：</p><h2><a>1</a><span>公办本科大学公共事业管理专业排名</span></h2><table><colgroup><col width="72"/><col width="181"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>复旦大学</td><td>6星级</td><td>上海</td><td>1</td></tr><tr><td>1</td><td>中国人民大学</td><td>6星级</td><td>北京</td><td>1</td></tr><tr><td>1</td><td>北京大学</td><td>6星级</td><td>北京</td><td>1</td></tr><tr><td>4</td><td>中山大学</td><td>5星级</td><td>广东</td><td>1</td></tr><tr><td>4</td><td>武汉大学</td><td>5星级</td><td>湖北</td><td>1</td></tr><tr><td>6</td><td>上海交通大学</td><td>5星级</td><td>上海</td><td>2</td></tr><tr><td>6</td><td>浙江大学</td><td>5星级</td><td>浙江</td><td>1</td></tr><tr><td>6</td><td>吉林大学</td><td>5星级</td><td>吉林</td><td>1</td></tr><tr><td>6</td><td>东北大学</td><td>5星级</td><td>辽宁</td><td>1</td></tr><tr><td>6</td><td>华中科技大学</td><td>5星级</td><td>湖北</td><td>2</td></tr><tr><td>6</td><td>武汉体育学院</td><td>5星级</td><td>湖北</td><td>2</td></tr><tr><td>12</td><td>西南大学</td><td>4星级</td><td>重庆</td><td>1</td></tr><tr><td>12</td><td>重庆大学</td><td>4星级</td><td>重庆</td><td>1</td></tr><tr><td>12</td><td>山东大学</td><td>4星级</td><td>山东</td><td>1</td></tr><tr><td>12</td><td>四川大学</td><td>4星级</td><td>四川</td><td>1</td></tr><tr><td>12</td><td>大连理工大学</td><td>4星级</td><td>辽宁</td><td>2</td></tr><tr><td>12</td><td>兰州大学</td><td>4星级</td><td>甘肃</td><td>1</td></tr><tr><td>12</td><td>北京师范大学</td><td>4星级</td><td>北京</td><td>3</td></tr><tr><td>19</td><td>山东艺术学院</td><td>4星级</td><td>山东</td><td>2</td></tr><tr><td>19</td><td>云南大学</td><td>4星级</td><td>云南</td><td>1</td></tr><tr><td>19</td><td>江西师范大学</td><td>4星级</td><td>江西</td><td>1</td></tr><tr><td>19</td><td>北京中医药大学</td><td>4星级</td><td>北京</td><td>4</td></tr><tr><td>19</td><td>中国政法大学</td><td>4星级</td><td>北京</td><td>4</td></tr><tr><td>19</td><td>白城师范学院</td><td>4星级</td><td>吉林</td><td>2</td></tr><tr><td>19</td><td>潍坊医学院</td><td>4星级</td><td>山东</td><td>2</td></tr><tr><td>26</td><td>东北财经大学</td><td>3星级</td><td>辽宁</td><td>3</td></tr><tr><td>26</td><td>国际关系学院</td><td>3星级</td><td>北京</td><td>6</td></tr><tr><td>26</td><td>南京理工大学</td><td>3星级</td><td>江苏</td><td>1</td></tr><tr><td>26</td><td>华东师范大学</td><td>3星级</td><td>上海</td><td>3</td></tr><tr><td>26</td><td>上海音乐学院</td><td>3星级</td><td>上海</td><td>3</td></tr><tr><td>26</td><td>西南交通大学</td><td>3星级</td><td>四川</td><td>2</td></tr><tr><td>26</td><td>淮北师范大学</td><td>3星级</td><td>安徽</td><td>1</td></tr><tr><td>26</td><td>长安大学</td><td>3星级</td><td>陕西</td><td>1</td></tr><tr><td>26</td><td>中央戏剧学院</td><td>3星级</td><td>北京</td><td>6</td></tr><tr><td>26</td><td>北京理工大学</td><td>3星级</td><td>北京</td><td>6</td></tr><tr><td>26</td><td>华中师范大学</td><td>3星级</td><td>湖北</td><td>4</td></tr><tr><td>26</td><td>中国传媒大学</td><td>3星级</td><td>北京</td><td>6</td></tr><tr><td>26</td><td>南京师范大学</td><td>3星级</td><td>江苏</td><td>1</td></tr><tr><td>26</td><td>西北大学</td><td>3星级</td><td>陕西</td><td>1</td></tr><tr><td>26</td><td>东北师范大学</td><td>3星级</td><td>吉林</td><td>3</td></tr><tr><td>26</td><td>西北农林科技大学</td><td>3星级</td><td>陕西</td><td>1</td></tr><tr><td>26</td><td>安徽医科大学</td><td>3星级</td><td>安徽</td><td>1</td></tr><tr><td>26</td><td>临沂大学</td><td>3星级</td><td>山东</td><td>4</td></tr><tr><td>26</td><td>北京电影学院</td><td>3星级</td><td>北京</td><td>6</td></tr><tr><td>26</td><td>北京体育大学</td><td>3星级</td><td>北京</td><td>6</td></tr><tr><td>26</td><td>上海体育学院</td><td>3星级</td><td>上海</td><td>3</td></tr><tr><td>47</td><td>大连医科大学</td><td>3星级</td><td>辽宁</td><td>4</td></tr><tr><td>47</td><td>广西大学</td><td>3星级</td><td>广西</td><td>1</td></tr><tr><td>47</td><td>内蒙古大学</td><td>3星级</td><td>内蒙古</td><td>1</td></tr><tr><td>47</td><td>广州医科大学</td><td>3星级</td><td>广东</td><td>2</td></tr><tr><td>47</td><td>中南财经政法大学</td><td>3星级</td><td>湖北</td><td>5</td></tr><tr><td>47</td><td>青岛大学</td><td>3星级</td><td>山东</td><td>5</td></tr><tr><td>47</td><td>黑龙江大学</td><td>3星级</td><td>黑龙江</td><td>1</td></tr><tr><td>47</td><td>兰州财经大学</td><td>3星级</td><td>甘肃</td><td>2</td></tr><tr><td>47</td><td>东北林业大学</td><td>3星级</td><td>黑龙江</td><td>1</td></tr><tr><td>47</td><td>福建农林大学</td><td>3星级</td><td>福建</td><td>1</td></tr><tr><td>47</td><td>山东师范大学</td><td>3星级</td><td>山东</td><td>5</td></tr><tr><td>47</td><td>湘潭大学</td><td>3星级</td><td>湖南</td><td>1</td></tr><tr><td>47</td><td>上海戏剧学院</td><td>3星级</td><td>上海</td><td>6</td></tr><tr><td>47</td><td>云南民族大学</td><td>3星级</td><td>云南</td><td>2</td></tr><tr><td>47</td><td>哈尔滨医科大学</td><td>3星级</td><td>黑龙江</td><td>1</td></tr><tr><td>47</td><td>华北电力大学</td><td>3星级</td><td>北京</td><td>12</td></tr><tr><td>47</td><td>西南财经大学</td><td>3星级</td><td>四川</td><td>3</td></tr><tr><td>47</td><td>辽宁大学</td><td>3星级</td><td>辽宁</td><td>4</td></tr><tr><td>47</td><td>湖南师范大学</td><td>3星级</td><td>湖南</td><td>1</td></tr><tr><td>47</td><td>华南师范大学</td><td>3星级</td><td>广东</td><td>2</td></tr><tr><td>47</td><td>河南大学</td><td>3星级</td><td>河南</td><td>1</td></tr><tr><td>47</td><td>成都体育学院</td><td>3星级</td><td>四川</td><td>3</td></tr><tr><td>47</td><td>中国农业大学</td><td>3星级</td><td>北京</td><td>12</td></tr><tr><td>47</td><td>西北师范大学</td><td>3星级</td><td>甘肃</td><td>2</td></tr><tr><td>47</td><td>上海师范大学</td><td>3星级</td><td>上海</td><td>6</td></tr><tr><td>47</td><td>浙江工商大学</td><td>3星级</td><td>浙江</td><td>2</td></tr><tr><td>47</td><td>上海财经大学</td><td>3星级</td><td>上海</td><td>6</td></tr><tr><td>47</td><td>中央财经大学</td><td>3星级</td><td>北京</td><td>12</td></tr><tr><td>47</td><td>上海理工大学</td><td>3星级</td><td>上海</td><td>6</td></tr><tr><td>47</td><td>北京邮电大学</td><td>3星级</td><td>北京</td><td>12</td></tr><tr><td>47</td><td>大连海事大学</td><td>3星级</td><td>辽宁</td><td>4</td></tr><tr><td>47</td><td>山东体育学院</td><td>3星级</td><td>山东</td><td>5</td></tr><tr><td>47</td><td>福州大学</td><td>3星级</td><td>福建</td><td>1</td></tr><tr><td>47</td><td>首都师范大学</td><td>3星级</td><td>北京</td><td>12</td></tr><tr><td>47</td><td>北京舞蹈学院</td><td>3星级</td><td>北京</td><td>12</td></tr><tr><td>47</td><td>南京邮电大学</td><td>3星级</td><td>江苏</td><td>3</td></tr><tr><td>47</td><td>西南政法大学</td><td>3星级</td><td>重庆</td><td>3</td></tr><tr><td>47</td><td>中央民族大学</td><td>3星级</td><td>北京</td><td>12</td></tr><tr><td>47</td><td>河南师范大学</td><td>3星级</td><td>河南</td><td>1</td></tr><tr><td>47</td><td>河南中医药大学</td><td>3星级</td><td>河南</td><td>1</td></tr><tr><td>47</td><td>江西中医药大学</td><td>3星级</td><td>江西</td><td>2</td></tr><tr><td>47</td><td>南京医科大学</td><td>3星级</td><td>江苏</td><td>3</td></tr><tr><td>47</td><td>山西医科大学</td><td>3星级</td><td>山西</td><td>1</td></tr><tr><td>47</td><td>遵义医学院</td><td>3星级</td><td>贵州</td><td>1</td></tr><tr><td>47</td><td>华南农业大学</td><td>3星级</td><td>广东</td><td>2</td></tr><tr><td>47</td><td>上饶师范学院</td><td>3星级</td><td>江西</td><td>2</td></tr><tr><td>47</td><td>杭州师范大学</td><td>3星级</td><td>浙江</td><td>2</td></tr><tr><td>47</td><td>陕西师范大学</td><td>3星级</td><td>陕西</td><td>4</td></tr><tr><td>47</td><td>浙江中医药大学</td><td>3星级</td><td>浙江</td><td>2</td></tr><tr><td>47</td><td>南京中医药大学</td><td>3星级</td><td>江苏</td><td>3</td></tr><tr><td>47</td><td>天津职业技术师范大学</td><td>3星级</td><td>天津</td><td>1</td></tr><tr><td>47</td><td>防灾科技学院</td><td>3星级</td><td>河北</td><td>1</td></tr><tr><td>47</td><td>曲阜师范大学</td><td>3星级</td><td>山东</td><td>5</td></tr><tr><td>47</td><td>长沙学院</td><td>3星级</td><td>湖南</td><td>1</td></tr><tr><td>47</td><td>长春中医药大学</td><td>3星级</td><td>吉林</td><td>4</td></tr><tr><td>47</td><td>赣南医学院</td><td>3星级</td><td>江西</td><td>2</td></tr><tr><td>47</td><td>宁波大学</td><td>3星级</td><td>浙江</td><td>2</td></tr><tr><td>47</td><td>天津医科大学</td><td>3星级</td><td>天津</td><td>1</td></tr><tr><td>47</td><td>对外经济贸易大学</td><td>3星级</td><td>北京</td><td>12</td></tr><tr><td>47</td><td>暨南大学</td><td>3星级</td><td>广东</td><td>2</td></tr><tr><td>47</td><td>安徽师范大学</td><td>3星级</td><td>安徽</td><td>3</td></tr><tr><td>47</td><td>河北大学</td><td>3星级</td><td>河北</td><td>1</td></tr><tr><td>47</td><td>福建师范大学</td><td>3星级</td><td>福建</td><td>1</td></tr><tr><td>47</td><td>首都体育学院</td><td>3星级</td><td>北京</td><td>12</td></tr><tr><td>47</td><td>内蒙古师范大学</td><td>3星级</td><td>内蒙古</td><td>1</td></tr><tr><td>47</td><td>内蒙古医科大学</td><td>3星级</td><td>内蒙古</td><td>1</td></tr><tr><td>47</td><td>锦州医科大学</td><td>3星级</td><td>辽宁</td><td>4</td></tr></tbody></table><h2><a>1</a><span>民办大学公共事业管理专业排名</span></h2><table><colgroup><col width="72"/><col width="181"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>北京城市学院</td><td>6星级</td><td>北京</td><td>1</td></tr><tr><td>2</td><td>文华学院</td><td>5星级</td><td>湖北</td><td>1</td></tr><tr><td>2</td><td>武昌理工学院</td><td>5星级</td><td>湖北</td><td>1</td></tr><tr><td>4</td><td>辽宁理工学院</td><td>3星级</td><td>辽宁</td><td>1</td></tr><tr><td>4</td><td>重庆人文科技学院</td><td>3星级</td><td>重庆</td><td>1</td></tr></tbody></table><h2><a>1</a><span>独立学院公共事业管理专业排名</span></h2><table><colgroup><col width="72"/><col width="181"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>北京师范大学珠海分校</td><td>5星级</td><td>广东</td><td>1</td></tr><tr><td>1</td><td>云南师范大学商学院</td><td>5星级</td><td>云南</td><td>1</td></tr><tr><td>1</td><td>燕山大学里仁学院</td><td>5星级</td><td>河北</td><td>1</td></tr><tr><td>4</td><td>南开大学滨海学院</td><td>4星级</td><td>天津</td><td>1</td></tr><tr><td>4</td><td>中国传媒大学南广学院</td><td>4星级</td><td>江苏</td><td>1</td></tr><tr><td>4</td><td>西安交通大学城市学院</td><td>4星级</td><td>陕西</td><td>1</td></tr><tr><td>4</td><td>东南大学成贤学院</td><td>4星级</td><td>江苏</td><td>1</td></tr><tr><td>4</td><td>山西农业大学信息学院</td><td>4星级</td><td>山西</td><td>1</td></tr><tr><td>4</td><td>北京工商大学嘉华学院</td><td>4星级</td><td>北京</td><td>1</td></tr><tr><td>4</td><td>河北工业大学城市学院</td><td>4星级</td><td>河北</td><td>2</td></tr><tr><td>11</td><td>东北师范大学人文学院</td><td>3星级</td><td>吉林</td><td>1</td></tr><tr><td>11</td><td>安徽医科大学临床医学院</td><td>3星级</td><td>安徽</td><td>1</td></tr><tr><td>11</td><td>温州医科大学仁济学院</td><td>3星级</td><td>浙江</td><td>1</td></tr><tr><td>14</td><td>北京理工大学珠海学院</td><td>3星级</td><td>广东</td><td>2</td></tr><tr><td>14</td><td>河北经贸大学经济管理学院</td><td>3星级</td><td>河北</td><td>3</td></tr><tr><td>14</td><td>云南师范大学文理学院</td><td>3星级</td><td>云南</td><td>2</td></tr><tr><td>14</td><td>广东财经大学华商学院</td><td>3星级</td><td>广东</td><td>2</td></tr><tr><td>14</td><td>湖南商学院北津学院</td><td>3星级</td><td>湖南</td><td>1</td></tr><tr><td>14</td><td>南京师范大学泰州学院</td><td>3星级</td><td>江苏</td><td>3</td></tr><tr><td>14</td><td>北京邮电大学世纪学院</td><td>3星级</td><td>北京</td><td>2</td></tr><tr><td>14</td><td>大连理工大学城市学院</td><td>3星级</td><td>辽宁</td><td>1</td></tr><tr><td>14</td><td>南京理工大学紫金学院</td><td>3星级</td><td>江苏</td><td>3</td></tr><tr><td>14</td><td>北京中医药大学东方学院</td><td>3星级</td><td>河北</td><td>3</td></tr><tr><td>14</td><td>河北农业大学现代科技学院</td><td>3星级</td><td>河北</td><td>3</td></tr><tr><td>14</td><td>云南大学滇池学院</td><td>3星级</td><td>云南</td><td>2</td></tr><tr><td>14</td><td>西北工业大学明德学院</td><td>3星级</td><td>陕西</td><td>2</td></tr><tr><td>14</td><td>浙江工业大学之江学院</td><td>3星级</td><td>浙江</td><td>2</td></tr><tr><td>14</td><td>西北师范大学知行学院</td><td>3星级</td><td>甘肃</td><td>1</td></tr></tbody></table><h2><a>1</a><span>中外合作大学公共事业管理专业排名</span></h2><table><colgroup><col width="72"/><col width="181"/><col width="75"/><col width="72"/><col width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>专业星级</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td>西交利物浦大学</td><td>4星级</td><td>江苏</td><td>1</td></tr></tbody></table><h2><a>1</a><span>公共事业管理专业介绍<br/></span></h2><p></p><p><img alt="公共事业管理专业 " src="http://img.gaosan.com/upload/zhuanye/1/798.jpg"/></p><table><tbody><tr bgcolor="#e9f5fc"><td>专业类别</td><td>毕业五年平均薪资</td><td>工作地点</td><td>男女比例</td></tr><tr><td>公共管理类</td><td>￥5765<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">薪酬超过24%的专业</span></td><td>北京市<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">11%在北京市工作</span></td><td>女生较多<br/><span style="font-size: 13px; color: rgb(127, 127, 127);">男41%-女59%</span></td></tr></tbody></table><p>培养目标：本专业培养具备现代管理理论、技术与方法等方面的知识以及应用这些知识的能力，能在文教、体育、卫生、环保、社会保险等公共事业单位行政管理部门从事管理工作的高级专门人才。</p><p>主要课程：管理学原理、管理心理学、人力资源开发与管理、管理经济学、公共关系、公共财务、管理定量分析、应用统计、管理信息系统、管理文秘。</p><p>就业方向：除了政府之外的许多公共组织，科，教，文，卫，体~~~等等。但是政府部门也行，现在都是看能力，专业不怎么重要，进政府部门秘书证还是要的，或者进学校，面较广。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

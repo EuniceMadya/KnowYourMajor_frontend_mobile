@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>网络与新媒体</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+网络与新媒体</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    网络与新媒体专业代码是050306T，修学年限是四年。</h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av24930003?from=search&seid=17863689356616420113" class="">
+								
+								<div class="mui-media-body">
+									湖南师范大学新闻与传播学院2015级网络与新媒体专业展映
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av34765610?from=search&seid=17863689356616420113" class="">
+								
+								<div class="mui-media-body">
+									【两小时全程实录】武昌理工学院网络电视台与新媒体中心18级萌新们的第一场秀
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av41210922?from=search&seid=17863689356616420113" class="">
+								
+								<div class="mui-media-body">
+									传播学研究方法：复杂网络在传播中的应用【7集】(祝建华：香港城市大学)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av25715227?from=search&seid=17863689356616420113" class="">
+								
+								<div class="mui-media-body">
+									【香港城市大学】传播学研究方法-如何在SSCI发表论文
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av35247152?from=search&seid=17863689356616420113" class="">
+								
+								<div class="mui-media-body">
+									【哈佛大学公开课】新媒体时代的保密与新闻业
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av23983998?from=search&seid=10089955453996559725" class="">
+
+    								<div class="mui-media-body">
+    									北京信息科技大学网络与新媒体专业了解一下？
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av28612988?from=search&seid=10089955453996559725" class="">
+
+    								<div class="mui-media-body">
+    									2018级CUC网络与新媒体辅修作品混剪
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av23684333?from=search&seid=10089955453996559725" class="">
+
+    								<div class="mui-media-body">
+    									【校园自制微电影】+《亲爱的陌生人》+安徽理工大学人文院网络与新媒体出品（学生自制短片）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av25313921?from=search&seid=10089955453996559725" class="">
+
+    								<div class="mui-media-body">
+    									【毕业季】中传2014级网络与新媒体（媒体创意方向）班鉴——拯救阿方（上）
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av40068958?from=search&seid=10089955453996559725" class="">
+
+    								<div class="mui-media-body">
+    									两位小姐姐官宣网络与新媒体专业，沙雕段子演绎快乐脑洞
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data112233"><p>截至目前，开设网络与新媒体专业的大学共计110所，在这些高校中，网络与新媒体专业最好的大学有：</p><h2><a>1</a><span>中国传媒大学</span></h2><p>中国传媒大学是教育部直属的国家“211工程”重点建设大学，已正式进入国家985“优势学科创新平台”项目重点建设高校行列，前身是创建于1954年的中央广播事业局技术人员训练班。2004年8月，北京广播学院更名为中国传媒大学。学校位于中国北京城东古运河畔，校园占地面积46.37万平方米，总建筑面积49.96万平方米。</p><p><img alt="中国传媒大学校门" src="http://img.gaosan.com/upload/webimg/2404.jpg" title="中国传媒大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1954年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>辽宁传媒学院</span></h2><p>辽宁传媒学院始建于1991年，其前身为辽宁美术职业学院，2014年经教育部批准，更名为辽宁传媒学院。秉承“志存高远，德能日进”的校训，学院多年发展取得了令人瞩目的成就，目前成为东北地区唯一一所独立设置、专门培养传媒类人才的高等本科院校。学院毕业生就业率连续多年超过95%，成为高校人才培养与就业结合的典范。</p><p><img alt="辽宁传媒学院校门" src="http://img.gaosan.com/upload/webimg/3136.jpg" title="辽宁传媒学院校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1991年</td><td>私立</td><td>艺术</td><td>辽宁省教育厅</td></tr></tbody></table><h2><a>1</a><span>西北大学</span></h2><p>西北大学肇始于1902年的陕西大学堂和京师大学堂速成科仕学馆。1978年被确定为全国重点大学。现为国家“211工程”建设院校、教育部与陕西省共建高校。西北大学肩负建设西北之重任”的办学理念，汇聚了众多名师大家，产生了一批高水平学术成果，培养了大批才任天下的杰出人才，享有良好的学术声誉和社会声望，被誉为“中华石油英才之母”“经济学家的摇篮”“作家摇篮”。</p><p><img alt="西北大学校门" src="http://img.gaosan.com/upload/webimg/1659.jpg" title="西北大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1902年</td><td>公立</td><td>综合</td><td>陕西省人民政府</td></tr></tbody></table><h2><a>1</a><span>四川师范大学</span></h2><p>四川师范大学是省属重点大学，是四川省举办师范类本科专业最早、师范类院校中办学历史最为悠久的大学。学校位于成都市，现有狮子山、成龙、广汉科教园、东校区四个校区，校园面积3300余亩。现有全日制本专科学生38000余人，博士与硕士研究生4000余人。现有各类教学、科研人员3000余人，其中，具有高级专业技术职务的教师约1100人，具有博士和硕士学位的教师1800余人。</p><p><img alt="四川师范大学校门" src="http://img.gaosan.com/upload/webimg/1801.jpg" title="四川师范大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1946年</td><td>公立</td><td>综合</td><td>四川省人民政府</td></tr></tbody></table><h2><a>1</a><span>暨南大学</span></h2><p>暨南大学是中国第一所由政府创办的华侨学府，是国务院侨办、教育部、广东省共建的“211工程”重点综合性大学，直属国务院侨办领导。现任校长为胡军教授，校党委书记为林如鹏教授。“暨南”二字出自《尚书·禹贡》：“东渐于海，西被于流沙，朔南暨，声教讫于四海。”意即面向南洋，将中华文化远播到五洲四海。</p><p><img alt="暨南大学校门" src="http://img.gaosan.com/upload/webimg/1686.jpg" title="暨南大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1906年</td><td>公立</td><td>综合</td><td>国务院侨务办公室</td></tr></tbody></table><h2><a>1</a><span>河南工业大学</span></h2><p>河南工业大学位于河南省会郑州市，是河南省重点建设高校。建校以来，学校秉承“明德、求是、拓新、笃行”的校训，大力弘扬“崇尚科学、勇于探索、报国兴学、自强不息”的工大精神，坚持“育人为本、质量立校、特色发展”，在人才培养、科学研究、社会服务和文化传承创新等方面作出了重要贡献。</p><p></p><p><img alt="河南工业大学校门" src="http://img.gaosan.com/upload/webimg/1828.jpg" title="河南工业大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1956年</td><td>公立</td><td>工科</td><td>河南省教育厅</td></tr></tbody></table><h2><a>1</a><span>上海外国语大学</span></h2><p>上海外国语大学，简称“上外”、“SISU”，是教育部直属并与上海市共建、进入国家“211工程”建设的全国重点大学，秉承“格高志远、学贯中外”的校训精神，筚路蓝缕，奋发有为，现已发展成一所培养高端国际型外语人才的多科性、国际化、高水平特色大学，蜚声海内外。</p><p><img alt="上海外国语大学校门" src="http://img.gaosan.com/upload/webimg/1772.jpg" title="上海外国语大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1949年</td><td>公立</td><td>语言</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>陕西师范大学</span></h2><p>陕西师范大学是教育部直属、国家“211工程”重点建设大学，国家教师教育“985”优势学科创新平台建设高校，是国家培养高等院校、中等学校师资和教育管理干部以及其他高级专门人才的重要基地，被誉为西北地区“教师的摇篮”。学校前身是1944年成立的陕西省立师范专科学校，1954年更名为西安师范学院,1960年与陕西师范学院合并，定名为陕西师范大学，1978年划归教育部直属。</p><p><img alt="陕西师范大学 体育馆" src="http://img.gaosan.com/upload/webimg/1695.jpg" title="陕西师范大学 体育馆"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1944年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>中山大学</span></h2><p>中山大学由孙中山先生创办，有着一百多年办学传统，是中国南方科学研究、文化学术与人才培养的重镇。作为中国教育部直属高校，通过部省共建，中山大学已经成为一所国内一流、国际知名的现代综合性大学。现由广州校区、珠海校区、深圳校区三个校区、五个校园及八家附属医院组成。中山大学正在向世界一流大学迈进，努力成为全球学术重镇。</p><p><img alt="中山大学校门" src="http://img.gaosan.com/upload/webimg/1639.jpg" title="中山大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1924年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>合肥师范学院</span></h2><p>合肥师范学院坐落在全国四大科教基地城市之一的安徽省省会合肥市。学校现有锦绣、三孝口两个校区，校舍面积32.5万平方米，征地800亩的滨湖校区即将开工建设。学校教学仪器设备总值1.43亿元，纸质图书104万册，其中古籍藏书居省内前列。现有专任教师744人，其中正高47人、副高171人，二级教授4人，博士、硕士666人；百千万人才工程国家级人选1人。</p><p><img alt="合肥师范学院校门" src="http://img.gaosan.com/upload/webimg/2162.jpg" title="合肥师范学院校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1955年</td><td>公立</td><td>综合</td><td>安徽省教育厅</td></tr></tbody></table><h2><a>1</a><span>南京财经大学</span></h2><p>南京财经大学是一所以经济管理类学科为主，经济学、管理学、法学、工学、理学、文学、艺术学等多学科支撑配套、协调发展的江苏省属重点建设大学。2011年，江苏省人民政府与国家粮食局签约共建南京财经大学。历经多年改革发展，南京财经大学的知名度迅速扩大，教育质量不断提高，综合实力明显增强，显现出发展的强劲势头和改革的崭新气象。</p><p><img alt="南京财经大学 学校大门" src="http://img.gaosan.com/upload/webimg/1936.jpg" title="南京财经大学 学校大门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1956年</td><td>公立</td><td>财经</td><td>江苏省人民政府</td></tr></tbody></table><h2><a>1</a><span>重庆第二师范学院</span></h2><p>重庆第二师范学院是一所公办普通本科学校。学校现有南山、学府大道两个校区，现设有教师教育学院（教师教学发展中心）、学前教育学院（重庆学前教育学院）、继续教育学院和数学与信息工程系、旅游与服务管理系等10个二级教学单位；现有本科专业19个，涉及教育学、文学、理学、工学、经济学、管理学、艺术学等7个学科门类。</p><p><img alt="重庆第二师范学院校门" src="http://img.gaosan.com/upload/webimg/2240.jpg" title="重庆第二师范学院校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1954年</td><td>公立</td><td>师范</td><td>重庆市教育委员会</td></tr></tbody></table><h2><a>1</a><span>北京联合大学</span></h2><p>北京联合大学是1985年经教育部批准成立的北京市属综合性大学，其前身是1978年北京市依靠清华、北大等大学创办的36所大学分校。学校拥有14个校区，分布在北京的6个城区，形成了以北四环校区为中心，集中与分散相结合的办学布局。学校校本部位于交通便利的国家奥林匹克体育中心东侧北四环校区。学校设有14个学院。</p><p><img alt="北京联合大学 主楼" src="http://img.gaosan.com/upload/webimg/1970.jpg" title="北京联合大学 主楼"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1978年</td><td>公立</td><td>综合</td><td>北京市教育委员会</td></tr></tbody></table><h2><a>1</a><span>昌吉学院</span></h2><p>昌吉学院位于新疆天山北坡经济带中心--美丽的昌吉市,有着50多年的办学历史。其前身是成立于1959年的昌吉师范学校，1985年升格为昌吉师范专科学校，2001年5月经国家教育部和自治区人民政府批准升格为本科院校--昌吉学院。学院现有南北两个校区,占地面积1103亩。</p><p><img alt="昌吉学院校门" src="http://img.gaosan.com/upload/webimg/2104.jpg" title="昌吉学院校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1959年</td><td>公立</td><td>师范</td><td>新疆维吾尔自治区人民政府</td></tr></tbody></table><h2><a>1</a><span>西安交通大学</span></h2><p>西安交通大学是国家教育部直属重点大学，为我国最早兴办的高等学府之一。是首批进入国家“211”和“985”工程建设，被国家确定为以建设世界知名高水平大学为目标的学校。2000年4月，国务院决定，将原西安医科大学、原陕西财经学院并入原西安交通大学组建新的西安交通大学。</p><p><img alt="西安交通大学校门" src="http://img.gaosan.com/upload/webimg/1655.jpg" title="西安交通大学校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1896年</td><td>公立</td><td>综合</td><td>教育部</td></tr></tbody></table><h2><a>1</a><span>上海杉达学院</span></h2><p>上海杉达学院是在上海浦东开发开放的背景下，于1992年6月由上海交通大学、北京大学、清华大学部分教授发起创办的全日制民办大学。2012年4月，学校被上海市教委列为上海民办高校示范校创建校。2013年，学校成为中国应用技术大学（学院）联盟首批成员、全国非营利性民办高校联盟成员。</p><p><img alt="上海杉达学院校门" src="http://img.gaosan.com/upload/webimg/2518.jpg" title="上海杉达学院校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1992年</td><td>私立</td><td>综合</td><td>上海市教育委员会</td></tr></tbody></table><h2><a>1</a><span>浙江传媒学院</span></h2><p>浙江传媒学院是国家新闻出版广电总局和浙江省人民政府共建高校，是目前全国培养广播影视及其他传媒专门人才的主要基地之一。学校拥有两个校区，分别坐落于素有“人间天堂”美誉的杭州市和江南名城桐乡市。学校总占地1286亩，总建筑面积近61万平方米。其中，下沙校区占地786亩，建筑面积近45万平方米；桐乡校区占地500亩，建筑面积16万平方米。</p><p><img alt="浙江传媒学院校门" src="http://img.gaosan.com/upload/webimg/2413.jpg" title="浙江传媒学院校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1978年</td><td>公立</td><td>语言</td><td>浙江省人民政府</td></tr></tbody></table><h2><a>1</a><span>山西传媒学院</span></h2><p>山西传媒学院现有教职员工近500人，其中专任教师400余人，有全国“十佳百优”广播电视理论人才、全国广播影视职业教育教学指导委员会副主任委员兼秘书长、山西省“双师型”教学名师等高水平教师。学院聘请了王铁城、余秋雨、王伟国、白岩松、冯巩、贾樟柯、贡建英等近百名业内知名专家、学者为兼任教师或客座教授。</p><p><img alt="山西传媒学院校门" src="http://img.gaosan.com/upload/webimg/3287.jpg" title="山西传媒学院校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1983年</td><td>公立</td><td>艺术</td><td>山西省教育厅</td></tr></tbody></table><h2><a>1</a><span>北京印刷学院</span></h2><p>北京印刷学院隶属于北京市，是由国家新闻出版广电总局和北京市人民政府共建的全日制普通高等院校。学校拥有4个北京市重点建设学科，7个一级学科硕士学位授权点，5个专业硕士授权点，19个二级学科硕士学位授权点，26个本科专业。学校与中国传媒大学、北京交通大学、中科院化学所、华南理工大学、天津科技大学等高校和科研机构联合培养博士研究生。</p><p><img alt="北京印刷学院校门" src="http://img.gaosan.com/upload/webimg/2030.jpg" title="北京印刷学院校门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1958年</td><td>公立</td><td>综合</td><td>北京市教育委员会</td></tr></tbody></table><h2><a>1</a><span>郑州大学</span></h2><p>郑州大学是国家“211工程”重点建设高校、国家“中西部高校提升综合实力计划”入选高校、河南省人民政府与教育部共建高校。学校总占地面积5700余亩，学校现有全日制普通本科生5.6万人、各类在校研究生1.5万人，以及来自60余个国家和地区的留学生1600余人。</p><p><img alt="郑州大学 东门" src="http://img.gaosan.com/upload/webimg/1688.jpg" title="郑州大学 东门"/></p><table><tbody><tr class="firstRow"><td>创建时间</td><td>学校类型</td><td>学科类型</td><td>隶属单位</td></tr><tr><td>1956年</td><td>公立</td><td>综合</td><td>河南省人民政府</td></tr></tbody></table><p>以上关于网络与新媒体专业的排名数据，参考自中国科教评价网金平果排行榜，由高三网重新整理发布，转载请注明出处。</p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    

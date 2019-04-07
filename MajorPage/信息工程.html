@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>信息工程</title>
+    <link href="https://cdn.bootcss.com/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/mui/3.4.0/js/mui.min.js"></script>
+</head>
+
+<body>
+    <!--带策划导航的页面由两部分构成，一部分是class为mui-off-canvas-wrap的元素（要弹出的侧菜单），另一部分是class为mui-inner-wrap的元素（正常页面）-->
+    <div class="mui-off-canvas-wrap">
+        <!--上面class为mui-off-canvas-wrap的元素即为要弹出的侧菜单-->
+        <aside id="catalog" class="mui-off-canvas-right">
+            <!--上面class为mui-off-canvas-right的元素标志这是一个右侧弹出的菜单，若要改为其他方位弹出，可参考官方示例-->
+            <!--注意，此处的id非常重要，它的值要和后面“选择章节”按钮的href属性值对应，才能自动绑定-->
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!--上面class为mui-scroll-wrapper和mui-scroll的两行，是为了让内容太长的时候可以滚动-->
+                    <ul class="mui-table-view mui-table-view-inverted">
+                        <!--ul和li是列表，可参见04实例，其中mui-table-view-inverted是为了让列表颜色反白，呈现黑底白字效果-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter1">
+                                <!--上面class为mui-navigate-right的列表，是为了右面有个小箭头，此处注意href属性的值是要链接的页内锚点，要和后面的锚点name属性的值对应-->
+                                </br><h3>专业简介</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter2">
+                                </br><h3>专业性视频</h3></br>
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate" href="#chapter3">
+                                </br><h3>有趣性视频</h3></br>
+                            </a>
+                        </li>
+						<li class="mui-table-view-cell">
+						    <a class="mui-navigate" href="#chapter4">
+						        </br><h3>相关院校排名</h3></br>
+						    </a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+            <!--上面class为mui-inner-wrap的元素即为正常页面-->
+            <header class="mui-bar mui-bar-nav">
+                <a href="../home.html" class="mui-icon mui-icon-arrowleft"></a>
+                <!--注意，上面的href属性值非常重要，它的值要和前面侧菜单的id属性值对应，才能自动绑定-->
+                <h1 class="mui-title"><strong>
+信息工程</strong></h1>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll" style="padding:20px">
+                    <a name="chapter1" id="chapter1" ><font color="#000000"><h3>专业简介</br></h3></font></a></br>
+                    <!--上面这种没有href属性的超链接a元素，叫做“锚点”，即页面内链接，比如在其他a元素的href中定义此锚点的name属性值“chapter1”，页面就会滚动到这个位置-->
+
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;    “信息工程”英文是Information Engineering，信息工程专业是建立在超大规模集成电路技术和现代计算机技术基础上，研究信息处理理论、技术和工程实现的专门学科。该专业以研究信息系统和控制系统的应用技术为核心，在面向21世纪信息社会化的过程中具有十分重要的地位。信息工程是将信息科学原理应用到工农业生产部门中去而形成的技术方法的总称。 </h5></br>
+    <h5 align="right">
+  ————from百度百科
+    </h5></br><a name="chapter2" id="chapter2" ><font color="#000000"><h3>专业性视频</h3></font></a></br>
+    <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av20135839?from=search&seid=13510782521754801481" class="">
+								
+								<div class="mui-media-body">
+									【国家级精品课】----密码学（ 解放军信息工程大学）
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av30602616?from=search&seid=13510782521754801481" class="">
+								
+								<div class="mui-media-body">
+									【公开课】天气学原理(南京信息工程大学)(无字幕)
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av15759519?from=search&seid=13510782521754801481" class="">
+								
+								<div class="mui-media-body">
+									数字信号处理-解放军信息工程大学
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av24922079?from=search&seid=13510782521754801481" class="">
+								
+								<div class="mui-media-body">
+									川大 电子信息工程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+            <li class="mui-table-view-cell mui-media">
+							<a href="https://www.bilibili.com/video/av11269660?from=search&seid=13510782521754801481" class="">
+								
+								<div class="mui-media-body">
+									【地理信息系统概论】第十讲地理信息工程
+								</div>
+								<!--上面class为mui-media-body的div，是图文列表中的文-->
+							</a>
+						</li>
+
+            
+    </ul>
+			
+					
+					
+					
+					</br><a name="chapter3" id="chapter3" ><font color="#000000"><h3>有趣性视频</h3></font></a></br>
+
+    <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av30608061?from=search&seid=5797262454417898452" class="">
+
+    								<div class="mui-media-body">
+    									秒懂专业：大数据下的热门专业——电子信息工程专业
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av37800818?from=search&seid=5797262454417898452" class="">
+
+    								<div class="mui-media-body">
+    									【军校】中国人民解放军战略支援部队信息工程大学 招生宣传片
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av4816408?from=search&seid=5797262454417898452" class="">
+
+    								<div class="mui-media-body">
+    									中国人民解放军信息工程大学宣传片震撼发布！
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av9868522?from=search&seid=5797262454417898452" class="">
+
+    								<div class="mui-media-body">
+    									中国人民解放军信息工程大学宣传片
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+                <li class="mui-table-view-cell mui-media">
+    							<a href="https://www.bilibili.com/video/av32400892?from=search&seid=5797262454417898452" class="">
+
+    								<div class="mui-media-body">
+    									成都信息工程大学2018中国机器人大赛
+    								</div>
+    								<!--上面class为mui-media-body的div，是图文列表中的文-->
+    							</a>
+    						</li>
+
+                
+    </ul></br><a name="chapter4" id="chapter4" ><font color="#000000"><h3>相关院校排名</h3></font></a></br>
+    <div id="data217275"><p>热门专业的学校排名情况也是志愿填报的重要参考，小编整理了信息工程专业的高校排名信息，排行靠前的的学校有哪些呢？赶快来看一下吧！<br/></p><p><img alt="2018信息工程专业大学排名 最好的大学有哪些" border="0" height="375" src="http://img.gaosan.com/upload/201806/6366529014345363564475137.jpg" style="width: 600px; height: 375px;" title="2018信息工程专业大学排名 最好的大学有哪些" vspace="0" width="600"/></p><h2><a>1</a><span>信息工程专业的最新学校排名</span></h2><p>在该专业的大学排行榜中，位列前三位的是清华大学，北京航空航天大学，中国科学院大学。</p><table><colgroup><col style="WIDTH: 128px" width="128"/><col style="WIDTH: 180px" width="180"/><col span="2" style="WIDTH: 72px" width="72"/></colgroup><tbody><tr class="firstRow"><td>名次</td><td>学校名称</td><td>所在地区</td><td>地区排名</td></tr><tr><td>1</td><td style="word-break: break-all;">清华大学</td><td>北京</td><td>1</td></tr><tr><td>2</td><td style="word-break: break-all;">北京航空航天大学</td><td>北京</td><td>2</td></tr><tr><td>2</td><td style="word-break: break-all;">中国科学院大学</td><td>北京</td><td>2</td></tr><tr><td>2</td><td>天津大学</td><td>天津</td><td>1</td></tr><tr><td>5</td><td>浙江大学</td><td>浙江</td><td>1</td></tr><tr><td>5</td><td>杭州电子科技大学</td><td>浙江</td><td>1</td></tr><tr><td>7</td><td>中国科学技术大学</td><td>安徽</td><td>1</td></tr><tr><td>7</td><td>南京邮电大学</td><td>江苏</td><td>1</td></tr><tr><td>7</td><td>深圳大学</td><td>广东</td><td>1</td></tr><tr><td>10</td><td>西安电子科技大学</td><td>陕西</td><td>1</td></tr><tr><td>10</td><td>上海科技大学</td><td>上海</td><td>1</td></tr><tr><td>12</td><td>重庆大学</td><td>重庆</td><td>1</td></tr><tr><td>12</td><td>燕山大学</td><td>河北</td><td>1</td></tr><tr><td>12</td><td>南京理工大学</td><td>江苏</td><td>2</td></tr><tr><td>12</td><td>东北大学</td><td>辽宁</td><td>1</td></tr><tr><td>12</td><td>大连理工大学</td><td>辽宁</td><td>1</td></tr><tr><td>12</td><td>北京信息科技大学</td><td>北京</td><td>4</td></tr><tr><td>12</td><td>华中科技大学</td><td>湖北</td><td>1</td></tr><tr><td>12</td><td>北京电子科技学院</td><td>北京</td><td>4</td></tr><tr><td>12</td><td>成都信息工程大学</td><td>四川</td><td>1</td></tr><tr><td>12</td><td>电子科技大学</td><td>四川</td><td>1</td></tr><tr><td>12</td><td>东莞理工学院</td><td>广东</td><td>2</td></tr><tr><td>12</td><td>西南交通大学</td><td>四川</td><td>1</td></tr></tbody></table><p>以上排名信息仅供各位考生阅读参考，选择学校需考虑自身因素，不要盲目的选择。</p><h2><a>1</a><span>信息工程专业的就业方向</span></h2><p>毕业生可从事航空、航天、电子、船舶、国防、化工、轻工、医疗、食品、纺织、石油、机械、水利、建筑、交通等领域的科研院所、企业、高校，从事信号获取与控制等新产品设计、研究、开发、应用、生产过程控制与管理、贸易销售、教学等工作。<br/>信息传输与处理，毕业生可在航空、航天、通信、国防、汽车、船舶、石油、化工、电子、建材等行业的科研院所、企业、高校从事信息传输与处理的研究、开发、设计、教学、管理等工作。</p><p>以上就是小编整理的关于信息工程专业的2018年大学排名，更多的专业高校排行榜信息高三网陆续更新，请考生和家长关注！<br/></p><script>content_end();</script></div>
+        <h5 align="right">
+  ————from校友会and高三网
+    </h5>
+        
+				</div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+            <!--上面这个div很重要，有了它点击页面空白处才能关闭侧菜单，没有它关不掉-->
+        </div>
+    </div>
+    <script>
+        mui('.mui-scroll-wrapper').scroll();
+        //上面这句是让class为mui-scroll-wrapper的元素可以滚动
+        mui(document.body).on('click', '.mui-navigate-right', function (e) {
+            mui('.mui-off-canvas-wrap').offCanvas('close');
+        });
+        //上面这句mui带的、很常用的事件绑定语句，意思是：让class为mui-navigate-right的元素（即侧菜单里面的章节）在被点击（click）之后，侧菜单收回
+    </script>
+</body>
+</html>
+    
